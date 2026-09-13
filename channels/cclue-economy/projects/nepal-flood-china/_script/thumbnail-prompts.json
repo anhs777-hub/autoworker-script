@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "nepal-flood-china",
+    "titles": [
+      "\"이건 예고편입니다\" 히말라야 붕괴 다음 순서, 한국 국책은행 1,800억이 걸렸습니다",
+      "\"작년에도 무너졌습니다\" 네팔 1,357명 참사가 예고한 다음 재난과 우리가 낼 비용",
+      "\"싼샤댐 3개를 한 번에\" 무너지는 히말라야에 중국이 244조를 붓는 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "이번은 리허설 / 다음은 4천만",
+      "한국도 물렸다 / 1800억 증발",
+      "또 무너진다 / 이미 예고됐다"
+    ],
+    "image_concepts": {
+      "A": "산 위에서 시작된 거대한 흙탕물 줄기가 아래 사람 사는 평야까지 이어지는 스케일 대비 부감",
+      "B": "쓸려나간 국경 관문과 그 뒤로 보이는 초대형 댐 공사 현장의 Before→After 대비"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 눈 덮인 히말라야 사면에서 터져 나온 거대한 회백색 토석류가 계곡을 따라 아래 마을 쪽으로 흘러내리는 항공 부감. 밝은 대낮.",
+      "prompt_en": "Photorealistic aerial view of a massive gray-white debris flow bursting down a snow-capped Himalayan mountainside and surging through a narrow valley toward farmland and village rooftops far below. Bright midday sunlight, clean blue sky and brilliant white snow fill the upper frame with high-key lighting and vivid saturated tones. The churning mud torrent cuts a stark ochre scar across the green valley, conveying enormous scale and an ominous sense of something advancing downstream. Sharp detail, crisp natural daylight, no haze."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 실사 변주. 상류 붕괴 지점과 하류 인가가 한 프레임에 잡히는 더 넓은 광각. 물길이 국경을 넘어 이어지는 경로를 강조.",
+      "prompt_en": "Photorealistic wide-angle landscape of the Himalayas in bright daylight, showing a collapsed rock and ice scar high on a 5000-meter ridge with a long brown floodwater channel tracing all the way down to a populated river plain with bridges and small towns. Brilliant sunlight, clean light blue sky, vivid saturated greens and ochres, high-key natural lighting. The unbroken line of the flood path dominates the upper half of the frame, emphasizing that the damage travels far beyond its source. Crisp photographic clarity, tense atmosphere without darkness."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 좌측은 토사에 파묻힌 국경 검문소와 끊어진 다리, 우측은 협곡을 가로막고 올라가는 초대형 댐 공사 현장. 이미 무너진 것과 지금 짓는 것의 대비.",
+      "prompt_en": "Photorealistic split composition in bright daylight: on the left, a border checkpoint building half-buried in gray mud with a severed steel bridge hanging over a swollen river; on the right, a colossal concrete dam under construction spanning a deep Himalayan gorge, surrounded by a forest of tall cranes and scaffolding. Clean bright sky, golden sunlight, vivid saturated colors, high-key lighting throughout. The contrast between the destroyed structure and the far larger project rising beside it fills the upper half of the frame. Sharp realistic detail, sense of mounting tension."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 실사 변주. 초대형 댐 공사 현장이 주인공. 발밑 암반에 선명한 균열이 지나가고, 저 아래 계곡에 이미 쓸려나간 마을 잔해가 작게 보인다.",
+      "prompt_en": "Photorealistic view of an enormous concrete hydropower dam under construction wedged into a steep Himalayan gorge, cranes and construction platforms towering above the river. A visible fracture line runs through the exposed bedrock at its base. Far below in the valley, the scattered debris of a washed-out settlement is barely visible. Bright clear daylight, clean light sky, golden sun on the concrete, vivid saturated tones and high-key lighting. Overwhelming scale, crisp detail, quietly ominous."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 히말라야에서 흘러내린 흙탕물이 국경 표지판을 지나 계속 아래로 흐르는 근접 구도. '물은 국경에서 멈추지 않는다'는 핵심 메시지를 한 장면으로.",
+      "prompt_en": "Photorealistic close ground-level shot of a thick brown floodwater torrent sweeping past a toppled international border marker post and continuing downstream toward distant farmland and power transmission towers. Bright natural daylight, clean pale blue sky, vivid saturated colors and high-key lighting. The border post is tilted and half-submerged while the water rushes on past it, filling the upper half of the frame. Sharp photographic realism, strong sense of unstoppable movement."
+    }
+  ]
+}

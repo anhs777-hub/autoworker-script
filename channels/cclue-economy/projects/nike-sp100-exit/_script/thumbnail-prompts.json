@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "nike-sp100-exit",
+    "titles": [
+      "\"계산은 완벽했습니다\" 나이키는 왜 자기 매대를 버렸을까",
+      "\"한 켤레 마진은 늘었습니다\" 나이키가 버린 매장에서 경쟁자가 큰 진짜 이유",
+      "\"예전엔 줄을 섰거든요\" 62년 1위 나이키가 매장에서 사라진 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"신발이 아니라 매대를 잃었다\" / 62년 1위 나이키는 왜 매장에서 사라졌나",
+      "\"나이키가 버린 건 매장이었다\" / 마진을 택하고 매대를 잃은 6년",
+      "\"이제 매장에 나이키가 없어요\" / 그 자리를 가져간 건 경쟁자였습니다"
+    ],
+    "image_concepts": {
+      "A": "시작과 끝 — 트렁크에 쌓인 운동화 상자 vs 텅 빈 현대식 매장 진열 선반",
+      "B": "텅 빈 나이키 매대 옆, 정가로 가득 찬 호카·온러닝 매대"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 좌측에 1960년대 스테이션왜건 트렁크를 열어 운동화 상자를 쌓아둔 모습, 우측에 밝은 현대식 Nike 매장의 텅 빈 진열 선반.",
+      "prompt_en": "Photorealistic split composition in bright high-key lighting: on the left, the open tailgate of a vintage 1960s station wagon packed with stacked running shoe boxes and a few worn track shoes under warm golden daylight; on the right, a spotless modern Nike retail store with completely empty white display shelves and a large red Nike swoosh logo on the back wall. Clean white and beige background with vivid saturated tones, sky-blue and gold accent lighting. The two halves are separated by a crisp vertical edge, both subjects large and clearly readable at small size."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 밝은 매장 안에서 텅 빈 나이키 진열 벽과 신발로 가득 찬 호카·온러닝 진열 벽이 나란히 붙어 있는 대비 구도.",
+      "prompt_en": "Photorealistic bright retail interior showing two adjacent shoe display walls side by side: the left wall, marked with a red Nike swoosh, is almost entirely empty with a few scattered boxes and discount stickers; the right wall is densely packed with new Hoka and On running shoes neatly arranged and well lit. Clean white store background, high-key lighting, vivid saturated colors with sky-blue and gold accents. Wide symmetrical composition, both walls large and clearly distinguishable at thumbnail size."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 변형 실사. 밝은 흰 대리석 벽에 금색 기업 명패가 격자로 붙어 있고, 나이키 스우시 명패 자리만 뜯겨 나가 빈 사각형이 남은 장면.",
+      "prompt_en": "Photorealistic close-up of a bright white marble wall covered with a neat grid of polished gold corporate nameplates, where one plate bearing a red Nike swoosh has been torn away, leaving a clean empty rectangle with a few screw holes and faint outline marks. Bright high-key lighting, vivid gold and sky-blue reflections against pure white stone, sharp shallow depth of field. The empty slot sits large and centered in the upper frame, immediately drawing the eye."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 변형 실사. 밝은 매장 진열대에서 나이키 신발 상자들이 치워지고 그 자리에 호카·온러닝 상자가 들어오는 순간을 정면에서 잡은 장면.",
+      "prompt_en": "Photorealistic straight-on view of a bright white retail shelving unit mid-changeover: on the left half, empty slots where red-and-white Nike shoe boxes have just been removed, a few stacked on the floor; on the right half, fresh Hoka and On running shoe boxes being slotted neatly into place. Bright high-key store lighting, vivid saturated colors, sky-blue and gold accents, crisp clean surfaces. The shelving fills the upper frame edge to edge and reads instantly at small size."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 집 현관 신발장을 연 장면 — 안쪽에 먼지 앉은 나이키 한 켤레가 밀려 있고, 앞쪽에는 자주 신는 호카·온러닝이 놓여 있다. 훅과 엔딩의 신발장을 그대로 그림으로 옮긴 컷.",
+      "prompt_en": "Photorealistic view of an open household shoe cabinet in a bright hallway: pushed to the back sits a single dusty pair of red-and-white Nike sneakers, slightly faded, while fresh Hoka and On running shoes sit in front, clearly worn and in daily use. Warm natural morning light from a window, clean white and light wood tones, vivid saturated accents on the shoes, soft gold highlights and a faint sky-blue reflection on the floor. Shallow depth of field with the forgotten Nike pair in sharp focus, instantly readable at very small thumbnail size."
+    }
+  ]
+}

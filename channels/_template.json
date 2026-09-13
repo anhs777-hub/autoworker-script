@@ -1,0 +1,7 @@
+{
+  "id": "channel-id",
+  "name": "채널 이름",
+  "thumbnail": {
+    "generate_images": false
+  }
+}

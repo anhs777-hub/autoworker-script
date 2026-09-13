@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "us-economy-collapse",
+    "titles": [
+      "\"세금 여섯 원 중 한 원\" 2026년 미국 국채가 보낸 신호와, 그게 내 연금까지 닿는 소름 돋는 순서",
+      "\"이자가 국방비를 넘었습니다\" 2026년 미국이 강대국을 그만두게 되는 진짜 이유",
+      "\"하루에 오십억 달러씩 늘어납니다\" 미국 부채가 2026년에 건드린 마지막 선과 그 다음에 오는 것"
+    ],
+    "thumbnail_texts": [
+      "\"이자가 국방비를 넘었다\" + 미국이 강대국을 그만두는 신호",
+      "\"하루에 오십억 달러씩\" + 세계가 지켜보는 미국 부채 시계",
+      "\"결국 우리가 냅니다\" + 미국 이자가 내 연금에 닿는 순서"
+    ],
+    "image_concepts": {
+      "A": "교차한 두 기둥 — 이자 기둥이 국방 기둥을 막 넘어선 순간을 금화 더미 두 개로 시각화",
+      "B": "청구서를 든 얼굴 — 미국의 이자가 개인에게 도착한 순간의 과장된 표정 클로즈업"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 밝은 흰 배경 위에 나란히 선 두 개의 거대한 금화 기둥. 왼쪽 기둥 꼭대기에는 작은 미 국회의사당 모형이 얹혀 있고, 오른쪽 기둥이 그보다 한 칸 더 높이 솟아 있다. 오른쪽 기둥 옆에서 인물이 입을 벌린 채 올려다본다.",
+      "prompt_en": "Photorealistic studio photograph of two towering columns of stacked gold coins standing side by side against a clean bright white background with high-key lighting. The left column is topped with a small white United States Capitol building model; the right column rises noticeably higher and is topped with nothing, tilting slightly as if about to overtake. A middle-aged man in a sky-blue shirt stands beside them with an exaggerated open-mouthed shocked expression, head tilted up toward the taller column. Bright vibrant colors, vivid saturated gold tones with sky-blue accents, crisp shadows, both columns filling the upper portion of the frame."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 변형 실사. 같은 두 기둥을 아래에서 올려다보는 앙각 구도. 금화 기둥 하나가 다른 하나를 지나쳐 올라가며 위태롭게 기울어 있고, 흘러내린 동전 몇 개가 공중에 떠 있다.",
+      "prompt_en": "Photorealistic low-angle upward shot of two enormous stacks of gold coins rising against a bright ivory studio background with clean high-key lighting. One stack has clearly overtaken the other and leans precariously, with several gold coins slipping off and frozen mid-air. A small white United States Capitol building model sits on top of the shorter stack. Bright vibrant colors, vivid saturated gold with sky-blue rim light separating the stacks from the background, dramatic scale making the columns tower over the viewer, the stacks occupying the upper half of the frame."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 밝은 실내에서 중년 남성이 길게 늘어진 명세서 한 장을 들고 눈을 크게 뜬 채 정면을 응시하는 과장된 클로즈업.",
+      "prompt_en": "Photorealistic extreme close-up of a middle-aged East Asian man with an attractive likeable face, eyes wide open in an exaggerated expression of shock, staring straight at the camera while gripping a long unfurled paper statement that spills downward out of frame. Bright modern living room interior behind him, clean light background with high-key lighting. Bright vibrant colors with gold and sky-blue accents in the room, his oversized face filling the upper half of the frame, sharp focus on the eyes."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 변형 실사. 중년 여성이 밝은 부엌 식탁에서 명세서를 든 채 한 손으로 입을 가리고 놀라는 장면. 식탁 위에 금화 몇 개가 흩어져 있다.",
+      "prompt_en": "Photorealistic close-up of a middle-aged East Asian woman with a warm likeable face, one hand covering her mouth in an exaggerated gasp, holding up a long printed statement in the other hand. She sits at a bright kitchen table with sunlight flooding through a window behind her, a few gold coins scattered across the table surface. Bright vibrant colors, clean light background, high-key natural lighting with sky-blue and gold accents, her face and the raised statement filling the upper half of the frame."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 배경에서 거대한 금화 한 닢이 굴러 내려오며 그 앞의 작은 흰색 미 국회의사당 모형을 덮치기 직전. 크기 대비로 부채의 압도감을 표현.",
+      "prompt_en": "Photorealistic image of a single colossal gold coin rolling forward and tilting over a small white United States Capitol building model that sits directly in its path, shot from ground level against a clean bright white background. The coin is many times larger than the building, its edge catching bright light. Bright vibrant colors, vivid saturated gold against crisp white with a sky-blue accent glow along the coin's rim, high-key lighting, the coin and building filling the upper portion of the frame with empty bright space below."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "panstar-arctic-route",
+    "titles": [
+      "\"지원한 회사가 한 곳뿐이었습니다\" 중고선 한 척이 북극 최대 난코스를 뚫고 나간 진짜 이유",
+      "\"쇄빙선이 아니었습니다\" 열다섯 살 먹은 배 한 척이 북극해를 18일 만에 빠져나온 소름 돋는 이유",
+      "\"러시아 배를 앞세우지 않았습니다\" 얼음이 가장 두꺼운 구간을 그대로 지나간 한국 배의 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"저 배가 진짜 뚫었다고?\" + 세계가 지켜본 18일간의 북극 항해",
+      "\"쇄빙선도 없이 갔다고?\" + 외신이 먼저 알아본 한국의 자리",
+      "\"여기가 끝이 아니었네\" + 세계 해운이 부산 앞바다를 보는 이유"
+    ],
+    "image_concepts": {
+      "A": "거꾸로 놓은 지도 — 북극에서 내려다보면 금빛으로 빛나는 한반도가 가장 앞에 튀어나와 있고, 부산에서 붉은 항로선이 시작된다",
+      "B": "유빙을 밀고 정면으로 다가오는 팬스타 아크로호의 선수를, 놀란 표정의 외국인들이 바라본다"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 북극 상공에서 내려다본 밝은 지구본 위에서 한반도만 금빛으로 발광하고, 부산 지점에서 붉은 항로선이 북극해를 가로질러 뻗는다. 놀란 표정의 외국인 세 명이 그 지점을 바라본다.",
+      "prompt_en": "Photorealistic top-down polar view of a bright, luminous globe centered on the Arctic Ocean, with the Korean Peninsula glowing in radiant gold and protruding toward the pole as the closest landmass. A vivid red shipping route line begins at Busan and arcs across the white Arctic ice toward Europe. Three Western people in winter coats stand at the lower edge of the globe with wide-eyed astonished expressions, all of their gazes directed up at the glowing peninsula rather than at the camera. Bright vibrant colors, clean light background, high-key lighting, sky-blue and gold accent tones, crisp and instantly readable at small size."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic-alt",
+      "concept_ko": "컨셉 A 변주. 뒤집힌 북극 중심 지도를 회의실 대형 스크린에 띄워놓고, 놀란 표정의 외국인 임원 두 명이 부산 지점을 손가락으로 가리킨다.",
+      "prompt_en": "Photorealistic scene of a bright modern briefing room where a huge luminous screen displays an upside-down Arctic-centered world map, the Korean Peninsula glowing brilliant gold at the very front and a glowing red sea route running from Busan across the Arctic. Two Western executives in suits lean toward the screen with shocked, open-mouthed expressions, one pointing directly at the glowing Busan marker, both looking at the map and not at the camera. Bright vibrant colors, clean white walls, high-key lighting, sky-blue and gold accents, the screen and figures filling the upper portion of the frame."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 유빙을 밀며 정면으로 다가오는 팬스타 아크로호의 선수가 화면 상단을 꽉 채우고, 얼음 위 외국인 관측원 세 명이 놀란 얼굴로 배를 올려다본다.",
+      "prompt_en": "Photorealistic shot of the towering bow of the container ship PanStar Acro pushing through drifting sea ice, coming head-on toward the viewer and filling the upper half of the frame, stacked containers visible on deck and a red waterline stripe cutting through the white floes. Three Western observers in orange polar parkas stand on the ice in the middle distance, faces turned upward toward the ship with exaggerated astonished expressions, their gazes locked on the vessel rather than the camera. Bright polar daylight with a clear pale blue sky, vivid saturated tones, high-key lighting, sky-blue and gold color accents, the massive scale of the ship against the small human figures instantly readable."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic-alt",
+      "concept_ko": "컨셉 B 변주. 갈라진 유빙 사이를 지나는 팬스타 아크로호를 위에서 비스듬히 내려다본 구도. 얼음이 갈라진 항적이 배 뒤로 길게 남는다.",
+      "prompt_en": "Photorealistic elevated three-quarter aerial view of the container ship PanStar Acro cutting a long clean channel through a vast field of bright white Arctic sea ice, the fractured floes fanning out behind it in a visible wake. The fully loaded vessel occupies the upper half of the frame in sharp detail, its red hull stripe and stacked containers vivid against the ice. A small Korean flag flies clearly from the mast. Bright vibrant colors, brilliant clean daylight, high-key lighting, sky-blue and gold accent tones, wide open white ice filling the lower area."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 대낮의 부산항 환적 부두 — 여러 대의 크레인이 동시에 컨테이너를 옮기고, 그 너머로 북쪽을 향해 뱃머리를 돌린 컨테이너선이 보인다. 위치가 곧 자산이라는 메시지의 시각화.",
+      "prompt_en": "Photorealistic wide view of the Busan container terminal at bright midday, a row of towering gantry cranes simultaneously lifting containers over stacked colorful container blocks that fill the upper half of the frame. Beyond the quay a large container ship has turned its bow northward and is heading out to open sea, its wake pointing toward the horizon. A Korean flag flies on the terminal mast. Bright vibrant colors, clear blue sky, high-key lighting, vivid saturated tones with sky-blue and gold accents, the scale and busyness of the port immediately readable at small size."
+    }
+  ]
+}

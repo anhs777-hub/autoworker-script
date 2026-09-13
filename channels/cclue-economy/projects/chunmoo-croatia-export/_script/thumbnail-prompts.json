@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "chunmoo-croatia-export",
+    "titles": [
+      "\"하이마스로는 안 됩니다\" 크로아티아가 미국 무기를 사놓고 6800억을 다시 한국 천무에 쓴 진짜 이유",
+      "\"같은 돈으로 4배를 쏩니다\" 미국 하이마스를 산 나라가 한국 천무를 다시 사들인 결정적 이유",
+      "\"미국이 안 판다고 했습니다\" 크로아티아가 6800억을 들고 한국으로 온 이유가 공개됐습니다"
+    ],
+    "thumbnail_texts": [
+      "하이마스로는 안 된다 / 계약서 2장 비교",
+      "같은 돈, 4배 화력 / 미국 vs 한국",
+      "미국이 거절한 290km / 한국이 열어줬다"
+    ],
+    "image_concepts": {
+      "A": "포드 1개짜리 미국 하이마스와 포드 2개짜리 한국 천무를 좌우로 맞세운 대결 구도",
+      "B": "발사관을 세운 천무 편대가 화면을 가득 채우고 선두 차량이 로켓을 발사하는 물량감 구도"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 밝은 대낮 개활지에서 미국 M142 HIMARS 발사차량(좌)과 한국 K239 천무 발사차량(우)을 정면 대칭으로 맞세운다. 천무의 발사 포드가 두 개라는 물리적 차이가 한눈에 보이게 한다.",
+      "prompt_en": "Photorealistic wide shot of an American M142 HIMARS rocket launcher vehicle on the left facing a South Korean K239 Chunmoo multiple rocket launcher vehicle on the right, both parked on an open training field under a bright clear midday sky. The K239 Chunmoo clearly carries two large launch pods side by side while the M142 HIMARS carries only one, making the size and capacity difference immediately obvious. Bright vibrant colors, clean light background, high-key natural daylight with crisp shadows, sky-blue sky and warm gold sunlight on the vehicle armor. Sharp military detail on both launchers, shot at eye level with strong left-right symmetry."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 발사관을 세운 천무 편대가 좌우로 늘어서고, 선두 차량이 로켓을 발사하며 주황 화염과 흰 연기를 뿜는다. 물량과 화력을 동시에 전달한다.",
+      "prompt_en": "Photorealistic shot of a formation of South Korean K239 Chunmoo multiple rocket launcher vehicles lined up across an open grassy plain with their launch pods raised to firing elevation. The lead vehicle is firing, throwing a brilliant orange rocket flame and a billowing white smoke trail diagonally upward. Bright vibrant daylight, clean light sky background, high-key lighting with vivid saturated tones and gold sunlight glinting off the launcher rails. Powerful sense of scale and volume, low camera angle looking slightly up at the launchers."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 1. 크로아티아 국기와 한국 태극기가 나란히 걸린 밝은 계약 서명장 테이블 위에, 창밖으로 천무 발사차량이 보이는 구도.",
+      "prompt_en": "Photorealistic scene of a bright modern signing hall with a Croatian national flag and a South Korean Taegukgi flag standing side by side on a polished table holding two open contract folders. Through a large window behind the table, a K239 Chunmoo rocket launcher vehicle is visible parked outdoors in daylight. Bright vibrant colors, clean white interior, high-key lighting with sky-blue daylight pouring through the window and warm gold reflections on the table. Crisp professional detail, calm confident composition."
+    },
+    {
+      "id": 4,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 2. 유럽 지도 위에 폴란드·에스토니아·노르웨이·크로아티아 네 곳이 밝게 표시되고 그 위로 천무 발사차량이 크게 배치된 구도.",
+      "prompt_en": "Photorealistic composite of a large bright physical map of Europe laid out flat, with four glowing sky-blue markers pinned on Poland, Estonia, Norway and Croatia. A detailed South Korean K239 Chunmoo rocket launcher vehicle stands large on top of the map, its twin launch pods raised. Bright vibrant colors, clean light background, high-key studio lighting with gold accent highlights on the markers. Strong sense of expansion across the continent, sharp product-photography detail."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 3. 두 개의 발사 포드를 크게 클로즈업해 12발의 로켓 발사관 개구부가 정면으로 보이는 구도.",
+      "prompt_en": "Photorealistic extreme close-up of the twin launch pods of a South Korean K239 Chunmoo multiple rocket launcher seen head-on, showing the full array of rocket tube muzzles filling the frame. Bright vibrant daylight, clean light sky visible behind the raised pods, high-key lighting with vivid saturated tones and gold sunlight catching the metal edges. Sky-blue reflections on the painted armor, razor-sharp mechanical detail, imposing frontal symmetry."
+    }
+  ]
+}

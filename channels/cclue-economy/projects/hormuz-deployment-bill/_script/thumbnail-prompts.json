@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "hormuz-deployment-bill",
+    "titles": [
+      "\"당신들의 결정을 기억하겠다\" 미국이 유독 한국에만 호르무즈 청구서를 내미는 진짜 이유",
+      "\"이미 다 내셨습니다\" 호르무즈 전쟁이 6개월 동안 당신 기름값에 찍어놓은 진짜 금액",
+      "\"한 명이 가도 파병입니다\" 150명을 보내도, 안 보내도 우리가 값을 치르게 되는 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"한국은 기억하겠습니다\" + 미국이 유독 우리에게만 내민 청구서",
+      "\"중동은 이제 우리 몫 아니다\" + 미 국방부 문서가 남긴 파병의 속셈",
+      "\"제일 쉬워서 골랐습니다\" + 동맹국 중 한국만 답을 요구받는 이유"
+    ],
+    "image_concepts": {
+      "A": "성조기 배경에서 태극 마크를 단 한국 해군 초계기 위로 떨어지는 거대한 청구서 봉투 (스케일 대비)",
+      "B": "요구하는 쪽(발언 중인 트럼프)과 지친 쪽(녹슨 채 귀항한 미 항공모함)의 좌우 대비 (A vs B)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 1안. 밝은 주간 하늘 아래, 거대한 붉은 도장이 찍힌 청구서 봉투가 태극 마크를 단 한국 해군 P-8 포세이돈 해상초계기 위로 내려앉는 장면. 배경은 성조기 적백 스트라이프.",
+      "prompt_en": "Photorealistic image of a giant paper invoice envelope stamped with a bold red seal, descending from a bright daytime sky directly above a South Korean Navy P-8 Poseidon maritime patrol aircraft that carries the Korean Taegeuk roundel on its fuselage. A large American flag with crisp red and white stripes fills the upper background in clean high-key daylight. The envelope is dramatically oversized compared to the aircraft, creating a sense of an unavoidable bill pressing down. Bright vibrant colors, clean light background, sharp detail, gold accent on the seal."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 2안. 같은 청구서 구도를 손 클로즈업으로. 성조기 소매의 손이 청구서를 내밀고, 그 종이 너머로 호르무즈 해협의 유조선 선단이 보인다.",
+      "prompt_en": "Photorealistic close-up of a hand in a dark suit with an American flag lapel pin holding out a crisp printed invoice toward the viewer, filling the upper half of the frame. Behind and beyond the paper, a line of massive oil tankers sits motionless in the bright turquoise water of the Hormuz Strait under clear daylight. The invoice paper is sharply lit and dominant in scale, its red official stamp catching the eye. Bright vibrant colors, clean light background, high-key lighting, crisp photographic detail."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 1안. 좌측에 마이크 앞에서 손짓하며 강하게 말하는 트럼프 대통령, 우측에 선체가 녹으로 뒤덮인 미 항공모함. 요구하는 쪽과 지친 쪽의 좌우 대비.",
+      "prompt_en": "Photorealistic split composition filling the upper half of the frame: on the left, Donald Trump (President of the United States) at a microphone with an exaggerated commanding expression, one hand raised mid-gesture; on the right, a United States Navy aircraft carrier whose hull and flight deck are covered in heavy rust streaks after a long deployment. Bright clear daylight over open blue sea, vivid saturated tones, high-key lighting. The visual tension comes from the contrast between the man demanding and the worn-out ship behind him. Sharp photographic detail, clean bright background."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 2안. 같은 대비를 인물 클로즈업 중심으로. 트럼프 대통령의 과장된 표정 클로즈업이 프레임 상단을 채우고, 그 어깨 너머로 녹슨 항모 갑판이 작게 보인다.",
+      "prompt_en": "Photorealistic extreme close-up of Donald Trump (President of the United States) with an exaggerated demanding expression, his face filling the upper half of the frame under bright natural daylight. Over his shoulder in the background, slightly out of focus, sits a rust-covered United States Navy aircraft carrier flight deck on a sunlit blue sea. Bright vibrant colors, clean light background, high-key lighting, vivid saturated tones, sharp photographic detail."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 주간 주유소에서 주유기 계기판에 1,859원이 찍힌 클로즈업, 그 뒤 하늘 위로 반투명하게 겹쳐진 호르무즈 해협의 유조선 선단. 전쟁 청구서가 이미 내 영수증에 도착했다는 시각화.",
+      "prompt_en": "Photorealistic close-up of a fuel pump display at a bright Korean gas station in clear daylight, its digits glowing against a clean white pump housing, with a nozzle inserted into a car's fuel port. Above and behind, semi-transparently blended into the bright sky, a fleet of enormous oil tankers sits in the Hormuz Strait. The everyday pump in the foreground and the distant tankers overlap to suggest that a distant war has already arrived at an ordinary receipt. Bright vibrant colors, clean light background, high-key lighting, vivid saturated tones, sharp detail."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "golf-greenfee-price",
+    "titles": [
+      "\"이 돈 다 어디로 갑니까\" 퍼블릭으로 바꿔도 그린피 20만 원이 안 내려가는 진짜 이유",
+      "\"세금은 깎아드렸습니다\" 1조를 감면받고도 그린피가 그대로인 골프장 요금의 진짜 구조",
+      "\"상한선이 곧 정가입니다\" 손님이 417만 명 빠져도 그린피가 안 내려가는 소름 돋는 이유"
+    ],
+    "thumbnail_texts": [
+      "\"이 돈 다 어디로 가요?\" + 그린피 20만원 구조 전격 해부",
+      "\"대중형이니까 싸겠죠?\" + 세금 1조 깎아준 골프장 요금 해부",
+      "\"규제는 한 칸만 걸렸다\" + 그린피 20만원, 칸칸이 뜯어봤다"
+    ],
+    "image_concepts": {
+      "A": "20만 원짜리 요금이 항목별 칸으로 분해돼 공중에 펼쳐지고, 그 앞에 선 골퍼가 올려다보는 해부 전시 구도",
+      "B": "항목이 나열된 대형 요금 패널에서 단 한 칸에만 거대한 붉은 자물쇠가 채워져 있는 대비 구도"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 골프장 요금이 항목별 패널로 쪼개져 공중에 분해 전시되듯 떠 있고, 그 앞에 선 골퍼 한 명이 놀란 얼굴로 올려다본다.",
+      "prompt_en": "Photorealistic exploded-view display floating above a bright sunlit Korean golf course: a large price panel has broken apart into six separate rectangular plates suspended in mid-air, each plate clearly separated with visible gaps between them, arranged like an anatomy diagram. Standing below, a single golfer looks up with a wide-eyed, exaggerated expression of shock. Bright vibrant colors, clean light background, high-key daylight, vivid saturated greens and crisp white panels with bold red and gold accents, tense revealing atmosphere."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 페어웨이 위에 거대한 요금 명세 패널이 세로로 서 있고, 그 표면이 칸 단위로 갈라져 층층이 어긋나게 벌어진 구도.",
+      "prompt_en": "Photorealistic scene on a bright emerald fairway under a clear blue sky: a colossal itemized price board stands upright, towering over the course, its surface split horizontally into distinct stacked segments that have slid apart and offset from one another, revealing dark gaps between each layer. Tiny golf carts at its base emphasize the enormous scale. Bright vibrant colors, clean light background, high-key sunlight, vivid saturated green and white with striking red and sky-blue accents, tense dissected feeling."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 여러 항목 칸이 나열된 대형 요금 패널에서 맨 윗칸 하나에만 거대한 붉은 자물쇠가 채워져 있고, 나머지 칸은 활짝 열려 있다.",
+      "prompt_en": "Photorealistic close-up of a large white itemized fee panel mounted on a post in bright daylight on a green golf course, its surface divided into several clearly separated compartments. Only the topmost compartment is clamped shut by an oversized glowing red padlock, while every compartment below it hangs wide open and empty. Bright vibrant colors, clean light background, high-key lighting, vivid saturated greens and crisp whites with intense red and sky-blue accents, tense unbalanced mood."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 골프 예약 화면을 확대한 스마트폰 클로즈업 — 카트비와 캐디비 항목만 붉은 자물쇠로 잠겨 선택할 수 없게 표시된 장면.",
+      "prompt_en": "Photorealistic extreme close-up of a smartphone held up against a bright green golf course background, its screen showing a tee-time booking form with several separated line items. Two of the line items are sealed shut by oversized glowing red padlocks clamped directly onto the screen, making them impossible to uncheck, while the rest of the form sits open and editable. A fingertip hovers just above a locked item, unable to press it. Bright vibrant colors, clean light background, high-key lighting, vivid saturated greens with intense red and sky-blue accents, tense frustrating mood."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 페어웨이 위에 붉은 승인 도장이 찍힌 세금 감면 서류와, 숫자가 그대로인 요금 안내판이 좌우로 갈라져 마주 선 구도.",
+      "prompt_en": "Photorealistic split composition on a bright sunlit Korean golf course: on the left, a crisp official tax-exemption document stamped with a bold red approval seal stands upright in sharp focus; on the right, a green-fee price board with large unchanged numbers faces it. A jagged crack runs vertically down the ground between the two, splitting the frame. Bright vibrant colors, clean light background, high-key daylight lighting, vivid saturated greens with strong red and gold accents, tense confrontational mood."
+    }
+  ]
+}

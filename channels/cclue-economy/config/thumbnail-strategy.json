@@ -1,0 +1,21 @@
+{
+  "count": 5,
+  "art_styles": ["photorealistic"],
+  "color_palette": "bright",
+  "emotions": ["tension", "shock"],
+  "text_space": "bottom-half",
+  "face_style": "exaggerated",
+  "brand": {
+    "colors": ["스카이블루", "골드"],
+    "mascot": false,
+    "fixed_layout": null
+  },
+  "benchmark_analysis": {
+    "analyzed_at": "2026-09-10",
+    "genre": "한국 예찬 / 재발견",
+    "sample": "경제담론 9편 (조회 2,444 ~ 1,172,914)",
+    "text_format": "2개 요소·2줄 고정. 1행 12~14자 큰따옴표 구어 대사(형광 노랑+검정 외곽선), 2행 16~20자 권위+주제(시안+검정 외곽선). 총 28~34자, 하단 35~40% 가로 전폭. 9/9 예외 없음",
+    "top_performer_visuals": "발광하는 한반도를 화면 중앙에 + 놀란 표정의 외국인 1~5인 + 인물 시선이 상징물을 향함 + 본문 파트 소재를 원형 인셋 3~4컷으로 배치(목차 역할). 상위 2편만 보유, 3~9위에는 없음",
+    "note": "top_performer_visuals는 자부심·재발견 소재에만 적용한다. 위기·몰락 소재에는 쓰지 않으므로 fixed_layout으로 고정하지 않았다. 상세: channels/cclue-economy/projects/korea-praise-pattern/_script/patterns.md"
+  }
+}

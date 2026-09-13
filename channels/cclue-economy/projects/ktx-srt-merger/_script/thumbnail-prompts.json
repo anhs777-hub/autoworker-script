@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "ktx-srt-merger",
+    "titles": [
+      "\"드디어 110년 독점을 깬다\" SRT를 만든 국토부가 13년 만에 그 이름을 스스로 지운 진짜 이유",
+      "\"차를 빌려서 경쟁했습니다\" 10년 만에 사라진 SRT가 코레일에 매년 냈던 돈의 진짜 정체",
+      "\"이건 경쟁이 아니었습니다\" 정부가 13년 만에 스스로 접은 고속철 실험이 남긴 진짜 청구서"
+    ],
+    "thumbnail_texts": [
+      "\"경쟁한 적이 없었습니다\" + 정부가 13년 만에 접은 경쟁 실험",
+      "\"차를 빌려서 경쟁했다고요?\" + 국토부가 스스로 지운 SRT의 10년",
+      "\"이건 경쟁이 아니었습니다\" + 13년 실험이 남긴 청구서의 정체"
+    ],
+    "image_concepts": {
+      "A": "멈춰 선 보라색 고속열차 앞을 노란 차단바가 가로막은 상징물의 퇴장 구도",
+      "B": "파란 장대 편성과 짧은 보라색 열차를 나란히 세운 체급 대비 구도"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 밝은 차량기지에 멈춰 선 보라색 고속열차 전두부와, 그 앞을 가로막은 노랑·검정 차단바.",
+      "prompt_en": "Photorealistic wide shot of a sleek magenta-purple Korean high-speed train nose parked and completely stopped inside a bright, airy railway depot, filling the upper half of the frame from edge to edge. A bold yellow-and-black striped safety barrier stands directly in front of the train, blocking the track. Clean light background with high-key lighting, bright vibrant colors, vivid saturated tones, crisp daylight streaming through large depot windows. Sky-blue and gold accent highlights reflect off the polished carriage body. The composition conveys an operation that has just ended."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 변형. 보라색 차체 측면에서 로고 자리가 비어 있고, 10년치 자국만 남은 클로즈업.",
+      "prompt_en": "Photorealistic close-up of the side panel of a magenta-purple Korean high-speed train carriage, occupying the upper half of the frame across its full width. A rectangular patch on the polished bodywork is noticeably cleaner than the surrounding paint, showing where a large logo decal was recently peeled away after ten years. A worker in a bright lime-green safety vest and white helmet stands on a yellow ladder at the far left edge, holding the removed decal. Bright vibrant colors, clean light background, high-key daylight, vivid saturated tones."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 밝은 승강장에서 파란 장대 편성 고속열차와 훨씬 짧은 보라색 열차가 나란히 선 길이 대비.",
+      "prompt_en": "Photorealistic elevated view of two Korean high-speed trains standing side by side at adjacent platforms under a bright open sky, filling the upper half of the frame edge to edge. On the left, a long blue-and-white twenty-car high-speed train stretches far into the distance toward the vanishing point. On the right, a much shorter magenta-purple ten-car train ends less than halfway along the same platform, making the size gap immediately obvious. Bright vibrant colors, clean light background, high-key lighting, vivid saturated tones, sky-blue and gold accents."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 변형. 텅 빈 밝은 승강장에 보라색 열차만 홀로 남고, 옆 선로는 비어 있는 구도.",
+      "prompt_en": "Photorealistic platform-level view of a single magenta-purple Korean high-speed train standing alone at a bright, spotless station platform, positioned across the upper half of the frame. The adjacent track beside it is completely empty, leaving a wide vacant gap where a second train would normally be. Sunlight floods the platform through a glass roof, creating a clean light background with high-key lighting, bright vibrant colors and vivid saturated tones. Sky-blue signage and gold-toned platform edging add accent color."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 승강장에 파랑·보라·빨강 고속열차 세 대가 나란히 서서 계보가 색으로 읽히는 구도.",
+      "prompt_en": "Photorealistic frontal view of three Korean high-speed train noses lined up side by side at a bright open-air depot, filling the upper half of the frame from edge to edge. From left to right: a blue-and-white train, a magenta-purple train, and a vivid red train, their sleek aerodynamic fronts arranged in a clean row. Bright vibrant colors, clean light background, high-key daylight, vivid saturated tones, sharp reflections on the polished nose cones. Sky-blue sky and gold sunlight accents complete the scene."
+    }
+  ]
+}

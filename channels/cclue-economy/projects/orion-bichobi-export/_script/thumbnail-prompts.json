@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "orion-bichobi-export",
+    "titles": [
+      "\"이건 무조건 사 오라던데\" 외국인이 캐리어로 쓸어가던 과자가 결국 수출까지 간 진짜 이유",
+      "\"한국 가야 살 수 있어요\" 3년간 외국인만 사 가던 과자가 일본 코스트코에 깔리는 진짜 이유",
+      "\"이 과자 저희 나라엔 없어요\" 오리온이 맛이 아니라 다른 걸 팔아서 이긴 소름 돋는 이유"
+    ],
+    "thumbnail_texts": [
+      "\"한국 가면 이건 꼭 사 와\" / 일본이 먼저 주문한 그 과자의 정체",
+      "\"이거 없으면 안 사 가요\" / 외국인이 쓸어담던 과자, 결국 수출",
+      "\"품절이요? 언제 들어와요?\" / 세계가 줄 서기 시작한 한국 과자"
+    ],
+    "image_concepts": {
+      "A": "출국장 캐리어 — 외국인이 과자 박스를 가득 담아 가는 장면 그 자체 (스케일 대비)",
+      "B": "한 칸에서 팔레트로 — 한국 마트 진열대 한 칸과 해외 창고형 매장 팔레트 더미의 Before→After 좌우 분할"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 밝은 공항 출국장에서 지퍼가 열린 여행 캐리어가 Orion Bichobi 과자 박스로 가득 차 있고, 놀란 표정의 외국인 관광객 세 명이 그것을 내려다본다. 시선이 전부 캐리어 속 과자 박스를 향한다.",
+      "prompt_en": "Photorealistic bright airport departure hall scene, high-key lighting, clean light background. An open rolling suitcase in the upper half of the frame is packed to the brim with stacks of burgundy-and-yellow Orion Bichobi chocolate sandwich biscuit boxes, glowing with a warm golden rim light. Three foreign tourists of different nationalities lean over it with exaggerated wide-eyed astonished expressions, all their eyes directed down at the boxes rather than at the camera. Vivid saturated tones with sky-blue and gold accent colors, crisp large simple shapes for maximum small-thumbnail legibility."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 좌우 분할 — 왼쪽은 한국 마트 진열대의 좁은 한 칸, 오른쪽은 해외 창고형 매장의 거대한 팔레트 더미. 중앙에 오른쪽을 향하는 굵은 화살표로 방향 전환을 표현.",
+      "prompt_en": "Photorealistic split-composition retail scene with bright vibrant colors and high-key lighting. On the left half, a single narrow Korean supermarket shelf slot holds just a few boxes of Orion Bichobi chocolate sandwich biscuits. On the right half, a towering warehouse-club pallet stacked enormously high with the same burgundy Orion Bichobi boxes dwarfs the left side, creating a dramatic scale contrast. A thick glowing gold arrow sweeps across the middle of the upper frame pointing from left to right, with sky-blue accent lighting on the warehouse side. Clean bright store lighting, bold simple silhouettes readable at tiny size."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 1. 자부심·재발견 소재 상위 성과 공식 적용 — 화면 중앙에서 금빛으로 발광하는 Orion Bichobi 박스, 뒤로 세계지도, 앞쪽에 놀란 외국인 다섯 명이 박스를 향해 시선을 모은다.",
+      "prompt_en": "Photorealistic bright studio scene, clean light background with high-key lighting. A single Orion Bichobi chocolate sandwich biscuit box floats at the center of the upper frame, radiating an intense golden glow and rim light like a treasured artifact. Behind it, a large softly lit world map in sky-blue tones spreads across the background with faint gold pins marking Japan and the United States. Five foreign tourists of varied nationalities are arranged in the foreground with exaggerated astonished open-mouthed expressions, every gaze locked onto the glowing box rather than the camera. Vivid saturated colors, gold and sky-blue accents, bold and simple enough to read as a tiny thumbnail."
+    },
+    {
+      "id": 4,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 2. 초코파이 계보 편입을 시각화 — 왼쪽에 오래된 붉은 초코파이 情 박스, 오른쪽에 새 Orion Bichobi 박스가 나란히 금빛으로 빛나고, 두 박스 사이를 잇는 빛의 궤적. 52년의 계보를 한 화면에.",
+      "prompt_en": "Photorealistic bright product scene, clean white background, high-key lighting, vivid saturated tones. In the upper half of the frame, a vintage-looking red Orion Choco Pie box sits on the left and a modern burgundy Orion Bichobi chocolate sandwich biscuit box stands on the right, both lit with strong golden rim light. A luminous gold ribbon of light arcs between the two boxes, connecting old to new, with faint sky-blue light rays behind them. A cracked-open biscuit showing a thick slab of chocolate inside rests beside the newer box in extreme close-up detail. Bold, simple, high-contrast shapes for small-thumbnail legibility."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 3. 품절 서사 — 밝은 마트 진열대가 거의 텅 비어 마지막 한 박스만 남았고, 캐리어를 끌던 외국인 관광객 두 명이 동시에 그 박스로 손을 뻗는다.",
+      "prompt_en": "Photorealistic bright supermarket aisle, clean high-key lighting, vivid saturated colors. In the upper half of the frame, an almost completely empty shelf row shows only one remaining burgundy Orion Bichobi chocolate sandwich biscuit box, spotlit with a warm golden glow. Two foreign tourists with rolling suitcases reach for that single box at the same moment, their faces showing exaggerated urgent astonishment, eyes fixed on the box. Empty shelf slots stretch out on both sides in sky-blue-tinted store light, emphasizing scarcity. Crisp bold composition legible at tiny thumbnail size."
+    }
+  ]
+}

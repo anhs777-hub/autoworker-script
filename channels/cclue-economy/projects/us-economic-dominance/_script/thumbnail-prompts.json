@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "us-economic-dominance",
+    "titles": [
+      "\"우리는 찍으면 됩니다\" 미국만 위기 때 돈을 찍어서 넘기는, 1944년에 정해진 진짜 이유",
+      "\"이 돈은 누구 것도 아닙니다\" 케인즈가 막으려다 진 미국 달러 지배의 출발점",
+      "\"운은 딱 절반이었습니다\" 두 대양과 옥토로는 설명이 안 되는 미국 패권의 나머지 절반"
+    ],
+    "thumbnail_texts": [
+      "\"우리만 안 갚아도 됩니다\" / 세계가 침묵한 달러 규칙의 시작",
+      "\"그 돈은 우리 게 아닙니다\" / 케인즈가 막으려다 진 1944년의 한 줄",
+      "\"열 건 중 아홉 건이 달러다\" / 세계가 벗어나지 못하는 미국 규칙의 정체"
+    ],
+    "image_concepts": {
+      "A": "찍어내는 쪽과 갚는 쪽 — 인쇄 롤러에서 쏟아지는 달러 vs 텅 빈 접시 저울로 규칙의 비대칭을 한 장면에",
+      "B": "1944년의 책상 — 마주 놓인 서류 두 부 중 한쪽에만 도장이 찍힌 결정적 순간"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 화면 좌측에는 인쇄 롤러에서 갓 찍혀 나온 100달러 지폐가 폭포처럼 쏟아지고, 우측에는 텅 빈 황동 접시 저울이 바닥까지 기울어 있다. 밝고 선명한 대비.",
+      "prompt_en": "Photorealistic split composition filling the upper half of the frame: on the left, a massive industrial printing roller pouring an overflowing cascade of crisp US one hundred dollar bills, sharply detailed and towering; on the right, an empty brass balance scale tipped all the way down to the surface, its pans completely bare. Bright vibrant colors with a clean white studio background and high-key lighting, vivid saturated tones, with sky-blue and gold accent highlights catching the metal edges. Dramatically oversized scale contrast between the mountain of money and the empty scale creates an ominous sense of unfairness. Crisp macro detail on the banknotes and a few visible hairline cracks running along the base of the scale."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 실사 변주. 지구본을 두 손이 양쪽에서 잡고 있는데, 한 손에는 지폐 다발이 쥐어져 있고 다른 손은 텅 비어 갈라져 있다. 클로즈업 과장 구도.",
+      "prompt_en": "Photorealistic extreme close-up filling the upper half of the frame: a glossy world globe held between two hands entering from opposite sides, one hand gripping a thick fanned bundle of freshly printed US dollar bills pressed against the globe, the other hand completely empty with dry cracked skin and fingers strained. Bright vibrant colors, clean light background, high-key lighting, vivid saturated tones with sky-blue oceans and gold continental outlines glowing on the globe. Dramatically oversized hands towering over the globe create tension and an ominous power imbalance. Sharp fracture lines spreading across the globe surface beneath the empty hand."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 1944년풍 회의 테이블 위에 서류 두 부가 마주 놓여 있고, 한쪽에만 붉은 도장이 쾅 찍혀 있다. 다른 한 부는 구겨진 채 밀려나 있다.",
+      "prompt_en": "Photorealistic close-up filling the upper half of the frame: a polished 1940s conference table where two large official document stacks face each other, the left one stamped with a bold oversized red wax seal pressed down hard and still glistening, the right one crumpled at the corner and shoved aside off the table edge. A heavy brass stamp handle stands upright beside the sealed document. Bright vibrant colors with a clean light ivory background and high-key window lighting, vivid saturated tones, red and gold accents dominating. Dramatically oversized seal and exaggerated scale contrast between the two documents create a tense decisive-moment atmosphere."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 실사 변주. 밝은 회의실 책상 위, 44개 나라 명패가 늘어선 가운데 한 자리에만 도장이 놓여 있고 나머지 명패에는 펜만 놓여 있다.",
+      "prompt_en": "Photorealistic wide close-up filling the upper half of the frame: a long bright 1940s conference table lined with rows of small blank nameplate stands receding into perspective, each with only a thin fountain pen laid in front, except one prominent seat in the foreground that holds a large heavy brass official stamp resting on a signed document. Bright vibrant colors, clean light ivory and white background, high-key daylight streaming from tall windows, vivid saturated tones with sky-blue and gold accents on the metal fittings. Dramatically oversized foreground stamp towers over the tiny distant nameplates, creating an ominous sense of one seat deciding for everyone."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 배경에 종이돈으로 쌓아 올린 거대한 기둥 하나가 세계지도 위에 서 있고, 그 기둥을 세계 각국의 작은 손들이 아래에서 떠받치고 있다. 균열이 기둥 밑동에 번진다.",
+      "prompt_en": "Photorealistic close-up filling the upper half of the frame: a single towering column built entirely from tightly stacked US dollar banknotes rising from a bright printed world map surface, with dozens of small human hands reaching in from all sides to hold the column up from below. Hairline cracks spread outward across the map at the column's base. Bright vibrant colors, clean white background, high-key lighting, vivid saturated tones with sky-blue and gold accent highlights along the column edges. Dramatically oversized column dwarfing the many straining hands creates an ominous tension of something enormous being held up by everyone else."
+    }
+  ]
+}

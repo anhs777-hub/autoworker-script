@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "arctic-route-world-policy",
+    "titles": [
+      "\"15년 된 중고선이었습니다\" 세계 5개국 북극 계획을 날짜로 세워봤더니 일본이 가장 조용한 진짜 이유",
+      "\"그 배, 아직 물 위에 없습니다\" 일본이 2027년에나 띄울 배를 한국이 먼저 보낸 진짜 이유",
+      "\"돈이 제일 많은 나라가 제일 늦습니다\" 북극항로에서 5개국 순위가 완전히 뒤집힌 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"지원한 회사가 한 곳뿐이었다\" + \"외신이 먼저 짚은 부산발 18일의 의미\"",
+      "\"그 나라들, 아직 배가 없습니다\" + \"세계 5개국 북극 계획표를 날짜로 세웠다\"",
+      "\"절반도 못 채우고 떠났습니다\" + \"세계가 뒤늦게 확인한 그 배의 18일\""
+    ],
+    "image_concepts": {
+      "A": "금빛으로 발광하는 북극 항로 위를 지나는 컨테이너선 1척과, 그것을 올려다보며 놀라는 외국인 항만 관계자들",
+      "B": "중앙에 유빙 사이를 지나는 컨테이너선, 둘레에 네 나라의 현재를 담은 원형 인셋 4컷 (목차형)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 기본. 북극을 위에서 내려다본 밝은 지구본 지도 위로 금빛으로 빛나는 항로선이 지나가고, 그 선 위에 컨테이너선 한 척이 올라가 있다. 하단 가장자리에서 서양인 항만 관계자 3인이 놀란 표정으로 그 빛나는 항로를 올려다본다.",
+      "prompt_en": "Photorealistic bright high-key composition of a polar-view globe of the Arctic filling the upper half of the frame, with a glowing golden shipping route arcing across the sea ice toward Europe. A single large blue-and-white container ship sits on that glowing route, sharply lit and clearly recognizable. Three Western port officials in high-visibility vests stand small along the lower edges, faces turned upward with wide-eyed astonished expressions, all their eyes directed at the glowing route rather than at the camera. Clean white and pale ice-blue background, vivid saturated sky-blue and gold accent tones, crisp even daylight."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 변주. 오래된 중고 컨테이너선 한 척을 근접 측면에서 크게 잡고, 뱃머리가 밝은 유빙을 밀며 지나가는 순간. 배 뒤로 금빛 항로선이 북극 지도 위로 이어지고, 우측 가장자리에 놀란 표정의 외국인 선원 2인이 작게 배치된다.",
+      "prompt_en": "Photorealistic close side view of a weathered 15-year-old container ship pushing through bright pack ice, its hull scuffed and clearly aged, filling the upper half of the frame. Behind the ship a luminous golden route line continues across a pale Arctic map toward the horizon. Two Western crew members in orange survival suits stand small at the right edge with exaggerated wide-eyed astonished expressions, gazing at the ship rather than the camera. Brilliant white ice, vivid sky-blue water, warm gold highlights, bright even daylight with no heavy shadows."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 기본. 중앙에 유빙 사이를 지나는 컨테이너선이 금빛으로 빛나고, 그 둘레를 원형 인셋 4컷이 감싼다 — 건조 중인 연구선, 텅 빈 조선소 도크, 다른 컨테이너선, 북유럽 조선소.",
+      "prompt_en": "Photorealistic bright collage composition: at the center of the upper half, a container ship moving through pack ice, rimmed with a soft golden glow that makes it the focal point. Arranged around it are four clean circular photo insets with thin sky-blue rings, each desaturated so the center stays dominant: an unfinished research vessel still on the building berth, a completely empty shipyard dry dock, another container ship at a European quay, and a snowy Nordic shipyard with gantry cranes. Crisp white and pale blue background, gold and sky-blue accents, bright high-key daylight."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 변주. 좌우 분할 스케일 대비 — 좌측은 아직 배가 없는 텅 빈 건조 도크 세 곳, 우측은 실제로 얼음을 지나는 컨테이너선 한 척. 중앙 상단에 금빛 북극 항로선.",
+      "prompt_en": "Photorealistic bright split composition filling the upper half: on the left, three empty shipyard dry docks with bare scaffolding and no vessels, shot in flat clean daylight; on the right, a single container ship actually under way through bright Arctic pack ice, lit warmly and clearly larger in frame. A glowing golden polar route line connects the two sides across the top. Crisp white, pale ice-blue and sky-blue palette with gold accents, bright even lighting, no heavy shadows."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 벽면 달력 위에 2027·2033 같은 먼 날짜가 크게 적힌 칸들이 비어 있고, 그중 한 칸에만 실제 컨테이너선 사진이 꽂혀 있는 스케일 대비 구도. 날짜로 줄 세운다는 컨셉을 사물 하나로 압축.",
+      "prompt_en": "Photorealistic bright studio shot of a large clean wall calendar mounted across the upper half of the frame, most of its date cells empty and marked only with distant far-future year numbers. In one single cell, a vivid photograph of a container ship cutting through Arctic pack ice bursts out beyond the cell border in three-dimensional relief, glowing with a warm golden rim light. Crisp white paper, sky-blue grid lines, gold accent highlights, bright high-key even lighting, sharp focus and strong scale contrast between the flat empty cells and the protruding ship."
+    }
+  ]
+}
