@@ -11,7 +11,10 @@ from pathlib import Path
 
 # Add parent paths for project_resolver
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from src.console import enable_utf8_output
 from src.project_resolver import resolve_project_dir
+
+enable_utf8_output()
 
 # --- Root directory (autoworker-script/) ---
 ROOT = Path(__file__).resolve().parents[3]

@@ -23,7 +23,10 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src"))
+from console import enable_utf8_output
 from project_resolver import resolve_project_dir
+
+enable_utf8_output()
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

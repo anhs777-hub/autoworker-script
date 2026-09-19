@@ -61,6 +61,7 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 | STRATEGY, OUTLINE (auto 모드) | + `channels/{채널}/config/pd-guide.md` (있으면) |
 | REVIEW_FINALIZE의 TTS 검수 시 | + `prompts/tts-rules.md` |
 | METADATA 실행 시 | + `prompts/youtube-meta.md` |
+| DONE 실행 시 (아티팩트 발행) | + `prompts/output-artifact.md` + `artifact-design` 스킬 |
 | 에이전트 호출 직전 (첫 호출 시 1회) | + `prompts/pd-agents.md` |
 
 단계가 바뀌면 이전 단계 파일은 다시 읽지 않는다.
@@ -107,10 +108,12 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 {P}/_script/draft.md 없음               → DRAFT
 {P}/_script/script.txt 없음             → REVIEW_FINALIZE
 {P}/output/03_업로드정보.md 없음        → METADATA
-{P}/output/03_업로드정보.md 있음        → DONE
+{P}/output/04_타임스탬프.txt 없음       → METADATA (04만 생성)
+{P}/output/04_타임스탬프.txt 있음       → DONE
 ```
 
 - 위에서 아래로 순서대로 체크 — 첫 번째로 걸리는 상태가 현재 상태
+- **구버전 프로젝트 보정**: `03_업로드정보.md`는 있는데 `04_타임스탬프.txt`만 없으면 **METADATA를 처음부터 다시 돌리지 않는다.** 03의 `⏱ 타임스탬프` 섹션을 그대로 옮겨 `04_타임스탬프.txt`만 만들고 DONE으로 넘어간다 (04 도입 전에 완료된 프로젝트)
 
 ### 세션 재개
 "이어서 해줘" → 상태 감지 → 감지 상태 + mode 보고 → 해당 단계부터 진행
@@ -147,22 +150,38 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 | OUTLINE | outline.md | 오케스트레이터 직접 (셀프체크 10항목 + 데이터 갭 보충 리서치) | 확인 없이 DRAFT 자동 진행 |
 | DRAFT | draft.md | script-writer 1개 순차 통짜 집필 (클린 컨텍스트) + merge_draft.py | 조립 + hook diff 리포트 → 분량 밴드 검증 |
 | REVIEW_FINALIZE | script.txt (+output/01_대본.txt 사본) | 분량 밴드 린터 → reviewer(verdict 권한 + WebSearch 검증) → finalize.py(6개조 기계 보정) → TTS 검수 | 검수는 최종 1회만 |
-| METADATA | output/02_썸네일제목.md, 03_업로드정보.md | PD 직접 (경량 — `prompts/youtube-meta.md`) | 02: 제목 후보·썸네일 문구·프롬프트 / 03: 제목·설명·태그 + 🔗 주요 출처 최대 4개 (03이 마지막 저장) |
+| METADATA | output/02_썸네일제목.md, 03_업로드정보.md, 04_타임스탬프.txt | PD 직접 (경량 — `prompts/youtube-meta.md`) | 02: 제목 후보·썸네일 문구·프롬프트 / 03: 제목·설명·태그 + 🔗 주요 출처 최대 4개 / 04: 03의 챕터 줄만 복사용으로 (04가 마지막 저장) |
 
 ---
 
 ## 5. 완료 (DONE)
 
-`output/03_업로드정보.md`까지 생성 완료 시 아래 형식으로 마무리 보고한다:
+`output/04_타임스탬프.txt`까지 생성 완료되면 **아티팩트 발행 → 마무리 보고** 순으로 진행한다.
+
+### 5-1. 완성본 아티팩트 발행 (필수)
+
+파일 4종을 한 페이지로 묶은 아티팩트를 **매번 발행한다.** 상세 규격 → `prompts/output-artifact.md` (Lazy Load).
+
+- `artifact-design` 스킬을 먼저 로드한 뒤 페이지를 작성한다
+- `{P}/_script/artifact-url.txt`가 있으면 **같은 URL로 갱신**, 없으면 새로 발행하고 URL을 그 파일에 저장
+- 섹션 4개(대본 / 썸네일·제목 / 업로드정보 / 타임스탬프), **각 블록에 복사 버튼**
+- **발행에 실패해도 파이프라인을 중단하지 않는다** — 실패 사실만 알리고 파일 경로 안내로 대체한다
+- 정본은 어디까지나 `output/`의 파일이다. 아티팩트는 업로드 작업용 화면이다
+
+### 5-2. 마무리 보고
+
+아래 형식으로 보고한다:
 
 1. 프로젝트명, 채널명
 2. **산출물 요약** — 완성본은 전부 `output/` 폴더, 번호 순서대로 사용:
    - `output/01_대본.txt` — 최종 대본 (영상 제작 사이트에 업로드할 파일)
    - `output/02_썸네일제목.md` — 제목 후보 + 썸네일 문구·이미지 프롬프트
    - `output/03_업로드정보.md` — 제목, 설명글, 태그, 고정 댓글 (주요 출처 3~4개 포함)
-3. **글자수 + 예상 분량** — finalize.py 출력 기준. 분당 글자수는 profile.md 실측치 우선, 없으면 500자/분
-4. **완성본 폴더 열기**: OS에 맞게 `{P}/output` 폴더를 파일 탐색기로 열어준다 (macOS: `open "{P}/output"` / Windows: `explorer "{P}\output"`). 실패해도 중단하지 않고 경로 안내로 대체
-5. 마지막 줄 고정 안내 (생략 금지):
+   - `output/04_타임스탬프.txt` — 챕터 목록만 (따로 쓸 때 복사용). 시각은 대본 분량 기준 **추정치** — 영상 완성 후 "타임스탬프 채워줘"로 실측 교체
+3. **완성본 아티팩트 링크** — 5-1에서 발행한 URL (발행 실패 시 그 사실을 한 줄로)
+4. **글자수 + 예상 분량** — finalize.py 출력 기준. 분당 글자수는 profile.md 실측치 우선, 없으면 500자/분
+5. **완성본 폴더 열기**: OS에 맞게 `{P}/output` 폴더를 파일 탐색기로 열어준다 (macOS: `open "{P}/output"` / Windows: `explorer "{P}\output"`). 실패해도 중단하지 않고 경로 안내로 대체
+6. 마지막 줄 고정 안내 (생략 금지):
    > 다음 대본은 **새 세션**에서 시작하세요. (Claude Code에서 `/clear` 입력 후 "대본 만들어줘")
 
 ---

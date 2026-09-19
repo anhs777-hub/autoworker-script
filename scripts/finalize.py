@@ -18,7 +18,10 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+from console import enable_utf8_output
 from project_resolver import resolve_project_dir
+
+enable_utf8_output()
 
 DEFAULT_CPM = 500  # 분당 글자수 (profile 실측치가 있으면 --cpm으로 전달)
 

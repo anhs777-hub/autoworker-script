@@ -21,6 +21,11 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from console import enable_utf8_output
+
+enable_utf8_output()
+
 # ── outline.md 파트 목표 추출 ──────────────────────────────────
 # 지원: "### 파트 1: 제목 (~4분, 2,000~3,500자 — 핵심 파트)"  (범위)
 #       "### 파트 1: 제목 (~4분, ~2,000자)"                    (고정값, 레거시)

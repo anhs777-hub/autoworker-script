@@ -13,6 +13,11 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from console import enable_utf8_output
+
+enable_utf8_output()
+
 _H2_RE = re.compile(r"^#{2,3}\s+(.+)$", re.MULTILINE)
 _PART_NUM_RE = re.compile(r"_draft_part(\d+)\.md$")
 _ANY_HEADER_RE = re.compile(r"^#{1,6}\s+")

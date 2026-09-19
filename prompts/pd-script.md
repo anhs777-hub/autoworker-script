@@ -274,13 +274,14 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
 
 ## METADATA
 
-**완성본 문서 생성 (02_썸네일제목 + 03_업로드정보). PD 직접 수행 (경량 단계 — 에이전트 호출 없음).**
+**완성본 문서 생성 (02_썸네일제목 + 03_업로드정보 + 04_타임스탬프). PD 직접 수행 (경량 단계 — 에이전트 호출 없음).**
 
 상세 규칙 → `prompts/youtube-meta.md` (Lazy Load).
 
 1. Read: `_script/concept.md`(확정 제목·앵글·핵심 약속·타겟·썸네일 텍스트 후보) + `_script/_strategy_candidates.md`(있으면 — 대안 제목용) + `_script/outline.md` + `_script/verified-data.md` + `_script/thumbnail-prompts.json` + `config/settings.json`
-2. youtube-meta.md 규칙대로 두 파일 생성 (`{P}/output/`은 finalize.py가 이미 생성):
+2. youtube-meta.md 규칙대로 세 파일 생성 (`{P}/output/`은 finalize.py가 이미 생성):
    - `{P}/output/02_썸네일제목.md` — 영상 방향 요약(핵심 각도·약속·타겟) + 제목 후보 + 썸네일 문구 + 이미지 프롬프트
    - `{P}/output/03_업로드정보.md` — 제목/설명글/태그/고정 댓글 (설명글에 verified-data.md 기반 **"🔗 주요 출처"** 필수 포함 — 핵심 출처 3~4개만 선별, 링크 최대 4개)
-3. 저장 순서 **02 → 03** (`03_업로드정보.md`가 DONE 마커 — 반드시 마지막에 저장)
+   - `{P}/output/04_타임스탬프.txt` — 03의 `⏱ 타임스탬프` 섹션과 **같은 내용**을 챕터 줄만 남겨 저장 (머리말·빈 줄 없이 `00:00`부터 바로 시작)
+3. 저장 순서 **02 → 03 → 04** (`04_타임스탬프.txt`가 DONE 마커 — 반드시 마지막에 저장)
 4. 저장 후 DONE 보고 (SKILL.md §5 형식)

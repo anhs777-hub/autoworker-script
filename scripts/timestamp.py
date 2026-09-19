@@ -19,6 +19,12 @@
 import argparse
 import os
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+from console import enable_utf8_output
+
+enable_utf8_output()
 
 
 def main():
