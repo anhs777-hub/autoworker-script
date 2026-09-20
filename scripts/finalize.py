@@ -23,7 +23,9 @@ from project_resolver import resolve_project_dir
 
 enable_utf8_output()
 
-DEFAULT_CPM = 500  # 분당 글자수 (profile 실측치가 있으면 --cpm으로 전달)
+DEFAULT_CPM = 470  # 분당 글자수, 개행 제외 기준 (profile 실측치가 있으면 --cpm으로 전달)
+# 완성 영상 3편 실측 평균 472자 — 노키아 482.7 / 홈플러스 464.6 / 세상의이유 007편 469.1.
+# 예전 기본값 500은 개행을 포함해 세던 시절의 값이라, 개행 제외로 바꾼 지금은 분량을 짧게 잡는다.
 
 # ---------- 마크다운 정리 ----------
 
@@ -170,7 +172,7 @@ def print_report(report: dict, char_count: int, cpm: int) -> None:
     print(f"⑥ 단어 뒤 괄호 제거    : {fmt(report['r6'])}")
     print(f"기타 (태그·공백 문자)  : {fmt(report['extra'])}")
     print("=" * 30)
-    print(f"script.txt 생성 완료 ({char_count:,}자, ~{char_count // cpm}분 @ {cpm}자/분)")
+    print(f"script.txt 생성 완료 ({char_count:,}자 — 개행 제외, ~{char_count // cpm}분 @ {cpm}자/분)")
 
 
 def main():
@@ -201,7 +203,9 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / "01_대본.txt").write_text(text, encoding="utf-8")
 
-    print_report(report, len(text), args.cpm)
+    # 분량 계산은 개행을 뺀 글자수로 한다 — 줄바꿈은 낭독되지 않는데, 대본 포맷에 따라
+    # 전체 글자의 2.5~7.4%까지 차지해서 포함하면 예상 분량이 3~7% 들쭉날쭉해진다.
+    print_report(report, len(text.replace("\n", "")), args.cpm)
     print("완성본 사본: output/01_대본.txt (영상 제작 사이트 업로드용)")
 
 
