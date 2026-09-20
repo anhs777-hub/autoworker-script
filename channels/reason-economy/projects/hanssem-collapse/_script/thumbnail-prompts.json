@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "project": "hanssem-collapse",
+    "titles": [
+      "\"13분기 연속 흑자입니다\" 그런데 한샘 주가는 왜 82%가 빠졌을까",
+      "\"자기 돈은 3,500억이었습니다\" 1조 4,500억에 팔린 한샘, 그 뒤 4년 동안 벌어진 일",
+      "\"건물 팔고 세 들어갑니다\" 흑자 내는 한샘에서 4년 동안 사라진 것들"
+    ],
+    "thumbnail_texts": [
+      "\"13분기 연속 흑자입니다\" / 영업이익은 돌아왔는데 / 주가만 82% 빠졌다",
+      "\"회사 위에 8,000억이 있습니다\" / 22만 원이 3만 9천 원 / 한샘의 4년",
+      "\"부동산 탓이 아니었습니다\" / 장부는 흑자로 돌아섰다 / 사라진 건 주주 몫"
+    ],
+    "image_concepts": {
+      "A": "반대로 가는 두 개의 선 — 실적 막대는 올라가는데 주가선만 홀로 급락한다",
+      "B": "위에서 내리누르는 무게 — 회사는 멀쩡한데 그 위에 빚이 얹혀 있다"
+    },
+    "layout_spec": "thumbnail-strategy.json [A] 위기·몰락 규격 — 저채도 어두운 실사, 하단 텍스트 영역 비움, 강조색은 빨강 하나",
+    "generate_images": false
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 ①. 어두운 사무실 벽면을 채운 거대한 실물 차트 — 상승하는 초록 실적 막대 위를 붉은 주가선 하나가 절벽처럼 떨어진다.",
+      "prompt_en": "Photorealistic cinematic photograph of a massive illuminated financial chart mounted on a dark corporate wall, filling the upper half of the frame edge to edge. Rows of desaturated green bars step steadily upward while a single thick glowing red line plunges downward across them like a cliff edge, the two paths crossing in stark opposition. Moody low-key lighting, deep shadows, muted blue-grey concrete surroundings, with the red line as the only saturated color in the image. Shot on a wide lens with dramatic rim light separating the chart from the darkness behind it."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 실사 ②. 같은 대비를 물리적 오브젝트로 — 위로 쌓여 올라가는 회계 장부 더미와, 그 옆에서 바닥까지 떨어진 붉은 주가 전광판.",
+      "prompt_en": "Photorealistic cinematic still life of a dimly lit accounting office at night, upper half of frame filled by two opposing elements side by side. On the left, a tall neatly stacked tower of thick ledger books rising confidently upward, warmly lit. On the right, a large red LED stock ticker board whose glowing line has collapsed to the very bottom of its display. Desaturated charcoal and deep navy tones throughout, a single hard red glow from the ticker cutting through the gloom, dust visible in the light beam. Dramatic side lighting, high contrast, documentary realism."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 ①. 불 켜진 한샘 부엌 쇼룸 바로 위를 거대한 콘크리트 슬래브가 내리누르는 스케일 대비 구도.",
+      "prompt_en": "Photorealistic cinematic architectural photograph of a brightly lit Hanssem kitchen showroom display, warm and pristine with polished cabinetry and countertops, positioned in the upper half of the frame. Directly above it, an enormous dark concrete slab presses down from the top edge of the image, its crushing mass dwarfing the small illuminated kitchen and leaving only a narrow gap of light. The concrete is cold grey-blue and heavily textured; fine dust and hairline cracks fall from its underside. Extreme scale contrast, deep shadow, a faint red emergency light glowing from one side."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 실사 ②. 한샘 가구가 놓인 아파트 거실 천장이 통째로 내려앉기 직전 — 위에서 누르는 힘을 실내 시점으로 바꾼 장면.",
+      "prompt_en": "Photorealistic cinematic interior photograph of a Korean apartment living room furnished with clean modern Hanssem furniture, shot from inside looking up. The ceiling above has sagged and bowed downward under an unseen weight, plaster cracking in long lines across it, pressing toward the untouched furniture below. The room itself is intact and tidy, warmly lit by a single lamp, which makes the deforming ceiling more unsettling. Desaturated cool palette with warm lamp glow, one thin red line of light along the largest crack, heavy atmospheric shadow."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밤의 고층 사옥 로비 유리문에 임대 계약서와 열쇠 꾸러미가 놓여 있고, 건물 자체가 팔려 나간 정황만 남은 장면 — 후반 클라이맥스(사옥 매각·세일앤리스백)를 가리킨다.",
+      "prompt_en": "Photorealistic cinematic photograph of the glass lobby entrance of a large modern corporate headquarters tower at night, the building rising into darkness in the upper half of the frame. On the polished floor just inside the glass, a thick lease contract document and a heavy ring of building keys lie abandoned under a single overhead spotlight. The lobby beyond is empty and unlit, reflections of the deserted plaza doubling in the glass. Desaturated steel-blue and charcoal palette, one warm pool of light on the keys, a small red security indicator glowing in the dark interior. Cold, still, documentary tone."
+    }
+  ]
+}
