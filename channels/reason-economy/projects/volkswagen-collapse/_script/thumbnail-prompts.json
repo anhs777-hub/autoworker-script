@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "volkswagen-collapse",
+    "titles": [
+      "\"차는 그대로 팔렸습니다\" 매출은 제자리인데 이익만 반토막 난 89년 기업의 진짜 이유",
+      "매출은 그대로, 이익만 반토막. 89년 된 폭스바겐에 지금 벌어지는 일",
+      "\"한 대 팔면 280원 남습니다\" 폭스바겐이 89년 만에 5만 명을 줄이는 이유"
+    ],
+    "thumbnail_texts": [
+      "초록 \"차는 그대로 팔렸습니다\" / 흰색 매출은 1년 전 그대로 / 빨강 이익만 반토막 났다",
+      "초록 \"한 대 팔면 280원\" / 흰색 89년 만의 최대 감원 / 빨강 남는 돈이 사라졌다",
+      "초록 \"공장은 닫지 않습니다\" / 흰색 차는 팔리는데 5만 명 감원 / 빨강 폭스바겐의 진짜 위기"
+    ],
+    "image_concepts": {
+      "A": "차는 가득한데 불이 꺼진 폭스바겐 출고 야적장 — 물량은 압도적인데 아무것도 움직이지 않는다",
+      "B": "볼프스부르크 공장의 네 굴뚝과 텅 빈 통근 진입로 — 설비는 멀쩡한데 사람이 없다"
+    },
+    "layout_note": "thumbnail-strategy.json [A] 위기·몰락 레이아웃 적용 — 저채도 어두운 실사, 하단 40% 검은 그라데이션 + 흰색/빨강 2줄, 중단 초록 인용구 1줄"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 새벽 출고 야적장에 폭스바겐 신차 수천 대가 끝없이 줄지어 서 있고, 조명은 꺼져 있으며 사람은 한 명도 없다. 물량은 압도적인데 아무것도 움직이지 않는 정지 상태.",
+      "prompt_en": "Photorealistic cinematic aerial photograph of a vast Volkswagen vehicle storage yard at cold blue dawn, thousands of brand-new cars parked in endless precise rows stretching to the horizon, every floodlight switched off and not a single person or moving vehicle in sight. A large Volkswagen VW emblem sign stands on a pole in the upper portion of the frame, its brushed metal catching the only highlight in an otherwise desaturated grey-blue scene. Deep shadows, heavy overcast sky, ominous still atmosphere of enormous inventory that has stopped moving. Moody documentary tone, no exaggeration, somber and serious."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 실사 변주. 같은 야적장을 지상 눈높이에서 본 구도. 신차 행렬이 좌우로 꽉 차게 이어지고 앞유리에 붙은 출고 스티커가 그대로 남아 있다.",
+      "prompt_en": "Photorealistic ground-level wide shot down a corridor between two endless rows of brand-new unsold Volkswagen cars in a distribution yard, protective factory shipping stickers still attached to every windshield, thin frost on the hoods. The rows fill the frame edge to edge and recede into grey fog, with a Volkswagen VW badge visible in sharp focus on the nearest car. Desaturated winter palette of grey, steel blue and dull silver with one cold metallic highlight, dramatic low contrast light, tense and abandoned atmosphere. Serious documentary photography, no people."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 볼프스부르크 폭스바겐 공장의 상징인 네 개의 발전소 굴뚝이 겨울 하늘 아래 서 있고, 그 앞 통근 진입로와 주차장이 텅 비어 있다.",
+      "prompt_en": "Photorealistic cinematic photograph of the four iconic power plant chimneys of the Volkswagen Wolfsburg factory rising against a dark overcast winter sky, white steam drifting from the stacks. Below them the wide employee access road and staff parking lot are completely empty, painted parking lines clearly visible with no cars on them. Cold desaturated palette of charcoal, slate grey and industrial brick red, long shadows, ominous tension of working machinery with no workers. Moody serious documentary tone, no people in frame."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 실사 변주. 조명이 켜진 조립 라인 내부인데 작업대 앞이 전부 비어 있다. 설비는 돌아가는데 사람만 없는 상태.",
+      "prompt_en": "Photorealistic interior photograph of a large Volkswagen automotive assembly line, overhead industrial lights on and robotic arms frozen mid-position beside a stationary conveyor carrying unfinished car bodies. Every workstation along the line is empty, tools still hanging in place and safety vests left draped over railings. Cold fluorescent lighting, desaturated grey and steel-blue palette with a single dull red safety marking as accent, deep shadows between the machines, unsettling silence. Serious documentary atmosphere, no people visible."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 볼프스부르크 공장 정문의 폭스바겐 엠블럼을 올려다본 로우앵글. 거대한 로고 뒤로 흐린 겨울 하늘이 펼쳐지고 표면에 빗물 자국이 남아 있다. 89년이라는 시간의 무게를 상징물 하나로 표현.",
+      "prompt_en": "Photorealistic dramatic low-angle close-up of the giant Volkswagen VW logo mounted on the facade of the Wolfsburg headquarters building, the emblem towering over the viewer and filling the upper half of the frame. Weathered metal surface with visible rain streaks and dull oxidation catching the last grey daylight, dark storm clouds moving behind it. Heavily desaturated palette of gunmetal, slate and cold white, strong directional side light creating deep shadow across the badge, ominous monumental atmosphere of age and decline. Cinematic documentary tone, no people."
+    }
+  ]
+}
