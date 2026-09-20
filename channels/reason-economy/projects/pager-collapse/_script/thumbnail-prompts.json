@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "pager-collapse",
+    "titles": [
+      "한때 국민 셋 중 하나가 찼던 삐삐..그 번호가 지금도 살아있다고?",
+      "\"사상 최고였습니다\" 1,520만 삐삐가 2년 만에 무너진 진짜 순서",
+      "국민 3명 중 1명이 쓰던 삐삐, 10년 만에 8,115명이 된 이유"
+    ],
+    "thumbnail_texts": [
+      "국민 셋 중 하나 / 1,520만 → 8,115명 / 삐삐의 몰락",
+      "한때 1,520만 / 10년 뒤 8,115명 / 그런데 아직 있다",
+      "사상 최고를 찍은 그 분기 / 이미 끝나 있었다"
+    ],
+    "image_concepts": {
+      "A": "허리춤에 있던 자리가 비어 있다 — 1990년대 공중전화 앞 장면과 그 자리가 빈 현재의 Before→After 대비",
+      "B": "1,520만이 쓰던 단말기 하나가 화면을 지배한다 — 생활 오브젝트를 초대형 붕괴물로 세우는 스케일 대비"
+    },
+    "layout_note": "thumbnail-strategy.json brand.fixed_layout [A] 위기·몰락 대본 적용 — 저채도 어두운 실사, 인물은 실사 head-and-shoulders 무표정 다큐 톤, 포인트 색은 빨강 하나 + 삐삐 LCD 초록"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic-1",
+      "concept_ko": "컨셉 A 실사. 1990년대 서울 길거리 공중전화 부스 앞에 줄 서 있는 사람들, 맨 앞 사람의 허리 벨트에 작은 회색 무선호출기가 걸려 있다. 저채도 어두운 다큐 톤.",
+      "prompt_en": "Photorealistic cinematic documentary photograph of a 1990s Seoul street at dusk, a line of people waiting at a row of public payphone booths. The man at the front of the line has a small grey Motorola-style numeric pager clipped to his belt, its tiny LCD glowing faint green. Desaturated cold blue-grey color grading with deep shadows and a single warm streetlamp, moody and melancholic, natural unexaggerated expressions in a serious documentary tone. The crowd and payphone booths fill the upper half of the frame with the pavement below left plain and dark."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic-2",
+      "concept_ko": "컨셉 A 실사 변형. 같은 Before→After를 한 인물의 허리춤 클로즈업으로. 좌측은 삐삐가 걸린 벨트, 우측은 같은 자리가 비어 있는 현재의 벨트. 빈자리를 눈에 보이게 그린다.",
+      "prompt_en": "Photorealistic split-frame cinematic photograph comparing two waist-level close-ups of the same man's leather belt. On the left, a 1990s grey numeric pager is clipped to the belt with its small LCD faintly lit green, warm nostalgic film grain. On the right, the identical belt in the present day with an empty clip and a worn pale mark where the pager used to sit, cold desaturated grey-blue light. Strong tonal contrast between the two halves, subdued documentary realism, subjects occupying the upper half of the frame."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic-1",
+      "concept_ko": "컨셉 B 실사. 어두운 빈 공간 한가운데 거대한 1990년대 삐삐 단말기 한 대가 실제 사람 키만큼 서 있고, 본체에 균열이 번져 있다. 스케일 대비.",
+      "prompt_en": "Photorealistic cinematic image of a single enormous 1990s grey numeric pager, scaled to the height of a human figure, standing upright in the middle of a vast dark empty concrete hall. Deep cracks spread across its plastic casing and its small LCD panel glows dim green, the only cool light source. A hard red rim light from the left edge rakes across the cracked shell against a near-black desaturated background, dramatic high-contrast lighting, ominous still atmosphere. The oversized pager fills the upper half of the frame, the floor below kept plain and empty."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic-2",
+      "concept_ko": "컨셉 B 실사 변형. 같은 초대형 삐삐가 쓰러져 바닥에 누워 있고, 그 옆에 다큐 톤의 남성 인물이 서서 내려다본다. 003의 「쓰러진 생활 오브젝트」 구도 차용.",
+      "prompt_en": "Photorealistic cinematic photograph of a giant 1990s grey numeric pager toppled over and lying cracked on wet dark asphalt, roughly the length of a car. A middle-aged Korean man in a plain dark coat stands beside it, shot head-and-shoulders from behind and slightly to the side, looking down at it with a calm serious documentary expression and no exaggeration. Desaturated cold grey-blue grading, a single red emergency light reflecting in the puddles, the fallen pager and the man filling the upper half of the frame."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 반전 회수 장면 — 낡은 아파트 복도 벽의 수도 계량기함이 열려 있고, 계량기에 붙은 소형 통신 모듈에서 초록 신호등이 깜빡인다. 사람을 부르던 주파수가 지금 무엇을 부르고 있는지를 한 장으로 보여준다.",
+      "prompt_en": "Photorealistic cinematic close-up of an open water meter cabinet set into the tiled wall of an old Korean apartment corridor. A brass water meter sits inside with a small modern wireless telemetry module strapped to it, a single green status LED glowing and a thin antenna wire running up the wall. Dim overhead corridor light, desaturated grey-green palette with peeling paint and dust, quiet and slightly eerie stillness. The open cabinet and meter fill the upper half of the frame, the corridor floor below left plain and shadowed."
+    }
+  ]
+}
