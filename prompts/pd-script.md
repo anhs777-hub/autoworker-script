@@ -133,7 +133,7 @@ Read (Lazy Load): `prompts/creative-strategy.md` + `prompts/ctr-reference.md` + 
 ### 소재 사전 채점 (14점) — 확정안이 정해진 직후, 저장 전에 수행
 
 품질 점수 100점 중 **이 두 항목만 STRATEGY에서 매긴다.** 대본이 완성된 뒤에는 되돌릴 수 없는 항목이기
-때문이다 (나머지 86점은 REVIEW_FINALIZE에서 → `prompts/script-review-checklist.md` 6번).
+때문이다 (나머지 86점은 REVIEW_FINALIZE에서 → `prompts/script-review-checklist.md` 7번).
 
 | 항목 | 배점 | 평가 기준 |
 |---|---:|---|
@@ -159,7 +159,7 @@ Read (Lazy Load): `prompts/creative-strategy.md` + `prompts/ctr-reference.md` + 
 > ⚠️ **감점 시 대안을 함께 적는다.** 댓글 유발력이 낮아도 다른 항목이 강하면 진행할 수 있다.
 > 다만 그 경우 **클로징 질문을 양자택일로 반드시 설계**해 보완한다(`profile.md` 「클로징 공식」).
 
-- **채점 규칙은 체크리스트 6번과 동일하다** — 감점·만점 모두 사유를 문장으로 쓰고,
+- **채점 규칙은 체크리스트 7번과 동일하다** — 감점·만점 모두 사유를 문장으로 쓰고,
   **기준작(`config/_benchmarks/`의 자사 최고 성과작) 점수와 나란히 적어** 비교한다
 - 결과를 `_script/concept.md` 말미에 **「소재 사전 채점」** 블록으로 저장한다.
   REVIEW_FINALIZE가 이 값을 그대로 옮겨 100점 합계를 낸다
@@ -330,9 +330,9 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
    - 전달: `_script/draft.md` + `_script/outline.md` + `_script/concept.md` + `_script/verified-data.md` + `prompts/script-review-checklist.md` + 분량 린터 결과(validate_draft 출력 요약 — reviewer는 분량 재검사 안 함)
    - 출력: `{P}/_script/review.md` (체크리스트 + 심각도 분류 + 신규 주장 검증 결과 + verdict + **품질 점수표**)
    - reviewer가 신규 주장을 식별하면 즉시 WebSearch로 검증하여 review.md에 포함
-   - **품질 점수(86점) 채점은 필수다** — 체크리스트 6번. `concept.md`의 「소재 사전 채점」(14점)을
+   - **품질 점수(86점) 채점은 필수다** — 체크리스트 7번. `concept.md`의 「소재 사전 채점」(14점)을
      옮겨 적어 **100점 합계**까지 낸다. 기준작 점수를 나란히 적지 않은 채점표는 미완성으로 본다
-   - **점수는 verdict를 좌우하지 않는다.** verdict는 체크리스트 1~5항목의 사실 오류·규칙 위반으로만 정한다
+   - **점수는 verdict를 좌우하지 않는다.** verdict는 체크리스트 1~6항목의 사실 오류·규칙 위반으로만 정한다
 
 2. **verdict 확인:**
    - review.md의 `verdict:` 확인
