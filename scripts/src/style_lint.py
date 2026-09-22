@@ -92,20 +92,20 @@ def main():
     for r in rules.get("ban", []):
         hits = find(text, r["p"], r.get("regex", False))
         if hits:
-            errors.append({"kind": "금지", "p": r["p"], "why": r["why"],
+            errors.append({"kind": "금지", "p": r.get("label", r["p"]), "why": r["why"],
                            "fix": r.get("fix", ""), "n": len(hits), "hits": hits})
 
     for r in rules.get("limit", []):
         hits = find(text, r["p"], r.get("regex", False))
         if len(hits) > r["max"]:
-            errors.append({"kind": "초과", "p": r["p"], "why": r["why"],
+            errors.append({"kind": "초과", "p": r.get("label", r["p"]), "why": r["why"],
                            "fix": "%d회까지. %d회 중 %d회를 다른 표현으로" % (r["max"], len(hits), len(hits) - r["max"]),
                            "n": len(hits), "max": r["max"], "hits": hits})
 
     for r in rules.get("warn", []):
         hits = find(text, r["p"], r.get("regex", False))
         if hits:
-            warns.append({"kind": "확인", "p": r["p"], "why": r["why"],
+            warns.append({"kind": "확인", "p": r.get("label", r["p"]), "why": r["why"],
                           "fix": r.get("fix", ""), "n": len(hits), "hits": hits})
 
     if a.json:
