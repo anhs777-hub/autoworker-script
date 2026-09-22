@@ -394,6 +394,20 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
    - `{P}/_script/script.txt` 읽기
    - `prompts/tts-rules.md` 규칙(6개조와 동일 기준)에 따라 finalize.py가 놓친 형식 문제만 정리 — **내용(문장·단어·어순) 변경 금지**
    - 수정할 것이 있으면 정리된 텍스트를 `{P}/_script/script.txt`와 `{P}/output/01_대본.txt` **둘 다**에 덮어쓰기 (사본이 낡으면 안 됨), 없으면 그대로 통과
+
+7. **문체 린터 최종 확인 (필수 — 최종본 기준):**
+
+```bash
+{VENV_PYTHON} scripts/src/style_lint.py {P}/output/01_대본.txt --channel {채널}
+```
+
+   - DRAFT 때 한 번 통과했더라도 **여기서 다시 돌린다.** 그 사이에 reviewer 수정, finalize.py의 6개조 보정,
+     TTS 검수가 문장을 건드렸다. **이 구간에서 새로 생긴 문제가 실제로 있었다** — `finalize.py`의 특수문자
+     제거가 인용 제목 안의 가운뎃점을 지워 「준비·인식 못 따른 종량제」가 「준비, 인식 못 따른 종량제」로
+     읽힌 사례가 있다. 눈으로는 멀쩡하고 귀로만 드러나는 유형이다
+   - **exit 1이면 `{P}/_script/script.txt`와 `{P}/output/01_대본.txt` 둘 다 고치고 재검사**한다.
+     한쪽만 고치면 사본이 어긋난다
+   - 통과 결과(오류 0건 / 확인 N건)를 기억해 두었다가 **DONE 보고에 한 줄로 적는다**
    - 완료 후 METADATA 진행
 
 ---
