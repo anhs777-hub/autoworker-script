@@ -260,7 +260,7 @@ OUTLINE에서 타겟 러닝타임을 확정하고 outline.md `## 1. 기획 뼈�
 2. **채널 기본값** — `config/profile.md`의 "기본 러닝타임" 항목 (있으면)
 3. **사용자에게 질문** — 위 둘 다 없으면 **"몇 분짜리로 만들까요?"**라고 묻는다 (auto 모드여도 이 질문은 한다). 보통 프로젝트 초기화 때 이미 물어봤으므로(SKILL.md §1) 그 답을 쓰면 되고, 여기까지 왔는데 값이 없으면 지금 묻는다. **자동 결정 폴백은 없다 — PD가 임의로 정하지 않는다**
 
-**환산 기준**: profile.md에 실측 분당 글자수가 있으면 그 값 우선, 없으면 1분 ≈ 500자. TTS 완료 후 실제 오디오 길이가 최종 러닝타임이다.
+**환산 기준**: profile.md에 실측 분당 글자수가 있으면 그 값 우선, 없으면 1분 ≈ 500자. **영어 채널은 1분 ≈ 900자**(영어 나레이션 약 150단어/분 — `prompts/localization.md` §6). TTS 완료 후 실제 오디오 길이가 최종 러닝타임이다.
 
 ### 본문 구조 가이드
 - 모든 파트가 핵심약속 이행에 기여
@@ -297,7 +297,7 @@ OUTLINE에서 타겟 러닝타임을 확정하고 outline.md `## 1. 기획 뼈�
 ### 클린 컨텍스트 원칙 (필수)
 
 script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트**에서 문장을 써야 한다.
-- **전달하는 입력 (전부 — 파일 경로로)**: `_script/outline.md` + `_script/concept.md` + `_script/hook-intro.md` + `_script/verified-data.md` + 채널 프로필
+- **전달하는 입력 (전부 — 파일 경로로)**: `_script/outline.md` + `_script/concept.md` + `_script/hook-intro.md` + `_script/verified-data.md` + 채널 프로필 (+ 영어 채널이면 `prompts/localization.md`)
 - **전달 금지**: `patterns.md` · `analysis.md` · `transcript.txt` · `_refs/` — 내용은 물론 경로도 프롬프트에 언급하지 않는다
 
 ### script-writer 호출 (1개)
@@ -340,7 +340,7 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
 **검수 + 확정. 에이전트: script-reviewer(verdict 권한 + 신규 주장 WebSearch 검증). 검수는 최종 1회만 — TTS 비용 발생 전 마지막 게이트.**
 
 1. **script-reviewer 에이전트 호출:**
-   - 전달: `_script/draft.md` + `_script/outline.md` + `_script/concept.md` + `_script/verified-data.md` + `prompts/script-review-checklist.md` + 분량 린터 결과(validate_draft 출력 요약 — reviewer는 분량 재검사 안 함)
+   - 전달: `_script/draft.md` + `_script/outline.md` + `_script/concept.md` + `_script/verified-data.md` + `prompts/script-review-checklist.md` + 분량 린터 결과(validate_draft 출력 요약 — reviewer는 분량 재검사 안 함) (+ 영어 채널이면 `prompts/localization.md` — §7 검수 관점 적용)
    - 출력: `{P}/_script/review.md` (체크리스트 + 심각도 분류 + 신규 주장 검증 결과 + verdict + **품질 점수표**)
    - reviewer가 신규 주장을 식별하면 즉시 WebSearch로 검증하여 review.md에 포함
    - **품질 점수(86점) 채점은 필수다** — 체크리스트 7번. `concept.md`의 「소재 사전 채점」(14점)을
@@ -361,6 +361,10 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
 4. 확정 후 finalize:
 ```bash
 {VENV_PYTHON} scripts/finalize.py --project {프로젝트} --channel "{채널}"
+```
+   - **영어 채널**은 분당 글자수를 붙여 실행한다 (profile.md 실측치가 있으면 그 값):
+```bash
+{VENV_PYTHON} scripts/finalize.py --project {프로젝트} --channel "{채널}" --cpm 900
 ```
    - finalize.py가 마크다운 제거 + **대본 작성 가이드 6개조를 기계 검증·자동 보정**하고 위반 리포트를 출력한다 (①온점 뒤 띄어쓰기 ②따옴표 제거 ③문단 줄바꿈 유지 ④특수문자·이모지 제거 ⑤URL·이메일 제거 ⑥단어 뒤 괄호 제거)
    - 리포트에 보정 건수가 있으면 요약해서 보고한다 (보정은 이미 완료된 상태 — 재실행 불필요)
@@ -385,5 +389,31 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
    - `{P}/output/02_썸네일제목.md` — 영상 방향 요약(핵심 각도·약속·타겟) + 제목 후보 + 썸네일 문구 + 이미지 프롬프트
    - `{P}/output/03_업로드정보.md` — 제목/설명글/태그/고정 댓글 (설명글에 verified-data.md 기반 **"🔗 주요 출처"** 필수 포함 — 핵심 출처 3~4개만 선별, 링크 최대 4개)
    - `{P}/output/04_타임스탬프.txt` — 03의 `⏱ 타임스탬프` 섹션과 **같은 내용**을 챕터 줄만 남겨 저장 (머리말·빈 줄 없이 `00:00`부터 바로 시작)
-3. 저장 순서 **02 → 03 → 04** (`04_타임스탬프.txt`가 DONE 마커 — 반드시 마지막에 저장)
-4. 저장 후 DONE 보고 (SKILL.md §5 형식)
+3. 영어 채널이면 두 문서의 제목·썸네일 문구·설명글·태그·고정 댓글을 **영어**로 작성한다 (`prompts/localization.md` §5 — 썸네일 문구는 1~3단어). 안내·설명 줄은 한국어 유지
+4. 저장 순서 **02 → 03 → 04** (`04_타임스탬프.txt`가 DONE 마커 — 반드시 마지막에 저장)
+5. 저장 후 DONE 보고 (SKILL.md §5 형식)
+
+---
+
+## LOCALIZE (기존 대본 → 영어판)
+
+**완성된 한국어 대본을 영어로 현지화한다. 트리거: "영어로 만들어줘"·"영어판 뽑아줘" (`script.txt`가 있는 프로젝트).**
+
+> 번역이 아니라 **현지화** — 한국에서 검증된 대본을 재창작해 해외로 내보낸다.
+> 전제: 해외용은 **별도 영어 채널**에 올린다 (기존 한국 채널에 올리면 초기 노출이 한국 구독자에게 가서 둘 다 다친다).
+
+Read (Lazy Load): `prompts/localization.md` (전체 규칙)
+
+1. **입력 확인**: `{P}/_script/script.txt` (원본 대본) + `_script/concept.md`(핵심 메시지·앵글) + `_script/verified-data.md`(수치 검증용) + `{P}/output/03_업로드정보.md`(있으면 — 메타 참고)
+2. **현지화 재창작 (PD 직접 또는 script-writer 호출)**:
+   - script.txt를 문단 단위로 읽고 `localization.md` §1~4 규칙으로 **영어로 다시 쓴다** — 문장 대 문장 번역 금지
+   - Hook·리텐션 문장은 새로 쓴다 / 문화 앵커 교체(수치 검산) / 통화·단위는 단어로 환산 / TTS-safe English
+   - 분량 가이드: 영어판은 한국어판보다 15~25% 길어지는 것이 정상 — 억지로 줄이지 않되, 늘어진 직역 문장은 압축
+3. **TTS 검수**: `prompts/tts-rules.md` 6개조 + `localization.md` §4 기준으로 형식만 정리 (내용 변경 금지). finalize.py는 한국어 대본 파이프라인(draft.md → script.txt) 전용이므로 이 경로에서는 돌리지 않는다
+4. **저장** (기존 한국어 산출물은 **보존** — 덮어쓰지 않는다):
+   - `{P}/_script/script_en.txt` (정본) + `{P}/output/01_대본_EN.txt` (사본)
+   - `{P}/output/02_썸네일제목_EN.md` — 영어 제목 후보 + 썸네일 문구(1~3단어) + 이미지 프롬프트 (원본 02 재활용 가능)
+   - `{P}/output/03_업로드정보_EN.md` — 영어 제목/설명글/태그/고정 댓글 (youtube-meta.md 구조 동일, 출처 섹션은 원본과 동일 링크)
+   - `04_타임스탬프.txt`의 영어판은 만들지 않는다 — 챕터 줄은 `03_업로드정보_EN.md` 설명글 안에만 두고, 실측 교체는 영상 완성 후 timestamp 스킬이 한국어판과 같은 방식으로 처리한다
+5. **완료 보고**: 글자수 + 예상 분량(900자/분) + "해외용은 별도 영어 채널에 올리세요 (한국 채널 재업로드 금지 — 재사용 판정 위험)" 안내
+   - 완성본 아티팩트는 재발행하지 않는다 (한국어판 URL 유지) — 사용자가 따로 요청하면 그때 영어판으로 발행

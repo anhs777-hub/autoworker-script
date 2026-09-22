@@ -9,6 +9,7 @@
 | 사용자가 말하면 | 읽을 파일 | 하는 일 |
 |----------------|-----------|---------|
 | "대본 만들어줘" · "봉봉빙빙" · "이어서 해줘" · "대본 다시 써줘" | `.claude/skills/script-pd/SKILL.md` | 대본 제작 전체 파이프라인 (상태 감지 → 자동 진행) |
+| "이 대본 영어로 만들어줘" · "영어판 뽑아줘" | `.claude/skills/script-pd/SKILL.md` | 완성 대본의 영어 현지화 (LOCALIZE → `_EN` 산출물, 한국어 원본 보존) |
 | "채널 만들어줘" | `.claude/skills/channel-setup/SKILL.md` | 대화형 채널 생성 |
 | "세팅해줘" | `.claude/skills/setup/SKILL.md` | 최초 환경 설정 (폴더 점검 → 가상환경 → yt-dlp → 테스트) |
 | "점검해줘" | `.claude/skills/doctor/SKILL.md` | 설치 상태 진단 — ✅❌ 리포트 (아무것도 수정하지 않음) |

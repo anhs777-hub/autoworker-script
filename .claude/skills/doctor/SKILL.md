@@ -73,6 +73,8 @@ prompts/script-review-checklist.md
 prompts/tts-rules.md
 prompts/thumbnail-design.md
 prompts/youtube-meta.md
+prompts/localization.md
+prompts/output-artifact.md
 scripts/collect.py
 scripts/finalize.py
 scripts/timestamp.py

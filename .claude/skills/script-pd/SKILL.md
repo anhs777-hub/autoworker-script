@@ -18,6 +18,7 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 - **정보원**: 루트 `VERSION` 파일(버전) · `channels/{채널}/config/settings.json`(채널명) · `config/workflow.json`(모드) · `config/profile.md`(팩트체크)
 - 현재 버전은 풀 모드만 제공 → `풀·auto` / `풀·ask`로 표기
 - 팩트체크: profile.md에 끔 설정이 명시돼 있지 않으면 기본 `ON`
+- 채널 언어가 영어면(profile.md `## 언어`) 배너 끝에 ` | 언어: EN` 추가
 - 채널 선택 전이면 채널 항목은 `선택 대기`로 출력하고, 채널 확정 직후 배너를 갱신해 한 번 더 출력
 
 ### 잘못된 폴더 방어
@@ -62,6 +63,7 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 | REVIEW_FINALIZE의 TTS 검수 시 | + `prompts/tts-rules.md` |
 | METADATA 실행 시 | + `prompts/youtube-meta.md` |
 | DONE 실행 시 (아티팩트 발행) | + `prompts/output-artifact.md` + `artifact-design` 스킬 |
+| 채널 언어가 영어(profile.md `## 언어`) 또는 영어판(LOCALIZE) 요청 시 (1회) | + `prompts/localization.md` |
 | 에이전트 호출 직전 (첫 호출 시 1회) | + `prompts/pd-agents.md` |
 
 단계가 바뀌면 이전 단계 파일은 다시 읽지 않는다.
@@ -78,6 +80,7 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 - `channels/` 스캔 (`_`로 시작하는 항목 제외 — 예: `_template.json`)
 - 1개면 자동 선택, 여러 개면 목록에서 선택
 - 로드: `config/settings.json` (id, name) + `config/profile.md` (장르, 톤, 서사 등 채널 성격 전체)
+- profile.md `## 언어`가 영어면 → 이후 전 단계에 `prompts/localization.md` 규칙을 적용한다 (대본·제목·썸네일 문구·설명글·태그가 전부 영어로 나온다)
 
 ### 모드 결정
 `channels/{채널}/config/workflow.json`의 `mode` 값을 그대로 따른다. **묻지 않는다.**
@@ -120,6 +123,12 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 
 ### 부분 재실행
 "대본 다시 써줘" → 해당 산출물 삭제 → 이후 산출물 삭제 여부 확인 → 재실행
+
+### 영어판 요청 (LOCALIZE)
+
+"영어로 만들어줘" · "영어판 뽑아줘" · "해외용으로 바꿔줘" 류 요청:
+- **완성된 대본이 있는 프로젝트**(`script.txt` 존재) → LOCALIZE 플로우 (`prompts/pd-script.md` §LOCALIZE) — 기존 대본을 현지화 재창작해 `_EN` 산출물 생성. 한국에서 검증된 대본을 해외로 내보내는 표준 경로
+- **새 대본 요청 / 영어 채널** → 일반 파이프라인 그대로, 언어만 영어 (`prompts/localization.md` 적용)
 
 ---
 
