@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "food-waste-korea",
+    "titles": [
+      "\"쥐들의 레스토랑\" 유엔과 세계은행이 교재로 만든 한국의 그 습관",
+      "유엔이 사례집을 냈고 세계은행은 강좌로 만들었습니다 한국의 그 습관",
+      "\"쥐들의 레스토랑\" 뉴욕이 2024년에야 뚜껑을 덮은 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"쥐들의 레스토랑\" / 뉴욕 2024 / 서울 1995",
+      "유엔이 교재로 만든 / 한국인의 3초 습관",
+      "매립지 2,600개 / vs / 딱 한 곳"
+    ],
+    "image_concepts": {
+      "A": "좌우 대칭 데자뷔 — 2024년 뉴욕의 봉투 더미와 1995년 서울의 쓰레기 더미가 거의 같은 장면으로 겹친다",
+      "B": "묻을 땅 — 매립지 2,600곳의 나라와 한 곳뿐인 나라의 스케일 대비"
+    },
+    "layout_note": "thumbnail-strategy.json [B] 호재·자부심 규격을 텍스트에 적용(형광 노랑 + 시안 2줄, 초록 인용구 없음). 단 이미지는 emotion_note의 우선순위에 따라 '해외 위기 장면 + 한국 반전 문구' 대비를 싣는다. 해외를 조롱하는 구도·표정은 쓰지 않는다."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A-1. 좌우 분할. 왼쪽은 2024년 뉴욕 브라운스톤 앞 인도에 사람 키만큼 쌓인 검은 쓰레기봉투 더미(야간), 오른쪽은 1995년 서울 대로변에 줄지어 놓인 쓰레기 더미. 두 장면이 놀랄 만큼 닮았다는 것 자체가 훅이다.",
+      "prompt_en": "Photorealistic cinematic split-frame documentary photograph, two street scenes side by side filling the upper half of the frame. On the left, a New York City brownstone sidewalk at night piled shoulder-high with glossy black garbage bags under orange sodium streetlight. On the right, a 1990s Seoul boulevard at dusk lined with an almost identical row of heaped refuse bags and cardboard beside a concrete curb. Deep navy shadows with warm amber highlights, strong side lighting, gritty photojournalistic texture, no people in frame."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A-2. 같은 대칭을 다른 구도로. 뉴욕 인도의 봉투 더미를 낮은 앵글에서 올려다보고, 그 뒤로 맨해튼 스카이라인이 흐리게 선다. 세계에서 가장 부유한 도시의 발밑 장면.",
+      "prompt_en": "Photorealistic cinematic low-angle night photograph looking up at a towering wall of black garbage bags stacked on a Manhattan sidewalk, occupying the upper half of the frame. The blurred Manhattan skyline glows faintly behind them, out of focus. A single overturned metal lid rests against the pile, catching a hard rim of light. Deep blue-black night palette with one sharp red accent from a distant traffic signal, moody dramatic contrast, documentary realism, no people and no legible signage."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B-1. 스케일 대비. 어두운 위성 시점 지도 위에 미국 전역을 뒤덮은 수천 개의 붉은 매립지 표식, 그리고 한반도 수도권에 찍힌 단 하나의 표식.",
+      "prompt_en": "Photorealistic dark satellite-style map visualization filling the upper half of the frame, showing the continental United States densely covered with thousands of small glowing red markers scattered across every state, and beside it the Korean peninsula carrying a single solitary red marker near Incheon. Pure black background, high-contrast landmass edges in cool desaturated grey, intense saturated red marker glow, sharp and simple shapes readable at small size, clean data-visualization aesthetic with cinematic depth."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B-2. 같은 대비를 실제 풍경으로. 왼쪽은 미국의 광활한 평원 매립지, 오른쪽은 아파트 단지에 바짝 붙은 인천 수도권매립지의 흙산 하나. 땅의 여유가 결과를 갈랐다는 것이 한 장에 보인다.",
+      "prompt_en": "Photorealistic aerial documentary photograph split into two halves across the upper frame. On the left, a vast open American landfill stretching to a flat empty horizon with endless bare land around it. On the right, a single earthen landfill mound in Incheon pressed tightly against dense high-rise apartment blocks with no empty land remaining between them. Overcast grey daylight, muted earth tones, strong sense of spatial scarcity on the right and abundance on the left, crisp aerial clarity."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 한국 반전 쪽 장면 — 이른 아침 아파트 분리수거장에서 RFID 음식물 수거함에 카드를 대는 손과 열리는 뚜껑. 유엔이 사례집으로 낸 그 시스템의 실행자는 공무원이 아니라 이 손이다.",
+      "prompt_en": "Photorealistic cinematic close-up of a hand tapping an RFID card against the reader panel of a Korean apartment complex food-waste collection bin, the stainless steel lid lifting open, occupying the upper half of the frame. Clean early-morning daylight with soft blue shadows and a warm highlight on the metal, condensation beading on the bin surface. Bright high-key palette, shallow depth of field, ordinary everyday realism rendered with quiet dignity, no face visible and no legible text on the machine."
+    }
+  ]
+}
