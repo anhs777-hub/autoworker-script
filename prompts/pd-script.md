@@ -333,6 +333,26 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
   2. **전체 합계 초과(115%↑)**: 초과 기여가 큰 파트를 압축 재작성 (중복·필러 제거 우선)
   3. merge_draft.py 재실행 → validate_draft.py 재검증 (1회)
 
+### 문체 린터 게이트 (REVIEW 전 필수)
+
+```bash
+{VENV_PYTHON} scripts/src/style_lint.py {S}/draft.md --channel {채널}
+```
+
+금지 표현·반복 상투구·문단 첫머리 지시대명사를 기계로 잡는다.
+규칙의 정본은 `channels/{채널}/config/style-ban.json`이다 (없으면 스크립트 내장 기본값).
+
+- **exit 0** → REVIEW 진행
+- **exit 1** → **PD가 직접 해당 줄만 고친다.** script-writer를 다시 부르지 않는다 (표현 치환이라 통짜 재집필이 필요 없다)
+  - `[금지]` — 그 표현을 쓰지 않는다. 출력의 `조치` 문구대로 **실제 수치·사실로 바꾼다**
+  - `[초과]` — 상한을 넘은 횟수만큼 다른 표현으로 바꾼다. 정상 한국어지만 매 대본에 나오면 상투구가 된다
+  - `[확인]` — 기계가 판정할 수 없는 항목이다. PD가 문맥을 보고 판단하고, 고치지 않기로 했으면 그 이유를 한 줄로 남긴다
+  - 고친 뒤 **린터를 다시 돌려 exit 0을 확인**한다. 치환 과정에서 다른 금지어가 새로 들어가는 일이 잦다
+- 린터 결과 요약은 reviewer에게 함께 전달한다 — **reviewer는 문체 표현을 재검사하지 않는다**
+
+> 이 게이트가 있는 이유: `profile.md`에 이미 금지로 적힌 `청구서`·`계산서`가 기존 대본 15편 중
+> 10회 출현했다. **산문 규칙만으로는 지켜지지 않는다는 것이 실측으로 확인됐다.**
+
 ---
 
 ## REVIEW_FINALIZE
@@ -340,7 +360,7 @@ script-writer는 **레퍼런스 문장을 한 번도 본 적 없는 컨텍스트
 **검수 + 확정. 에이전트: script-reviewer(verdict 권한 + 신규 주장 WebSearch 검증). 검수는 최종 1회만 — TTS 비용 발생 전 마지막 게이트.**
 
 1. **script-reviewer 에이전트 호출:**
-   - 전달: `_script/draft.md` + `_script/outline.md` + `_script/concept.md` + `_script/verified-data.md` + `prompts/script-review-checklist.md` + 분량 린터 결과(validate_draft 출력 요약 — reviewer는 분량 재검사 안 함) (+ 영어 채널이면 `prompts/localization.md` — §7 검수 관점 적용)
+   - 전달: `_script/draft.md` + `_script/outline.md` + `_script/concept.md` + `_script/verified-data.md` + `prompts/script-review-checklist.md` + 분량 린터 결과(validate_draft 출력 요약 — reviewer는 분량 재검사 안 함) + 문체 린터 결과(style_lint 출력 요약 — reviewer는 문체 표현 재검사 안 함) (+ 영어 채널이면 `prompts/localization.md` — §7 검수 관점 적용)
    - 출력: `{P}/_script/review.md` (체크리스트 + 심각도 분류 + 신규 주장 검증 결과 + verdict + **품질 점수표**)
    - reviewer가 신규 주장을 식별하면 즉시 WebSearch로 검증하여 review.md에 포함
    - **품질 점수(86점) 채점은 필수다** — 체크리스트 7번. `concept.md`의 「소재 사전 채점」(14점)을

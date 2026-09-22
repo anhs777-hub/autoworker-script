@@ -157,8 +157,8 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 | DATA_PREP | patterns.md, factcheck.md, verified-data.md | data-researcher 백그라운드 + PD 직접 패턴 추출 | researcher 먼저 발사 |
 | STRATEGY | concept.md + hook-intro.md + thumbnail-prompts.json | PD 직접 (5-Phase, 핵심 메시지 포함) | auto→자체 확정+프롬프트, ask→사용자 선택 |
 | OUTLINE | outline.md | 오케스트레이터 직접 (셀프체크 10항목 + 데이터 갭 보충 리서치) | 확인 없이 DRAFT 자동 진행 |
-| DRAFT | draft.md | script-writer 1개 순차 통짜 집필 (클린 컨텍스트) + merge_draft.py | 조립 + hook diff 리포트 → 분량 밴드 검증 |
-| REVIEW_FINALIZE | script.txt (+output/01_대본.txt 사본) | 분량 밴드 린터 → reviewer(verdict 권한 + WebSearch 검증) → finalize.py(6개조 기계 보정) → TTS 검수 | 검수는 최종 1회만 |
+| DRAFT | draft.md | script-writer 1개 순차 통짜 집필 (클린 컨텍스트) + merge_draft.py | 조립 + hook diff 리포트 → 분량 밴드 검증 → **문체 린터**(`style_lint.py`, 금지어·상투구) |
+| REVIEW_FINALIZE | script.txt (+output/01_대본.txt 사본) | 분량 밴드 린터 → 문체 린터 → reviewer(verdict 권한 + WebSearch 검증) → finalize.py(6개조 기계 보정) → TTS 검수 | 검수는 최종 1회만 |
 | METADATA | output/02_썸네일제목.md, 03_업로드정보.md, 04_타임스탬프.txt | PD 직접 (경량 — `prompts/youtube-meta.md`) | 02: 제목 후보·썸네일 문구·프롬프트 / 03: 제목·설명·태그 + 🔗 주요 출처 최대 4개 / 04: 03의 챕터 줄만 복사용으로 (04가 마지막 저장) |
 
 ---

@@ -65,7 +65,7 @@ OS별 셸 명령(`mv`, `rm -r`, `mkdir -p` 등)은 크로스 플랫폼 호환이
 
 ## 구조 요약
 
-- `channels/{채널}/config/` — 채널 설정 (`profile.md`가 채널 성격의 정본)
+- `channels/{채널}/config/` — 채널 설정 (`profile.md`가 채널 성격의 정본, `style-ban.json`이 문체 검사 규칙의 정본)
 - `channels/{채널}/projects/{프로젝트}/` — 작업 폴더 (`_refs/` 수집 · `_script/` 대본 · `output/` 최종)
 - `prompts/` — 파이프라인 프롬프트 · `scripts/` — Python 도구 · `.claude/` — 스킬·에이전트 정의
 - 상세 구조와 사용법은 `README.md` 참조
