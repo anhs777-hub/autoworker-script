@@ -230,23 +230,29 @@
 
 ---
 
-## 확인 실패 / 보강 필요 (2026-09-23 2차)
+## 확인 실패 / 보강 필요 (2026-09-23 3차 조사로 갱신 완료)
 
 | # | 항목 | 상태 | 비고 |
 |---|---|---|---|
 | ① | 미국 최신 시점 생존율 | ✅ **해소** | **SEER 2015~2021** 병기별 확보 (2-3번). 국한 75% / 국소진행 35~37.9% / 원격 6~7% |
 | ② | **1막의 「장면」** | ✅ **해소** | 실명 환자 2명 확보 (2-2번). MD Anderson 출처 |
-| ③ | 해외 의료진 ESD·위암수술 연수 | ⚠️ **미해소** | 일반 의료연수만 확인. **위암 특정 출처 없으면 9번을 빼거나 표현을 낮춘다** |
-| ④ | 수검률 64.6% vs 77.4% | ⚠️ **미해소** | 조사 주체·기준 확인 후 하나로 통일 |
+| ③ | 해외 의료진 ESD·위암수술 연수 | ⛔ **없음으로 확정** | **위암·ESD 특정 제3자 1차 출처 없음.** 병원 자체 홈페이지 자기 진술만 존재 → **9번 문단을 삭제한다.** 대체재는 「추가 리서치 C. 제3자 권위 인용거리」가 훨씬 강하다 |
+| ④ | 수검률 64.6% vs 77.4% | ✅ **해소** | **조사 주체·기준·연도가 전부 다르다.** 64.6%=건보공단 2023 국가암검진 / 77.4%=국립암센터 2024 수검행태조사(민간검진 포함). **77.4%를 쓰고 기준을 한 번 밝힌다** → 추가 리서치 B |
 | ⑤ | 위내시경 47% vs 49% | ✅ **해소** | **47%가 정본** — Gastroenterology(2017), 1,658만 명 코호트. 정기 검진 시 **81%** |
-| **⑥** | **한국의 병기별 생존율** | ❓ **신규** | 미국 SEER 병기별(국한 75%)과 같은 줄에 놓으려면 필요. **없으면 병기별 비교를 하지 않는다** |
-| **⑦** | 2026년 위암 검진 기준 변경 | ❓ **신규** | 「위장조영술 대신 위내시경, 10년 만에 기준 변경」(2026-06 보도)이 2018년 변경과 별개인지 |
-| **⑧** | 「3년 이내 간격 검진 사망률 29%↓」 | ❓ **신규** | 2026-04 보도. 최신 후속 연구로 보임 — 원 논문 확인 |
-| ⑨ | 일본·중국 최신 시점 생존율 | ❓ | CONCORD-3(2000~2014)이 유일. 못 구하면 **시점을 명시하고 쓴다** |
+| **⑥** | **한국의 병기별 생존율** | ✅ **해소** | **국한 97.6% / 국소 62.2% / 원격 7.5%** (국가암등록, 2019~2023, 5년 상대생존율). SEER과 **같은 지표**라 비교 가능. ⚠️ 관측기간·병기 구성 차이 해명 필요 → 추가 리서치 A |
+| **⑦** | 2026년 위암 검진 기준 변경 | ✅ **해소** | **2018년과 별개 사안.** 2026-06-24 국립암센터·학회의 **검진 권고안** 개정(2015년판 이후 10년 만), 위장조영술을 1차 검진법에서 제외 → 추가 리서치 B |
+| **⑧** | 「3년 이내 간격 검진 사망률 29%↓」 | ✅ **해소** | ***Gastrointestinal Endoscopy*** 게재. 최현호·성수윤 교수, NHIS 위암 환자 **26,199명**, HR 0.71. **2017년 47% 연구와 별개** → 추가 리서치 B |
+| ⑨ | 일본·중국 최신 시점 생존율 | ⚠️ **부분 해소 — 비교표는 CONCORD-3 유지** | 일본은 **2016년 진단자 5년 순생존율 64.0%**(연령조정 67.3%) 확보. 그러나 **한국의 동일 시점 값이 없어 같은 줄에 못 놓는다.** 중국은 전국 인구기반 자료 없음. → **국가 간 대비표는 CONCORD-3(2000~2014) 하나로, 시점을 명시하고 쓴다** |
 
 ### 판정
-**1막·4막의 핵심은 전부 확보됐다.** 남은 것은 ⑥⑦⑧(정밀도)과 ③④(부차적)이다.
-**⑥이 안 되면 병기별 비교를 접고 전체 생존율 대비(68.9% vs 33.1%)만 쓴다** — 그것만으로도 대비는 선다.
+**갭 6건 중 5건 해소, 1건(③) 「없음」으로 확정.** 병기별 비교가 열렸고(⑥), 최신 제도 변경과 최신 논문(⑦⑧)이 붙었다.
+**⑨만 종전대로** — 국가 간 대비표는 CONCORD-3 하나로 세우고 시점을 못 박는다.
+
+> ⚠️ **1차 리서치 본문 중 교정이 필요한 곳 1건**
+> **7번의 「국내외 위암 수술 가이드라인에 등재됐다」 → 사실과 다르다.**
+> 일본 위암치료 가이드라인 2021(6판)은 cStage II/III 복강경 수술에 **「명확한 권고를 제시할 수 없다」(근거수준 C)**고 적었고,
+> KLASS-02는 **근거 문헌으로 인용**됐을 뿐이다. 한국 권고안 2024는 진행성 위암에도 권고했다.
+> **「세계 표준이 됐다」 표현을 대본에서 쓰지 않는다.** 정확한 대체 문장은 추가 리서치 D 참조.
 
 ## 주요 출처
 
@@ -261,3 +267,173 @@
 - **MD Anderson Cancer Center** — 'How I knew I had stomach cancer': Six survivors share their symptoms
 - **Gastroenterology (2017)** — 국가암검진 위내시경의 위암 사망위험 감소 (전재관·최귀선·박은철)
 - 대한소화기내시경학회 ESD 연구회 · 대한복강경위장관연구회(KLASS)
+
+**3차 조사 추가분 (2026-09-23)**
+
+- **국가암정보센터** — 「주요 암종 요약병기별 5년 상대생존율: 남녀전체, 2019-2023」, https://cancer.go.kr/lay1/S1T648C652/contents.do
+- **아시아경제** — 「위암 국가검진 시 '위내시경' 우선…10년 만에 권고안 개정」(2026-06-24), https://view.asiae.co.kr/article/2026062416374198714
+- **메디칼업저버** — 「위암 내시경 검진 '3년 이내' 간격 시 사망 위험 감소」, https://www.monews.co.kr/news/articleView.html?idxno=410478
+- **Gastrointestinal Endoscopy (2026)** — 위내시경 검진 간격별 위암 사망위험 (최현호·성수윤, NHIS 26,199명)
+- **국민건강보험공단** — 『2023 건강검진통계연보』(2024-12-31 배포)
+- **국립암센터** — 『암검진 수검행태조사』(2024), https://www.cancerdata.re.kr/surveillance/data?menuId=36
+- **후생노동성(일본)** — 「2016년 전국암등록 5년 생존율 보고 / CANCER SURVIVAL OF JAPAN 2016」(2026-01-14), https://www.mhlw.go.jp/content/10901000/001630334.pdf
+- **Journal of Clinical Oncology (2020)** — KLASS-02-RCT 장기 결과, https://ascopubs.org/doi/10.1200/JCO.20.01210
+- **JAMA Surgery (2022)** — KLASS-02 5년 결과, https://jamanetwork.com/journals/jamasurgery/fullarticle/2794452
+- **JAMA Surgery (2022) 초청 논평** — 「Bigger May Not Be Better—Implications of Long-term Results From KLASS-02」 (MSKCC), https://jamanetwork.com/journals/jamasurgery/article-abstract/2794458
+- **Gastric Cancer (2023)** — Japanese Gastric Cancer Treatment Guidelines 2021 (6th edition), https://pmc.ncbi.nlm.nih.gov/articles/PMC9813208/
+- **Journal of Gastric Cancer (2025)** — Korean Practice Guidelines for Gastric Cancer 2024, https://jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11
+- **DEN Open (2025)** — Current Status of Gastric Cancer Screening and Future Perspectives, https://pmc.ncbi.nlm.nih.gov/articles/PMC12106035/
+- **Korean J Helicobacter Up Gastrointest Res (2024)** — Stomach Cancer Screening in Japan and Korea, https://pmc.ncbi.nlm.nih.gov/articles/PMC11967706/
+- **Gastroenterology (2025)** — Recent US Gastric Cancer Prevention Recommendations, https://pmc.ncbi.nlm.nih.gov/articles/PMC12550653/
+- **Chinese Journal of Cancer Research (2025)** — KLASS-02 + CLASS-01 개별환자데이터 메타분석, https://pmc.ncbi.nlm.nih.gov/articles/PMC12240251/
+
+---
+
+## 추가 리서치
+
+> 리서치일: 2026-09-23 · 갭 6건 추적 + 신규 3건 · 상세 검증 기록은 `factcheck.md`
+> **여기 있는 데이터는 전부 신규(non-ref)다.** 집필 시 우선 사용한다.
+
+### A. ⭐⭐ 한국 병기별 생존율 — 미국과 같은 줄에 놓을 수 있게 됐다 (갭 ⑥ 해소)
+
+**한국 위암 요약병기별 5년 상대생존율 (2019~2023 진단자)**
+
+| 병기 | 환자 분율 | 한국 5년 상대생존율 | 미국(SEER 2015~2021) |
+|---|---:|---:|---:|
+| **국한(localized)** | **65.3%** | **97.6%** | 75% |
+| 국소(regional) | 18.8% | 62.2% | 35~37.9% |
+| **원격(distant)** | **10.7%** | **7.5%** | 6~7% |
+| 모름 | 5.1% | 47.1% | — |
+
+- 출처: 국가암정보센터 — 「주요 암종 요약병기별 5년 상대생존율: 남녀전체, 2019-2023」, https://cancer.go.kr/lay1/S1T648C652/contents.do
+- 교차검증: 국한 **97.0%** / 국소 62.1% / 원격 6.4% (출처: *Epidemiology of Gastric Cancer in Korea (1999–2022)*, https://pmc.ncbi.nlm.nih.gov/articles/PMC12802026/)
+- 같은 논문: 수술받은 환자 중 **조기위암 비율 1995년 28.6% → 2023년 63.1%**
+
+> ✅ **지표가 같다.** 양쪽 모두 요약병기 기준 **5년 상대생존율**이다.
+> ⚠️ **관측기간이 다르다** — 미국 2015~2021 vs 한국 2019~2023. **두 시점을 반드시 함께 말한다.**
+>
+> ⚠️ **이 숫자가 기획의 논리를 한 번 흔든다.** 국한 병기끼리 비교해도 **97.6% vs 75%**로 벌어진다.
+> 「발견 시점의 차이가 전부다」로 단정하면 이 숫자가 반례가 된다.
+> → **대본 처방: 「일찍 찾고, 일찍 찾은 것을 잘 떼어낸다」 두 축으로 쓴다.**
+> 그리고 **한국의 「국한」에는 ESD로 벗겨내는 점막암이 많이 들어 있다**는 사실을 한 문장으로 밝힌다
+> (「비교 조건 해명 문단」에 넣을 재료다. 밝히고 쓰면 강해지고, 숨기면 반박당한다).
+>
+> 🎯 **체감 환산**: 국한 병기 환자가 **전체의 65.3%**다. **한국 위암 환자 셋 중 둘은 국한 단계에서 발견된다.**
+
+### B. 제도·최신 연구 — 갱신 (갭 ④⑦⑧ 해소)
+
+**⑦ 2026년 검진 권고안 개정 — 2018년과 별개 사안이다**
+
+- **2026년 6월 24일**, 국립암센터가 대한가정의학회·대한내과학회·대한간암학회 등과 **GRADE 방법론**을 적용해 국가 **위암·간암 검진 권고안**을 개정했다. 「이번 개정은 **2015년 이후 10년 만**이다」 (출처: 아시아경제 — 「위암 국가검진 시 '위내시경' 우선…10년 만에 권고안 개정」(2026-06-24), https://view.asiae.co.kr/article/2026062416374198714)
+- 변경 내용: 기존 「위내시경 우선 권고 + 위장조영 선택적 고려」 → **「2년 간격 위내시경 단독 1차 검진법」** (출처: 〃)
+- 변경 사유: 「위내시경이 위장조영 검사보다 **위암 사망률 감소 효과와 진단 정확도** 측면에서 우수한 것으로 판단」 (출처: 〃)
+- 검진 연령 **40~74세 유지.** 75세 이상은 의료진 상담 후 개별 결정 (출처: 〃)
+- 같은 개정에서 간암: 간경변증 환자와 40세 이상 만성 B·C형 간염 환자에게 간초음파+AFP **6개월마다** (출처: 〃)
+
+> ⛔ **두 사안을 구분한다.** **2018년** = 국가암검진**사업**에서 내시경을 기본 검사로 전환 / **2026년 6월** = **검진 권고안**(학술 지침) 개정, 2015년판 이후 10년 만, 위장조영술을 1차 검진법에서 제외.
+> **「10년 만」은 2015년 권고안 기준이다.** 2018년과 엮으면 틀린다.
+
+**⑧ 검진 간격 연구 — 2017년 47% 연구와 별개 논문이다**
+
+- 위내시경 검진을 **3년 이내 간격**으로 받은 군은 3년 초과 군 대비 위암 사망 위험 **약 29% 낮았다 (HR 0.71)** (출처: 메디칼업저버 — 「위암 내시경 검진 '3년 이내' 간격 시 사망 위험 감소」, https://www.monews.co.kr/news/articleView.html?idxno=410478)
+- 연구진: **최현호** 교수(가톨릭의대 의정부성모병원 소화기내과)·**성수윤** 교수(서울성모병원 방사선종양학과) (출처: 〃)
+- 자료원·규모: **국민건강보험공단(NHIS)** 자료, 위암 환자 **26,199명**. 검진 간격 1·2·3·4·5년 이하/초과·미검진군으로 분류 (출처: 〃)
+- **2년과 3년 간격 사이에는 사망률 차이가 관찰되지 않았다** (출처: 〃)
+- 게재: 미국소화기내시경학회 학술지 ***Gastrointestinal Endoscopy*** (출처: 〃)
+
+> 🎯 **대본 활용**: 「2년마다 오라는 그 문자 한 통」이 왜 2년인지를 받쳐준다.
+> **「2년과 3년은 차이가 없었다」까지 말해야 정직하다** — 「인과를 한 단계 낮춰 쓴다」에 맞는 서술이다.
+> ⚠️ **47%(방법 비교)와 29%(간격 비교)는 다른 연구다.** 같은 문단에서 이어 붙이지 않는다.
+
+**④ 수검률 — 77.4%를 쓰고 기준을 밝힌다**
+
+| | 64.6% | 77.4% |
+|---|---|---|
+| 조사 주체 | **국민건강보험공단** | **국립암센터** |
+| 자료 | 『2023 건강검진통계연보』 | 『암검진 수검행태조사』(2004년부터 매년) |
+| 연도 | 2023년 | **2024년** |
+| 정의 | 국가암검진사업 **대상자 중 그 사업을 통해** 받은 비율 | 40~74세 중 최근 2년 내 위내시경 또는 위장조영술 수검 분율 (**민간검진 포함**) |
+| 함께 발표된 값 | 전체 암검진 59.8% · 간암 76.1% · 유방암 65.1% | 전체 70.2% · 대장암 74.4% · 유방암 70.6% · 자궁경부암 62.0% |
+
+- 출처(64.6%): 국민건강보험공단 『2023 건강검진통계연보』(2024-12-31 배포). 추이 — 2021년 62.6% → 2022년 62.3% → 2023년 64.6% (e-나라지표, https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1440)
+- 출처(77.4%): 국립암센터 『암검진 수검행태조사』(2024), https://www.cancerdata.re.kr/surveillance/data?menuId=36
+
+> 🎯 **77.4%를 쓴다.** 더 최신이고, 시청자가 실제로 받는 검진 전체를 담아 체감과 맞고, 「암종 중 1위」 서사가 선다.
+> **두 숫자를 한 대본에 함께 쓰지 않는다.** 쓸 때는 「국립암센터가 2024년에 조사한, 최근 2년 안에 위 검사를 받은 사람의 비율」이라고 기준을 한 번 밝힌다.
+
+**⑨ 일본의 최신 값 — 비교표에는 넣지 않는다**
+
+- 일본 위암 **5년 순생존율, 2016년 진단자: 64.0%** / 국제비교용 연령조정 **67.3%** / 限局 **90.8%** · 遠隔 **6.0%** (출처: 후생노동성 「2016년 전국암등록 생존율 보고」 2026-01-14 발표, https://www.mhlw.go.jp/content/10901000/001630334.pdf · 케어넷 보도, https://www.carenet.com/news/general/carenet/62139)
+- 중국: **CONCORD-3 이후 전국 인구기반 자료를 찾지 못했다.** 병원기반(국가암센터 수술환자 2011~2018)·지역기반(샤먼시 2016~2020 연령보정 30.03%) 자료만 존재
+
+> ⛔ **국가 간 대비표는 CONCORD-3(2000~2014 진단, 순생존율) 하나로만 세우고 시점을 명시한다.**
+> 일본의 2016년 값은 지표가 같지만 **한국의 동일 시점 값이 없어** 같은 줄에 못 놓는다.
+> 중국 병원기반 수치를 CONCORD-3의 35.9%와 나란히 놓는 것은 **이 장르 최대의 사고 유형**이다.
+
+### C. ⭐⭐ 제3자 권위 인용거리 — 화자가 한 마디도 보탤 필요 없는 문장들
+
+> 레퍼런스 001의 성공 엔진이 「헤드라인을 통째로 인용하고 평가를 붙이지 않는다」였다.
+> 아래는 **원문 그대로**다. 요약하지 말고 따옴표째 쓴다.
+
+- ⭐ **"Japan and South Korea are ranked second and third, respectively, in terms of incidence but 38th and 64th, respectively, in terms of mortality. … These two countries are unique in that they have organized nationwide GC screening programs."**
+  — **일본 연구진**(Kitasato University 등) (출처: *DEN Open*, 「Current Status of Gastric Cancer Screening and Future Perspectives」(2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12106035/)
+- ⭐ **"5-year net survival rate for GC is generally <35% (including wealthy countries in North America and Western Europe), but it is >60% in Japan and South Korea."**
+  — 〃 (출처: 〃)
+- **"Korea has an effective gastric cancer screening system."** / **"5-year survival rates for gastric cancer has increased owing to the NCSP-GC."** / "the proportion of gastric cancers diagnosed in earlier stages … has increased after implementation of the National Cancer Screening Program"
+  — **일본 연구자 Hidekazu Suzuki**(Tokai University School of Medicine) (출처: *Korean J Helicobacter Up Gastrointest Res*(2024), 「Stomach Cancer Screening in Japan and Korea」, https://pmc.ncbi.nlm.nih.gov/articles/PMC11967706/)
+- ⭐ **"The investigators previously reported that laparoscopic distal gastrectomy was noninferior regarding the primary end point of 3-year recurrence-free survival, and now show that 5-year overall survival is also similar, but that long-term morbidity is significantly lower in the laparoscopic group."**
+  — **미국 Memorial Sloan Kettering Cancer Center** 연구진(George Z. Li · Shoji Shimada · Vivian E. Strong)이 KLASS-02를 평가한 **초청 논평** (출처: *JAMA Surgery*(2022), 「Bigger May Not Be Better—Implications of Long-term Results From KLASS-02」, https://jamanetwork.com/journals/jamasurgery/article-abstract/2794458)
+- **"established screening programs in Japan and South Korea"** / "as observed following the introduction of Korea's national screening program"
+  — **미국 Columbia University · Harvard Medical School · MSKCC 연구진** (출처: *Gastroenterology*(2025), 「Recent US Gastric Cancer Prevention Recommendations」, https://pmc.ncbi.nlm.nih.gov/articles/PMC12550653/)
+- (보조) 미국소화기학회(AGA)가 2025년 위암 검진·감시 임상진료 업데이트에서 **미국 내 검진 시작 연령을 논하며 한국(40세 이상)·일본(40~50세) 기준을 참조**했다 (출처: *Gastroenterology*(2025), AGA Clinical Practice Update on Screening and Surveillance in Individuals at Increased Risk for Gastric Cancer in the United States) — ⚠️ **2차 출처 경유. 원문 직접 확인 실패. 대본에 쓰려면 한 번 더 확인할 것**
+
+> 🎯 **첫 인용문이 이 대본의 최고 무기다.** 「발생률 3위, 사망률 64위」 — **일본 연구자가 쓴 문장**이다.
+> ⚠️ 단, **한국·일본의 발생률-사망률 순위 격차를 말하는 데까지만** 쓴다.
+> 이걸 「한국 위암 사망률이 미국보다 낮다」로 굴리면 11번의 ⛔ 규칙에 걸린다.
+>
+> 🎯 **MSKCC 논평은 KLASS 블록의 착지다.** 미국 최고 암센터가 한국 연구를 평가한 문장이므로,
+> **인용하고 넘어가면 된다.** 화자가 "세계가 인정했다"고 덧붙이는 순간 힘이 빠진다.
+
+### D. ⭐⭐ KLASS-02 정밀 수치와 「세계 표준」 표현의 교정
+
+**KLASS-02 결과 — 숫자가 스스로 말하게 둔다**
+
+| 항목 | 복강경 | 개복 | 통계 |
+|---|---:|---:|---|
+| **3년 무재발생존율** (1차 평가변수) | **80.3%** (95% CI 76.0–85.0) | **81.3%** (95% CI 77.0–85.0) | log-rank P=.726 |
+| 5년 전체생존율 | 88.9% (86.0–91.8) | 88.7% (85.8–91.6) | 차이 없음 |
+| 5년 무재발생존율 | 79.5% (75.9–83.2) | 81.1% (77.7–84.8) | 차이 없음 |
+| **단기(전체) 합병증** | **16.6%** | **24.1%** | — |
+| **후기 합병증**(21일 이후) | **6.5%** (32/492) | **11.0%** (53/482) | **P=.01** |
+| 장폐색 | 2.6% (13/492) | 5.0% (24/482) | — |
+
+- 비열등성 검정: HR **1.035** (95% CI 0.762–1.406), **비열등성 마진 HR 상한 1.43**, P for noninferiority **=.039** (출처: *Journal of Clinical Oncology*(2020), KLASS-02-RCT, https://ascopubs.org/doi/10.1200/JCO.20.01210)
+- 규모: 무작위배정 **1,050명** / 5년 분석 대상(R0 절제) **974명**(복강경 492·개복 482), **14개 기관**. 5년 결과 제1저자 **손상용(Sang-Yong Son)** (출처: *JAMA Surgery*(2022), https://jamanetwork.com/journals/jamasurgery/fullarticle/2794452)
+- 결론 원문: **"The 5-year outcomes of the KLASS-02 trial support the 3-year results, which is the noninferiority of laparoscopic surgery compared with open gastrectomy for locally AGC."** (출처: 〃)
+- 후속 메타분석(KLASS-02 + 중국 CLASS-01, 개별환자데이터): 5년 OS 82.7% vs 83.3%(P=0.706), 5년 RFS 76.9% vs 77.9%(P=0.666), 중앙 추적 70개월. ⚠️ **pT4 환자에서는 복강경이 RFS 열세** (출처: *Chinese Journal of Cancer Research*(2025-06), https://pmc.ncbi.nlm.nih.gov/articles/PMC12240251/)
+
+> 🎯 **대본에 쓸 한 줄**: 「5년을 따라가 보니 생존율은 같았고, 합병증은 개복 11.0%, 복강경 6.5%였습니다.」
+> ⚠️ **pT4 하위군 열세**가 있으므로 「진행성 위암엔 복강경이 낫다」로 쓰면 틀린다. 「생존은 같고 몸은 덜 상했다」까지다.
+
+**⛔ 「세계 표준이 됐다」·「가이드라인에 등재됐다」를 쓰지 않는다 — 확인된 사실은 여기까지다**
+
+- **일본 위암치료 가이드라인 2021(6판), cStage I**: **"Laparoscopic distal gastrectomy for cStage I gastric cancer is strongly recommended"** — 강한 권고, **근거수준 A** (출처: *Gastric Cancer*(2023), https://pmc.ncbi.nlm.nih.gov/articles/PMC9813208/)
+- **일본 가이드라인 2021(6판), cStage II/III(진행성)**: **"Clear recommendations cannot be provided for laparoscopic surgery for cStage II/III gastric cancer"** — **근거수준 C** (출처: 〃)
+- 같은 가이드라인의 KLASS-02 언급: **"Large-scale, randomized, clinical trials confirming safety and long-term survival of laparoscopic distal gastrectomy have been conducted in Japan, Korea, and China (JLSSG0901, KLASS-02, CLASS-01)."** — CLASS-01·KLASS-02에서 전체생존 비열등성이 확인됐다고 서술 (출처: 〃)
+- **한국 위암 진료 권고안 2024(5판)**: 「Laparoscopic distal gastrectomy (LDG) as well as open distal gastrectomy (ODG) **can be recommended for locally advanced gastric cancers** for comparable survival outcomes」 — KLASS-02·CLASS-01·JLSSG0901 메타분석이 근거, GRADE 방법론 적용 (출처: *Korean Practice Guidelines for Gastric Cancer 2024*, https://jgc-online.org/DOIx.php?id=10.5230%2Fjgc.2025.25.e11)
+- **NCCN 위암 가이드라인**: **원문 확인 실패.** 「2021년판이 국소진행성 위암에 복강경을 권고했다」는 서술은 리뷰 논문의 2차 전언이다 → **대본에서 NCCN을 언급하지 않는다**
+
+> 🎯 **대본 처방 — 이 표현으로 쓴다**
+> 「한국에서 나온 이 연구는 지금 **일본 위암치료 가이드라인의 근거 문헌 목록에** 올라가 있습니다.
+> 그리고 **한국 진료 권고안은 2024년에 진행성 위암에도 복강경 수술을 권고**했어요.」
+> **「인용됐다」와 「권고됐다」는 다르다.** 이 구분을 지키면 반박당하지 않고, 어기면 한 줄로 무너진다.
+> 대신 **C의 MSKCC 논평 인용**이 「세계가 봤다」를 대신한다 — 그쪽이 훨씬 세다.
+
+### E. ⛔ 삭제 확정 — 「해외가 배우러 온다」 문단 (갭 ③)
+
+- **위암·ESD를 특정해 「해외 의료진이 배우러 온다」고 말한 제3자 1차 출처를 찾지 못했다.** (검색 결과 없음)
+- 세브란스병원 영문 페이지의 "dozens of doctors visit our hospital every year to learn the surgical techniques" / 위암 로봇수술 연 140건 이상은 **병원의 자기 진술**이다 (출처: https://sev.severance.healthcare/sev-en/department/department/gastrointestinal-surgery.do)
+- Severance International Fellowship, 대한소화기내시경학회 IDEN 학술대회(2011년부터, 라이브 내시경 시연 포함) — **둘 다 위암 특정이 아니다**
+
+> ⛔ **채널 규칙 「자부심은 제3자의 입을 빌린다」에 따라, 병원 자체 홈페이지는 근거가 아니다.**
+> 본문 9번(몽골 연수 등)과 함께 **이 문단을 통째로 뺀다.** 자리는 C의 인용문들이 대신 채운다.
