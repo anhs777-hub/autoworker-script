@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "australia-car",
+    "titles": [
+      "자동차를 끝낸 호주, 그 도로 5위 안에 한국 브랜드가 둘인 이유",
+      "호주는 차를 끝냈고 한국은 세계 3위, 갈린 건 공장 주인이었다",
+      "69년 만에 차를 끝낸 호주, 포니의 한국은 왜 살아남았나"
+    ],
+    "thumbnail_texts": [
+      "\"69년 만에 마지막 차\" / 그 도로를 한국 차가 달린다",
+      "\"결정은 디트로이트가 했다\" / 공장 주인이 운명을 갈랐다",
+      "기아 4위·현대 5위 / 차를 끝낸 나라의 도로"
+    ],
+    "image_concepts": {
+      "A": "멈춘 차와 달리는 차 — 텅 빈 조립라인 끝의 빨간 마지막 코모도어 vs 햇빛 호주 해안도로를 달리는 현대·기아 SUV (좌우 분할)",
+      "B": "두 개의 빨간 차 — 1970년대 수출 부두의 빨간 포니(흑백 속 빨강) → 박물관 스포트라이트 아래 멈춘 빨간 코모도어 (Before→After)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 화면을 좌우로 나눠 왼쪽은 불 꺼진 호주 자동차 공장 조립라인 끝에 홀로 선 빨간 홀든 코모도어 세단, 오른쪽은 햇빛 가득한 호주 해안도로를 달리는 현대·기아 SUV.",
+      "prompt_en": "Photorealistic cinematic split-screen image. On the left half, a single red 2017 Holden VF Commodore sedan stands alone at the end of a dim, empty Australian car assembly line, cold grey industrial lighting, idle robot arms and hanging chains, the red car the only saturated color. On the right half, a modern Hyundai SUV and a Kia SUV drive along a sunlit Australian coastal highway under a vivid blue sky, golden warm light, eucalyptus trees and ocean in the background. A sharp vertical divide between the dead factory and the living road, strong contrast between desaturated left and high-saturation right, both vehicles large and clearly readable."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 로우앵글로 잡은 빨간 마지막 코모도어가 전경에 크게, 공장 창밖(배경)으로 도로를 달리는 현대·기아 차량 행렬이 햇빛 속에 보이는 원근 대비.",
+      "prompt_en": "Photorealistic dramatic low-angle shot of a red Holden Commodore sedan parked alone inside a closed, dusty Australian car factory, large in the upper frame, rim-lit by a single shaft of light. Through huge factory windows behind it, a bright sunlit highway is visible where a stream of Hyundai and Kia cars drives past. Moody dark interior versus glowing bright exterior, sense of an ending inside and life outside, cinematic depth of field, high contrast, the red car and the bright window clearly separated."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 흑백 톤의 1970년대 한국 부두에서 빨간 현대 포니 해치백 몇 대가 수출선에 오르는 장면. 차만 선명한 빨강.",
+      "prompt_en": "Photorealistic 1970s documentary-style image of a Korean harbor, black and white film grain, a row of small boxy Hyundai Pony hatchbacks being driven up a ramp onto a cargo ship for export, dock workers and cranes in the background. Selective color: only the Hyundai Pony cars are vivid red, everything else is monochrome. Wide composition with the cars and ship bow filling the upper half, nostalgic but hopeful atmosphere, strong sense of departure."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 왼쪽 흑백 부두의 빨간 포니, 오른쪽 어두운 박물관 스포트라이트 아래 멈춰 선 빨간 코모도어 — 두 빨간 차의 출발과 끝.",
+      "prompt_en": "Photorealistic split composition. Left: a vintage red Hyundai Pony hatchback on a 1970s Korean export dock in black-and-white with only the car in red, sunlight and motion. Right: a red Holden Commodore sedan displayed motionless under a single museum spotlight in a dark automotive museum hall, velvet rope in front, silent and still. Two red cars as the only saturated elements, one leaving and one frozen, cinematic lighting, both cars large in the upper half of the frame."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 호주 대륙 모양의 도로 위를 달리는 현대·기아 차량과, 길가에 멈춰 선 빛바랜 홀든 사자 엠블럼 간판 — 지나간 이름과 지금의 도로.",
+      "prompt_en": "Photorealistic wide aerial view of a long straight Australian outback highway at golden hour, red earth on both sides. Modern Hyundai and Kia cars travel along the road in a bright, confident line. On the roadside stands an old, sun-faded dealership sign with a weathered lion emblem, paint peeling, abandoned. Warm saturated sunset tones, long shadows, strong contrast between the moving new cars and the forgotten sign, cars and sign placed in the upper half of the frame."
+    }
+  ]
+}
