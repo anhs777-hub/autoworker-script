@@ -128,7 +128,7 @@ def main():
         print()
 
     for w in warns:
-        print("[확인] 문단 첫머리 지시대명사 — %d곳" % w["n"])
+        print("[확인] %s — %d곳" % (w["p"], w["n"]))
         print("   사유: %s\n   조치: %s" % (w["why"], w["fix"]))
         for ln, s in w["hits"][:3]:
             print("   L%-5d …%s…" % (ln, s))
