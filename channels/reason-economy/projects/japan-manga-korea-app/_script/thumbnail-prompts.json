@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "japan-manga-korea-app",
+    "titles": [
+      "\"100주년 이틀 전\" 소년점프가 무너진 자리, 한국 계열 앱이 1위",
+      "소년점프 100만 부 붕괴, 일본 앱 매출 1위는 한국 계열 만화앱",
+      "\"653만 부 팔던 잡지\" 소년점프는 무너지고 만화앱 1위는 한국 계열"
+    ],
+    "thumbnail_texts": [
+      "\"653만 부 → 98만 부\" + 일본 앱 1위는 한국 계열이었다",
+      "\"100주년에 100만 부 붕괴\" + 일본 앱 1위는 만화앱이었다",
+      "\"먼저 무너진 건 한국\" + 폰 속 매대를 먼저 깔았다"
+    ],
+    "image_concepts": {
+      "A": "종이 더미와 손바닥 화면 — 반품 끈에 묶인 만화잡지 더미(어두움) vs 세로 스크롤 만화가 뜬 밝은 스마트폰",
+      "B": "100만 기준선을 뚫고 떨어지는 빨간 하락 화살표 vs 금빛 1위 배지를 단 스마트폰"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽은 어두운 창고에 반품 끈으로 묶여 쌓인 두툼한 일본 주간 만화잡지 더미, 오른쪽은 밝은 도쿄 지하철 안에서 손에 든 스마트폰에 세로 스크롤 컬러 만화가 빛난다.",
+      "prompt_en": "Photorealistic cinematic split composition. On the left, a tall stack of thick Japanese weekly manga magazines tied with plastic return straps sits in a dim, dusty warehouse under cold gray light. On the right, a hand holds a glowing smartphone inside a bright Tokyo commuter train, the screen showing a vivid full-color vertical-scroll webtoon panel. Strong contrast between the desaturated brown-gray left side and the saturated, sunlit right side, with a thin yellow accent glow around the phone."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 변형 실사. 도쿄 편의점 잡지 선반이 텅 비어 가격표만 남은 앞쪽에, 한 손이 만화가 뜬 스마트폰을 크게 들어 올린다.",
+      "prompt_en": "Photorealistic cinematic photograph inside a Japanese convenience store at night: the magazine rack in the background is almost empty, with only price tags and one or two leftover manga magazines, lit by pale fluorescent light. In the foreground, a hand raises a large smartphone toward the camera, its bright screen showing a colorful vertical-scroll comic. The phone glows warmly with a yellow rim light, sharply separating it from the cold, empty shelves behind."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 어두운 남색 배경에 굵은 흰 기준선을 뚫고 아래로 꺾여 떨어지는 빨간 3D 하락 화살표(왼쪽), 오른쪽에는 금빛 1위 메달 배지가 달린 거대한 스마트폰이 솟아 있다.",
+      "prompt_en": "Photorealistic cinematic 3D render on a deep navy background. On the left, a thick glossy red arrow plunges downward, breaking through a bold glowing white horizontal baseline and cracking it. On the right, a towering smartphone stands upright with a luminous screen of colorful manga panels, crowned by a large shiny gold first-place medal badge without any numbers. Dramatic rim lighting makes the red arrow and gold badge pop against the dark background."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 변형 실사. 쌓인 종이 만화잡지 더미가 계단처럼 점점 낮아지며 무너지고, 그 끝에서 스마트폰이 시상대 1위 자리에 올라서 있다.",
+      "prompt_en": "Photorealistic cinematic scene: stacks of thick Japanese manga magazines arranged like a descending staircase from tall on the left to nearly flat, the lowest stacks toppling and scattering pages. At the right end, a bright smartphone displaying a colorful vertical comic stands on the top step of a gold winner's podium. Dark moody background with a red glow behind the collapsing stacks and a warm golden spotlight on the phone."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 두툼한 종이 만화잡지가 반으로 갈라지며 그 틈에서 빛나는 스마트폰 화면이 솟아나온다 — 종이가 화면으로 바뀌는 순간.",
+      "prompt_en": "Photorealistic cinematic close-up of a thick Japanese weekly manga magazine splitting open down the middle, its printed paper pages tearing and flying apart. From the gap between the halves, a glowing smartphone screen rises, emitting bright warm light and showing a colorful vertical-scroll comic. Dark background, flying paper fragments frozen in motion, strong yellow and red highlights with dramatic backlighting."
+    }
+  ]
+}

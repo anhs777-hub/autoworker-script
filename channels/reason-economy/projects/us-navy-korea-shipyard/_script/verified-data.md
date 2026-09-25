@@ -172,3 +172,16 @@
 - 30년 1조 달러 한국 조선 시장: 검색 결과 없음
 - 한국 해군력 세계 5위: 검색 결과 없음
 - 미국 수출입 99.6%가 외국적선: 검색 결과 없음(레퍼 003 발언자 주장뿐)
+
+## 보충 리서치
+
+> 리서치일: 2026-09-25 (OUTLINE 데이터 갭 1건 — PD 직접 검색)
+
+- 「1950년대 조선소」 발언자: **스티브 브록(Steve Brock), 당시 미 해군장관(델 토로)의 선임 보좌관.** 행사는 **2024년 10월 허드슨연구소 「Strengthening the Allied Industrial Base」**(롭 위트먼 하원의원·조현동 주미대사·HD현대중 관계자 등 참석). 해군장관이 그해 2월 HD현대·한화를 방문한 뒤 열린 패널이다 (출처: Hudson Institute — Strengthening the Allied Industrial Base, https://www.hudson.org/events/strengthening-allied-industrial-base-nadia-schadlow-bryan-clark)
+  - 발언 원문(레퍼 003 전사): "We in the United States don't do dual commercial naval shipbuilding. We build only naval ships at naval shipyards… that makes it extraordinarily expensive." / "**some folks like to say** we build the world's most advanced naval combatants in 1950 shipyards" → 뒤 문장은 **본인 주장이 아니라 「이런 말을 하는 사람들이 있다」며 소개한 표현**이다. 대본에서도 그 형태 그대로 쓴다
+  - 같은 발언에서: 한국 조선소가 이미 하고 있는 것들이 많고, 그 큰 이유 중 하나는 중국이라는 경쟁자가 있기 때문이라고 말함 (자기 반박·중국 병기 재료)
+
+- (검수 반영, 2026-09-25) 「Bravo Zulu」 방명록은 **울산 HD현대중공업 본사**에서 확인된다. 거제 한화오션 방문 보도에는 유콘함 점검과 발언만 있고 방명록 문구는 한 매체(미주중앙일보)만 「두 곳 모두」로 썼다 → 대본은 「거제에서는 보급선을 둘러봤고, 울산 조선소 방명록에는 두 단어를」로 분리한다 (출처: 코리아중앙데일리 2025-04-30, 상동 / 이데일리 2025-04-30 보도)
+- (검수 반영) 2016년 수주 절벽: 2016년 1분기 한국 수주 8척(15년 만의 최저), 2016년 4월 빅3 수주 사상 처음 0척. 한국 조선소에도 일감이 바닥까지 내려간 시기가 있었다 → 「한국 도크는 쉬지 않았다」류 표현 금지, 「주문이 아예 끊긴 적은 없었다」까지만 (출처: 서울신문 2016-04-30 / 한국일보 2016-04-30)
+- (검수 반영) GAO는 잠수함 정비 지연의 주원인으로 계획에 없던 작업과 공공 조선소 인력·수용력을, 향후 문제로 도크 상태를 꼽았다. 「상선 쇠퇴」를 직접 원인으로 든 기술은 없다 → 대본은 「상선 일감이 사라지며 기댈 도크와 숙련공의 여유가 줄었다」까지만 (출처: GAO-20-588, https://www.gao.gov/products/gao-20-588 / GAO-26-109256, 상동)
+- (검수 반영) 필리조선소 교관 50명은 **한화**가 보낸 인력(필리조선소 = 한화시스템 60%·한화오션 40%). 1972년 미포만 모래사장 조선소는 **HD현대중공업** — 두 회사를 한 회사처럼 잇지 않는다 (출처: USNI News 2025-07-31 — Shipbuilder Importing South Korean Techniques to American Yard)

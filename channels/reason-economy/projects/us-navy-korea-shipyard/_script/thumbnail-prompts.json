@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "us-navy-korea-shipyard",
+    "titles": [
+      "11년 못 고친 미 핵잠수함, 미 해군장관은 한국에 \"브라보 줄루\"",
+      "\"브라보 줄루\" 11년 멈춘 미 핵잠수함 대신 미 해군장관이 찾은 곳",
+      "\"고칠 곳이 없었습니다\" 11년 멈춰 선 미국 핵잠수함의 최후"
+    ],
+    "thumbnail_texts": [
+      "11년 못 고친 핵잠수함 + 해군장관은 한국으로 갔다",
+      "\"브라보 줄루, 잘했다\" + 미 해군장관이 한국 조선소에",
+      "12억 달러로도 못 고쳤다 + 한국 도크는 돌아갔다"
+    ],
+    "image_concepts": {
+      "A": "좌우 대비 — 어두운 미국 부두에 묶인 녹슨 잠수함 ↔ 밝은 한국 조선소 크레인 아래 회색 미 해군 보급선",
+      "B": "안개 낀 부두에 굵은 밧줄로 묶여 멈춘 녹슨 잠수함 한 척 클로즈업"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사(정면 분할). 왼쪽은 안개 낀 어두운 미국 해군기지 부두에 묶인 녹슨 검은 잠수함, 오른쪽은 햇빛 아래 한국 조선소의 거대한 주황 골리앗 크레인과 도크에 들어간 회색 미 해군 보급선.",
+      "prompt_en": "Photorealistic cinematic split-screen composition. On the left, a rusty black Los Angeles-class nuclear attack submarine sits idle, tied with heavy ropes to a foggy, gloomy U.S. Navy pier in desaturated blue-gray tones. On the right, under a bright blue sky, a massive orange goliath gantry crane towers over a huge South Korean shipyard dry dock holding a large gray U.S. Navy supply ship with vivid saturated colors. A sharp band of warm light divides the dark left half from the sunlit right half, emphasizing stagnation versus activity."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사(항공 시점 변형). 위에서 내려다본 구도로 왼쪽 텅 빈 녹슨 미국 부두의 잠수함 한 척, 오른쪽 선박이 빽빽한 한국 조선소 도크가 대비된다.",
+      "prompt_en": "Photorealistic aerial drone photograph split into two halves. The left half shows a lonely rusted submarine moored at an empty, decaying American naval pier under overcast gray skies, with cracked concrete and idle cranes. The right half shows a bustling South Korean shipyard in bright sunlight, its enormous dry docks crowded with giant ship hulls, a gray U.S. Navy supply vessel, and towering orange cranes. High contrast between the cold desaturated left and the warm vivid right, cinematic lighting."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사(측면 클로즈업). 밤안개 속 부두에 굵은 밧줄로 묶인 녹슨 잠수함 사령탑, 부두 주황 조명이 역광으로 비친다.",
+      "prompt_en": "Photorealistic cinematic close-up of the conning tower of a rusty black U.S. Navy Los Angeles-class submarine, tied to a pier with thick frayed mooring ropes at night. Peeling paint and streaks of rust run down the hull, and dark water laps against it. Heavy fog drifts across the scene, backlit by orange sodium pier lights with a thin red warning light glowing, creating a lonely, ominous mood of abandonment."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사(원경). 새벽 회색 하늘 아래 텅 빈 부두 끝에 홀로 묶인 잠수함, 멀리 멈춘 조선소 크레인 실루엣.",
+      "prompt_en": "Photorealistic wide cinematic shot at dawn of a single black nuclear submarine moored alone at the end of a long empty concrete pier, its hull dull and rust-streaked. In the misty background, the silhouettes of idle, motionless shipyard cranes stand against a pale gray sky. Cold blue-gray palette with deep shadows and one subtle red accent light on the pier, conveying years of waiting."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 한국 조선소 도크를 떠나 넓은 바다로 나가는 회색 미 해군 보급선을 한국 조선소 작업자들이 부두에서 지켜보는 뒷모습.",
+      "prompt_en": "Photorealistic cinematic scene at a South Korean shipyard on a bright sunny day. A large gray U.S. Navy supply ship with a freshly painted hull departs from the dock toward open blue sea, escorted by small tugboats. In the foreground, several Korean shipyard workers in blue coveralls and white hard hats stand on the quay seen from behind, watching the ship leave. Towering orange cranes frame the scene, warm golden light, proud and hopeful atmosphere."
+    }
+  ]
+}
