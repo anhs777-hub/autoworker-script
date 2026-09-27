@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "rain-joint-pain",
+    "titles": [
+      "\"범인은 비가 아니었습니다\" 비가 오면 왜 관절이 아플까?",
+      "비 오기 전날 무릎이 먼저 쑤시는 이유, 범인은 비가 아니었다",
+      "비가 오면 관절이 아프다는 말, 진짜일까 기분 탓일까?"
+    ],
+    "thumbnail_texts": [
+      "비는 / 무죄였다",
+      "무릎이 먼저 / 아는 이유",
+      "정말 / 비 때문일까?"
+    ],
+    "image_concepts": {
+      "A": "먹구름 아래 빨갛게 달아오른 무릎 + 위에서 누르다 가늘어지는 공기 화살표",
+      "B": "아직 맑은 창밖과 몰려오는 먹구름 앞에서 무릎을 움켜쥐고 놀란 인물"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 화면 위쪽을 가득 채운 사람 무릎 클로즈업, 관절 부위가 빨갛게 빛나고 그 위에 작은 먹구름이 떠 있으며 위에서 누르던 파란 화살표들이 점점 가늘어진다.",
+      "prompt_en": "Photorealistic close-up of a human knee filling the upper half of the frame, the joint glowing with a soft red inflamed halo to show pain. A small dark gray storm cloud hovers just above the knee, and several bold blue arrows pressing down from the sky grow visibly thinner and fainter as they approach the joint, suggesting weakening air pressure. Bright sky-blue background, high-key lighting, vivid saturated colors, intriguing and slightly mysterious mood."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A 애니메. 같은 무릎·먹구름·가늘어지는 화살표 구성을 선명한 애니메 일러스트로.",
+      "prompt_en": "Vibrant anime-style illustration of an oversized knee joint drawn with a stylized cutaway showing a glowing red pain spot inside, placed across the upper half of the frame. A cute but ominous little storm cloud floats above it, and thick blue pressure arrows pushing down from above shrink and fade as they near the knee. Bright cheerful sky-blue backdrop with bold ink outlines and cel shading, curious and surprising atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 밝은 거실 창가에서 한 손으로 무릎을 움켜쥐고 눈을 크게 뜬 60대 여성, 창밖은 아직 파란 하늘인데 한쪽에서 먹구름이 몰려온다.",
+      "prompt_en": "Photorealistic scene of an attractive Korean woman in her sixties with a warm likeable face, exaggerated wide-eyed surprised expression in extreme close-up, clutching her knee with one hand, positioned in the upper half of the frame. Behind her a bright living room window shows a clear blue sunny sky, with a dark storm cloud just beginning to roll in from one corner. Bright vibrant colors, clean high-key lighting, a small red glow on her knee to mark the pain."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-anime",
+      "concept_ko": "컨셉 B 애니메. 같은 장면(맑은 창밖·몰려오는 먹구름·무릎을 짚고 놀란 인물)을 애니메 스타일로.",
+      "prompt_en": "Vibrant anime-style illustration of a friendly grandmother character with expressive eyes and an exaggerated shocked face, gripping her knee that glows red, drawn large in the upper half of the frame. Through the window behind her the sky is still bright blue and sunny, while a single dark rain cloud creeps in from the edge. Bright saturated palette, bold outlines, playful yet surprising mood."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 사람 옆얼굴의 귀 부분이 투명하게 비치며 속귀의 작은 기관이 빛나고, 그 빛이 가는 선을 따라 무릎까지 이어진다. 머리 위에는 먹구름.",
+      "prompt_en": "Stylized semi-realistic digital illustration of a person's side profile with the ear rendered semi-transparent, revealing a tiny glowing inner-ear organ like a small barometer. A thin luminous line runs from the ear down to the person's knee, which glows red, and a small dark storm cloud floats above the head. Bright clean light-blue background, vivid colors, partially revealed mysterious composition that sparks curiosity."
+    }
+  ]
+}
