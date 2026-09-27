@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "ktx-california-hsr",
+    "titles": [
+      "18년 동안 레일 한 줄 못 깐 캘리포니아…KTX는 12억 명을 태웠다",
+      "레일에 서명하고 11년째 레일 0…캘리포니아 고속철이 멈춘 진짜 이유",
+      "330억 달러가 1,263억 달러로…캘리포니아 고속철, KTX와 갈린 이유"
+    ],
+    "thumbnail_texts": [
+      "\"레일에 서명만 11년\" / KTX는 12억 명을 태웠다",
+      "\"18년째 고속열차 0\" / 같은 예산 폭탄, 한국은 달렸다",
+      "\"땅이 넓어서가 아니다\" / 레일 없는 곳은 평지였다"
+    ],
+    "image_concepts": {
+      "A": "레일 없는 빈 고가교(캘리포니아) ↔ 터널을 빠져나오는 KTX(한국) 좌우 대비",
+      "B": "끝없는 농지 위 텅 빈 고가교 상판, 그 가운데 놓인 강철 레일 한 토막"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽은 흙빛 평원 위 레일 없는 캘리포니아 고속철 고가교, 오른쪽은 푸른 산 터널을 빠져나오는 한국 KTX. 좌우 빛 대비.",
+      "prompt_en": "Photorealistic cinematic split-screen composition. On the left half, an unfinished concrete high-speed rail viaduct of the California High-Speed Rail project stretches across flat golden Central Valley farmland under a hazy pale sky, its deck completely empty with no tracks, rendered in desaturated dusty tones. On the right half, a white Korean KTX high-speed train bursts out of a mountain tunnel in South Korea, surrounded by vivid green forested hills and a bright blue sky, with strong rim light on the train's nose. A sharp contrast of light divides the two halves, muted on the left and saturated on the right. Both subjects are large and fill the upper half of the frame."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사 변형. 원근 구도 — 앞쪽에 끊긴 빈 고가교 끝단, 멀리 지평선 너머 빛 속으로 달리는 KTX 실루엣(두 세계를 한 화면에).",
+      "prompt_en": "Photorealistic cinematic wide shot from the abrupt broken end of an empty California High-Speed Rail concrete viaduct, with exposed rebar and no tracks, dominating the left and center of the upper frame. Beyond it, across a vast flat farmland under a dusty sky, the horizon opens into a glowing bright band of light where a sleek white Korean KTX high-speed train races toward the viewer with motion blur. Desaturated earth tones in the foreground contrast with warm luminous highlights around the train. Strong dramatic lighting, sharp detail, large readable shapes."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 센트럴 밸리 농지 위 거대한 빈 고가교 상판 가운데에 강철 레일 한 토막이 덩그러니 놓여 있다. 노을 역광.",
+      "prompt_en": "Photorealistic cinematic photograph of a massive empty concrete high-speed rail viaduct deck of the California High-Speed Rail project, elevated above endless flat Central Valley farmland at sunset. In the middle of the bare deck lies a single short segment of shiny steel rail, catching a metallic highlight from the low orange sun. Long dark shadows stretch across the empty structure, emphasizing the huge scale of the viaduct against the tiny lonely rail piece. Moody tense atmosphere, high contrast, subject placed large in the upper half of the frame."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사 변형. 샌호아킨강 위 긴 아치형 고가교를 드론 시점으로 — 상판은 텅 비었고 아래 도로엔 자동차만 지나간다.",
+      "prompt_en": "Photorealistic aerial drone photograph of the long curved San Joaquin River viaduct of the California High-Speed Rail project, a monumental white concrete arch structure spanning a river through flat farmland. The top deck is completely empty with no tracks and no train, while below it ordinary cars drive along a small road. Late afternoon light with deep shadows and slightly desaturated colors creates a sense of eerie emptiness. The viaduct fills the upper half of the frame edge to edge, crisp and clearly recognizable at small size."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 실사. 서울역 플랫폼에 들어선 KTX 앞, 캐리어를 든 사람들 — 뒤편 대형 스크린 대신 흐린 창밖에 미국 평원의 빈 고가교 잔상(한국의 일상 vs 미국의 공백).",
+      "prompt_en": "Photorealistic cinematic scene at a busy Seoul Station platform where a white Korean KTX high-speed train has just arrived, travelers with suitcases walking beside it under warm bright station lighting. Through a large window in the upper background, a faded dreamlike view of an empty unfinished concrete rail viaduct over flat American farmland is visible, rendered in pale desaturated tones. The KTX nose and the ghostly viaduct both sit large in the upper half of the frame, creating a contrast between everyday motion and silent emptiness. Natural realistic people with likeable faces, no exaggerated expressions."
+    }
+  ]
+}
