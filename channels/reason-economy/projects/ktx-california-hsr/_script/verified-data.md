@@ -309,7 +309,7 @@
 
 | 항목 | 값 | 출처 | 판정 |
 |------|-----|------|------|
-| 누적 지출 | 약 150억 달러("After 16 years and roughly $15 billion spent") — 원화 환산 20조 원 안팎(환율 1,350~1,450원 기준, 「20조 원이 넘는」으로 표기) | 미 교통부 보도자료 2025-07 https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-pulls-plug-4b-california-high-speed | ✅(연방 정부 발표 기준 — 캘리포니아 고속철도청 자체 집계는 미확인) |
+| 누적 지출 | 약 150억 달러("After 16 years and roughly $15 billion spent") — 원화 환산 20조 원 안팎(환율 1,350~1,450원 기준, 「20조 원이 넘는」으로 표기) | 미 교통부 보도자료 2025-07 https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-pulls-plug-4b-california-high-speed | ✅ 2026년 사업계획 기술 부속서(Basis of Estimate, 2026-06): 2026년 2월까지 누적 지출 150억 4,100만 달러 — 미 교통부 2025-07 「roughly $15 billion」과 일치(최종 검수 2026-09-27) |
 
 ## 최종 수정 검증 메모 (2026-09-27)
 
