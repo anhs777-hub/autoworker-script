@@ -144,7 +144,7 @@
 - 2026-08 백악관 대통령 각서: 미국 조선업에 큰 투자를 한 외국 조선사는 초기 최대 2척을 해외에서 건조하고 이후 미국 조선소로 넘어가는 「핀란드 모델」을 허용. 번스-톨레프슨 금지를 국가안보 예외로 우회 (출처: TWZ — The Three Foreign Frigates Being Studied For Possible U.S. Navy Service, https://www.twz.com/sea/the-three-foreign-frigates-being-studied-for-possible-u-s-navy-service / 머니투데이 — 美해군 함정 건조에 한·일·튀르키예 검토, https://www.mt.co.kr/world/2026/09/03/2026090306553988593)
 - 헝 카오 해군장관 대행이 해외 수상전투함(한국 **충남급 호위함**, 일본 모가미급 수출형, 튀르키예 이스탄불급)과 MSC용 로로선·CONSOL 급유함 평가를 **2026-11-12까지** 완료하라고 지시. 연구 단계이며 조달 승인은 없다. 의회 반대가 있고, 2027 NDAA 초안은 예외 권한 삭제를 추진 (출처: USNI News — Japanese, South Korean, Turkish Warships Under Consideration for New U.S. Frigate Competition, https://news.usni.org/2026/09/01/japanese-south-korean-turkish-warships-under-consideration-for-new-u-s-frigate-competition / TWZ, 상동)
 - 닛케이(2026-09-16) 인용: 중국의 현대식 구축함·호위함 수가 2001~2026년 6.9배 증가 (출처: 파이낸셜뉴스 — 美해군 "中 군비 확장 대응" 韓·日 동맹국 함정 구매하나, https://www.fnnews.com/news/202609161814187927)
-- 2026-09-23 이재명·트럼프 회담에서 군함 건조 협력을 논의했다는 한국 대통령실 발표(Reuters) — **정치 항목이므로 대본에 쓰지 않음(참고용)** (출처: US News/Reuters — South Korea's Lee Discussed Warship Construction With Trump, https://www.usnews.com/news/world/articles/2026-09-23/south-koreas-lee-discussed-warship-construction-with-trump-south-korea-says)
+- 2026-09-23 이재명·트럼프 회담에서 군함 건조 협력을 논의했다는 한국 대통령실 발표(Reuters) — ~~정치 항목이므로 대본에 쓰지 않음~~ → **2026-09-25 profile 7번 개정으로 정치적 사실로 사용**(파트 5) (출처: US News/Reuters — South Korea's Lee Discussed Warship Construction With Trump, https://www.usnews.com/news/world/articles/2026-09-23/south-koreas-lee-discussed-warship-construction-with-trump-south-korea-says)
 
 ### 왜 한국 MRO가 보급함에 한정되나 (비교 조건 해명 재료)
 
@@ -185,3 +185,10 @@
 - (검수 반영) 2016년 수주 절벽: 2016년 1분기 한국 수주 8척(15년 만의 최저), 2016년 4월 빅3 수주 사상 처음 0척. 한국 조선소에도 일감이 바닥까지 내려간 시기가 있었다 → 「한국 도크는 쉬지 않았다」류 표현 금지, 「주문이 아예 끊긴 적은 없었다」까지만 (출처: 서울신문 2016-04-30 / 한국일보 2016-04-30)
 - (검수 반영) GAO는 잠수함 정비 지연의 주원인으로 계획에 없던 작업과 공공 조선소 인력·수용력을, 향후 문제로 도크 상태를 꼽았다. 「상선 쇠퇴」를 직접 원인으로 든 기술은 없다 → 대본은 「상선 일감이 사라지며 기댈 도크와 숙련공의 여유가 줄었다」까지만 (출처: GAO-20-588, https://www.gao.gov/products/gao-20-588 / GAO-26-109256, 상동)
 - (검수 반영) 필리조선소 교관 50명은 **한화**가 보낸 인력(필리조선소 = 한화시스템 60%·한화오션 40%). 1972년 미포만 모래사장 조선소는 **HD현대중공업** — 두 회사를 한 회사처럼 잇지 않는다 (출처: USNI News 2025-07-31 — Shipbuilder Importing South Korean Techniques to American Yard)
+
+- (사용자 수정 반영, 2026-09-25) 캐나다 잠수함 사업: TKMS는 **우선 공급자(preferred bidder)**이고, 협상이 결렬되면 한화오션을 우선 공급자로 지정해 협상할 수 있다 → 「탈락」 대신 「예비 공급자 위치에 남았다」로 쓴다 (출처: Korea Herald — S. Korea's Hanwha Ocean loses out as Canada picks Germany's TKMS, https://www.koreaherald.com/article/10800007 / Naval News, 상동)
+- (사용자 수정 반영) 「한국에서는 이전에도 미 해군 관련 선박의 항해 수리가 이뤄졌다」 — 사용자 제공 사실. 월리 시라호를 「미 해군 함정 정비 최초」가 아니라 「이 규모의 정기 대정비 계약 수행」으로 범위를 좁히기 위한 문장 (1차 출처 미첨부)
+- (사용자 수정 반영) 앨런 셰퍼드호 추가 작업은 청소·정비·검사 등을 포함하므로 「결함 100개」로 쓰지 않고 「당초 계획에 없던 추가 정비 항목」으로 쓴다
+
+- (profile 7번 개정 반영, 2026-09-25) MASGA 제안 주체: 2025년 7월 한미 관세 협상에서 **한국 정부가 제안**한 1,500억 달러 조선 협력 패키지. 2025-07-31 구윤철 기획재정부 장관이 관세 합의가 이 패키지에 달려 있었다고 밝힘 (출처: The Diplomat — How South Korea's 'MASGA' Proposal Could Reshape US Shipbuilding, https://thediplomat.com/2025/08/how-south-koreas-masga-proposal-could-reshape-us-shipbuilding/ / KED Global — South Korea, US agree to 15% tariff rate; shipbuilding central to deal, https://www.kedglobal.com/business-politics/newsView/ked202507310001)
+- (profile 7번 개정 반영) 1981년 건조 차액 보조금 예산 중단의 주체 = 레이건 행정부(D 섹션 Lexington Institute 기존 항목). 대본은 사건 주체로만 쓰고, 쇠퇴의 원인을 특정 정권 탓으로 돌리지 않는다(바로 뒤 「수요 변화와 생산성 차이, 정책 변화가 오랜 시간 겹친 결과」 유지)
