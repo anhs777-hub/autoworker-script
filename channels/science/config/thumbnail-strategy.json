@@ -1,0 +1,14 @@
+{
+  "count": 5,
+  "art_styles": ["photorealistic", "anime"],
+  "color_palette": "bright",
+  "emotions": ["curiosity", "shock"],
+  "text_space": "bottom-half",
+  "face_style": "exaggerated",
+  "brand": {
+    "colors": [],
+    "mascot": false,
+    "fixed_layout": null
+  },
+  "benchmark_analysis": null
+}
