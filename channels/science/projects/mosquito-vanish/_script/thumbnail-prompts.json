@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "mosquito-vanish",
+    "titles": [
+      "\"쫓을수록 놓칩니다\" 모기가 눈앞에서 갑자기 사라지는 이유",
+      "모기를 눈으로 쫓을수록 더 못 찾는 이유, 사라진 모기는 여기에",
+      "모기는 걷는 속도의 5분의 1인데 왜 눈앞에서 사라질까?"
+    ],
+    "thumbnail_texts": [
+      "쫓을수록 / 사라진다",
+      "눈으로 쫓지 / 마세요",
+      "갑자기 어디로 / 사라졌을까?"
+    ],
+    "image_concepts": {
+      "A": "조준선이 모기를 쫓다 빗나간 순간 + 눈을 부릅뜬 인물",
+      "B": "한 점을 응시하는 차분한 눈 + 시야 가장자리에서 드러나는 모기"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 밝은 방에서 눈을 부릅뜬 인물 얼굴이 크게 걸리고, 옆의 빨간 조준선이 빗나간 채 모기가 그 바깥으로 빠져나간다.",
+      "prompt_en": "Photorealistic bright high-key photograph of an attractive young man with a warm likeable face, eyes wide open in an exaggerated startled stare, his oversized face filling the left side of the upper frame. On the right, a large glowing red crosshair reticle floats in the air, and a single dark mosquito silhouette slips just outside its edge, clearly missing the target. Clean white wall background, vivid saturated tones, crisp focus on the eyes and the mosquito."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A 애니메. 같은 장면을 애니메 스타일로 — 눈을 부릅뜬 캐릭터와 빗나간 조준선, 그 옆으로 빠져나가는 모기.",
+      "prompt_en": "Vibrant anime-style illustration of a handsome anime character with expressive eyes, comically wide-eyed and straining as he tracks something, his oversized face filling the left of the upper frame. A bold red crosshair reticle on the right has just missed a tiny black mosquito that zips out of it, leaving motion lines behind. Bright clean pastel-white room background, high-key lighting, sharp cel shading and vivid colors."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 초대형 사람 눈이 정면의 한 점을 차분히 응시하고, 시야 가장자리에 윤곽이 청록색으로 빛나는 모기가 또렷이 드러난다.",
+      "prompt_en": "Photorealistic extreme close-up of a calm human eye, dramatically oversized and stretching across the upper half of the frame, the iris focused steadily straight ahead. Near the outer edge of the frame a single mosquito is partially revealed, its outline glowing with a soft teal rim light against a bright white background. Bright vibrant colors, high-key lighting, mysterious and intriguing composition."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-anime",
+      "concept_ko": "컨셉 B 애니메. 한 점에 고정된 큰 눈과, 시야 가장자리에서 반짝이며 드러나는 모기를 애니메 스타일로.",
+      "prompt_en": "Stylized anime illustration of a beautiful anime character's large expressive eye in extreme close-up across the upper frame, gaze fixed calmly on a single point. At the far edge of her vision a small mosquito sparkles into view with a glowing cyan outline, as if revealed by her stillness. Bright airy background, vivid saturated colors, clean cel shading and an intriguing mood."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밝은 침실 침대 머리맡 벽에 앉아 멈춰 있는 모기를 돋보기 같은 원형 스포트라이트가 비추고, 위쪽에서 엉뚱한 곳을 찾는 인물의 놀란 얼굴.",
+      "prompt_en": "Photorealistic bright bedroom scene where an attractive young woman with a warm likeable face peers upward in exaggerated surprise at the empty ceiling, her face large in the upper-left frame. In the upper-right, on the white wall just above the headboard, a single mosquito rests motionless, highlighted by a crisp circular spotlight like a magnifying glass reveal. High-key lighting, vivid saturated colors, playful curiosity."
+    }
+  ]
+}
