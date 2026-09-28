@@ -12,40 +12,41 @@
       "「4일 만에 배 띄우던 미국」 + 잠수함 한 척을 포기했다"
     ],
     "image_concepts": {
-      "A": "좌우 대비 — 어두운 미국 부두에 묶인 녹슨 잠수함 ↔ 밝은 한국 조선소 크레인 아래 회색 미 해군 보급선",
-      "B": "안개 낀 부두에 굵은 밧줄로 묶여 멈춘 녹슨 잠수함 한 척 클로즈업"
-    }
+      "A": "3분할 — 왼쪽 멈춘 미국 잠수함(녹·안개) / 가운데 익명 인물 / 오른쪽 미 해군 보급선을 정비하는 한국 도크(빛남) + 성조기·태극기",
+      "B": "3분할 — 왼쪽 비어 버린 미국 조선소·도크 앞 대기 줄 / 가운데 익명 인물 / 오른쪽 상선·군함이 함께 있는 한국 조선소 + 성조기·태극기"
+    },
+    "layout_rule": "thumbnail-strategy.json brand.fixed_layout (2026-09-28 개정) — 3분할 대비, 한국은 오른쪽, 실존 인물 없음(익명 대표 인물), 하단 35~40% 글자 자리"
   },
   "thumbnails": [
     {
       "id": 1,
       "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사(정면 분할). 왼쪽은 안개 낀 어두운 미국 해군기지 부두에 묶인 녹슨 검은 잠수함, 오른쪽은 햇빛 아래 한국 조선소의 거대한 주황 골리앗 크레인과 도크에 들어간 회색 미 해군 보급선.",
-      "prompt_en": "Photorealistic cinematic split-screen composition. On the left, a rusty black Los Angeles-class nuclear attack submarine sits idle, tied with heavy ropes to a foggy, gloomy U.S. Navy pier in desaturated blue-gray tones. On the right, under a bright blue sky, a massive orange goliath gantry crane towers over a huge South Korean shipyard dry dock holding a large gray U.S. Navy supply ship with vivid saturated colors. A sharp band of warm light divides the dark left half from the sunlit right half, emphasizing stagnation versus activity."
+      "concept_ko": "컨셉 A 실사 — 멈춘 잠수함 / 충격받은 미 해군 장교 / 미 해군 보급선을 정비하는 한국 도크",
+      "prompt_en": "Hyper-realistic HDR three-panel contrast composition. On the left, a rust-streaked black Los Angeles-class nuclear submarine sits idle at a gray, foggy U.S. Navy pier in desaturated tones, paint peeling and ropes sagging. In the center, an American naval officer in his 50s in khaki uniform, shown from the chest up and filling most of the frame height, stares with a shocked, open-mouthed expression. On the right, a gleaming South Korean shipyard with a giant orange goliath crane holds a gray U.S. Navy supply ship in warm golden backlight with a blue-white glow. An American flag waves in the top-left corner and a South Korean flag (Taegeukgi) waves in the top-right corner, both as realistic fabric."
     },
     {
       "id": 2,
       "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사(항공 시점 변형). 위에서 내려다본 구도로 왼쪽 텅 빈 녹슨 미국 부두의 잠수함 한 척, 오른쪽 선박이 빽빽한 한국 조선소 도크가 대비된다.",
-      "prompt_en": "Photorealistic aerial drone photograph split into two halves. The left half shows a lonely rusted submarine moored at an empty, decaying American naval pier under overcast gray skies, with cracked concrete and idle cranes. The right half shows a bustling South Korean shipyard in bright sunlight, its enormous dry docks crowded with giant ship hulls, a gray U.S. Navy supply vessel, and towering orange cranes. High contrast between the cold desaturated left and the warm vivid right, cinematic lighting."
+      "concept_ko": "컨셉 A 실사 변형 — 녹슨 잠수함과 멈춘 크레인 / 자신감 있게 웃는 한국 조선소 작업자 / 불꽃이 튀는 울산 도크",
+      "prompt_en": "Hyper-realistic HDR three-panel contrast composition. On the left, a lonely rusted submarine rests in a dim, dusty American dry dock with motionless cranes and cracked concrete. In the center, an attractive Korean shipyard worker in his 40s with a warm likeable face, wearing blue coveralls and a white hard hat, is shown from the chest up with a confident smile and open arms. On the right, a massive new ship hull stands in a bright Ulsan dry dock with welding sparks and brilliant warm backlight. An American flag waves in the top-left corner and a South Korean flag (Taegeukgi) waves in the top-right corner, both as realistic fabric."
     },
     {
       "id": 3,
       "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사(측면 클로즈업). 밤안개 속 부두에 굵은 밧줄로 묶인 녹슨 잠수함 사령탑, 부두 주황 조명이 역광으로 비친다.",
-      "prompt_en": "Photorealistic cinematic close-up of the conning tower of a rusty black U.S. Navy Los Angeles-class submarine, tied to a pier with thick frayed mooring ropes at night. Peeling paint and streaks of rust run down the hull, and dark water laps against it. Heavy fog drifts across the scene, backlit by orange sodium pier lights with a thin red warning light glowing, creating a lonely, ominous mood of abandonment."
+      "concept_ko": "컨셉 B 실사 — 녹슨 빈 선대(과거의 조선소) / 후회하는 미국 노년 조선공 / 상선과 군함이 나란히 선 한국 조선소",
+      "prompt_en": "Hyper-realistic HDR three-panel contrast composition. On the left, an abandoned American shipyard with an empty, rusted slipway and faded sepia traces of a World War II Liberty ship, covered in dust and cracks. In the center, an American shipyard veteran in his 60s with a weathered face, shown from the chest up, looks back with a regretful, wistful expression. On the right, a sunlit South Korean shipyard shows a huge LNG carrier and a gray naval warship side by side in the same yard, glowing in golden hour light. An American flag waves in the top-left corner and a South Korean flag (Taegeukgi) waves in the top-right corner, both as realistic fabric."
     },
     {
       "id": 4,
       "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사(원경). 새벽 회색 하늘 아래 텅 빈 부두 끝에 홀로 묶인 잠수함, 멀리 멈춘 조선소 크레인 실루엣.",
-      "prompt_en": "Photorealistic wide cinematic shot at dawn of a single black nuclear submarine moored alone at the end of a long empty concrete pier, its hull dull and rust-streaked. In the misty background, the silhouettes of idle, motionless shipyard cranes stand against a pale gray sky. Cold blue-gray palette with deep shadows and one subtle red accent light on the pier, conveying years of waiting."
+      "concept_ko": "컨셉 B 실사 변형 — 도크 앞에 줄 선 잠수함들 / 답답해하는 미 해군 장교 / 정비를 마치고 출항하는 미 해군 보급선",
+      "prompt_en": "Hyper-realistic HDR three-panel contrast composition. On the left, several black submarines wait in a line outside a closed, weathered dry dock gate under a gray overcast sky, like a traffic jam at sea. In the center, an American naval officer in his 40s in navy working uniform, shown from the chest up, holds a clipboard with a frustrated, troubled expression. On the right, a freshly painted gray U.S. Navy supply ship leaves a bright South Korean shipyard with tugboats, sparkling blue water and warm sunlight. An American flag waves in the top-left corner and a South Korean flag (Taegeukgi) waves in the top-right corner, both as realistic fabric."
     },
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 한국 조선소 도크를 떠나 넓은 바다로 나가는 회색 미 해군 보급선을 한국 조선소 작업자들이 부두에서 지켜보는 뒷모습.",
-      "prompt_en": "Photorealistic cinematic scene at a South Korean shipyard on a bright sunny day. A large gray U.S. Navy supply ship with a freshly painted hull departs from the dock toward open blue sea, escorted by small tugboats. In the foreground, several Korean shipyard workers in blue coveralls and white hard hats stand on the quay seen from behind, watching the ship leave. Towering orange cranes frame the scene, warm golden light, proud and hopeful atmosphere."
+      "concept_ko": "와일드카드 — 비 오는 밤의 미국 해군 부두 / 방명록에 서명하며 감탄하는 미 해군 고위 관계자(익명) / 밝은 한국 조선소 도크",
+      "prompt_en": "Hyper-realistic HDR three-panel contrast composition. On the left, a rainy night at an American naval pier with a dark submarine silhouette and dim, flickering lights. In the center, an anonymous senior American naval official in his 60s wearing a dark suit, shown from the chest up, signs an open guestbook with a surprised, admiring expression. On the right, a brilliant South Korean shipyard dry dock with towering cranes and a gray U.S. Navy supply ship under clear daylight with a blue-white glow. An American flag waves in the top-left corner and a South Korean flag (Taegeukgi) waves in the top-right corner, both as realistic fabric."
     }
   ]
 }

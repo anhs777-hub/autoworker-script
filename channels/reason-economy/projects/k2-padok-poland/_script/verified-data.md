@@ -209,3 +209,176 @@
 - 「8기동사단에 갈 32대」 / 「방사청·국회 공식 발표」(근거는 SBS 인용 국방부 관계자)
 - 블라슈차크 발언을 「2022년 5월」로 → 2022-07-23 / 「그 발언 때문에 나흘 뒤 K2를 샀다」(인과 금지)
 - 2A8 인도 「2026년 4월」 단정 / 1990·2000·2010 남북 전차 수치 / 「분단 덕분에 방산이 컸다」
+
+## 보충 리서치 (2026-09-28 OUTLINE 데이터 갭)
+
+> 리서치일: 2026-09-28 · 요청 갭: 3건 · 신규 데이터(`[ref]` 없음)
+
+### 1. 1막 인물
+
+**결론: 권이종 교수의 기본 이력은 ✅, 「소 팔아 여비」는 ⚠️(2차 출처만), 「광부 경력 위조」 일화는 ❓(권이종 본인 관련 출처 없음). 대안 인물로 1진 유한석(공무원 출신) ✅.**
+
+| 항목 | 값 | 출처 | 판정 |
+|------|----|------|------|
+| 권이종 학력(파독 전) | **고졸**(전주 신흥고). 대학 졸업자 아님. 학사·석사·박사는 **광부 계약 후** 독일 아헨공대 사범대학에서 취득 | 서울신문 「[김문이 만난 사람] 파독근로자기념관장 권이종」 2013-05-23, https://www.seoul.co.kr/news/plan/weekenddate/2013/05/23/20130523023001 · 천지일보 「[피플&포커스] 파독광부에서 꿈을 캐는 교수 된 권이종 박사」, http://www.newscj.com/news/articleView.html?idxno=863557 | ✅ |
+| 출생·출신 | 1940년 전북 장수군 출생, 극빈 가정, 서울에서 막노동 | 서울신문 2013-05-23 · 위키백과 「권이종」 | ✅ |
+| 파독 시점 | **1964년 10월**(천지일보: 1964-10-05) | 서울신문 2013-05-23 · 천지일보 | ✅ |
+| 차수 | 「파독 광부 2기」 | 위키백과 「권이종」(각주 불명확) https://ko.wikipedia.org/wiki/권이종 | ⚠️ |
+| 광산 | **메르크슈타인 아돌프 광산**(아헨 인근), 3년 근무 | 서울신문 · 천지일보 | ✅ |
+| 이후 | 독일 체류 약 16년 → 1979 귀국, 전북대 교수 → 1985~2006 한국교원대 교수(명예교수), 한국청소년개발원장, 2013 파독근로자기념관 초대 관장, 2022-08-01 별세 | 서울신문 · 천지일보 · 위키백과 | ✅ |
+| 갱내 사고 | 작업 중 큰 낙석에 맞아 손을 여러 차례 수술, 장애 우려까지 갔다가 회복(힘은 일부만 돌아옴) | 천지일보(본인 인터뷰) | ✅(본인 증언) |
+| 「소를 팔아 여비 마련」 | 가족이 소를 팔아 여비를 마련해 줬다는 서술 | 위키백과 「권이종」 서술만 확인. 본인 인터뷰·저서 원문 미확인 | ⚠️ |
+| 「소를 팔아 광부 경력을 만들었다 / 경력 위조」 | 권이종 본인 관련 1차 출처 **검색 결과 없음** | — | ❓ |
+| 영화 「국제시장」 모티프 | 윤제균 감독이 권이종 인터뷰로 덕수의 광부 생활·간호사와의 만남을 재해석 | 위키백과 · 대한민국역사박물관 웹진 vol.37(권이종 기고: 「이 영화의 이야기는 필자의 책 『막장 광부, 교수가 되다』를 참조해 만들어졌다」) https://www.much.go.kr/webzine/vol37/sub/sub1.html | ✅ |
+| **대안: 유한석(1진)** | 1963년 12월 **1진**. 지원 전 **대구의 농업 관련 관청 공무원**. 신문 모집 광고를 보고 지원, 고향 경주에서 7명 지원해 혼자 합격(본인 표현 경쟁 「120~130 대 1」). 강원도 광산 현장교육(1963-12-03~) → 12-21 에어프랑스로 출국. 아헨 인근 메르크슈타인 아돌프 광산 배치. 3개월 만에 동료가 동발 철거 중 사망. 계약 후 바이엘 근무, 독일 정착 | 교포신문(독일) 「[파독 광부 60주년 특별 인터뷰] 파독광부 1차 1진 유한석 원로를 만나다」 2023-04-17, https://kyoposhinmun.de/speziell/2023/04/17/17779/ | ✅(본인 인터뷰) |
+| 참고: 경력 위조 관행(일반) | 「광산 경력자 약 15%」「학력을 낮춰 지원하거나 가짜 광산 취업 증명서를 사서 노동청에 제출」「합격자 18% 대졸 / 1966년 73% 고졸 이상」 | 검색 스니펫상 경향신문 「[기억전쟁, 미래가 된 과거](23)」(2020-11-10, 이유재 튀빙겐대 교수) https://www.khan.co.kr/article/202011102125005 로 연결되나 본문 fetch에서 해당 문장 **원문 대조 실패** | ⚠️ |
+
+- 권장 문장: 「1964년 10월, 전북 장수 출신의 스물네 살 고졸 청년 권이종이 독일 아헨 근처 메르크슈타인의 아돌프 탄광으로 갑니다. 3년 뒤 그는 광부 계약을 마치고 그 도시의 대학에 들어가, 훗날 한국교원대 교수가 됩니다.」 / 대안: 「1963년 12월 1진으로 떠난 유한석 씨는 대구에서 공무원으로 일하다 신문 광고를 보고 광부에 지원했습니다.」
+- 사용 금지: 「대학을 나온 권이종」「교사 출신 권이종」 · 권이종이 「소를 팔아 광부 경력을 샀다/위조했다」 · 「소를 팔아 여비」를 단정형으로(쓰려면 「가족이 소를 팔아 여비를 댔다고 전해진다」 수준) · 「파독 2기」 단정 · 「광부 경력자 15%」「대졸 18%」를 원문 확인 없이 수치로 사용
+
+### 2. 갱도의 몸 디테일
+
+| 항목 | 값(원문 인용) | 출처 | 판정 |
+|------|---------------|------|------|
+| 지열 | 「독일 탄광은 100미터 내려갈 때마다 온도가 1도씩 올라갔고 지열은 섭씨 36도에 육박했다.」 | 권이종 기고, 대한민국역사박물관 웹진 vol.37 표지 이야기, https://www.much.go.kr/webzine/vol37/sub/sub1.html | ✅(본인 증언·국립기관 게재) |
+| 탄가루 | 「막장에서 일을 하면 석탄가루와 돌가루 등이 몸속 모든 곳으로 들어온다.」(코담배로 코 속 탄가루를 배출했다는 서술 동반) | 같은 웹진 | ✅(본인 증언) |
+| 동발 무게 | 「40~60킬로그램에 달하는 슈템펠을 개인당 하루에 60~80개는 세워야 했다.」 | 같은 웹진 | ✅(본인 증언) |
+| 수련 기간 | 강원도 탄광 현장 실습 후 출국, 「독일에서 3개월간 지상 교육과 4주간 독일어 수업을 마친 뒤 탄광에 투입됐다」 | 같은 웹진 · 1진 유한석 인터뷰(강원도 현장교육 1963-12-03~) | ✅ |
+| 근무 시간·자세 | 「30도 이상인 광산은 7시간, 30도 미만은 8시간 일했는데, 막장에나 들어가서 무릎 꿇은 채로 탄을 캐면 진짜 못 견디겠더라고요.」 | 뉴스포스트 「[나도 젊어봤다] 파독 광부 청년의 '나 때' 이야기」 2020-10-13(이상진 기자), https://www.newspost.kr/news/articleView.html?idxno=90680 | ✅(내용) / 발언자 이름은 fetch마다 엇갈려 ⚠️ → 「한 파독 광부는」으로 표기 |
+| 물·지열 | 「지열이 40도 가까이 되는 곳도 많았어요. … 하루에 물을 5~6리터 마셨죠.」 / 마스크 하루 4~5개 교체 | 같은 기사(한국파독광부총연합회 관계자) | ✅(내용) / 발언자 ⚠️ |
+| 깊이 | 권이종 「지하 1,000미터 이상」, 유한석 「약 1,000m」, 김계수(파독광부기념회관 명예관장, 의사) 「지하 2000m」 | 웹진 vol.37 · 교포신문 2023-04-17 · 정책브리핑 공감 2023-10-12 https://gonggam.korea.kr/newsContentView.es?mid=a10202000000&section_id=NCCD_PEOPLE&content=NC002&code_cd=0102000000&news_id=4c6693ce-50e7-4e08-ac73-63f5793a9b48 | ⚠️ 유지 — 증언마다 다름. 「지하 1,000m 안팎」을 **증언으로만**(「그들은 1,000미터 아래로 내려갔다고 말합니다」) |
+| 부상 | 이우연 회장 「철로 수리 작업 중에 오른쪽 어깨 바로 밑을 철근이 관통했어요」 · 권이종 낙석으로 손 수술 | 뉴스포스트 2020-10-13 · 천지일보 | ✅(본인 증언) |
+| 진실화해위 결정문의 작업환경 | 2008 결정(파독 광부·간호사의 경제발전 기여)은 규모·송금 중심, 갱내 온도 등 작업환경 서술은 **검색 결과 없음** | 진실화해위원회 https://www.jinsil.go.kr/fnt/nac/selectNoticeDetail.do?bbsId=BBSMSTR_000000000717&nttId=24176 | ❓ |
+
+- 권장 문장: 「100미터 내려갈 때마다 1도씩 뜨거워지는 땅속. 권이종은 그 막장의 열기가 섭씨 36도에 육박했다고 적었습니다. 석탄가루와 돌가루가 몸속 모든 곳으로 들어왔고, 한 사람이 하루에 40~60킬로그램짜리 쇠기둥을 60개에서 80개씩 세웠습니다.」 / 「30도가 넘는 막장은 7시간, 그 아래는 8시간. 무릎을 꿇은 채로 탄을 캤습니다.」
+- 사용 금지: 「지하 1,000m」「1,600m」「2,000m」 단정(증언 인용형만) · 발언자 실명 붙인 7시간/8시간 인용(발언자 불일치) · 진실화해위 결정문을 작업환경 출처로 표기
+
+### 3. 폴란드 분할과 독립
+
+| 항목 | 값 | 출처 | 판정 |
+|------|----|------|------|
+| 분할 | 1772·1793·1795 세 차례, 러시아·프로이센·오스트리아 | Britannica 「Partitions of Poland」 https://www.britannica.com/event/Partitions-of-Poland (검색 요약으로 확인, 본문은 403) | ✅ |
+| 3차 분할 | 코시치우슈코 봉기 진압 후 러·프가 오스트리아와 합의해 **1795-10-24** 남은 영토 분할. 「Following the third partition, the independent state of Poland ceased to exist until it regained its independence after the end of World War I」 | German History in Documents and Images(GHI Washington) 「The Partitions of Poland, 1772-1795」 https://germanhistorydocs.org/en/the-holy-roman-empire-1648-1815/the-partitions-of-poland-1772-1795 | ✅ |
+| 독립 회복 | 1795~1918 독립 국가로 존재하지 않음, **1918년** 폴란드 공화국 수립으로 분할 결과 역전 | Britannica(위) · GHI(위) | ✅ |
+| 뉘앙스 | 1807 바르샤바 공국, 1815 러시아 종속 「폴란드 왕국(회의 폴란드)」 등 명목상 단위는 존재 | GHI(위) | 참고 |
+
+- 권장 문장: 「1795년, 폴란드는 러시아·프로이센·오스트리아에 세 번째로 나뉘며 독립국으로서 지도에서 사라졌습니다. 다시 나라를 되찾은 건 1차 대전이 끝난 1918년, 123년 뒤였습니다.」
+- 사용 금지: 「123년 동안 폴란드라는 이름 자체가 없었다」(명목상 공국·왕국 존재) · 「독일이 폴란드를 없앴다」(당시 주체는 프로이센·러시아·오스트리아)
+
+## 보충 리서치 2 (2026-09-28 4차 수정)
+
+> 리서치일: 2026-09-28 · 요청 5건 · 신규 데이터(`[ref]` 없음) · 원문 문장은 「」, 번역은 괄호. 일부 원문은 WebFetch 요약 도구를 거쳐 추출됨
+> **먼저 알아둘 것(기존 데이터 정정 5건)**
+> ① 국산 파워팩 「2024-09-19 승인」은 **방사청 사업분과위 결정**이고, 최종 의결은 **2024-10-28 제164회 방추위**다
+> ② 「2014년 변속기 내구도 불합격」은 틀림. 2014년의 문제는 **가속 성능**(0→32km/h 8.7초, 기준 8초 → 합참이 9초로 완화)이었고, 내구도 불합격은 **2016-01~2017-02 최초생산품검사**(7,110km에서 독일산 볼트 파손)다
+> ③ 국산 변속기는 **승인만 된 게 아니라 양산 계약까지 체결**됐다(2025-02, 방사청–SNT다이내믹스 1,337억 원). 단 국산 변속기를 단 K2의 **실제 군 인도는 확인 안 됨**(2026년 장착 예정 보도만)
+> ④ 파독 사망 117명의 출처는 진실화해위가 아니라 **『파독광부 30년사』(재독한인글뤽아우프친목회, 1997)**다
+> ⑤ 2026-04-27 계약의 「파견 실습안」은 **한국 파견이 아니라 폴란드 현지**에서 현대로템이 하는 폴란드군 K2 정비 사업에 부마르 인력이 참여하는 것이다
+
+### 1. K2 폴란드 기술 이전의 실제 범위
+
+| 항목 | 값/원문 | 출처 | 판정 |
+|---|---|---|---|
+| 2차 이행계약(2025-08-01)의 기술 이전 정의 | 폴란드 방산업체 안에 생산 능력(최종 조립)을 세우고 전차의 완전한 운용·정비 능력을 확보. PGZ 원문 「transfer technologii obejmujący ustanowienie w spółkach polskiego przemysłu obronnego potencjału produkcyjnego (montaż końcowy)」 · 「pozyskanie zdolności w zakresie pełnej obsługi i eksploatacji czołgów」 | PGZ 「ZM BUMAR-ŁABĘDY S.A. i Hyundai Rotem Company podpisały przełomową umowę…」 https://grupapgz.pl/zm-bumar-labedy-s-a-i-hyundai-rotem-company-podpisaly-przelomowa-umowe-dotyczaca-transferu-technologii-do-produkcji-czolgow-k2pl/ · MILMAG https://milmag.pl/en/polish-zm-bumar-labedy-and-south-koreas-hyundai-rotem-company-sign-breakthrough-technology-transfer-agreement-for-k2pl-tank-production/ | ✅ |
+| 2차 이행계약 중 폴란드 생산분 | K2PL 64대 중 **초도 3대는 한국에서 제작·시험**(형상 변경 때문), **61대는 부마르에서 최종 조립** + 지원차량 81대(구난 31·교량 25·공병 25) | 폴란드 군비청 발표(검색 요약, 본문은 캡차로 직접 확인 실패) https://www.wojsko-polskie.pl/au/articles/aktualnosci/podpisanie-umowy-wykonawczej-nr-2-na-system-uzbrojenia-k2/ · MILMAG 위 | ✅ |
+| 2025-10-28 기술 이전 계약 | 부마르가 받는 것: 「dokumentację techniczną i technologiczną, narzędzia oraz wyposażenie produkcyjne, umożliwiające uruchomienie w Polsce linii montażowej czołgów K2PL」(K2PL 조립 라인을 폴란드에 세울 **기술·공정 문서, 공구, 생산 설비**) + 「pełnej obsługi i wsparcia eksploatacji」(완전한 정비·운용 지원 능력) | ZBiAM 2025-10-28 https://zbiam.pl/zaklady-mechaniczne-bumar-labedy-s-a-i-hyundai-rotem-company-podpisaly-umowe-dotyczaca-transferu-technologii-produkcji-oraz-serwisu-czolgow-k2/ · PGZ 위 | ✅ |
+| 같은 계약 — 역량 범위 | 「Kompetencje w zakresie montażu, napraw i remontów sprzętu oraz jego ewentualnych modyfikacji i modernizacji」(조립, 수리·재생, 향후 개조·현대화 역량) | Portal Obronny 2025-10-29(Juliusz Sabak) https://portalobronny.se.pl/przemysl-zbrojeniowy/produkcja-czolgow-wraca-do-bumaru-hyundai-rotem-przekazal-kompetencje-do-produkcji-k2pl-aa-Eeww-VYCU-FizY.html | ✅ |
+| 2차 이행계약 부속 | 탄약, 「pakietu szkolnego」(교육 패키지), 예비부품·기술문서 등 군수 지원 | ZBiAM 위 | ✅ (교육 패키지 세부 ❓) |
+| 정비(MRO) 라이선스 | **2025-12-15** 별도 계약 2건: ① 폴란드 국가(군비청)–현대로템 라이선스 ② 군비청–부마르 서브라이선스. K2GF·K2PL 및 K2PL 기반 지원차량의 「pełnego cyklu utrzymania tych wozów – od przeglądów po poważne naprawy」(점검부터 중정비까지 전 주기) | Spider's Web 2025-12 https://spidersweb.pl/2025/12/licencja-na-serwis-k2-bumar-labedy-i-hyundai-rotem.html · PRESS9 2025-12-16 http://www.press9.kr/news/articleView.html?idxno=70006 | ✅ |
+| 다음 단계 부품 생산 분야 | 「produkcja struktur kadłuba i wieży, produkcja układu jezdnego i zawieszenia pojazdów, produkcja armaty czołgowej (w tym lufy) oraz produkcja automatu załadowania armaty」(차체·포탑 구조물, 주행장치·현가, 주포(포신 포함), 자동장전장치) — 필자가 「입수한 정보」 기준 | Portal Militarny 2025-11-04(Tomasz Kwasek) https://portalmilitarny.pl/analizy-i-komentarze/umowa-na-transfer-technologii-do-produkcji-czolgow-k2pl-czyli-kwasek-wyjasnia-o-co-chodzi/ | ⚠️ 전문가 해설 |
+| 현대로템 측 설명 | 조립 먼저, 이후 「struktura (kadłub), napęd (powerpack), armata, zawieszenie hydropneumatyczne i automat ładowania」 생산으로 「nieco rozszerzony」(다소 확대) | Defence24 2025-12-09 강경태 현대로템 유럽법인장 인터뷰 「Czołgi K2PL od podszewki」 https://defence24.pl/przemysl/co-z-czolgow-k2-powstanie-w-polsce | ✅ 발언 / 파워팩은 **계획** |
+| 엔진·변속기 현지 생산 | 「nie został rozwiązany」(해결되지 않았다). 구성품을 라이선스 생산할지 완제품을 사서 조립할지 미정 | Portal Militarny 2025-11-04 위 | ⚠️ |
+| 비판 시각 | 「nie gwarantuje transferu technologii, lecz otwiera jedynie taką możliwość」(기술 이전을 보장하지 않고 가능성만 열었다), 「wymaga dopiero negocjacji umów B2B」 — 분석가 토마시 드미트루크 | Kresy.pl 2025-08-03 https://kresy.pl/wydarzenia/media-umowa-na-czolgi-k2pl-nie-gwarantuje-transferu-technologii/ | ⚠️ 2025-08 시점 의견(이후 10·12·4월 계약으로 일부 구체화) |
+| 2026-04-27 하도급 계약 | K2PL·구난전차 **현지 조립 생산 협력** + 「폴리쉬 솔루션」: **전후방 카메라·관성항법장치**를 폴란드산으로. 크루체크 「Sukcesywnie przybliżamy się do uruchomienia nowoczesnej linii montażowej czołgów K2PL」(K2PL 조립 라인 가동에 한 걸음씩 다가가고 있다), PGZ 바크 부회장 「Przywracamy tym samym krajowe zdolności w domenie produkcji ciężkiego sprzętu pancernego」(중장갑 장비 생산 능력을 되살린다) | 머니투데이 2026-04-28 https://www.mt.co.kr/industry/2026/04/28/2026042808242621519 · 부마르 공식 2026-04-27 https://bumar.gliwice.pl/news/kolejny-krok-w-kierunku-produkcji-czolgow-k2pl-wykonany | ✅ |
+| 카메라·항법 공급사 | PCO(카메라) + 항법은 WZE(Notes from Poland) / WZŁ(Portal Obronny)로 엇갈림 | Notes from Poland 2026-04-29 · Portal Obronny 2026-05-06 | ⚠️ 항법 업체명 |
+| 「파견 실습안」의 장소 | 「현지에서 현대로템이 수행하는 폴란드군 K2 전차 정비 사업에 부마르 인력이 함께 참여하는 파견 실습안」 — **폴란드 현지**, 목적은 생산 착수 전 정비 기술 조기 내재화 | 머니투데이 2026-04-28 위 | ✅ (기존 「❓ 한국 여부」 해소 → 한국 아님) |
+| 품질 검사·시험 운행 이전 | 공식 발표·보도에 별도 항목으로 명시 없음 | — | ❓ 검색 결과 없음 |
+| 일정 | 첫 완성 K2PL 부마르 2028년 4분기 → 군 인도 2029년 초. 「cały transfer technologii oraz wszystkie wymagane szkolenia… muszą zostać ukończone do 2028 roku」(모든 기술 이전과 필요한 교육은 2028년까지 끝나야 한다 — 강경태) | Portal Obronny 2026-05-06 · Defence24 2025-12-09 | ✅ |
+| **부마르 직원 한국 교육** | 크루체크(2026-04-27) 「od następnego roku, rozpoczynają intensywne szkolenia w Korei Południowej」(내년부터 한국에서 집중 교육 시작) / 현대로템 부사장 「pierwsze trzy egzemplarze K2PL mają zostać opracowane i wyprodukowane w 2028 r. przez koreańskie zakłady, podczas gdy polski personel będzie odbywał szkolenie w Korei」(초도 3대를 2028년 한국 공장이 만드는 동안 폴란드 인력은 한국에서 교육받는다) | Portal Obronny 2026-05-06 https://portalobronny.se.pl/przemysl-zbrojeniowy/bumar-z-czterema-umowami-na-czolgi-kiedy-pierwsze-k2pl-opuszcza-polski-zaklad-aa-wL9Q-Vgf1-Htri.html · Portal Obronny 2026-04-28(Piotr Miedziński) https://portalobronny.se.pl/przemysl-zbrojeniowy/bumar-labedy-a-produkcja-k2pl-co-wypelni-luke-produkcyjna-i-zabezpieczy-przyszlosc-zakladu-aa-Pfyi-QgPM-eQXK.html | ✅ 계획 / **인원·분야·장소(창원 여부) ❓ 검색 결과 없음** |
+
+- 권장 문장: 「폴란드가 받은 건 전차만이 아닙니다. 조립 라인을 세울 설계·공정 문서와 공구, 생산 설비, 그리고 점검부터 중정비까지 직접 할 수 있는 정비 권한이 계약서에 들어갔습니다.」 / 「첫 세 대는 한국에서 만들고, 나머지 61대는 폴란드 글리비체 공장에서 조립합니다. 차체와 포탑, 주포까지 폴란드에서 만드는 게 다음 단계 목표입니다.」
+- 사용 금지: 「폴란드가 K2를 통째로 생산한다」(현재는 최종 조립, 부품 생산은 계획) · 「엔진·변속기도 폴란드에서 만든다」 · 「품질 검사·시험 운행 기술까지 넘겼다」(명시 없음) · 「부마르 직원 N명이 창원에서」 · 「파견 실습 = 한국 파견」
+
+### 2. K2PL은 K2GF와 무엇이 다른가
+
+| 항목 | 값/원문 | 출처 | 판정 |
+|---|---|---|---|
+| 개량 방향(현대로템) | 「Czołg będzie cechował się zwiększoną przeżywalnością. Dodane zostaną elementy pancerza specjalnego, oraz system ASOP, a także system zagłuszarki BSP.」(생존성 강화: 특수 장갑 요소 추가, 능동방어체계, 드론 재머) | Defence24 2025-12-09 강경태 인터뷰 위 | ✅ |
+| 능동방어 = 트로피 | 라파엘 「Pierwsze 64 wozy PL zostaną wyposażone w nasz system」(첫 64대 PL에 우리 시스템 장착), 「Siły Zbrojne RP wybrały Trophy APS do wyposażenia czołgów K2PL」 | Defence24 2026-09-22 「MSPO 2026: Rafael o Trophy na K2PL」 https://defence24.pl/przemysl/mspo-2026-rafael-o-trophy-na-k2pl-to-system-ubezpieczenia-na-zycie | ✅ (이스라엘제) |
+| 운용 경험 반영 | 크루체크 「Wersja PL to będą nie tylko nowe rozwiązania na czołgu, ale także usunięte wszystkie wady eksploatacyjne, które nasze wojsko podczas ćwiczeń czy operowania tym czołgiem zidentyfikowało」(PL형은 새 장비뿐 아니라, 우리 군이 훈련·운용 중 찾아낸 운용상 결함을 모두 없앤 버전) | Portal Obronny 2026-04-28(Juliusz Sabak) https://portalobronny.se.pl/wideo/prezes-bumar-labedy-pierwszy-czolg-k2pl-zbudujemy-w-2028-roku-do-wojska-trafi-w-2029-aa-LB4P-TyBm-Q4dW.html | ✅ |
+| MSPO 2026 공개형 | 원격무장체계(RCWS), 드론 재머, 능동방어, 폴란드 **미란다(Miranda)** 이동식 위장막(야시·열상 탐지 저감), 폴란드 OBRUM과 교량전차 | Korea Times 2026-09-08 https://www.koreatimes.co.kr/business/companies/20260908/hyundai-rotem-unveils-customized-k2pl-battle-tank-built-for-polish-forces · Defence24 「Premiera polskiego czołgu K2 w nowej odsłonie」 https://defence24.pl/sily-zbrojne/premiera-polskiego-czolgu-k2-w-nowej-odslonie | ✅ |
+| 폴란드산 탑재 장비 | 전후방(조종수) 카메라 PCO, 관성항법(WZE/WZŁ) | 머니투데이 2026-04-28 · Notes from Poland 2026-04-29 | ✅ / ⚠️ 항법 업체명 |
+| 폴란드산 통신·사격통제 | 공식 발표에서 확인 못 함 | — | ❓ |
+| 형식명 「K2PL」 | 공식 풀이 없음. 폴란드 요구에 맞춘 「폴란드화한」 버전으로 설명됨 | Defence24 2025-12-09 | ⚠️ 「폴란드형 K2」까지만 |
+
+- 권장 문장: 「폴란드형 K2, K2PL은 장갑을 더 두르고, 날아오는 대전차 미사일과 드론을 막는 능동방어 장치와 드론 재머를 답니다. 카메라와 항법장치는 폴란드산입니다. 부마르 사장은 '우리 군이 훈련에서 찾아낸 결함을 모두 고친 전차'라고 말했습니다.」
+- 사용 금지: 「통신·사격통제까지 폴란드산」 · 「능동방어도 폴란드산/한국산」(트로피 = 이스라엘 라파엘) · 「PL = ○○의 약자」
+
+### 3. 국산 K2 변속기 — 난관과 재도전 (결론: **승인 + 양산 계약 체결 ✅ / 실제 장착 차량 군 인도 ❓**)
+
+| 시점 | 값/원문 | 출처 | 판정 |
+|---|---|---|---|
+| 2005 | 국산 파워팩 개발 착수(엔진 두산인프라코어, 변속기 S&T중공업) | 경남도민일보 https://www.idomin.com/news/articleView.html?idxno=923331 · 한국일보 2020-07-13 https://www.hankookilbo.com/News/Read/A2020071311320001173 | ✅ |
+| 2012-04 | 운용시험평가 중 파워팩 결함 → 1차 양산 100대는 독일 파워팩 | 경남도민일보 위 | ✅ |
+| **2014-10** | 문제는 **가속 성능**: 정지→시속 32km에 「8.7초가 걸려」 기준(8초) 미달 → 합참이 「K2 전차의 가속성능 기준을 8초에서 9초로 수정」. 나머지 140여 항목은 독일산과 동등 | 경향신문 2014-10-28 https://www.khan.co.kr/article/201410281950501 · 머니투데이 2014-10-28 https://news.mt.co.kr/mtview.php?no=2014102818318255761 | ✅ (내구도 불합격 아님) |
+| 내구도 기준 | 「기본기능을 상실하거나 심각한 성능저하 없이 320시간 9600㎞ 거리까지 운용이 가능해야」 | 뉴스투데이 2024-11-02 https://www.news2day.co.kr/article/20241102500002 | ✅ |
+| **2016-01~2017-02 불합격** | 국방기술품질원 최초생산품검사, 1년 1개월간 6차례 결함. 6차에 클러치 유압 저하 → 정밀조사. 원인: 「클러치 압력판 고정 볼트 1개의 머리 부위가 파손」, 주변 볼트 2개 목 부위 미세 균열. **볼트는 독일산**. 정렬 불량, 볼트 구멍 가공 불량, 볼트 목 치수 약 0.1mm 부족, 피로 누적 | 서울신문 2019-07-18(정현용) https://www.seoul.co.kr/news/politics/diplomacy/2019/07/18/20190718500199 | ✅ |
+| 멈춘 지점 | 「7,110km 구간에서 작동을 멈췄고」「볼트가 하나 부러진 탓이었다」 | 코리아헤럴드 2021-12-06(김병욱) https://www.koreaherald.com/article/2736728 · SBS 김태훈 취재파일 2020-10-12 https://news.sbs.co.kr/news/endPage.do?news_id=N1006018674 | ✅ (이데일리 2020-12-01은 7,359km ⚠️) |
+| 기준 논란 | 차체·엔진은 오버홀급 중대결함일 때만 불합격인데 **변속기만 어떤 결함이든 불합격**(SBS). 업체 「9,600km를 고장 없이 달리는 건 기계공학적으로 도달할 수 없는 기준」 | SBS 2020-10-12 · 코리아헤럴드 2021-12-06 | ✅ (업체 주장) |
+| 2018-02 혼합 파워팩 | 2차 양산에 「국산 엔진 + 독일 변속기」. 경남도민일보는 「SNT가 내구도 검사를 거부했다며」로 서술, 업체는 「정부가 테스트 기준 어겨 피해」라며 방사청과 공방 | 경남도민일보 위 · 한국경제 2018-06-18 https://www.hankyung.com/economy/article/2018061873931 (본문 403, 제목만 확인) | ✅ 결정 / ⚠️ 경위(양측 주장 대립) |
+| 2020-12 | 3차 양산도 「지난 2차 양산 때와 마찬가지로 독일제 변속기」. 방사청 「변속기 국산화 사업은 지속한다는게 청의 기본 입장」 | 이데일리 2020-12-01(김관용) https://www.edaily.co.kr/news/read?newsId=01446486625994256&mediaCodeNo=257 | ✅ |
+| 2022~2023 | 같은 변속기가 튀르키예 알타이 전차 시험 통과 → 2023-01 BMC와 수출 계약(약 2,700억 원). 튀르키예는 전차에 장착해 평가, 주행거리 기준은 한국의 절반 수준 | 한국일보 2026-01-27(강은호 전 방사청장 기고) https://www.hankookilbo.com/news/article/A2026012711220000644 · 아시아투데이 2025-04-14 | ✅ |
+| 2024 재검사 | 2024-04~07 내구도 검사, 기준 320시간 중 「306시간 9200㎞에서 결함이 발생해 검사를 종료」 | 뉴스투데이 2024-11-02 · 아시아경제 2026-02-12 | ✅ (아시아경제 2024-09-20은 「292시간·8,800km, 브레이크 블레이드」로 달리 표기 ⚠️) |
+| 무엇으로 통과했나 | 기준 변경·재시험이 아니라 **업체 품질보증 대책**: 「정비대충장비(M/F)용 변속기 5대 무상제공, 전문인력이 상주하는 정비지원센터 운용」 + 보증기간 연장 | 아시아경제 2024-09-20(양낙규) https://www.asiae.co.kr/article/2024092008252180209 · 아시아경제 2026-02-12 https://view.asiae.co.kr/article/2026021111360758117 | ✅ |
+| 2024-09-19 | 방사청 **사업분과위원회**가 국내 파워팩 장착안(1안) 결정 | 아시아경제 2024-09-20 | ✅ |
+| **2024-10-28** | **제164회 방추위** 「K2전차 4차 양산 1500마력 변속기 적용(안)」 의결. 근거: 「내구도 검사 결과」「SNT다이내믹스가 제안한 추가 품질보증 대책」「관련기관 의견」 종합, 튀르키예 수출 실적 | 뉴스투데이 2024-10-28 https://www.news2day.co.kr/article/20241028500251 · 굿모닝충청 https://www.goodmorningcc.com/news/articleView.html?idxno=407381 | ✅ |
+| **양산 계약** | **2025-02** 방사청–SNT다이내믹스 「1337억원 규모로 1500마력급 변속기를 공급하는 계약」, 4차 양산 150여 대(~2028) | 아시아투데이 2025-04-14(김동민) https://www.asiatoday.co.kr/kn/view.php?key=20250414010007583 · 매일경제 2025-02-03(네이트 경유) https://news.nate.com/view/20250203n31476 | ✅ |
+| 실제 장착·인도 | 「올해 K2전차 4차 양산부터는 순수 국산 심장을 장착한다」(2026-02). 4차 초도 10대 2026-12 예정(기존 데이터). 실제 인도 보도는 못 찾음 | 아시아경제 2026-02-12 위 | ✅ 계획 / ❓ 인도 실적 |
+| 업체명 | S&T중공업 → SNT중공업 → SNT다이내믹스 | 각 기사 표기 | ✅ |
+
+- 권장 문장: 「국산 변속기는 2017년, 9,600킬로미터 내구도 시험에서 7,110킬로미터를 달리다 멈췄습니다. 원인은 클러치를 잡아 주는 볼트 하나였고, 그 볼트는 독일산이었습니다.」 / 「그래서 2018년, 한국은 엔진만 국산으로 하고 변속기는 독일 것을 쓰기로 합니다. 같은 변속기는 2023년 튀르키예 전차에 먼저 팔렸고, 2024년 10월에야 한국군 K2 4차분에 달기로 최종 결정됐습니다. 이듬해 2월, 1,337억 원어치 양산 계약이 맺어졌습니다.」 / (정직하게) 「2024년 재검사에서도 기준 320시간을 다 채우지는 못했습니다. 306시간에서 결함이 나왔고, 업체가 예비 변속기와 정비센터를 내걸고서야 통과됐습니다.」
+- 사용 금지: 「2014년 내구도 시험 불합격」(2014는 가속 성능) · 「재시험을 통과해 승인」(재검사도 306시간에서 결함) · 「국산 변속기 K2가 이미 군에 인도됐다」 · 「폴란드 K2에도 국산 변속기」(K2GF는 RENK, 폴란드 적용은 전망 기사뿐) · 「S&T가 시험을 거부했다」 단정
+
+### 4. 확인 요청 3건
+
+| 항목 | 값/원문 | 출처 | 판정 |
+|---|---|---|---|
+| **a. 뤼브케 함보른 동행** | 독일 대사관이 제공한 공식 일정표상 「함보른 탄광회사에서 광부와 간호원을 만난 그 자리에 뤼프케 대통령은 없었다」, 두 대통령은 「공식 만찬이 한 번 있었다」. 「뤼브케도 울었다」는 백영훈 교수 회고에서 퍼졌고 본인이 부정확하다고 인정. 목격 증언 「박대통령은 연설을 마치고 담배를 나눠주고 떠났을 뿐이다. 뤼프케 대통령은 그 자리에 없었다」 | 시사저널 2005-11-18(주진우) 「독일 대통령도 울었다고?」 https://www.sisajournal.com/news/articleView.html?idxno=103492 | ✅ **부재**(대사관 일정표 인용 보도) |
+| (반대 서술) | 조선 계열 2026-02-07 「박정희와 함께했던 독일의 루프케 대통령」, 매일신문 칼럼 등 동행 서술 — 1차 근거 제시 없음 | 네이트 경유 https://m.news.nate.com/view/20260207n10435 | ❌ 근거 없음 |
+| (중립) | 중앙일보 2024-10-26은 현장 인물로 육영수 여사만 언급. 대통령기록관은 쾰른·본 공항 영접 때 뤼브케·에르하르트만 확인 | 중앙일보 https://v.daum.net/v/FsfJn7NfSR · 대통령기록관 https://www.pa.go.kr/online_contents/exhibition/exhibition202511.html | 참고 |
+| **b. 부마르 직원 현재 교육** | 크루체크 직접 인용 「Nasi pracownicy już teraz szkolą się na czołgach K2 Gap Filler w jednostce wojskowej i tam nabywają potrzebne umiejętności i kompetencje. (...) Poznajemy wszystkie mankamenty i wady tego czołgu, ale też zobaczymy, jak jest obsługiwany.」(우리 직원들은 **지금** 군부대에서 K2GF로 교육받으며 필요한 기술과 역량을 익히고 있다. 이 전차의 모든 단점과 결함을 알아 가고, 어떻게 정비·운용되는지도 보게 된다) | Portal Obronny 2026-04-28(Juliusz Sabak) https://portalobronny.se.pl/wideo/prezes-bumar-labedy-pierwszy-czolg-k2pl-zbudujemy-w-2028-roku-do-wojska-trafi-w-2029-aa-LB4P-TyBm-Q4dW.html | ✅ **현재형 · 폴란드군 부대(단수, 부대명 ❓) · 운용·정비와 결함 파악** / 인원 ❓ |
+| **c. 사망 117명** | 「1963년부터 1979년까지 광부 65명, 간호사 44명, 기능공 8명이 사망했다」 — 출처 『파독광부 30년사』(재독한인글뤽아우프친목회, 1997). 세계일보는 「독일에서」 사망으로 표기 | 시사저널 2014-05-21(정준모) https://www.sisajournal.com/news/articleView.html?idxno=139462 · 세계일보 2025-07-29 https://www.segye.com/newsView/20250729514830 | ✅ 수치·기간·직종 / ⚠️ 장소 |
+| c. 사인 분류 | 「117명 가운데 작업 중 사고로 사망한 광부는 27명, 자살로 사망한 간호사는 19명」 + 자살 광부 4명. **나머지 67명은 사인 분류 공개 안 됨** | 르몽드 디플로마티크 한국어판 https://www.ilemonde.com/news/articleView.html?idxno=13731 · 오마이뉴스 2020-12-01 https://www.ohmynews.com/NWS_Web/Series/series_premium_pg.aspx?CNTN_CD=A0002697829 | ✅ 27·4·19 / ❓ 나머지 |
+| c. 진실화해위 | 진실화해위 결정 페이지(2008)에 사망 통계 서술 없음 | https://www.jinsil.go.kr/fnt/nac/selectNoticeDetail.do?bbsId=BBSMSTR_000000000717&nttId=24176 | ❌ 출처 표기 정정 |
+
+- 권장 문장: 「그날 함보른 강당에 서독 대통령은 없었습니다.」(굳이 필요 없으면 언급하지 않는 편이 안전) / 「부마르 사장은 '우리 직원들은 지금 군부대에서 K2로 배우고 있다. 이 전차의 결함까지 전부 알아 가고 있다'고 말했습니다.」 / 「파독 광부들의 모임이 펴낸 30년사에 따르면, 1963년부터 1979년까지 광부 65명, 간호사 44명, 기능공 8명, 모두 117명이 돌아오지 못했습니다. 광부 27명은 일하다 숨졌습니다.」
+- 사용 금지: 「뤼브케 대통령도 함께 울었다/동행했다」 · 「부마르 직원들이 지금 한국에서 배운다」 · 「진실화해위에 따르면 117명」 · 「117명 모두 탄광 사고로」
+
+### 5. 광부의 현장·가족 증언 (실명 인물)
+
+**유한석(1진, 1963-12-21 출국)** — 교포신문(독일) 「[파독 광부 60주년 특별 인터뷰] 파독광부 1차 1진 유한석 원로를 만나다」 2023-04-17 https://kyoposhinmun.de/speziell/2023/04/17/17779/ (기자명 표기 없음)
+
+| 항목 | 원문(짧은 인용) | 판정 |
+|---|---|---|
+| 파독 전 | 대구 「농업진흥청」(기사 표기) 근무 중 「우연히 신문에 난 서독광부모집 광고를 보는 순간」 / 「120-130대 1 이란 바늘구멍처럼 높은 경쟁률을 통과」 | ✅ 본인 증언(기관명은 「대구의 농업 관청」으로 쓰는 게 안전) |
+| 가족 | 동생 학비를 대려는 것이 동기 중 하나 — 「동생(당시 서울대 미대 재학 중, 나중에 중앙대 교수 유정민 교수)」 | ✅ |
+| 막장 | 「지하 1천미터 기온이 40도에 가까운 막장은 가만히 있어도 숨이 콱콱 막힌다」 | ✅ 본인 증언(수치는 증언 인용형으로만) |
+| 동료 사망 | 도착 3개월 만에 방을 같이 쓰던 동료(「찜머 콜레게」 = 룸메이트)가 동발 철거 중 사고로 사망. 「태극기가 덮힌 관을 붙잡고 오열하며」 | ✅ |
+| 1964-12-10 | 「서독에 온지 1년이 지난 64년 12월 10일, 우리나라 대통령이 독일에 왔고 우리 광부들을 찾아준 일이다」, 대통령 말 「나라가 부족하고 내가 부족한 탓에 여러분이 이 먼 타국에까지」, 「온통 눈물바다가 됐었다」 | ✅ 기억 / ⚠️ **본인 참석 명시 없음** |
+| 계약 후 | 계약 막바지 독일 여성과 사랑. 「계약기간 3년을 마치고 독일에 더 체류한다는 것은 거의 불가능에 가까웠다」 / 「아돌프 광산근무를 마치고 바이어에 취직하였으며 레버쿠젠 바이어에서 연금나이까지 근무」. 독일인 첫 부인과 자녀 둘 | ✅ (잔류 경위 ❓) |
+| 송금·편지 | 송금액·편지 구체 내용 없음 | ❓ |
+
+**권이종(1964-10-05 출국, 메르크슈타인 아돌프 광산)**
+
+| 항목 | 원문(짧은 인용) | 출처 | 판정 |
+|---|---|---|---|
+| 떠난 이유 | 「가난에서 벗어날 수 있겠다는 생각에 무작정 지원해야겠다고 마음먹었고」 | 천지일보 2021-05-26(김현진) http://www.newscj.com/news/articleView.html?idxno=863557 | ✅ |
+| **여비 — 형이 소를 팔다** | 「농사지으며 가난하게 살았던 그의 형은 전 재산인 소 한 마리와 보리 열다섯 가마를 팔아서 독일에 갈 경비를 대줬다」 / 떠나는 날 「형님에 대한 미안함과 감사함에 하염없이 눈물을 흘렸고, '꼭 많은 돈을 벌어오겠다'고 다짐」 | 천지일보 2021-05-26 | ✅ (기존 ⚠️ 「가족이 소를 팔아」를 **「형이 소 한 마리와 보리 열다섯 가마를 팔아」로 상향**) |
+| 막장 | 「지하 갱도에 한 번 들어가면 작업이 끝날 때까지 나올 수 없었고 식사는 과일 한두 개와 딱딱한 독일 빵이 전부였지요」 / 마스크가 「더워서 쓰지 못할 정도」 / 코담배로 코 속 석탄가루를 뺐다 | 서울신문 2013-05-23(김문) https://www.seoul.co.kr/news/plan/weekenddate/2013/05/23/20130523023001 · 천지일보 · 역사박물관 웹진 vol.37 https://www.much.go.kr/webzine/vol37/sub/sub1.html | ✅ |
+| 동료·본인 사고 | 「작업을 시작한 지 일주일 만에 천장붕괴 사고로 친한 동료까지 잃게 되면서」 / 「머리 위에 집덩이만한 바위가 떨어지는 것까진 봤는데 그 이후로는 기억이 나지 않는다」 | 천지일보 | ✅ |
+| 가족 편지 | 기념관 전시: 「막장에서 써 내려간 일기, 가족이 보낸 편지, 동료와 찍은 사진」 | 서울신문 2013-05-23 | ✅ (편지 내용 ❓) |
+| 1964-12 함보른 | 「박 대통령과 육영수 여사가 독일을 방문했을 때 저희 광부들을 초청했지요」「광부들도 애국가를 부르며 모두 울었지요」 — 당시 아헨 인근 근무(출국 두 달 뒤) | 서울신문 2013-05-23 | ⚠️ 회상은 있으나 **본인 참석을 명시한 문장 없음** |
+| 송금액 | 원문 없음 | — | ❓ |
+
+- 권장 문장: 「1964년 10월, 권이종이 독일로 떠날 수 있었던 건 형이 전 재산인 소 한 마리와 보리 열다섯 가마를 팔아 준 덕분이었습니다. 그는 '꼭 많은 돈을 벌어 오겠다'고 다짐하며 울었습니다. 일을 시작하고 일주일 만에, 천장이 무너져 친한 동료를 잃었습니다.」 / 「1진 유한석 씨는 서울대 미대에 다니던 동생의 학비를 대려고 떠났습니다. 석 달 만에 한방 쓰던 동료가 갱도에서 숨졌고, 그는 태극기 덮인 관을 붙잡고 울었습니다. 계약이 끝난 뒤 그는 독일에 남아 레버쿠젠의 바이엘에서 은퇴할 때까지 일했습니다.」
+- 사용 금지: 「권이종·유한석이 함보른 강당에서 연설을 직접 들었다」(참석 명시 없음) · 두 사람의 송금액·편지 내용 창작 · 「부모가 소를 팔아」(형이다) · 유한석 「농촌진흥청 공무원」 단정 · 「지하 1,000m, 40도」 단정(증언 인용형으로만)
