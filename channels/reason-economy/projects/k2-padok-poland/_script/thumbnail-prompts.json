@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "k2-padok-poland",
+    "titles": [
+      "광부 7,936명 보내던 나라…폴란드가 전차를 맡긴 진짜 이유",
+      "탄광에 광부 보내던 한국…60년 뒤 폴란드가 전차를 맡긴 진짜 이유",
+      "광부 7,936명 보낸 한국에…폴란드가 전차 공장을 맡긴 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"광부 7,936명 보내던 나라\" / 폴란드가 전차를 맡겼다",
+      "\"1963년 광부, 2026년 전차\" / 60년 만에 방향이 바뀌었다",
+      "\"탄광 가던 나라의 전차 226대\" / 폴란드가 한국을 불렀다"
+    ],
+    "image_concepts": {
+      "A": "탄광 ↔ 항구 3분할 — 왼쪽 흑백 1960년대 독일 탄광의 한국 광부 + 독일 국기 / 가운데 놀란 폴란드 장교(익명) / 오른쪽 그디니아항에서 하역되는 K2 + 태극기",
+      "B": "항구 하역 한 장 — 수송선에서 크레인으로 내려지는 K2 대열, 부두의 폴란드 국기·태극기, 왼쪽 가장자리에 흑백 광부 사진 액자"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사 3분할. 왼쪽 흑백 탄광 광부와 독일 국기, 가운데 놀란 폴란드 장교, 오른쪽 크레인에 매달려 하역되는 K2와 태극기.",
+      "prompt_en": "Photorealistic cinematic three-panel contrast composition, high-saturation HDR. On the left, a black-and-white 1960s photograph-style scene of young Korean coal miners in helmets with headlamps inside a dark German coal mine tunnel, with the German national flag (black, red, gold) waving in the top-left corner. In the center, a large chest-up portrait of an attractive Polish army officer in his 60s with a likeable face, wearing a Polish army uniform, mouth open in exaggerated surprise, filling about 60 percent of the frame height. On the right, a Hyundai Rotem K2 Black Panther main battle tank hanging from a port crane over a cargo ship at Gdynia harbor, lit by warm golden backlight with a blue-white glow, with the South Korean Taegukgi flag waving in the top-right corner."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사 변형. 왼쪽 먼지 낀 흑백 갱도의 광부 한 명, 오른쪽 햇빛 받는 부두 위 K2 대열, 가운데 자신감 있게 미소 짓는 한국인 노기술자.",
+      "prompt_en": "Photorealistic cinematic split composition in vivid HDR color. The left third is a desaturated sepia scene of a single Korean coal miner in the 1960s, face covered in coal dust, standing in a German mine shaft, with a German national flag in the top-left corner. The center shows an attractive Korean engineer in his 60s with a warm likeable face, wearing a work jacket, smiling with confident pride, large chest-up close-up. The right third shows a row of K2 Black Panther tanks lined up on a sunny Polish port dock, glowing in bright warm light, with the South Korean flag and the Polish flag (white and red) waving in the top-right corner."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 새벽 항구, 거대한 수송선에서 크레인으로 내려지는 K2, 부두에 폴란드 국기와 태극기, 왼쪽 가장자리에 흑백 광부 사진 액자.",
+      "prompt_en": "Photorealistic cinematic wide shot of Gdynia port in Poland at dawn, bright vivid colors with a blue-white glow. A giant cargo ship dominates the upper half while a Hyundai Rotem K2 Black Panther tank is lowered by a massive crane, dramatically oversized and sharply rim-lit. The Polish flag and the South Korean Taegukgi flag wave side by side on the dock. On the left edge, an old black-and-white framed photograph of 1960s Korean coal miners in helmets is superimposed like a memory, creating a past-versus-present contrast."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사 변형. 부두 위 K2 대열을 바라보는 폴란드 병사들의 뒷모습, 하늘에 흑백 광부 얼굴이 희미하게 겹침.",
+      "prompt_en": "Photorealistic cinematic scene with high-key bright lighting. A long line of K2 Black Panther tanks rolls off a ship ramp onto a Polish harbor dock, towering and gleaming in golden sunlight, filling the upper half of the frame from left to right. Polish soldiers in uniform stand watching in awe. Faintly superimposed across the sky is a large black-and-white portrait of a young 1960s Korean coal miner in a helmet, like a fading memory. The South Korean flag and the Polish flag wave in the top corners."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 같은 화면을 가운데 세로선으로 나눠, 왼쪽은 1963년 김포공항 흑백 비행기 앞 광부 행렬, 오른쪽은 2026년 컬러 항구의 K2 — 방향이 반대인 두 행렬.",
+      "prompt_en": "Photorealistic cinematic diptych split by a sharp vertical line. On the left, a black-and-white 1963 scene at Gimpo Airport: a line of young Korean men in suits carrying bags, walking toward a propeller airplane headed for Germany, with a German flag in the top-left corner. On the right, a vivid full-color 2026 scene: K2 Black Panther tanks rolling in a line along a Polish harbor, bright warm sunlight and blue-white glow, with the South Korean flag and Polish flag in the top-right corner. The two lines of movement point in opposite directions, dramatizing a reversal across sixty years."
+    }
+  ]
+}
