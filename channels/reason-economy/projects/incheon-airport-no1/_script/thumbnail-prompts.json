@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "incheon-airport-no1",
+    "titles": [
+      "1,234곳 중 국제선 1위…일본 공항이 인천 경유를 광고하는 진짜 이유",
+      "\"인천 거쳐 세계로\" 일본 공항이 인천공항을 광고하는 진짜 이유",
+      "국제선 세계 1위 인천…일본 공항이 '인천 경유'를 광고하는 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"후쿠오카발, 인천 경유\" / 일본 공항이 인천을 광고한다",
+      "\"주차장까지 공짜로 줄게\" / 인천 거쳐 세계로 가라는 일본",
+      "\"1,234곳 중 국제선 1위\" / 일본 공항도 인천을 밀어준다"
+    ],
+    "image_concepts": {
+      "A": "후쿠오카공항 국제선 출국장(일장기) ↔ 가운데 놀란 일본인 여행객 ↔ 세계 도시가 빼곡한 인천공항 환승 게이트(태극기)",
+      "B": "한산한 일본 지방공항 계류장 ↔ 가운데 탑승권을 보고 놀란 일본인 비즈니스맨 ↔ 노을 속 인천공항 제2터미널 앞 세계 항공사 여객기들"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽 조용한 후쿠오카공항 출국장과 일장기, 가운데 여권을 든 채 놀란 일본인 여행객, 오른쪽 빛나는 인천공항 환승 게이트와 태극기.",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic three-panel contrast image. On the left, a quiet, dimly lit Fukuoka Airport international departure hall with a few travelers and a Japanese national flag (white flag with red circle) waving in the upper-left corner, desaturated cool tones. In the center, an attractive Japanese man in his 50s with a warm likeable face holding a passport and boarding pass, chest-up close-up filling 60% of the frame height, exaggerated wide-eyed surprised expression. On the right, a bustling, brightly lit Incheon International Airport transfer gate with a huge departure board full of world cities and a Korean national flag (Taegukgi) waving in the upper-right corner, warm golden backlight and blue-white glow."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 후쿠오카 출국장 안내판 앞 일본인 여성 여행객이 놀라 돌아보고, 오른쪽에 인천공항 제2터미널 내부의 거대한 유리 천장과 환승 인파.",
+      "prompt_en": "Photorealistic cinematic HDR split composition in three vertical sections. Left: a calm Fukuoka Airport check-in area under flat grey light, a Japanese national flag (white flag with red circle) in the upper-left corner. Center: an attractive Japanese woman in her 40s with a warm likeable face and a carry-on suitcase, turning back with an exaggerated astonished expression, chest-up, large in frame. Right: the soaring glass-roofed interior of Incheon Airport Terminal 2 filled with international transfer passengers, sparkling warm backlight, Korean national flag (Taegukgi) fluttering in the upper-right corner. Vivid saturated colors, strong contrast between the muted left side and the glowing right side."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 왼쪽 흐린 하늘 아래 한산한 일본 지방공항 계류장의 소형 여객기, 가운데 탑승권을 보고 놀란 일본인 비즈니스맨, 오른쪽 노을 속 인천공항 제2터미널 앞 대형 여객기들.",
+      "prompt_en": "Photorealistic cinematic HDR three-panel scale-contrast image. On the left, an almost empty regional Japanese airport apron under an overcast grey sky with one small regional jet, Japanese national flag (white flag with red circle) in the upper-left corner, low saturation. In the center, an attractive Japanese businessman in his 60s in a navy suit with a likeable face, staring at his boarding pass with an exaggerated shocked open-mouth expression, chest-up, filling about 65% of the frame height. On the right, the gleaming Incheon International Airport Terminal 2 at golden sunset with several large wide-body airliners of different airlines lined up at the gates, a Korean national flag (Taegukgi) waving in the upper-right corner, warm glowing light."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 왼쪽 비 오는 지방공항 활주로, 가운데 놀란 일본인 노부부, 오른쪽 야경 속 인천공항 활주로에 줄지어 이륙 대기하는 여객기 불빛.",
+      "prompt_en": "Photorealistic cinematic HDR image divided into three parts. Left: a rain-soaked quiet runway of a small Japanese regional airport at dusk, muted blue-grey tones, Japanese national flag (white flag with red circle) in the upper-left corner. Center: an attractive Japanese couple in their 60s with warm likeable faces, chest-up, both with exaggerated surprised expressions looking toward the right. Right: Incheon International Airport at night with a long line of airliners' landing lights queued on the taxiway and the brightly lit terminal glowing blue-white, Korean national flag (Taegukgi) waving in the upper-right corner. Strong contrast between the dim left and the brilliant right."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 일본 후쿠오카공항 쪽에서 출발한 여객기가 바다 위를 지나 인천공항으로 향하는 부감 장면 — 바다 건너 빛나는 인천공항, 양쪽 모서리 일장기·태극기.",
+      "prompt_en": "Photorealistic cinematic HDR aerial view: in the left foreground the coastline of Fukuoka, Japan under a pale sky with a Japanese national flag (white flag with red circle) in the upper-left corner, an airliner climbing away over the sea toward the right. Across the strait on the right, Incheon International Airport on its reclaimed island glows brilliantly with golden-hour light, runways and terminals sparkling, a Korean national flag (Taegukgi) waving in the upper-right corner. Vivid saturated colors, sweeping sense of scale and direction from Japan toward Korea."
+    }
+  ]
+}
