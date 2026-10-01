@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "korea-export-overtakes-japan",
+    "titles": [
+      "9개월 만에 작년 1년 치 넘었다…한국이 일본을 처음 앞선 진짜 이유",
+      "엔저에도 일본 물량 3년 감소…한국 수출이 처음 앞선 진짜 이유",
+      "\"무역입국에 그림자\" 닛케이가 인정한 한국 수출 역전의 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"엔화 싸도 3년 내리 감소\" / 한국 수출이 일본을 처음 넘었다",
+      "\"무역입국에 그림자\" / 닛케이가 먼저 인정했다",
+      "\"9개월 만에 작년 1년 치\" / 일본을 넘은 한국 수출의 이유"
+    ],
+    "image_concepts": {
+      "A": "3분할 — 왼쪽 한산한 일본 자동차 수출 부두 / 가운데 신문 든 놀란 60대 일본인 사업가(익명) / 오른쪽 청백색으로 빛나는 한국 반도체 공장과 출항하는 컨테이너선",
+      "B": "3분할 — 왼쪽 엔화 지폐 더미 옆에서 배에 실려 바다 건너로 떠나는 일본 자동차 공장 / 가운데 놀란 익명 인물 / 오른쪽 한국 공장에서 쏟아지는 메모리 웨이퍼"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽 텅 빈 일본 자동차 수출 부두(저채도), 가운데 신문을 들고 입을 벌린 60대 일본인 사업가, 오른쪽 밤에 빛나는 한국 반도체 공장과 컨테이너선. 위 모서리에 일장기와 태극기.",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic three-panel composition. On the left, a quiet, desaturated Japanese car export pier under a grey dusty sky with an idle car carrier ship and empty parking rows, a Japanese national flag (white flag with red circle) fluttering in the upper left corner. In the center, an attractive, likeable Japanese businessman in his 60s in a dark suit holding a folded newspaper, chest-up close-up filling most of the frame height, with an exaggerated shocked expression and mouth open. On the right, a gleaming Korean semiconductor fab glowing with warm backlight and blue-white light beside a large container ship departing at dusk, a South Korean Taegukgi flag waving in the upper right corner."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 같은 대비를 항만 항공샷으로 — 왼쪽 텅 빈 일본 부두, 오른쪽 컨테이너가 가득한 부산항과 반도체 공장 불빛, 가운데 놀란 인물 흉상.",
+      "prompt_en": "Photorealistic cinematic aerial-style split scene with vivid saturated colors. The left third shows a nearly empty Japanese harbor with rusty cranes and a few faded containers under overcast light, the Japanese national flag (white flag with red circle) in the top left corner. The right third shows a busy Korean port packed with colorful containers and a brightly lit semiconductor factory complex glowing blue-white behind it, the Taegukgi flag in the top right corner. In the center foreground, a likeable Japanese man in his 60s in a business suit, chest-up, staring wide-eyed in surprise toward the Korean side."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 왼쪽 엔화 지폐 더미 옆에서 일본 자동차 공장이 바지선에 실려 바다 건너로 떠나는 장면, 가운데 놀란 인물, 오른쪽 한국 공장에서 쏟아져 나오는 반짝이는 메모리 웨이퍼.",
+      "prompt_en": "Photorealistic surreal-but-clean HDR composition with bright vibrant colors. On the left, a towering stack of Japanese yen banknotes in muted grey tones while a Japanese car factory building sits on a giant barge sailing away across the sea, the Japanese national flag (white flag with red circle) in the upper left corner. In the center, an attractive middle-aged East Asian man with a likeable face, chest-up, eyebrows raised in exaggerated astonishment. On the right, a Korean semiconductor plant with glittering silicon memory wafers pouring out in golden-blue light, the Taegukgi flag waving in the upper right corner."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 왼쪽 저울에 놓인 가벼운 엔화 동전과 멈춘 일본 공장, 오른쪽 무겁게 내려앉은 메모리 칩 상자와 가동 중인 한국 공장. 가운데 인물이 저울을 바라보며 놀람.",
+      "prompt_en": "Photorealistic cinematic still life and portrait hybrid with high-key lighting and vivid tones. A giant balance scale dominates the upper half: the left pan holds a pile of light Japanese yen coins above a dim, halted Japanese factory with the Japanese national flag (white flag with red circle) in the corner, while the right pan sinks heavily under glowing crates of Korean memory chips above a brightly operating Korean fab with the Taegukgi flag. In the middle, a likeable Japanese businessman in his 60s, chest-up, looks at the tilted scale with an exaggerated surprised expression."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 도쿄 아침 출근 전철 안에서 경제신문을 펼친 일본인 회사원의 놀란 얼굴 클로즈업, 창밖 너머로 바다 건너 빛나는 한국 항구가 겹쳐 보이는 장면.",
+      "prompt_en": "Photorealistic cinematic close-up inside a Tokyo morning commuter train with bright natural light. An attractive Japanese office worker in his 50s with a likeable face holds open a business newspaper, his face filling much of the frame with an exaggerated shocked expression. Through the train window behind him, a dreamlike double-exposure shows a glowing Korean port with container ships and a semiconductor factory lit in warm gold and blue-white, a small Taegukgi flag visible on the right and a Japanese national flag (white flag with red circle) on the left edge."
+    }
+  ]
+}
