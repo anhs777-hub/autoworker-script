@@ -15,6 +15,7 @@
 | "점검해줘" | `.claude/skills/doctor/SKILL.md` | 설치 상태 진단 — ✅❌ 리포트 (아무것도 수정하지 않음) |
 | "업데이트해줘" | `.claude/skills/update/SKILL.md` | 새 버전 zip 적용 (channels/ 보존) |
 | "초기화해줘" | `.claude/skills/reset/SKILL.md` | 도구 파일 원본 복구 (channels/ 보존) |
+| "○○ 대본 최종 검수해줘" (완성본, TTS 전) | `prompts/final-review-checklist.md` | PD 최종 검수 — 사실 정밀도·합계·채널 규칙·완성본 파일 일치 → `review.md`에 「최종 검수」 기록 |
 | "타임스탬프 채워줘" (완성 영상과 함께) | `.claude/skills/timestamp/SKILL.md` | 영상 전사 → `03_업로드정보.md` 설명글과 `04_타임스탬프.txt`를 실측값으로 교체 |
 
 - 대본/스크립트 관련 요청은 표현이 달라도 script-pd로
