@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "haitai-crown-imf",
+    "titles": [
+      "같은 IMF에 부도났다…4위 크라운이 2배 큰 해태제과를 산 진짜 이유",
+      "\"과자는 잘 팔렸다\" 빚 3조 해태가 4위 크라운에 넘어간 진짜 이유",
+      "과자 200개를 70개로…부도난 크라운이 해태를 삼킨 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"같은 IMF에 같이 부도\" / 4위 크라운이 해태를 샀다",
+      "\"빚 3조 vs 2,500억\" / 7년 뒤 4위가 2위를 삼켰다",
+      "\"과자는 잘 팔렸는데\" / 해태는 4위에 팔렸다"
+    ],
+    "image_concepts": {
+      "A": "꺼진 공장 vs 빛나는 공장 3분할 — 가운데 놀란 익명 50대 남성",
+      "B": "작은 과자 상자가 두 배 큰 과자 상자를 들어 올리는 스케일 대비"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽 불 꺼진 1990년대 한국 과자 공장, 오른쪽 황금 역광 속 가동 중인 과자 생산 라인, 가운데 오른쪽을 보며 놀란 익명 50대 한국 남성.",
+      "prompt_en": "Photorealistic epic cinematic high-saturation HDR image split into three parts. On the left, a dark abandoned 1990s Korean snack factory with dusty cold blue-grey machinery, faded unbranded cookie boxes and lights switched off. In the center, an attractive Korean man in his 50s with a warm likeable face, chest-up close-up filling 60% of the frame height, jaw-dropped and awestruck, looking toward the right side. On the right, a bright working snack production line bathed in golden backlight, glowing rim light and lens flare, freshly baked biscuits streaming along the conveyor, shown larger and closer with a heroic low-angle shot. No logos and no brand names on the factory buildings."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사 변형. 두 공장 건물 외관 대비 — 왼쪽 먼지 쌓인 닫힌 셔터의 공장, 오른쪽 트럭이 드나드는 빛나는 공장, 가운데 작업복 차림 익명 한국인 기술자가 자신감 있게 팔짱.",
+      "prompt_en": "Photorealistic triumphant cinematic HDR scene of two Korean confectionery factory buildings side by side, unbranded with no logos. The left factory is old and desaturated, its rolling shutter closed, rust and dust on the walls under a cold grey sky. The right factory is larger and closer, glowing in golden sunset backlight with sparks of light, delivery trucks loading snack boxes at its gate. In the center, a confident proud Korean engineer in his 50s in a clean work uniform stands with arms crossed and a warm smile, chest-up, filling most of the frame height."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 작은 과자 상자가 자기보다 두 배 큰 과자 상자를 받쳐 들어 올리는 스케일 대비 장면. 로고·글자 없음.",
+      "prompt_en": "Photorealistic bright vibrant studio scene with high-key lighting and vivid saturated tones. A small red snack box with no logo stands firmly on a polished surface, lifting a huge unbranded snack box twice its size high above it, the large box tilted slightly as if being carried away. The small box glows with a golden rim light and lens flare, while the big box is in slightly cooler, duller tones. Dramatic low-angle perspective makes the lift feel heroic and surprising."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사 변형. 저울 위 — 가벼운 쪽 접시에 작은 과자 상자 하나, 무거운 쪽에는 큰 과자 상자와 빚 서류 더미가 눌려 내려앉음. 작은 상자 쪽이 빛남.",
+      "prompt_en": "Photorealistic cinematic HDR close-up of a giant old brass balance scale. On the right pan sits one small unbranded biscuit box glowing in warm golden backlight. On the left pan, a large unbranded snack box is buried under a towering pile of loan documents and stamped promissory notes, dragging that side down in cold shadow. Bright vivid colors, strong contrast between the warm right side and the dim left side, objects large and clearly readable."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 1990년대 동네 구멍가게 과자 진열대 앞, 과자 봉지를 고르는 아이와 그 뒤 창밖 한쪽은 어두운 공장, 한쪽은 빛나는 공장.",
+      "prompt_en": "Photorealistic nostalgic cinematic scene of a small 1990s Korean neighborhood corner store with colorful unbranded snack bags and biscuit boxes stacked on wooden shelves. A cheerful attractive Korean child with a likeable face reaches for a snack bag in the foreground, shown large in the upper half of the frame. Through the shop window behind, two distant factories are visible: one dark and silent on the left, one glowing with golden light and smoke rising on the right. Warm high-saturation colors, no logos or readable text anywhere."
+    }
+  ]
+}

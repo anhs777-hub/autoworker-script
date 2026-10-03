@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "topik-korean-boom",
+    "titles": [
+      "한국어 시험장에 56만 명이 줄 섰다…세계가 한국어를 고른 진짜 이유",
+      "베트남은 졸업시험까지 바꿨다…세계가 한국어를 고른 진짜 이유",
+      "미국 대학 외국어는 줄었는데…한국어는 거꾸로 38% 늘었다"
+    ],
+    "thumbnail_texts": [
+      "\"40석, 일주일 만에 마감\" / 외국인 56만이 한국어를 골랐다",
+      "\"외국어 수강 17% 줄 때\" / 한국어는 거꾸로 38% 늘었다",
+      "\"베트남 졸업시험에 토픽\" / 베트남이 한국어를 골랐다"
+    ],
+    "image_concepts": {
+      "A": "3분할 — 왼쪽 'FULL' 팻말이 붙은 해외 시험장 앞 다국적 대기 줄(저채도) / 가운데 TOPIK 수험표를 쥔 20대 동남아 청년 / 오른쪽 따뜻한 역광의 한국 대학 정문과 태극기",
+      "B": "스케일 대비 — 새벽 시험장 앞에 끝없이 늘어선 다국적 응시자 행렬, 맨 앞 청년이 수험표를 들어 올림"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "3분할 승패: 마감된 뉴욕 시험장 / 경탄하는 미국 청년 / 빛나는 한국 대학과 큰 태극기",
+      "prompt_en": "Triumphant epic cinematic HDR photograph, high saturation, split into three zones. Left, small and in cold desaturated shadow: a wintry Manhattan street, a test-center door with a red 'FULL' sign and a line of multinational young adults in coats, a small ordinary American flag in the top-left corner. Center: an anonymous young American woman in her twenties, chest-up close-up, jaw-dropped and awestruck, looking and pointing toward the right side. Right, larger and closer to the camera in a heroic low-angle shot: a Korean university main gate blazing with golden backlight, glowing rim light, lens flare and sparks, and a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner, filling at least a quarter of the frame height."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "3분할 승패: 비어 가는 미국 대학 외국어 강의실 / 놀란 교수 / 학생으로 가득 찬 한국어 강의실",
+      "prompt_en": "Victorious cinematic HDR photograph, high saturation, three-part composition. Left, in dim cold low-saturation light: a half-empty American university foreign-language lecture hall with rows of vacant seats, a small plain American flag in the top-left corner. Center: an anonymous American professor in his fifties, chest-up, eyes wide in amazement, turning to look at the right side. Right, bigger and closer in a heroic low-angle shot: a bright lecture hall packed with students of many nationalities studying Korean, Hangul visible on the board, bathed in golden backlight with glowing rim light and lens flare, a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner, at least a quarter of the frame height."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "3분할 승패: 베트남 졸업시험장 / 토픽 성적표를 든 베트남 고3 / 빛나는 한국 캠퍼스",
+      "prompt_en": "Triumphant epic cinematic HDR photograph, high saturation, split into three zones. Left, cool and muted: a Vietnamese high-school graduation exam hall with rows of desks, a small ordinary Vietnamese flag in the top-left corner. Center: an anonymous Vietnamese high-school senior, chest-up close-up, proudly holding up a TOPIK score certificate, face full of awe as she looks toward the right side. Right, larger and closer in a heroic low-angle shot: a sunlit Korean university campus glowing with golden backlight, rim light and sparks, a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner, filling at least a quarter of the frame height."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "영웅샷: 한국어 시험장으로 끝없이 이어진 다국적 응시자 줄과 거대한 태극기",
+      "prompt_en": "Epic triumphant cinematic photograph at dawn, heroic low-angle shot from the front of the line. An endless line of hundreds of young test-takers of many nationalities, some in hijabs and some in winter jackets, stretches toward a Korean-language exam hall whose doors pour out golden light, glowing rim light and lens flare. A huge Korean flag Taegukgi hangs and waves proudly in sunlight on the building facade, at least a quarter of the frame height. The applicants at the front look up at the building in awe. High-saturation HDR, victorious mood."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "영웅샷: 황금빛 캠퍼스로 걸어 들어오는 다국적 유학생들",
+      "prompt_en": "Victorious epic cinematic HDR photograph at golden hour, heroic low-angle shot. A grand Korean university campus gate towers over the frame, blazing with golden backlight, rim light and sparks, while a crowd of international students of many nationalities walks in through the gate with backpacks, smiling and looking up in admiration. A huge Korean flag Taegukgi waves proudly in sunlight above the gate, filling at least a quarter of the frame height. High saturation, triumphant atmosphere."
+    }
+  ]
+}
