@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "universe-age",
+    "titles": [
+      "우주 나이는 정말 138억 년일까?",
+      "우주 나이 138억 년은 어떻게 쟀을까?",
+      "우주 나이 138억 년, 믿어도 될까?"
+    ],
+    "thumbnail_texts": [
+      "(흰) 우주보다 늙은 별 / (노랑) 우주 나이 138억 년",
+      "(흰) 세 가지 방법이 같았다 / (노랑) 138억 년의 근거",
+      "(흰) 아무도 안 봤는데 / (노랑) 우주 나이 재는 법"
+    ],
+    "image_concepts": {
+      "A": "밤하늘 관측소에서 유난히 크게 빛나는 별 하나를 가리키며 눈이 휘둥그레진 한국인 남성",
+      "B": "초 대신 빛나는 나선 은하가 꽂힌 생일 케이크를 들고 고개를 갸웃하는 한국인 여성"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 산 위 천문대 마당, 망원경 옆에서 하늘의 유난히 큰 별을 가리키며 입을 벌리고 놀란 30대 한국인 남성.",
+      "prompt_en": "Photorealistic composite of a Korean man in his 30s wearing a dark padded jacket, standing next to a large white observatory telescope on a mountaintop at night, pointing up with one hand, eyes wide and mouth open in exaggerated surprise. Above him in the upper part of the frame, one single star shines far bigger and brighter than all others, with a golden-white glow and soft diffraction spikes. Deep navy starry sky with the faint Milky Way band. The man is lit by a crisp blue-white rim light so he pops out like a clean cutout against the background."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 아파트 옥상에서 쌍안경을 내리고 하늘의 큰 별을 올려다보며 이마를 짚은 남성 — 보통 사람의 생활 공간.",
+      "prompt_en": "Photorealistic night scene on a Korean apartment rooftop, a Korean man in his 40s in a casual hoodie has just lowered his binoculars and is pressing a hand to his forehead in exaggerated disbelief while staring up at the sky. In the upper half of the frame, one enormous, unusually bright old star glows with a warm golden halo, dwarfing the other tiny stars. City lights glow faintly on the horizon under a deep blue night sky. Strong rim lighting separates the man sharply from the background, bright and clean overall tone."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 생일 케이크 위 촛불 대신 작은 나선 은하가 빛나고, 케이크를 든 40대 여성이 고개를 갸웃하며 당황.",
+      "prompt_en": "Photorealistic, playful composite of a Korean woman in her 40s holding a round white birthday cake at chest height, tilting her head with a puzzled, slightly comical frown. Instead of candles, a small glowing spiral galaxy in purple and blue floats just above the cake, casting colorful light on her face. Warm cozy living room background with soft bokeh lights. The woman and the cake are sharply lit with a crisp cutout look against the warm background."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 생일 케이크에 초를 끝없이 꽂다가 지친 표정으로 손가락을 세는 남성, 케이크 위로 은하가 빛남.",
+      "prompt_en": "Photorealistic humorous scene of a Korean man in his 30s at a kitchen table, holding a fistful of birthday candles and counting on his fingers with an exaggerated overwhelmed expression. On the cake in front of him, a tiny glowing spiral galaxy hovers above the frosting, lighting the scene in soft violet and blue. Bright warm kitchen lighting, clean background. The man is crisply separated from the background with a strong rim light."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 부엌에서 물 한 잔을 들여다보며 깜짝 놀란 할머니, 유리잔 속 물에 은하가 비침 — 클로징 「내 몸속 수소의 나이」 연결.",
+      "prompt_en": "Photorealistic close shot of a Korean grandmother in her 60s in a bright kitchen, holding a clear glass of water up to eye level with an exaggerated astonished expression, eyebrows raised high. Inside the water, a tiny swirling spiral galaxy glows in blue and violet, reflected light dancing on her face. Bright clean kitchen with morning sunlight from a window. She stands out sharply as a crisp cutout subject with a soft rim light."
+    }
+  ]
+}
