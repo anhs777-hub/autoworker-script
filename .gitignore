@@ -42,3 +42,6 @@ Thumbs.db
 desktop.ini
 .DS_Store
 ._*
+
+# 설치형 도구 (imageio-ffmpeg 패키지, ffmpeg.exe 87MB) — pip 로 다시 설치 가능
+output/video-tools/

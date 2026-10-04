@@ -2,50 +2,51 @@
   "meta": {
     "project": "university-name-origin",
     "titles": [
-      "연세대·인하대·서강대, 이 이름들은 도대체 어디서 왔을까?",
-      "인하대의 '하'는 왜 하와이일까? 대학 이름에 숨은 진짜 뜻",
-      "대학 이름에는 왜 사람 이름이 들어갈까? 하버드부터 인하대까지"
+      "인하대의 '하'는 왜 하와이일까?",
+      "대학 이름은 어디서 왔을까?",
+      "연세대·인하대·서강대 이름의 뜻"
     ],
     "thumbnail_texts": [
-      "인하 = 인천 + 하와이?",
-      "매일 부른 대학 이름 / 진짜 뜻",
-      "연세대는 / 두 학교였다"
+      "인천 + 하와이 / 인하대 이름의 뜻",
+      "새우젓 때문에 반대? / 서강대 이름의 뜻",
+      "[두 학교]를 합친 연세대 이름"
     ],
     "image_concepts": {
-      "A": "대학 정문 돌 간판이 조각조각 분리되며 떨어지는 장면",
-      "B": "놀란 표정의 학사모 학생, 뒤로 인천항 증기선과 하와이 사탕수수밭"
-    }
+      "A": "1900년대 하와이 사탕수수밭 + 인천항 증기선 배경, 놀란 졸업생과 달러 다발",
+      "B": "대학 정문 앞에서 이름의 뜻을 알고 놀란 사람 + 소재 소품(새우젓 항아리 등)"
+    },
+    "note": "2026-10-04 지식한입 벤치마크로 재작성 (channels/science/config/thumbnail-strategy.json)"
   },
   "thumbnails": [
     {
       "id": 1,
       "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사. 한국 대학 정문의 화강암 명판이 가로로 갈라지며 조각들이 공중으로 떠오르는 장면.",
-      "prompt_en": "Photorealistic image of a large granite university gate nameplate at a Korean campus, split horizontally into several floating fragments drifting apart in mid-air. Bright vibrant colors with a clean light-blue sky background and high-key lighting. A warm golden glow shines from the cracks between the pieces, creating an intriguing, partially revealed composition. The plaque surface is blank stone with no letters."
+      "concept_ko": "컨셉 A. 배경 왼쪽은 1900년대 인천항 증기선, 오른쪽은 하와이 사탕수수밭. 가운데 학사모를 쓴 한국인 졸업생이 놀란 표정으로 오래된 달러 지폐 다발을 들고 있다.",
+      "prompt_en": "Photorealistic composite thumbnail. The background is split: on the left an early 1900s steamship docked at an old Korean harbor in faded sepia tones, on the right sunlit green sugarcane fields in Hawaii. In the center an anonymous young Korean graduate with a warm likeable face, wearing a navy graduation cap and gown, holds a thick stack of vintage US dollar bills, eyes wide and mouth open in exaggerated surprise, upper body large with a crisp cutout look and strong rim light. Vivid realistic colors, intriguing mood."
     },
     {
       "id": 2,
-      "type": "concept-a-anime",
-      "concept_ko": "컨셉 A 애니메. 같은 갈라지는 대학 명판을 밝은 애니메 스타일로.",
-      "prompt_en": "Vibrant anime-style illustration of a grand Korean university stone gate whose blank nameplate is breaking into floating fragments against a bright cheerful sky. Bold clean outlines and cel-shaded lighting, with golden light beams bursting from the gaps between the pieces. Cherry-white clouds and vivid saturated tones create a mysterious, curious mood."
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형. 하와이 사탕수수밭에서 밀짚모자를 쓴 1900년대 한국인 이민 노동자(익명)가 땀을 닦고, 그 뒤로 오늘날의 대학 캠퍼스가 겹쳐 보인다.",
+      "prompt_en": "Photorealistic composite thumbnail. On the left, an anonymous early 1900s Korean immigrant laborer in a straw hat and worn work clothes wipes sweat in a Hawaiian sugarcane field, rendered large with a crisp cutout look and rim light. On the right, a modern Korean university campus with a stone main gate fades in under a bright blue sky, as if the two scenes are joined. Warm golden light, vivid realistic colors, moving and curious mood."
     },
     {
       "id": 3,
       "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사. 학사모 쓴 한국인 졸업생이 놀란 표정, 왼쪽 뒤 1900년대 인천항 증기선, 오른쪽 뒤 하와이 사탕수수밭.",
-      "prompt_en": "Photorealistic close-up of an attractive young Korean graduate with a warm likeable face wearing a navy graduation cap, eyes wide with an exaggerated surprised expression, filling the upper frame. Behind the graduate, the left side shows an early 1900s steamship at Incheon harbor and the right side shows sunlit green sugarcane fields in Hawaii. Bright vivid colors and high-key lighting with strong rim light separating the face from the background."
+      "concept_ko": "컨셉 B. 글자 없는 대학 정문 앞에서 간판을 올려다보며 깜짝 놀란 대학생, 손에 휴대폰.",
+      "prompt_en": "Photorealistic composite thumbnail in front of a grand stone university main gate with a blank nameplate. An anonymous Korean university student in their 20s with a warm likeable face looks up at the gate holding a smartphone, eyes wide and jaw dropped in exaggerated surprise, upper body large on the left with a crisp cutout look and strong rim light. Bright blue sky, spring trees, vivid realistic colors."
     },
     {
       "id": 4,
-      "type": "concept-b-anime",
-      "concept_ko": "컨셉 B 애니메. 같은 장면을 애니메 스타일로.",
-      "prompt_en": "Vibrant anime-style illustration of a handsome Korean graduate with expressive eyes in a navy graduation cap, mouth open in exaggerated surprise, oversized face at the top of the frame. The background splits between an old steamship departing Incheon harbor on the left and bright green Hawaiian sugarcane fields under a blue sky on the right. Bold outlines, cel shading and vivid saturated colors."
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형(서강대). 강가 대학 정문 앞에서 새우젓 항아리를 두 손으로 든 채 당황한 학생, 뒤로 한강.",
+      "prompt_en": "Photorealistic composite thumbnail with playful humor. An anonymous Korean university student in their 20s with a warm likeable face stands in front of a stone university gate with a blank nameplate, holding a large traditional jar of salted shrimp in both hands and making an exaggerated confused face, upper body large in the center with a crisp cutout look and rim light. A wide river and city bridges stretch behind. Bright daylight, vivid realistic colors."
     },
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 연세대를 연상시키는 두 개의 오래된 석조 건물이 한 지붕으로 이어지는 장면(두 학교의 통합).",
-      "prompt_en": "Photorealistic wide shot of two separate early 20th-century stone campus buildings, one Gothic-style college hall and one old red-brick hospital, being joined by a single bright glowing bridge between them. Bright clean sky, high-key lighting and vivid saturated tones. The composition is centered and symmetrical, giving a curious sense of two places becoming one."
+      "concept_ko": "와일드카드(연세대). 오래된 석조 대학 건물과 오래된 붉은 벽돌 병원 건물이 양쪽에 있고, 가운데 졸업생이 두 건물을 양팔로 끌어당겨 하나로 붙이는 모습.",
+      "prompt_en": "Photorealistic composite thumbnail with playful humor. On the left an old Gothic stone college hall, on the right an old red-brick hospital building from the early 1900s. In the center an anonymous Korean graduate in a cap and gown with a warm likeable face pulls the two buildings together with both arms, straining with an exaggerated determined expression, upper body large with a crisp cutout look and rim light. Bright blue sky, vivid realistic colors."
     }
   ]
 }
