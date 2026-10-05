@@ -2,14 +2,15 @@
   "meta": {
     "project": "sweden-crime-korea-safety",
     "titles": [
-      "2022년 총격 391건 스웨덴…한국에선 총격이 드문 진짜 이유",
-      "\"2022년 총격 391건\" 스웨덴과 한국 치안이 갈린 진짜 이유",
-      "민간 총 94%를 경찰이 보관한다…스웨덴과 한국 치안이 갈린 이유"
+      "\"한국엔 총이 없다고요?\" 10만 정 있어도 총격 드문 한국, 스웨덴과 갈린 진짜 이유",
+      "\"유럽에 이런 나라 없다\" 하루 한 번 총격 난 스웨덴, 한국에 총격이 드문 진짜 이유",
+      "2022년 총격 391건 스웨덴…한국에선 총격이 드문 진짜 이유"
     ],
     "thumbnail_texts": [
-      "\"2022년 총격 391건\" / 한국은 착해서가 아니었다",
-      "\"11살에게 2천만 원\" / 한국에선 이 계산이 안 선다",
-      "\"총 10만 정 있는데\" / 한국엔 총격이 드물다"
+      "\"한국엔 총이 없다고요?\" / 한국 총 94%는 경찰서에",
+      "\"유럽에 이런 나라 없다\" / 스웨덴 총격, 한국은 달랐다",
+      "\"복지국가에 하루 한 번 총격\" / 한국 엽총은 경찰서에 잠겼다",
+      "\"가구 속에서 엽총이\" / 스웨덴 엽총, 한국 세관이 잡았다"
     ],
     "image_concepts": {
       "A": "같은 밤, 두 도시 — 왼쪽 경광등 켜진 스톡홀름 외곽 / 가운데 익명의 스웨덴 형사 / 오른쪽 불 밝힌 서울 골목과 CCTV",
@@ -20,32 +21,32 @@
     {
       "id": 1,
       "type": "concept-a-realistic",
-      "concept_ko": "컨셉 A 실사 3분할. 왼쪽 밤의 스톡홀름 외곽 아파트 앞 폴리스라인과 파란 경광등, 가운데 굳은 표정의 익명 스웨덴 형사, 오른쪽 따뜻한 가로등 아래 사람들이 걷는 서울 골목과 CCTV.",
-      "prompt_en": "Photorealistic high-saturation HDR cinematic three-panel composition at night. On the left, a Stockholm suburb apartment block behind blue-and-white police tape with flashing blue police lights in cold desaturated tones, a Swedish national flag (blue with yellow Nordic cross) waving in the top-left corner. In the center, an anonymous attractive Swedish detective in his 50s with a likeable face and a shocked, exaggerated expression, shown chest-up and filling most of the frame height. On the right, a bright Seoul alley at 11 p.m. with warm orange streetlights, people walking calmly and a CCTV pole glowing with cool white-blue light, the South Korean national flag (Taegukgi) waving in the top-right corner."
+      "concept_ko": "3분할 승패 — 왼쪽 경광등 켜진 밤의 스톡홀름 / 가운데 놀란 익명 스웨덴 형사 / 오른쪽 황금빛 역광 속 한국 경찰서 총기 보관함",
+      "prompt_en": "Epic cinematic high-saturation HDR three-panel composition, triumphant mood. On the left, a cold desaturated Stockholm suburb at night behind blue-and-white police tape with flashing blue lights, a small plain Swedish national flag (blue with yellow Nordic cross) in the top-left corner. In the center, an anonymous attractive Swedish detective in his 50s with a likeable face, chest-up and filling most of the frame height, awestruck and jaw-dropped, looking toward the right side. On the right, larger and closer to the camera in a heroic low-angle shot, a bright Korean police station gun vault with hunting shotguns standing in perfect numbered rows, bathed in golden backlight with glowing rim light and lens flare, and a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner, taking up at least a quarter of the frame height."
     },
     {
       "id": 2,
       "type": "concept-a-realistic",
-      "concept_ko": "컨셉 A 실사 변형. 인물 없이 화면을 반으로 나눠, 왼쪽 경광등에 물든 스톡홀름 거리와 오른쪽 통합관제센터 모니터 벽이 비추는 서울 야경.",
-      "prompt_en": "Photorealistic cinematic split-screen at night, vivid saturated tones. The left half shows an empty Stockholm suburban street washed in flashing blue police light, police tape stretched across a bicycle path, cold and desaturated with a Swedish national flag in the top-left corner. The right half shows a bright Korean CCTV integrated control center with a wall of glowing monitors displaying calm Seoul streets, an operator silhouette in front, warm and confident lighting with the South Korean national flag in the top-right corner. Large, clear subjects readable at small mobile size."
+      "concept_ko": "3분할 승패 — 왼쪽 압수된 밀수 권총 무더기 / 가운데 놀란 익명 스웨덴 여성 / 오른쪽 가족이 걷는 밝은 서울 밤길과 CCTV",
+      "prompt_en": "Epic cinematic high-saturation HDR three-panel composition, victorious atmosphere. On the left, a dim evidence-room table piled with seized smuggled black pistols with yellow evidence tags under harsh cold light, desaturated, a small plain Swedish national flag in the top-left corner. In the center, an anonymous attractive Swedish woman in her 40s with a warm likeable face, chest-up, jaw-dropped in amazement and pointing toward the right side. On the right, larger and in a heroic low-angle view, a bright safe Seoul alley at night where families walk calmly under warm streetlights and a CCTV pole glows, golden backlight and sparkling lens flare, with a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner covering at least a quarter of the frame height."
     },
     {
       "id": 3,
-      "type": "concept-b-realistic",
-      "concept_ko": "컨셉 B 실사 좌우 대비. 왼쪽 증거실 테이블 위 압수 권총 무더기와 증거 태그, 오른쪽 경찰서 보관함에 번호표를 달고 정렬된 엽총.",
-      "prompt_en": "Photorealistic high-contrast HDR still life split into two halves. On the left, a dim evidence room table piled with seized black pistols and ammunition magazines, yellow evidence tags attached, harsh overhead light and gritty desaturated tones, a Swedish national flag in the top-left corner. On the right, a clean, brightly lit Korean police station gun storage cabinet with hunting shotguns standing in a perfect row, each with a numbered tag, behind a locked steel grid, bright white-cyan lighting with the South Korean national flag in the top-right corner. Dramatically oversized objects filling the upper half."
+      "type": "concept-a-realistic",
+      "concept_ko": "3분할 승패 — 왼쪽 새벽의 폭발 피해 주택가 / 가운데 놀란 익명 유럽 기자 / 오른쪽 총기 보관함을 잠그는 한국 경찰관",
+      "prompt_en": "Epic cinematic high-saturation HDR three-panel composition. On the left, a cold grey dawn scene of a Swedish suburban house front damaged by a blast with police lights in the distance, desaturated, a small plain Swedish national flag in the top-left corner. In the center, an anonymous attractive European news reporter in his 40s with a likeable face, chest-up, awestruck and looking toward the right side. On the right, larger and closer in a heroic low-angle shot, a confident proud Korean police officer in uniform locking a steel gun storage cabinet full of hunting shotguns, golden backlight and glowing rim light, and a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner covering at least a quarter of the frame height."
     },
     {
       "id": 4,
-      "type": "concept-b-realistic",
-      "concept_ko": "컨셉 B 실사 인물형. 가운데 놀란 표정의 익명 한국 50대 사냥꾼이 경찰서 창구에서 엽총을 반납하는 장면, 왼쪽 위 압수 권총 실루엣과 스웨덴 국기.",
-      "prompt_en": "Photorealistic cinematic close-up of an anonymous attractive Korean hunter in his 50s with a warm likeable face and a surprised, exaggerated expression, handing a hunting shotgun across a police station counter to an officer, bright clean lighting with cyan accents. In the top-left, a dark inset of seized smuggled pistols on a table under cold light beside a Swedish national flag (blue with yellow Nordic cross); in the top-right, the South Korean national flag waving. Strong contrast between the dark left corner and the bright Korean scene."
+      "type": "closeup-realistic",
+      "concept_ko": "실물 클로즈업 — 번호표와 위치추적 장치를 단 엽총 한 정이 화면 절반 이상 + 옆에 자신감 있는 익명 한국 경찰관",
+      "prompt_en": "Photorealistic high-saturation HDR close-up. A single hunting shotgun with a numbered tag and a small GPS tracking device attached, locked in a steel rack inside a Korean police station gun vault, fills more than half of the frame. Beside it stands an anonymous confident proud Korean police officer in his 50s with a warm likeable face, chest-up, arms crossed, under warm golden rim light. A small Korean flag patch on the officer's sleeve; clean, bright, trustworthy atmosphere, the shotgun dramatically large and sharp."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 스웨덴 국기가 걸린 깃대 아래로 경찰차 경광등 불빛이 번지는 스톡홀름 광장과, 같은 시각 불 켜진 편의점 앞 테이블에 노트북을 두고 자리를 비운 서울 장면을 대각선으로 맞붙임.",
-      "prompt_en": "Photorealistic vivid cinematic split composition with a diagonal dividing line. Left half of the upper area: a Stockholm square at night with a Swedish flag on a flagpole and blurred blue police lights reflecting on wet cobblestones, tense and cold. Right half of the upper area: a bright Seoul convenience store terrace at the same hour, a laptop and a smartphone left unattended on an outdoor table under warm light, calm and safe, with the South Korean national flag subtly visible in the top-right corner. Bold contrast between cold blue and warm yellow, key objects large and placed in the upper half."
+      "type": "closeup-realistic",
+      "concept_ko": "실물 클로즈업 — 세관 검사대에서 열린 가구 화물 속 엽총이 화면 절반 이상 + 놀란 익명 한국 세관 직원",
+      "prompt_en": "Photorealistic high-saturation HDR close-up at a Korean customs inspection area. An opened wooden furniture crate reveals a hunting shotgun hidden inside the furniture panel, filling more than half of the frame and lit by the glow of an X-ray scanner screen. Beside it, an anonymous attractive Korean customs officer in her 40s with a likeable face in uniform, chest-up, wide-eyed with surprise as she points at the hidden gun. A small Korean flag on the wall in the background; sharp, bright, investigative mood."
     }
   ]
 }

@@ -2,14 +2,14 @@
   "meta": {
     "project": "topik-korean-boom",
     "titles": [
-      "한국어 시험장에 56만 명이 줄 섰다…세계가 한국어를 고른 진짜 이유",
-      "베트남은 졸업시험까지 바꿨다…세계가 한국어를 고른 진짜 이유",
-      "미국 대학 외국어는 줄었는데…한국어는 거꾸로 38% 늘었다"
+      "첫 시험보다 210배 늘었다…외국인들이 TOPIK 시험장에 줄 선 진짜 이유",
+      "한때 4개국뿐이던 TOPIK, 이제 94개국…세계가 한국어 시험을 고른 진짜 이유",
+      "한국어 시험장에 56만 명이 줄 섰다…세계가 한국어를 고른 진짜 이유"
     ],
     "thumbnail_texts": [
-      "\"40석, 일주일 만에 마감\" / 외국인 56만이 한국어를 골랐다",
-      "\"외국어 수강 17% 줄 때\" / 한국어는 거꾸로 38% 늘었다",
-      "\"베트남 졸업시험에 토픽\" / 베트남이 한국어를 골랐다"
+      "\"첫 시험보다 210배\" / 56만이 고른 TOPIK",
+      "\"한때 4개국뿐이던 시험\" / TOPIK, 94개국으로",
+      "\"한국말 하는 외국인 봤죠?\" / TOPIK, 졸업장이 되다"
     ],
     "image_concepts": {
       "A": "3분할 — 왼쪽 'FULL' 팻말이 붙은 해외 시험장 앞 다국적 대기 줄(저채도) / 가운데 TOPIK 수험표를 쥔 20대 동남아 청년 / 오른쪽 따뜻한 역광의 한국 대학 정문과 태극기",
@@ -37,15 +37,15 @@
     },
     {
       "id": 4,
-      "type": "concept-b-realistic",
-      "concept_ko": "영웅샷: 한국어 시험장으로 끝없이 이어진 다국적 응시자 줄과 거대한 태극기",
-      "prompt_en": "Epic triumphant cinematic photograph at dawn, heroic low-angle shot from the front of the line. An endless line of hundreds of young test-takers of many nationalities, some in hijabs and some in winter jackets, stretches toward a Korean-language exam hall whose doors pour out golden light, glowing rim light and lens flare. A huge Korean flag Taegukgi hangs and waves proudly in sunlight on the building facade, at least a quarter of the frame height. The applicants at the front look up at the building in awe. High-saturation HDR, victorious mood."
+      "type": "closeup-realistic",
+      "concept_ko": "실물 클로즈업: TOPIK 성적표를 든 베트남 고3 학생",
+      "prompt_en": "Cinematic high-saturation HDR close-up photograph. A printed TOPIK Korean language proficiency score certificate fills more than half of the frame in sharp focus, held up with both hands, the Korean title and a large level-3 grade clearly visible. Behind it, an anonymous Vietnamese high-school senior in a white school uniform smiles proudly, slightly out of focus. Warm golden backlight and soft rim light, a small Korean flag Taegukgi pin on the bag strap. Triumphant, hopeful mood."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "영웅샷: 황금빛 캠퍼스로 걸어 들어오는 다국적 유학생들",
-      "prompt_en": "Victorious epic cinematic HDR photograph at golden hour, heroic low-angle shot. A grand Korean university campus gate towers over the frame, blazing with golden backlight, rim light and sparks, while a crowd of international students of many nationalities walks in through the gate with backpacks, smiling and looking up in admiration. A huge Korean flag Taegukgi waves proudly in sunlight above the gate, filling at least a quarter of the frame height. High saturation, triumphant atmosphere."
+      "type": "closeup-realistic",
+      "concept_ko": "실물 클로즈업: 한국어 교재와 수험표, 외국인 한국어 교사",
+      "prompt_en": "Cinematic high-saturation HDR close-up photograph. An open Korean-language textbook with Hangul exercises and a TOPIK exam admission ticket on top fill more than half of the frame on a classroom desk. Behind the desk, an anonymous foreign teacher in her forties, glasses on, points at the Hangul with a confident, proud smile. Warm golden window light and gentle lens flare, a small Korean flag on the classroom wall. Victorious, warm atmosphere."
     }
   ]
 }

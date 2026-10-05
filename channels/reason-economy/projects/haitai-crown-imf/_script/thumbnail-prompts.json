@@ -2,50 +2,52 @@
   "meta": {
     "project": "haitai-crown-imf",
     "titles": [
-      "같은 IMF에 부도났다…4위 크라운이 2배 큰 해태제과를 산 진짜 이유",
-      "\"과자는 잘 팔렸다\" 빚 3조 해태가 4위 크라운에 넘어간 진짜 이유",
-      "과자 200개를 70개로…부도난 크라운이 해태를 삼킨 진짜 이유"
+      "매출 7,700억인데 적자였던 해태제과, 4위 크라운이 사들인 진짜 이유",
+      "매출 7,700억인데 적자, 4위 크라운에 넘어간 진짜 이유: 해태제과의 몰락",
+      "같은 IMF에 부도났다…4위 크라운이 2배 큰 해태제과를 산 진짜 이유"
     ],
     "thumbnail_texts": [
-      "\"같은 IMF에 같이 부도\" / 4위 크라운이 해태를 샀다",
-      "\"빚 3조 vs 2,500억\" / 7년 뒤 4위가 두 배 큰 해태를 삼켰다",
-      "\"과자는 잘 팔렸는데\" / 해태는 4위에 팔렸다"
+      "\"매출 7,700억인데 적자\" / 해태는 넘기고 크라운은 지켰다",
+      "\"매출 절반도 안 되던 4위\" / 크라운, 해태를 삼켰다",
+      "\"맛동산 주인 아세요?\" / 크라운이 산 해태제과",
+      "\"한때 재계 24위였던\" / 크라운에 팔린 해태제과"
     ],
     "image_concepts": {
-      "A": "꺼진 공장 vs 빛나는 공장 3분할 — 가운데 놀란 익명 50대 남성",
-      "B": "작은 과자 상자가 두 배 큰 과자 상자를 들어 올리는 스케일 대비"
-    }
+      "A": "3분할 승패 — 두 회사 건물·공장(국기 대신, 로고 없음) + 가운데 익명 인물",
+      "B": "실물 클로즈업 — 과자 실물 1개를 화면 절반 이상 + 익명 5060 인물 1명"
+    },
+    "formula": "고배율 공식(thumbnail-strategy.json, 2026-10-06)"
   },
   "thumbnails": [
     {
       "id": 1,
       "type": "concept-a-realistic",
-      "concept_ko": "컨셉 A 실사. 왼쪽 불 꺼진 1990년대 한국 과자 공장, 오른쪽 황금 역광 속 가동 중인 과자 생산 라인, 가운데 오른쪽을 보며 놀란 익명 50대 한국 남성.",
-      "prompt_en": "Photorealistic epic cinematic high-saturation HDR image split into three parts. On the left, a dark abandoned 1990s Korean snack factory with dusty cold blue-grey machinery, faded unbranded cookie boxes and lights switched off. In the center, an attractive Korean man in his 50s with a warm likeable face, chest-up close-up filling 60% of the frame height, jaw-dropped and awestruck, looking toward the right side. On the right, a bright working snack production line bathed in golden backlight, glowing rim light and lens flare, freshly baked biscuits streaming along the conveyor, shown larger and closer with a heroic low-angle shot. No logos and no brand names on the factory buildings."
+      "concept_ko": "3분할 승패. 꺼진 공장 vs 빛나는 공장, 가운데 놀란 50대 남성 (추천 구도)",
+      "prompt_en": "Photorealistic epic cinematic high-saturation HDR image split into three parts. On the left, a dark abandoned 1990s Korean snack factory with dusty cold blue-grey machinery, faded unbranded cookie boxes and lights switched off. In the center, an attractive Korean man in his 50s with a warm likeable face, chest-up close-up filling 60% of the frame height, jaw-dropped and awestruck, looking toward the right side. On the right, a bright working snack production line bathed in golden backlight, glowing rim light and lens flare, freshly baked biscuits streaming along the conveyor, shown larger and closer with a heroic low-angle shot. No logos and no brand names on the factory buildings. Keep the bottom 35-40% darker and simple for text."
     },
     {
       "id": 2,
       "type": "concept-a-realistic",
-      "concept_ko": "컨셉 A 실사 변형. 두 공장 건물 외관 대비 — 왼쪽 먼지 쌓인 닫힌 셔터의 공장, 오른쪽 트럭이 드나드는 빛나는 공장, 가운데 작업복 차림 익명 한국인 기술자가 자신감 있게 팔짱.",
-      "prompt_en": "Photorealistic triumphant cinematic HDR scene of two Korean confectionery factory buildings side by side, unbranded with no logos. The left factory is old and desaturated, its rolling shutter closed, rust and dust on the walls under a cold grey sky. The right factory is larger and closer, glowing in golden sunset backlight with sparks of light, delivery trucks loading snack boxes at its gate. In the center, a confident proud Korean engineer in his 50s in a clean work uniform stands with arms crossed and a warm smile, chest-up, filling most of the frame height."
+      "concept_ko": "3분할 승패. 닫힌 공장 vs 트럭이 드나드는 공장, 가운데 팔짱 낀 기술자",
+      "prompt_en": "Photorealistic triumphant cinematic HDR scene of two Korean confectionery factory buildings side by side, unbranded with no logos. The left factory is old and desaturated, its rolling shutter closed, rust and dust on the walls under a cold grey sky. The right factory is larger and closer in a heroic low-angle shot, glowing in golden sunset backlight with sparks of light, delivery trucks loading snack boxes at its gate. In the center, a confident proud Korean engineer in his 50s in a clean work uniform stands with arms crossed and a warm smile, chest-up, filling most of the frame height. Keep the bottom 35-40% darker and simple for text."
     },
     {
       "id": 3,
-      "type": "concept-b-realistic",
-      "concept_ko": "컨셉 B 실사. 작은 과자 상자가 자기보다 두 배 큰 과자 상자를 받쳐 들어 올리는 스케일 대비 장면. 로고·글자 없음.",
-      "prompt_en": "Photorealistic bright vibrant studio scene with high-key lighting and vivid saturated tones. A small red snack box with no logo stands firmly on a polished surface, lifting a huge unbranded snack box twice its size high above it, the large box tilted slightly as if being carried away. The small box glows with a golden rim light and lens flare, while the big box is in slightly cooler, duller tones. Dramatic low-angle perspective makes the lift feel heroic and surprising."
+      "type": "concept-a-realistic",
+      "concept_ko": "3분할 승패. 서류 더미에 묻힌 그룹 본사 vs 불 켜진 과자 공장, 가운데 놀란 직장인",
+      "prompt_en": "Photorealistic epic cinematic high-saturation HDR image split into three parts. On the left, a tall grey 1990s Korean corporate headquarters tower with no logo under a stormy sky, desaturated and cold, stacks of stamped loan documents and promissory notes piled at its entrance. In the center, an attractive Korean office worker in his 50s with a warm likeable face in a 1990s suit, chest-up close-up filling 60% of the frame height, eyes wide and mouth open, looking toward the right side. On the right, a modest unbranded Korean confectionery factory shown larger and closer in a heroic low-angle shot, windows glowing warm gold, workers loading snack boxes onto a truck, golden backlight, rim light and lens flare. Keep the bottom 35-40% darker and simple for text."
     },
     {
       "id": 4,
-      "type": "concept-b-realistic",
-      "concept_ko": "컨셉 B 실사 변형. 저울 위 — 가벼운 쪽 접시에 작은 과자 상자 하나, 무거운 쪽에는 큰 과자 상자와 빚 서류 더미가 눌려 내려앉음. 작은 상자 쪽이 빛남.",
-      "prompt_en": "Photorealistic cinematic HDR close-up of a giant old brass balance scale. On the right pan sits one small unbranded biscuit box glowing in warm golden backlight. On the left pan, a large unbranded snack box is buried under a towering pile of loan documents and stamped promissory notes, dragging that side down in cold shadow. Bright vivid colors, strong contrast between the warm right side and the dim left side, objects large and clearly readable."
+      "type": "concept-b-closeup",
+      "concept_ko": "실물 클로즈업. 갓 구운 와플 과자 한 개를 크게 + 60대 남성의 반가운 표정",
+      "prompt_en": "Photorealistic cinematic close-up, bright vivid high-saturation colors. One golden butter waffle biscuit with a crisp grid pattern fills more than half of the upper frame, held between the fingers of an attractive Korean man in his 60s with a warm likeable face, who looks at it with a surprised, nostalgic smile from the right side. Warm golden backlight, glowing rim light on the biscuit edges, crumbs catching the light, softly blurred 1990s Korean corner store shelves behind. No packaging, no logos, no text. Keep the bottom 35-40% simple and darker for text."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 1990년대 동네 구멍가게 과자 진열대 앞, 과자 봉지를 고르는 아이와 그 뒤 창밖 한쪽은 어두운 공장, 한쪽은 빛나는 공장.",
-      "prompt_en": "Photorealistic nostalgic cinematic scene of a small 1990s Korean neighborhood corner store with colorful unbranded snack bags and biscuit boxes stacked on wooden shelves. A cheerful attractive Korean child with a likeable face reaches for a snack bag in the foreground, shown large in the upper half of the frame. Through the shop window behind, two distant factories are visible: one dark and silent on the left, one glowing with golden light and smoke rising on the right. Warm high-saturation colors, no logos or readable text anywhere."
+      "type": "concept-b-closeup",
+      "concept_ko": "실물 클로즈업. 1990년대 과자 봉지 하나를 크게 + 50대 여성의 놀란 표정",
+      "prompt_en": "Photorealistic cinematic close-up, bright vivid high-saturation colors. One retro 1990s-style plain red snack bag with no logo and no lettering, its top torn open and peanut-coated fried snack sticks spilling out, fills more than half of the upper frame in sharp focus. Beside it, an attractive Korean woman in her 50s with a warm likeable face holds the bag and looks at the camera with an exaggerated surprised expression, mouth open. Warm golden backlight and glowing rim light, softly blurred old wooden shop shelf behind. No brand names, no text anywhere. Keep the bottom 35-40% simple and darker for text."
     }
   ]
 }

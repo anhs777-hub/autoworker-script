@@ -2,18 +2,18 @@
   "meta": {
     "project": "us-acquisition-curse",
     "titles": [
-      "첫해 이익 0.6%…한국 셋이 산 미국 회사가 지금도 1위인 진짜 이유",
-      "54억 달러 회사를 1달러에 넘긴 도시바…한국 셋은 끝까지 안 팔았다",
-      "\"너무 비싼 인수\" 도시바는 무너졌다…한국 기업 셋은 끝까지 지켰다"
+      "9조에 첫해 이익 0.6%…삼성 하만·두산 밥캣이 지금도 1위인 진짜 이유",
+      "54억 달러 회사 지분을 1달러에 넘긴 도시바…두산·삼성·LS가 끝까지 지킨 진짜 이유"
     ],
     "thumbnail_texts": [
-      "\"첫해 이익 0.6%\" / 한국 셋은 끝까지 안 팔았다",
-      "\"54억짜리를 1달러에\" / 한국 셋은 끝까지 지켰다",
-      "[작은 박스] \"다 팔아도 이건 안 판다\"  ·  \"사자마자 무너진 회사\" / 셋 다 지금도 1위"
+      "\"9조에 첫해 이익 0.6%\" / 하만·밥캣, 한국이 지켰다",
+      "\"54억 회사 지분 1달러에\" / 밥캣·하만, 지금도 1위",
+      "\"사자마자 무너진 회사\" / 하만·밥캣이 1위인 진짜 이유"
     ],
     "image_concepts": {
       "A": "3분할 — 왼쪽 회색 안개 속 멈춘 원전 냉각탑, 가운데 경탄하는 익명 미국인 사업가, 오른쪽 황금 역광 속 소형 로더 + 큰 태극기",
-      "B": "한국 세 실물 영웅샷 — 소형 로더·구리 권선 코일·빛나는 차량 디지털 계기판이 로우앵글로 나란히, 뒤로 휘날리는 태극기"
+      "B": "한국 세 실물 영웅샷 — 소형 로더·구리 권선 코일·빛나는 차량 디지털 계기판이 로우앵글로 나란히, 뒤로 휘날리는 태극기",
+      "C": "실물 클로즈업형(고배율 공식) — 실물 1개를 크게 + 익명 인물 1명"
     }
   },
   "thumbnails": [
@@ -37,15 +37,15 @@
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 변주. 공장 안에서 빛나는 구리 권선 코일과 그 앞의 차량 계기판, 멀리 공사장의 로더 — 전부 황금빛, 위쪽에 태극기.",
-      "prompt_en": "Photorealistic cinematic image inside a vast bright factory where enormous spools of gleaming copper magnet wire glow under warm golden light in the upper half of the frame. In front, a luxury car interior with a glowing digital cockpit display, and through a large open factory door a white-and-orange compact loader without logos works on a sunlit construction site. A large Korean flag Taegukgi hangs and ripples from the factory ceiling, catching the sunlight. Proud, triumphant mood with high-key lighting, vivid saturated tones and lens flare."
+      "type": "closeup-photorealistic",
+      "concept_ko": "실물 클로즈업형 ① — 화면 위쪽을 꽉 채운 흰·주황 소형 로더 실물 + 그 옆에서 웃는 50대 한국인 기술자",
+      "prompt_en": "Photorealistic close-up of a single white-and-orange compact skid steer loader without any logo, filling more than half of the frame across the upper area, shot from a slightly low angle so its bucket, tires and cab look massive and detailed. Beside it, an attractive Korean engineer in his 50s with a likeable face, wearing a work uniform and safety helmet, rests one hand on the machine and smiles with quiet pride, shown chest-up. Behind them, a bright American construction site at golden hour with warm backlight and soft lens flare. Bright vivid high-saturation colors, simple uncluttered background so the machine reads instantly at small size."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 무게 저울 — 왼쪽 접시는 회색 원전 모형이 바닥까지 내려앉고, 오른쪽 접시는 빛나는 로더·권선·계기판 미니어처가 높이 올라간 장면. 오른쪽 위 태극기.",
-      "prompt_en": "Photorealistic surreal studio scene of a giant antique brass balance scale filling the upper half of the frame. On the left pan, a dull grey miniature nuclear cooling tower sits heavily at the bottom in cold shadow beside a tiny plain Japanese national flag (white flag with red circle). On the right pan, raised high and glowing, gleaming miniatures of a white-and-orange compact loader, a copper wire coil and a car digital cockpit, bathed in golden backlight with sparks. A large Korean flag Taegukgi waves proudly in sunlight in the upper right corner, bright vibrant high-saturation colors, curious and triumphant mood."
+      "type": "closeup-photorealistic",
+      "concept_ko": "실물 클로즈업형 ② — 빛나는 차량 디지털 계기판과 도어 스피커 실물 + 운전석에서 감탄하는 50대 여성 운전자",
+      "prompt_en": "Photorealistic close-up inside a premium car, where a glowing wide curved digital cockpit display and a polished metal door speaker grille fill more than half of the frame across the upper area, every detail crisp and luminous. In the driver's seat, an attractive Korean woman in her 50s with a warm likeable face listens with an impressed, delighted expression, shown chest-up. Soft blue dashboard glow mixed with warm golden light through the windshield, no brand logos or readable text anywhere. Bright vivid high-saturation colors, clean composition so the dashboard and speaker are recognizable at thumbnail size."
     }
   ]
 }

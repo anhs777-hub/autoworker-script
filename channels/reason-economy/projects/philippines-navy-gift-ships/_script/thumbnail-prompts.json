@@ -7,45 +7,45 @@
       "전사한 대위 이름을 단 군함…필리핀이 한국에 12척을 맡긴 진짜 이유"
     ],
     "thumbnail_texts": [
-      "「30년 쓴 군함이 100달러」 / 새 군함 12척은 한국으로 왔다",
-      "「100달러에 넘긴 군함」 / 필리핀은 12척을 한국에 맡겼다",
-      "「미사일 없던 필리핀 해군」 / 새 군함 12척은 한국이 지었다"
+      "「100달러에 넘긴 군함」 / 필리핀 호위함, 한국이 만든다",
+      "「한때 한국보다 잘살던」 / 필리핀 해군은 한국을 골랐다",
+      "「한때 필리핀 최강 함정」 / 그 배는 한국 충주함이었다"
     ],
     "image_concepts": {
-      "A": "녹슨 퇴역 초계함 + 100달러 지폐 vs 황금빛 신형 호위함 편대 (3분할 대비, 가운데 놀란 익명 필리핀 해군 장교)",
-      "B": "군함 한 척 = 100달러 → 커지는 신형 함정 행렬 (스케일 대비, 새벽 → 황금빛 일출)"
+      "A": "3분할 승패 구도 — 왼쪽 낡은 배(필리핀 국기 작게) / 가운데 익명 인물 / 오른쪽 한국산 신형 함정 + 큰 태극기",
+      "B": "실물 클로즈업형 — 배 한 척을 화면 절반 이상 + 익명 인물 1명(고배율 공식 ③)"
     }
   },
   "thumbnails": [
     {
       "id": 1,
       "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사 3분할. 왼쪽 낡은 회색 초계함과 떠 있는 100달러 지폐, 가운데 입을 벌린 필리핀 해군 장교, 오른쪽 황금 역광 속 신형 호위함 두 척과 큰 태극기.",
+      "concept_ko": "3분할: 낡은 초계함 + 100달러 지폐 / 놀란 필리핀 해군 장교 / 황금빛 신형 호위함 + 큰 태극기",
       "prompt_en": "Photorealistic high-saturation HDR cinematic three-part composition. On the left, a weathered gray 1980s Korean-built Pohang-class corvette with faded paint and rust streaks sits in cold desaturated shadow, a single US 100-dollar bill floating large in the air before it, with a small plain Philippine flag on the upper left corner. In the center, an attractive Filipino naval officer with a warm likeable face in a white dress uniform, chest-up close-up filling 60 percent of the frame height, jaw-dropped and awestruck, looking toward the right. On the right, two brand-new gray guided-missile frigates sail forward in a heroic low-angle shot, bathed in golden backlight with glowing rim light and lens flare, larger and closer than the old ship, and a huge Korean flag Taegukgi waves proudly in sunlight in the upper right corner. Triumphant, victorious, epic mood with bright vivid saturated tones."
     },
     {
       "id": 2,
       "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사 변형. 항구 부두 장면 — 왼쪽 부두에 낡은 초계함이 비를 맞고, 오른쪽 조선소 도크에서 진수되는 새 호위함 위로 태극기와 불꽃. 가운데 자신감 있는 한국인 조선 기술자.",
-      "prompt_en": "Photorealistic epic cinematic harbor scene split into left and right halves. On the left, an old gray corvette with a faded hull number 762 moored at a rainy pier under dull overcast light, small plain Philippine flag above it. In the center, a confident proud Korean shipyard engineer in a blue work uniform and white hard hat, arms crossed with a big smile, attractive likeable face, chest-up and filling most of the frame height. On the right, a gleaming new frigate slides down a slipway at a Korean shipyard under golden sunset backlight with sparks and confetti-like glitter, a huge Korean flag Taegukgi waving in the upper right. High-saturation HDR, triumphant and victorious atmosphere."
+      "concept_ko": "3분할: 마흔 살 넘은 낡은 경비선 / 놀란 필리핀 해군 장교 / 바다를 가르는 한국산 신형 호위함 + 큰 태극기",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic three-part composition. On the left, an aging white-hulled 1960s coast guard cutter with peeling paint and rust stains sits in a gray, cold, overcast harbor, small plain Philippine flag in the upper left corner. In the center, an attractive Filipino naval officer in his 40s with a warm likeable face in a navy working uniform, chest-up and filling 60 percent of the frame height, eyes wide in amazement, pointing toward the right. On the right, a sleek brand-new gray guided-missile frigate built in Korea cuts through bright blue water in a heroic low-angle shot, larger and closer than the old cutter, glowing with golden backlight, rim light and sparkling sea spray, and a huge Korean flag Taegukgi waves proudly in the upper right corner. Triumphant, epic, vivid saturated mood."
     },
     {
       "id": 3,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 스케일 대비. 왼쪽 위 작은 퇴역 초계함과 100달러 지폐, 오른쪽으로 갈수록 커지는 신형 호위함·경비함 행렬이 황금빛 일출을 향해 항해.",
-      "prompt_en": "Photorealistic wide seascape at dawn showing a dramatic scale progression from left to right. At the far left, one small old gray corvette beside a floating US 100-dollar bill in cold blue morning haze. Toward the right, a growing column of new gray frigates and offshore patrol vessels sails in formation, each ship larger and brighter than the last, the lead frigate huge in a heroic low-angle view and lit by a blazing golden sunrise with lens flare. A huge Korean flag Taegukgi waves proudly in sunlight in the upper right corner, with a small plain Philippine flag in the upper left. Epic, triumphant, high-saturation HDR mood."
+      "type": "concept-a-photorealistic",
+      "concept_ko": "3분할: 비 맞는 낡은 초계함 + 100달러 지폐 / 자신감 있는 한국인 조선 기술자 / 진수되는 새 호위함 + 큰 태극기",
+      "prompt_en": "Photorealistic epic cinematic three-part harbor composition. On the left, an old gray corvette moored at a rainy pier under dull overcast light, a single US 100-dollar bill fluttering in the air before it, small plain Philippine flag in the upper left corner. In the center, a confident proud Korean shipyard engineer in a blue work uniform and white hard hat, arms crossed with a big smile, attractive likeable face, chest-up and filling most of the frame height. On the right, a gleaming new frigate slides down a slipway at a Korean shipyard under golden sunset backlight with sparks and confetti-like glitter, larger and brighter than the old ship, a huge Korean flag Taegukgi waving in the upper right corner. High-saturation HDR, triumphant and victorious atmosphere."
     },
     {
       "id": 4,
       "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 변형. 거대한 100달러 지폐가 왼쪽 하늘에 떠 있고, 그 아래 작은 군함 한 척. 오른쪽에는 바다를 가득 채운 신형 함대가 빛을 받으며 다가온다.",
-      "prompt_en": "Photorealistic cinematic image with a striking scale contrast. In the upper left sky, an oversized US 100-dollar bill hangs like a banner above one tiny old gray corvette on a dark gray sea. On the right side, a powerful fleet of new gray Korean-built frigates fills the ocean, approaching the viewer in a heroic low-angle shot, their hulls glowing with warm golden backlight, rim light and sparkling sea spray. A huge Korean flag Taegukgi waves in bright sunlight in the upper right corner. Bright vivid saturated colors, triumphant awe-inspiring atmosphere."
+      "concept_ko": "실물 클로즈업: 화면 절반을 채운 옛 충주함(포항급 초계함) 뱃머리 + 부두에서 올려다보는 60대 한국 남성",
+      "prompt_en": "Photorealistic cinematic close-up. The bow and forward 76mm gun turret of a gray Pohang-class corvette fill more than half of the frame, shot from a low angle on a sunlit pier, every rivet, weld line and weathered paint stroke in sharp detail. In the lower foreground on one side stands one anonymous Korean man in his 60s with a warm likeable face, short gray hair and a navy windbreaker, chest-up, looking up at the ship with a proud, moved expression and slightly teary eyes. Warm golden late-afternoon backlight rims the ship's mast, and a small Korean flag Taegukgi flutters on the pier. High-saturation HDR, nostalgic yet proud mood, no other people."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 남중국해를 순찰하는 옛 한국 초계함(현 필리핀 함정) 갑판에서 필리핀 수병들이 경례하고, 뒤쪽 수평선 위로 황금빛 하늘과 태극기·필리핀 국기가 나란히 휘날린다.",
-      "prompt_en": "Photorealistic heroic low-angle shot from the deck of a gray Pohang-class corvette patrolling the open South China Sea, a 76mm naval gun turret in the foreground. Attractive Filipino sailors with warm likeable faces in blue working uniforms stand at attention and salute toward the horizon, expressions proud and determined. The sky behind them glows with dramatic golden sunlight and lens flare, and a huge Korean flag Taegukgi waves beside a smaller Philippine flag high above the mast. Epic cinematic high-saturation HDR, emotional and triumphant mood."
+      "type": "concept-b-photorealistic",
+      "concept_ko": "실물 클로즈업: 도크에 선 신형 호위함 선체가 화면 절반 이상 + 안전모 쓴 한국인 조선 기술자 1명",
+      "prompt_en": "Photorealistic cinematic close-up at a Korean shipyard dry dock. The towering gray hull and sharp bow of a brand-new guided-missile frigate fill more than half of the frame, shot from a dramatic low angle so the ship looks enormous, fresh paint gleaming under golden sunrise light with lens flare and drifting welding sparks. In the foreground on one side stands one confident Korean shipyard engineer in his 50s with an attractive likeable face, blue work uniform and white hard hat, chest-up, smiling proudly with arms crossed. A small Korean flag Taegukgi flies from the ship's mast. High-saturation HDR, triumphant and proud mood."
     }
   ]
 }
