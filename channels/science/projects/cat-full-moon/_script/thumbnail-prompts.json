@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "project": "cat-full-moon",
+    "titles": ["고양이는 왜 보름달이 뜨면 폭주할까?", "보름달 뜨면 고양이가 폭주하는 이유", "보름달 뜨면 고양이가 미칠까?"],
+    "thumbnail_texts": ["달 때문이 아니었다 / 보름달 고양이 우다다", "23% 늘었다는데 / 보름달 밤 고양이", "하룻밤 한 마리 / 보름달 고양이 폭주"],
+    "image_concepts": {
+      "A": "보름달 밤 거실을 질주하는 고양이 + 문틈에서 놀란 잠옷 차림 50대 집사",
+      "B": "침대에서 이불을 끌어안고 천장을 보는 50대 부부 + 캣타워에서 공중으로 뛰어오른 고양이 + 창의 보름달"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 창밖 큰 보름달 아래 어두운 거실을 질주하는 주황 고양이, 화면 오른쪽 문틈에서 잠옷 차림의 50대 한국인 남성이 눈을 크게 뜨고 입을 벌린 채 내다본다.",
+      "prompt_en": "Photorealistic composite photo of a dark Korean apartment living room at night, a huge glowing full moon filling the large window in the upper left. An orange tabby cat sprints across the floor and leaps over the sofa with strong motion blur and flying cushions. On the right, an attractive Korean man in his fifties with a warm likeable face, wearing striped pajamas, peeks through a half-open bedroom door with comically exaggerated wide eyes and dropped jaw, crisp cutout look with strong rim light. Bright vivid colors, cool blue moonlight against warm lamp glow, playful and curious mood."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 고양이 클로즈업 중심 — 동공이 커진 채 몸을 낮추고 질주 직전 자세의 고양이가 화면 왼쪽을 크게 차지하고, 뒤로 보름달과 머리를 긁적이는 50대 여성 집사.",
+      "prompt_en": "Photorealistic close-up of a tabby cat crouched low in a pre-sprint pose with huge dilated pupils and puffed-up tail, occupying the left half of the frame in a cozy living room at night. Behind it, a bright full moon shines through the window, and an attractive Korean woman in her fifties with a likeable face, in a cardigan over pajamas, scratches her head with a comically puzzled, exaggerated expression. Crisp cutout subjects with rim light, vivid saturated colors, humorous and curious atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 남색 침실, 침대에서 이불을 턱까지 끌어안은 50대 한국인 부부가 놀란 얼굴로 위를 올려다보고, 침대 위쪽 캣타워 꼭대기에서 고양이가 공중으로 뛰어오른다. 창에 보름달.",
+      "prompt_en": "Photorealistic scene of a dim navy-blue Korean bedroom at night, a tall cat tower beside the bed with a gray cat caught mid-air leaping from the top platform in the upper center of the frame. A Korean couple in their fifties with warm likeable faces lie in bed clutching the blanket up to their chins, staring upward with comically exaggerated startled expressions. Silver moonlight from a big full moon pours through the window, mixed with a warm yellow bedside lamp. Bright vivid tones, playful humorous mood."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 벽시계(밤 11시)와 보름달이 걸린 침실 창 아래, 베개로 귀를 막고 웃음 반 체념 반 표정의 50대 남성, 그 위로 커튼을 타고 오르는 고양이.",
+      "prompt_en": "Photorealistic bedroom at night: a round wall clock showing 11 o'clock and a window framing a large full moon in the upper half of the image. A cat climbs up the curtain with claws out, fur slightly puffed. Below, an attractive Korean man in his fifties with a likeable face presses a pillow over his ears, half laughing and half resigned in a comically exaggerated expression. Crisp cutout look with rim light, vivid colors, cool moonlight and warm lamp contrast, humorous and curious tone."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 보름달을 배경으로 지붕 위가 아니라 거실 창틀에 앉은 고양이와, 그 옆에서 손전등 대신 돋보기를 든 채 고양이를 관찰하는 50대 여성 — 「연구로 확인해 보자」는 분위기.",
+      "prompt_en": "Photorealistic composite: a fluffy cat sits calmly on a living room windowsill with an enormous full moon behind it, looking back over its shoulder at the viewer with an innocent face. Next to it, an attractive Korean woman in her fifties with a warm likeable face holds a large magnifying glass up to the cat, one eyebrow raised in comically exaggerated suspicion. Cozy room with houseplants, bright vivid colors, cool moonlight and warm interior light, playful detective-like curiosity."
+    }
+  ]
+}
