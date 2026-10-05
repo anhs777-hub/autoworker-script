@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "us-acquisition-curse",
+    "titles": [
+      "첫해 이익 0.6%…한국 셋이 산 미국 회사가 지금도 1위인 진짜 이유",
+      "54억 달러 회사를 1달러에 넘긴 도시바…한국 셋은 끝까지 안 팔았다",
+      "\"너무 비싼 인수\" 도시바는 무너졌다…한국 기업 셋은 끝까지 지켰다"
+    ],
+    "thumbnail_texts": [
+      "\"첫해 이익 0.6%\" / 한국 셋은 끝까지 안 팔았다",
+      "\"54억짜리를 1달러에\" / 한국 셋은 끝까지 지켰다",
+      "[작은 박스] \"다 팔아도 이건 안 판다\"  ·  \"사자마자 무너진 회사\" / 셋 다 지금도 1위"
+    ],
+    "image_concepts": {
+      "A": "3분할 — 왼쪽 회색 안개 속 멈춘 원전 냉각탑, 가운데 경탄하는 익명 미국인 사업가, 오른쪽 황금 역광 속 소형 로더 + 큰 태극기",
+      "B": "한국 세 실물 영웅샷 — 소형 로더·구리 권선 코일·빛나는 차량 디지털 계기판이 로우앵글로 나란히, 뒤로 휘날리는 태극기"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽 멈춘 원전, 가운데 놀란 미국인 사업가, 오른쪽 황금빛 속 흰·주황 소형 로더와 큰 태극기 — 3분할 승패 구도.",
+      "prompt_en": "Photorealistic epic cinematic high-saturation HDR image split into three vertical sections. On the left, a silent nuclear power plant cooling tower and an idle construction crane shrouded in cold grey fog, desaturated and dusty, with a small ordinary Japanese national flag (white flag with red circle) in the upper left corner. In the center, an attractive American businessman in his 60s with a likeable face, chest-up close-up filling 60% of the frame height, jaw dropped in awe, looking toward the right. On the right, a large white-and-orange compact skid steer loader without any logo, shot from a heroic low angle, lifting a bucket of earth under golden backlight with glowing rim light, lens flare and sparks, and a huge Korean flag Taegukgi waving proudly in sunlight in the upper right corner. Triumphant, victorious atmosphere where the Korean side is bigger, brighter and closer than the left."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변주. 왼쪽 공사가 멈춘 녹슨 원전 현장, 가운데 경탄하는 익명 한국인 기술자, 오른쪽 빛나는 공사장 위 로더 행렬과 태극기.",
+      "prompt_en": "Photorealistic cinematic HDR three-part comparison. On the left, an abandoned nuclear reactor construction site with rusted rebar and a stopped crane under a heavy overcast sky, cold desaturated blue-grey tones, a small plain Japanese national flag (white flag with red circle) in the corner. In the center, a confident proud Korean engineer in a work uniform and safety helmet, attractive and likeable, arms crossed with a warm smile, chest-up and large in frame. On the right, a row of white-and-orange compact loaders without logos working on a bright American construction site at golden hour, glowing rim light and lens flare, with a huge Korean flag Taegukgi waving in sunlight in the upper right. Epic, triumphant mood with a clear contrast of dark failure on the left and radiant success on the right."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 로우앵글로 나란히 선 소형 로더·구리 권선 코일 더미·빛나는 차량 디지털 계기판, 뒤로 큰 태극기와 황금 역광.",
+      "prompt_en": "Photorealistic heroic low-angle shot of three symbols of Korean-owned American industry standing side by side in the upper half of the frame: a white-and-orange compact skid steer loader without logos, a towering stack of shining copper magnet wire coils, and a glowing car digital cockpit dashboard with wide curved screens. Behind them, a huge Korean flag Taegukgi waves proudly against a sunset sky, lit by golden backlight, glowing rim light and floating sparks. Bright vibrant high-saturation HDR colors, epic cinematic and victorious atmosphere, every object large and instantly recognizable."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변주. 공장 안에서 빛나는 구리 권선 코일과 그 앞의 차량 계기판, 멀리 공사장의 로더 — 전부 황금빛, 위쪽에 태극기.",
+      "prompt_en": "Photorealistic cinematic image inside a vast bright factory where enormous spools of gleaming copper magnet wire glow under warm golden light in the upper half of the frame. In front, a luxury car interior with a glowing digital cockpit display, and through a large open factory door a white-and-orange compact loader without logos works on a sunlit construction site. A large Korean flag Taegukgi hangs and ripples from the factory ceiling, catching the sunlight. Proud, triumphant mood with high-key lighting, vivid saturated tones and lens flare."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 무게 저울 — 왼쪽 접시는 회색 원전 모형이 바닥까지 내려앉고, 오른쪽 접시는 빛나는 로더·권선·계기판 미니어처가 높이 올라간 장면. 오른쪽 위 태극기.",
+      "prompt_en": "Photorealistic surreal studio scene of a giant antique brass balance scale filling the upper half of the frame. On the left pan, a dull grey miniature nuclear cooling tower sits heavily at the bottom in cold shadow beside a tiny plain Japanese national flag (white flag with red circle). On the right pan, raised high and glowing, gleaming miniatures of a white-and-orange compact loader, a copper wire coil and a car digital cockpit, bathed in golden backlight with sparks. A large Korean flag Taegukgi waves proudly in sunlight in the upper right corner, bright vibrant high-saturation colors, curious and triumphant mood."
+    }
+  ]
+}
