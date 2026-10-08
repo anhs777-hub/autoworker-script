@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "bukangi-korean-laver",
+    "titles": [
+      "\"부캉이를 데려온 바다\" 일본 김은 줄고 한국 김은 수출 11억 달러가 된 진짜 이유",
+      "\"한국 김 막던 일본\" 이제 한국 김을 제일 많이 사 가는 진짜 이유",
+      "\"상어가 부산까지 온 바다\" 씨앗까지 만든 한국 김이 120개국으로 간 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"부캉이 데려온 바다\" / 한국 김, 수출 11억 달러",
+      "\"100억 장 → 48억 장\" / 한국 김은 세계로 갔다",
+      "\"김 씨도 못 붙인 일본\" / 한국 김, 120개국 갔다"
+    ],
+    "image_concepts": {
+      "A": "실물 클로즈업 — 도심 수로 수면 위 상어 등지느러미 + 전경에 빛나는 검은 김 한 장",
+      "B": "3분할 — 왼쪽 누렇게 바랜 일본 김 양식망 / 가운데 놀란 일본 60대 어민 / 오른쪽 황금빛 한국 김 양식장 + 태극기"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 부산 북항의 콘크리트 수로, 에메랄드빛 물 위로 회색 상어 등지느러미가 물살을 가르고, 화면 앞쪽에는 기름 광택이 도는 검은 김 한 장이 황금빛 역광을 받아 크게 떠 있다.",
+      "prompt_en": "High-saturation HDR cinematic close-up of a grey shark dorsal fin slicing through emerald-green water in a narrow concrete urban canal lined with a waterfront promenade railing in Busan, South Korea. In the foreground, a single large sheet of glossy black roasted Korean seaweed (gim) floats in the air, catching a golden backlight with glowing rim light and subtle sparkles. The fin and the seaweed share the upper half of the frame, both large and instantly readable. Bright, curious, slightly surreal mood, sharp focus, shallow depth of field."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 변형. 수로 난간에서 휴대폰을 든 60대 한국 남성이 놀라 입을 벌리고, 그 앞 물 위로 상어 등지느러미, 남성의 다른 손에는 검은 조미김 한 봉지.",
+      "prompt_en": "High-saturation HDR cinematic photograph of an amazed Korean man in his 60s leaning on a waterfront railing in Busan, holding up a smartphone with jaw dropped as a large grey shark dorsal fin breaks the emerald water of the canal right below him. In his other hand he holds a pack of glossy black Korean roasted seaweed, glowing in warm golden sunlight. Exaggerated surprised expression readable from far away, subjects placed in the upper half, bright and lively atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 3분할. 왼쪽 회색 겨울 바다의 누렇게 바랜 일본 김 양식망과 작은 일장기, 가운데 누런 김을 손에 든 채 놀란 일본 60대 어민, 오른쪽 황금빛 일출 아래 검고 윤기 나는 한국 김 양식장과 크게 휘날리는 태극기.",
+      "prompt_en": "Epic triumphant three-panel composition in high-saturation HDR. On the left, a cold desaturated grey winter sea with seaweed nets turned pale yellow and withered at a Japanese farm in Ariake Bay, a small ordinary Japanese flag in the corner. In the center, an anonymous Japanese fisherman in his 60s in rain gear holding a strand of yellowed seaweed, awestruck and looking toward the right side. On the right, a vast Korean seaweed farm with dense glossy black laver on long rope lines under a golden sunrise, heroic low-angle shot, golden backlight and lens flare, and a huge Korean Taegukgi flag waving proudly in sunlight in the upper right corner, larger and closer than everything on the left."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 변형. 왼쪽 일본 마트의 텅 빈 김 진열대, 가운데 놀란 일본 60대 주부, 오른쪽 수출용 한국 조미김 상자가 산처럼 쌓인 부두와 태극기.",
+      "prompt_en": "Triumphant three-panel cinematic image in high-saturation HDR. On the left, a dim, desaturated Japanese supermarket shelf where the dried seaweed section is nearly empty, with a small plain Japanese flag. In the center, an anonymous Japanese woman in her 60s with an astonished, jaw-dropped expression looking toward the right. On the right, a sunlit Korean export dock stacked high with boxes of glossy roasted Korean seaweed snacks being loaded onto a cargo ship, glowing golden backlight and sparkles, heroic low-angle view, and a huge Korean Taegukgi flag waving proudly in the upper right, clearly bigger and brighter than the left side."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 위에서 내려다본 바다 — 왼쪽 반은 회색으로 비어 가는 김 양식장, 오른쪽 반은 끝없이 펼쳐진 검은 한국 김 양식장, 그 사이 물속을 지나가는 상어 실루엣 하나.",
+      "prompt_en": "Dramatic aerial drone photograph in high-saturation HDR of a sea divided down the middle: on the left half, sparse grey seaweed farm grids fading into dull water; on the right half, endless rows of dense glossy black laver farms glowing under golden sunlight with a small Korean flag on a buoy. A single large shark silhouette glides through the clear water along the dividing line, connecting both sides. Striking contrast, epic scale, key subjects in the upper half of the frame."
+    }
+  ]
+}
