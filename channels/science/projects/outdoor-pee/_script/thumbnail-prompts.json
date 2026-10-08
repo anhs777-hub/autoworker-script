@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "project": "outdoor-pee",
+    "titles": ["산에서 소변 보면 자연에 해로울까?", "야외에서 볼일 보면 환경에 해로울까?", "노상방뇨는 환경에 해로울까?"],
+    "thumbnail_texts": ["비료인 줄 알았는데 / 산에서 노상방뇨", "거름도 몰리면 탄다 / 등산로 소변 자국", "물이 95%라는데 / 산에서 본 소변"],
+    "image_concepts": {
+      "A": "숲 등산로 한가운데 놓인 하얀 양변기 앞에서 머리를 긁는 등산객",
+      "B": "나무 뒤에서 고개를 빼꼼 내밀고 주위를 살피는 등산객 + 발밑 누렇게 변한 풀 한 자리"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 초록 숲 등산로 한가운데 덩그러니 놓인 하얀 양변기, 그 옆에서 머리를 긁으며 어리둥절한 50대 한국인 등산객.",
+      "prompt_en": "Bright photorealistic collage of a sunny Korean mountain forest hiking trail with a clean white porcelain toilet sitting absurdly in the middle of the dirt path. A friendly Korean man in his fifties wearing a colorful hiking jacket and cap stands beside it, scratching his head with a wide-eyed, puzzled, exaggerated expression. He is a crisp cutout subject with strong rim light, shown from the chest up and large in frame. Lush green trees and soft sunlight fill the background."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형. 숲속 변기를 가운데 크게, 등산 스틱을 든 50대 여성 등산객이 손으로 입을 가리고 놀라는 모습.",
+      "prompt_en": "Photorealistic composite of a green Korean mountain trail where a gleaming white toilet stands large in the center among ferns and pine trees. A cheerful Korean woman in her fifties in hiking gear, holding trekking poles, covers her mouth with one hand in exaggerated surprise and amusement. Crisp cutout look with bright rim lighting, vivid natural colors, playful and curious mood."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 굵은 나무 뒤에서 고개만 빼꼼 내밀고 좌우를 살피는 50대 남성 등산객, 앞쪽 풀밭에 누렇게 변한 둥근 자국.",
+      "prompt_en": "Photorealistic scene of a Korean forest where a hiker in his fifties peeks out from behind a thick tree trunk, only his head and shoulders visible, eyes darting sideways with an exaggerated sheepish, guilty grin. In the foreground lush green grass shows one distinct circular patch of yellowed, scorched grass. Bright daylight, crisp cutout subject with rim light, humorous mood, no nudity."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형. 등산로 옆 나무 밑동 주변 흙만 색이 변한 모습을 쪼그려 앉아 돋보기로 들여다보는 등산객.",
+      "prompt_en": "Photorealistic image of a Korean hiker in his fifties crouching beside the base of a tree next to a mountain trail, peering through a large magnifying glass at a ring of discolored, yellowed soil and dead grass around the trunk. His face shows exaggerated curiosity with raised eyebrows. Green healthy grass surrounds the patch for contrast, bright natural light, crisp cutout subject."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 등산로 입구 표지판 옆, 커다란 비료 포대와 물병을 양손에 든 등산객이 고민하는 표정 — 「비료인데?」의 반전을 소품으로.",
+      "prompt_en": "Photorealistic collage at a Korean mountain trailhead with a wooden trail sign behind. A Korean man in his fifties in hiking clothes holds a large fertilizer sack in one arm and a water bottle in the other hand, looking back and forth between them with an exaggerated confused frown. Bright green mountains in the background, crisp cutout subject with strong rim light, humorous curious mood."
+    }
+  ]
+}
