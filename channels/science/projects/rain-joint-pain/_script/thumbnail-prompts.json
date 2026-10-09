@@ -9,7 +9,7 @@
     "thumbnail_texts": [
       "[빗물]은 상관없었다 / 그럼 [무릎]은 왜 쑤실까?",
       "비 오기 [전날]부터 / [무릎]이 먼저 쑤시는 이유",
-      "병원 기록 [1,167만 건] / 비 온 날도 [똑같았다]"
+      "기록 [1,167만 건]을 뒤졌더니 / 비 온 날도 [똑같았다]"
     ],
     "image_concepts": {
       "A": "컨셉 A(추천). 바지를 걷은 노인의 무릎을 화면 가운데 크게, 무릎에 은은한 붉은 통증 빛. 뒤 창밖은 파란 하늘 한쪽으로 먹구름이 몰려온다.",
@@ -50,8 +50,8 @@
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드(대본 처방). 무릎을 감싼 따뜻한 찜질팩과 비 예보가 뜬 휴대폰을 함께 크게, 옆엔 접은 우산.",
-      "prompt_en": "Photorealistic close-up of a knee wrapped in a warm heating pad on a sofa, a smartphone resting on the knee showing a weather app with a rain cloud icon (no readable text), a folded umbrella leaning beside it, rain streaking the window behind. Cozy warm lighting, calm and practical mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "concept_ko": "와일드카드(기억의 착각). 궂은 날에만 빨간 동그라미가 쳐진 벽걸이 달력 — 아팠던 궂은 날만 기억에 남는다는 대본 반전.",
+      "prompt_en": "Photorealistic close-up of a paper wall calendar hanging in a cozy Korean home, several days marked with small hand-drawn rain-cloud doodles and circled in bold red marker while the sunny days are left blank, the printed numbers blurred and unreadable, a window with rain streaks softly out of focus behind. Warm light, curious and slightly humorous mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }
