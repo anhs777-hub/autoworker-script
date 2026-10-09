@@ -2,8 +2,8 @@
   "meta": {
     "project": "us-acquisition-curse",
     "titles": [
-      "9조에 첫해 이익 0.6%…삼성 하만·두산 밥캣이 지금도 1위인 진짜 이유",
-      "54억 달러 회사 지분을 1달러에 넘긴 도시바…두산·삼성·LS가 끝까지 지킨 진짜 이유"
+      "\"승자의 저주? 그런 거 없다\" 밥캣·하만·슈페리어 에식스가 지금도 1위인 진짜 이유",
+      "\"승자의 저주? 그런 거 없다\" 첫해 이익 0.6% 하만·밥캣이 지금도 1위인 진짜 이유"
     ],
     "thumbnail_texts": [
       "\"9조에 첫해 이익 0.6%\" / 하만·밥캣, 한국이 지켰다",
@@ -14,6 +14,11 @@
       "A": "3분할 — 왼쪽 회색 안개 속 멈춘 원전 냉각탑, 가운데 경탄하는 익명 미국인 사업가, 오른쪽 황금 역광 속 소형 로더 + 큰 태극기",
       "B": "한국 세 실물 영웅샷 — 소형 로더·구리 권선 코일·빛나는 차량 디지털 계기판이 로우앵글로 나란히, 뒤로 휘날리는 태극기",
       "C": "실물 클로즈업형(고배율 공식) — 실물 1개를 크게 + 익명 인물 1명"
+    },
+    "final_thumbnail": {
+      "top": "\"승자의 저주? 그런거 없다\"",
+      "bottom": "한국기업이 도시바랑 다른 이유",
+      "image": "6번 프롬프트 + 정식 로고(DOOSAN·LS Cable·SAMSUNG) 수동 합성, 인물 없음"
     }
   },
   "thumbnails": [
@@ -46,6 +51,12 @@
       "type": "closeup-photorealistic",
       "concept_ko": "실물 클로즈업형 ② — 빛나는 차량 디지털 계기판과 도어 스피커 실물 + 운전석에서 감탄하는 50대 여성 운전자",
       "prompt_en": "Photorealistic close-up inside a premium car, where a glowing wide curved digital cockpit display and a polished metal door speaker grille fill more than half of the frame across the upper area, every detail crisp and luminous. In the driver's seat, an attractive Korean woman in her 50s with a warm likeable face listens with an impressed, delighted expression, shown chest-up. Soft blue dashboard glow mixed with warm golden light through the windshield, no brand logos or readable text anywhere. Bright vivid high-saturation colors, clean composition so the dashboard and speaker are recognizable at thumbnail size."
+    },
+    {
+      "id": 6,
+      "type": "final-objects-with-logo-plates",
+      "concept_ko": "최종 썸네일용 — 인물 없이 실물 셋(로더·구리 권선·차량 계기판)을 크게 + 각 실물 아래 로고 붙일 흰 명판",
+      "prompt_en": "Photorealistic epic cinematic high-saturation HDR image with no people. Three real objects stand side by side across the upper 60% of the frame, each large and filling its third of the width: on the left a white-and-orange compact skid steer loader without any logo, in the center a towering stack of gleaming copper magnet wire coils, and on the right a glowing wide curved car digital cockpit dashboard with steering wheel. Directly beneath each object is a clean, empty, softly lit white rounded nameplate panel, blank with no text, sized for a label. Behind them a huge Korean flag Taegukgi waves proudly against a golden sunset sky over a city skyline, with warm golden backlight, rim light and lens flare. The bottom third of the image fades to a dark, simple background. No logos, no letters, no words anywhere."
     }
   ]
 }
