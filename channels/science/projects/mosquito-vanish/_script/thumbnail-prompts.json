@@ -2,51 +2,56 @@
   "meta": {
     "project": "mosquito-vanish",
     "titles": [
-      "모기는 왜 눈앞에서 사라질까?",
-      "모기를 쫓을수록 놓치는 이유",
-      "걷는 속도의 5분의 1인 모기를 왜 놓칠까?"
+      "모기가 눈앞에서 갑자기 사라지는 이유 (feat. 모기가 빨라서일까?)",
+      "모기를 쫓을수록 놓치는 이유 (feat. 내 눈이 범인이다?)",
+      "모기는 느린데 왜 매번 놓칠까? (feat. 걷는 속도의 5분의 1?)"
     ],
     "thumbnail_texts": [
-      "걷는 속도의 5분의 1인데 / 눈앞에서 사라지는 모기",
-      "쫓을수록 놓친다 / 모기가 사라지는 이유",
-      "[쫓을수록] 사라지는 모기"
+      "[걷는 속도의 5분의 1]인데 / 왜 [모기]를 매번 놓칠까?",
+      "눈으로 [쫓을수록] / [모기]는 더 안 보인다",
+      "피를 빤 [모기 87%]는 / [1.5m] 아래서 쉰다"
     ],
     "image_concepts": {
-      "A": "파리채를 든 채 엉뚱한 허공을 노려보는 사람 + 바로 옆 벽에 앉은 큰 모기",
-      "B": "느긋하게 쉬는 의인화 모기 + 눈을 부릅뜬 채 지친 사람"
+      "A": "컨셉 A(추천). 흰 벽에 앉은 모기를 접사로 화면 오른쪽 60%만큼 크게. 왼쪽 가장자리엔 엉뚱한 허공을 내려치는 파리채와 손만 흐릿하게.",
+      "B": "컨셉 B. 크게 뜬 사람 눈 하나가 왼쪽 절반, 오른쪽 흰 벽 앞에서 모기가 흐릿하게 빠져나가는 순간."
     },
-    "note": "2026-10-04 지식한입 벤치마크로 재작성 (channels/science/config/thumbnail-strategy.json)"
+    "note": "2026-10-09 실사 확정 + 잘된 썸네일 분석(사물·현상 중심, 띠 없는 외곽선 글자, 핵심 단어만 노랑)으로 재작성 (channels/science/config/thumbnail-strategy.json)",
+    "edits": [
+      "벽에 앉은 모기에 빨간 손그림 동그라미 + 흰 손글씨 「바로 여기 있음」",
+      "날아가는 모기 옆 빨간 화살표 + 「초속 25cm」 (2013년 바헤닝언대 측정)",
+      "작은 인물 옆 손글씨 「분명 여기 있었는데..?」"
+    ]
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A. 어두운 침실, 파자마 차림 남성이 파리채를 쳐들고 눈을 부릅뜬 채 허공을 노려본다. 바로 옆 침대 머리맡 낮은 벽에 모기가 크게 앉아 있는데 그는 못 본다.",
-      "prompt_en": "Photorealistic composite thumbnail scene in a dim bedroom at night with one warm lamp on. An anonymous Korean man in his 30s with a warm likeable face, wearing pajamas, raises a fly swatter and glares wide-eyed at empty air in an exaggerated frantic expression, his upper body large in the center of the frame, crisp cutout look with strong rim light. Right beside his head, on the low wall above the headboard, a single mosquito rests motionless, rendered oversized and sharply detailed so viewers spot it instantly while he does not. Realistic textures, high contrast, playful humorous mood."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 A(추천). 흰 벽에 앉은 모기를 접사로 화면 오른쪽 60%만큼 크게. 왼쪽 가장자리엔 엉뚱한 허공을 내려치는 파리채와 손만 흐릿하게.",
+      "prompt_en": "Photorealistic macro photograph of a single mosquito resting on a plain white bedroom wall, rendered huge and razor sharp so it fills the right 60% of the frame, every leg and wing vein visible. At the far left edge, slightly blurred, a man's hand swings a fly swatter at empty air in the wrong place. Bright clean lighting, playful mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 2,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 변형. 불 켠 방에서 두 손으로 허공을 박수 치듯 잡았다가 빈손을 확인하며 황당해하는 여성, 어깨 너머 벽에 앉은 모기.",
-      "prompt_en": "Photorealistic composite thumbnail scene in a brightly lit Korean apartment bedroom. An anonymous young Korean woman with a warm likeable face has just clapped her hands together in mid-air and is opening them to find nothing, her face showing exaggerated disbelief, upper body large on the left side of the frame with a crisp cutout look and rim light. Over her shoulder, on the plain white wall, a single mosquito sits still, oversized and in sharp focus. Bright realistic colors, humorous mood."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 A 변형. 침대 머리맡 낮은 벽에 앉은 큰 모기를 앞에 크게, 화면 위쪽 구석엔 손전등으로 엉뚱한 천장을 비추는 사람이 작게.",
+      "prompt_en": "Photorealistic night bedroom scene: in the foreground, on the low wall just above a headboard, a single mosquito sits still, oversized and in sharp focus, filling the center-right of the frame. Small and far in the upper-left corner, an anonymous Korean adult in pajamas points a flashlight at the empty ceiling, looking the wrong way. Warm lamp light, humorous mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B. 벽에 앉은 큰 모기가 작은 선글라스를 쓰고 느긋하게 쉬는 모습, 그 앞에서 눈 밑이 퀭한 남성이 손전등을 들고 엉뚱한 천장을 비춘다.",
-      "prompt_en": "Photorealistic composite thumbnail with playful humor: a giant mosquito, oversized to fill the right third of the frame, rests on a bedroom wall wearing tiny sunglasses and looking relaxed. On the left, an exhausted anonymous Korean man in his 40s with dark circles under his eyes and messy hair points a flashlight at the empty ceiling in the wrong direction, exaggerated tired frustration on his face, crisp cutout look with strong rim light. Night bedroom background, realistic textures, bright subject lighting."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 B. 크게 뜬 사람 눈 하나가 왼쪽 절반, 오른쪽 흰 벽 앞에서 모기가 흐릿하게 빠져나가는 순간.",
+      "prompt_en": "Photorealistic composite: an extreme close-up of a wide-open human eye fills the left half of the frame, the iris straining to the right. On the right, against a plain white wall, a single mosquito darts away with slight motion blur, slipping out of a small sharp circle of focus into blurry surroundings. Bright clean lighting, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 변형. 새벽 3시 시계가 보이는 침실, 모기 물린 자국이 난 팔을 긁으며 이마를 짚은 남성, 그 위로 크게 확대된 모기 한 마리.",
-      "prompt_en": "Photorealistic composite thumbnail in a dark bedroom with a digital clock glowing on the nightstand. An anonymous Korean man in his 30s with a warm likeable face sits up in bed, one hand pressed to his forehead in exaggerated despair, the other scratching a red mosquito bite on his arm, his upper body large in the center with a crisp cutout look and rim light. Above his head a single mosquito floats, oversized and sharply detailed. Moody night tones with a bright subject, humorous mood."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 B 변형. 고속 촬영처럼, 내려오는 파리채 앞에 생긴 공기 물결을 타고 모기가 옆으로 빠져나가는 순간.",
+      "prompt_en": "Photorealistic high-speed photograph of a fly swatter swinging down toward a single mosquito in mid-air, with a faint visible ripple of pushed air in front of the swatter, the mosquito slipping sideways out of its path, frozen in sharp detail and large in frame. Dark plain background with a bright rim light on the mosquito, dramatic yet playful mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 사람 눈 하나가 화면 왼쪽을 크게 채우고, 오른쪽 하얀 벽 앞에서 모기가 흐릿하게 빠져나가는 순간.",
-      "prompt_en": "Photorealistic composite thumbnail: an extreme close-up of a wide-open human eye fills the left half of the frame, the iris straining to the right. On the right, against a plain white wall, a single mosquito darts away with slight motion blur, just slipping out of a sharp circular zone of focus into blurry surroundings. Bright clean lighting, vivid realistic colors, intriguing mood."
+      "concept_ko": "와일드카드. 꽃무늬 커튼 아래쪽에 앉아 무늬에 섞여 거의 안 보이는 모기 — 「숨은 모기 찾기」 느낌. 편집에서 빨간 동그라미로 위치를 짚는다.",
+      "prompt_en": "Photorealistic close-up of the lower part of a busy floral-pattern curtain near the floor, with a single mosquito resting on it, almost camouflaged by the pattern yet sharp and slightly larger than life so it can be found on a second look. Soft daylight, curious find-the-hidden-object mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }

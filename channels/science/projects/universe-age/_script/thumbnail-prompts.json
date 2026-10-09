@@ -2,50 +2,56 @@
   "meta": {
     "project": "universe-age",
     "titles": [
-      "우주 나이는 정말 138억 년일까?",
-      "우주 나이 138억 년은 어떻게 쟀을까?",
-      "우주 나이 138억 년, 믿어도 될까?"
+      "우주 나이는 정말 138억 년일까? (feat. 우주보다 늙은 별이 있다?)",
+      "우주 나이 138억 년은 어떻게 쟀을까? (feat. 줄자로 잰 게 아니다?)",
+      "우주 나이 138억 년, 믿어도 될까? (feat. 세 방법이 만났다?)"
     ],
     "thumbnail_texts": [
-      "(흰) 우주보다 늙은 별 / (노랑) 우주 나이 138억 년",
-      "(흰) 세 가지 방법이 같았다 / (노랑) 138억 년의 근거",
-      "(흰) 거꾸로 계산한 숫자 / (노랑) 우주 나이 138억 년"
+      "[줄자]로 잰 게 아니다 / [우주 나이 138억 년]",
+      "우주는 [138억 살]인데 / [145억 살] 별이 있다?",
+      "내 몸속 [수소]도 / [138억 살]이다?"
     ],
     "image_concepts": {
-      "A": "밤하늘 관측소에서 유난히 크게 빛나는 별 하나를 가리키며 눈이 휘둥그레진 한국인 남성",
-      "B": "초 대신 빛나는 나선 은하가 꽂힌 생일 케이크를 들고 고개를 갸웃하는 한국인 여성"
-    }
+      "A": "컨셉 A(추천, 문구 1번용). 노란 줄자가 손에서 풀려 나가 별이 가득한 우주로 끝없이 뻗는다 — 「줄자로 잰 게 아니다」.",
+      "B": "컨셉 B. 별 수십만 개가 공처럼 뭉친 구상성단을 화면 가득 — 허블 사진 느낌."
+    },
+    "edits": [
+      "가장 밝은 별에 빨간 손그림 동그라미 + 흰 손글씨 「145억 살?!」",
+      "우주배경복사 지도에 빨간 화살표 + 「빅뱅 38만 년 뒤의 빛」",
+      "줄자 끝에 손글씨 「이걸로 잰 게 아님」"
+    ],
+    "note": "2026-10-09 실사 확정 + 잘된 썸네일 분석(사물·현상 중심, 띠 없는 외곽선 글자, 핵심 단어만 노랑)으로 재작성 (channels/science/config/thumbnail-strategy.json)"
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사. 산 위 천문대 마당, 망원경 옆에서 하늘의 유난히 큰 별을 가리키며 입을 벌리고 놀란 30대 한국인 남성.",
-      "prompt_en": "Photorealistic composite of a Korean man in his 30s wearing a dark padded jacket, standing next to a large white observatory telescope on a mountaintop at night, pointing up with one hand, eyes wide and mouth open in exaggerated surprise. Above him in the upper part of the frame, one single star shines far bigger and brighter than all others, with a golden-white glow and soft diffraction spikes. Deep navy starry sky with the faint Milky Way band. The man is lit by a crisp blue-white rim light so he pops out like a clean cutout against the background."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 A(추천, 문구 1번용). 노란 줄자가 손에서 풀려 나가 별이 가득한 우주로 끝없이 뻗는다 — 「줄자로 잰 게 아니다」.",
+      "prompt_en": "Photorealistic composite: a classic yellow tape measure held at the lower-left corner unrolls upward and stretches endlessly into a deep starfield with the faint band of the Milky Way, the tape getting thinner until it disappears among the stars, the tape blade blank with no markings. Rich navy and gold tones, astrophotography realism, surreal yet believable. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 2,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사 변형. 아파트 옥상에서 쌍안경을 내리고 하늘의 큰 별을 올려다보며 이마를 짚은 남성 — 보통 사람의 생활 공간.",
-      "prompt_en": "Photorealistic night scene on a Korean apartment rooftop, a Korean man in his 40s in a casual hoodie has just lowered his binoculars and is pressing a hand to his forehead in exaggerated disbelief while staring up at the sky. In the upper half of the frame, one enormous, unusually bright old star glows with a warm golden halo, dwarfing the other tiny stars. City lights glow faintly on the horizon under a deep blue night sky. Strong rim lighting separates the man sharply from the background, bright and clean overall tone."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 A 변형(문구 2번용). 별 하나가 유난히 크고 밝게 빛나는 밤하늘, 오른쪽 아래 산꼭대기 천문대 돔이 작게.",
+      "prompt_en": "Photorealistic astrophotograph: one single old star shines far bigger and brighter than all others in the upper center of a deep navy starry sky, with a golden-white glow and soft diffraction spikes. Small in the lower-right, a white observatory dome sits on a dark mountain ridge. Crisp, majestic, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사. 생일 케이크 위 촛불 대신 작은 나선 은하가 빛나고, 케이크를 든 40대 여성이 고개를 갸웃하며 당황.",
-      "prompt_en": "Photorealistic, playful composite of a Korean woman in her 40s holding a round white birthday cake at chest height, tilting her head with a puzzled, slightly comical frown. Instead of candles, a small glowing spiral galaxy in purple and blue floats just above the cake, casting colorful light on her face. Warm cozy living room background with soft bokeh lights. The woman and the cake are sharply lit with a crisp cutout look against the warm background."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 B. 별 수십만 개가 공처럼 뭉친 구상성단을 화면 가득 — 허블 사진 느낌.",
+      "prompt_en": "Photorealistic Hubble-style photograph of a dense globular star cluster, a glowing ball of hundreds of thousands of golden and white stars filling most of the frame, the core blazing bright and thinning toward the edges, set against black space. Sharp, rich detail, awe-inspiring mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 변형. 생일 케이크에 초를 끝없이 꽂다가 지친 표정으로 손가락을 세는 남성, 케이크 위로 은하가 빛남.",
-      "prompt_en": "Photorealistic humorous scene of a Korean man in his 30s at a kitchen table, holding a fistful of birthday candles and counting on his fingers with an exaggerated overwhelmed expression. On the cake in front of him, a tiny glowing spiral galaxy hovers above the frosting, lighting the scene in soft violet and blue. Bright warm kitchen lighting, clean background. The man is crisply separated from the background with a strong rim light."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 B 변형(문구 3번용). 밤 부엌 식탁 위 물 한 잔, 물속에 작은 나선 은하가 빛난다. 사람 없음.",
+      "prompt_en": "Photorealistic close-up of a clear glass of water on a wooden kitchen table at night, and inside the water a tiny swirling spiral galaxy glows in blue and violet, casting soft colored light on the table. A dark window with a few real stars behind. Calm, magical yet realistic mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 부엌에서 물 한 잔을 들여다보며 깜짝 놀란 할머니, 유리잔 속 물에 은하가 비침 — 클로징 「내 몸속 수소의 나이」 연결.",
-      "prompt_en": "Photorealistic close shot of a Korean grandmother in her 60s in a bright kitchen, holding a clear glass of water up to eye level with an exaggerated astonished expression, eyebrows raised high. Inside the water, a tiny swirling spiral galaxy glows in blue and violet, reflected light dancing on her face. Bright clean kitchen with morning sunlight from a window. She stands out sharply as a crisp cutout subject with a soft rim light."
+      "concept_ko": "와일드카드(유머). 생일 케이크 위에 초 대신 작은 은하가 떠 있다. 케이크만 크게.",
+      "prompt_en": "Photorealistic close-up of a round white birthday cake on a table, and instead of candles a small glowing spiral galaxy in purple and blue hovers just above the frosting, lighting it with colorful light. Warm cozy room with soft bokeh lights behind. Playful, whimsical mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }

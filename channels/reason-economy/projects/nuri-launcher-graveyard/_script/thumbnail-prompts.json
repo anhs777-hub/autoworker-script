@@ -2,48 +2,70 @@
   "meta": {
     "project": "nuri-launcher-graveyard",
     "titles": [
-      "\"첫 발사 절반은 떨어진다\" 새 로켓의 무덤에서 누리호가 4번 연속 오른 진짜 이유",
-      "14초·30초·69초…새 로켓이 떨어질 때 누리호는 4번 연속 올랐다",
-      "\"첫 발 실패, 그 다음 4번\" 누리호가 새 로켓의 무덤에서 다시 오른 진짜 이유"
+      "\"1차 실패, 2~5차 성공\" 새 로켓의 무덤에서 누리호가 다시 오른 진짜 이유",
+      "호주·독일·일본·미국 새 로켓은 첫 발 실패…누리호가 5차 발사까지 다시 오른 진짜 이유",
+      "\"새 로켓 절반 가까이 첫 발 실패\" 누리호가 첫 실패 뒤 5차까지 내리 성공한 진짜 이유",
+      "누리호 5차 발사 성공…첫 발 실패한 로켓이 그 뒤 한 번도 실패하지 않은 진짜 이유"
     ],
     "thumbnail_texts": [
-      "\"첫 발사 절반은 떨어진다\" / 누리호, 4번 연속 올랐다",
-      "\"14초 만에 떨어진 새 로켓\" / 누리호는 4번 연속 올랐다",
-      "\"첫 발 실패, 그 다음 4번\" / 누리호가 다시 올랐다"
+      "\"4개국 새 로켓 첫발 실패\" / 누리호는 다시 올랐다",
+      "\"호주·독일·일본·미국\" + \"새 로켓 첫발 실패\" / 누리호는 다시 올랐다",
+      "\"1차 실패, 2~5차 성공\" / 누리호가 다시 올랐다",
+      "\"첫 발 실패 뒤 내리 성공\" / 누리호 5차 발사 성공",
+      "\"새 로켓 절반 가까이 첫 발 실패\" / 누리호, 5차까지 내리 성공"
     ],
     "image_concepts": {
       "A": "3분할 — 왼쪽 연기 꼬리를 남기며 바다로 기우는 이름 없는 소형 로켓(저채도) / 가운데 입 벌린 외국인 우주 기술자(익명) / 오른쪽 황금 역광 속 발사대를 박차는 3단 흰색 로켓 + 큰 태극기",
-      "B": "실물 클로즈업 — 외벽이 찢어진 대형 액체로켓 엔진 전시물(화면 절반 이상) + 올려다보는 익명 한국인 엔지니어, 뒤로 솟는 로켓 불꽃"
+      "B": "실물 클로즈업 — 외벽이 찢어진 대형 액체로켓 엔진 전시물(화면 절반 이상) + 올려다보는 익명 한국인 엔지니어, 뒤로 솟는 로켓 불꽃",
+      "C": "레퍼런스형 — 멀리 솟는 로켓 + 앞쪽에 환호하며 휴대폰으로 찍는 한국인 관람객 클로즈업 + 원형 작은 창 안에 서로 껴안는 연구원들 (2026-10-09 사용자 요청)"
     },
     "notes": "실제 로고·기관 마크·회사명 금지(누리호·버진 오빗 로고 포함). 외국 국기는 작게·평범하게, 훼손 금지. 실존 인물 AI 얼굴 금지. 하단 35~40%는 글자 자리로 어둡게."
   },
   "thumbnails": [
     {
       "id": 1,
+      "type": "concept-c-crowd-closeup",
+      "concept_ko": "컨셉 C 메인(레퍼런스 1·2·3·4 조합). 앞쪽에 환호하며 휴대폰으로 발사를 찍는 한국인 남녀 둘(가슴 위 클로즈업, 입 벌리고 활짝 웃는 얼굴, 회색 작업 점퍼). 뒤쪽 멀리 해안 발사장에서 거대한 흰 연기구름을 뿜으며 솟는 흰 3단 로켓, 맑은 파란 하늘. 중간에 작은 태극기를 흔드는 관람객들. 왼쪽 위 원형 작은 창 안에 관제실에서 서로 껴안고 기뻐하는 연구원들.",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic photo, bright midday sunlight, clear deep blue sky. In the foreground on the right half, a close-up of two ecstatic Korean spectators, a woman in her 30s and a man in his 40s in plain grey work jackets, chest-up, faces lit by warm sunlight, mouths wide open laughing and cheering, both holding smartphones up high to record, looking up toward the upper left. In the background far away, a tall white three-stage rocket with no markings lifting off from a coastal launch pad on green hills by the sea, a huge billowing white exhaust cloud spreading around the pad and a bright golden flame, heroic and triumphant. Between them, a crowd of spectators on a seaside viewing area seen from behind, some waving small Korean Taegukgi flags. In the upper left corner, a small circular inset photo with a thin white border, about 18 percent of the frame width, showing Korean researchers in a mission control room with rows of monitors, hugging each other and cheering with tears of joy. No text, no letters, no logos or agency marks anywhere, no real identifiable people. Bottom 35 to 40 percent of the frame slightly darker and calm, left empty for text overlay."
+    },
+    {
+      "id": 2,
+      "type": "concept-c-crowd-closeup",
+      "concept_ko": "컨셉 C 변형. 바닷가 언덕 전망대에 빼곡히 선 관람객들이 멀리 솟는 로켓을 바라보는 넓은 장면, 오른쪽 앞에 휴대폰을 들고 환호하는 한국인 여성 한 명 클로즈업, 관람객 사이로 휘날리는 큰 태극기. 오른쪽 위 원형 창에 서로 껴안는 연구원들.",
+      "prompt_en": "Photorealistic cinematic wide shot with vivid saturated colors under a bright clear blue sky. A large crowd of Korean spectators packed on a grassy seaside hill viewing deck, seen from behind and from the side, many raising smartphones and cameras toward the distance, where a white three-stage rocket with no markings rises from a coastal launch complex trailing a long bright flame and a towering white smoke column. A large Korean Taegukgi flag waves proudly in the sunlight above the crowd. In the right foreground, a close-up of one cheering Korean woman in her 30s in a light jacket, chest-up, mouth open in joyful amazement, holding her phone up to film the launch. In the upper right corner, a small circular inset photo with a white border showing Korean researchers in a control room embracing and celebrating in front of glowing monitors. No text, no letters, no logos or agency marks anywhere, no real identifiable people. Bottom 35 to 40 percent of the frame slightly darker and calm, left empty for text overlay."
+    },
+    {
+      "id": 3,
+      "type": "concept-c-crowd-closeup",
+      "concept_ko": "컨셉 C 변형(로켓 크게). 왼쪽 절반에 황금 불꽃을 뿜으며 로우앵글로 솟는 흰 로켓, 오른쪽 앞에 놀라 환호하며 사진 찍는 한국인 관람객 셋의 얼굴 클로즈업, 오른쪽 위 원형 창에 껴안는 연구원들, 작은 태극기.",
+      "prompt_en": "Photorealistic high-saturation HDR composition, epic and joyful. The left half shows a tall white three-stage rocket with no markings in a heroic low-angle view, climbing on a brilliant golden flame above a huge white cloud of exhaust, clear blue sky, lens flare. The right half shows a tight close-up of three amazed Korean spectators, a man in his 50s, a woman in her 30s and a man in his 40s, chest-up and overlapping, eyes wide and mouths open in cheers, two of them holding smartphones up to take photos, one waving a small Korean Taegukgi flag. In the upper right corner, a small circular inset photo with a thin white border showing Korean researchers in a mission control room hugging each other and clapping. No text, no letters, no logos or agency marks anywhere, no real identifiable people. Bottom 35 to 40 percent of the frame slightly darker and calm, left empty for text overlay."
+    },
+    {
+      "id": 4,
       "type": "concept-a-photorealistic",
       "concept_ko": "컨셉 A 실사. 왼쪽 회청색 하늘에서 연기 꼬리를 남기며 바다 쪽으로 기우는 소형 로켓, 가운데 입을 벌린 50대 외국인 우주 기술자(익명), 오른쪽 황금빛 역광 속에 발사대를 박차고 솟는 3단 흰색 대형 로켓과 크게 휘날리는 태극기.",
       "prompt_en": "Photorealistic high-saturation HDR cinematic three-panel composition, triumphant and epic. On the left, under a cold grey-blue desaturated sky, a small unbranded rocket tilting toward the sea and trailing broken smoke, a small ordinary foreign flag in the upper left corner. In the center, an attractive, likeable Western aerospace engineer in his 50s in a plain work jacket, chest-up close-up filling most of the frame height, jaw-dropped and awestruck, looking toward the right side. On the right, larger and closer in a heroic low-angle shot, a tall white three-stage rocket with no logos lifting off a coastal launch pad on a brilliant blue-white flame, golden backlight, glowing rim light, lens flare and sparks, a huge Korean flag Taegukgi waving proudly in sunlight in the upper right corner taking at least a quarter of the frame height. Bottom 35 to 40 percent darker for text overlay."
     },
     {
-      "id": 2,
+      "id": 5,
       "type": "concept-a-photorealistic",
       "concept_ko": "컨셉 A 변형. 바다 위 하늘을 가로 3분할 — 왼쪽 불꽃이 꺼지며 떨어지는 소형 로켓 두 대(저채도), 오른쪽 구름을 뚫고 올라가는 흰 로켓과 그 위 궤도에서 빛나는 작은 위성 다섯 개, 가운데 하늘을 올려다보며 놀란 외국인 관중(익명).",
       "prompt_en": "Photorealistic cinematic wide sky scene with vivid saturated colors, epic and victorious. The left third shows two small unbranded rockets with dying flames falling toward a dark grey ocean under overcast light, a small ordinary foreign flag in the top left corner. The right third, bigger and brighter, shows a tall white three-stage rocket with no logos piercing through clouds on a bright flame, and above it five tiny glowing satellites in a neat row against a deep blue sky, golden backlight and lens flare, a huge Korean Taegukgi flag waving proudly in sunlight in the top right corner. In the center foreground, a likeable middle-aged Western spectator in a windbreaker, chest-up, looking up at the right side with an exaggerated astonished expression. Bottom 35 to 40 percent darker for text."
     },
     {
-      "id": 3,
+      "id": 6,
       "type": "concept-a-photorealistic",
       "concept_ko": "컨셉 A 변형. 왼쪽 비행장 활주로 위 텅 빈 관중석과 떨어진 깃발(저채도), 가운데 놀란 외국인 남성, 오른쪽 해안 발사장에서 솟아오르는 흰 로켓과 환하게 빛나는 관제실 창. 큰 태극기.",
       "prompt_en": "Photorealistic high-saturation HDR three-panel composition. On the left, a gloomy desaturated airport runway at dusk with an empty spectator stand and a large generic jumbo jet with no logos parked under drizzle, a small ordinary foreign flag in the upper left corner. In the center, an attractive Western man in his 60s in a raincoat, chest-up, mouth open in exaggerated surprise, turning toward the right. On the right, larger and in heroic low-angle, a white three-stage rocket with no logos rising from a sunny coastal launch complex surrounded by green hills, golden backlight, glowing rim light and sparks, a huge Korean Taegukgi flag waving proudly in sunlight in the upper right corner. Bottom area darkened for text overlay."
     },
     {
-      "id": 4,
+      "id": 7,
       "type": "concept-b-closeup",
       "concept_ko": "컨셉 B 실물 클로즈업. 어두운 전시관 한가운데 외벽이 찢어진 거대한 액체로켓 엔진(화면 절반 이상)에 스포트라이트, 그 앞에서 올려다보는 한국인 엔지니어(익명, 작업복, 자신감 있는 표정). 뒤쪽 큰 유리창 너머로 솟는 로켓 불꽃. 작은 태극기.",
       "prompt_en": "Photorealistic cinematic close-up in a dark museum exhibition hall. A massive liquid-fuel rocket engine with its outer wall torn open and twisted metal, displayed on a pedestal and filling more than half the frame, lit by a dramatic warm spotlight. In front of it, a confident Korean aerospace engineer in his 40s in a navy work uniform, chest-up, looking up at the engine with a proud, determined expression. Through a tall glass window behind, a white rocket rises on a bright golden flame against a blue sky. A small Korean Taegukgi flag hangs on the wall to the right. High contrast, rich colors, bottom 35 to 40 percent darker for text."
     },
     {
-      "id": 5,
+      "id": 8,
       "type": "concept-b-closeup",
       "concept_ko": "컨셉 B 변형. 남극 세종기지의 눈 덮인 대형 안테나 실물 클로즈업(화면 절반 이상), 그 옆에서 헤드셋을 쓰고 모니터의 신호를 보며 환하게 웃는 한국인 연구원(익명). 하늘에 작은 위성 불빛 다섯 개.",
       "prompt_en": "Photorealistic cinematic close-up in Antarctica. A large white satellite ground-station dish antenna covered in snow and ice fills more than half the frame under a crisp blue polar sky, with five tiny glowing satellites visible as bright points above. Beside it, a cheerful Korean researcher in a red polar parka wearing a headset, chest-up, smiling broadly while looking at a rugged laptop screen showing a signal waveform. A small Korean Taegukgi flag on the station building. Bright, vivid, high-saturation HDR, bottom 35 to 40 percent darker for text overlay."

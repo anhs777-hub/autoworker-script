@@ -1,43 +1,57 @@
 {
   "meta": {
     "project": "outdoor-pee",
-    "titles": ["산에서 소변 보면 자연에 해로울까?", "야외에서 볼일 보면 환경에 해로울까?", "노상방뇨는 환경에 해로울까?"],
-    "thumbnail_texts": ["비료인 줄 알았는데 / 산에서 노상방뇨", "거름도 몰리면 탄다 / 등산로 소변 자국", "물이 95%라는데 / 산에서 본 소변"],
+    "titles": [
+      "산에서 소변 보면 자연에 해로울까? (feat. 소변은 비료라는데?)",
+      "야외에서 볼일 보면 환경에 해로울까? (feat. 소변은 거의 물이라는데?)",
+      "산에 묻은 대변은 언제 썩을까? (feat. 8주 뒤에도 세균이?)"
+    ],
+    "thumbnail_texts": [
+      "소변은 [비료]라는데 / [산]에서 봐도 괜찮을까?",
+      "산에 묻은 [대변] / [8주] 뒤에도 세균이?",
+      "국립공원 헬기 화물 [1위]는 / [배설물]이었다"
+    ],
     "image_concepts": {
-      "A": "숲 등산로 한가운데 놓인 하얀 양변기 앞에서 머리를 긁는 등산객",
-      "B": "나무 뒤에서 고개를 빼꼼 내밀고 주위를 살피는 등산객 + 발밑 누렇게 변한 풀 한 자리"
-    }
+      "A": "컨셉 A(추천). 등산로 옆 나무 밑동을 크게 — 둘레로 누렇게 마른 풀 고리, 그 바깥에 유난히 진한 초록 고리. 화면 가장자리에 등산화만 살짝.",
+      "B": "컨셉 B(문구 2번용). 숲 흙의 단면 — 15~20cm 깊이로 판 구덩이를 흙으로 덮은 모습, 옆에 꽂힌 작은 모종삽. 배설물은 보이지 않게."
+    },
+    "edits": [
+      "나무 밑동 누런 자국에 빨간 손그림 동그라미 + 흰 손글씨 「질소 15배」 (헬싱키대 개 소변 연구)",
+      "헬기 화물에 빨간 화살표 + 「456톤」",
+      "산양 옆 말풍선 「짭짤하네」"
+    ],
+    "note": "2026-10-09 실사 확정 + 잘된 썸네일 분석(사물·현상 중심, 띠 없는 외곽선 글자, 핵심 단어만 노랑)으로 재작성 (channels/science/config/thumbnail-strategy.json)"
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사. 초록 숲 등산로 한가운데 덩그러니 놓인 하얀 양변기, 그 옆에서 머리를 긁으며 어리둥절한 50대 한국인 등산객.",
-      "prompt_en": "Bright photorealistic collage of a sunny Korean mountain forest hiking trail with a clean white porcelain toilet sitting absurdly in the middle of the dirt path. A friendly Korean man in his fifties wearing a colorful hiking jacket and cap stands beside it, scratching his head with a wide-eyed, puzzled, exaggerated expression. He is a crisp cutout subject with strong rim light, shown from the chest up and large in frame. Lush green trees and soft sunlight fill the background."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 A(추천). 등산로 옆 나무 밑동을 크게 — 둘레로 누렇게 마른 풀 고리, 그 바깥에 유난히 진한 초록 고리. 화면 가장자리에 등산화만 살짝.",
+      "prompt_en": "Photorealistic photograph of the base of a tree beside a Korean mountain hiking trail, large in the center of the frame: a ring of yellowed, dried-out grass circles the trunk, with an unusually lush dark-green ring around its outer edge. Only the toe of a hiking boot peeks in at the frame edge. Bright forest daylight, curious mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 2,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 변형. 숲속 변기를 가운데 크게, 등산 스틱을 든 50대 여성 등산객이 손으로 입을 가리고 놀라는 모습.",
-      "prompt_en": "Photorealistic composite of a green Korean mountain trail where a gleaming white toilet stands large in the center among ferns and pine trees. A cheerful Korean woman in her fifties in hiking gear, holding trekking poles, covers her mouth with one hand in exaggerated surprise and amusement. Crisp cutout look with bright rim lighting, vivid natural colors, playful and curious mood."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 A 변형(문구 3번용). 국립공원 산등성이 위로 헬기가 큰 화물 자루를 매달고 나른다. 아래 대피소가 작게.",
+      "prompt_en": "Photorealistic photograph of a helicopter flying low over a rugged Korean mountain ridge, carrying a large heavy cargo sling bag on a long cable, the bag big and prominent in the frame, a small mountain shelter hut visible on the ridge below. Clear sky, dramatic natural light, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사. 굵은 나무 뒤에서 고개만 빼꼼 내밀고 좌우를 살피는 50대 남성 등산객, 앞쪽 풀밭에 누렇게 변한 둥근 자국.",
-      "prompt_en": "Photorealistic scene of a Korean forest where a hiker in his fifties peeks out from behind a thick tree trunk, only his head and shoulders visible, eyes darting sideways with an exaggerated sheepish, guilty grin. In the foreground lush green grass shows one distinct circular patch of yellowed, scorched grass. Bright daylight, crisp cutout subject with rim light, humorous mood, no nudity."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 B(문구 2번용). 숲 흙의 단면 — 15~20cm 깊이로 판 구덩이를 흙으로 덮은 모습, 옆에 꽂힌 작은 모종삽. 배설물은 보이지 않게.",
+      "prompt_en": "Photorealistic cross-section view of forest soil cut like a clean wall: a small hole about 20 cm deep, refilled with darker loose soil, sits under a layer of leaves, and a small hand trowel is stuck in the ground beside it. No waste visible. Natural earthy colors, educational and curious mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 변형. 등산로 옆 나무 밑동 주변 흙만 색이 변한 모습을 쪼그려 앉아 돋보기로 들여다보는 등산객.",
-      "prompt_en": "Photorealistic image of a Korean hiker in his fifties crouching beside the base of a tree next to a mountain trail, peering through a large magnifying glass at a ring of discolored, yellowed soil and dead grass around the trunk. His face shows exaggerated curiosity with raised eyebrows. Green healthy grass surrounds the patch for contrast, bright natural light, crisp cutout subject."
+      "type": "photorealistic-object",
+      "concept_ko": "컨셉 B 변형. 푸른 빙하 틈 앞 눈 위에 놓인 휴대용 변기통을 크게, 멀리 등반가들이 작게.",
+      "prompt_en": "Photorealistic photograph on a high snowy glacier: in the foreground, large and sharp, a sturdy portable toilet canister sits on the snow beside the edge of a deep blue crevasse, while tiny roped climbers move along the ridge far behind under a bright sky. Crisp alpine light, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 등산로 입구 표지판 옆, 커다란 비료 포대와 물병을 양손에 든 등산객이 고민하는 표정 — 「비료인데?」의 반전을 소품으로.",
-      "prompt_en": "Photorealistic collage at a Korean mountain trailhead with a wooden trail sign behind. A Korean man in his fifties in hiking clothes holds a large fertilizer sack in one arm and a water bottle in the other hand, looking back and forth between them with an exaggerated confused frown. Bright green mountains in the background, crisp cutout subject with strong rim light, humorous curious mood."
+      "concept_ko": "와일드카드(유머). 등산로 옆 바위를 핥는 산양을 가깝게 크게 — 사람 소변의 소금기를 찾아온 산양.",
+      "prompt_en": "Photorealistic close-up of a white mountain goat licking a rock right beside a narrow hiking trail, its face large in the frame with a comically focused expression, green alpine slopes behind. Bright natural light, humorous mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }
