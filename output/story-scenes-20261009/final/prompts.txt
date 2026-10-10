@@ -1,0 +1,669 @@
+Tool: built-in image_gen. All scenes illustrative AI reconstructions, not archival photos. Original specifications supplied by user; generation does not verify historical claims.
+
+SCENE 001: 도시바 도쿄 본사 회의실 탁자에 웨스팅하우스 지분 양도 서류와 1달러 지폐가 함께 놓여 있다.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Westinghouse share transfer documents and a one-dollar bill",
+    "appearance": "A neat stack of formal share transfer papers with signature blocks and official stamps, a single crisp US one-dollar bill resting beside them",
+    "action": "Lie side by side on the conference table as the silent focal point of the scene",
+    "detail": "The dollar bill is sharply in focus, placed squarely on or next to the documents to suggest a symbolic nominal-price transfer; no readable company logos, only generic legal text"
+  },
+  "environment": {
+    "location": "A corporate boardroom at the Toshiba headquarters in Tokyo",
+    "details": "Polished wooden conference table, empty leather executive chairs, a floor-to-ceiling window showing a hazy Tokyo skyline, minimalist Japanese corporate interior with neutral tones, no people present"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Low-angle close-up on the tabletop, 50mm lens at f/2.8, shallow depth of field with the dollar bill and documents sharp and the empty chairs and skyline softly blurred",
+    "time": "Late afternoon",
+    "lighting": "Soft cool daylight from the window with subtle warm reflections on the polished table surface",
+    "atmosphere": "Quiet, tense, somber, conveying the weight of a major corporate loss and a symbolic financial decision",
+    "quality": "Ultra-detailed, high resolution, cinematic color grading, realistic paper and banknote textures"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the documents and dollar bill placed on the lower-left third, the long table receding diagonally toward the window on the right, leaving negative space for the skyline and empty chairs"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 002: 2018년 원전 손실을 메우려 매각된 도시바 메모리 클린룸에서 웨이퍼가 포장되고 있다.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Cleanroom technician",
+    "appearance": "Adult technician in a full white cleanroom bunny suit, hood, face mask, and blue nitrile gloves",
+    "expression": "Calm, focused, partially visible through protective eyewear",
+    "action": "Carefully placing a silicon wafer into a sealed wafer carrier for packaging",
+    "detail": "Rows of polished, rainbow-sheened silicon wafers rest in front-opening carriers on the stainless steel workbench"
+  },
+  "environment": {
+    "location": "Semiconductor memory fabrication cleanroom in Japan, 2018",
+    "details": "Spotless white and grey cleanroom with laminar airflow ceilings, perforated raised floors, automated wafer handling equipment, sealed packaging stations, and softly blurred colleagues in cleanroom suits working in the far background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium shot, 50mm lens at f/2.8, shallow depth of field focused on the gloved hands and wafer, eye-level angle",
+    "time": "Indoor daytime shift, 2018",
+    "lighting": "Cool, even overhead LED panels with a subtle yellow-amber filter glow typical of photolithography areas, soft reflections on wafer surfaces",
+    "atmosphere": "Sterile, precise, quietly tense, evoking a corporate sale and industrial transition",
+    "quality": "Ultra-detailed, high resolution, sharp textures, true-to-life colors, professional editorial photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the technician's hands and wafer carriers placed on the right third, and the receding cleanroom equipment lines extending across the left to fill the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 003: 서울 본사 회의실에서 2007년 두산 밥캣, 2008년 LS전선, 2016년 삼성 하만 인수 연표를 보는 임원들.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Group of corporate executives",
+    "appearance": "Adult men and women in their 40s to 60s wearing tailored dark business suits, white shirts and ties, gathered around a conference table",
+    "expression": "Focused, contemplative and quietly proud",
+    "action": "Studying a large wall-mounted timeline of landmark corporate acquisitions, with some pointing to specific milestones and others taking notes",
+    "detail": "The timeline displays three milestones in clean typography: 2007 Doosan Bobcat acquisition, 2008 LS Cable acquisition, 2016 Samsung Harman acquisition"
+  },
+  "environment": {
+    "location": "Modern corporate headquarters boardroom in Seoul, South Korea",
+    "details": "Polished long conference table with laptops and documents, ergonomic leather chairs, a large wall display showing the acquisition timeline, and floor-to-ceiling windows revealing the Seoul skyline in the background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens at eye level, slightly off-axis, shallow depth of field keeping the timeline and executives in sharp focus",
+    "time": "Late afternoon",
+    "lighting": "Soft natural window light blended with cool overhead LED panels, gentle highlights on the table surface and subtle rim light on the executives",
+    "atmosphere": "Professional, strategic and reflective, conveying corporate history and growth",
+    "quality": "Ultra-detailed, 8K resolution, cinematic color grading, sharp textures, editorial corporate photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the timeline wall spanning the right two-thirds of the frame, executives arranged along the table in the left foreground, and the Seoul skyline visible through windows to balance the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 004: 부채비율 825%와 미국 주택착공 79% 감소가 찍힌 금융 모니터의 급락 그래프.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Financial monitor displaying a market crash",
+    "appearance": "A high-resolution trading monitor showing a steep red plunging line graph with the figure 'Debt ratio 825%' and the label 'US housing starts down 79%' clearly displayed in bold data callouts",
+    "action": "The graph line plummets sharply downward across the screen, with red candlesticks and falling numerical tickers",
+    "detail": "Secondary panels show blurred rows of financial data, percentage changes in red, and a faint reflection of the screen glow on the desk surface"
+  },
+  "environment": {
+    "location": "A dim, empty trading desk in a modern financial office after hours",
+    "details": "Multiple monitors in a cluster, a vacant ergonomic chair, scattered papers, a cold cup of coffee, and city skyline lights blurred through a large window in the background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Close-up medium shot on a 50mm lens at f/2.0, slight low angle focused on the main monitor with shallow depth of field",
+    "time": "Late night",
+    "lighting": "Cold blue-white monitor glow with red accent light from the graph spilling across the desk, dim ambient office light and soft rim light from the city windows",
+    "atmosphere": "Tense, ominous, and sober, conveying economic crisis and financial anxiety",
+    "quality": "Ultra-detailed, sharp focus on screen text, realistic screen reflections, subtle film grain, 8K resolution"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the main monitor placed slightly off-center on the rule of thirds, the plunging graph line leading the eye diagonally from upper left to lower right, and blurred secondary monitors and city lights filling the remaining frame width"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 005: 노스다코타 비스마크 두산밥캣 공장에서 완성된 소형 로더가 줄줄이 나오는 생산 라인.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Completed Bobcat compact loaders",
+    "appearance": "Brand-new compact loaders in signature white and red-orange livery, freshly assembled and gleaming",
+    "action": "Rolling off the end of the assembly line one after another in a long continuous row",
+    "detail": "Adult factory workers in safety vests, hard hats, and protective eyewear perform final inspections and guide the machines along the line"
+  },
+  "environment": {
+    "location": "Doosan Bobcat manufacturing plant in Bismarck, North Dakota, USA",
+    "details": "Vast clean industrial assembly hall with polished concrete floors, overhead cranes, conveyor tracks, color-coded safety markings, parts racks, and rows of finished loaders stretching into the distance"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens at eye level, slightly elevated, with leading lines along the production line and shallow depth of field on the foreground loader",
+    "time": "Daytime during a working shift",
+    "lighting": "Bright, even industrial overhead lighting mixed with soft natural light from high clerestory windows, producing subtle reflections on the machinery",
+    "atmosphere": "Productive, precise, and powerful, conveying American heavy-equipment manufacturing efficiency",
+    "quality": "Ultra-detailed, sharp focus, high dynamic range, professional commercial and editorial photography, 8K resolution"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the production line running diagonally across the frame from foreground to vanishing point, filling the width with a row of loaders and the factory space above them"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 006: 도쿄와 서울, 비스마크, 애틀랜타를 잇는 세계 지도를 배경으로 화두를 던지는 발표자.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Presenter",
+    "appearance": "Adult professional in smart business attire, confident posture",
+    "expression": "Engaged, thoughtful and authoritative, inviting discussion",
+    "action": "Standing at the front of the room delivering a presentation, one hand gesturing outward as he poses a provocative central question to the audience",
+    "detail": "Holding a small slide clicker in the other hand"
+  },
+  "environment": {
+    "location": "Modern conference hall or presentation stage",
+    "details": "A large illuminated world map serves as the backdrop, with glowing connection lines linking Tokyo, Seoul, Bismarck and Atlanta, each city marked by a bright pinpoint and a subtle label"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level medium-wide shot, 35mm lens, shallow depth of field keeping the presenter sharp and the map softly detailed",
+    "time": "Daytime",
+    "lighting": "Soft key light on the presenter with cool ambient glow from the map projection, gentle rim light separating him from the background",
+    "atmosphere": "Intellectual, global, collaborative and forward-looking",
+    "quality": "Ultra-detailed, high resolution, natural skin texture, cinematic color grading"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the presenter placed on the left third and the wide world map with its glowing connection lines spanning the right two thirds of the frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 007: 웨스팅하우스 손실로 사임을 발표하며 깊이 고개 숙이는 도시바 회장.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Toshiba chairman",
+    "appearance": "Middle-aged Japanese male executive in a dark navy business suit, white shirt and muted tie, neatly combed graying hair",
+    "expression": "Solemn, sorrowful and humbled, eyes lowered",
+    "action": "Bowing deeply at the waist in a formal Japanese apology while announcing his resignation over the Westinghouse losses",
+    "detail": "Hands held stiffly at his sides, with a small cluster of microphones on the podium in front of him"
+  },
+  "environment": {
+    "location": "Formal corporate press conference room in a Tokyo headquarters",
+    "details": "Dark backdrop panel with a blurred company logo, a row of microphones on a podium, rows of blurred adult journalists and photographers with cameras in the background, subtle glare of camera flashes"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level medium shot, 85mm lens at f/2.8, shallow depth of field with the bowing executive sharply in focus",
+    "time": "Afternoon, indoors",
+    "lighting": "Harsh overhead press-conference lighting mixed with flickering camera flashes, creating crisp highlights and deep shadows",
+    "atmosphere": "Heavy, somber, tense and apologetic, reflecting corporate crisis and accountability",
+    "quality": "Ultra-detailed, cinematic photojournalistic realism, natural skin texture, 8K resolution"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the bowing executive placed slightly off-center on the left third, the podium microphones in the foreground and the blurred press corps filling the right side and background"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 008: 모회사 자본이 마이너스로 돌아선 도시바 감사 장부와 돋보기가 어두운 책상에 놓여 있다.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Toshiba audit ledger and magnifying glass",
+    "appearance": "A thick, worn financial audit ledger lies open with dense columns of figures, and a brass-handled magnifying glass rests on top of the pages",
+    "action": "The magnifying glass hovers over a line of figures showing the parent company's capital turning negative, highlighting the deficit",
+    "detail": "A red-circled negative balance figure and the Toshiba name are faintly visible on the ledger's cover and pages, with a pen and a few loose papers nearby"
+  },
+  "environment": {
+    "location": "A dark wooden desk in a dimly lit corporate audit office at night",
+    "details": "Deep shadows surround the desk, with a faint blurred window and city lights in the background, a closed laptop and a stack of financial documents at the edges of the frame"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Close-up, slightly high angle, 50mm lens at f/2.8, shallow depth of field focused on the magnified numbers",
+    "time": "Late night",
+    "lighting": "Single warm desk lamp creating a pool of light on the ledger with dramatic low-key shadows and soft highlights on the glass lens",
+    "atmosphere": "Tense, somber, and investigative, conveying financial crisis and scrutiny",
+    "quality": "Ultra-detailed, 8K resolution, cinematic color grading, crisp paper texture, realistic glass reflections"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the ledger and magnifying glass placed along the left-center third, leaving dark negative space on the right and a shallow-focus background to fill the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 009: 밥캣 점유율이 41%에서 32%로 밀린 지표를 발표하는 두산인프라코어 임원.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Doosan Infracore executive",
+    "appearance": "Adult male executive in his late forties, wearing a tailored dark navy suit, white shirt and a subdued tie, with a corporate lanyard",
+    "expression": "Composed and serious, with a hint of tension as he addresses a difficult result",
+    "action": "Stands at a podium presenting a market share chart showing Bobcat's share falling from 41% to 32%, gesturing toward the screen with one hand",
+    "detail": "A large screen behind him displays a clean downward-trending bar chart with the labels '41%' and '32%' and a Bobcat-related heading"
+  },
+  "environment": {
+    "location": "Modern corporate boardroom or briefing auditorium at a heavy equipment manufacturer's headquarters",
+    "details": "Rows of seated adult attendees in business attire seen from behind and slightly out of focus, a long conference table with microphones and water glasses, a Doosan-style company banner, and glass walls reflecting cool ambient light"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level medium shot, 50mm lens at f/2.8, shallow depth of field with the executive sharp and the chart slightly softened behind him",
+    "time": "Late morning",
+    "lighting": "Cool white overhead lighting combined with the glow of the projection screen, with soft rim light separating the subject from the background",
+    "atmosphere": "Tense, sober, and professional, conveying the weight of disappointing business results",
+    "quality": "Ultra-detailed, high resolution, natural skin texture, crisp fabric detail, editorial corporate photography look"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the executive placed on the left third at the podium and the large chart screen filling the right two-thirds, with the audience as a blurred foreground band along the bottom"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+Final refinement:
+Change only the projected chart, preserve all people, room, lighting and camera. Remove ALL YEAR labels and every intermediate bar. Use exactly TWO bars, first labeled 41%, second labeled 32%, on a clear shared 0-50% vertical scale with correct bar heights. Heading 'Bobcat US Skid-Steer Market Share'. No years or other numerical claims. This depicts pre-acquisition market share decline, not 2018-2023. Keep the arrow downward.
+
+SCENE 010: 노무라의 투자의견 하향과 함께 두산 주가가 하한가로 떨어진 이른바 두산 쇼크 당시 거래소.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Stock exchange trading floor during the Doosan Shock",
+    "appearance": "Adult traders and brokers in business attire, ties loosened, jackets draped over chairs",
+    "expression": "Stunned, anxious, and tense, with wide eyes and furrowed brows",
+    "action": "Staring at large electronic display boards as Doosan's stock price plunges to the daily lower limit, some clutching phones, others frozen mid-motion",
+    "detail": "Display boards show Doosan's share price in bright blue numerals locked at the limit-down level, with a downgraded investment rating headline attributed to Nomura on a nearby news ticker"
+  },
+  "environment": {
+    "location": "Interior of a South Korean stock exchange trading hall",
+    "details": "Rows of desks with multiple monitors, scattered papers and coffee cups, towering wall-mounted screens glowing with sharp red and blue market data, a crowded and chaotic atmosphere"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens at eye level, shallow depth of field focusing on the foreground traders with the glowing boards softly blurred behind",
+    "time": "Midday during active trading hours",
+    "lighting": "Cool fluorescent overhead lighting mixed with the intense glow of electronic screens casting blue and red highlights on faces",
+    "atmosphere": "Tense, shocked, and panicked, capturing the sudden market turmoil",
+    "quality": "Ultra-detailed, high resolution, cinematic color grading, realistic skin textures, sharp focus"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the large display boards spanning the upper half of the frame and a row of reacting adult traders across the lower half, leaving balanced negative space on both sides"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+Final refinement:
+Preserve the tense fictional adult traders, room and composition. Simplify ALL display boards to avoid fabricated historic prices: remove ALL exact stock prices, percentages, times, numerical axis labels, stock indices and company lists. Main display shows 'DOOSAN INFRACORE', 'LIMIT DOWN', and a blue steep falling line without numbered axes. Secondary news display shows only 'NOMURA' and 'Investment rating downgraded'. Remove the Buy-to-Neutral text entirely. Other screens show blurred unreadable data only. No invented quotes, numbers or years.
+
+SCENE 011: 2008년 슈페리어에식스 공개매수 서류를 검토하는 LS전선 본사 회의실의 임원들.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "LS Cable executives",
+    "appearance": "A group of adult Korean male and female executives in dark tailored business suits, white shirts and ties, with the polished look of senior corporate leadership",
+    "expression": "Serious, focused and tense, brows slightly furrowed in careful deliberation",
+    "action": "Reviewing tender offer documents for the Superior Essex acquisition, leaning over the table, turning pages and pointing at key clauses",
+    "detail": "Thick stacks of printed financial documents, highlighters, calculators and open laptops spread across the table, with a calendar or papers marked 2008"
+  },
+  "environment": {
+    "location": "A corporate boardroom at LS Cable headquarters in South Korea in 2008",
+    "details": "A long polished wooden conference table, leather executive chairs, a wall-mounted screen showing financial charts, glass partitions, a city skyline visible through large windows, and period-appropriate 2008 office technology"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level medium-wide shot, 35mm lens, shallow depth of field focusing on the executives and the documents in the foreground",
+    "time": "Late afternoon in 2008",
+    "lighting": "Soft natural window light mixed with cool overhead fluorescent lighting, with gentle highlights on the table surface and documents",
+    "atmosphere": "Tense, high-stakes and professional, conveying the weight of a major overseas acquisition decision",
+    "quality": "Ultra-detailed, high resolution, cinematic color grading, realistic skin and fabric textures, subtle film grain"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the long conference table running horizontally across the frame, executives distributed left to right, documents in the foreground and the window skyline in the background"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 012: 약 50% 프리미엄으로 한 달 만에 지분 90% 이상을 확보한 공개매수 결과를 발표하는 LS전선.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "LS Cable & System executive spokesperson",
+    "appearance": "Adult Korean male executive in his 50s wearing a tailored dark navy suit, white shirt and subtle tie, with a small company pin on the lapel",
+    "expression": "Confident, composed and professional",
+    "action": "Standing at a podium announcing the results of a tender offer that secured over 90% equity stake in one month at roughly a 50% premium",
+    "detail": "A large screen behind him displays a clean bar graph and the figures '90%+' and '50% premium', with the LS Cable & System logo beside it"
+  },
+  "environment": {
+    "location": "Modern corporate press briefing room in a Seoul headquarters building",
+    "details": "Rows of seated adult journalists with notebooks, microphones and cameras on tripods, a polished conference stage with a minimalist backdrop, glass windows showing a city skyline"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium shot at eye level from the audience side, 35mm lens, shallow depth of field with the speaker in sharp focus",
+    "time": "Late morning",
+    "lighting": "Soft balanced stage lighting with cool white key light on the speaker and gentle natural daylight from the windows",
+    "atmosphere": "Formal, authoritative and decisive, conveying corporate triumph and market significance",
+    "quality": "Ultra-detailed, high resolution, editorial news photography quality, crisp textures, natural skin tones"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the speaker placed slightly off-center on the right third, the data screen filling the left and center background, and press cameras and silhouettes of adult journalists framing the foreground edges"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 013: 세계 권선 시장 1위에 오른 에식스 솔루션즈의 구리 마그넷와이어가 릴에 감기고 있다.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Copper magnet wire",
+    "appearance": "Bright, lustrous copper-colored enamel-coated magnet wire with a smooth, uniform finish and tightly controlled diameter",
+    "action": "Being precisely wound in even, tightly packed layers onto a large industrial spool",
+    "detail": "A branded Essex Solutions spool tag or label is visible on the reel flange, suggesting the company's position as the world's top winding wire maker"
+  },
+  "environment": {
+    "location": "Modern, clean, high-tech magnet wire manufacturing plant",
+    "details": "Automated winding machines, guide rollers, tensioners, and rows of finished spools stacked on racks in the background, with polished concrete floors and an orderly industrial layout, no people present"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Macro-to-medium close-up, 85mm lens at f/2.8, shallow depth of field with the winding point in sharp focus, slight low angle",
+    "time": "Daytime, during an active production shift",
+    "lighting": "Cool overhead industrial LED lighting with warm copper highlights and soft specular reflections along the wire strands",
+    "atmosphere": "Precise, powerful, high-end industrial leadership and manufacturing excellence",
+    "quality": "Ultra-detailed, 8K resolution, sharp textures, realistic metallic reflections, commercial editorial quality"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Wide horizontal composition with the spool and winding wire placed along the left-third line, wire strands leading diagonally across the frame, and softly blurred factory machinery filling the right side and background"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 014: 2024년 후루카와전기의 합작 지분까지 사들이며 자리를 굳힌 LS타워 앞의 임직원들.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "LS Group executives and employees",
+    "appearance": "A group of adult business professionals in tailored dark suits, crisp white shirts and corporate ID lanyards, men and women in their thirties to fifties",
+    "expression": "Confident, composed and quietly proud",
+    "action": "Standing together in a confident arrangement in front of the building entrance, a few mid-conversation and a few looking toward the camera",
+    "detail": "Executives positioned at the center with staff flanking them, conveying established authority after a successful joint venture stake acquisition"
+  },
+  "environment": {
+    "location": "Plaza in front of LS Tower, a modern corporate high-rise headquarters in Seoul, South Korea",
+    "details": "Towering glass-and-steel facade rising behind the group, polished stone plaza, neatly trimmed landscaping, subtle corporate signage, and a hint of the city skyline reflected in the glass"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level wide shot, 35mm lens, shallow depth of field with the group sharply in focus and the tower softly receding behind",
+    "time": "Late morning on a clear day in 2024",
+    "lighting": "Soft natural daylight with gentle highlights on the glass facade and even, flattering illumination on the faces",
+    "atmosphere": "Professional, stable and ambitious, evoking corporate strength and consolidated market position",
+    "quality": "Ultra-detailed, high-resolution editorial corporate photography, sharp textures, natural color grading"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the group arranged across the lower-middle of the frame and the tall LS Tower filling the upper background, leaving balanced negative space on both sides"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 015: 하만의 첫해 영업이익이 인수가의 약 0.6%에 그친 숫자를 들여다보는 어두운 집무실.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Corporate executive",
+    "appearance": "Adult business executive in a dark tailored suit, mature features, seated at a large desk",
+    "expression": "Furrowed brow, tense and contemplative, with a look of quiet disappointment",
+    "action": "Leaning forward over the desk, intently studying a financial report that shows a first-year operating profit of only about 0.6% of the acquisition price",
+    "detail": "A printed report with a highlighted line of figures and a laptop displaying a bar chart with a tiny sliver of profit beside a towering acquisition cost bar"
+  },
+  "environment": {
+    "location": "Dark, spacious corporate executive office high above a city at night",
+    "details": "Polished wooden desk strewn with financial documents, a calculator and a half-empty glass of water, leather chair, floor-to-ceiling windows revealing distant blurred city lights, shadowy bookshelves in the background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium close-up shot from a slightly elevated three-quarter angle, 50mm lens, shallow depth of field with focus on the face and the report",
+    "time": "Late night",
+    "lighting": "Low-key lighting with a single warm desk lamp and the cold glow of the laptop screen casting dramatic shadows across the face and papers",
+    "atmosphere": "Heavy, somber, tense mood conveying the weight of an expensive acquisition yielding disappointing returns",
+    "quality": "Ultra-detailed, cinematic color grading, high dynamic range, 8K resolution, realistic skin and material textures"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the executive and desk placed on the left third, the dim city-lit window space filling the right two-thirds for cinematic negative space and depth"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+Final refinement:
+Preserve man, pose, office, lighting and composition. Correct ALL printed and laptop financial displays. Remove the invented $5,000,000,000 and $30,000,000 numbers, all dollar figures and the misleading phrase 'Operating Profit Margin'. The report and laptop should show only 'HARMAN', 'Year 1 operating profit / acquisition price', and a prominent '0.6%'. Laptop chart should use a tall bar 'Acquisition price' and a tiny bar 'Year 1 operating profit', no numerical axes or money amounts. This is a ratio to acquisition price, not a sales profit margin.
+
+SCENE 016: 하만 인수 이후 수년간 지지부진했던 실적 지표가 떠 있는 서늘한 분석실.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Empty analyst workstation",
+    "appearance": "A sleek desk with dual monitors, a closed laptop, and a lone ergonomic chair pushed slightly back",
+    "action": "Screens glow with stagnant, flatlining performance charts and sluggish earnings metrics spanning several years after the Harman acquisition",
+    "detail": "Line graphs hover near flat or slightly declining trajectories, with muted red and gray indicators and a half-finished cup of coffee beside the keyboard"
+  },
+  "environment": {
+    "location": "A cold, minimalist corporate data analysis room in a modern office tower",
+    "details": "Glass partitions, rows of dark monitors, a large wall display showing quarterly KPI dashboards, cool-toned concrete and steel surfaces, and a faint city skyline visible through frosted windows"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens at eye level, slight low-angle perspective, shallow depth of field focusing on the central monitor",
+    "time": "Late evening, after office hours",
+    "lighting": "Cool blue-white monitor glow and overhead fluorescent strips casting soft, clinical light with subtle reflections on glass and desk surfaces",
+    "atmosphere": "Chilly, stagnant, quietly tense, reflecting years of lackluster results",
+    "quality": "Ultra-detailed, 8K resolution, cinematic color grading with desaturated teal and steel-blue tones, crisp textures"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the glowing central monitor placed on the right third, leading lines of the desk rows and ceiling lights stretching across the frame, and negative space on the left to emphasize the room's cold emptiness"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+Final refinement:
+Preserve empty chilly analysis room and composition. On ALL screens remove every readable date/year, percentage, specific number and numerical axis label. Keep generic stagnant near-flat or gently declining graphs, without numbers or calendar dates. Headings may say 'Post-acquisition performance' and 'Operating results'. No invented statistics, dates or specific percentage declines.
+
+SCENE 017: 밥캣 로더와 에식스 권선, 하만 음향장비가 한 화면에 나란히 놓인 세 사례 비교.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Three industrial case-study objects displayed side by side",
+    "appearance": "On the left a compact Bobcat skid-steer loader in white and orange livery, in the center a large spool of Essex copper magnet winding wire with glossy enamel-coated copper strands, on the right a professional Harman audio system with studio monitor speakers and a mixing console",
+    "action": "Arranged in three evenly spaced, equally weighted positions as a clean visual comparison, with no people present",
+    "detail": "Each object is a distinct hero element with matching scale and consistent spacing so the three cases read as an equal-level comparison"
+  },
+  "environment": {
+    "location": "Minimalist modern industrial showroom with a polished concrete floor and a seamless neutral gray backdrop",
+    "details": "Three low matte display platforms separated by subtle gaps, soft floor reflections, clean negative space above, and no clutter or text"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level straight-on wide shot, 35mm lens, deep depth of field so all three objects stay in sharp focus",
+    "time": "Daytime, controlled studio-like interior",
+    "lighting": "Soft diffused three-point lighting with gentle rim highlights that emphasize metallic, copper, and matte surfaces, with balanced exposure across all three objects",
+    "atmosphere": "Professional, analytical, and corporate with a cool neutral palette accented by orange and copper tones",
+    "quality": "Ultra-detailed, 8K resolution, sharp textures, commercial product photography quality"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the three objects aligned side by side along the central horizontal band, left, center, and right thirds each holding one subject, with headroom and floor reflection filling the remaining frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 018: 인수 후에도 현지 생산과 브랜드를 그대로 유지한 미국 공장을 둘러보는 한국 기업 임원들.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Korean corporate executives",
+    "appearance": "A small group of adult Korean business executives in tailored dark suits and crisp white shirts, some wearing white hard hats and safety glasses over their business attire, accompanied by an adult American plant manager in a company polo",
+    "expression": "Attentive, composed and quietly impressed, with subtle approving nods",
+    "action": "Walking together along a marked walkway of a US factory floor, inspecting the production line while the plant manager gestures toward the machinery and explains the operations",
+    "detail": "One executive holds a tablet while another examines a finished product bearing the long-established local brand's logo"
+  },
+  "environment": {
+    "location": "Interior of a large American manufacturing plant that has retained its local production and original brand after being acquired by a Korean company",
+    "details": "Clean, well-organized assembly lines, yellow safety floor markings, stacked finished goods in branded packaging, original brand signage on the walls, overhead cranes, and local American workers (all adults) operating machinery in the background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level wide-to-medium shot, 35mm lens, shallow depth of field with the executives in sharp focus and the production line softly receding behind them",
+    "time": "Midday during working hours",
+    "lighting": "Bright, even industrial overhead lighting mixed with soft natural daylight streaming through high clerestory windows, creating gentle highlights on metal surfaces",
+    "atmosphere": "Professional, respectful and collaborative, conveying continuity, heritage and trust between the two companies",
+    "quality": "Ultra-detailed, high resolution, natural color grading, editorial documentary photography quality"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the executives placed on the left-center third, the long production line leading the eye across the frame to the right, and branded signage visible in the background to fill the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+Final refinement:
+Preserve the adult people, factory tour, machinery, lighting and composition. Remove ALL GE monograms and General Electric branding from every wall banner, helmet, shirt, box and handheld metal part. Replace all such brand marks with a consistent subtle fictional abstract industrial emblem of three plain horizontal bars, no letters, no recognizable real-world trademark. On the large wall sign use only 'LOCAL MANUFACTURING'. This is an illustrative generic local factory acquired by a Korean company, not GE. No other changes.
+
+SCENE 019: 매각을 앞두고 가동이 멈춘 도시바 반도체 클린룸의 웨이퍼 장비들.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Idle semiconductor wafer fabrication equipment",
+    "appearance": "Rows of stainless steel and white-paneled wafer processing tools, steppers, and FOUP loading stations, powered down and covered in a faint layer of dust, with some units wrapped in protective plastic sheeting",
+    "action": "Standing silent and motionless, production halted ahead of a pending corporate sale",
+    "detail": "Dark status monitors, unlit indicator towers, and small asset-tagging labels attached to machines hinting at the upcoming sale"
+  },
+  "environment": {
+    "location": "Interior of a shut-down semiconductor cleanroom in a Japanese chip fabrication plant",
+    "details": "Perforated raised floor, ceiling-mounted fan filter units, overhead wafer transport rails standing still, yellow-tinted photolithography zone lighting dimmed, and an empty central aisle stretching into the distance with no people present"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens, low eye-level one-point perspective down the central aisle, deep depth of field",
+    "time": "Indeterminate interior hours, artificially lit",
+    "lighting": "Sparse cool-white emergency and residual ceiling lighting mixed with faint amber glow from the lithography bay, soft reflections on polished floor and metal surfaces",
+    "atmosphere": "Eerie, still, melancholic, the quiet of an industrial giant paused at a turning point",
+    "quality": "Ultra-detailed, high resolution, sharp focus, cinematic color grading with cool teal and amber tones, realistic metal and plastic textures"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the long cleanroom aisle converging toward the center vanishing point and equipment rows filling the left and right thirds of the frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 020: 인수한 회사를 끝까지 지켜낸 두산과 LS, 삼성 사옥이 아침 햇살에 빛나고 있다.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Doosan, LS, and Samsung corporate headquarters towers",
+    "appearance": "Modern glass-and-steel high-rise office buildings standing side by side, each with a distinct architectural silhouette and its corporate signage subtly visible",
+    "action": "Standing tall and gleaming in the morning sun, embodying resilience and successful stewardship of acquired companies",
+    "detail": "Sunlight reflecting off the glass facades in warm golden streaks, conveying pride, endurance, and triumph"
+  },
+  "environment": {
+    "location": "A major Korean business district skyline at dawn",
+    "details": "Clean plaza in the foreground with manicured trees and polished stone pavement, a clear sky with soft wisps of cloud, and a faint morning haze between the towers"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle architectural shot from a low angle, 24mm lens, slight upward tilt, deep depth of field",
+    "time": "Early morning, just after sunrise",
+    "lighting": "Warm golden-hour sunlight with soft rim light on the building edges and gentle glints on the glass",
+    "atmosphere": "Triumphant, steadfast, hopeful, and prestigious",
+    "quality": "Ultra-detailed, 8K resolution, sharp architectural lines, natural color grading, professional commercial photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the three towers spread across the frame in a balanced arrangement, the sunlit sky filling the upper third and the plaza anchoring the bottom"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+
+SCENE 021: 해 질 녘 서울 도심을 내려다보며 생각에 잠긴 인물의 실루엣으로 마무리된다.
+Create one standalone cinematic photorealistic 16:9 landscape image, not a collage or contact sheet. This is an illustrative historical reenactment/concept scene for a documentary-style video, not an authentic archival photograph. Follow this scene specification faithfully. Any unnamed people should be fictional adults. Do not add titles, scene numbers, subtitles or watermarks; include only the in-scene text explicitly requested in the specification. Keep the photographic style consistent with a polished business-history documentary. The specification's 8K wording indicates detail quality, not a requirement to add resolution text.
+{
+  "subject": {
+    "name": "Lone adult figure",
+    "appearance": "Adult silhouette in a long dark coat, seen from behind in profile, with the figure rendered as a clean dark shape against the glowing sky",
+    "expression": "Not visible; contemplative posture conveys quiet reflection",
+    "action": "Stands still at a high vantage point gazing out over the Seoul cityscape, lost in thought",
+    "detail": "Hands loosely in coat pockets, head slightly tilted toward the skyline, wind gently moving the coat"
+  },
+  "environment": {
+    "location": "Elevated rooftop terrace or hilltop overlook above downtown Seoul at sunset",
+    "details": "Dense skyline of high-rise towers and apartment blocks stretching to the horizon, distant mountain ridges layered in haze, a winding river catching the last light, city lights beginning to flicker on"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide cinematic shot from slightly behind and below the figure, 35mm lens, shallow depth of field on the foreground with the city in soft focus, subject placed on the left third of the frame",
+    "time": "Sunset, golden hour fading into blue hour",
+    "lighting": "Strong warm backlight from the low sun creating a crisp rim-lit silhouette, with gradient orange, magenta and deep blue sky and soft glowing reflections on building glass",
+    "atmosphere": "Contemplative, quiet, bittersweet, and cinematic, with a sense of closing chapter",
+    "quality": "Ultra-detailed, high dynamic range, natural film-like color grading, sharp silhouette edges, fine atmospheric haze, 8K resolution"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the silhouetted figure on the left third and the expansive Seoul skyline and sunset sky filling the remaining width, leaving generous negative space to the right"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+

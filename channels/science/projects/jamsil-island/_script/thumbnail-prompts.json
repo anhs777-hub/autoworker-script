@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "project": "jamsil-island",
+    "titles": [
+      "잠실은 원래 섬이었을까? (feat. 석촌호수가 강이었다?)",
+      "석촌호수는 정말 사람이 판 호수일까? (feat. 잠실은 섬이었다?)",
+      "잠실은 원래 섬이었을까? (feat. 강북 땅이었다?)"
+    ],
+    "thumbnail_texts": [
+      "[석촌호수]는 판 게 아니라 / 메우다 남은 [강]이었다",
+      "롯데월드 앞 [호수] / 원래 [한강]이 흐르던 자리",
+      "다들 인공호수라는데 / 왜 [비석] 자리가 [물속]?"
+    ],
+    "image_concepts": {
+      "A": "컨셉 A(추천). 석촌호수 동호·서호와 롯데월드타워를 비스듬히 내려다본 항공 실사. 두 호수 양끝에서 이어지는 넓은 옛 강줄기가 도시 위에 반투명하게 비친다.",
+      "B": "컨셉 B(문구 3번용). 석촌호수 서호 언덕의 거북 받침 큰 비석(삼전도비)을 크게, 그 너머로 잔잔한 호수 수면."
+    },
+    "edits": [
+      "호수와 옛 강줄기가 이어지는 지점에 빨간 손그림 동그라미 1개",
+      "컨셉 B는 비석 너머 수면 한 점에 빨간 화살표 + 흰 손글씨 「원래 자리」",
+      "실제 옛 지도·항공사진(송파구청 공개 자료 등)을 확보하면 AI 이미지 대신 그쪽을 우선 — 실사 고정 규칙에 더 맞는다"
+    ],
+    "note": "channels/science/config/thumbnail-strategy.json fixed_layout(실사 고정, 하단 40% 글자 자리, 빨간 동그라미 1개) 기준. 005·007의 누수 단면도 구도는 선점돼 쓰지 않는다"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A(추천). 석촌호수 두 호수와 롯데월드타워 항공 실사 + 호수 양끝으로 이어지는 반투명 옛 강줄기.",
+      "prompt_en": "Photorealistic aerial photograph looking down at an angle over Seokchon Lake in Jamsil, Seoul: the two lake halves (east lake and west lake) split by a wide boulevard, with Lotte World Tower rising beside them and the castle of Lotte World Magic Island on the western lake. A wide, ghostly translucent turquoise river channel continues out of both ends of the lake and flows across the surrounding apartment blocks, as if the old river were still visible beneath the city. Bright clear daylight, curious mood, muted grey city with the water as the vivid accent. Real photograph look, sharp focus on the lake. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형. 같은 장면을 해질녘·벚꽃철로 — 호숫가 분홍 벚꽃길과 옛 강줄기의 대비.",
+      "prompt_en": "Photorealistic high aerial view of Seokchon Lake in Jamsil, Seoul in cherry-blossom season at golden hour: pink blossom-lined walking paths ring both halves of the lake, Lotte World Tower glows beside it. A broad, faint translucent blue band of an old river runs straight through the lake and onward across the city blocks on both sides, clearly wider than the lake itself. Warm light, sense of discovery. Real photograph look, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B. 서호 언덕의 삼전도비를 정면 크게, 그 너머로 호수 수면과 롯데월드타워.",
+      "prompt_en": "Photorealistic photograph of the Samjeondo Stele, a tall dark stone monument standing on a carved stone turtle base, on a small green hill beside the western half of Seokchon Lake in Seoul. The stele fills the left and center of the upper frame; behind it the calm lake surface stretches away, with Lotte World Tower faint in the distance. Late spring daylight, quiet curious mood. Real photograph look, sharp focus on the stele. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형. 호수 가장자리에서 수면 아래를 들여다본 시점 — 얕은 물 밑으로 비치는 옛 돌 기단 흔적, 뒤로 비석이 선 언덕.",
+      "prompt_en": "Photorealistic photograph taken at the edge of Seokchon Lake in Seoul, looking down through clear shallow water where the outline of old weathered stone foundation blocks is faintly visible on the lake bed. On the far shore, a small hill holds a tall stone stele on a turtle base. Soft daylight, mysterious but calm mood, green and grey tones with clear blue water. Real photograph look. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 1970년대 송파강 물막이 공사 장면 — 강을 가로지르는 흙둑에 덤프트럭이 흙을 쏟고, 둑 양쪽에 사람들이 늘어서 지켜본다. 빛바랜 컬러 기록사진 톤.",
+      "prompt_en": "Photorealistic faded color archival-style photograph from the early 1970s in Seoul: a long earthen embankment is being pushed across a wide river channel, old dump trucks tipping soil into the last gap of water while crowds of people line the riverbanks to watch. Flat sandy island farmland in the background, no tall buildings. Slightly washed-out 1970s film colors, sense of a historic moment. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    }
+  ]
+}

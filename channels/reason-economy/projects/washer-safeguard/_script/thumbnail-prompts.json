@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "project": "washer-safeguard",
+    "titles": [
+      "\"관세로 막았더니\" 삼성·LG 세탁기가 미국 땅에서 월풀을 앞지른 진짜 이유",
+      "\"50% 관세 때렸더니\" 삼성·LG가 미국에 공장 짓고 월풀을 앞지른 진짜 이유",
+      "관세 서명 11일 전 미국 공장을 돌린 삼성…LG가 미국 세탁기 1위 브랜드가 된 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"관세로 막았는데, 매장 1위\" / LG 세탁기, 월풀을 앞질렀다",
+      "\"관세로 막았더니\" / 삼성·LG, 미국에 공장 지었다",
+      "\"관세 서명 11일 전\" / 삼성은 미국에서 만들고 있었다"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비(추천) — 국경 철조망 왼쪽에 멈춘 수입 세탁기, 오른쪽 공장에서 트럭으로 흘러나가는 새 세탁기",
+      "B": "한 장면 대비(지도형) — 해안선 관세 장벽 앞에 막힌 배 vs 테네시·사우스캐롤라이나 공장에서 퍼져 나가는 세탁기",
+      "C": "실물 클로즈업 2컷 — 라인 끝 드럼(한국인 작업자)·통돌이(미국인 작업자)",
+      "D": "3분할 1컷 — 국뽕 요소(영웅 구도·큰 태극기·놀란 인물)는 이 컷에만"
+    },
+    "notes": "실제 로고·회사명·브랜드 마크 금지(삼성·LG·월풀 모두). 글자·숫자 금지(도장도 글자 없는 형태만). 실존 인물(대통령 등) AI 얼굴 금지. 성조기는 작게·평범하게, 훼손 금지. 하단 35~40%는 글자 자리로 어둡게. 2018년 첫 출하는 삼성 뉴베리 — 공장 그림이 특정 회사로 읽히지 않게 익명 처리. 2026-10-10 규칙: 5컷 = 한 장면 대비 2 + 실물 클로즈업 2 + 3분할 1. 질감 키워드(2026-10-10) 전 컷 적용."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "scene-contrast",
+      "concept_ko": "한 장면 대비: 국경 밖에 멈춘 수입 세탁기 vs 국경 안 공장에서 흘러나오는 세탁기 (추천)",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic wide shot of a single continuous scene in the American countryside, split naturally by a tall chain-link border fence running diagonally through the frame. On the left side of the fence, under a cold grey overcast sky, a long line of shipping containers and stacked plain cardboard washing machine boxes with no text sit motionless at a closed customs gate, a red blank stamp mark with no letters on a clipboard hanging from the gate, muted desaturated colors. On the right side of the fence, in warm golden late-afternoon sunlight, the open loading dock of a large modern factory where a steady stream of brand-new washing machines with no logos rolls out on conveyors straight into waiting delivery trucks, workers in plain uniforms seen small and from a distance. The contrast between the frozen left side and the busy glowing right side is obvious at a glance, so the image raises the question why without any text. No text, no letters, no numbers, no logos or brand marks anywhere, no flags, no identifiable people. Bottom 35 to 40 percent of the frame slightly darker, left empty for text overlay. Texture: gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
+    },
+    {
+      "id": 2,
+      "type": "scene-contrast-map",
+      "concept_ko": "한 장면 대비(지도형): 해안선의 관세 장벽 앞에 막힌 배 vs 내륙 두 공장에서 퍼져 나가는 세탁기",
+      "prompt_en": "Photorealistic overhead photo of a large tabletop relief map model of the continental United States, shot from a high oblique angle like an aerial view. Along the coastlines, a tall translucent red barrier wall made of weathered acrylic rises, and several small model cargo ships loaded with tiny washing machine boxes sit stopped in the painted sea in front of it, in cold grey tones. Inside the country, two small model factories with warm golden lights stand at the locations of Tennessee and South Carolina, and from each factory glowing golden threads carry tiny washing machines outward to miniature stores across the map. The blocked ships outside and the glowing factories inside make the contrast clear without any words. No text, no letters, no state names, no numbers, no logos, no flags, no people. Bottom 35 to 40 percent of the frame slightly darker, left empty for text overlay. Texture: gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
+    },
+    {
+      "id": 3,
+      "type": "concept-closeup",
+      "concept_ko": "실물 클로즈업: 공장 라인 끝 드럼세탁기 + 한국인 작업자",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic photo inside a bright modern American home appliance factory. On the left half of the frame, a brand-new white front-load washing machine with no logos or text sits at the very end of an assembly line conveyor, filling more than half of the frame height, warm golden light glinting on its round glass door and a hard rim light. On the right, a confident Korean male factory worker in his 40s in a navy work uniform with safety glasses on his forehead, chest-up, resting one hand on top of the washer with a calm, proud smile, looking at the camera. Behind them, a long production line stretches into the distance with rows of identical new washers under bright overhead lights. No text, no letters, no numbers, no logos or brand marks anywhere, no flags, no real identifiable people. Bottom 35 to 40 percent of the frame slightly darker, left empty for text overlay. Texture: gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
+    },
+    {
+      "id": 4,
+      "type": "concept-closeup",
+      "concept_ko": "실물 클로즈업: 라인 끝 통돌이 세탁기 + 미국인 작업자",
+      "prompt_en": "Photorealistic high-saturation HDR photo, eye-level close-up of a brand-new stainless silver top-load washing machine with no logos, lid slightly open, standing at the end of a factory assembly line and filling more than half of the frame, warm golden light and a hard rim light on its scuffed chrome edges. Beside it on the right, a cheerful American female factory worker in her 50s in a light blue work uniform and hairnet, chest-up, giving a thumbs-up with a proud smile. In the background, rows of new washers being boxed on a busy, brightly lit production floor. No text, no letters, no numbers, no logos or brand marks anywhere, no flags, no real identifiable people. Bottom 35 to 40 percent of the frame slightly darker, left empty for text overlay. Texture: gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
+    },
+    {
+      "id": 5,
+      "type": "three-split",
+      "concept_ko": "3분할: 멈춘 항구와 관세 도장 / 놀란 미국인 매장 직원 / 미국 공장에서 쏟아져 나오는 세탁기 + 큰 태극기",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic three-panel composition, triumphant and epic. On the left, under a cold grey-blue desaturated sky, a stalled cargo port with stacked containers and a large official document stamped with a big red blank seal mark with no letters, a small ordinary American flag in the upper left corner. In the center, a likeable American appliance store salesman in his 50s in a polo shirt and name badge with no text, chest-up close-up filling most of the frame height, jaw-dropped and awestruck, looking toward the right side. On the right, larger and closer in a heroic low-angle shot, the wide open doors of a gleaming modern factory with a long row of brand-new washing machines with no logos rolling out on a conveyor, golden backlight, glowing rim light, lens flare and sparks, a huge Korean flag Taegukgi waving proudly in sunlight in the upper right corner taking at least a quarter of the frame height. No text, no letters, no numbers, no logos anywhere, no real identifiable people. Bottom 35 to 40 percent darker for text overlay. Texture: gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Mode: built-in image_gen. AI edited composite based on actual photographs; not an unmodified photographic collage.
+Prompt: Use case: compositing. Make Scene 020 as a clean widescreen 16:9 editorial photographic triptych, three equal vertical panels. Use the three supplied real headquarters photos as actual photographic source material. Image 1 LEFT: Bundang Doosan Tower, preserve its distinctive connected twin-wing architecture and DOOSAN signage. Image 2 CENTER: LS Cable Anyang LS Tower, preserve exact building shape, facade, LS signage and blue sky. Image 3 RIGHT: Samsung Suwon Digital City, preserve the actual tower architecture and Samsung signage. Crop each photo to fill its third, retaining the complete recognizable main tower, original perspective, natural photographic details and daylight. Thin white vertical separators. Add small clean white captions at the bottom over a subtle dark translucent strip: left 'DOOSAN', center 'LS Cable', right 'SAMSUNG'. Do not invent replacement skyscrapers, redraw architecture, merge skylines, create a shared scene, add people, dramatic sunset, flags, or illustration texture. This should look like a professional documentary collage of real building photographs.
+
+Doosan source: https://www.koramco.com/en/about_02
+Photo: https://www.koramco.com/static/img/about_02-2025-2.jpg
+LS Cable source: https://news.lscns.com/medialibrary/domestic-workplace/
+Samsung source: https://news.samsung.com/medialibrary/global/photo/58674?album=14

@@ -9,43 +9,43 @@
     "thumbnail_texts": [
       "「100달러에 넘긴 군함」 / 필리핀 호위함, 한국이 만든다",
       "「한때 한국보다 잘살던」 / 필리핀 해군은 한국을 골랐다",
-      "「한때 필리핀 최강 함정」 / 그 배는 한국 충주함이었다"
+      "「한국선 퇴역, 필리핀 최강」 / 그 배, 한국 충주함이었다"
     ],
     "image_concepts": {
-      "A": "3분할 승패 구도 — 왼쪽 낡은 배(필리핀 국기 작게) / 가운데 익명 인물 / 오른쪽 한국산 신형 함정 + 큰 태극기",
-      "B": "실물 클로즈업형 — 배 한 척을 화면 절반 이상 + 익명 인물 1명(고배율 공식 ③)"
+      "A": "한 장면 대비 — 같은 부두의 낡은 초계함과 신형 호위함 / 진해 부두의 필리핀 국기 게양 순간",
+      "B": "3분할 승패 1컷(국뽕 요소 전부) + 실물 클로즈업 2컷(배 한 척 절반 이상 + 익명 인물 1명)"
     }
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "3분할: 낡은 초계함 + 100달러 지폐 / 놀란 필리핀 해군 장교 / 황금빛 신형 호위함 + 큰 태극기",
-      "prompt_en": "Photorealistic high-saturation HDR cinematic three-part composition. On the left, a weathered gray 1980s Korean-built Pohang-class corvette with faded paint and rust streaks sits in cold desaturated shadow, a single US 100-dollar bill floating large in the air before it, with a small plain Philippine flag on the upper left corner. In the center, an attractive Filipino naval officer with a warm likeable face in a white dress uniform, chest-up close-up filling 60 percent of the frame height, jaw-dropped and awestruck, looking toward the right. On the right, two brand-new gray guided-missile frigates sail forward in a heroic low-angle shot, bathed in golden backlight with glowing rim light and lens flare, larger and closer than the old ship, and a huge Korean flag Taegukgi waves proudly in sunlight in the upper right corner. Triumphant, victorious, epic mood with bright vivid saturated tones."
+      "type": "scene-contrast-photorealistic",
+      "concept_ko": "한 장면 대비: 같은 부두에 나란히 선 낡은 초계함과 한국산 신형 호위함 (추천)",
+      "prompt_en": "Photorealistic high-saturation HDR wide shot of a single sunlit naval pier in the Philippines. Moored side by side in one continuous scene: on the left, a small weathered gray 1980s Pohang-class corvette with faded paint and rust streaks; on the right, a much larger brand-new gray guided-missile frigate, sleek and freshly painted, its hull towering over the old ship. Warm golden sunlight falls on the new frigate while the old corvette sits partly in the shadow of the new ship's hull. A few Filipino sailors in blue working uniforms walk on the pier between them, small in the frame. Calm water reflects both ships. Natural documentary realism, no oversized flags, no exaggerated faces, the size and light difference alone tells the story. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
     },
     {
       "id": 2,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "3분할: 마흔 살 넘은 낡은 경비선 / 놀란 필리핀 해군 장교 / 바다를 가르는 한국산 신형 호위함 + 큰 태극기",
-      "prompt_en": "Photorealistic high-saturation HDR cinematic three-part composition. On the left, an aging white-hulled 1960s coast guard cutter with peeling paint and rust stains sits in a gray, cold, overcast harbor, small plain Philippine flag in the upper left corner. In the center, an attractive Filipino naval officer in his 40s with a warm likeable face in a navy working uniform, chest-up and filling 60 percent of the frame height, eyes wide in amazement, pointing toward the right. On the right, a sleek brand-new gray guided-missile frigate built in Korea cuts through bright blue water in a heroic low-angle shot, larger and closer than the old cutter, glowing with golden backlight, rim light and sparkling sea spray, and a huge Korean flag Taegukgi waves proudly in the upper right corner. Triumphant, epic, vivid saturated mood."
+      "type": "scene-contrast-photorealistic",
+      "concept_ko": "한 장면 대비: 진해 부두에서 한국 초계함에 필리핀 국기를 올리는 순간",
+      "prompt_en": "Photorealistic cinematic moment at a Korean naval pier in Jinhae on a bright summer morning. A gray Pohang-class corvette fills most of the frame from a three-quarter angle, and on its stern Filipino sailors in white dress uniforms are hoisting a Philippine flag up the flagpole, the flag caught mid-rise in the breeze. On the pier in the foreground, a row of Korean navy sailors in white uniforms stand at attention with their backs half-turned to the camera, watching the ship they once served on change hands. Golden morning light, crisp detail on the ship's guns and hull, documentary realism, emotional but restrained mood, no oversized flags, no exaggerated expressions. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
     },
     {
       "id": 3,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "3분할: 비 맞는 낡은 초계함 + 100달러 지폐 / 자신감 있는 한국인 조선 기술자 / 진수되는 새 호위함 + 큰 태극기",
-      "prompt_en": "Photorealistic epic cinematic three-part harbor composition. On the left, an old gray corvette moored at a rainy pier under dull overcast light, a single US 100-dollar bill fluttering in the air before it, small plain Philippine flag in the upper left corner. In the center, a confident proud Korean shipyard engineer in a blue work uniform and white hard hat, arms crossed with a big smile, attractive likeable face, chest-up and filling most of the frame height. On the right, a gleaming new frigate slides down a slipway at a Korean shipyard under golden sunset backlight with sparks and confetti-like glitter, larger and brighter than the old ship, a huge Korean flag Taegukgi waving in the upper right corner. High-saturation HDR, triumphant and victorious atmosphere."
+      "type": "three-part-photorealistic",
+      "concept_ko": "3분할 승패 (국뽕 요소는 이 컷에만): 낡은 초계함 + 100달러 지폐 / 놀란 필리핀 해군 장교 / 황금빛 신형 호위함 + 큰 태극기",
+      "prompt_en": "Photorealistic high-saturation HDR cinematic three-part composition. On the left, a weathered gray 1980s Korean-built Pohang-class corvette with faded paint and rust streaks sits in cold desaturated shadow, a single US 100-dollar bill floating large in the air before it, with a small plain Philippine flag on the upper left corner. In the center, an attractive Filipino naval officer with a warm likeable face in a white dress uniform, chest-up close-up filling 60 percent of the frame height, jaw-dropped and awestruck, looking toward the right. On the right, two brand-new gray guided-missile frigates sail forward in a heroic low-angle shot, bathed in golden backlight with glowing rim light and lens flare, larger and closer than the old ship, and a huge Korean flag Taegukgi waves proudly in sunlight in the upper right corner. Triumphant, victorious, epic mood with bright vivid saturated tones. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
+      "type": "closeup-photorealistic",
       "concept_ko": "실물 클로즈업: 화면 절반을 채운 옛 충주함(포항급 초계함) 뱃머리 + 부두에서 올려다보는 60대 한국 남성",
-      "prompt_en": "Photorealistic cinematic close-up. The bow and forward 76mm gun turret of a gray Pohang-class corvette fill more than half of the frame, shot from a low angle on a sunlit pier, every rivet, weld line and weathered paint stroke in sharp detail. In the lower foreground on one side stands one anonymous Korean man in his 60s with a warm likeable face, short gray hair and a navy windbreaker, chest-up, looking up at the ship with a proud, moved expression and slightly teary eyes. Warm golden late-afternoon backlight rims the ship's mast, and a small Korean flag Taegukgi flutters on the pier. High-saturation HDR, nostalgic yet proud mood, no other people."
+      "prompt_en": "Photorealistic cinematic close-up. The bow and forward 76mm gun turret of a gray Pohang-class corvette fill more than half of the frame, shot from a low angle on a sunlit pier, every rivet, weld line and weathered paint stroke in sharp detail. In the lower foreground on one side stands one anonymous Korean man in his 60s with a warm likeable face, short gray hair and a navy windbreaker, chest-up, looking up at the ship with a quiet, moved expression. Warm late-afternoon light rims the ship's mast. High-saturation HDR, nostalgic mood, no other people, no flags. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
     },
     {
       "id": 5,
-      "type": "concept-b-photorealistic",
+      "type": "closeup-photorealistic",
       "concept_ko": "실물 클로즈업: 도크에 선 신형 호위함 선체가 화면 절반 이상 + 안전모 쓴 한국인 조선 기술자 1명",
-      "prompt_en": "Photorealistic cinematic close-up at a Korean shipyard dry dock. The towering gray hull and sharp bow of a brand-new guided-missile frigate fill more than half of the frame, shot from a dramatic low angle so the ship looks enormous, fresh paint gleaming under golden sunrise light with lens flare and drifting welding sparks. In the foreground on one side stands one confident Korean shipyard engineer in his 50s with an attractive likeable face, blue work uniform and white hard hat, chest-up, smiling proudly with arms crossed. A small Korean flag Taegukgi flies from the ship's mast. High-saturation HDR, triumphant and proud mood."
+      "prompt_en": "Photorealistic cinematic close-up at a Korean shipyard dry dock. The towering gray hull and sharp bow of a brand-new guided-missile frigate fill more than half of the frame, shot from a low angle so the ship looks enormous, fresh paint gleaming under golden sunrise light with drifting welding sparks. In the foreground on one side stands one Korean shipyard engineer in his 50s with an attractive likeable face, blue work uniform and white hard hat, chest-up, calmly checking the hull with a tablet in hand. High-saturation HDR, focused and confident mood, no flags. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, teal-and-orange color grading, slightly over-processed look."
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "kimjang-packaged-kimchi",
+    "titles": [
+      "\"싸서 사는 게 아닙니다\" 김장 대신 김치 사 먹는 집이 세 집에 한 집 된 진짜 이유",
+      "\"싸서 사는 게 아닙니다\" 김장 대신 포장김치 사 먹는 집이 늘어난 진짜 이유",
+      "한때 겨울 반양식이던 김장, 이제 세 집에 한 집이 김치를 사 먹는 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"김장, 하세요? 사세요?\" / 김치 사는 집, 싸서가 아니었다",
+      "\"재료비는 김장이 더 싼데\" / 김장 대신 사 먹는 진짜 이유",
+      "\"열 명 중 한 명도 안 돼\" / 김치 사는 이유, 싸서가 아니다"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비형 2컷 — 식탁 위 쌓인 김치통 vs 봉지 하나와 밥 한 공기(추천) / 베란다의 빈 김장 대야 vs 소포장 김치 택배 상자",
+      "B": "실물 클로즈업 3컷 — 작은 포장김치를 든 60대 여성 / 절임배추 상자 + 양념 바르는 60대 여성 / 진열대에서 작은 봉지를 집는 60대 남성"
+    },
+    "notes": "H 유형: 국기·3분할 승패 구도·국뽕 요소 쓰지 않는다. 실제 브랜드 로고·회사명·포장 글자 금지(종가·비비고·조선호텔 등 특정 브랜드로 읽히지 않게). 글자·숫자 금지. 실존 인물 금지. 김치 효능·건강 연상 소품 금지. 하단 35~40%는 글자 자리로 어둡게. 질감 키워드(2026-10-10): 전 컷 앞에 gritty high-clarity HDR … slightly over-processed look, smooth·clean·glossy·soft 표현 금지."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "scene-contrast",
+      "concept_ko": "한 장면 대비 · 위에서 본 식탁: 쌓인 김장 김치통 vs 작은 김치 봉지 하나와 밥 한 공기 (추천)",
+      "prompt_en": "Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds seen through a nearby window, teal-and-orange color grading, slightly over-processed look. Photorealistic high-saturation overhead shot of a Korean home dining table. On the left half, several large stacked plastic kimchi storage containers filled with whole-cabbage kimchi, red and abundant, warm light. On the right half, a single small unlabeled vacuum-sealed kimchi pouch beside one bowl of steamed rice and chopsticks, plain and sparse, cool light. Strong size contrast between the two halves, both objects in the upper half of the frame. No text, no letters, no numbers, no logos or brand marks anywhere, no people. Bottom 35 to 40 percent of the frame darker and calm for text overlay."
+    },
+    {
+      "id": 2,
+      "type": "scene-contrast",
+      "concept_ko": "한 장면 대비 · 베란다 구석에 엎어 둔 빈 김장 대야 vs 앞에 열린 소포장 김치 택배 상자",
+      "prompt_en": "Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds seen through a nearby window, teal-and-orange color grading, slightly over-processed look. Photorealistic high-saturation cinematic photo on a Korean apartment balcony, one single scene. In the back corner, a big red rubber kimchi-making basin sits empty and dry, turned upside down with a pair of folded red rubber gloves resting on it, slightly dusty, clearly unused this year, in cool shadow. In the foreground, filling the upper half of the frame, an opened plain brown delivery box with no printing holds a few small unlabeled vacuum-sealed pouches of red kimchi on ice packs, lit by warm morning sunlight through the window. The contrast between the idle basin and the small delivery box is visible at a glance. No text, no letters, no numbers, no logos or brand marks anywhere, no people. Bottom 35 to 40 percent of the frame darker and calm for text overlay."
+    },
+    {
+      "id": 3,
+      "type": "closeup",
+      "concept_ko": "실물 클로즈업 · 손바닥만 한 포장김치를 들어 보이며 놀란 60대 여성, 뒤로 흐릿한 김장 대야",
+      "prompt_en": "Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds seen through a nearby window, teal-and-orange color grading, slightly over-processed look. Photorealistic high-saturation close-up in a warm Korean home kitchen. A likeable Korean woman in her 60s, chest-up on the right side, holds up a small palm-sized unlabeled vacuum-sealed pouch of red kimchi at eye level, the pouch large in the foreground and filling nearly half of the frame, her eyebrows raised in an exaggerated surprised, curious expression. In the blurred background, a big red rubber basin with salted cabbage. Warm golden kitchen light, glowing rim light on the pouch. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Bottom 35 to 40 percent of the frame darker, left empty for text overlay."
+    },
+    {
+      "id": 4,
+      "type": "closeup",
+      "concept_ko": "실물 클로즈업 · 상자째 받은 절임배추에 양념을 바르는 60대 여성",
+      "prompt_en": "Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds seen through a nearby window, teal-and-orange color grading, slightly over-processed look. Photorealistic high-saturation close-up in a Korean home kitchen. An opened cardboard box of ready-salted napa cabbage halves, pale yellow and glistening, fills more than half of the frame in the foreground, the box plain with no printing. Behind it on the right, a likeable Korean woman in her 60s with permed short hair and a red rubber glove, chest-up, spreading red chili seasoning onto one salted cabbage half, looking at the camera with a relaxed, slightly sheepish smile. Warm golden kitchen light, glowing rim light on the cabbage. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Bottom 35 to 40 percent of the frame darker, left empty for text overlay."
+    },
+    {
+      "id": 5,
+      "type": "closeup",
+      "concept_ko": "실물 클로즈업 · 진열대에서 작은 김치 봉지를 집어 드는 60대 남성, 뒤로 손 안 댄 큰 김치통",
+      "prompt_en": "Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds seen through a nearby window, teal-and-orange color grading, slightly over-processed look. Photorealistic high-saturation close-up in a bright Korean supermarket refrigerated aisle. In the foreground, a man's hand picks up a single small palm-sized unlabeled vacuum-sealed pouch of red kimchi, the pouch large and sharp, filling nearly half of the frame. Behind it on the right, a likeable Korean man in his 60s in a padded vest, chest-up, glancing at the small pouch with a thoughtful expression, while large tubs of whole-cabbage kimchi sit untouched on the shelf behind him slightly out of focus. Crisp white store light with a warm rim light on the pouch. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Bottom 35 to 40 percent of the frame darker, left empty for text overlay."
+    }
+  ]
+}

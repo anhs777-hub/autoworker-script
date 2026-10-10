@@ -1,0 +1,2 @@
+Mode: built-in image_gen
+Edit this triptych image only to remove the three bottom caption words DOOSAN, LS Cable, SAMSUNG and their dark translucent bottom caption strips. Naturally restore the underlying road, trees and building roof imagery where those overlays were. Preserve the entire rest of the image exactly: same three buildings, all architecture, original signage physically on the buildings, sky, colors, framing, equal three vertical panels and white separators. No new text or other changes.
