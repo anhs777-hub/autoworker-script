@@ -1,43 +1,52 @@
 {
   "meta": {
     "project": "cat-full-moon",
-    "titles": ["고양이는 왜 보름달이 뜨면 폭주할까?", "보름달 뜨면 고양이가 폭주하는 이유", "보름달 뜨면 고양이가 미칠까?"],
-    "thumbnail_texts": ["달 때문이 아니었다 / 보름달 고양이 우다다", "23% 늘었다는데 / 보름달 밤 고양이", "하룻밤 한 마리 / 보름달 고양이 폭주"],
+    "titles": [
+      "고양이는 왜 보름달이 뜨면 폭주할까?",
+      "보름달 뜨면 고양이가 폭주하는 이유",
+      "보름달 뜨면 고양이가 미칠까?"
+    ],
+    "thumbnail_texts": [
+      "달 때문이 아니었다 / 보름달 고양이 우다다",
+      "23% 늘었다는데 / 보름달 밤 고양이",
+      "하룻밤 한 마리 / 보름달 고양이 폭주"
+    ],
     "image_concepts": {
       "A": "보름달 밤 거실을 질주하는 고양이 + 문틈에서 놀란 잠옷 차림 50대 집사",
       "B": "침대에서 이불을 끌어안고 천장을 보는 50대 부부 + 캣타워에서 공중으로 뛰어오른 고양이 + 창의 보름달"
-    }
+    },
+    "note": "2026-10-11 반실사 일러스트 전환 — 장면 유형 3가지 이상 (channels/science/config/thumbnail-strategy.json)"
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사. 창밖 큰 보름달 아래 어두운 거실을 질주하는 주황 고양이, 화면 오른쪽 문틈에서 잠옷 차림의 50대 한국인 남성이 눈을 크게 뜨고 입을 벌린 채 내다본다.",
-      "prompt_en": "Photorealistic composite photo of a dark Korean apartment living room at night, a huge glowing full moon filling the large window in the upper left. An orange tabby cat sprints across the floor and leaps over the sofa with strong motion blur and flying cushions. On the right, an attractive Korean man in his fifties with a warm likeable face, wearing striped pajamas, peeks through a half-open bedroom door with comically exaggerated wide eyes and dropped jaw, crisp cutout look with strong rim light. Bright vivid colors, cool blue moonlight against warm lamp glow, playful and curious mood."
+      "type": "illustration-G결정적순간",
+      "concept_ko": "G 결정적 순간(교체 추천). 밤 거실을 전속력으로 달리던 고양이가 소파를 박차고 공중에 뜬 순간을 정지, 쿠션이 흩날리고 창밖에 커다란 보름달.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A cat frozen mid-leap in full sprint across a cozy living room at night, all four legs stretched, cushions and a sock flying in its wake, a huge full moon glowing through the big window behind. Warm orange lamp light inside, cool teal moonlight outside, dynamic and funny. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 2,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사 변형. 고양이 클로즈업 중심 — 동공이 커진 채 몸을 낮추고 질주 직전 자세의 고양이가 화면 왼쪽을 크게 차지하고, 뒤로 보름달과 머리를 긁적이는 50대 여성 집사.",
-      "prompt_en": "Photorealistic close-up of a tabby cat crouched low in a pre-sprint pose with huge dilated pupils and puffed-up tail, occupying the left half of the frame in a cozy living room at night. Behind it, a bright full moon shines through the window, and an attractive Korean woman in her fifties with a likeable face, in a cardigan over pajamas, scratches her head with a comically puzzled, exaggerated expression. Crisp cutout subjects with rim light, vivid saturated colors, humorous and curious atmosphere."
+      "type": "illustration-E+F",
+      "concept_ko": "E+F. 고양이 눈동자 초근접 — 크게 열린 동공에 창밖 보름달이 비치는데, 눈 속 반사에는 달 옆에 벽시계 바늘(밤 9~11시 무렵)이 함께 비친다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. An extreme close-up of a cat's wide-open eye with a huge dark pupil; reflected in the glossy eye are a full moon in the window and, beside it, the hands of a round wall clock pointing late in the evening (no numbers). Teal and orange highlights, curious mysterious mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사. 남색 침실, 침대에서 이불을 턱까지 끌어안은 50대 한국인 부부가 놀란 얼굴로 위를 올려다보고, 침대 위쪽 캣타워 꼭대기에서 고양이가 공중으로 뛰어오른다. 창에 보름달.",
-      "prompt_en": "Photorealistic scene of a dim navy-blue Korean bedroom at night, a tall cat tower beside the bed with a gray cat caught mid-air leaping from the top platform in the upper center of the frame. A Korean couple in their fifties with warm likeable faces lie in bed clutching the blanket up to their chins, staring upward with comically exaggerated startled expressions. Silver moonlight from a big full moon pours through the window, mixed with a warm yellow bedside lamp. Bright vivid tones, playful humorous mood."
+      "type": "illustration-D내려다보기+A단면",
+      "concept_ko": "D 내려다보기 + A 단면. 지붕을 떼어 낸 아파트 단면을 비스듬히 위에서 — 층마다 집집마다 고양이들이 같은 시간에 거실을 질주하고, 하늘의 보름달은 작게.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A cutaway view of an apartment building seen from slightly above with the roof and front wall removed, revealing many living rooms on every floor, and in each one a different cat is sprinting across the room at the same moment, while a small full moon sits in the night sky above. Playful dollhouse-like composition, vivid colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 변형. 벽시계(밤 11시)와 보름달이 걸린 침실 창 아래, 베개로 귀를 막고 웃음 반 체념 반 표정의 50대 남성, 그 위로 커튼을 타고 오르는 고양이.",
-      "prompt_en": "Photorealistic bedroom at night: a round wall clock showing 11 o'clock and a window framing a large full moon in the upper half of the image. A cat climbs up the curtain with claws out, fur slightly puffed. Below, an attractive Korean man in his fifties with a likeable face presses a pillow over his ears, half laughing and half resigned in a comically exaggerated expression. Crisp cutout look with rim light, vivid colors, cool moonlight and warm lamp contrast, humorous and curious tone."
+      "type": "illustration-F원리시각화",
+      "concept_ko": "F 원리 시각화. 낮 내내 잔 고양이 몸에 빛나는 에너지가 차오르다, 밤이 되자 빛의 궤적으로 터져 나와 거실 바닥·벽·캣타워를 따라 번개처럼 그린다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A cat bursting into motion at night, leaving a glowing energetic light trail that zigzags across the floor, up the cat tower and along the wall of a dim living room, as if a whole day of stored energy is being released at once. Teal light streaks against warm orange room tones, fun and energetic. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 보름달을 배경으로 지붕 위가 아니라 거실 창틀에 앉은 고양이와, 그 옆에서 손전등 대신 돋보기를 든 채 고양이를 관찰하는 50대 여성 — 「연구로 확인해 보자」는 분위기.",
-      "prompt_en": "Photorealistic composite: a fluffy cat sits calmly on a living room windowsill with an enormous full moon behind it, looking back over its shoulder at the viewer with an innocent face. Next to it, an attractive Korean woman in her fifties with a warm likeable face holds a large magnifying glass up to the cat, one eyebrow raised in comically exaggerated suspicion. Cozy room with houseplants, bright vivid colors, cool moonlight and warm interior light, playful detective-like curiosity."
+      "type": "illustration-B시간겹치기",
+      "concept_ko": "B 시간 겹치기. 같은 거실을 좌우 반반 — 왼쪽은 밝은 낮 햇볕 아래 동그랗게 잠든 고양이, 오른쪽은 보름달 밤 같은 고양이가 커튼을 타고 질주.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split-scene illustration of the same living room: on the left half, bright daytime sunlight and a cat curled up fast asleep on the sofa; on the right half, night with a full moon in the window and the same cat wildly climbing the curtain. The two halves blend at the center. Warm daylight versus teal night, humorous contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }

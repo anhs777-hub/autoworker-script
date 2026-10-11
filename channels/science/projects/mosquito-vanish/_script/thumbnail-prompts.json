@@ -12,10 +12,13 @@
       "피를 빤 [모기 87%]는 / [1.5m] 아래서 쉰다"
     ],
     "image_concepts": {
-      "A": "컨셉 A(추천). 흰 벽에 앉은 모기를 접사로 화면 오른쪽 60%만큼 크게. 왼쪽 가장자리엔 엉뚱한 허공을 내려치는 파리채와 손만 흐릿하게.",
-      "B": "컨셉 B. 사람은 없이, 흰 벽 위 작은 원 안에만 초점이 또렷한 큰 모기 — 원 밖은 흐릿해 벽의 다른 점과 구별이 안 된다(시선이 닿는 좁은 범위)."
+      "E": "1번 — (추천) E 투명 투시. 사람 눈 안쪽에서 바라본 시점. 가운데 작은 선명한 원 안에만 벽 위의 모기가 크고 또렷하고, 원 바깥은 모두 흐릿하다(선명하게 보이는 건 좁은 범위뿐).",
+      "F": "2번 — F 원리 시각화. 내려오는 파리채 앞에 빛나는 공기 물결이 파도처럼 일고, 모기가 그 물결을 타고 미끄러지듯 옆으로 빠져나간다(바헤닝언대 2024 공기 물결).",
+      "C": "3번 — C 스케일 비틀기. 건물만큼 거대한 모기가 침실 벽에 느긋하게 앉아 있고, 바닥의 개미만 한 사람은 손전등으로 엉뚱한 천장을 비춘다(유머 1개).",
+      "D": "4번 — D 내려다보기. 천장을 뗀 침실을 위에서 본 투시도. 위쪽 벽·천장은 비어 있고, 낮은 벽·침대 밑·가구 아래·커튼 아랫단에 숨은 모기들이 빛나는 점으로 드러난다(아카풀코 연구: 피 빤 모기 87%가 1.5m 아래).",
+      "G": "5번 — G 결정적 순간. 시선이 휙 점프하는 찰나 방 전체가 옆으로 흐려지고, 그 순간 크고 또렷한 모기가 벽에 내려앉는다(사카드 억제 + 착지)."
     },
-    "note": "2026-10-09 실사 확정 + 잘된 썸네일 분석(사물·현상 중심, 띠 없는 외곽선 글자, 핵심 단어만 노랑)으로 재작성 (channels/science/config/thumbnail-strategy.json)",
+    "note": "2026-10-11 반실사 일러스트 전환(thumbnail-strategy.json brand.style_prefix + 장면 유형 E·F·C·D·G). 썸네일 문구는 그대로",
     "edits": [
       "벽에 앉은 모기에 빨간 손그림 동그라미 + 흰 손글씨 「바로 여기 있음」",
       "날아가는 모기 옆 빨간 화살표 + 「초속 25cm」 (2013년 바헤닝언대 측정)",
@@ -25,33 +28,33 @@
   "thumbnails": [
     {
       "id": 1,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 A(추천). 흰 벽에 앉은 모기를 접사로 화면 오른쪽 60%만큼 크게. 왼쪽 가장자리엔 엉뚱한 허공을 내려치는 파리채와 손만 흐릿하게.",
-      "prompt_en": "Photorealistic macro photograph of a single mosquito resting on a plain white bedroom wall, rendered huge and razor sharp so it fills the right 60% of the frame, every leg and wing vein visible. At the far left edge, slightly blurred, a man's hand swings a fly swatter at empty air in the wrong place. Bright clean lighting, playful mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "illustration-E-투명 투시",
+      "concept_ko": "1번 — (추천) E 투명 투시. 사람 눈 안쪽에서 바라본 시점. 가운데 작은 선명한 원 안에만 벽 위의 모기가 크고 또렷하고, 원 바깥은 모두 흐릿하다(선명하게 보이는 건 좁은 범위뿐).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. View from inside a human eyeball looking out at a bedroom wall, the eye drawn as a clean translucent textbook-style cutaway with no blood or gore. In the center, a small glowing circle of crisp focus shows a single mosquito resting on the wall, large and razor sharp, the circle and mosquito together filling about 60% of the frame, while everything outside the circle melts into soft blur. Curious, educational mood. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 2,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 A 변형. 침대 머리맡 낮은 벽에 앉은 큰 모기를 앞에 크게, 화면 위쪽 구석엔 손전등으로 엉뚱한 천장을 비추는 사람이 작게.",
-      "prompt_en": "Photorealistic night bedroom scene: in the foreground, on the low wall just above a headboard, a single mosquito sits still, oversized and in sharp focus, filling the center-right of the frame. Small and far in the upper-left corner, an anonymous Korean adult in pajamas points a flashlight at the empty ceiling, looking the wrong way. Warm lamp light, humorous mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "illustration-F-원리 시각화",
+      "concept_ko": "2번 — F 원리 시각화. 내려오는 파리채 앞에 빛나는 공기 물결이 파도처럼 일고, 모기가 그 물결을 타고 미끄러지듯 옆으로 빠져나간다(바헤닝언대 2024 공기 물결).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A fly swatter swinging down toward a mosquito in mid-air. In front of the swatter, a glowing teal wave of pushed air curls up like an ocean wave, and the mosquito, drawn large in the center and filling about half of the frame, glides along the crest of that air wave and slips sideways out of the swatter's path. Dynamic motion lines in the air only, playful mood. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 B. 사람은 없이, 흰 벽 위 작은 원 안에만 초점이 또렷한 큰 모기 — 원 밖은 흐릿해 벽의 다른 점과 구별이 안 된다(시선이 닿는 좁은 범위).",
-      "prompt_en": "Photorealistic macro photograph of a plain white bedroom wall where a single mosquito, rendered large and razor sharp, fills about 60% of the frame inside a small circular zone of crisp focus. Everything outside that circle is softly blurred, so a few tiny dark specks on the wall look indistinct and impossible to tell apart. Bright clean lighting, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "illustration-C-스케일 비틀기",
+      "concept_ko": "3번 — C 스케일 비틀기. 건물만큼 거대한 모기가 침실 벽에 느긋하게 앉아 있고, 바닥의 개미만 한 사람은 손전등으로 엉뚱한 천장을 비춘다(유머 1개).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Inside a cozy Korean apartment bedroom at night, a gigantic mosquito the size of a building rests calmly on the wall, filling about two thirds of the frame. Far below on the floor, a tiny ant-sized anonymous Korean adult in pajamas shines a flashlight at the empty ceiling in the wrong direction, completely missing it. Warm lamp light, one gentle humorous touch. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 B 변형. 고속 촬영처럼, 내려오는 파리채 앞에 생긴 공기 물결을 타고 모기가 옆으로 빠져나가는 순간.",
-      "prompt_en": "Photorealistic high-speed photograph of a fly swatter swinging down toward a single mosquito in mid-air, with a faint visible ripple of pushed air in front of the swatter, the mosquito slipping sideways out of its path, frozen in sharp detail and large in frame. Dark plain background with a bright rim light on the mosquito, dramatic yet playful mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "illustration-D-내려다보기",
+      "concept_ko": "4번 — D 내려다보기. 천장을 뗀 침실을 위에서 본 투시도. 위쪽 벽·천장은 비어 있고, 낮은 벽·침대 밑·가구 아래·커튼 아랫단에 숨은 모기들이 빛나는 점으로 드러난다(아카풀코 연구: 피 빤 모기 87%가 1.5m 아래).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Top-down cutaway view of a Korean apartment bedroom with the ceiling removed, drawn like a clean architectural dollhouse diagram that fills most of the frame. Several mosquitoes hide low in the room, near the floor on the lower walls, under the bed and furniture and behind the bottom edge of the curtains, each revealed by a soft glowing orange dot of light, while the upper walls stay completely empty. Calm, find-the-hidden-spots mood. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 꽃무늬 커튼 천을 아주 가까이 찍어, 화면 절반을 차지하는 큰 모기가 무늬 색에 섞여 한 번에 안 보인다 — 「숨은 모기 찾기」 느낌. 편집에서 빨간 동그라미로 위치를 짚는다.",
-      "prompt_en": "Photorealistic extreme close-up of busy floral-pattern curtain fabric near the floor, with a single mosquito resting on it, shown large enough to fill about half of the frame yet blending into the printed pattern so it is not noticed at first glance. Soft daylight, curious find-the-hidden-object mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "illustration-G-결정적 순간",
+      "concept_ko": "5번 — G 결정적 순간. 시선이 휙 점프하는 찰나 방 전체가 옆으로 흐려지고, 그 순간 크고 또렷한 모기가 벽에 내려앉는다(사카드 억제 + 착지).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A frozen decisive moment in a bedroom: the whole room is smeared with a sideways motion blur as if the viewer's gaze is jumping, and in that exact instant a single mosquito, drawn large and sharp and filling about half of the frame, touches down on a plain wall with its legs just landing. Slightly tilted dramatic perspective, suspenseful yet playful mood. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }

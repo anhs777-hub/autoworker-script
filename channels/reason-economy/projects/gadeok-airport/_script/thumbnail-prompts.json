@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "gadeok-airport",
+    "titles": [
+      "\"현대건설도 손 뗀 뻘바다\" 일본 간사이와 바닥부터 다른 가덕도 설계가 통과된 진짜 이유",
+      "\"현대건설도 손 뗀 뻘바다\" 일본 간사이와 다른 가덕도 설계가 심의를 통과한 진짜 이유",
+      "\"13m 꺼진 일본 섬처럼 메운 바다\" 현대건설도 물러선 가덕도에 다시 손을 든 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"현대도 물러선 바다인데\" / 가덕도 설계, 55m까지 꽂았다 (+ 좌상단 라벨: 13m 꺼진 일본 섬 — 간사이 운영사 공식 13.72m 확인)",
+      "\"현대건설도 손 뗀 뻘바다\" / 가덕도 설계, 심의 통과했다",
+      "\"13m 꺼진 일본 섬\" / 가덕도는 깎은 산 위에 올렸다"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비 — 깎아 낸 바위 산 위 여객터미널(차가운 전기 파랑 작업 조명) vs 바로 옆 뻘바다 매립지·배수재 타설선(깊은 그림자)",
+      "B": "3분할 승패 — 왼쪽 태풍에 물에 잠긴 일본 해상공항(불타는 주황 위기광) / 가운데 놀란 일본인 엔지니어 / 오른쪽 가덕도 매립 공사 현장(전기 파랑 조명 + 금빛 테두리·태극기)"
+    },
+    "style_rule": "2026-10-11 공통 규칙 — 5컷 전체 강한 명암(chiaroscuro), 전기 파랑 vs 불타는 주황 분할 색, 장비·강관·콘크리트에 긁힌 질감. teal-and-orange 미사용. 가덕도 = 파랑, 간사이 = 주황"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "scene-contrast-realistic",
+      "concept_ko": "한 장면 대비 1. 해 질 녘 항공 사선 시점 — 왼쪽은 국수봉을 깎아 낸 거대한 바위 절개면 위 여객터미널 철골이 차가운 전기 파랑 작업 조명에 번쩍이고, 오른쪽은 깊은 그림자 속 뻘이 드러난 매립지와 배수재 타설선. 바위와 뻘의 경계가 화면을 대각선으로 가른다. 장비선 강관·크레인에 긁힘.",
+      "prompt_en": "Photorealistic high-angle aerial shot at dusk of the Gadeokdo New Airport construction site off Busan, South Korea: on the left, a massive freshly cut granite cliff of a leveled mountain with the steel frame of a curved airport passenger terminal standing on solid bedrock, lit by intense cold electric blue floodlights and glowing rim light, heroic and precise; on the right, the adjacent sea reclamation area of dark wet mud flats sinking into deep crushed shadows, with towering offshore drain-installation rigs and barges driving vertical drains into the seabed, their steel masts and pipes scratched and weathered. The sharp boundary between rock and mud splits the frame diagonally, a hot burning orange sunset glow at the far horizon. Strong chiaroscuro lighting with deep crushed shadows, split color grading of cold electric blue versus hot burning orange, scratched and weathered metal textures, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on rock, steel and wet mud, dust particles and small debris in the air, dramatic volumetric clouds, slightly over-processed look."
+    },
+    {
+      "id": 2,
+      "type": "scene-contrast-realistic",
+      "concept_ko": "한 장면 대비 2. 해수면 높이 로우앵글 — 앞쪽 물 아래로 회색 뻘층이 비치는 단면과 긁힌 강관을 꽂는 장비선(그림자), 뒤로는 깎은 바위 산 위 곡선 지붕 터미널이 전기 파랑 조명으로 빛난다. 터미널 지붕에 작은 태극기.",
+      "prompt_en": "Photorealistic low-angle shot from sea level at Gadeokdo, Busan, South Korea, at night: in the foreground, choppy dark sea water with a cut-away view revealing a thick layer of soft grey marine clay beneath the surface, a construction barge with a long scratched and weathered steel drain-installation pipe plunging into it, half hidden in deep crushed shadows; in the background, a curved-roof modern airport terminal rising proudly on top of a cut rocky hillside, blazing with cold electric blue architectural light and crisp highlights, a small Korean flag Taegukgi on the roof, a faint hot burning orange glow along the far coastline. Heroic composition, epic cinematic. Strong chiaroscuro lighting with deep crushed shadows, split color grading of cold electric blue versus hot burning orange, scratched and weathered metal textures, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp textures on water, rock, concrete and steel, dramatic volumetric clouds, slightly over-processed look."
+    },
+    {
+      "id": 3,
+      "type": "triptych-realistic",
+      "concept_ko": "3분할 승패. 왼쪽 위 작은 일본 국기 + 태풍 속 바닷물에 잠긴 해상공항 활주로와 유압잭으로 받친 터미널 기둥(불타는 주황 위기광), 가운데 입을 벌리고 오른쪽을 보는 60대 일본인 엔지니어(익명), 오른쪽 위 큰 태극기 + 가덕도 바다 매립 공사 현장(차가운 전기 파랑 조명 + 금빛 테두리), 더 크고 더 앞에.",
+      "prompt_en": "Photorealistic three-panel comparison composition: on the left, an offshore airport island in Osaka Bay, Japan, battered by a typhoon, its runway flooded by surging seawater and terminal steel columns propped up by hydraulic jacks, lit by a hot burning orange crisis glow under a stormy sky, a small plain Japanese national flag (white flag with red circle) in the upper left corner; in the center, an attractive Japanese male engineer in his 60s wearing a hard hat and work jacket, chest-up close-up filling about 60% of the frame height, jaw-dropped and awestruck, looking toward the right side; on the right, the Gadeokdo New Airport sea reclamation site in Busan, South Korea, bigger and closer in a heroic low-angle shot, huge dredgers and drain-installation rigs and a cut rocky hillside lit by cold electric blue floodlights with a glowing golden rim light, a huge Korean flag Taegukgi waving proudly covering at least a quarter of the frame height in the upper right corner. Triumphant, victorious, epic cinematic. Strong chiaroscuro lighting with deep crushed shadows, split color grading of cold electric blue versus hot burning orange, scratched and weathered metal textures on the rigs and concrete, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp textures on metal, water and rock, dust particles and debris in the air, dramatic volumetric clouds, slightly over-processed look."
+    },
+    {
+      "id": 4,
+      "type": "closeup-realistic",
+      "concept_ko": "실물 클로즈업 1. 바다 밑 단면 — 수면 아래 회색 뻘층에 촘촘히 박힌 띠 모양 배수재가 물을 위로 짜내고, 그 아래 모래·점토 섞인 층까지 내려간다. 위에는 긁힌 강철 마스트의 장비선(전기 파랑 조명). 오른쪽에 단면을 가리키는 한국인 지반 기술자 1명.",
+      "prompt_en": "Photorealistic dramatic cross-section cutaway of the seabed off Gadeokdo, Busan: under the dark sea surface, a deep layer of soft grey marine clay pierced by dozens of thin vertical prefabricated drain strips reaching down into a lower mixed sand-and-clay layer, droplets of water being squeezed upward along the drains, a heavy barge above with a tall scratched and weathered steel drain-installation mast lit by cold electric blue work lights; the cutaway fills more than half of the frame, deep crushed shadows in the lower mud, a hot burning orange glow on the far horizon; on the right side an attractive confident Korean geotechnical engineer in his 40s in a white hard hat and orange safety vest, natural proportions, pointing at the deep drains with a proud smile, his face sculpted by hard side light. Strong chiaroscuro lighting with deep crushed shadows, split color grading of cold electric blue versus hot burning orange, scratched and weathered metal textures, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on mud, water and steel, dust particles, slightly over-processed look."
+    },
+    {
+      "id": 5,
+      "type": "closeup-realistic",
+      "concept_ko": "실물 클로즈업 2. 배수재 타설 장비선의 거대한 긁힌 강철 관입 파이프가 뻘바다에 꽂히는 순간 — 물보라와 진흙이 튀고, 전기 파랑 조명이 강관 긁힘을 드러낸다. 앞쪽에 무전기를 든 한국인 현장 반장 1명.",
+      "prompt_en": "Photorealistic dramatic close-up at night at the Gadeokdo New Airport offshore site in Busan, South Korea: a gigantic scratched and weathered steel mandrel pipe of a drain-installation rig plunging vertically into dark grey sea mud, splashes of seawater and mud flying, heavy rusted chains and hydraulic machinery filling more than half of the frame, all lit by harsh cold electric blue floodlights that rake across the scratches and dents, background falling into deep crushed shadows with a hot burning orange glow from distant welding sparks; in the foreground left, an attractive Korean site foreman in his 50s wearing a yellow hard hat and safety vest holding a walkie-talkie, determined confident expression, natural proportions. Epic cinematic, powerful low-angle. Strong chiaroscuro lighting with deep crushed shadows, split color grading of cold electric blue versus hot burning orange, scratched and weathered metal textures, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp textures on wet steel, concrete, mud and water spray, dust and debris particles in the air, dramatic volumetric clouds, slightly over-processed look."
+    }
+  ]
+}

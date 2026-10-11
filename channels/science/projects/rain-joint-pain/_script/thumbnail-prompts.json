@@ -12,10 +12,10 @@
       "기록 [1,167만 건]은 / 비 온 날도 [똑같았다]"
     ],
     "image_concepts": {
-      "A": "컨셉 A(추천). 바지를 걷은 노인의 무릎을 화면 가운데 크게(손은 대지 않고 가만히 둔 채). 뒤 창밖은 파란 하늘 한쪽으로 먹구름이 몰려온다. 빨간 동그라미는 편집에서 얹는다.",
-      "B": "컨셉 B. 아직 마른 채 계단 난간에 걸린 접힌 우산을 화면 가운데 크게, 창밖엔 곧 쏟아질 듯한 먹구름 — 「아직 비도 안 왔는데」 장면, 사람 없음."
+      "A": "1번 — 단면도 + 원리 시각화 (추천). 무릎을 깨끗하게 잘라 투명한 관절주머니와 관절액이 보이는 단면, 그 위 하늘에서 거대한 저기압 소용돌이가 내려오며 위에서 누르던 공기의 힘이 옅어지는 모습",
+      "B": "2번 — 투명 투시. 창가의 할머니는 오른쪽 구석에 작게(얼굴은 창 쪽으로 돌려 표정이 안 보이게), 귓속 전정기관을 크게 키운 반투명 원 속에서 빛나고, 창밖 먹구름에서 이어진 빛줄기가 귀로 들어온다"
     },
-    "note": "2026-10-09 실사 확정 + 잘된 썸네일 분석(사물·현상 중심, 띠 없는 외곽선 글자, 핵심 단어만 노랑)으로 재작성 (channels/science/config/thumbnail-strategy.json)",
+    "note": "2026-10-11 반실사 일러스트 전환(channels/science/config/thumbnail-strategy.json brand.style_prefix·장면 유형 A~G)으로 재작성. 유형: A+F 단면·원리 / E 투명 투시 / D 내려다보기 / C 스케일 비틀기 / B 시간 겹치기",
     "edits": [
       "무릎에 빨간 손그림 동그라미 + 흰 손글씨 「비 오기 전날부터」",
       "창밖 먹구름에 빨간 화살표 + 「기압 ↓ 습도 ↑」",
@@ -25,33 +25,33 @@
   "thumbnails": [
     {
       "id": 1,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 A(추천). 바지를 걷은 노인의 무릎을 화면 가운데 크게(손은 대지 않고 가만히 둔 채). 뒤 창밖은 파란 하늘 한쪽으로 먹구름이 몰려온다. 빨간 동그라미는 편집에서 얹는다.",
-      "prompt_en": "Photorealistic close shot of an older Korean adult's bare knee with the trouser leg rolled up, resting still on a sofa with no hands touching it, the knee large in the center of the frame, natural skin tone with no glow or marks. Behind, through a big living-room window, the sky is still blue on one side while a heavy dark storm cloud rolls in from the other. Warm indoor light, curious mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "semi-realistic-illustration-A+F",
+      "concept_ko": "무릎을 깨끗하게 잘라 투명한 관절주머니와 관절액이 보이는 단면, 그 위 하늘에서 거대한 저기압 소용돌이가 내려오며 위에서 누르던 공기의 힘이 옅어지는 모습",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A huge clean cutaway of a human knee joint fills the center of the frame like a textbook diagram, sliced open to reveal the smooth bones and a glowing translucent teal joint capsule filled with clear fluid, no blood. Above it, a giant swirling low-pressure storm vortex of dark clouds descends from an orange-lit sky, and the bands of glowing air pressing down on the knee grow thinner and fainter as they near the joint, showing the push of the air weakening. Calm, curious mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 2,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 A 변형. 오래된 바늘 기압계를 앞에 크게(바늘이 낮은 쪽), 뒤쪽 흐릿하게 무릎을 문지르는 할머니가 작게.",
-      "prompt_en": "Photorealistic photograph of an old brass analog barometer on a wooden shelf, huge and sharp in the foreground, its needle swung far to the low side, the dial markings blurred and unreadable. In the soft-focus background, small, an anonymous Korean grandmother sits by a window rubbing her knee as dark rain clouds gather outside. Warm nostalgic light. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "semi-realistic-illustration-E",
+      "concept_ko": "창가의 할머니는 오른쪽 구석에 작게(얼굴은 창 쪽으로 돌려 표정이 안 보이게), 귓속 전정기관을 크게 키운 반투명 원 속에서 빛나고, 창밖 먹구름에서 이어진 빛줄기가 귀로 들어온다",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A large translucent circular cutaway floating in the center of the frame magnifies the inner ear, its looping semicircular canals of the vestibular organ glowing bright teal like clean glass tubes, no blood. Small in the lower-right quarter, an anonymous elderly Korean grandmother sits by a window with her face turned toward the glass so her expression is not visible, and a thin glowing orange ribbon of light flows from the dark rain clouds outside the window into her ear and up to the magnified inner ear. Quiet, mysterious mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 B. 아직 마른 채 계단 난간에 걸린 접힌 우산을 화면 가운데 크게, 창밖엔 곧 쏟아질 듯한 먹구름 — 「아직 비도 안 왔는데」 장면, 사람 없음.",
-      "prompt_en": "Photorealistic photograph of a folded, completely dry long umbrella hanging on the railing of a Korean apartment stairwell, large and sharp in the center of the frame, filling most of it. Through the stairwell window behind it, heavy dark rain clouds gather over a still-dry street, the moment just before the rain. No people. Soft natural light, quiet and curious mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "semi-realistic-illustration-D",
+      "concept_ko": "위성 높이에서 본 한반도 위로 거대한 저기압 소용돌이가 다가오고, 그 아래 아파트 단지 창가마다 작은 주황 불빛이 켜져 있다",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high aerial view from near orbit looking down on the Korean peninsula, with a giant spiral low-pressure cloud system sweeping in from the west and covering half the land, its swirling air flow drawn as glowing teal bands. Below the edge of the clouds, tilted closer to the ground, rows of apartment complexes glow with tiny warm orange lights in many windows, as if people inside are waiting for the rain. Dramatic but calm mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
-      "type": "photorealistic-object",
-      "concept_ko": "컨셉 B 변형. 창가에 앉은 할머니는 화면 구석에 작게, 하늘 가득 거대한 먹구름이 다가오는 규모 컷.",
-      "prompt_en": "Photorealistic wide shot: an enormous dark storm front fills most of the sky over Korean apartment buildings, rolling toward a bright patch of blue. Small in the lower-right corner, at an open window, an anonymous Korean grandmother holds her knee and looks up at the clouds. Dramatic natural light, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "semi-realistic-illustration-C",
+      "concept_ko": "손바닥 위 미니어처 마을, 그 위에 작은 비구름이 떠 있고 마을 언덕 위 과자 봉지가 빵빵하게 부풀어 있다",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. An open human hand fills the frame, holding a tiny detailed miniature Korean village on its palm: little houses, a small hill and a winding road. A small dark rain cloud hovers just above the village, and on top of the little hill sits a sealed snack bag puffed up round and tight as the air pressure drops, the one playful touch. Soft glowing teal air currents swirl around the cloud. Warm orange evening light on the hand, whimsical and curious mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,
-      "type": "wildcard",
-      "concept_ko": "와일드카드(기억의 착각). 궂은 날에만 빨간 동그라미가 쳐진 벽걸이 달력 — 아팠던 궂은 날만 기억에 남는다는 대본 반전.",
-      "prompt_en": "Photorealistic close-up of a paper wall calendar hanging in a cozy Korean home, several days marked with small hand-drawn rain-cloud doodles and circled in bold red marker while the sunny days are left blank, the printed numbers blurred and unreadable, a window with rain streaks softly out of focus behind. Warm light, curious and slightly humorous mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "semi-realistic-illustration-B",
+      "concept_ko": "벽걸이 달력에서 비 오는 날 칸만 크고 선명하게 앞으로 떠오르고, 맑은 날 칸은 희미하게 바래 가는 기억 장면",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A big paper wall calendar fills the center of the frame in a cozy Korean living room. The squares for rainy, stormy days lift off the page and float forward, large, vivid and glowing with dark clouds and raindrops inside them, while the squares for sunny days fade into pale, half-transparent ghosts in the background, showing how only the gloomy days stay in memory. All printed numbers are blurred and unreadable. Nostalgic, slightly playful mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }
