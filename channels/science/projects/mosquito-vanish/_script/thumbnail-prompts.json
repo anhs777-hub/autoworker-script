@@ -3,17 +3,17 @@
     "project": "mosquito-vanish",
     "titles": [
       "모기가 눈앞에서 갑자기 사라지는 이유 (feat. 모기가 빨라서일까?)",
-      "모기를 쫓을수록 놓치는 이유 (feat. 내 눈이 범인이다?)",
+      "모기를 쫓을수록 놓치는 이유 (feat. 내 눈이 늦어서?)",
       "모기는 느린데 왜 매번 놓칠까? (feat. 걷는 속도의 5분의 1?)"
     ],
     "thumbnail_texts": [
       "[걷는 속도의 5분의 1]인데 / 왜 [모기]를 매번 놓칠까?",
-      "눈으로 [쫓을수록] / [모기]는 더 안 보인다",
+      "눈 부릅뜨고 [쫓았는데] / [모기]는 왜 안 보일까?",
       "피를 빤 [모기 87%]는 / [1.5m] 아래서 쉰다"
     ],
     "image_concepts": {
       "A": "컨셉 A(추천). 흰 벽에 앉은 모기를 접사로 화면 오른쪽 60%만큼 크게. 왼쪽 가장자리엔 엉뚱한 허공을 내려치는 파리채와 손만 흐릿하게.",
-      "B": "컨셉 B. 크게 뜬 사람 눈 하나가 왼쪽 절반, 오른쪽 흰 벽 앞에서 모기가 흐릿하게 빠져나가는 순간."
+      "B": "컨셉 B. 사람은 없이, 흰 벽 위 작은 원 안에만 초점이 또렷한 큰 모기 — 원 밖은 흐릿해 벽의 다른 점과 구별이 안 된다(시선이 닿는 좁은 범위)."
     },
     "note": "2026-10-09 실사 확정 + 잘된 썸네일 분석(사물·현상 중심, 띠 없는 외곽선 글자, 핵심 단어만 노랑)으로 재작성 (channels/science/config/thumbnail-strategy.json)",
     "edits": [
@@ -38,8 +38,8 @@
     {
       "id": 3,
       "type": "photorealistic-object",
-      "concept_ko": "컨셉 B. 크게 뜬 사람 눈 하나가 왼쪽 절반, 오른쪽 흰 벽 앞에서 모기가 흐릿하게 빠져나가는 순간.",
-      "prompt_en": "Photorealistic composite: an extreme close-up of a wide-open human eye fills the left half of the frame, the iris straining to the right. On the right, against a plain white wall, a single mosquito darts away with slight motion blur, slipping out of a small sharp circle of focus into blurry surroundings. Bright clean lighting, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "concept_ko": "컨셉 B. 사람은 없이, 흰 벽 위 작은 원 안에만 초점이 또렷한 큰 모기 — 원 밖은 흐릿해 벽의 다른 점과 구별이 안 된다(시선이 닿는 좁은 범위).",
+      "prompt_en": "Photorealistic macro photograph of a plain white bedroom wall where a single mosquito, rendered large and razor sharp, fills about 60% of the frame inside a small circular zone of crisp focus. Everything outside that circle is softly blurred, so a few tiny dark specks on the wall look indistinct and impossible to tell apart. Bright clean lighting, intriguing mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 4,
@@ -50,8 +50,8 @@
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 꽃무늬 커튼 아래쪽에 앉아 무늬에 섞여 거의 안 보이는 모기 — 「숨은 모기 찾기」 느낌. 편집에서 빨간 동그라미로 위치를 짚는다.",
-      "prompt_en": "Photorealistic close-up of the lower part of a busy floral-pattern curtain near the floor, with a single mosquito resting on it, almost camouflaged by the pattern yet sharp and slightly larger than life so it can be found on a second look. Soft daylight, curious find-the-hidden-object mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "concept_ko": "와일드카드. 꽃무늬 커튼 천을 아주 가까이 찍어, 화면 절반을 차지하는 큰 모기가 무늬 색에 섞여 한 번에 안 보인다 — 「숨은 모기 찾기」 느낌. 편집에서 빨간 동그라미로 위치를 짚는다.",
+      "prompt_en": "Photorealistic extreme close-up of busy floral-pattern curtain fabric near the floor, with a single mosquito resting on it, shown large enough to fill about half of the frame yet blending into the printed pattern so it is not noticed at first glance. Soft daylight, curious find-the-hidden-object mood. Real photograph look, natural light, sharp focus on the main subject, vivid but realistic colors. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }
