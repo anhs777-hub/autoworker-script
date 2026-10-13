@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "korea-debt-crisis-1980s",
+    "titles": [
+      "\"1981년 빚 세계 4위\" 멕시코·브라질이 부도날 때 한국은 한 번도 안 밀린 진짜 이유",
+      "빚 많던 4개국 중 3곳이 부도…1981년 빚 4위 한국이 한 번도 안 밀린 진짜 이유",
+      "IMF보다 15년 먼저 온 외채위기…1981년 빚 4위 한국이 한 번도 안 밀린 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"빚 1·2·3위는 부도\" / 빚 4위 한국은 한 번도 안 밀렸다",
+      "\"멕시코·브라질은 부도\" / 한국은 만기 한 번 안 미뤘다",
+      "띠 없는 최소 문구(흑백 vs 컬러 컷 위): 중남미 부도 / 한국 완납"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비 — 같은 1982년 한낮, 왼쪽 멕시코시티 닫힌 은행 앞 군중과 흩날리는 페소(따뜻한 주황 강조) | 오른쪽 한국 조선소 진수·수출 부두(밝은 전기 파랑 강조 + 금빛 햇살)",
+      "B": "흑백 과거 vs 컬러 — 왼쪽 밝은 낮의 흑백 보도사진 질감 멕시코 은행 앞 줄 / 오른쪽 밝은 컬러 1980년대 한국 제철소 쇳물 불꽃 (띠 없는 최소 문구 안과 짝)"
+    },
+    "style_rule": "2026-10-13 공통 규칙(「너무 어둡다」 개정) — 5컷 전체 낮·밝은 해 질 녘 직전의 밝은 노출, 그림자 안도 디테일이 보이게, 대비는 어둠이 아니라 미세 대비·샤픈으로. 밝은 전기 파랑(한국) vs 따뜻한 주황(중남미 위기)은 강조색으로만. 금속·콘크리트 긁힌 질감·과처리 HDR 질감 유지. 밤 장면 금지. 실존 정치인(실바 에르소그·로페스 포르티요·볼커 등) AI 얼굴 금지 — 인물은 익명. 외국 국기 훼손·조롱 구도 금지. 구성: 한 장면 대비 2 + 3분할 1 + 실물 클로즈업 2"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "scene-contrast-realistic",
+      "concept_ko": "한 장면 대비 1 (컨셉 A). 1982년풍 밝은 한낮의 한 화면을 대각선으로 가른다 — 왼쪽은 멕시코시티 은행의 내려진 철제 셔터 앞에 몰려든 군중과 바람에 흩날리는 낡은 페소 지폐, 따뜻한 주황 강조색. 오른쪽은 한국 조선소 도크에서 진수하는 거대한 선박과 수출 컨테이너 크레인, 밝은 전기 파랑 강조색에 금빛 햇살. 한국 쪽이 더 크고 더 앞. 그림자 속도 디테일이 보이게 밝게.",
+      "prompt_en": "Photorealistic split-scene composition set in 1982 in bright midday sunlight: on the left, a crowd of anxious Mexican citizens in early-1980s clothing gathered in front of a closed bank with a lowered, scratched steel shutter in Mexico City, worn Mexican peso banknotes swirling in the wind, accented with warm glowing orange tones; on the right, larger and closer to the camera in a heroic low-angle shot, a massive new cargo ship being launched from a South Korean shipyard dock with towering cranes and stacked export containers under a bright blue sky, accented with bright electric blue highlights and golden sunlight glinting on the hull. A diagonal boundary divides crisis and triumph. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 2,
+      "type": "scene-contrast-bw-vs-color",
+      "concept_ko": "한 장면 대비 2 (컨셉 B, 띠 없는 최소 문구 안). 왼쪽 절반은 밝은 낮의 흑백 보도사진 질감 — 1982년 멕시코 은행 앞에 길게 늘어선 사람들(회색 톤이 또렷하게 보이는 밝은 흑백). 오른쪽 절반은 고채도 컬러 — 1980년대 한국 제철소에서 쇳물이 쏟아지며 주황 불꽃이 튀고, 넓은 창으로 햇빛이 드는 밝은 공장 안에 안전모를 쓴 익명의 한국 작업자가 자신감 있게 서 있다.",
+      "prompt_en": "Photorealistic vertical split image: the left half is a bright daylight black-and-white 1982 press-photo style scene of a long line of worried people outside a bank in Mexico City, grainy with clear mid-gray tones and every face and detail visible; the right half bursts into high-saturation color showing a brightly lit 1980s South Korean steel mill with daylight pouring through tall windows, molten iron pouring from a giant ladle in a shower of bright orange sparks, a confident proud anonymous Korean steelworker in a helmet and heat-resistant uniform standing in the foreground with an attractive likeable face, rim-lit by bright electric blue and golden light. Sharp seam between monochrome past and vivid color. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 3,
+      "type": "three-split-triumph",
+      "concept_ko": "3분할 승패 구도 (밝은 오후). 왼쪽: 금 간 중남미 지도 모양의 부서진 콘크리트 판 위에 쌓인 낡은 외채 서류 더미와 멈춘 공장 굴뚝(빛 바랜 색 + 따뜻한 주황 강조), 왼쪽 위에 작게 멕시코 국기. 가운데: 1980년대 정장을 입은 익명의 60대 라틴계 은행가가 입을 벌린 채 오른쪽을 바라보며 경탄. 오른쪽: 수출 컨테이너선이 맑은 하늘 아래 떠나는 한국 항구(밝은 전기 파랑 + 황금 햇살), 오른쪽 위에 크게 휘날리는 태극기.",
+      "prompt_en": "Photorealistic three-part composition in bright late-afternoon daylight before sunset: on the left, a cracked concrete slab shaped like a map of Latin America with a dusty pile of old debt contract papers and an idle factory smokestack, faded colors with warm glowing orange accents, with a small ordinary Mexican national flag in the upper left corner; in the center, an anonymous Latin American banker in his 60s wearing a 1980s suit, attractive likeable face, jaw-dropped and awestruck, looking toward the right side; on the right, larger and in a heroic low-angle shot, a South Korean port where a giant container ship sails out loaded with export containers under a bright clear sky with golden sunlight and bright electric blue highlights, lens flare and sparks, with a huge Korean flag Taegukgi waving proudly in sunlight in the upper right corner covering more than a quarter of the frame height. Triumphant, victorious, epic cinematic. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 4,
+      "type": "object-closeup",
+      "concept_ko": "실물 클로즈업 1 (밝은 낮). 화면 절반 이상을 채운 구겨진 1980년대 멕시코 페소 지폐 더미가 햇빛 아래 따뜻한 주황 강조색으로, 그 너머 흐릿한 배경에 미국 금리 숫자판이 보인다. 오른쪽 가장자리에 익명의 50대 한국 무역회사 직원이 수출 서류를 쥐고 차분히 정면을 본다(밝은 전기 파랑 강조). 태극기는 생략.",
+      "prompt_en": "Photorealistic extreme close-up in bright daylight of a crumpled stack of early-1980s Mexican peso banknotes filling more than half of the frame, edges worn and scratched, every fold and ink line visible, accented with warm glowing orange tones; in the softly blurred but well-lit background an interest-rate board with red digits; at the right edge, an anonymous Korean trading-company employee in his 50s in a 1980s white shirt and tie, attractive likeable face, calmly holding export shipping documents, accented with bright electric blue light from a sunny window. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 5,
+      "type": "object-closeup",
+      "concept_ko": "실물 클로즈업 2 (해 질 녘 직전의 밝은 빛). 1980년대 한국 조선소 도크의 거대한 선박 뱃머리가 화면 절반 이상을 차지하고, 용접 불꽃이 튀며 긁힌 강철 표면이 밝은 햇살과 전기 파랑 강조색에 번쩍인다. 아래쪽에 익명의 한국 조선 기술자(안전모·작업복)가 팔짱을 끼고 자신감 있게 미소. 하늘은 밝은 파랑에 따뜻한 주황빛 구름 가장자리.",
+      "prompt_en": "Photorealistic heroic low-angle close-up in bright golden-hour light just before sunset of the enormous steel bow of a ship under construction in a 1980s South Korean shipyard dock, filling more than half of the frame, welding sparks showering down, scratched and weathered steel plates gleaming with bright electric blue highlights and warm golden sunlight; in the lower foreground, an anonymous proud Korean shipbuilding engineer in a hard hat and work uniform, attractive likeable face, arms crossed with a confident smile, face fully lit; a bright blue sky with clouds edged in warm glowing orange. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    }
+  ]
+}

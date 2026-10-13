@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "galileo-tides",
+    "titles": [
+      "밀물과 썰물은 왜 하루 두 번일까? (feat. 갈릴레이도 틀렸다?)",
+      "갈릴레이 인생 최대의 실수 (feat. 밀물과 썰물이었다?)",
+      "갈릴레이가 밀물과 썰물을 틀린 이유 (feat. 인생 최대의 실수?)"
+    ],
+    "thumbnail_texts": [
+      "[갈릴레이] 인생 / 최대의 [실수]?",
+      "지동설은 [맞았는데] / 왜 [밀물]은 틀렸을까?",
+      "지동설의 [결정적 증거] / [밀물과 썰물]이 틀렸다"
+    ],
+    "image_concepts": {
+      "A": "손바닥만 한 지구 양쪽으로 부풀어 오른 두 물 더미 (원리 시각화 + 스케일 비틀기)",
+      "B": "급정거한 물 실은 나무배 — 물이 뱃머리로 솟구치는 순간 (단면 + 결정적 순간)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A (원리 시각화 + 스케일 비틀기). 노을 진 서해 갯벌 위 공중에 손바닥만 한 지구가 떠 있고, 달 쪽과 그 반대쪽으로 바닷물이 빛나며 불룩 부풀어 있다. 왼쪽 위에 큰 달. 오른쪽 1/4은 갈릴레이 초상화(퍼블릭 도메인)를 편집에서 얹을 빈자리.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A small Earth the size of a basketball floats in the upper left-center of the frame above a vast orange-lit Korean West Sea mudflat at sunset. The teal ocean on the Earth visibly bulges outward on two opposite sides, one bulge facing a large glowing full moon in the upper left and the other bulge pointing away from it, both outlined with soft glowing light. Faint luminous curved lines connect the moon to the near bulge. The lower part of the image is a simple, slightly darkened mudflat with shallow water channels and no people. Keep the right quarter of the frame as plain open sunset sky and empty mudflat with no objects, leaving room for a portrait to be added later."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A 변형 (투명 투시). 반투명하게 비친 지구 안쪽이 보이고, 겉의 바다층이 달 방향과 반대 방향 두 곳에서만 두껍게 부풀어 있다. 지구 아래로 작은 한반도 서해안이 보인다. 오른쪽 1/4은 초상화 자리로 비움.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A large semi-transparent glass-like Earth fills the upper left-center of the frame, its warm orange core faintly visible inside. The outer teal ocean layer is stretched into an oval, thick and glowing on the side facing a bright moon at the far left and equally thick on the opposite far right side, thin at the top and bottom. The Korean peninsula's west coast is visible on the globe with a bright highlight on its mudflats. The bottom of the image fades into a simple dark navy space background. Keep the right quarter of the frame as plain dark navy space with no objects, leaving room for a portrait to be added later."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B (단면 + 결정적 순간). 17세기 베네치아 석호에서 민물을 가득 실은 나무 운반선이 얕은 곳에 걸려 급정거하는 순간, 배를 칼로 자른 단면 안에서 물이 뱃머리 쪽으로 쏠려 솟구친다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A 17th-century wooden Venetian fresh-water barge is shown in a clean cutaway cross-section, frozen at the instant it jolts to a stop on a shallow sandbank in the Venice lagoon. Inside the hull, the teal fresh water it carries surges forward and climbs high up against the bow in a dramatic frozen wave, while the stern side is nearly empty. Venetian bell towers and domes glow orange in the sunset background. The lower part of the image is calm, slightly darkened lagoon water with no people."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 변형 (시간 겹치기). 화면 왼쪽 절반은 17세기 베네치아의 물 실은 배와 출렁이는 물, 오른쪽 절반은 지금 서해 갯벌로 밀물이 밀려드는 풍경. 경계는 물결로 자연스럽게 이어진다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split scene joined by one continuous flowing wave: the left half shows a 17th-century wooden fresh-water barge in the Venice lagoon with water sloshing high toward its bow under a warm orange sky, and the right half shows a present-day Korean West Sea mudflat where the incoming tide rushes across the wet flats in glowing teal streams, with a few empty clam baskets left on the mud. The same wave crest flows from the barge's water into the incoming tide across the middle. The bottom of the image is a simple darkened stretch of wet mudflat with no people."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 (내려다보기). 진도 회동리와 모도 사이 바다가 갈라져 드러난 바닷길을 높은 하늘에서 내려다본 조감. 양옆 바닷물은 빛나는 청록 띠로 물러나 있고, 하늘 위 보름달이 크게 떠 있다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high bird's-eye view of the Jindo sea-parting road in South Korea, a long curved strip of exposed sand and rocks about 40 meters wide stretching across the sea between a green island and the mainland coast. The seawater on both sides has pulled back and glows in bright teal bands, with luminous ripples showing the water's retreat. A huge full moon hangs in the upper corner of the sky, casting warm golden light on the path. The lower part of the image is simple dark sea with no people and no boats."
+    }
+  ]
+}
