@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "project": "jeju-water-age",
+    "titles": [
+      "제주 생수는 31년 전 내린 비였다 (feat. 물의 나이 재는 법)",
+      "지금 마신 제주 생수, 31년 전 비였다 (feat. 18년이 아니었다?)",
+      "물에도 나이가 있다 (feat. 제주 생수는 몇 살?)"
+    ],
+    "thumbnail_texts": [
+      "{생수}는 퍼 올린 물인데 / 왜 [31년] 전 비일까",
+      "{제주}는 비가 많은데 / 왜 개울은 [말라] 있을까",
+      "{빗물}은 금방 스며드는데 / 왜 [31년]이나 걸릴까"
+    ],
+    "image_concepts": {
+      "A": "한라산 단면 속 31년 물길 — 고지대 빗방울이 용암층 틈을 타고 취수원까지 내려가는 빛나는 물길",
+      "B": "시간 겹치기 — 30년 전 한라산에 내리는 비와 지금 손에 든 생수병이 빛나는 물줄기로 이어짐"
+    },
+    "scene_types": "A 단면 · D 내려다보기 · B 시간 겹치기 · C 스케일 비틀기 · F 원리 시각화 — 5개 모두 다른 유형(단면 계열 1개)",
+    "rules": "생수병은 라벨·로고 없는 투명 병. 브랜드 이름·제품 사진 금지. 판타지 지하 공간(동굴 정자·폭포) 금지 — 대본에 나온 지층(용암층·송이층·얇은 퇴적층)만. 아래 40%는 단순하고 약간 어둡게"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-semi-realistic",
+      "scene_type": "A 단면",
+      "concept_ko": "컨셉 A. 한라산을 세로로 잘라 낸 단면. 꼭대기 근처 고지대에 내린 빗방울이 여러 겹의 검은 현무암 용암층 사이 붉은 송이층 틈을 타고 빛나는 청록 물줄기가 되어 비스듬히 내려가, 산 중턱 아래 취수 관정에 닿는다. 겉 지표에는 바싹 마른 하천 바닥.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A giant cross-section of Hallasan volcano on Jeju Island sliced vertically like a cake, filling the upper 60% of the frame. Raindrops falling on the high slopes near the summit crater seep into the ground and become a single glowing teal stream that winds diagonally down through stacked layers of dark grey basalt lava flows separated by thin reddish-orange scoria layers and thin brown sediment bands, ending at a slender vertical well pipe on the mid-slope. On the surface above, a dry riverbed of black volcanic boulders with no water. Clear blue sky with scattered rain clouds, lower part of the image simple dark rock strata."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-semi-realistic",
+      "scene_type": "D 내려다보기",
+      "concept_ko": "컨셉 A 변형. 제주 섬 전체를 하늘에서 비스듬히 내려다본 조감. 한라산에서 사방으로 뻗은 하천들은 회색으로 말라 있고, 땅이 반투명하게 비쳐 그 아래로 청록 물길 띠들이 빛나며 해안 쪽으로 천천히 흐른다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A dramatic high-angle aerial view of the whole oval-shaped Jeju Island with Hallasan mountain in the center, rain clouds gathered over the summit. The many streams radiating from the mountain are dry grey stony channels, while beneath the semi-transparent green surface glowing teal ribbons of underground water flow slowly from the high slopes toward the coast. Deep blue ocean surrounding the island, warm orange sunlight on the mountain slopes, the lower part of the frame calm dark sea."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "scene_type": "B 시간 겹치기",
+      "concept_ko": "컨셉 B. 화면을 좌우로 나눈 시간 겹치기. 왼쪽은 따뜻한 노을빛 속 30년 전 한라산 숲에 비가 내리는 장면, 오른쪽은 지금 편의점 냉장고 앞에서 손에 든 라벨 없는 생수병. 왼쪽 빗방울에서 나온 빛나는 물줄기가 경계를 넘어 오른쪽 생수병 안으로 이어진다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split-screen composition showing two moments in time. Left half: rain falling on the misty forested slopes of Hallasan mountain decades ago, painted in warm faded orange and sepia tones like an old memory. Right half: today, a hand holding a clear unlabeled plastic water bottle in front of a brightly lit convenience store fridge, in cool vivid teal tones. A single glowing stream of water flows from the raindrops on the left across the dividing line and pours into the bottle on the right. Only the hand is visible, no face, lower part of the frame softly darkened."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "scene_type": "C 스케일 비틀기",
+      "concept_ko": "컨셉 B 변형. 거대한 투명 생수병 하나가 화면을 채우고, 병 속 물 안에 한라산 미니어처가 통째로 들어 있다. 병 위쪽 산꼭대기엔 작은 비구름이 비를 뿌리고, 산 속으로 스민 물이 층층이 내려가 병 바닥에 고인다. 옆에 아주 작은 사람이 올려다본다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A towering clear unlabeled water bottle, as tall as a building, stands in the center of the frame. Inside the bottle sits an entire miniature Hallasan volcano with green forested slopes and a tiny summit crater; a small rain cloud floats inside the top of the bottle sprinkling rain on the peak, and the water visibly seeps down through the mountain's dark rock layers and collects as glowing teal water at the bottom of the bottle. A tiny person stands at the base looking up in curiosity. Bright sky background, lower area plain and slightly dark."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "scene_type": "F 원리 시각화",
+      "concept_ko": "와일드카드. 원리 시각화 — 하늘을 가로지르는 시간의 띠. 위쪽 하늘에 1960년대부터 지금까지 연도별로 색이 달라지는 빛의 띠가 흐르고, 그 띠에서 떨어진 빗방울마다 그해의 색이 묻어 있다. 빗방울들이 땅속으로 들어가 여러 색이 섞인 물이 되어 아래 관정으로 모인다. 글자·숫자 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Above the green slopes of Hallasan mountain, a wide glowing ribbon of light sweeps across the sky, gradually shifting color from deep orange on the left to bright teal on the right as if marking the passing years. Raindrops falling from different parts of the ribbon each carry its color, and as they sink into the dark volcanic ground they blend together into a single swirling multicolored underground stream flowing toward a small well at the foot of the mountain. Magical yet scientific mood, no symbols, lower part of the frame dark earth."
+    }
+  ]
+}

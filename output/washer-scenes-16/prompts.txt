@@ -1,0 +1,467 @@
+// SCENE 001: 2018년 1월 23일 백악관 집무실에서 트럼프 대통령이 삼성과 LG 등 외국산 세탁기에 관세를 매기는 명령에 서명한다.
+{
+  "subject": {
+    "name": "President Donald Trump",
+    "appearance": "Adult man in a dark navy business suit, white shirt, and red tie, with his signature blond-gold hair",
+    "expression": "Serious, resolute and focused",
+    "action": "Seated at the Resolute Desk, signing an official presidential order imposing tariffs on imported washing machines",
+    "detail": "A formal document and a fountain pen on the desk, with a model washing machine and Samsung and LG branded appliance materials displayed nearby, and adult aides and officials in business attire standing behind him"
+  },
+  "environment": {
+    "location": "The Oval Office of the White House, Washington, D.C.",
+    "details": "Gold drapes, the presidential seal woven into the carpet, an American flag and the presidential flag, historic portraits on the walls, and a polished Resolute Desk"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium shot at eye level with a 35mm lens, shallow depth of field, slight three-quarter angle focused on the signing hand and the document",
+    "time": "January 23, 2018, midday",
+    "lighting": "Soft natural daylight from the tall windows blended with warm interior lighting, gentle highlights on the desk and the pen",
+    "atmosphere": "Formal, historic and weighty, in the style of an official press photograph of a policy signing",
+    "quality": "Ultra-detailed, sharp focus, realistic skin and fabric textures, editorial news photography quality, 8K"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the signing figure and desk placed slightly off-center, the washing machine display and the standing adult officials balancing the frame, and the flags and drapes filling the background edges"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 002: 이 관세를 요청한 건 100년 넘게 미국에서 세탁기를 만들어 온 삼성과 LG의 경쟁사 월풀이었다.
+{
+  "subject": {
+    "name": "Whirlpool washing machine",
+    "appearance": "A classic white American-made front-loading washing machine with a polished chrome door ring and a vintage-style control panel, standing as a symbol of a century-old domestic manufacturer",
+    "action": "Stands alone at the center of a quiet factory showroom floor, facing two sleek modern competitor washing machines, one in silver-gray and one in graphite black, placed slightly out of focus across from it",
+    "detail": "A rolled-up document stamped with an official seal rests on a small wooden table beside the white machine, hinting at a tariff petition"
+  },
+  "environment": {
+    "location": "An empty American appliance manufacturing showroom with a polished concrete floor",
+    "details": "Rows of washing machines recede into the background, vintage black-and-white photographs of early 20th-century assembly lines hang on the brick walls, and a small American flag stands near the table"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Low-angle medium-wide shot, 35mm lens, shallow depth of field with the white machine in sharp focus",
+    "time": "Late afternoon",
+    "lighting": "Warm golden sunlight streaming through tall industrial windows, with soft cool fill light on the competitor machines for contrast",
+    "atmosphere": "Tense, quiet, and strategic, evoking a corporate rivalry and trade dispute",
+    "quality": "Ultra-detailed, 8K resolution, cinematic color grading, crisp reflections on chrome and enamel surfaces"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the white machine placed on the left third, the two competitor machines on the right two-thirds, and the long showroom floor leading the eye across the frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 003: 2025년 1월부터 11월까지 미국 주요 매장의 세탁기와 건조기 합산 판매 대수에서 가장 많이 팔린 브랜드는 LG였다.
+{
+  "subject": {
+    "name": "LG washer and dryer pair",
+    "appearance": "A sleek modern front-load washing machine and matching dryer in matte graphite finish with digital control panels, stacked side by side as a premium laundry set",
+    "action": "Stand proudly at the center of a bright American appliance showroom as the top-selling laundry brand",
+    "detail": "A subtle sales-leader display card beside the units suggests best-selling status without any legible text or readable logos"
+  },
+  "environment": {
+    "location": "A large, modern big-box appliance retail store in the United States",
+    "details": "Rows of neatly arranged washers and dryers recede into the background on polished concrete floors, with overhead signage blurred and promotional displays softly out of focus; the featured pair is positioned in the foreground on a raised display platform, and the aisles are empty of shoppers"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level wide shot, 35mm lens, f/4 aperture, shallow depth of field with the featured pair in sharp focus and the background rows softly blurred",
+    "time": "Midday, during regular store hours",
+    "lighting": "Bright, even commercial overhead lighting with soft highlights reflecting off the glossy appliance doors and floor",
+    "atmosphere": "Confident, clean, and aspirational, conveying market leadership and trust",
+    "quality": "Ultra-detailed, high resolution, commercial product photography, crisp textures, natural color grading"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the washer and dryer pair centered slightly left of the frame and receding rows of appliances extending across the right side to fill the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 004: 관세가 붙기 전부터 고가 드럼세탁기 시장에서 선두를 다투던 건 LG와 삼성이었다.
+{
+  "subject": {
+    "name": "Two premium front-loading drum washing machines",
+    "appearance": "One sleek graphite-black unit and one polished silver-white unit with large chrome-rimmed glass doors and illuminated digital control panels, both unbranded with no visible logos or text",
+    "action": "Standing side by side as equal rivals, their glass doors catching reflected highlights",
+    "detail": "Subtle condensation-free glass, brushed metal control knobs, and softly glowing display panels suggesting high-end technology"
+  },
+  "environment": {
+    "location": "Upscale appliance showroom with polished concrete floors",
+    "details": "Rows of premium appliances fade into the background, with soft reflections on the glossy floor, minimalist white display plinths, and a large window showing a distant port with stacked shipping containers to hint at import tariffs"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level low-angle shot, 50mm lens, shallow depth of field with the two machines in sharp focus",
+    "time": "Late afternoon",
+    "lighting": "Soft directional key light from the window with warm rim highlights and gentle fill, producing crisp specular reflections on the glass doors",
+    "atmosphere": "Competitive, confident, and premium, with a quiet sense of market rivalry",
+    "quality": "Ultra-detailed, 8K resolution, commercial product photography, natural color grading, clean composition"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the two washing machines placed side by side across the central third of the frame, leaving the showroom depth and the port window visible on the right for balanced horizontal space"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 005: 관세까지 매겨 막으려던 세탁기를 미국 사람들은 왜 계속 샀는지 묻는 도입부.
+{
+  "subject": {
+    "name": "Front-loading washing machine",
+    "appearance": "Sleek modern stainless-white front-loading washing machine with a glowing digital control panel and a chrome-rimmed glass door",
+    "action": "Stands as the focal point in a bright American appliance showroom, tempting shoppers who are absent from the frame",
+    "detail": "A bold red price tag with a tariff surcharge notice hangs on the door handle, with a stack of sealed import shipping crates and a stamped customs document resting beside it"
+  },
+  "environment": {
+    "location": "Large American big-box appliance retail store aisle",
+    "details": "Rows of competing washers and dryers line polished concrete floors, with overhead signage, promotional banners, and a faint U.S. flag display in the distant background, with no people present anywhere"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Low-angle medium shot, 35mm lens, shallow depth of field, washing machine centered with rule-of-thirds leading lines from the aisle",
+    "time": "Midday",
+    "lighting": "Bright overhead retail fluorescent lighting with soft highlights reflecting off the chrome and glass door",
+    "atmosphere": "Curious, quietly provocative, journalistic documentary mood posing a question about consumer choice despite tariffs",
+    "quality": "Ultra-detailed, high resolution, sharp focus on the subject, natural color grading, editorial photography quality"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the washing machine placed on the left third, the receding aisle and price signage filling the right two thirds for cinematic breadth"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 006: 2015년 말 중국산을 겨냥한 두 번째 청원에 월풀 사장 마크 비처는 연쇄 덤핑을 막는 진전이라고 했고 이듬해 초 관세가 확정되며 세율은 가장 낮은 회사도 30%를 넘었다.
+{
+  "subject": {
+    "name": "Corporate executive",
+    "appearance": "Middle-aged adult man in a tailored dark navy suit and white shirt, composed and professional",
+    "expression": "Calm, satisfied and resolute, conveying measured confidence",
+    "action": "Standing at a podium delivering a statement to the press about a trade tariff decision",
+    "detail": "A printed document with a bold upward-trending tariff chart rests on the podium beside a cluster of microphones"
+  },
+  "environment": {
+    "location": "Modern corporate press briefing room in the United States, early 2016",
+    "details": "Rows of adult journalists with notebooks and cameras in the soft-focus background, rows of new stainless steel washing machines and home appliances displayed along one wall, a screen behind the podium showing an abstract chart with a percentage figure above 30%"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium shot at eye level, 50mm lens, shallow depth of field with sharp focus on the speaker",
+    "time": "Late morning, winter 2016",
+    "lighting": "Soft diffused key light from the front with cool window light from the side and subtle rim light separating the subject from the background",
+    "atmosphere": "Serious, official and newsworthy, reflecting an industrial trade policy victory",
+    "quality": "Ultra-detailed, high resolution, natural skin texture, editorial news photography quality"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the speaker placed on the left third, the podium and microphones in the foreground, and the press corps and appliance display filling the right two thirds to use the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 007: 중국산이 줄어든 빈자리는 태국과 베트남 공장이 채웠고 2017년 두 나라에서 미국으로 들어간 세탁기는 합쳐서 330만 대에 가까웠다.
+{
+  "subject": {
+    "name": "Stacked washing machines",
+    "appearance": "Rows of brand-new white front-loading and top-loading washing machines in sealed factory packaging, stacked on pallets",
+    "action": "Being loaded by forklift into standardized shipping containers bound for the United States",
+    "detail": "Cardboard cartons and crates bear small flag-colored shipping labels suggesting Thailand and Vietnam origins, with no readable text"
+  },
+  "environment": {
+    "location": "Busy export port container terminal in Southeast Asia, adjacent to a large appliance manufacturing facility",
+    "details": "Towering stacks of multicolored shipping containers, gantry cranes against the skyline, a long assembly-line warehouse with open bay doors, and a cargo ship docked in the background; a few adult dock workers in hard hats and high-visibility vests operate forklifts in the distance"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens, slightly low angle, deep depth of field with leading lines from container rows toward the ship",
+    "time": "Late afternoon, golden hour",
+    "lighting": "Warm low-angle sunlight with soft long shadows and gentle rim light on the white appliances",
+    "atmosphere": "Industrious, bustling, a sense of global trade and expanding supply chains",
+    "quality": "Ultra-detailed, high resolution, sharp focus, natural color grading, editorial documentary photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the stacked washing machines and forklift in the left-center foreground and the container ship and cranes stretching across the horizontal background to fill the wide frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 008: 월풀 회장 제프 페티그는 미국 노동자와 소비자 모두의 승리라고 했고 오하이오 클라이드 공장에 정규직 200명을 더 뽑겠다는 발표도 함께 나왔다.
+{
+  "subject": {
+    "name": "Whirlpool executive",
+    "appearance": "Adult male corporate executive in his fifties, wearing a tailored navy suit and open-collar shirt, standing confidently at a podium",
+    "expression": "Proud, confident and optimistic, with a subtle smile",
+    "action": "Delivering an announcement about new full-time hiring, gesturing with one open hand toward the audience",
+    "detail": "Behind him, adult factory workers in safety vests and hard hats applaud, and a banner reads '200 New Full-Time Jobs'"
+  },
+  "environment": {
+    "location": "Inside a modern home appliance manufacturing plant in Clyde, Ohio",
+    "details": "Gleaming assembly line with rows of new washing machines and dryers, steel beams overhead, an American flag hanging nearby, and a small press-conference setup with microphones and a company logo backdrop"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level medium shot, 35mm lens, shallow depth of field with the executive sharp and the factory softly blurred behind him",
+    "time": "Late morning",
+    "lighting": "Bright natural light streaming through high factory windows mixed with clean overhead industrial lighting, soft highlights on metal surfaces",
+    "atmosphere": "Optimistic, celebratory and hopeful, conveying a win for American workers and consumers",
+    "quality": "Ultra-detailed, editorial news photography, sharp focus, natural colors, high resolution"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the executive placed slightly off-center on the left third, and the applauding workers and the assembly line extending across the right side to fill the frame"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 009: 같은 달 최고경영자 마크 비처도 세탁기 관세가 월풀에 긍정적인 촉매가 될 거라고 했지만 반년 뒤 그의 말은 크게 달라진다.
+{
+  "subject": {
+    "name": "Mark Bitzer, adult corporate chief executive",
+    "appearance": "Middle-aged man in a tailored dark navy suit, white shirt and subtle tie, composed and professional",
+    "expression": "Confident and measured, with a slight hint of optimism that foreshadows later doubt",
+    "action": "Standing at a podium during an earnings call presentation, gesturing calmly while speaking about washing machine tariffs",
+    "detail": "A modern white front-loading washing machine on display beside him, with a financial chart on a screen behind showing a rising then wavering trend line"
+  },
+  "environment": {
+    "location": "Modern corporate conference hall at a home appliance company headquarters",
+    "details": "Polished stage with a minimalist podium, a large LED screen with abstract financial graphs, a row of gleaming washing machines along the side, and blurred adult executives and analysts seated in the background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium shot at eye level, 50mm lens, shallow depth of field with the subject sharply in focus",
+    "time": "Daytime, mid-morning",
+    "lighting": "Soft key light on the subject with cool ambient light from the LED screen and subtle rim light separating him from the background",
+    "atmosphere": "Professional, tense, and quietly dramatic, suggesting a business narrative where optimism will later reverse",
+    "quality": "Ultra-detailed, high resolution, natural skin texture, cinematic color grading, editorial news photography look"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the executive placed on the left third, the washing machine and financial screen filling the right two thirds, with negative space for balance"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 010: 공장을 넘겨받고 반년 만에 나온 첫 세탁기는 관세 명령 서명 11일 전, 관세 시행 26일 전이었고 삼성의 첫 미국 생활가전 공장이었다.
+{
+  "subject": {
+    "name": "First washing machine off the line",
+    "appearance": "A brand-new, gleaming white front-loading washing machine with a polished stainless steel door ring and a modern digital control panel",
+    "action": "Rolling off the end of the assembly line as the very first finished unit, flanked by a small group of adult factory workers and managers in clean uniforms and safety glasses who watch with quiet pride",
+    "detail": "A plain blank banner and a simple calendar board in the background hint at the tight timeline before tariffs take effect, with no legible text or logos"
+  },
+  "environment": {
+    "location": "Interior of a large, newly taken-over American home appliance manufacturing plant",
+    "details": "Long conveyor assembly lines, robotic arms, stacked cardboard-packaged appliances, polished concrete floors with yellow safety markings, and high steel rafters with skylights"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Full-frame DSLR, 35mm wide-angle lens at f/4, slightly low angle with the washing machine in the foreground and the factory line receding into the background",
+    "time": "Mid-morning",
+    "lighting": "Soft natural daylight streaming through skylights mixed with cool overhead industrial LED lighting, producing gentle highlights on the white enamel and steel surfaces",
+    "atmosphere": "Milestone, anticipation, and quiet tension, a hopeful new beginning under looming trade pressure",
+    "quality": "Ultra-detailed, sharp focus, realistic textures, professional editorial photography, 8K"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the washing machine placed on the left-third line and the long assembly line stretching across the right two-thirds to emphasize the factory's scale"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 011: 첫 라인은 드럼세탁기였고 두 달 뒤 통돌이 라인을 하나 더 돌렸으며 그해 목표는 100만 대 생산이었다.
+{
+  "subject": {
+    "name": "Washing machine assembly line",
+    "appearance": "Rows of gleaming white front-loading drum washing machines moving along a conveyor, with a second, newer line of top-loading agitator washing machines visible beside it",
+    "action": "Finished units glide steadily down the conveyor belts in rhythmic procession, conveying relentless production momentum",
+    "detail": "A large illuminated digital production board above the lines displays a target of 1,000,000 units for the year"
+  },
+  "environment": {
+    "location": "Vast modern appliance manufacturing plant",
+    "details": "Two parallel production lines, one established and one recently added, with robotic arms, overhead steel gantries, stacked cardboard packaging, yellow safety markings on a polished concrete floor, and a few adult technicians in hard hats and uniforms inspecting units in the distance"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens, elevated three-quarter view along the converging conveyor lines, deep depth of field",
+    "time": "Daytime during an active factory shift",
+    "lighting": "Bright cool-white industrial overhead lighting with soft reflections on glossy white appliance surfaces",
+    "atmosphere": "Productive, ambitious, and disciplined, evoking industrial growth and achievement",
+    "quality": "Ultra-detailed, sharp focus, high dynamic range, cinematic color grading, 8K resolution"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape framing with the two production lines stretching diagonally across the frame toward a vanishing point, and the target display placed in the upper third"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 012: LG는 1998년부터 벨트 대신 모터가 세탁통을 직접 돌리는 인버터 DD모터를 세탁기에 적용했다고 설명한다.
+{
+  "subject": {
+    "name": "LG inverter direct drive washing machine",
+    "appearance": "Modern front-loading washing machine in a clean white and silver finish with a round glass door and a minimalist control panel",
+    "action": "Stands in the foreground as the focal point, with a cutaway view revealing the inverter direct drive motor mounted directly to the back of the drum, with no belt or pulley system",
+    "detail": "A subtle vintage 1998 belt-driven washing machine design sits faintly in the background for comparison, with a visible rubber belt and pulley contrasting against the sleek direct motor"
+  },
+  "environment": {
+    "location": "Bright, tidy modern laundry room with a technical showroom feel",
+    "details": "Light neutral walls, a folded white towel stack on a shelf, a clean tiled floor, and a soft engineering-display backdrop with minimal blueprint-style motor diagrams on a wall panel"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Medium shot at eye level with a 50mm lens, shallow depth of field, sharp focus on the motor and drum cutaway",
+    "time": "Midday",
+    "lighting": "Soft diffused natural window light combined with crisp studio-style accent lighting that highlights the metallic motor and drum surfaces",
+    "atmosphere": "Clean, innovative, trustworthy, and technologically refined",
+    "quality": "Ultra-detailed, high-resolution commercial product photography, realistic materials and reflections, 8K"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Landscape composition with the washing machine placed slightly off-center on the right third, leaving horizontal space on the left for the background belt-driven comparison and negative space"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 013: 이 모터는 2023년 초까지 누적 생산량이 1억 대를 넘은 세탁기 핵심 부품이다.
+{
+  "subject": {
+    "name": "Washing machine motor",
+    "appearance": "A compact, precision-engineered brushless washing machine motor with copper windings, a metallic stator and rotor, and a polished steel shaft",
+    "action": "Rests as the centerpiece on a clean workbench, presented as a landmark component with over 100 million units produced by early 2023",
+    "detail": "Subtle engraved markings and fine machining details on the housing convey industrial precision and mass-production heritage"
+  },
+  "environment": {
+    "location": "Modern, immaculate home appliance manufacturing facility",
+    "details": "Softly blurred background of an automated assembly line with rows of identical motors and washing machine drums on conveyors, clean white and steel surfaces, no people in the frame"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Macro product shot, 85mm lens at f/2.8, shallow depth of field, slight low angle for a monumental feel",
+    "time": "Daytime, interior factory lighting",
+    "lighting": "Soft diffused key light with crisp rim highlights along the metal edges and warm reflections on the copper windings",
+    "atmosphere": "Proud, technological, and industrious, conveying scale and reliability",
+    "quality": "Ultra-detailed, 8K resolution, sharp focus on the motor, clean commercial industrial photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the motor placed on the left-third line and the blurred assembly line stretching across the right side to suggest massive production scale"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 014: 2024년 독일의 밀레는 본사 귀터슬로에서 조립하던 가정용 세탁기를 2027년까지 단계적으로 폴란드 공장으로 옮기기로 했다.
+{
+  "subject": {
+    "name": "Miele washing machine assembly line",
+    "appearance": "Rows of white and silver front-loading household washing machines in various stages of assembly, with the machines being moved along conveyors",
+    "action": "Half of the assembly line stands quiet and empty while a few finished washing machines on a conveyor roll toward a loading dock, symbolizing production moving abroad",
+    "detail": "A single adult engineer in a white hard hat and gray work jacket stands at the edge of the line, holding a tablet and watching the last machines pass, seen from behind"
+  },
+  "environment": {
+    "location": "Interior of a large modern German appliance factory in Gütersloh, Germany, with a loading dock opening onto a transport truck bound for Poland",
+    "details": "Clean concrete floors with yellow safety markings, overhead steel trusses, stacked cardboard shipping crates, robotic arms, and a European freight truck backed up to the open dock door, with a small Polish flag sticker on a shipping crate"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens at eye level, deep depth of field with leading lines along the conveyor toward the loading dock",
+    "time": "Late afternoon in 2024",
+    "lighting": "Cool fluorescent overhead lights mixed with warm golden sunlight streaming through the open dock door, creating long soft shadows",
+    "atmosphere": "Quiet, transitional and slightly melancholic, conveying industrial change and relocation of production",
+    "quality": "Ultra-detailed, 8K resolution, sharp focus, natural color grading, editorial documentary photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the conveyor line running left to right across the frame, the empty assembly stations in the left third, and the loading dock and truck in the right third"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 015: 보쉬와 지멘스 브랜드 가전을 만드는 비에스에이치도 2025년 브란덴부르크주 나우엔의 세탁기 생산을 2027년에 끝내고 그 물량을 유럽의 다른 공장에 맡기기로 했다.
+{
+  "subject": {
+    "name": "Washing machine production line",
+    "appearance": "Rows of white front-loading washing machines with sleek, neutral-toned housings, some unfinished and stacked on conveyor pallets",
+    "action": "A final batch of washing machines moves along a conveyor toward the end of the line, with a few units wrapped in protective film and ready for shipment",
+    "detail": "A single adult factory technician in a hard hat and high-visibility vest stands at a distance, calmly inspecting a unit with a tablet, conveying a quiet sense of transition"
+  },
+  "environment": {
+    "location": "Large modern appliance manufacturing plant in Nauen, Brandenburg, Germany",
+    "details": "Vast factory hall with steel roof trusses, clean polished concrete floors, yellow safety markings, robotic arms standing idle, and partially empty assembly stations hinting at an approaching closure; stacked shipping crates and pallets near loading bay doors in the background"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Wide-angle 24mm lens, eye-level perspective with deep depth of field, slight leading lines along the conveyor",
+    "time": "Late afternoon",
+    "lighting": "Soft golden daylight streaming through high clerestory windows mixed with cool overhead industrial LED lighting",
+    "atmosphere": "Reflective, quietly melancholic, a sense of an industrial era winding down and production shifting elsewhere",
+    "quality": "Ultra-detailed, 8K resolution, sharp focus, natural color grading, editorial documentary photography"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal landscape composition with the conveyor line running diagonally across the frame, the lone technician placed on the right third, and the empty stations stretching into the left background to emphasize the scale of the hall"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
+
+// SCENE 016: 집에 있는 세탁기가 어느 회사 제품인지 회사 이름 하나만 댓글로 남겨 달라는 마무리 장면.
+{
+  "subject": {
+    "name": "Front-loading washing machine",
+    "appearance": "Modern white front-loading washing machine with a round glass door and a blank, unbranded control panel",
+    "action": "Stands idle as the clear focal point of the frame, door closed and display softly glowing",
+    "detail": "No visible logo or brand name, leaving the manufacturer a mystery to invite viewer curiosity"
+  },
+  "environment": {
+    "location": "Cozy, tidy home laundry room",
+    "details": "Folded towels on a shelf, a wicker laundry basket, a small potted plant, and a neutral tiled wall, with no people present"
+  },
+  "style": {
+    "type": "Photorealistic",
+    "camera": "Eye-level medium shot, 35mm lens, shallow depth of field with the machine sharply in focus",
+    "time": "Late afternoon",
+    "lighting": "Soft warm natural window light with gentle highlights on the glass door and a subtle glow from the control panel",
+    "atmosphere": "Calm, inviting, and homey, with a closing-scene feel that quietly prompts viewer interaction",
+    "quality": "Ultra-detailed, high resolution, crisp textures, natural color grading"
+  },
+  "format": {
+    "aspect_ratio": "16:9",
+    "orientation": "Horizontal widescreen composition with the washing machine placed slightly off-center on the rule of thirds, and the laundry room details balancing the remaining space"
+  },
+  "constraints": {
+    "people": "All people shown are adults; absolutely no children, no minors, no teenagers, no school-age figures anywhere in the frame."
+  }
+}
