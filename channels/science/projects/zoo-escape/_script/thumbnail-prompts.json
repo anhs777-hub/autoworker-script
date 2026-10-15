@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "project": "zoo-escape",
+    "titles": [
+      "동물원에서 가장 많이 탈출하는 동물 (feat. 원숭이일까?)",
+      "동물원 탈출 1위는 원숭이가 아니었다 (feat. 뉴스엔 왜 맹수만?)",
+      "늑대 늑구는 어떻게 동물원을 나왔을까 (feat. 탈출 1위는 따로 있다?)"
+    ],
+    "thumbnail_texts": [
+      "동물원 탈출 [1위]는 / [원숭이]가 아니었다",
+      "[140년] 기록을 세 보니 / 탈출 1위는 [날아서] 나갔다",
+      "뉴스엔 [맹수]만 나오는데 / 진짜 1위는 [따로] 있다"
+    ],
+    "image_concepts": {
+      "A": "D 내려다보기 + C 스케일 비틀기(추천 · 문구 1·2용). 손바닥만 한 미니어처 동물원을 위에서 내려다본 장면 — 우리 안의 원숭이·사자는 그대로 위를 올려다보고, 새 떼만 주황 빛 띠를 그리며 동물원 밖으로 흘러 나간다.",
+      "B": "G 결정적 순간(문구 1·3용, 레퍼 006 「담을 넘는 순간」 L2 차용). 철창을 움켜쥔 채 의기양양한 원숭이 바로 위로, 분홍 플라밍고 한 마리가 동물원 담을 넘어 날아오르는 순간."
+    },
+    "edits": [
+      "날아가는 새 떼에 빨간 손그림 동그라미 + 흰 손글씨 「거의 절반」 (호주 140년 기록 46%)",
+      "원숭이 옆 말풍선 「나 아니야?」",
+      "플라밍고에 빨간 화살표 + 흰 손글씨 「17년째 안 돌아옴」 (캔자스 플라밍고 492, 2005→2022 목격)"
+    ],
+    "note": "반실사 일러스트(thumbnail-strategy.json brand.style_prefix 앞에 붙임). 장면 유형 D+C · G · B(좌우 분할) · E · F 유머 5가지. 사살·총·피·부상 장면 금지, 실존 인물 없음"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "A-top-down-miniature",
+      "concept_ko": "A 내려다보기 + 스케일 비틀기(추천). 손바닥만 한 미니어처 동물원을 위에서 내려다본 장면 — 원숭이 우리·사자 우리 안의 동물은 위를 올려다보고, 조류장 한쪽에서 새 떼만 주황 빛 띠를 그리며 담 밖으로 흘러 나간다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high bird's-eye view of a detailed miniature zoo, small enough to look like a tabletop model, filling the upper part of the frame: green lawns, winding paths, a monkey enclosure, a lion enclosure and a tall mesh aviary. Inside their enclosures a monkey and a lion stand still and look straight up, while from the aviary a long flock of small colorful birds streams out over the outer wall, their path drawn as a glowing warm orange ribbon curving away into a teal sky. Curious, slightly humorous mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 2,
+      "type": "B-decisive-moment",
+      "concept_ko": "B 결정적 순간. 화면 앞쪽에 철창을 두 손으로 움켜쥔 채 의기양양한 표정의 원숭이, 그 바로 위로 분홍 플라밍고 한 마리가 날개를 활짝 펴고 동물원 회색 담장을 넘어 날아오르는 순간.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. In the foreground, a monkey grips the bars of its zoo enclosure with both hands and puts on a smug, confident expression, as if it were the great escape artist. Directly above and behind it, a bright pink flamingo with wings spread wide is caught at the exact moment it lifts off over the top of a tall grey zoo wall into a clear teal sky, warm orange sunlight on its feathers. The monkey has not noticed the flamingo. Playful, surprising mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 3,
+      "type": "A-split-news-vs-record",
+      "concept_ko": "A 좌우 분할(문구 3용). 왼쪽 절반은 도시 차도 한가운데를 달리는 얼룩말과 멈춰 선 차들(뉴스가 되는 탈출), 오른쪽 절반은 조용한 동물원 조류장 지붕 그물의 작은 틈으로 작은 새 한 마리가 아무도 모르게 빠져나가는 장면(장부에만 남는 탈출).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split composition divided vertically down the middle. On the left half, a zebra gallops down the middle of a busy Korean city road between stopped cars and apartment buildings, dramatic and loud, lit in warm orange. On the right half, a calm, quiet zoo aviary under soft teal light, where one small colorful bird slips silently out through a tiny gap in the roof netting while no one notices. The contrast between the noisy left scene and the silent right scene is the focus. Intriguing, curious mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No people's faces, no text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 4,
+      "type": "B-see-through-aviary",
+      "concept_ko": "B 투명 투시(문구 2용). 거대한 돔형 조류장을 반투명하게 그려 안의 새들이 보이고, 지붕 그물 한 칸이 느슨하게 벌어진 자리로 홍학·앵무 몇 마리가 줄지어 빠져나간다. 아래 구석에 작은 사육사가 그물채를 들고 올려다본다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A huge dome-shaped zoo aviary drawn semi-transparent like a glass model, so the many colorful birds inside are visible, filling the upper two thirds of the frame. At the very top, one panel of the roof mesh has come loose and bulges open, and a short line of pink flamingos and bright green parrots is flying out through that gap into the teal sky, the opening glowing warm orange. In a lower corner, a tiny zookeeper seen from behind holds a long-handled net and looks up. Curious, lightly comic mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    },
+    {
+      "id": 5,
+      "type": "wildcard-honey-badger-humor",
+      "concept_ko": "와일드카드 · 유머. 동물원 담 밑에서 벌꿀오소리가 진흙 덩이를 굴려 계단처럼 쌓고, 그 위를 딛고 담 꼭대기에 앞발을 걸친 순간. 담 너머로 주황 노을.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A black-and-white honey badger, large in the frame, has stacked several round balls of mud against the base of a tall pale enclosure wall like a little staircase, and is caught at the moment it stands on the top mud ball with both front paws hooked over the top of the wall. Its expression is comically determined. A few loose stones and a garden rake lie on the ground nearby. Warm orange sunset glow beyond the wall, teal shadows on the wall. Humorous, admiring mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+    }
+  ]
+}
