@@ -15,10 +15,10 @@
       "E": "1번 — (추천) E 투명 투시. 사람 눈 안쪽에서 바라본 시점. 가운데 작은 선명한 원 안에만 벽 위의 모기가 크고 또렷하고, 원 바깥은 모두 흐릿하다(선명하게 보이는 건 좁은 범위뿐).",
       "F": "2번 — F 원리 시각화. 내려오는 파리채 앞에 빛나는 공기 물결이 파도처럼 일고, 모기가 그 물결을 타고 미끄러지듯 옆으로 빠져나간다(바헤닝언대 2024 공기 물결).",
       "C": "3번 — C 스케일 비틀기. 건물만큼 거대한 모기가 침실 벽에 느긋하게 앉아 있고, 바닥의 개미만 한 사람은 손전등으로 엉뚱한 천장을 비춘다(유머 1개).",
-      "D": "4번 — D 내려다보기. 천장을 뗀 침실을 위에서 본 투시도. 위쪽 벽·천장은 비어 있고, 낮은 벽·침대 밑·가구 아래·커튼 아랫단에 숨은 모기들이 빛나는 점으로 드러난다(아카풀코 연구: 피 빤 모기 87%가 1.5m 아래).",
-      "G": "5번 — G 결정적 순간. 시선이 휙 점프하는 찰나 방 전체가 옆으로 흐려지고, 그 순간 크고 또렷한 모기가 벽에 내려앉는다(사카드 억제 + 착지)."
+      "G": "5번 — G 결정적 순간. 시선이 휙 점프하는 찰나 방 전체가 옆으로 흐려지고, 그 순간 크고 또렷한 모기가 벽에 내려앉는다(사카드 억제 + 착지).",
+      "A-2": "4번 — A-2 단면 컷어웨이. 침실을 옆에서 잘라 벽 전체 높이를 보여 주는 단면. 위쪽 벽과 천장은 비어 있고, 낮은 벽·침대 밑·가구 아래·커튼 아랫단에만 모기들이 주황색으로 빛난다(아카풀코 연구: 피 빤 모기 87%가 1.5m 아래, 가장 많이 나온 방은 침실)."
     },
-    "note": "2026-10-11 반실사 일러스트 전환(thumbnail-strategy.json brand.style_prefix + 장면 유형 E·F·C·D·G). 썸네일 문구는 그대로",
+    "note": "2026-10-11 반실사 일러스트 전환(thumbnail-strategy.json brand.style_prefix + 장면 유형 E·F·C·D·G). 썸네일 문구는 그대로 / 2026-10-15 4번 D 내려다보기 → A-2 단면 컷어웨이(높이 1.5m 사실을 보이게)",
     "edits": [
       "벽에 앉은 모기에 빨간 손그림 동그라미 + 흰 손글씨 「바로 여기 있음」",
       "날아가는 모기 옆 빨간 화살표 + 「초속 25cm」 (2013년 바헤닝언대 측정)",
@@ -46,9 +46,9 @@
     },
     {
       "id": 4,
-      "type": "illustration-D-내려다보기",
-      "concept_ko": "4번 — D 내려다보기. 천장을 뗀 침실을 위에서 본 투시도. 위쪽 벽·천장은 비어 있고, 낮은 벽·침대 밑·가구 아래·커튼 아랫단에 숨은 모기들이 빛나는 점으로 드러난다(아카풀코 연구: 피 빤 모기 87%가 1.5m 아래).",
-      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Top-down cutaway view of a Korean apartment bedroom with the ceiling removed, drawn like a clean architectural dollhouse diagram that fills most of the frame. Several mosquitoes hide low in the room, near the floor on the lower walls, under the bed and furniture and behind the bottom edge of the curtains, each revealed by a soft glowing orange dot of light, while the upper walls stay completely empty. Calm, find-the-hidden-spots mood. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "illustration-A2-단면 컷어웨이",
+      "concept_ko": "4번 — A-2 단면 컷어웨이. 침실을 옆에서 잘라 벽 전체 높이를 보여 주는 단면. 위쪽 벽과 천장은 비어 있고, 낮은 벽·침대 밑·가구 아래·커튼 아랫단에만 모기들이 주황색으로 빛난다(아카풀코 연구: 피 빤 모기 87%가 1.5m 아래, 가장 많이 나온 방은 침실).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Detailed cutaway cross-section view revealing the interior of a Korean apartment bedroom, the room sliced open from the side like a dollhouse so the full height of the walls is visible, filling most of the frame. Inside, a few mosquitoes rest only in the lower part of the room, on the low walls near the floor, under the bed frame, beneath a low cabinet and behind the bottom hem of the curtains, each softly glowing orange, while the upper walls and the ceiling stay completely empty. A plain bed, a low cabinet and curtains are the only furniture. Calm, find-the-hidden-spots mood. Strong warm orange and cool teal color contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 5,

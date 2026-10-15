@@ -13,14 +13,14 @@
     ],
     "image_concepts": {
       "A": "D 내려다보기 + C 스케일 비틀기(추천 · 문구 1·2용). 손바닥만 한 미니어처 동물원을 위에서 내려다본 장면 — 우리 안의 원숭이·사자는 그대로 위를 올려다보고, 새 떼만 주황 빛 띠를 그리며 동물원 밖으로 흘러 나간다.",
-      "B": "G 결정적 순간(문구 1·3용, 레퍼 006 「담을 넘는 순간」 L2 차용). 철창을 움켜쥔 채 의기양양한 원숭이 바로 위로, 분홍 플라밍고 한 마리가 동물원 담을 넘어 날아오르는 순간."
+      "B": "G 결정적 순간(문구 1·3용). 철창을 움켜쥔 의기양양한 원숭이 위로, 폭풍 치는 밤하늘에 분홍 플라밍고가 날아오르는 순간."
     },
     "edits": [
       "날아가는 새 떼에 빨간 손그림 동그라미 + 흰 손글씨 「거의 절반」 (호주 140년 기록 46%)",
       "원숭이 옆 말풍선 「나 아니야?」",
-      "플라밍고에 빨간 화살표 + 흰 손글씨 「17년째 안 돌아옴」 (캔자스 플라밍고 492, 2005→2022 목격)"
+      "플라밍고에 빨간 화살표 + 흰 손글씨 「17년 뒤 텍사스에서」 (캔자스 플라밍고 492, 2005→2022 목격)"
     ],
-    "note": "반실사 일러스트(thumbnail-strategy.json brand.style_prefix 앞에 붙임). 장면 유형 D+C · G · B(좌우 분할) · E · F 유머 5가지. 사살·총·피·부상 장면 금지, 실존 인물 없음"
+    "note": "반실사 일러스트. 장면 유형 D+C · G · 좌우 분할 · E · A-2 단면 컷어웨이(2026-10-15 규칙, 벌꿀오소리 유머 컷 교체 — 대본에 없는 동물이었음). 단면 계열 1개. 사살·총·피·부상 장면 금지, 실존 인물 없음"
   },
   "thumbnails": [
     {
@@ -32,8 +32,8 @@
     {
       "id": 2,
       "type": "B-decisive-moment",
-      "concept_ko": "B 결정적 순간. 화면 앞쪽에 철창을 두 손으로 움켜쥔 채 의기양양한 표정의 원숭이, 그 바로 위로 분홍 플라밍고 한 마리가 날개를 활짝 펴고 동물원 회색 담장을 넘어 날아오르는 순간.",
-      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. In the foreground, a monkey grips the bars of its zoo enclosure with both hands and puts on a smug, confident expression, as if it were the great escape artist. Directly above and behind it, a bright pink flamingo with wings spread wide is caught at the exact moment it lifts off over the top of a tall grey zoo wall into a clear teal sky, warm orange sunlight on its feathers. The monkey has not noticed the flamingo. Playful, surprising mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "concept_ko": "B 결정적 순간. 화면 앞쪽에 철창을 두 손으로 움켜쥔 채 의기양양한 원숭이, 그 위로 폭풍 치는 밤하늘에 빗줄기를 뚫고 분홍 플라밍고 한 마리가 날개를 펴고 날아오르는 순간 (대본: 2005년 6월 폭풍 치던 밤 492번이 날아감).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. In the foreground, a monkey grips the bars of its zoo enclosure with both hands and puts on a smug, confident expression, as if it were the great escape artist. Above and behind it, on a stormy night with dark teal storm clouds and slanting streaks of rain, a bright pink flamingo with wings spread wide is caught at the exact moment it lifts off into the night sky, lit warm orange by the zoo's lamps below. The monkey has not noticed the flamingo. Playful, surprising mood with strong warm orange and cool teal contrast. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     },
     {
       "id": 3,
@@ -49,9 +49,9 @@
     },
     {
       "id": 5,
-      "type": "wildcard-honey-badger-humor",
-      "concept_ko": "와일드카드 · 유머. 동물원 담 밑에서 벌꿀오소리가 진흙 덩이를 굴려 계단처럼 쌓고, 그 위를 딛고 담 꼭대기에 앞발을 걸친 순간. 담 너머로 주황 노을.",
-      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A black-and-white honey badger, large in the frame, has stacked several round balls of mud against the base of a tall pale enclosure wall like a little staircase, and is caught at the moment it stands on the top mud ball with both front paws hooked over the top of the wall. Its expression is comically determined. A few loose stones and a garden rake lie on the ground nearby. Warm orange sunset glow beyond the wall, teal shadows on the wall. Humorous, admiring mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
+      "type": "A2-cutaway-enclosure",
+      "concept_ko": "A-2 단면 컷어웨이. 늑대 방사장을 칼로 자른 단면 — 철조망 아래 흙 속으로 굴 하나가 철조망 밑을 지나 바깥으로 이어지고, 굴 끝에서 늑대 한 마리가 막 빠져나오는 순간 (대본: 늑구는 사파리 철조망 아래 흙을 파고 나감)",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A detailed cutaway cross-section view revealing the interior of a wolf enclosure at a Korean safari park, sliced open like a clean textbook diagram and filling the upper 60% of the frame. Above ground, a tall chain-link wire fence stands on the ground. Below the surface, the cut shows plain brown soil under the fence, and one single narrow tunnel dug through the soil beneath the fence line, leading from inside the enclosure to the outside. A grey wolf is caught just emerging from the outer end of the tunnel, ears up and cautious. Green wooded hills and a teal sky behind, warm orange morning light on the fence. Curious, slightly tense but not frightening mood. Keep the lower 40% of the frame visually simple and slightly darker so large caption text can sit on it. No text, letters, numbers, arrows or logos anywhere in the image."
     }
   ]
 }
