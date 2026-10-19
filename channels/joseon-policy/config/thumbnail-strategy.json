@@ -1,0 +1,28 @@
+{
+  "count": 5,
+  "art_styles": [
+    "miniature diorama"
+  ],
+  "color_palette": "monotone",
+  "emotions": [
+    "curiosity",
+    "tension"
+  ],
+  "text_space": "bottom-40",
+  "face_style": "auto",
+  "brand": {
+    "colors": [
+      "#1A1A1A",
+      "#EFE6D2",
+      "#C62828",
+      "#FFFFFF",
+      "#FFE400"
+    ],
+    "mascot": false,
+    "fixed_layout": "[2026-10-20 채널 생성 시 사용자 결정 — 디오라마·미니어처 / 모노톤 + 빨간 포인트 / 하단 문구 2줄 + 빨간 도장 / 인물은 주제에 따라]\n\n[배경 이미지 — 조선 미니어처 디오라마 한 장]\n① 화풍: 나무 탁자 위에 만든 조선 미니어처 세트(HO 스케일). AI가 조선 복식·건축을 중국·일본풍으로 틀리는 문제를 줄이려고 고른 화풍이다. 프롬프트 맨 앞에 `brand.style_prefix`를 붙이고, 장면 묘사도 반드시 `Miniature diorama of … on a wooden tabletop`으로 시작한다(장면을 실사 문법으로 쓰면 실사로 그려진다 — 지식대학 우주 나이 편 교훈)\n② 사람은 `tiny HO-scale figurine of an adult …`로만 쓴다. 나이·표정·카메라 숏 묘사 금지. 인물 비중은 주제에 따라: 백성이 핵심인 편(호패를 피해 산으로 가는 사람들)은 인형 무리를 크게, 정책·사물이 핵심인 편(저화 다발, 헐린 집터)은 사물 중심\n③ 실존 왕의 얼굴은 그리지 않는다(어진이 남은 왕이 드물고 고증 논란이 생긴다). 왕은 뒷모습·곤룡포 일부·옥좌만\n④ 색: 전체를 한지색·먹색 위주로 채도를 낮추고, 빨강은 화면에 한 곳만(도장·불·관청 깃발 등). 디오라마의 장난감 같은 원색은 쓰지 않는다\n⑤ 세트 위로 솟은 실물 소품 하나 — 내용과 연결되는 것(붓·엽전 꾸러미·호패·한지 문서·도장). 스케일 차이로 「이게 뭐지?」를 만든다\n⑥ 장면 유형(한 편 5개 중 3가지 이상 섞기): A. 결정적 순간 정지(관청 문에 매달린 상인 인형, 불타는 호패 장부) B. 위에서 내려다보기(한양 지도 위 헐린 집터, 운하 공사 현장) C. 스케일 비틀기(거대한 엽전·종이돈 더미에 깔린 작은 마을) D. 대비 분할(같은 장터의 시행 전/후) E. 문서 클로즈업(실록 책장 위에 놓인 미니어처 장면)\n⑦ 아래 40%는 글자 자리 — 단순하고 어둡게. 프롬프트에 글자·숫자·화살표·로고를 넣지 않는다\n\n[고정 장치 — 빨간 도장]\n- 매 썸네일 위쪽 한 구석에 빨간 사각 도장(편집에서 얹음): 실패 편 「실패」 「폐지」, 성공 편 「성공」 「정착」, 진행형은 「보류」. 도장 글자는 대본의 정책실 판정과 같아야 한다\n- 도장은 AI 그림에 넣지 않고 미리캔버스 등 편집에서 같은 디자인으로 반복한다\n\n[썸네일 문구 — 하단 2줄]\n- 지식대학에서 검증된 틀을 시작점으로 쓴다(2026-10-16, 산에서 소변 CTR 9.2%): 윗줄 = 시청자가 아는 사실 + 「~인데 / ~는데」, 아랫줄 = 「왜 ~했을까」. 줄당 8~12자, 물음표 없음\n- 예: 「{종이돈}을 안 쓰면 / 왜 [재산]을 몰수했을까」 · 「{호패}를 차느니 / 왜 [산으로] 도망쳤을까」 · 「{고구마}를 들여왔는데 / 왜 [아무도] 안 심었을까」\n- 글자: 아주 굵은 고딕, 흰 글자 + 얇은 검은 외곽선, 화면 아래 3분의 1 먹색 띠. 윗줄 소재 이름은 빨강(#C62828)이 아니라 노랑(#FFE400)으로 — 빨강은 도장 전용. 아랫줄 결과 단어는 흰색 굵게\n- 오늘 뉴스 연결·「충격」「소름」「진실」·인물 평가어는 문구에도 금지(profile)\n- 제목과 문구는 같은 문장을 복붙하지 않는다",
+    "style_prefix": "Detailed miniature diorama photographed on a wooden tabletop, handcrafted HO-scale model of Joseon-dynasty Korea (Korean hanok tile roofs, hanji paper, Korean hanbok on tiny figurines — not Chinese or Japanese architecture or clothing), muted desaturated palette of hanji beige, ink black and weathered wood, a single accent of deep red, soft directional studio light, shallow depth of field, tilt-shift look. Never a life-size human, never a normal full-size photograph.",
+    "layout_source": "채널 생성(2026-10-20) — 지식대학 썸네일 틀(산에서 소변 CTR 9.2%)과 디오라마 프롬프트 교훈(우주 나이 편)을 출발점으로. 첫 8편 CTR로 다시 판단"
+  },
+  "benchmark_analysis": null,
+  "emotion_note": "궁금증이 주, 긴장감이 보조. 「좋은 뜻의 정책이 왜 이렇게 됐지?」를 그림(결정적 순간·스케일 비틀기)과 문구(아는 사실 + 왜)로 만든다. 잔혹한 장면(형벌·시신·기근의 참상)은 직접 그리지 않는다"
+}

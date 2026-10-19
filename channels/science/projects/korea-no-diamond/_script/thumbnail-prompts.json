@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "project": "korea-no-diamond",
+    "titles": [
+      "한국 땅엔 왜 다이아몬드 광산이 없을까 (feat. 중국엔 있는데)",
+      "한국 땅엔 왜 다이아몬드 광산이 없을까 (feat. 땅이 작아서일까?)",
+      "한국 땅엔 왜 다이아몬드 광산이 없을까 (feat. 바다 건너 중국엔 있다)",
+      "다이아몬드가 한국 땅에서 안 캐지는 이유 (feat. 1935년 딱 한 알)"
+    ],
+    "thumbnail_texts": [
+      "{다이아} 중국엔 나오는데 / 왜 한국은 [못 캘까]",
+      "{다이아}는 땅에서 캐는데 / 왜 한국은 [못 캘까]",
+      "{다이아} 한 알 나왔는데 / 왜 [광산]은 없을까"
+    ],
+    "image_concepts": {
+      "A": "서해를 사이에 둔 두 땅의 뿌리 단면 — 랴오둥 아래 두꺼운 뿌리에서 다이아몬드가 빛나는 통로로 올라오고, 한반도 아래는 얇은 뿌리",
+      "B": "진열장 속 다이아몬드에서 150km 아래까지 — 진열장 아래로 땅이 투명하게 열리며 깊은 곳 결정까지 이어지는 빛줄기"
+    },
+    "scene_types": "A 단면 · C 스케일 비틀기+E 투명 투시 · G 결정적 순간 · D 내려다보기 · B 시간 겹치기(단면 형식) — 5개 중 단면 계열 2개(1·5번), 유형 5가지",
+    "rules": "사람은 없거나 손만. 국기·지도 글자·국경선 금지. 한반도 전체를 중국과 한 덩어리 땅처럼 이어 그리지 않는다(단면에서 두 땅 사이는 서해로 분리). 뿌리 두께는 대본 수치 비율(약 200km vs 60~100km)만큼만 — 과장 금지. 다이아몬드는 빛나는 원석·팔면체 결정, 가격표·보석상·결혼식장 소품 금지. 아래 40%는 단순하고 약간 어둡게"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-semi-realistic",
+      "scene_type": "A 단면",
+      "concept_ko": "컨셉 A. 땅을 칼로 자른 거대한 단면. 왼쪽 랴오둥반도 아래로 짙은 갈색 대륙 뿌리가 아주 깊이 내려가 있고, 그 바닥에서 빛나는 다이아몬드 결정들이 주황빛 좁은 화산 통로를 타고 지표까지 솟아오른다. 가운데는 청록 서해, 오른쪽 한반도 아래 뿌리는 그 절반도 안 되게 얕고 통로가 없다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A giant cross-section of the Earth's crust and upper mantle sliced like a cake, filling the upper 60% of the frame. On the left, beneath the Liaodong peninsula, a very thick dark brown continental root plunges deep into glowing orange mantle, and from its base sparkling white diamond crystals rise through a narrow glowing carrot-shaped volcanic pipe up to the green land surface. In the middle a band of teal sea water. On the right, beneath the Korean peninsula, the continental root is less than half as thick and there is no pipe, only calm rock layers. Lower part of the image simple dark mantle rock."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-semi-realistic",
+      "scene_type": "C 스케일 비틀기 + E 투명 투시",
+      "concept_ko": "컨셉 B. 화면 위쪽에 조명이 비치는 보석 진열장, 그 안 받침대 위에 다이아몬드 한 알. 진열장 아래 바닥이 반투명하게 열려 아래로 아래로 층이 이어지고, 맨 깊은 곳에서 다이아몬드 원석이 빛나며 가느다란 빛줄기가 진열장 속 다이아몬드까지 이어진다. 사람·가격표·상호 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A brightly lit glass jewelry display case fills the top of the frame, with a single sparkling cut diamond resting on a dark velvet stand under warm spotlights. Below the case the shop floor becomes semi-transparent like glass, revealing stacked rock layers going down and down into a deep warm orange glow, where a rough octahedral diamond crystal shines far below. A thin glowing teal thread of light connects the deep crystal straight up to the diamond in the case. No people, no price tags, no logos or shop signs, lower part of the frame softly dark."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-semi-realistic",
+      "scene_type": "G 결정적 순간",
+      "concept_ko": "컨셉 A 변형. 땅속 깊은 곳에서 마그마 기둥이 지표를 향해 폭발하듯 치솟는 한순간을 멈춘 장면. 기둥 안에 수많은 다이아몬드 결정이 섞여 빛나며 함께 위로 실려 올라가고, 기둥 끝이 막 지표를 뚫으려 한다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A frozen dramatic moment deep underground: a narrow column of bright orange magma blasting vertically upward through dark rock at tremendous speed, its tip just about to burst through the green land surface at the top of the frame. Inside the rushing column, dozens of sparkling white diamond crystals tumble upward together with chunks of dark rock, trailing motion streaks. Cool teal shadows in the surrounding rock, lower part of the frame dark deep rock."
+    },
+    {
+      "id": 4,
+      "type": "concept-a-semi-realistic",
+      "scene_type": "D 내려다보기",
+      "concept_ko": "컨셉 A 변형. 하늘 높은 곳에서 비스듬히 내려다본 서해 주변. 왼쪽 랴오둥반도 남쪽 땅 아래에 빛나는 점 같은 화산 통로 수십 개가 땅을 비추며 반짝이고, 바다 건너 오른쪽 한반도 땅은 조용하고 어둡다. 글자·국경선 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A dramatic high-angle aerial view over the Yellow Sea at dusk, with the Liaodong peninsula on the left and the Korean peninsula on the right across deep teal water. Beneath the semi-transparent ground of the southern Liaodong peninsula, dozens of small glowing points of light shine up like buried lanterns, each a vertical pipe sparkling with diamond light. The Korean peninsula across the sea is calm and dark green with no glowing points. No borders, no labels, lower part of the frame dark sea."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "scene_type": "B 시간 겹치기",
+      "concept_ko": "와일드카드. 같은 땅의 단면을 좌우로 나눈 시간 겹치기. 왼쪽은 아득한 옛날, 땅 아래 뿌리가 깊고 다이아몬드가 빛나며 올라오는 모습(따뜻한 세피아 톤). 오른쪽은 지금, 같은 땅 아래 뿌리 아래쪽 절반이 부서져 맨틀 속으로 가라앉아 떨어져 나가고 얇은 뿌리만 남은 모습(시원한 청록 톤).",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split-screen cross-section of the same piece of land at two moments in time. Left half, the ancient past in warm faded sepia and orange: a very thick continental root reaches deep into the mantle and sparkling diamonds rise up a glowing pipe. Right half, today in cool vivid teal: the lower half of the same root has broken off into large chunks sinking away into the glowing mantle, leaving only a thin root under the surface. The two halves meet at a clean vertical dividing line, lower part of the frame dark mantle."
+    }
+  ]
+}

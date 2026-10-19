@@ -251,3 +251,8 @@
 | [프레시안12] | 프레시안 — 김영호, 「빚으로 빚 갚은 외채구조, '눈 가리고 아웅' YS」(2012-07-30) | https://pressian.com/pages/articles/106737 |
 | [G5] | G7 Research Group(토론토대) — Plaza Accord 발표문 (1985-09-22) | http://www.g7.utoronto.ca/finance/fm850922.htm |
 | [POSCO-a] | 포스코 뉴스룸 (2026-06-11) | https://newsroom.posco.com/kr/?p=130924 |
+
+## 보충 확인 (2026-10-19 외부 팩트체크 반영)
+- 한국 IMF 대기성 차관(SDR 천 단위, 협정액/인출액): 1980-03-03 640,000/320,000 · 1981-02-13 576,000/576,000(전액 인출) · 1983-07-08 575,775/575,775 · 1985-07-12 280,000/160,000 (출처: IMF 「Korea: History of Lending Arrangements」 https://www.imf.org/external/np/fin/tad/extarr2.aspx?date1key=2025-06-30&memberKey1=550) → 대본: 「IMF 도움은 받았다(인출), 상업은행 원금 집단 재조정은 없었다」
+- 1982년 멕시코 상품수출 약 74%가 석유·석유제품(원유만 아님) — 외부 팩트체크 인용 연준 자료
+- 실효 연방기금금리 표기: 「미국 금리」 대신 「실효 연방기금금리」, 「22%를 넘기도」로 둥글게

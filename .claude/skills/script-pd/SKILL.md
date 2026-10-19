@@ -154,7 +154,7 @@ description: 유튜브 대본 PD. "대본 만들어줘" 한마디로 레퍼런�
 |------|--------|-----------|-----------|
 | COLLECT | _refs/{NNN}/ | collect.py | URL 필요. 60분 초과 영상은 스크립트가 스킵 — 사용자 확인 후 `--allow-long` 재실행 |
 | ANALYZE | analysis.md | video-analyst ×N 병렬 | 채널프로필 전달 |
-| DATA_PREP | patterns.md, factcheck.md, verified-data.md | data-researcher 백그라운드 + PD 직접 패턴 추출 | researcher 먼저 발사 |
+| DATA_PREP | patterns.md, factcheck.md, verified-data.md, competition.md | data-researcher 백그라운드 + PD 직접 패턴 추출 + 경쟁작 해부표 | researcher 먼저 발사. competition.md는 pd-guide에 「경쟁작 해부」가 있는 채널만 |
 | STRATEGY | concept.md + hook-intro.md + thumbnail-prompts.json | PD 직접 (5-Phase, 핵심 메시지 포함) | auto→자체 확정+프롬프트, ask→사용자 선택 |
 | OUTLINE | outline.md | 오케스트레이터 직접 (셀프체크 10항목 + 데이터 갭 보충 리서치) | 확인 없이 DRAFT 자동 진행 |
 | DRAFT | draft.md | script-writer 1개 순차 통짜 집필 (클린 컨텍스트) + merge_draft.py | 조립 + hook diff 리포트 → 분량 밴드 검증 → **문체 린터**(`style_lint.py`, 금지어·상투구) |

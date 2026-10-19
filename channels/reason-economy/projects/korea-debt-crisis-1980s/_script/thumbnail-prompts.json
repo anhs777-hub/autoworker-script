@@ -7,6 +7,7 @@
       "IMF보다 15년 먼저 온 외채위기…1981년 빚 4위 한국이 한 번도 안 밀린 진짜 이유"
     ],
     "thumbnail_texts": [
+      "\"1981년 빚 세계 4위\" / 한국은 어떻게 이겨냈나 + 라벨 빚 세계 2위, 곧 부도 (최종 10/20)",
       "\"빚 1·2·3위는 부도\" / 빚 4위 한국은 한 번도 안 밀렸다",
       "\"멕시코·브라질은 부도\" / 한국은 만기 한 번 안 미뤘다",
       "띠 없는 최소 문구(흑백 vs 컬러 컷 위): 중남미 부도 / 한국 완납"
@@ -15,9 +16,42 @@
       "A": "한 장면 대비 — 같은 1982년 한낮, 왼쪽 멕시코시티 닫힌 은행 앞 군중과 흩날리는 페소(따뜻한 주황 강조) | 오른쪽 한국 조선소 진수·수출 부두(밝은 전기 파랑 강조 + 금빛 햇살)",
       "B": "흑백 과거 vs 컬러 — 왼쪽 밝은 낮의 흑백 보도사진 질감 멕시코 은행 앞 줄 / 오른쪽 밝은 컬러 1980년대 한국 제철소 쇳물 불꽃 (띠 없는 최소 문구 안과 짝)"
     },
-    "style_rule": "2026-10-13 공통 규칙(「너무 어둡다」 개정) — 5컷 전체 낮·밝은 해 질 녘 직전의 밝은 노출, 그림자 안도 디테일이 보이게, 대비는 어둠이 아니라 미세 대비·샤픈으로. 밝은 전기 파랑(한국) vs 따뜻한 주황(중남미 위기)은 강조색으로만. 금속·콘크리트 긁힌 질감·과처리 HDR 질감 유지. 밤 장면 금지. 실존 정치인(실바 에르소그·로페스 포르티요·볼커 등) AI 얼굴 금지 — 인물은 익명. 외국 국기 훼손·조롱 구도 금지. 구성: 한 장면 대비 2 + 3분할 1 + 실물 클로즈업 2"
+    "style_rule": "2026-10-13 공통 규칙(「너무 어둡다」 개정) — 5컷 전체 낮·밝은 해 질 녘 직전의 밝은 노출, 그림자 안도 디테일이 보이게, 대비는 어둠이 아니라 미세 대비·샤픈으로. 밝은 전기 파랑(한국) vs 따뜻한 주황(중남미 위기)은 강조색으로만. 금속·콘크리트 긁힌 질감·과처리 HDR 질감 유지. 밤 장면 금지. 실존 정치인(실바 에르소그·로페스 포르티요·볼커 등) AI 얼굴 금지 — 인물은 익명. 외국 국기 훼손·조롱 구도 금지. 구성: 한 장면 대비 2 + 3분할 1 + 실물 클로즈업 2",
+    "note_2026_10_20": "썸네일 문구 「\"1981년 빚 세계 4위\" / 대한민국은 어떻게 이겨냈나」에 맞춘 배경 5컷 v3(밝은 낮 규칙). 이전 5컷은 previous_thumbnails에 보관"
   },
   "thumbnails": [
+    {
+      "id": 1,
+      "type": "scene-contrast-realistic",
+      "concept_ko": "한 장면 대비 1 — 「빚을 지고도 짓는 나라」. 밝은 한낮, 1981년풍 한국 조선소 도크 뒤로 거대한 외채 서류·달러 뭉치 더미가 산처럼 솟아 있고, 그 앞에서 새 화물선이 진수된다. 빚 더미는 따뜻한 주황 그늘, 배와 크레인은 밝은 전기 파랑 + 금빛 햇살.",
+      "prompt_en": "Photorealistic wide shot in bright midday sunlight: behind an early-1980s South Korean shipyard dock, an enormous mountain of old foreign loan contracts and bundled US dollar bills towers into the sky like a looming cliff, tinted in warm glowing orange; in front of it, a massive new cargo ship is being launched with towering cranes, workers in 1980s uniforms cheering, the hull gleaming with bright electric blue highlights and golden sunlight, heroic low-angle composition so the ship feels larger than the debt. Keep the lower 40% of the frame simple and uncluttered for title text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette, any text or numbers."
+    },
+    {
+      "id": 2,
+      "type": "scene-contrast-map",
+      "concept_ko": "한 장면 대비 2 — 「세계 4위」. 밝은 낮의 회의 탁자 위 거대한 세계 지도. 브라질·멕시코·아르헨티나 위치에 금 간 주황 핀이 무너져 있고, 한반도 위치에만 파랗게 빛나는 핀이 똑바로 서 있다. 주위에 1980년대 은행 서류·계산기·커피잔.",
+      "prompt_en": "Photorealistic overhead close shot in bright daylight of a large vintage 1980s world map spread on a bankers' meeting table: on Brazil, Mexico and Argentina, heavy map pins are cracked and toppled with warm glowing orange light leaking from the cracks, while on the Korean peninsula a single pin stands tall and glows bright electric blue; scattered 1980s loan documents, a desk calculator and coffee cups around the map, sharp focus on the glowing Korean pin. Keep the lower 40% of the frame simple and uncluttered for title text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette, any text or numbers."
+    },
+    {
+      "id": 3,
+      "type": "three-split-triumph",
+      "concept_ko": "3분할 — 왼쪽 문 닫힌 1982년 멕시코 은행 셔터(주황), 가운데 1980년대 작업복의 익명 한국 노동자가 결연한 표정으로 앞을 봄, 오른쪽 수출 컨테이너선이 떠나는 한국 항구와 크게 휘날리는 태극기(파랑 + 금빛 햇살).",
+      "prompt_en": "Photorealistic three-part composition in bright afternoon daylight: on the left, the closed scratched steel shutter of a 1982 Mexico City bank with a small ordinary Mexican flag, warm glowing orange tones; in the center, an anonymous Korean factory worker in his 30s wearing a 1980s work uniform and helmet, attractive likeable face, determined confident gaze toward the viewer; on the right, larger and in a heroic low-angle shot, a South Korean port where a giant container ship sails out under a bright clear sky with golden sunlight and bright electric blue highlights, and a huge Korean flag Taegukgi waving proudly in sunlight in the upper right corner. Keep the lower 40% of the frame simple and uncluttered for title text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette, any text or numbers."
+    },
+    {
+      "id": 4,
+      "type": "object-closeup",
+      "concept_ko": "실물 클로즈업 1 — 「빚이 쇠가 되다」. 밝은 제철소 안, 띠로 묶인 달러 뭉치 옆에서 막 뽑아낸 붉은 쇳물 강괴가 빛난다. 오른쪽에 안전모를 쓴 익명의 한국 제철 노동자.",
+      "prompt_en": "Photorealistic close-up inside a brightly lit 1980s South Korean steel mill with daylight pouring through tall windows: a thick stack of US dollar bills tied with a paper band sits on a scratched steel workbench right next to a freshly cast glowing orange steel ingot, sparks drifting in the air; on the right edge, an anonymous proud Korean steelworker in a helmet and heat-resistant uniform, attractive likeable face, looking at the ingot, rim-lit by bright electric blue and golden light. Keep the lower 40% of the frame simple and uncluttered for title text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette, any text or numbers."
+    },
+    {
+      "id": 5,
+      "type": "object-closeup",
+      "concept_ko": "실물 클로즈업 2 — 「어떻게 이겨냈나」의 사람. 해 질 녘 직전 밝은 빛, 1980년대 한국 조선소 선체 앞에서 용접 불꽃을 튀기는 익명의 한국 용접공의 장갑 낀 손과 얼굴이 화면 절반 이상.",
+      "prompt_en": "Photorealistic heroic close-up in bright golden-hour light just before sunset: an anonymous Korean shipyard welder in his 30s from the 1980s, attractive likeable face fully lit, welding mask flipped up, gloved hands holding a welding torch against a huge scratched steel ship hull, a fountain of bright orange sparks, the hull reflecting bright electric blue highlights, a bright blue sky and container cranes softly in the background. Keep the lower 40% of the frame simple and uncluttered for title text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette, any text or numbers."
+    }
+  ],
+  "previous_thumbnails": [
     {
       "id": 1,
       "type": "scene-contrast-realistic",

@@ -1,0 +1,10 @@
+Mode: built-in image_gen generate
+Use case: photorealistic-natural
+Asset type: 16:9 YouTube thumbnail background
+Primary request: Photorealistic photo inside a bright, sunlit American home appliance big-box store on a busy weekend afternoon. On the left half, a brand-new white front-load washing machine fills more than half the frame height. A large blank warm glowing orange tariff stamp sticker with a thick red border is slapped across its steel side panel. Bright electric blue glint on the round glass door; fine scratches and handling marks on the metal. On the right, a cheerful American couple in their 50s in casual clothes, chest-up, brightly lit faces, one hand resting on top of the washer, smiling with satisfaction as if they just decided to buy it. Behind them, a long aisle of identical new washers with several empty shelf gaps; a store worker in the distance wheels one away on a dolly.
+Composition/framing: wide 16:9, washer dominant on left, couple on right, bright airy big-box store. Keep lower 35-40 percent slightly darker as clear area for overlay; leave lower-left uncluttered enough for text overlay.
+Lighting/mood: bright midday daylight through tall windows, high-key exposure, lifted shadows, upbeat but curiosity-provoking documentary feel.
+Color palette: vivid saturated colors with restrained electric-blue and warm-orange accents.
+Materials/textures: gritty high-clarity HDR photo, crisp detail on metal and glass, subtle film grain and fine noise, micro-contrast, scratched steel, natural skin texture, mildly over-processed thumbnail finish.
+Constraints: no flags, no text, letters, numbers, logos, brand marks, readable price tags, or identifiable real people. Sticker is blank apart from its orange and thick red border.
+Avoid: night, dark or low-key lighting, crushed blacks, heavy vignette.

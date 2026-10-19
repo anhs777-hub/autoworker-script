@@ -102,3 +102,15 @@
 
 - 2025-12 발표 때 공사는 AI 지하수위 예측 모델도 공개(영상 주제와 거리 있음)
 - 2026-07 더데오름 용암돔 확인 — 지하수용 고심도 시추공 코어 활용(「물 찾으려 판 구멍이 땅속을 보는 창」) (출처: 서울신문, https://m.seoul.co.kr/news/2026/07/20/20260720500069)
+
+## 외부 검토 반영 (2026-10-19)
+
+> 사용자가 받은 외부 팩트체크를 원문으로 다시 확인한 결과
+- 논문 서지: Journal of Hydrology 664, 134559 — 2026년 1월호 정식 수록, 온라인 공개 2025-11-06 (출처: 고려대 Pure 초록, https://pure.korea.ac.kr/en/publications/long-term-gt-5-years-high-resolution-multi-tracer-based-analysis-/) — 원문 확인
+- 초록: 추적자 δ18O·δD·CFCs·3H(SF6 언급 없음), 고지대 함양군 34.6±8.1년·저지대 30.1±8.5년, 기준 고도 1,296m, **같은 관정도 채수 시기에 따라 평균 체류시간이 최대 15년 차이** — 원문 확인. 「31년」은 보도·공사 발표의 대표값
+- 18년 출처: 제주개발공사 FAQ — 「2000년 제주도와 한국지질자원연구원이 지하수·용천수 34개 연령 측정, 평균 18세」 (https://www.jpdc.co.kr/samdasoo/faq.htm) — 원문 확인. 기존 「2001년 종합조사」 표기를 이 출처로 바꿈
+- 제주 물 96%는 용천수를 포함한 값(지하수만 82.2%) — 외부 검토 인용(제주 지하수정보관리시스템, 접속 오류로 직접 확인 못 함). 대본에 「용천수까지 합치면」으로 반영
+- 하천 수: 143개 중 6개(이남훈 외) / 143개 중 9개·지방하천 60개 중 6개(외부 검토) — 기준마다 달라 대본에서 숫자를 빼고 「대부분 평소 마른 하천」으로
+- 「50만 년 동안 적어도 14번」은 EGU26-1660 초록 원문이지만 시추 위치·분류 방법에 따라 달라질 수 있다는 지적 → 대본은 「여러 차례」로
+- 서귀포층 관정 물: 「50년이 넘은 물」 → 「1950년대 이전에 땅에 들어간 물」(Koh et al. 2006)
+- **키드크리크 — 외부 검토 4번은 원문과 다름, 반영하지 않음**: Warr et al.(GCA) 초록 원문 「resampled 2.4 km fluids indicated a less ancient MRT (0.2-0.6 Ga) compared with the previous study (1.1-1.7 Ga) … consistent with a change in the age distribution of fluids feeding the fractures as they drain」 — 같은 2.4km 물을 다시 채취해 평균 체류시간이 더 젊게 나왔고, 연구진은 틈에서 물이 빠지며 공급되는 물의 나이 분포가 바뀐 것으로 해석. 대본의 현재 문장이 이 원문과 맞음 (https://research.manchester.ac.uk/en/publications/tracing-ancient-hydrogeological-fracture-network-age-and-compartm/)

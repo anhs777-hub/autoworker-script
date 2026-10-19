@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "kodak-oled",
+    "titles": [
+      "\"발명은 코닥, 1위는 한국\" 필름 회사가 OLED를 LG에 넘긴 진짜 이유",
+      "\"파산 2년 전 판 기술\" 코닥이 발명한 OLED, 세계 1위는 한국이 된 진짜 이유",
+      "130년 필름 회사 코닥이 발명한 OLED… 세계 1위는 한국이 가져간 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"발명은 코닥, 파산도 코닥\" / OLED 세계 1위는 한국",
+      "\"파산 2년 전 판 기술\" / OLED, 결국 한국으로",
+      "\"필름 회사가 만든 화면\" / OLED 세계 1위는 한국"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비 — 먼지 앉은 노란 필름통 vs 밝은 거실의 초박형 OLED TV",
+      "B": "실물 클로즈업 — 풀려 나온 필름 띠가 얇은 OLED 패널 단면으로 이어지는 실물 + 익명 한국인 기술자"
+    },
+    "rules": "실존 인물 얼굴 금지 · 회사 로고·브랜드 글자 금지(필름통·TV·간판 전부 무지) · 밝은 낮 노출(10/13) · 질감 키워드(10/10) · 이미지 안 글자 금지"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 한 장면 대비. 앞쪽 왼편 낡은 나무 선반 위 먼지 앉은 노란 필름통 3~4개(로고 없음), 뒤쪽 오른편 밝은 한국 아파트 거실 벽의 초박형 대형 OLED TV가 선명한 풍경 화면을 띄우고 있다. 필름통은 빛바랜 주황, TV는 전기 파랑 글로우.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR photo of a single scene contrast: in the left foreground, three or four dusty, scratched, faded yellow 35mm film canisters with no logos or text sit on a worn wooden shelf, lit by warm faded orange light. In the upper right background, a bright modern Korean apartment living room with an ultra-thin, wall-mounted large OLED TV glowing with a vivid, razor-sharp landscape image, its edges radiating bright electric blue light and a golden rim light. The OLED TV is larger and more dominant than the film canisters, shot from a slightly low heroic angle, subject placed in the upper half of the frame. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on dusty plastic and glass, dust particles in the air, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, slightly over-processed look. Avoid night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형 — 한 장면 대비. 빛바랜 옛 사진관 진열장(필름통·필름 카메라, 로고 없음) 유리 너머로 길 건너 한국 가전 매장 쇼윈도의 대형 OLED TV 여러 대가 밝게 빛난다.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR street photo: in the left foreground, the dusty display window of an old, faded photo studio filled with yellow film canisters and vintage film cameras with no logos or text, sunlight-bleached and weathered. Across the street in the upper right, a bright modern Korean electronics store showroom window lined with several huge, ultra-thin OLED TVs glowing with vivid colorful images, bathed in bright electric blue light and golden sparkles. The OLED TVs dominate the upper half of the frame, larger and brighter than the old shop. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on glass, metal and weathered paint, dust particles in the air, dramatic volumetric clouds in a bright daytime sky, bright high-key daylight exposure with lifted shadows, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실물 클로즈업(단면형). 화면 가운데, 갈색 35mm 필름 띠가 풀려 나와 얇은 OLED 패널 단면으로 이어진다(층 구조가 보이는 컷어웨이). 오른쪽에 클린룸 방진복의 익명 한국인 기술자가 자신감 있게 미소 짓는다.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR close-up: a long strip of brown 35mm photographic film unrolls from a faded yellow film canister with no logo on the left and, in the center, seamlessly transforms into an ultra-thin OLED display panel shown in a detailed cutaway cross-section view revealing its thin glowing layers emitting bright blue and white light. On the right, a confident, attractive Korean engineer in his 40s with a warm likeable face, wearing a white cleanroom suit with the hood down, smiles proudly at the panel. All key subjects fill the upper half of the frame left to right. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on film, glass and metal, dust particles in the air, bright high-key exposure with lifted shadows, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, slightly over-processed look. Avoid night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실물 클로즈업. 노란 필름통 하나를 든 손(로고 없음)이 화면 앞쪽에 크게, 그 뒤로 거대한 초박형 OLED 패널이 클린룸 생산 라인 위에서 빛난다. 익명 한국인 여성 기술자가 패널 옆에서 엄지를 든다.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR photo: in the left foreground, a weathered hand holds up a single faded yellow 35mm film canister with no logo or text, scratched and dusty. Behind it in the upper half, a gigantic ultra-thin OLED display panel glows with brilliant colors on a bright, high-tech Korean factory cleanroom production line, with robotic arms and blue-white lights. Beside the panel, an attractive Korean female engineer in a white cleanroom suit with a warm likeable face gives a confident thumbs-up. The OLED panel is the largest, brightest element, shot from a slightly low heroic angle. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, dust particles in the air, bright high-key exposure with lifted shadows, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, slightly over-processed look. Avoid night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 3분할 승패 구도. 왼쪽 빛바랜 미국 옛 필름 공장 건물(간판 글자 없음, 작은 성조기), 가운데 오른쪽을 바라보며 놀라는 60대 익명 미국인 사업가, 오른쪽 황금 역광 속 한국 OLED TV 공장과 거대한 OLED TV + 크게 휘날리는 태극기.",
+      "prompt_en": "Photorealistic epic cinematic three-part comparison, gritty high-clarity HDR photo. Left side: an old, faded American film factory building of red brick with an empty blank sign, weathered and desaturated in cool shade, with a small ordinary American flag. Center: an awestruck American businessman in his 60s with a warm likeable face, jaw dropped, chest-up close-up filling 60% of the frame height, looking toward the right side. Right side, larger and closer: a gleaming modern Korean OLED factory with a huge ultra-thin OLED TV glowing in brilliant colors, golden backlight, glowing rim light, lens flare and sparks, and a huge Korean flag Taegukgi waving proudly in sunlight in the upper right corner, filling more than 25% of the frame height, shot from a heroic low angle. Triumphant, victorious mood, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on brick, metal and glass, dust particles in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered textures, slightly over-processed look. Avoid night scene, dark, low-key, crushed blacks, heavy vignette."
+    }
+  ]
+}

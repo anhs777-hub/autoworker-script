@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "hopae-law",
+    "titles": [
+      "네 번 없앤 나무 신분증, 조선이 호패를 끝내 다시 만든 이유",
+      "숨은 장정이 123만 명, 조선이 호패법을 260년 밀어붙인 이유",
+      "피난길에 장부부터 태웠다, 조선이 호패를 네 번 버린 이유"
+    ],
+    "thumbnail_texts": [
+      "{호패}를 차느니 / 왜 [산으로] 도망쳤을까",
+      "{호패} 하나 받으라는데 / 왜 [노비]가 되려 했을까",
+      "피난길인데 {호패} 장부를 / 왜 [먼저] 불태웠을까"
+    ],
+    "image_concepts": {
+      "A": "산으로 가는 사람들 위로 솟은 실물 호패 (스케일 대비)",
+      "B": "피난길 강가에서 타는 호패 장부 (결정적 순간)"
+    },
+    "stamp": "폐지"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-diorama",
+      "concept_ko": "컨셉 A-1. 스케일 대비: 등짐 진 인형 무리가 산길을 오르고, 탁자 앞쪽에 실물 크기 나무 호패가 세워져 있다.",
+      "prompt_en": "Detailed miniature diorama photographed on a wooden tabletop, handcrafted HO-scale model of Joseon-dynasty Korea (Korean hanok tile roofs, hanji paper, Korean hanbok on tiny figurines — not Chinese or Japanese architecture or clothing), muted desaturated palette of hanji beige, ink black and weathered wood, a single accent of deep red, soft directional studio light, shallow depth of field, tilt-shift look. Never a life-size human, never a normal full-size photograph. Miniature diorama of a steep pine-covered mountain path on a wooden tabletop, where a long line of tiny HO-scale figurines of adult Joseon commoners in white hanbok carry bundles on their backs and climb away from a small thatched village below. In the foreground stands a real full-size wooden identity tag (hopae), an oblong plain wooden tablet towering over the scene like a monument, its short cord the only deep red in the frame. The figurines are seen mostly from behind, heading up into the misty mountain. Upper half filled by the mountain and the towering tag, lower area kept dark and simple."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-diorama",
+      "concept_ko": "컨셉 A-2. 같은 컨셉, 위에서 비스듬히: 텅 빈 관청 마당과 산으로 흩어지는 사람들, 앞에 실물 호패.",
+      "prompt_en": "Detailed miniature diorama photographed on a wooden tabletop, handcrafted HO-scale model of Joseon-dynasty Korea (Korean hanok tile roofs, hanji paper, Korean hanbok on tiny figurines — not Chinese or Japanese architecture or clothing), muted desaturated palette of hanji beige, ink black and weathered wood, a single accent of deep red, soft directional studio light, shallow depth of field, tilt-shift look. Never a life-size human, never a normal full-size photograph. Miniature diorama on a wooden tabletop seen from a high angle: a tiny Joseon government office courtyard with a tiled-roof gate stands nearly empty, while small groups of HO-scale figurines of adult commoners in white hanbok slip away along paths toward forested hills at the top of the frame. A real full-size wooden hopae identity tag lies across the edge of the courtyard, enormous next to the figures. A single small red banner hangs at the office gate as the only accent of red. Quiet, puzzling mood."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-diorama",
+      "concept_ko": "컨셉 B-1. 결정적 순간: 겨울 강가 나룻배 옆에서 호패 장부 더미가 타고, 관리 인형 몇이 지켜본다.",
+      "prompt_en": "Detailed miniature diorama photographed on a wooden tabletop, handcrafted HO-scale model of Joseon-dynasty Korea (Korean hanok tile roofs, hanji paper, Korean hanbok on tiny figurines — not Chinese or Japanese architecture or clothing), muted desaturated palette of hanji beige, ink black and weathered wood, a single accent of deep red, soft directional studio light, shallow depth of field, tilt-shift look. Never a life-size human, never a normal full-size photograph. Miniature diorama of a frozen winter riverbank on a wooden tabletop, with a small wooden ferry boat moored at the shore and a pile of tiny bound paper registers (hanji books) burning on the gravel beside it. A few HO-scale figurines of adult Joseon officials in dark robes and black gat hats stand around the fire, while a distant line of refugee figurines with bundles moves along the far bank. The orange-red flame is the only warm color in a grey, ink-black and hanji-beige scene; thin smoke rises into the top of the frame. Tense, hushed atmosphere."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-diorama",
+      "concept_ko": "컨셉 B-2. 문서 클로즈업: 펼친 실물 호적 장부 위에 미니어처 강가 장면, 장부 모서리가 타들어 감.",
+      "prompt_en": "Detailed miniature diorama photographed on a wooden tabletop, handcrafted HO-scale model of Joseon-dynasty Korea (Korean hanok tile roofs, hanji paper, Korean hanbok on tiny figurines — not Chinese or Japanese architecture or clothing), muted desaturated palette of hanji beige, ink black and weathered wood, a single accent of deep red, soft directional studio light, shallow depth of field, tilt-shift look. Never a life-size human, never a normal full-size photograph. Miniature diorama built on top of a real open antique hanji register book lying on a wooden tabletop: on its pages sits a tiny riverbank scene with a small ferry boat and HO-scale figurines of adult Joseon officials stepping back from the burning far corner of the book. The edge of the real paper curls and glows with a small red-orange flame, the single accent of red. Brush-written columns on the paper are blurred and unreadable. Upper half holds the burning corner and the figures, lower area left plain and shadowed."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 저울 대비: 한쪽엔 작은 나무 호패 하나, 다른 쪽엔 베 두 필과 쌀가마를 진 농가 인형 가족 — 패 하나에 따라오는 짐.",
+      "prompt_en": "Detailed miniature diorama photographed on a wooden tabletop, handcrafted HO-scale model of Joseon-dynasty Korea (Korean hanok tile roofs, hanji paper, Korean hanbok on tiny figurines — not Chinese or Japanese architecture or clothing), muted desaturated palette of hanji beige, ink black and weathered wood, a single accent of deep red, soft directional studio light, shallow depth of field, tilt-shift look. Never a life-size human, never a normal full-size photograph. Miniature diorama on a wooden tabletop of a large antique wooden balance scale: on one pan rests a single small real wooden hopae identity tag, on the other pan a tiny Joseon farming family of HO-scale adult figurines in white hanbok stand beside rolls of cotton cloth and straw rice sacks, and the scale tips heavily toward the family. Behind them a small thatched farmhouse and a dry field. A thin red cord on the tag is the only accent of red. Curious, heavy mood."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "sticker-bread",
+    "titles": [
+      "\"빵은 남기고 스티커만\" 국찐이빵부터 리센느 빵까지, 30년째 덤을 넣는 진짜 이유",
+      "\"한 세트에 빵 900개\" 포켓몬빵부터 리센느 빵까지, 덤을 무작위로 넣는 진짜 이유",
+      "\"빵값보다 비싼 카드\" 국찐이빵에서 리센느 빵까지, 덤이 30년째 빵을 이기는 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"빵은 남기고 스티커만\" / 스티커빵 30년, 진짜 이유",
+      "\"한 세트에 빵 900개\" / 스티커빵 30년의 계산법",
+      "\"한 입 먹고 남긴 빵\" / 스티커빵이 돌아오는 이유"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비 — 식탁 위 한 입 먹고 남긴 빵 더미 vs 스티커·투명 카드가 빼곡한 앨범",
+      "B": "실물 클로즈업 — 뜯은 빵 봉지에서 반짝이는 투명 카드 한 장을 꺼내는 손 + 익명 5060 인물"
+    },
+    "rules": "H 유형: 국기·3분할·영웅 구도 없음. 실존 인물(리센느·김국진·핑클) 얼굴 금지, 포켓몬 등 실존 캐릭터를 그리지 않는다 — 카드·스티커 면은 추상 홀로그램 무늬나 뒷면만. 빵 봉지에 로고·글자 없음. 10/13 밝기 규칙·질감 키워드 전 컷 적용."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사(한 장면 대비). 밝은 낮 주방 식탁 — 왼쪽엔 뜯긴 비닐 봉지와 한 입씩 베어 문 크림빵·단팥빵이 수북이 쌓여 있고, 오른쪽엔 투명 카드와 스티커가 빼곡히 꽂혀 반짝이는 수집 앨범이 펼쳐져 있다.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR photo of a bright Korean home kitchen table in daylight, split into one scene of contrast: on the left a messy pile of torn plastic bread wrappers and a dozen soft cream buns and red-bean buns each with only one bite taken, abandoned; on the right an open collector's binder packed with rows of shiny holographic stickers and transparent photo cards glittering in the sunlight, card faces showing only abstract rainbow holographic patterns. The bread side glows in warm orange light while the binder side throws bright electric blue reflections. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on crumpled plastic, bread crust and glossy card sleeves, dust particles in the air, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, slightly over-processed look. No logos, no brand names, no cartoon characters, no real people."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 변형(한 장면 대비). 편의점 앞 쓰레기통 위에 한 입 먹은 빵들이 놓여 있고, 그 옆에 선 학생 손에는 띠부씰이 잔뜩 붙은 스티커북이 들려 있다. 얼굴은 프레임 밖.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR photo outside a bright Korean convenience store in afternoon daylight: on top of a street trash bin sit several barely eaten sweet buns still half in their torn plastic wrappers, while right beside it a schoolchild's hands hold up a thick sticker book overflowing with dozens of glossy round peel-off stickers with abstract holographic designs. Faces are out of frame; the focus is the contrast between the discarded bread and the treasured stickers. Warm orange tones on the bread, bright electric blue glints on the stickers. Heavy micro-contrast and sharpening, visible film grain, crisp textures on plastic and metal bin surface with scratched and weathered metal, dramatic volumetric clouds in the sky, bright high-key exposure with lifted shadows, vivid saturated colors, slightly over-processed look. No logos, no store signage text, no cartoon characters."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사(실물 클로즈업). 화면 절반 이상을 채운 손이 뜯은 빵 봉지에서 반짝이는 투명 포토카드 한 장을 꺼내는 순간. 뒤에 흐릿하게 50대 후반 한국 남성이 의외라는 표정으로 바라본다.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR close-up: a hand pulling a single glittering transparent photo card with an abstract holographic rainbow pattern out of a freshly torn plastic bread wrapper, the card filling more than half of the frame and catching bright light, the soft bun left behind in the wrapper. Slightly out of focus behind it, an attractive Korean man in his late 50s with a warm likeable face leans in with an exaggerated surprised, puzzled expression, eyebrows raised. Bright convenience store daylight, electric blue reflections on the card versus warm orange tones on the bread. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on crinkled plastic and card edges, bright high-key exposure with lifted shadows, vivid saturated colors, slightly over-processed look. No logos, no text, no celebrity faces, no cartoon characters."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 변형(실물 클로즈업). 빈칸 딱 하나만 남은 카드 바인더 페이지를 크게, 그 빈칸을 손가락이 가리키고 옆에는 뜯은 빵 봉지가 수십 개 쌓여 있다. 60대 한국 여성이 놀란 표정으로 봉지 더미를 본다.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR photo: a large collector's binder page filling the upper frame, every pocket filled with shiny holographic cards in abstract patterns except one single empty pocket, a finger pointing at that empty slot. Next to the binder rises a tall pile of dozens of torn empty bread wrappers. An attractive Korean woman in her 60s with a warm likeable face stares at the pile with an exaggerated astonished expression, mouth open. Bright daylight living room, electric blue glints on the cards versus warm orange light on the wrappers. Heavy micro-contrast and sharpening, visible film grain, crisp detailed textures on plastic and card sleeves, dust particles in the air, bright high-key exposure with lifted shadows, vivid saturated colors, slightly over-processed look. No logos, no text, no cartoon characters."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드(실물 클로즈업 — 단면형). 반으로 가른 크림빵 단면 속에 크림 대신 투명 카드 한 장이 박혀 반짝인다. 빵이 덤을 담는 봉지가 됐다는 그림.",
+      "prompt_en": "Photorealistic gritty high-clarity HDR macro shot: a soft golden cream bun cut cleanly in half, a detailed cutaway cross-section view revealing that inside, instead of cream filling, a single glittering transparent holographic card with an abstract rainbow pattern is embedded, catching bright light. The bun halves fill the upper half of the frame on a bright wooden table with a torn plastic wrapper beside it. Warm orange bread crumb texture versus bright electric blue reflections on the card. Heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on bread crumb and card edge, bright high-key daylight with lifted shadows, vivid saturated colors, slightly over-processed look. No logos, no text, no cartoon characters."
+    }
+  ]
+}

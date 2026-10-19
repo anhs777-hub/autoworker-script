@@ -109,6 +109,12 @@ collect.py는 **60분 초과 영상을 기본적으로 스킵**하고 경고를 
 2. Read: `prompts/reference-patterns.md` (Lazy Load) + 모든 `_refs/*/analysis.md` + `_refs/*/meta.md`
 3. PD가 직접 `{P}/_script/patterns.md` 작성 — reference-patterns.md의 규칙과 출력 형식을 그대로 따른다
 
+### 3) 경쟁작 해부표 (PD 직접 — pd-guide에 「경쟁작 해부 → 차별 설계」가 있는 채널)
+
+1. 이 편 소재의 **대상 이름**으로 yt-dlp 검색 → 같은 소재 상위 3~5편 선정 (레퍼런스와 겹쳐도 된다)
+2. `{P}/_script/competition.md` 작성 — 제목·썸네일·훅 첫 장면·구조·결론·댓글 표 + 「공통으로 한 것」「공통으로 놓친 것」 (형식은 pd-guide 해당 섹션)
+3. 정지선(pd-guide 3단계)에 걸리면 STRATEGY로 가지 않고 사용자에게 알린다
+
 ### 완료 확인
 
 - `_script/patterns.md` 존재 확인 (PD 작성 완료)
@@ -120,7 +126,7 @@ collect.py는 **60분 초과 영상을 기본적으로 스킵**하고 경고를 
 
 **크리에이티브 전략 통합 설계 + 썸네일 프롬프트. PD 직접 수행 (5-Phase).**
 
-입력: `_script/patterns.md` + `_script/verified-data.md` + 채널 프로필 + `config/pd-guide.md`(있으면)
+입력: `_script/patterns.md` + `_script/verified-data.md` + `_script/competition.md`(있으면) + 채널 프로필 + `config/pd-guide.md`(있으면)
 
 Read (Lazy Load): `prompts/creative-strategy.md` + `prompts/ctr-reference.md` + `prompts/thumbnail-design.md`
 
