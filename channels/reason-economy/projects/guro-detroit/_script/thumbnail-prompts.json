@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "guro-detroit",
+    "titles": [
+      "11만 명 일하던 구로공단, 3만 명까지 무너지고도 디트로이트가 되지 않은 진짜 이유",
+      "공장이 떠난 디트로이트는 파산했고, 구로공단은 다시 찼다… 두 땅이 갈린 진짜 이유",
+      "\"공장은 다 떠났는데\" 구로공단이 디트로이트가 되지 않은 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"공장은 다 떠났는데\" / 구로공단 18만 명 출근",
+      "\"11만 → 3만 → 18만\" / 구로공단, 디트로이트 안 됐다",
+      "\"2013년 디트로이트 파산\" / 구로공단은 다시 찼다"
+    ],
+    "image_concepts": {
+      "A": "3분할 — 왼쪽 디트로이트 폐 자동차 공장(벽돌이 뜯겨 나감), 가운데 익명 인물, 오른쪽 아침 햇빛 속 가산 유리 빌딩 앞 출근 인파, 위 모서리 성조기(작게)·태극기(크게)",
+      "B": "한 장면 대비 — 같은 땅의 낡은 붉은 벽돌 공장과 그 뒤로 솟은 유리 지식산업센터, 사이를 지나는 출근 인파"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 3분할(사용자 확정). 왼쪽 디트로이트 패커드풍 거대한 벽돌 자동차 공장이 철거 장비 집게에 뜯겨 나가는 장면, 가운데 놀란 표정의 익명 미국인 중년 남성, 오른쪽 아침 햇빛 속 가산디지털단지 유리 빌딩 앞을 가득 메운 출근 인파와 크게 휘날리는 태극기.",
+      "prompt_en": "Photorealistic epic cinematic three-panel split composition, gritty high-clarity HDR photo with heavy micro-contrast and sharpening, visible film grain and fine noise. Left panel: a colossal abandoned red-brick automobile factory in Detroit being torn apart by the steel claw of a demolition excavator, rusted window frames, dust particles and small debris in the air, cool grey-blue desaturated shadows but bright daylight exposure with lifted shadows, a small ordinary American flag in the top-left corner. Center: an attractive likeable American man in his 50s in a work jacket, chest-up close-up filling 60 percent of the frame height, jaw-dropped and awestruck, looking toward the right side. Right panel, larger and slightly closer in a heroic low-angle shot: gleaming glass office towers of Seoul's Gasan Digital Complex in bright morning sun with golden backlight, glowing rim light and lens flare, a dense crowd of commuters in office wear streaming out of a subway station exit, electric blue reflections on glass, a huge Korean flag Taegukgi waving proudly in sunlight in the top-right corner. Vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, triumphant atmosphere."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 한 장면 대비. 남아 있는 낡은 붉은 벽돌 공장 건물 바로 뒤로 솟은 거대한 유리 지식산업센터, 그 앞을 아침 출근 인파가 지나간다.",
+      "prompt_en": "Photorealistic single-scene contrast, gritty high-clarity HDR photo with heavy micro-contrast, visible film grain, crisp detailed textures on brick, metal and glass. In the foreground stands a small weathered red-brick 1970s Korean factory building with scratched and weathered metal shutters and a rusted chimney, and directly behind it rises a towering modern glass office tower of Seoul's Guro Digital Complex catching bright morning sunlight with electric blue reflections and golden rim light. Between them a dense crowd of young Korean commuters in office wear walks to work, motion slightly blurred. Bright high-key daylight exposure with lifted shadows, dramatic volumetric clouds, vivid saturated colors, warm glowing orange brick versus bright electric blue glass. Strong sense of surprise that the factory land became an office city."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형 — 한 장면 대비형. 화면 왼쪽 절반은 잡초가 자란 디트로이트 공장 빈터와 반쯤 무너진 벽, 오른쪽 절반은 같은 시각 가산디지털단지역 출근 인파. 인물 없음.",
+      "prompt_en": "Photorealistic split-world single frame, gritty high-clarity HDR photo with heavy micro-contrast and visible film grain. The left half shows a vast empty lot in Detroit where a car factory once stood, tall weeds, broken concrete slabs and a half-demolished brick wall, dust particles in the air, cool desaturated tones but bright daylight exposure. The right half shows the same morning hour in Seoul's Gasan Digital Complex, a packed crowd of commuters pouring out of a subway exit under gleaming glass towers with warm golden backlight and lens flare. The two halves meet at a sharp diagonal seam. Bright high-key daylight, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered textures on the Detroit side."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "실물 클로즈업 — 1970년대 구로공단 미싱(재봉틀) 한 대를 크게, 그 뒤로 흐릿하게 지금의 유리 빌딩 사무실 창. 옆에 익명의 60대 한국 여성이 미싱을 바라본다. 컬러, 흑백 금지.",
+      "prompt_en": "Photorealistic object close-up, gritty high-clarity HDR photo with heavy micro-contrast, visible film grain and crisp detailed textures on metal. A vintage 1970s Korean industrial sewing machine, scratched and weathered black and gold metal, fills more than half of the frame in sharp focus on a worn wooden table, with a few colorful fabric scraps. Beside it an attractive likeable Korean woman in her 60s with a warm face looks at the machine with a nostalgic, moved expression. In the softly blurred background, a bright modern glass office window of a Seoul digital complex with electric blue reflections and warm golden sunlight. Full color, bright high-key daylight exposure, vivid saturated colors, never black and white or sepia."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 — 단면 컷어웨이. 한 필지 위의 지식산업센터 빌딩을 잘라 층마다 다른 회사(코딩하는 개발자, 영상 편집실, 작은 제조 작업장)가 들어찬 내부를 보여 주고, 빌딩 아래 땅에는 옛 공장 바닥 흔적.",
+      "prompt_en": "Photorealistic detailed cutaway cross-section view revealing the interior of a modern Korean knowledge industry center tower on a former factory site, gritty high-clarity HDR photo look with micro-contrast and fine grain. Each floor is a different small company: software developers at glowing monitors, a video editing studio, a game design team, a compact clean manufacturing workshop, all busy in bright light. At ground level the cut reveals old factory floor concrete and rusted rail tracks of a 1970s plant beneath the new tower. Bright high-key daylight, vivid saturated colors, electric blue screens versus warm orange interior lights, crisp detailed textures."
+    }
+  ]
+}
