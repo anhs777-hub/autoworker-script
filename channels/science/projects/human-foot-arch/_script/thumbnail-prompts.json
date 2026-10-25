@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "human-foot-arch",
+    "titles": [
+      "인간이 지구를 정복할 수 있었던 이유｜과학자들이 놓쳤던 발바닥의 두 번째 아치",
+      "인간은 어떻게 지구를 정복했을까 (feat. 답은 발바닥에 있었다?)",
+      "340만 년 전 나무 타던 발에 이미 사람의 곡선이 있었다"
+    ],
+    "thumbnail_texts": [
+      "{인간}이 지구를 정복한 이유 / 왜 [발바닥]일까",
+      "{발}은 뼈가 26개로 쪼개져 있는데 / 왜 걸을 때 [안 휘어질까]",
+      "{지폐}도 휘면 꼿꼿해지는데 / 왜 [발바닥]도 휘어 있을까"
+    ],
+    "image_concepts": {
+      "A": "발바닥 가로 단면 컷어웨이 — 아치로 늘어선 중족골 5개와 인대(주황), 뒤로 지평선을 걷는 초기 인류 실루엣(청록 하늘)",
+      "B": "스케일 비틀기 — 손바닥만 한 지구본을 딛는 거대한 맨발, 발바닥 가운데 가로 곡선이 빛나는 선"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A. 사람 발 가운데를 가로로 잘라 낸 단면 컷어웨이를 화면 위쪽에 크게. 다섯 개의 중족골이 활 모양으로 휘어 있고 그 사이 가로 인대가 주황으로 빛난다. 뒤로 청록 하늘 아래 지평선을 향해 걷는 초기 인류 실루엣이 작게.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A large human foot shown in a detailed cutaway cross-section view revealing the interior across the middle of the foot: five metatarsal bones arranged in a clear dome-shaped transverse arch, connected by glowing orange transverse ligaments, clean textbook-style anatomy with no blood. The cutaway foot fills the upper half of the frame, seen slightly from the front so the curved row of bones reads at a glance. Behind it, a wide teal sky over an African savanna horizon with a small silhouette of an early human walking toward the horizon."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A 변형. 맨발이 땅을 딛는 옆모습에서 발 가운데만 투명하게 열려, 가로로 휜 뼈 다섯 개가 주황으로 빛난다. 배경은 지평선이 길게 이어진 초원.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A giant bare human foot stepping onto dry savanna ground, the midfoot rendered as a semi-transparent window that reveals five metatarsal bones curved side to side in a transverse arch, glowing warm orange. The foot occupies the upper two thirds of the frame at a low dramatic angle. A long teal horizon and pale sky stretch behind it, empty and calm."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B. 손바닥만 한 지구본 위에 거대한 맨발 하나가 사뿐히 올라서 있다. 발바닥 가운데를 가로지르는 휜 곡선이 주황 빛 선으로 드러난다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A small teal and green Earth globe, the size of a palm, with a single enormous bare human foot gently standing on top of it, seen from a low side angle. A glowing orange line traces the curve running across the middle of the sole from side to side, as if showing an invisible arch. Playful scale contrast, bright clean background of soft sky blue."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 변형. 지구 둥근 곡면 위로 이어지는 맨발 발자국 행렬을 위에서 내려다본다. 발자국마다 가운데 가로 곡선이 주황으로 빛난다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A bird's-eye view of a long trail of human bare footprints crossing the curved surface of the Earth, leading from an African savanna toward distant teal mountains and coastline. Each footprint has a glowing orange curve across its middle. The trail sweeps across the upper half of the frame in a strong diagonal."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 지폐 한 장이 가운데가 살짝 휘어 꼿꼿이 서 있고, 그 옆에 같은 곡선으로 늘어선 발뼈 다섯 개가 나란히 놓여 같은 모양임을 보여 준다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. On a clean teal tabletop, a single paper banknote held at one end stands stiff and straight because its middle is gently curled sideways, while right next to it five clean ivory metatarsal bones are arranged in the exact same sideways curve, linked by thin orange ligaments. Both objects are large and side by side in the upper half of the frame, lit by bright warm light."
+    }
+  ]
+}

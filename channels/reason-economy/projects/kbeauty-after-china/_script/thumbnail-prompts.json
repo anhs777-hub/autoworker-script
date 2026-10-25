@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "kbeauty-after-china",
+    "titles": [
+      "중국 53%가 14%로 줄었는데… K뷰티가 프랑스를 제치고 미국 1위 된 진짜 이유",
+      "중국 손님이 떠났는데… K뷰티 수출이 역대 최대가 된 진짜 이유",
+      "\"같은 중국을 잃었다\" 대기업은 이익이 줄고, 작은 K뷰티는 역대 최대인 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"중국 53% → 14%\" / K뷰티, 그런데 역대 최대",
+      "\"프랑스 제치고 미국 1위\" / 중국 잃은 K뷰티의 반전",
+      "\"아이패드보다 많이 검색\" / K뷰티, 미국을 잡았다"
+    ],
+    "image_concepts": {
+      "A": "한국 주인공 대비 — 오른쪽 2/3 미국 매장·택배 상자 앞에서 한국 토너 패드·세럼을 들고 웃는 미국 쇼핑객들(황금 역광), 왼쪽 1/3 셔터·자물쇠가 내려진 텅 빈 명동 화장품 거리",
+      "B": "한 장면 대비 — 미국 드러그스토어 진열대 앞줄을 채운 한국 스킨케어(로고 없음), 뒤로 밀려난 금빛 고급 향수·크림 병"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-korea-hero-contrast",
+      "concept_ko": "한국 주인공 대비(2026-10-25 규칙). 오른쪽 3분의 2를 미국 쇼핑몰 화장품 코너에서 한국 토너 패드 통·앰플·시트 마스크를 손에 들고 환하게 웃는 미국 20~30대 쇼핑객들이 크게 차지하고, 뒤로 한국 스킨케어가 빼곡한 진열대. 왼쪽 3분의 1에 셔터와 큰 자물쇠가 내려진 명동 화장품 가게 거리. 가운데 큰 인물 없음.",
+      "prompt_en": "Photorealistic epic cinematic Korean-hero contrast composition, gritty high-clarity HDR photo with heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on plastic, glass and metal. The right two-thirds of the frame, larger and closer in a slightly heroic low-angle shot: three cheerful attractive young American shoppers of diverse backgrounds in a bright modern US mall beauty aisle, chest-up, each holding up Korean skincare products, a round jar of toner pads, a small glass serum ampoule with a dropper and a pastel sheet mask pouch, laughing and showing them to each other, faces clearly lit and readable. Behind them, so the place is instantly recognizable, tall shelves packed with colorful mint, pink and white Korean skincare packages, an open cardboard delivery box overflowing with the same products, bright golden backlight, glowing rim light and lens flare. The left third of the frame, smaller and further back, separated by a sharp diagonal seam: a deserted shopping street in Seoul's Myeongdong with rolled-down metal shutters on small cosmetics shops, a large padlock on one shutter, empty pavement, cool grey-blue desaturated tones but bright daylight exposure. No large central figure. Bright high-key daylight with lifted shadows, vivid saturated colors, split color accents of fresh mint and pink versus cold grey-blue, triumphant atmosphere. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 한 장면 대비. 미국 드러그스토어 진열대 앞줄을 한국 패드·시트 마스크·앰플이 가득 채우고, 뒤쪽 위 칸으로 금빛 뚜껑의 고급 향수·크림 병이 밀려나 있다. 쇼핑 바구니를 든 미국 여성이 앞줄 한국 제품으로 손을 뻗는다.",
+      "prompt_en": "Photorealistic single-scene contrast inside a bright American drugstore, gritty high-clarity HDR photo with heavy micro-contrast, visible film grain, crisp detailed textures on glass, plastic and metal shelving. The front rows of a long shelf are crowded edge to edge with colorful Korean skincare products, mint and pink jars of toner pads, stacks of sheet mask pouches and small glass serum ampoules, all brightly lit and in sharp focus. On the upper back shelf, smaller and pushed aside, a few ornate gold-capped luxury perfume and cream bottles in amber glass. An attractive likeable American woman with a shopping basket reaches past the gold bottles toward the Korean products with a delighted expression. Bright high-key store lighting with lifted shadows, vivid saturated colors, fresh mint and pink versus antique gold. Sense of a quiet reversal on the shelf. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형 — 한 장면 대비형(인물 없음). 왼쪽 절반은 셔터가 내려진 명동 화장품 거리, 오른쪽 절반은 미국 가정 현관 앞에 쌓인 택배 상자에서 쏟아져 나온 한국 스킨케어. 대각선 경계.",
+      "prompt_en": "Photorealistic split-world single frame, gritty high-clarity HDR photo with heavy micro-contrast and visible film grain. The left half shows a quiet street in Seoul's Myeongdong with rolled-down metal shutters on small cosmetics shops, one shutter locked with a large padlock, scattered leaflets on empty pavement, cool desaturated grey-blue tones but bright daylight exposure. The right half shows the front porch of a sunny American suburban house where opened cardboard delivery boxes overflow with colorful Korean skincare products, mint and pink jars of toner pads, serum ampoules and sheet masks spilling onto the doormat, warm golden backlight and lens flare. The two halves meet at a sharp diagonal seam. Bright high-key daylight, vivid saturated colors, split color accents of fresh mint and pink versus cold grey-blue, scratched and weathered textures on the shutters. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "실물 클로즈업 — 한국 토너 패드가 가득 든 둥근 통 하나를 화면 절반 넘게 크게, 뚜껑이 열려 촉촉한 패드가 보인다. 옆에서 미국 여성이 패드를 집으며 놀란 듯 웃는다. 배경은 흐린 미국 욕실 거울과 아침 햇빛.",
+      "prompt_en": "Photorealistic object close-up, gritty high-clarity HDR photo with heavy micro-contrast, visible film grain and crisp detailed textures. A round translucent jar of Korean toner pads, lid open, glistening soaked cotton pads stacked inside, fills more than half of the frame in sharp focus on a white bathroom counter with water droplets. Beside it an attractive likeable young American woman with a warm face lifts one pad with tweezers, smiling with pleasant surprise. Softly blurred background of a bright bathroom mirror and morning sunlight through a window, mint and pink accents. Full color, bright high-key daylight exposure, vivid saturated colors. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 — 실물 클로즈업(ODM 공장). 한국 화장품 공장의 컨베이어 위로 모양·색이 전부 다른 작은 브랜드 병들이 줄지어 지나가고, 방진복 차림 작업자가 그중 하나를 들어 확인한다. 한 공장이 수많은 브랜드를 만든다는 느낌.",
+      "prompt_en": "Photorealistic object close-up inside a spotless Korean cosmetics manufacturing plant, gritty high-clarity HDR photo with micro-contrast and fine grain. On a gleaming stainless steel conveyor in the foreground, a long line of small cosmetic bottles and jars all in different shapes and colors, mint, pink, lavender, white and amber, moves toward the camera in sharp focus, each clearly a different small brand. A likeable Korean factory worker in a white cleanroom suit, cap and mask holds one pink bottle up to the light to inspect it. Bright high-key factory lighting, vivid saturated colors, clean white and steel with colorful bottles, crisp detailed textures. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+    }
+  ]
+}

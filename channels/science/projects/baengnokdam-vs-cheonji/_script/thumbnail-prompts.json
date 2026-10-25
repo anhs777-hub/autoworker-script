@@ -7,12 +7,12 @@
       "백록담은 마르는데 천지는 왜 안 마를까 (feat. 그릇이 다르다)"
     ],
     "thumbnail_texts": [
-      "{천지} 물을 다 빼면 / [백록담]이 될까",
+      "{천지}는 늘 가득 찼는데 / 왜 백록담은 [마를까]",
       "{천지}도 화산 호수인데 / 왜 혼자 [꺼진 자리]일까",
-      "{천지}도 백록담도 화산 호수인데 / 왜 하나만 [꺼진 자리]일까"
+      "{천지} 물을 다 빼면 / [백록담]이 될까"
     ],
     "image_concepts": {
-      "A": "물 뺀 두 그릇 나란히 단면 컷어웨이 — 거대한 천지 칼데라(바닥 속 분화구) vs 작은 백록담 화구",
+      "A": "가득 찬 천지 칼데라 vs 바닥이 드러난 백록담 화구, 나란히 단면 컷어웨이",
       "B": "꺼지는 산꼭대기 — 사라진 옛 꼭대기 윤곽 아래 내려앉은 넓은 분지(시간 겹치기 단면)"
     }
   },
@@ -20,8 +20,8 @@
     {
       "id": 1,
       "type": "concept-a-semi-realistic",
-      "concept_ko": "컨셉 A, 단면 컷어웨이(A-2). 물을 거의 다 뺀 두 산꼭대기 그릇을 같은 축척으로 나란히 잘라 보여 준다. 왼쪽 백두산 천지는 지름이 넓고 깊은 칼데라, 바닥 한쪽에 작은 분화구가 따로 하나. 오른쪽 한라산 백록담은 작고 얕은 화구, 바닥에 물이 조금.",
-      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A detailed cutaway cross-section view revealing the interior of two volcanic mountain summits placed side by side at the same scale in the upper part of the frame: on the left, the summit of Baekdu Mountain with a huge, wide and very deep caldera basin almost completely drained, steep layered inner walls and a flat floor with a separate small volcanic crater pit sitting inside it, only a thin layer of teal water left at the bottom; on the right, the summit of Hallasan on Jeju Island with a much smaller, shallow bowl-shaped crater (Baengnokdam) ringed by a pale trachyte cliff on one side and dark porous basalt on the other, with a small teal puddle at its bottom. Warm orange-brown rock layers contrast with the teal water and a clear sky-blue background. No people."
+      "concept_ko": "컨셉 A, 단면 컷어웨이(A-2). 같은 축척으로 나란히 자른 두 산꼭대기 그릇. 왼쪽 천지 칼데라는 깊은 청록 물이 가장자리까지 가득, 오른쪽 백록담 화구는 바닥이 갈라진 채 웅덩이만 조금. 백록담 바닥 흙층 아래로 물이 새는 모습.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A detailed cutaway cross-section view revealing the interior of two volcanic mountain summits placed side by side at the same scale in the upper part of the frame: on the left, the summit of Baekdu Mountain with a huge, wide and very deep caldera basin brimming to the rim with deep teal water; on the right, the summit of Hallasan on Jeju Island with a much smaller bowl-shaped crater (Baengnokdam) ringed by a pale trachyte cliff on one side and dark porous basalt on the other, its floor almost dry and cracked with only a small teal puddle, and thin glowing streaks showing water seeping down through a loose sandy sediment layer beneath it. Warm orange-brown rock layers contrast with the teal water and a clear sky-blue background. No people."
     },
     {
       "id": 2,
@@ -44,8 +44,8 @@
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드, 스케일 비틀기(C). 물을 다 뺀 거대한 천지 칼데라 바닥에 한라산 백록담 화구가 미니어처처럼 쏙 들어앉아 있다. 「천지 물을 빼면 백록담이 될까」를 한 장면으로. 칼데라 벽 끝에 아주 작게 등산객 한 명.",
-      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A playful scale twist: the enormous drained caldera of Heaven Lake on Baekdu Mountain seen from a high rim, its towering layered walls dropping hundreds of meters to a wide flat floor, and sitting on that floor like a small toy is the entire summit crater of Hallasan's Baengnokdam with its own tiny teal puddle, looking surprisingly small inside the giant basin. A tiny hiker in a bright jacket stands on the far rim for scale, occupying less than a twentieth of the frame. Clear bright sky, warm orange rock and teal water accents."
+      "concept_ko": "와일드카드, 투명 투시(E) + 원리 시각화(F). 한라산 정상에 굵은 비가 쏟아지는데, 백록담 바닥은 말라 갈라져 있고 투명하게 비친 바닥 흙 속으로 빗물이 빠르게 빠져나가는 모습. 멀리 오른쪽 위에 작게, 물이 가득 찬 천지.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Heavy rain pours from dark-edged clouds onto the summit of Hallasan, yet the oval crater lake Baengnokdam below is almost dry, its cracked muddy floor showing only a shallow puddle. The ground under the crater floor is rendered semi-transparent, revealing a loose sandy-gravel sediment layer where glowing teal streaks of rainwater drain quickly downward and away. In the far upper corner, small and distant, the wide caldera lake Heaven Lake on Baekdu Mountain sits brimming with deep teal water for contrast. Bright, saturated colors, no people."
     }
   ]
 }

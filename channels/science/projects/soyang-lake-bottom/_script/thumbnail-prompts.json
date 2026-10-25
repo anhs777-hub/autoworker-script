@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "soyang-lake-bottom",
+    "titles": [
+      "소양호 물을 한 층씩 빼 보면 (feat. 바닥엔 지난겨울이 있다)",
+      "소양호는 한여름에도 왜 바닥이 얼음물일까 (feat. 바닥엔 지난겨울이 있다)",
+      "소양호에서 산소가 가장 먼저 바닥나는 곳 (feat. 맨 밑바닥일까?)"
+    ],
+    "thumbnail_texts": [
+      "{소양호} 맨 위 층은 27도인데 / 왜 맨 아래 층은 [5도]일까",
+      "{소양호} 윗물은 27도인데 / 왜 맨 밑 층만 [5도]일까",
+      "{소양호}는 여름 수면이 27도인데 / 왜 바닥은 [5도]일까"
+    ],
+    "image_concepts": {
+      "A": "계단식 수위 단면 — 위에서부터 물을 한 층씩 뺀 소양호, 물가에 옛 수위선이 계단처럼 드러나고 남은 물은 위 주황·경계·맨 아래 청록",
+      "B": "같은 호수에 여름과 겨울이 함께 — 여름 수면 아래 깊은 곳에 서리 빛 겨울 물덩어리"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A 계단식 수위 단면(A-2). 사력댐 앞 깊은 호수를 세로로 잘라 보여 주고, 물을 위에서부터 몇 단 빼낸 듯 물가 산비탈에 옛 수위선이 계단처럼 드러나 있다. 남은 물은 위 얇은 주황, 회색빛 경계, 맨 아래 두꺼운 청록.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A detailed cutaway cross-section view revealing the interior of a very deep mountain reservoir in front of a huge earth-and-rock embankment dam in Gangwon Province, South Korea, in midsummer. The water has been drawn down step by step from the top: on the exposed mountain slopes around the lake, several pale horizontal water-level lines and bare terraced bands of rock and soil descend like a staircase toward the remaining water. The remaining water column is clearly layered: a thin glowing warm orange layer at the top, a narrow greyish boundary band, and a thick deep cool teal layer of cold water filling the bottom down to a dark rocky lakebed. Green forested peaks and a bright blue summer sky above."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A 변형 — 내려다보기(D) + 계단식 수위. 산 사이로 굽이친 소양호를 비스듬히 위에서 보고, 물가를 따라 계단처럼 드러난 옛 수위선 여러 단과, 앞쪽을 잘라 드러낸 남은 물의 주황·청록 두 층.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high oblique aerial view of a long winding reservoir lake between steep green mountains in Gangwon Province, South Korea, on a hot summer day, with a large earth-and-rock embankment dam at the near end. The lake has been lowered in stages, so the shoreline shows several bright bathtub-ring bands of bare earth stepping down the slopes like terraces. The near edge of the lake is cut open to reveal the remaining water: a thin sun-warmed orange surface layer and, beneath a crisp boundary, a massive cold teal body of water reaching far down. Glittering sunlight above, deep shadowed teal below."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 시간 겹치기(B) + 투명 투시(E). 위는 햇볕 쨍한 한여름 호수 수면과 녹음, 투명해진 물속 깊은 곳에는 눈송이와 서리 결정이 빛나는 차가운 겨울 물덩어리가 갇혀 있다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A deep mountain lake shown with transparent water: the top is a blazing midsummer scene with hot orange sunlight, lush green mountains and a shimmering warm surface layer, while deep below, visible through the clear water, a huge mass of icy teal winter water is trapped near the lakebed, glowing softly with drifting snowflakes and frost crystals inside it. A clear horizontal boundary separates the warm summer water from the cold winter water. Strong contrast between summer heat above and winter cold below."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 원리 시각화(F). 같은 호수를 세로로 나눠 왼쪽은 겨울(눈 덮인 산, 위아래가 같은 청록으로 빙글 섞이는 물결), 오른쪽은 여름(위 주황 층이 뚜껑처럼 덮이고 아래 청록이 그대로 갇힘). 화살표·글자 없이 빛나는 물결 선으로.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split-screen cross-section of the same deep reservoir lake: on the left side, winter, snow-covered mountains above and the whole water column one uniform cold teal with glowing swirling current lines circling from the surface all the way to the bottom; on the right side, summer, green mountains and a bright sun above, a thin warm orange layer floating on top and the cold teal water below sitting perfectly still, with a sharp boundary between them. No arrows, no text, only glowing flow lines."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 스케일 비틀기(C). 거대한 손바닥 위에 올려놓은 미니어처 소양호와 댐 — 호수가 유리 그릇처럼 잘려 있어 위 주황·아래 청록 두 층이 보이고, 작은 유람선이 수면에 떠 있다. 유머 요소 1개: 호수 바닥 쪽에 작은 서리 결정.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A giant open human palm holding a tiny miniature model of a Korean mountain reservoir with its earth-and-rock dam and green hills, the lake cut open at the front edge to show a thin warm orange surface layer over a thick cold teal deep layer, a tiny tour boat floating on top, and a few sparkling frost crystals clinging to the miniature lakebed. Bright summer daylight, playful and curious mood."
+    }
+  ]
+}
