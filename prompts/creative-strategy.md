@@ -375,6 +375,7 @@ Phase 4에서 확정된 패키지의 썸네일 이미지 컨셉을 기반으로,
 - 장수·스타일 배분: 채널 `config/thumbnail-strategy.json`의 `count`·`art_styles` 기준 — 와일드카드 1장 확보 후 나머지를 컨셉A/B × 스타일로 균등 배분 (thumbnail-design.md 배분 공식. 기본값: 5장 = A 2 + B 2 + 와일드 1)
 - 색감·감정·구도·인물·브랜드 요소도 thumbnail-strategy.json 설정을 반영
 - 프롬프트 작성 규칙 (영어, 3~5문장, 실명, 고유명사 보존 등)
+- **1번(추천) = 훅 장면** (2026-10-25, 채널 thumbnail-strategy.json에 「1번 훅 장면」 규칙이 있으면 적용): `hook-intro.md`의 장면 + 부딪히는 사실을 1번 프롬프트로 먼저 쓰고, 나머지를 배분 공식으로 채운다. 훅에 없는 대상·상황은 1번에 넣지 않는다. 훅 장면에 그릴 실물이 없으면 프롬프트 전에 hook-intro.md의 장면 문장부터 고친다
 - **boilerplate 불포함**: 비율/구도 여백/텍스트 금지 문구는 generate_thumbnails.py가 자동 추가
 
 ### 출력

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "siberia-stilt-buildings",
+    "titles": [
+      "시베리아 아파트는 왜 모두 기둥 위에 떠 있을까 (feat. 눈 때문일까?)",
+      "시베리아 아파트는 왜 모두 기둥 위에 떠 있을까 (feat. 추워서가 아니었다?)",
+      "영하 50도 도시가 건물을 공중에 띄운 이유 (feat. 추워서가 아니었다)"
+    ],
+    "thumbnail_texts": [
+      "{시베리아 아파트}는 영하 50도인데 / 왜 [공중에] 떠 있을까",
+      "{시베리아 아파트}는 추위 때문인 줄 알았는데 / 왜 [따뜻해서] 띄웠을까",
+      "{기둥 위 아파트}는 수십 년 버텼는데 / 왜 지금 [금이] 갈까"
+    ],
+    "image_concepts": {
+      "A": "단면 컷어웨이 — 기둥 위 콘크리트 패널 아파트, 밑 빈 공간을 지나는 청록 바람, 땅 단면의 얇은 활동층과 두꺼운 영구동토(주황 치수선, 숫자 없음)",
+      "B": "원리 시각화 — 아파트 바닥에서 번지는 주황 열기가 빈 공간 바람에 흩어지고, 반투명 땅 속에서 얼음 결정이 말뚝을 감싸 쥔 모습"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A 단면 컷어웨이(A-2). 한겨울 시베리아 도시, 콘크리트 기둥 여러 줄 위에 선 5층 콘크리트 패널 아파트가 화면 위쪽 절반을 꽉 채운다. 창마다 주황 불빛. 아파트 맨 아래층 밑은 텅 빈 공간이고 청록 바람 줄기가 그 사이를 가로질러 흐르고, 맨 아래층 바닥에서 새어 나오는 주황 열기가 땅에 닿기 전에 그 바람에 흩어진다. 땅은 칼로 자른 듯 단면으로 잘려, 위쪽 얇은 갈색 흙층(활동층) 아래 얼음 결정이 박힌 두꺼운 청록·흰 영구동토가 보이고, 기둥은 그 얼음층까지 내려가 있다. 활동층 경계에 주황 치수선(숫자 없음). 하늘은 연한 청록, 흰 서리 안개.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A detailed cutaway cross-section view revealing what lies under a Soviet-era five-storey concrete panel apartment block in Yakutsk, Siberia in deep winter: the whole building stands on rows of slim concrete piles, the space under its lowest floor is completely empty, and cool teal wind streams flow through that open gap, with a faint warm orange heat glow seeping down from the bottom floor into the open gap, being swept away by the teal wind before it reaches the frozen ground. Below ground the earth is sliced open like a cake: a thin brown seasonal soil layer on top, and beneath it a thick pale teal-and-white frozen ground packed with sparkling ice crystals, with the piles reaching down into the ice layer, and a glowing orange measuring bracket marking the thin top layer. Every window glows warm orange, frosty haze and snow on the roofs, pale teal sky."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "컨셉 A 변형 — 낮은 시점 컷어웨이. 사람 눈높이보다 낮은 곳에서 아파트 밑 빈 공간을 올려다본 장면, 기둥 숲 사이로 눈발 섞인 청록 바람이 빠져나간다. 화면 아래쪽 땅은 단면으로 잘려 얼음 결정 층이 보이고, 기둥 끝이 얼음 속에 박혀 하얗게 서리가 엉겨 있다. 멀리 같은 모양의 기둥 위 아파트들이 줄지어 서 있다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A low-angle view looking into the open empty space beneath a Siberian concrete apartment block raised on a forest of concrete piles, swirling teal wind and fine snow blowing straight through between the piles. The ground in the foreground is cut away as a cross-section showing a thick frozen layer full of white ice crystals, the bottom ends of the piles locked inside the ice and coated with white frost. In the background, a row of identical apartment blocks all standing on piles fades into frosty mist, warm orange light in their windows against a cold teal sky."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 원리 시각화(F). 기둥 위 아파트의 바닥에서 아래로 주황빛 열기가 물결처럼 번져 내려오지만, 빈 공간을 지나는 청록 바람 줄기에 부딪혀 옆으로 흩어진다. 아래 눈 덮인 땅은 차가운 청록으로 빛난다. 화살표·글자 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A Siberian concrete apartment block standing on concrete piles above snowy ground, seen from the side. Glowing warm orange waves of heat seep downward from the bottom of the building, but a strong band of cool teal wind rushing through the empty gap under the building sweeps the orange heat sideways and away, so the snow-covered ground below stays glowing icy teal. Invisible forces visualized as luminous wavy lines and soft swirls, no arrows, no text."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 변형 — 투명 투시(E). 땅을 반투명 얼음처럼 비쳐 보이게 하고, 그 속에 박힌 콘크리트 말뚝 하나를 크게. 말뚝 표면을 얼음 결정이 손가락처럼 감싸 붙잡고 있다. 위쪽에 아파트 바닥과 기둥들이 작게 보인다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. The frozen ground beneath a Siberian apartment building rendered semi-transparent like clear blue ice, revealing one large concrete pile inside it in close-up: dense white ice crystals grow onto the pile's surface and grip it tightly all around, frozen fast to the concrete. Above, at the top of the frame, the underside of the apartment block and its row of piles stand on the snowy surface, one warm orange window glow. Cool teal and white ice tones with a warm orange accent."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 시간 겹치기(B). 좌우 반반 분할 — 왼쪽은 반듯하게 기둥 위에 선 새 아파트(맑은 하늘), 오른쪽은 같은 아파트가 살짝 기울고 외벽·기둥 위 보에 금이 간 지금 모습, 아래 눈 더미가 높게 쌓이고 땅에서 김이 오르는 배관이 지나간다. 사람 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split-screen of the same Soviet-era concrete apartment block on concrete piles in a Siberian city. Left half: the building brand new, perfectly straight and level on its piles under a clear teal winter sky. Right half: the same building today, leaning slightly to one side, with visible cracks running across the facade and along the beam on top of the piles, a tall snowdrift piled against its base and a steaming heating pipe running along the ground nearby. No people."
+    }
+  ]
+}
