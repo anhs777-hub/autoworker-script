@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "shipwreck-celadon",
+    "titles": [
+      "바닷속 800년 고려청자가 멀쩡했던 이유 (feat. 도자기라서일까?)",
+      "바닷속 나무배가 800년을 버틴 이유 (feat. 주꾸미가 찾은 고려 배)",
+      "고려청자를 800년 지킨 서해 펄 (feat. 꺼낸 뒤가 더 위험하다?)"
+    ],
+    "thumbnail_texts": [
+      "{바닷속 800년}인데 / 왜 [고려청자]가 멀쩡했을까",
+      "{나무배}는 바다에서 썩는데 / 왜 [800년]을 버텼을까",
+      "{주꾸미}가 막은 뚜껑이 / 왜 [고려청자]였을까"
+    ],
+    "image_concepts": {
+      "A": "훅 장면 — 펄 바닥 위 주꾸미가 감싼 소라 껍데기, 입구를 막은 비색 청자 접시, 아래 펄 단면에 묻힌 고려 나무배",
+      "B": "단면 — 펄에 묻힌 쪽은 멀쩡하고 드러난 쪽은 구멍투성이인 나무배, 펄 속엔 실린 그대로의 청자 더미"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "hook-scene",
+      "concept_ko": "1번 = 훅 장면(thumbnail-strategy ⓪). 결정적 순간(G) + 단면(A). 회갈색 펄 바닥 위, 주황빛 주꾸미 한 마리가 다리로 소라 껍데기를 감싸 안고 있고, 껍데기 입구는 연녹색 비색 고려청자 접시 한 장으로 막혀 있다(껍데기 안쪽 틈으로 작은 흰 알 다발이 살짝 보임). 화면 아래쪽 펄 단면 속에 묻힌 고려 나무배의 늑재와 쌓인 청자 그릇들이 희미하게 보인다. 위에서 청록 바닷물 사이로 빛줄기. 사람 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. On a grey-brown muddy sea floor, a small orange-red webfoot octopus wraps its arms around a large conch shell lying on its side. The opening of the conch shell is neatly covered by a single pale jade-green Goryeo celadon dish with a soft glossy glaze, and through a small gap a cluster of tiny white octopus eggs is visible inside the shell. The lower part of the image is a clean cross-section of the mud, revealing faintly the buried wooden ribs of an old Korean cargo ship and stacked celadon bowls inside it. Cool teal seawater above with warm light rays from the surface. No people."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 단면(A) + 투명 투시(E). 바다 밑에 비스듬히 누운 고려 나무배를 옆에서 자른 단면 — 펄 속에 묻힌 아래 절반은 나뭇결이 매끈하고 멀쩡하며 그 안에 청자 그릇이 차곡차곡 실린 그대로 쌓여 있다. 펄 위로 드러난 위 절반은 수많은 작은 구멍과 굴로 갉아 먹혀 부서져 있다. 펄 경계선이 또렷하게. 화살표·글자 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A side cross-section of an old wooden Korean cargo ship lying tilted on the sea floor. The lower half is buried in thick dark grey mud: its warm orange wooden planks look smooth and intact, and inside it pale jade-green celadon bowls and jars are still neatly stacked as they were loaded. The upper half sticks out of the mud into cool teal seawater and is riddled with countless small holes and tunnels, crumbling and broken. A sharp clear line where the mud surface divides the intact part from the eaten part. No arrows, no text."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "스케일 비틀기(C) + 투명 투시(E). 거대하게 확대한 나무 토막 단면 — 안쪽에 배좀벌레(길쭉한 흰 몸에 앞쪽 작은 조개껍데기)가 판 굴이 여러 갈래로 뚫려 있다. 토막의 아래쪽 절반은 회색 펄에 잠겨 있고, 그 부분엔 굴이 하나도 없이 나뭇결이 멀쩡하다. 펄 위 바닷물엔 작은 유생들이 떠다니지만 펄 경계에서 멈춘다(원리 시각화). 징그럽지 않게 교과서 그림처럼 깨끗하게.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A giant magnified cutaway of a wooden timber standing upright at the sea floor, clean textbook style. The upper part, in cool teal seawater, is bored through with branching tunnels made by shipworms, slender pale clam-like creatures with tiny shells at their heads, drawn neatly and not gross. The lower half of the timber is sunk in smooth grey mud, and that buried part shows perfect untouched orange wood grain with no tunnels at all. Tiny glowing larvae drift in the water above but stop at the mud line. No text."
+    },
+    {
+      "id": 4,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "결정적 순간(G). 바닷속 펄 바닥에서 막 드러난 고려청자 매병 두 점 — 목에 대나무 꼬리표가 묶여 있고, 잠수부의 장갑 낀 손(화면 구석, 작게)이 펄을 살살 걷어 낸다. 주변 펄 위로 흙탕물이 일고, 위에서 손전등 빛줄기. 청자 비색이 펄 속에서 선명하게 빛난다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. On a murky sea floor, two tall elegant Goryeo celadon maebyeong vases are just being uncovered from thick grey mud, their pale jade-green glaze shining brightly. Small bamboo tags are tied around their necks with cord. In a small corner of the frame, a diver's gloved hand gently brushes the mud away. Swirls of silt rise around them, and a warm flashlight beam cuts through the cool teal water. No faces, no text."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 시간 겹치기(B) + 내려다보기(D). 위에서 내려다본 태안 앞바다 — 수면 위로 작은 어선과 주꾸미 소라 껍데기 줄이 이어지고, 바다가 반투명해져 그 아래 펄 속에 고려 돛단배 여러 척이 잠들어 있는 모습이 보인다. 한쪽 배 위로는 800년 전 돛을 단 모습이 반투명 빛으로 겹친다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high bird's-eye view of a calm coastal sea off western Korea at golden hour, with a small fishing boat and a long line of floating conch-shell octopus traps on the surface. The water is rendered translucent, revealing beneath the sea floor mud several old wooden Korean sailing cargo ships lying buried, filled with pale green celadon. Above one of the buried ships, a faint glowing ghost image of the same ship with its sails up from centuries ago is overlaid. No people visible, no text."
+    }
+  ]
+}

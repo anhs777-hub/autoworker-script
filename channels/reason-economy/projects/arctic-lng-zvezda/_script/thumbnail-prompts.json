@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "arctic-lng-zvezda",
+    "titles": [
+      "\"설계도는 거제에서 왔다\" 푸틴이 이름 붙인 첫 러시아산 쇄빙 LNG선의 진짜 이유",
+      "쇄빙선 15척, 한국에 맡기자 다 왔고 직접 짓자 2척… 러시아 북극 가스선의 진짜 이유",
+      "\"한국 없이 짓겠다던 배\" 러시아 첫 쇄빙 LNG선이 결국 거제 설계로 나온 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"설계도는 거제에서 왔다\" / 푸틴이 이름 붙인 '러시아산' 쇄빙선",
+      "\"한국은 15척, 러시아는 2척\" / 같은 쇄빙선을 직접 지어 보니",
+      "\"원자력 쇄빙선 8척 가진 러시아\" / 가스선 설계도는 거제에서"
+    ],
+    "image_concepts": {
+      "A": "한국 주인공 대비 — 오른쪽 2/3 거제 도크에서 골리앗 크레인이 들어 올린 거대한 쇄빙 LNG선 선체 블록과 웃는 작업자들·태극기, 왼쪽 1/3 얼어붙은 러시아 극동 조선소의 같은 종류 배",
+      "B": "실물 클로즈업 — 두꺼운 얼음을 깨는 붉은 쇄빙 LNG선 선수 + 설계 도면을 든 한국 조선소 엔지니어"
+    },
+    "note": "실존 정치인(푸틴) 얼굴은 AI로 만들지 않는다(인물 안전 규칙) — 훅의 명명식은 배·조선소·리본 장식으로만 그린다. 로고·텍스트 금지. 1번은 훅 장면(러시아 조선소의 「첫 자국산」 배 + 그 설계·블록이 나온 거제)"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-korea-hero-contrast",
+      "concept_ko": "훅 장면, 한국 주인공 대비. 오른쪽 3분의 2는 맑은 하늘 아래 경남 거제 조선소 도크 — 노란 골리앗 크레인이 아파트 몇 층 높이의 붉은·회색 선체 블록을 들어 올리고, 앞쪽에 안전모를 쓴 한국 작업자 3명이 웃으며 올려다본다. 위쪽에 태극기. 왼쪽 3분의 1 사선 경계 뒤로 눈 덮인 러시아 극동 조선소, 리본 장식이 달린 쇄빙 LNG선 한 척과 작은 러시아 국기(차갑고 흐린 톤).",
+      "prompt_en": "Photorealistic epic cinematic Korean-hero contrast composition, gritty high-clarity HDR photo with heavy micro-contrast and crisp steel textures. The right two-thirds of the frame, larger and closer in a heroic low-angle shot: a sunny shipyard dock in Geoje, South Korea, where a giant yellow goliath gantry crane lifts an enormous red-and-grey hull block of an icebreaking LNG carrier, three Korean shipyard workers in white hard hats and blue coveralls smiling confidently as they look up, a large South Korean national flag (Taegeukgi) waving above the dock in warm golden backlight. The left third, behind a diagonal border and further back: a snow-covered Russian Far East shipyard under a pale grey sky, one large icebreaking LNG carrier with ceremonial ribbons on its bow and a small Russian flag, cold desaturated blue tones. No famous people, no logos."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-scene-contrast",
+      "concept_ko": "한 장면 대비. 오른쪽 크게, 두꺼운 북극 얼음을 깨며 힘차게 나아가는 거대한 쇄빙 LNG선(햇빛·튀는 얼음 조각·태극기 작은 마스트 깃발 없이 선체만), 왼쪽 작게 불 꺼진 북극 가스 공장 부두가 텅 비어 있고 저장 탱크만 서 있다.",
+      "prompt_en": "Photorealistic cinematic scene-contrast composition, high-saturation HDR. On the right, large and dominant: a 300-meter icebreaking LNG carrier with a red hull and white superstructure powering through thick Arctic sea ice under bright low sunlight, huge slabs of ice breaking and spraying around its hull, a feeling of unstoppable strength. On the left, smaller and further back: an empty frozen loading pier of an Arctic gas liquefaction plant, round white storage tanks and dark idle cranes, no ship at the berth, grey haze and muted cold tones. Strong contrast between the bright moving ship and the silent empty pier."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-scene-contrast",
+      "concept_ko": "한 장면 대비(숫자 15 vs 2). 오른쪽 크게 거제 앞바다에 나란히 선 쇄빙 LNG선 여러 척(줄지어 원근), 왼쪽 작게 얼음 덮인 러시아 조선소 안벽에 미완성 선체 한 척이 비계에 덮여 있다.",
+      "prompt_en": "Photorealistic cinematic contrast composition, vivid HDR. Right two-thirds: a row of many identical red-hulled icebreaking LNG carriers lined up one behind another along a bright Korean shipyard quay in Geoje, stretching into the distance in strong perspective, warm golden afternoon light and a South Korean flag on a tall pole. Left third, smaller and behind a diagonal border: a single unfinished icebreaking LNG carrier hull wrapped in scaffolding at a snowy Russian shipyard quay, rust streaks, grey overcast sky, cold desaturated palette. The many-versus-one contrast must read instantly."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-object-closeup",
+      "concept_ko": "실물 클로즈업. 화면 위쪽을 꽉 채우는 붉은 쇄빙 LNG선 선수가 2m 두께 얼음판을 깨는 순간, 오른쪽 앞에 시안빛 설계 도면 두루마리를 든 한국 조선소 엔지니어(30대, 안전모) 한 명이 자신 있게 미소 짓는다.",
+      "prompt_en": "Photorealistic cinematic close-up, dramatic HDR with heavy micro-contrast. The upper frame is filled by the massive red reinforced bow of an icebreaking LNG carrier smashing through a two-meter-thick sheet of Arctic ice, cracked ice blocks lifting into the air, bright cold sunlight. In the right foreground, a handsome Korean shipbuilding engineer in his thirties with a warm likeable face, white hard hat and navy work jacket, holding an unrolled cyan ship blueprint, smiling with quiet confidence. Exaggerated scale between the giant bow and the engineer."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 실물 클로즈업. 거제 도크 안, 하늘로 들려 올라가는 거대한 선체 블록 밑면을 한국 여성 용접 기술자(안전모·용접 마스크를 이마 위로)가 올려다보며 엄지를 세운다. 블록 옆면에 얼음 깨는 배의 둥근 선수 곡선이 보인다.",
+      "prompt_en": "Photorealistic epic close-up, vivid high-saturation HDR, low-angle heroic shot inside a Korean shipyard dock. A gigantic steel hull block with the curved ice-breaking bow shape of an Arctic LNG carrier is being hoisted into a clear blue sky by thick crane cables, sparks still glowing at a fresh weld seam. In the foreground, an attractive Korean female welding technician with a warm likeable face, welding mask flipped up on her hard hat, looks up at the block with a proud grin and a thumbs-up. Golden backlight, crisp steel textures."
+    }
+  ]
+}
