@@ -12,7 +12,7 @@
       "「한때 한국보다 잘살던」 / 필리핀 해군은 한국을 골랐다 (예비)"
     ],
     "image_concepts": {
-      "A": "한 장면 대비 — 같은 부두의 낡은 초계함과 신형 호위함 / 진해 부두의 필리핀 국기 게양 순간",
+      "A": "한 장면 대비 — 스카버러에서 중국 군함을 달고 순찰하는 옛 충주함(훅 장면) / 진해 부두의 필리핀 국기 게양 순간",
       "B": "한국 주인공 대비 1컷(국뽕 요소 전부, 2026-10-25) + 실물 클로즈업 2컷(배 한 척 절반 이상 + 익명 인물 1명)"
     },
     "ab_test": [
@@ -25,8 +25,8 @@
     {
       "id": 1,
       "type": "scene-contrast-photorealistic",
-      "concept_ko": "한 장면 대비: 같은 부두에 나란히 선 낡은 초계함과 한국산 신형 호위함 (추천)",
-      "prompt_en": "Photorealistic high-saturation HDR wide shot of a single naval pier in the Philippines in bright late-afternoon sun, just before golden hour. Moored side by side in one continuous scene: on the left, a small weathered gray 1980s Pohang-class corvette with rust streaks and scratched, pitted hull plates, touched by warm glowing orange sunlight; on the right, a much larger brand-new gray guided-missile frigate, its hull towering over the old ship, with crisp bright electric blue reflections from the sea and sky on its steel. A few Filipino sailors in blue working uniforms walk on the pier between them, small in the frame. Clear tropical water reflects both ships under a bright sky. Natural documentary realism, no oversized flags, no exaggerated faces, the size difference alone tells the story. Keep the bottom third of the frame visually simple, with no important details, to leave room for caption text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
+      "concept_ko": "한 장면 대비(훅 장면): 스카버러 바다에서 중국 군함 두 척을 뒤에 달고 순찰하는 낡은 옛 충주함 (추천)",
+      "prompt_en": "Photorealistic high-saturation HDR wide shot on the open South China Sea near Scarborough Shoal in bright late-afternoon sun, just before golden hour. In the foreground, filling the left half of the frame, a small weathered gray 1980s Pohang-class corvette flying a small Philippine flag cuts through the waves on patrol, rust streaks and scratched, pitted hull plates in sharp detail, touched by warm glowing orange sunlight, a few Filipino sailors in blue working uniforms on deck looking back over the stern. Behind it, on the right side of the frame and closing in, two much larger modern gray Chinese navy warships with tall angular superstructures follow in its wake, cold and close, their steel catching bright electric blue reflections from the sea. Pale reef water shows in the distance. Tense but natural documentary realism, no weapons firing, no explosions, no oversized flags, no exaggerated faces, the size difference alone tells the story. Keep the bottom third of the frame visually simple, with no important details, to leave room for caption text. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal, glass and water, dust particles and small debris in the air, dramatic volumetric clouds, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, scratched and weathered metal textures, slightly over-processed look. Avoid: night scene, dark, low-key, moody, crushed blacks, heavy vignette."
     },
     {
       "id": 2,

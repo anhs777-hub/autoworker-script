@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "oklo-natural-reactor",
+    "titles": [
+      "20억 년 전 아프리카 땅속에서 원자로가 저절로 돌아간 이유",
+      "20억 년 전 아프리카 땅속에서 원자로가 저절로 돌아간 이유 (feat. 누가 켰을까?)",
+      "사람이 만들기 20억 년 전에 원자로는 누가 켰을까"
+    ],
+    "thumbnail_texts": [
+      "{원자로}는 1942년에 처음 만들었는데 / 왜 [20억 년 전] 땅속에서 돌았을까",
+      "{우라늄}이 0.003% 모자랐다 / [누가] 태웠을까",
+      "{땅속 원자로}는 30분 켜지고 / 왜 [2시간 반] 꺼졌을까"
+    ],
+    "image_concepts": {
+      "A": "훅 장면 — 1970년대 분석실 측정기 화면 「0.717%」, 그 뒤로 땅 단면이 열리며 우라늄 광맥이 주황으로 빛남",
+      "B": "단면 컷어웨이 — 지하수가 스며든 우라늄 광맥이 주황으로 맥박치고, 옆 칸엔 물이 김으로 날아가 빛이 꺼진 모습"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "hook-scene",
+      "concept_ko": "1번 = 훅 장면(사용자 지정, thumbnail-strategy ⓪). 시간 겹치기(B) + 단면(A). 화면 왼쪽 앞에 1970년대 프랑스 분석실의 낡은 질량 분석 측정기, 둥근 표시창에 큰 숫자 「0.717%」가 차가운 청록 빛으로 떠 있다. 측정기 뒤 벽이 오른쪽으로 갈수록 투명해지며 땅 단면으로 이어지고, 그 깊은 지층 속 우라늄 광맥이 주황색으로 이글이글 빛난다. 광맥 둘레로 청록 지하수 줄기가 스며든다. 사람 없음. 숫자가 AI에서 깨지면 표시창은 비워 두고 편집에서 「0.717%」를 얹는다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. In the left foreground, a vintage 1970s laboratory mass spectrometer instrument with metal panels, dials and a large round glowing display that reads \"0.717%\" in cool teal light, on a lab bench with a small vial of yellowish uranium ore powder. Behind the instrument the laboratory wall dissolves toward the right into a deep underground cross-section of layered rock strata, and deep inside it a thick uranium ore vein glows intensely warm orange, pulsing with light, with thin cool teal streams of groundwater seeping around it. Dark rock layers, glowing orange vein, teal water, no people."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 단면 컷어웨이(A-2) + 원리 시각화(F). 땅을 칼로 자른 단면. 사암층 사이 우라늄 광맥 두 칸 — 왼쪽 칸은 청록 지하수가 차 있고 주황 빛이 맥박처럼 터진다, 오른쪽 칸은 물이 하얀 김으로 날아올라 빛이 꺼져 어둡다. 위로 붉은 원시 지구 하늘과 맨땅. 숫자·글자 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A detailed cutaway cross-section view revealing the interior of the ground: between sandstone layers, a uranium ore seam split into two zones. In the left zone the cracks are filled with cool teal groundwater and the ore glows with a bright pulsing warm orange light radiating in soft waves. In the right zone the water is boiling away upward as white steam and the ore has gone dark and dim. On the surface above, barren rocky land under a hazy reddish ancient sky. Luminous waves, no arrows, no text."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "스케일 비틀기(C). 손바닥 위에 올린 작은 지구 미니어처, 아프리카 서쪽 해안 근처 한 점이 지표 아래에서 주황으로 빛난다. 손은 화면 아래쪽에 작게. 배경 청록 우주.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A small miniature Earth globe resting on an open human palm, the hand small at the bottom of the frame. On the globe, near the west coast of central Africa, one spot glows warm orange from beneath the surface as if lit from underground, a soft orange glow spreading through the translucent crust. Deep teal starry background."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "원리 시각화(F) + 투명 투시(E). 투명하게 비친 바위 속 우라늄 알갱이들, 그 사이 물 분자가 지나가며 빛나는 중성자 궤적이 느려지고 옆 알갱이를 주황으로 쪼갠다. 알갱이 둘레에 작은 반투명 광물 결정(인산알루미늄)이 자라 기체 방울을 가두고 있다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A close-up of rock rendered semi-transparent, revealing dark uranium mineral grains embedded inside. Between the grains flows cool teal water, and tiny glowing particle trails slow down as they pass through the water and then strike a neighboring grain, which bursts with a warm orange glow. Around the grains, small translucent pale crystals are growing, with tiny trapped gas bubbles sealed inside them. Luminous trails and soft glows, no arrows, no text."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 시간 겹치기(B). 좌우 반반 — 왼쪽은 원시 지구, 붉은 하늘 아래 맨땅 속에서 광맥이 주황으로 빛남. 오른쪽은 지금의 가봉 열대 우림과 노천 광산 구덩이, 땅속 같은 자리는 빛이 꺼진 회색 광맥. 사람 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split-screen of the same place with an underground cross-section beneath each half. Left half: an ancient barren Earth under a hazy reddish sky, and underground a uranium ore vein glowing bright warm orange with teal groundwater around it. Right half: the same spot today, lush green tropical rainforest in central Africa with an open-pit mine cut into red earth, and underground the same vein now dark grey and unlit. No people."
+    }
+  ]
+}

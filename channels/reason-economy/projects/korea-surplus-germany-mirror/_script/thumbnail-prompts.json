@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "korea-surplus-germany-mirror",
+    "titles": [
+      "독일과 일본을 합친 것보다 더 벌었다… 10년 전 독일도 이렇게 벌었습니다",
+      "한국 흑자, 독일+일본을 넘었다… 10년 전 독일이 먼저 걸었던 길",
+      "독일+일본보다 더 번 한국… 10년 전 흑자 1위 독일은 무엇으로 벌었나"
+    ],
+    "thumbnail_texts": [
+      "\"독일+일본보다 더 벌었다\" / 독일도 그랬다",
+      "\"OECD 주요국 중 2위\" / 10년 전 1위는 독일",
+      "\"반도체가 수출의 절반 가까이\" / 독일은 가스와 중국"
+    ],
+    "image_concepts": {
+      "A": "한국 주인공 대비(사용자 지정) — 오른쪽 2/3 불빛 가득한 한국 반도체 공장 단지(블루아워), 왼쪽 1/3 셔터 내린 독일 공장",
+      "B": "실물 클로즈업 — 한국 작업자 손의 반도체 웨이퍼 vs 잠긴 독일 가스관 밸브"
+    },
+    "note": "사용자 지정 「야경」은 채널 규칙(칠흑 같은 밤·어두운 장면 회피)과 충돌 → 블루아워 + 밝은 노출 + 단지 불빛으로 절충(정유 수출 편과 같은 방식). 기업 로고·실존 인물 얼굴·텍스트 금지. 훅에 그릴 실물 장면이 따로 없어 1번은 훅 문장의 두 주체(한국 흑자 = 반도체 공장 / 기록을 먼저 세운 독일 = 공장)를 담는다"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-korea-hero-contrast",
+      "concept_ko": "한국 주인공 대비(사용자 지정, 훅 장면). 오른쪽 3분의 2를 블루아워 하늘 아래 수천 개 불빛이 켜진 거대한 한국 반도체 공장 단지(유리 외벽 클린룸 동·배관·냉각탑)가 크게 차지하고, 앞쪽에 흰 방진복 작업자 두세 명이 자신 있게 웃으며 걸어 나온다. 위쪽에 태극기가 휘날린다. 왼쪽 3분의 1 사선 경계 뒤로 회색 하늘 아래 셔터를 내리고 불이 꺼진 독일 벽돌 공장, 작은 독일 국기. 가운데 큰 인물 없음.",
+      "prompt_en": "Photorealistic epic cinematic Korean-hero contrast composition, gritty high-clarity HDR photo with heavy micro-contrast, visible film grain, crisp detailed textures on glass, steel and concrete. The right two-thirds of the frame, larger and closer in a slightly heroic low-angle shot: a vast South Korean semiconductor fab complex at blue hour, long glass-walled cleanroom buildings, pipe racks and cooling towers glowing with thousands of warm golden and cool white lights, two or three Korean workers in white cleanroom bunny suits with hoods lowered walking out confidently and smiling, faces readable, a South Korean taegukgi flag waving above the buildings. The sky is a bright luminous blue-hour gradient with a glowing orange horizon, exposure kept bright with lifted shadows. The left third of the frame, smaller and further back behind a sharp diagonal seam: an old German red-brick factory under a flat grey overcast sky, its large rolling steel shutter pulled down, windows dark, a small German flag hanging limp, cold desaturated grey tones but daylight exposure. Strong split contrast of lit-up warm Korean fab versus switched-off grey German factory, triumphant atmosphere. No text, no letters, no numbers, no logos or brand marks anywhere, no real identifiable people. Avoid: pitch-black night, low-key, moody, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "한 장면 대비(인물 없음) — 화면 오른쪽 절반은 불빛이 가득한 한국 반도체 공장 단지와 출하 트럭 행렬, 왼쪽 절반은 같은 시각 셔터가 내려지고 주차장이 텅 빈 독일 공장. 대각선 경계로 밝기 대비.",
+      "prompt_en": "Photorealistic cinematic split-scene composition divided by a bold diagonal seam, high-clarity HDR with crisp detail and visible film grain. Right half: a brightly lit South Korean semiconductor fab complex at blue hour, glass cleanroom buildings glowing white and gold, a line of cargo trucks with illuminated headlights leaving the gate, vivid saturated cool-blue and warm-gold tones. Left half: a German industrial plant at the same hour with its rolling steel shutters closed, dark windows, an empty cracked parking lot with weeds, flat desaturated grey light. The contrast between switched-on and switched-off is the whole story. No people in focus. No text, no letters, no numbers, no logos or brand marks, no readable signs. Avoid pitch-black night and crushed blacks; keep exposure bright."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "실물 클로즈업 — 흰 방진복 한국 작업자가 무지갯빛 반도체 웨이퍼를 두 손으로 들어 올려 화면 절반 넘게 크게, 웨이퍼 표면에 공장 불빛이 반사된다. 작업자 눈가가 웃고 있다.",
+      "prompt_en": "Photorealistic extreme close-up product hero shot, high-clarity HDR, crisp micro-detail and fine film grain. A South Korean cleanroom worker in a white bunny suit, mask and hood, eyes visibly smiling with pride, holds up a large 300mm silicon wafer with both gloved hands so the wafer fills more than half of the upper frame, its surface shimmering with rainbow interference patterns and reflecting rows of bright cleanroom lights. Background is a softly blurred bright cleanroom corridor in cool white and pale yellow light. Bright, clean, vivid saturated colors. No text, no letters, no numbers, no logos or brand marks, no real identifiable person."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "실물 클로즈업 — 녹슨 대형 가스관 밸브 핸들에 쇠사슬과 자물쇠가 감겨 화면 절반 넘게 크게, 뒤로 흐릿하게 멈춘 독일 화학 공장 배관과 꺼진 굴뚝. 옆에서 독일 중년 작업자가 밸브를 붙잡고 굳은 표정으로 본다.",
+      "prompt_en": "Photorealistic extreme close-up, gritty high-clarity HDR with heavy micro-contrast and visible film grain. A huge rusty industrial natural gas pipeline valve wheel wrapped in a heavy chain and padlock fills more than half of the upper frame, flaking paint and corrosion in sharp detail. Beside it a German factory worker in his 50s with a hard hat and grey work jacket grips the wheel with a tense, regretful expression, natural attractive features. Behind them, softly blurred, the silent pipe racks and cold smokestacks of a chemical plant under a flat overcast sky, desaturated grey-brown tones with daylight exposure. No text, no letters, no numbers, no logos, no flags with text, no real identifiable person."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 — 한 장면 대비(항구). 앞쪽 한국 부산항 컨테이너 부두에서 반도체 화물 컨테이너가 크레인으로 대형 컨테이너선에 실리는 밝은 장면이 화면 대부분, 왼쪽 원경에 텅 빈 독일 함부르크 부두와 멈춘 크레인.",
+      "prompt_en": "Photorealistic cinematic wide shot, high-clarity HDR with crisp detail and film grain. Foreground and right two-thirds: a busy South Korean container port at golden hour, giant gantry cranes lifting containers onto a massive container ship, bright warm sunlight and vivid saturated blues and oranges, Korean dock workers in orange safety vests signalling, a taegukgi flag on a pole. Far left background, smaller and hazy behind a diagonal fade: a quiet European harbor with idle grey cranes and an almost empty quay under overcast sky, desaturated tones. Strong busy-versus-idle contrast. No text, no letters, no numbers, no logos or brand marks on containers or ships, no real identifiable people. Avoid pitch-black night."
+    }
+  ]
+}

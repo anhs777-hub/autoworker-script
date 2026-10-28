@@ -200,3 +200,4 @@
 - 발레로 베니시아: 2026년 2월부터 처리설비 단계적 가동 중단(회사 발표) → 4/30 Argus 「연료 생산 설비 가동 종료」 ✅ https://www.argusmedia.com/en/news-and-insights/latest-market-news/2821046-valero-ends-fuel-production-at-benicia-refinery
 - 서부 송유관: EIA(로이터 인용) 「로키산맥을 넘어 캘리포니아로 오는 송유관은 없고, 멕시코만에서 서부로 가는 송유관은 몇 개뿐」 → 「제한적」 ✅ (Hydrocarbon Processing 2025-11)
 - **호주 지원책 시점 정정**: 23억 호주달러 패키지는 **2021-05-17 발표**(퀴나나 폐쇄 발표 2020-10 **뒤**), 2020-12 리터당 1센트 임시 생산 지원 선행 → 위 「추가 리서치」의 「퀴나나 발표 전」은 틀림. 2030 연장은 그대로 ⚠️ (Parliamentary Library 2021-06 · Canberra Times)
+- 발레로 11억 달러 세전 손상차손 = 베니시아+윌밍턴(Valero 8-K, 2025 1분기) ✅

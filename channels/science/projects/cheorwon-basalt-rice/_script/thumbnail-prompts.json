@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "cheorwon-basalt-rice",
+    "titles": [
+      "현무암 돌밭 철원이 곡창지대가 된 이유 (feat. 물이 다 빠진다면서?)",
+      "현무암 땅 철원은 왜 곡창지대일까 (feat. 제주엔 논이 귀한데?)",
+      "철원평야는 처음부터 곡창이었을까 (feat. 세종 땐 논이 4분의 1도 안 됐다)"
+    ],
+    "thumbnail_texts": [
+      "{현무암} 땅은 물이 빠지는데 / 왜 [철원]은 곡창지대일까",
+      "{제주}는 현무암이라 논이 없는데 / 왜 [철원]은 쌀이 날까",
+      "{철원}은 논이 4분의 1도 안 됐는데 / 왜 지금은 [곡창]일까"
+    ],
+    "image_concepts": {
+      "A": "훅 장면 — 황금 논 단면 아래 점토층과 구멍 숭숭 검은 현무암층, 왼쪽 앞에 같은 돌로 쌓은 제주식 돌담",
+      "B": "단면 — 평평한 들판 옆 깊은 현무암 협곡 바닥의 한탄강, 들판의 물은 멀리 저수지에서 수로로"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "hook-scene",
+      "concept_ko": "1번 = 훅 장면(thumbnail-strategy ⓪, 10/26 훅 개정에 맞춤). 단면(A). 가을 철원의 끝없는 황금 논을 칼로 자른 듯한 단면 — 논 아래 붉은 갈색 점토층에 물이 머물러 있고, 그 아래로 구멍 숭숭 뚫린 검은 현무암층이 두껍게 깔려 있다. 화면 왼쪽 앞에는 같은 검은 현무암으로 쌓은 제주식 돌담이 조금 걸쳐 있다(같은 돌이라는 대비). 멀리 낮은 산, 가을 하늘. 사람 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A vast autumn plain of golden rice paddies in Korea stretching to the horizon, with ripe drooping rice stalks glowing warm orange-gold. The front of the ground is cut away as a clean cross-section: under the paddies a reddish-brown clay soil layer holds cool teal water near the top, and below it a thick layer of black porous basalt rock full of small holes. In the left foreground, a short section of a traditional Jeju-style stone wall stacked from the same black porous basalt rocks. Low distant mountains, clear autumn sky. No people."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "컨셉 B 단면(A) + 원리 시각화(F). 평평한 용암대지 들판의 단면, 오른쪽에 수직으로 깊게 패인 검은 현무암 협곡(절벽에 기둥 모양 결), 협곡 바닥 멀리 아래로 청록 강이 흐른다. 들판 위 황금 논에는 멀리 저수지에서 이어진 수로가 빛나는 청록 띠로 흘러든다. 강물과 들판 사이 높이 차가 한눈에 보이게. 화살표·글자 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A cross-section view of a flat lava plateau covered with golden rice paddies. On the right side the plateau drops into a deep vertical gorge with dark basalt cliffs showing columnar joints, and far down at the very bottom of the gorge a cool teal river flows, clearly much lower than the fields above. On the plateau, a glowing teal irrigation canal runs from a distant reservoir lake across the fields into the paddies. Strong height contrast between river and fields, no arrows, no text."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "투명 투시(E) + 스케일 비틀기(C). 손바닥만큼 거대하게 확대한 흙 한 덩이 — 왼쪽 반은 구멍 숭숭 검은 현무암 조각, 오른쪽으로 갈수록 그 돌이 부서져 붉은 갈색의 매끈한 점토로 바뀌고, 점토 표면엔 물방울이 스며들지 못하고 맺혀 있다. 배경은 흐릿한 황금 논.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A giant magnified close-up of a single clump of earth floating in the frame: its left half is a hard black porous basalt fragment full of holes, and toward the right the rock crumbles and transforms into smooth, sticky reddish-brown clay. On the clay surface, bright cool teal water droplets sit beaded and pooled instead of soaking in. Soft blurred background of golden rice paddies under warm light. No text."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "내려다보기(D). 가을 철원평야 조감 — 바둑판처럼 반듯하게 정리된 황금 논 구획이 끝없이 펼쳐지고, 그 사이를 빛나는 청록 수로 띠가 한쪽의 큰 저수지에서 갈라져 흘러간다. 들판 한쪽 가장자리를 따라 깊은 협곡이 검은 선으로 지나가고, 논 위에 두루미 몇 마리가 작게.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high aerial bird's-eye view of a vast autumn plain in Korea: neatly squared golden rice paddy plots stretch to the horizon, and glowing cool teal irrigation canals branch out like bright ribbons from a large reservoir lake at one side across the fields. Along one edge of the plain a deep dark gorge cuts through as a black winding line. A few small red-crowned cranes stand in the harvested fields. No people, no text."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 결정적 순간(G) + 시간 겹치기(B). 수십만 년 전 — 땅이 길게 갈라진 틈에서 주황색 용암이 분수가 아니라 흘러넘치듯 솟아 넓은 골짜기를 따라 강처럼 흘러간다(화산재 구름 없음). 그 용암 강 위로 지금의 황금 논과 수로가 반투명하게 겹쳐 보인다.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. An ancient landscape: a long straight crack in the ground pours out glowing orange lava that wells up and overflows quietly, with no ash cloud and no cone volcano, and the lava flows like a wide river down an old valley. Over this scene, faintly translucent, the same valley today appears as a ghostly overlay of golden rice paddies and teal irrigation canals. Warm lava orange against cool teal sky. No people, no text."
+    }
+  ]
+}
