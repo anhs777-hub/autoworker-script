@@ -12,7 +12,7 @@
       "\"파산한 미국 배터리 회사\" / 망간 배터리는 LG가 붙잡았다"
     ],
     "image_concepts": {
-      "A": "꺼진 미국 배터리 공장(1/3) vs 테네시 공장의 밝은 한국 엔지니어들과 각형 망간 배터리 셀(2/3)",
+      "A": "중국산 배터리 셀이 들어오는 항구의 작은 미국 전기차(1/3) vs 테네시 공장의 밝은 한국 엔지니어와 각형 망간 배터리 셀(2/3)",
       "B": "두 배터리 셀 실물 클로즈업 — 철 배터리(작게·주황 그늘) vs 망간 배터리(크게·파랑 빛) + 엔지니어 1명"
     }
   },
@@ -20,8 +20,8 @@
     {
       "id": 1,
       "type": "hook-scene-korea-hero-contrast",
-      "concept_ko": "1번(추천·훅 장면). 한국 주인공 대비. 왼쪽 1/3은 2012년 파산한 미시간 배터리 공장 — 녹슨 정문, 꺼진 조명, 텅 빈 생산 라인(컬러, 저채도). 오른쪽 2/3은 지금 테네시 배터리 공장 — 밝은 생산 라인 앞에서 각형 망간 배터리 셀을 들어 보이며 웃는 한국 엔지니어 3명, 위쪽에 크게 휘날리는 태극기, 황금 역광.",
-      "prompt_en": "Photorealistic epic cinematic split scene with a diagonal boundary: on the left third, a shuttered 2012 Michigan lithium-ion battery factory with a rusted closed gate, dead overhead lights and an empty production line, desaturated cold blue-gray tones with dust and scratched weathered metal; on the right two thirds, a bright modern battery cell plant in Spring Hill, Tennessee, where three confident smiling Korean battery engineers in clean-room suits hold up a large glowing prismatic manganese-rich battery cell toward the camera in a heroic low-angle shot. A huge Korean flag Taegukgi waves proudly in sunlight in the upper right above the engineers, with golden backlight, glowing rim light, lens flare and sparks on the Korean side. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, dust particles in the air, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, slightly over-processed look, triumphant and victorious mood."
+      "concept_ko": "1번(추천·훅 장면). 한국 주인공 대비. 왼쪽 1/3은 항구에서 중국산 배터리 셀 상자가 컨테이너째 내려져 작은 미국 전기차 옆에 쌓이는 장면(차갑고 흐린 톤, 로고 없음). 오른쪽 2/3은 테네시 배터리 공장 — 망간 배터리 셀을 들어 보이며 웃는 한국 엔지니어 3명, 위쪽에 크게 휘날리는 태극기, 황금 역광.",
+      "prompt_en": "Photorealistic epic cinematic split scene with a diagonal boundary: on the left third, a grey cargo port where crates of imported lithium iron phosphate battery cells are unloaded from a shipping container and stacked next to a small compact American electric hatchback with no logos, cold desaturated blue-gray tones, overcast light, scratched weathered metal; on the right two thirds, a bright modern battery cell plant in Spring Hill, Tennessee, where three confident smiling Korean battery engineers in clean-room suits hold up a large glowing prismatic manganese-rich battery cell toward the camera in a heroic low-angle shot. A huge Korean flag Taegukgi waves proudly in sunlight in the upper right above the engineers, with golden backlight, glowing rim light, lens flare and sparks on the Korean side. Gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, dust particles in the air, bright high-key daylight exposure with lifted shadows showing full detail, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, slightly over-processed look, triumphant and victorious mood."
     },
     {
       "id": 2,

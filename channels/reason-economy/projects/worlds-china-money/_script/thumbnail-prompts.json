@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "project": "worlds-china-money",
+    "titles": [
+      "\"한국 우승팀을 통째로 사 갔다\" 10년 뒤에도 롤드컵은 한국이 우승한 진짜 이유",
+      "중국 돈 끊긴 해 적자 285억… 그해에도 롤드컵은 한국 팀이 우승한 진짜 이유",
+      "\"연봉은 중국이 5배\" 선수는 다 사 간 중국이 롤드컵 트로피는 못 가져간 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"중국이 다 사 갔다\" / 트로피는 못 샀다",
+      "\"적자 285억 난 해\" / 또 한국이 우승",
+      "\"연봉은 중국이 5배\" / 우승은 한국이 10번"
+    ],
+    "image_concepts": {
+      "A": "어두운 협상 테이블의 돈다발·계약서(1/3) vs 황금 역광 무대 위 트로피를 들어 올리는 한국 팀 뒷모습과 태극기(2/3)",
+      "B": "우승 트로피 실물 클로즈업 + 옆에 꺼진 중계 모니터"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "korea-hero-contrast",
+      "concept_ko": "1번(추천). 한국 주인공 대비. 왼쪽 1/3: 어두운 회의실 테이블 위 위안화 돈다발과 서명된 계약서, 차가운 회청색 조명(인물 없음, 국기·조롱 요소 없음). 오른쪽 2/3: 거대한 e스포츠 경기장 무대에서 은색 우승 트로피를 높이 들어 올리는 유니폼 차림 한국 선수 5명의 뒷모습, 위쪽에 크게 휘날리는 태극기, 황금 역광·색종이. 얼굴은 보이지 않게(실존 선수 식별 불가).",
+      "prompt_en": "Photorealistic epic cinematic split scene with a diagonal boundary: on the left third, a dark corporate negotiation table covered with stacks of banknotes and signed contracts under cold blue-gray light, no people, no flags, no logos; on the right two thirds, a massive esports arena stage where five players in team jerseys, seen from behind with faces not visible, lift a large silver championship trophy high above their heads, golden backlight, confetti falling, stage lights and lens flare, a huge Korean flag Taegukgi waving proudly in the upper right. Gritty high-clarity HDR photo, heavy micro-contrast, film grain, 16:9, leave the bottom 30 percent clean for text, no text, no real person likeness, no brand logos."
+    },
+    {
+      "id": 2,
+      "type": "object-closeup",
+      "concept_ko": "2번. 실물 클로즈업. 화면 중앙에 빛나는 은색 우승 트로피(크게), 왼쪽 뒤에 전원이 꺼진 검은 중계 모니터와 헤드셋. 황금 조명 vs 검은 화면.",
+      "prompt_en": "Photorealistic close-up of a gleaming large silver esports championship trophy on a dark stage, warm golden spotlight, beside it in the soft-focus background on the left a switched-off black broadcast monitor and a gaming headset on a desk, strong contrast gold versus black, cinematic HDR, film grain, 16:9, bottom 30 percent clean for text, no text, no logos."
+    }
+  ]
+}
