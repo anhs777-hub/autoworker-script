@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "japan-alley-korea-newtown",
+    "titles": [
+      "\"76년째 넓히는 중\" 일본 골목은 집 한 채씩, 한국은 도시를 통째로 지은 진짜 이유",
+      "일본 골목은 76년째 집 한 채씩… 한국이 2년 5개월 만에 도시를 세운 진짜 이유",
+      "\"땅이 좁아서가 아니었다\" 일본 골목은 그대로, 한국은 도시를 통째로 지은 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"일본은 집 한 채씩\" / 한국은 도시를 통째로",
+      "\"76년째 넓히는 중\" / 일본 골목의 법",
+      "\"같은 법으로 시작했다\" / 1980년에 갈렸다"
+    ],
+    "image_concepts": {
+      "A": "한 장면 대비 — 왼쪽 1/3 차를 피해 담벼락에 붙은 보행자가 있는 일본 전봇대 골목, 오른쪽 2/3 넓은 보도·가로수의 한국 신도시 대로",
+      "B": "항공 시점 — 구불구불 빽빽한 일본 주택가 골목망 vs 반듯한 대로·단지의 한국 신도시"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "1번(추천) = 훅 장면. 왼쪽 3분의 1은 전봇대·전선이 늘어선 일본 주택가 골목에서 작은 차가 들어오자 보행자가 담벼락에 몸을 붙이고 기다리는 순간, 오른쪽 3분의 2는 넓은 보도와 가로수가 있는 한국 1기 신도시 대로를 사람들이 여유 있게 걷는 장면. 국기·랜드마크 없음.",
+      "prompt_en": "Photorealistic split-scene street photograph with a diagonal boundary. On the left third, a very narrow Japanese residential alley about four meters wide, lined with wooden utility poles and tangled overhead power lines, where a small white kei car squeezes through and a middle-aged pedestrian presses flat against a concrete block wall, waiting with a cramped, startled expression. On the right two thirds, shown larger and closer in a heroic slightly low-angle shot, a wide Korean new-town boulevard with a broad tree-lined sidewalk, rows of zelkova trees, and clean apartment complexes behind, where three cheerful Korean residents in their 50s walk side by side, smiling and chatting, with plenty of space around them. Warm golden afternoon backlight and glowing rim light on the Korean side, cool grey-brown shade on the Japanese alley, bright high-key daylight exposure with lifted shadows showing full detail, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, scratched and weathered concrete textures, split color accents of bright electric blue versus warm glowing orange, vivid saturated colors, slightly over-processed look, triumphant mood. No flags, no landmarks."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 변형 — 같은 대비를 정면 원근으로. 화면 위쪽 왼편 좁은 일본 골목 입구(전봇대·전선), 오른편 크게 넓은 한국 신도시 보도의 끝없는 가로수 줄. 사람의 어깨 폭으로 길 폭 차이가 보이게.",
+      "prompt_en": "Photorealistic wide street-level photograph comparing road width with the human body. Left side, small and in cool shade: the entrance of a cramped Japanese residential lane barely wider than two people with shoulders touching the walls, wooden utility poles and dense power lines crossing the sky, potted plants squeezed against house walls. Right side, larger and brighter: a spacious Korean planned new-town sidewalk stretching into the distance with a long line of green street trees, a bicycle lane, and families strolling comfortably under golden afternoon sun. Strong perspective lines leading the eye from the narrow lane to the wide boulevard. Bright high-key daylight exposure with lifted shadows, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on asphalt and concrete, dust particles in the air, split color accents of bright electric blue versus warm glowing orange, vivid saturated colors, slightly over-processed look."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-realistic",
+      "concept_ko": "한국 주인공 대비 — 화면 3분의 2를 1990년대 초 분당 신도시 첫 입주 날 이삿짐을 나르며 웃는 가족들과 새 아파트 단지·넓은 길이 차지하고, 왼쪽 가장자리 원경에 좁은 일본 골목. 태극기는 단지 위쪽에 크게.",
+      "prompt_en": "Photorealistic epic cinematic scene in a heroic low-angle shot. Two thirds of the frame on the right: a brand-new Korean apartment complex in the early 1990s Bundang new town with a wide freshly paved boulevard, young street trees, and cheerful Korean families carrying moving boxes and furniture into their new homes, smiling with excitement, a moving truck parked nearby. A huge Korean flag Taegukgi waves proudly in sunlight above the apartment buildings, not covering the people. On the far left edge, small and in cool grey shade: a narrow Japanese residential alley with utility poles and tangled power lines. Golden backlight, glowing rim light and lens flare on the Korean side, bright high-key daylight exposure with lifted shadows, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, dramatic volumetric clouds, split color accents of bright electric blue versus warm glowing orange, triumphant, victorious, slightly over-processed look."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B — 항공 시점 한 장면 대비. 왼쪽 회색 지붕이 빽빽하고 골목이 구불구불한 도쿄 주택가, 오른쪽 넓은 대로·공원·단지가 반듯하게 그어진 한국 신도시. 경계는 사선.",
+      "prompt_en": "Photorealistic high-altitude aerial photograph split by a diagonal line. On the left, in muted desaturated tones: a dense Tokyo residential district of tightly packed grey-roofed houses with narrow winding alleys too thin for cars, utility poles visible along the lanes. On the right, larger and brighter: a Korean planned new town seen from above with wide straight multi-lane boulevards, green parks, broad tree-lined sidewalks and neatly arranged white apartment complexes, glowing in warm afternoon light with blue-white highlights. The contrast between chaotic narrow lanes and an orderly grid is instantly readable at small size. Bright high-key daylight exposure, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, dramatic volumetric clouds, vivid saturated colors, slightly over-processed look."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "실물 클로즈업 — 일본 좁은 골목 바닥, 새로 지은 집 앞만 아스팔트가 한 뼘 넓어지고 경계 표시(측구·금속 경계표)가 그어진 장면. 옆집 블록 담은 길에 붙어 있음. 그 앞에서 바닥선을 내려다보는 60대 일본인 주민 1명(놀람).",
+      "prompt_en": "Photorealistic close-up photograph of the ground of a narrow Japanese residential alley. In front of one newly rebuilt modern house, the asphalt is visibly wider by about one meter with a fresh concrete gutter and a small metal boundary marker set into the road, while the old concrete block wall of the neighboring house still sticks out right to the edge of the original narrow lane, making the step in the road edge obvious. A Japanese man in his 60s with a likeable face stands beside the line, looking down at it with a surprised, curious expression. Utility poles and power lines overhead. Bright high-key daylight exposure with lifted shadows, gritty high-clarity HDR photo, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on asphalt, concrete and metal, scratched and weathered surfaces, split color accents of bright electric blue versus warm glowing orange, slightly over-processed look."
+    }
+  ]
+}

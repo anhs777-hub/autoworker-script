@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "gimhae-plain-sea",
+    "titles": [
+      "논 한가운데서 가야의 배가 나오는 이유 (feat. 원래 바다였다?)",
+      "시내 땅속에서 가야 배가 나온 이유 (feat. 바다가 빠졌을까?)",
+      "김해공항 아래 흙은 어디서 왔을까 (feat. 원래 바다였다?)"
+    ],
+    "thumbnail_texts": [
+      "{여기는 논 한가운데}인데 / 왜 [배]가 나올까",
+      "{바다는 20km 밖}인데 / 왜 [닻돌]이 묻혀 있을까",
+      "{김해공항} 옆 논인데 / 왜 땅속에 [굴 화석]이"
+    ],
+    "image_concepts": {
+      "A": "훅 장면 — 끝없는 초록 논과 멀리 이륙하는 비행기, 아래 땅 단면 진흙층 속 나무 배 측판 조각·노·닻돌, 맨 아래층 굴 껍데기 화석",
+      "B": "시간 겹치기 — 같은 산 아래 왼쪽은 옛 물가(나무 배·고상 창고), 오른쪽은 지금의 논과 비행기"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "hook-scene",
+      "concept_ko": "1번 = 훅 장면(thumbnail-strategy ⓪). 단면(A) + 결정적 순간(G). 화면 위쪽 절반: 끝없이 펼쳐진 초록 논, 멀리 지평선 쪽에 공항 활주로와 막 이륙하는 여객기, 뒤로 낮고 둥근 산. 화면 아래쪽: 논 바로 밑을 칼로 자른 깨끗한 땅 단면 — 회색·갈색 진흙층 속에 오래된 나무 배 측판 조각 하나(길쭉한 나무판), 그 옆에 나무 노 하나와 끈 구멍이 있는 둥근 닻돌. 단면 가장 아래층에 하얀 굴 껍데기 화석이 희미하게 박혀 있다. 사람 없음. 글자·화살표 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. Upper half: an endless flat expanse of bright green rice paddies in southern Korea under a clear teal sky, low rounded hills on the horizon, and far away an airport runway with a passenger jet just taking off. Lower half: a clean cutaway cross-section of the ground directly beneath the paddies, showing layered grey and brown mud. Buried in the mud lies an ancient weathered wooden plank from the side of a boat, glowing warm orange-brown, next to a long wooden oar and a rounded anchor stone with a rope hole. At the very bottom layer, white oyster shell fossils are faintly embedded. No people, no text, no arrows."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-semi-realistic",
+      "concept_ko": "시간 겹치기(B). 같은 낮은 산 능선을 배경으로 화면을 좌우 반반 — 왼쪽은 1,600년 전: 산기슭 바로 앞까지 잔잔한 청록 물가, 나무 배 한 척과 물가에 기둥을 세운 고상 창고. 오른쪽은 지금: 같은 산 아래 끝없는 초록 논과 멀리 이륙하는 비행기. 두 반쪽이 산 능선으로 자연스럽게 이어진다. 사람 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A split scene sharing one continuous ridge of low rounded green hills in the background. Left half, the ancient past: calm teal sea water reaches right up to the foot of the hills, a wooden plank boat floats near the shore, and wooden storehouses raised on stilts stand at the water's edge. Right half, the present: the very same hills, but in front of them an endless flat plain of green rice paddies, and a passenger jet taking off in the distance. The two halves blend smoothly along the hill line. No people, no text."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "내려다보기(D) + 투명 투시(E). 낙동강 하류 넓은 평야를 높은 곳에서 비스듬히 내려다본 조감 — 논과 도시, 공항, 강줄기. 그 위에 옛 바닷물이 산기슭까지 들어와 있던 모습을 반투명한 청록 빛으로 겹쳐 그려, 지금 평야 전체가 옛 물 아래 있다는 것이 보인다. 물의 가장자리는 흐릿하게(추정). 글자·지명 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A high oblique bird's-eye view over a wide flat river delta plain in southern Korea: green rice paddies, a small city, an airport runway, and a broad river winding toward the sea, framed by low hills. Overlaid on top, a translucent glowing teal layer shows the ancient sea that once filled the whole valley, reaching up to the foot of the hills, its edges soft and blurred. No people, no text, no labels."
+    },
+    {
+      "id": 4,
+      "type": "concept-a-semi-realistic",
+      "concept_ko": "단면(A) + 스케일(C). 땅을 아주 깊게 자른 세로 단면 — 맨 위 얇은 논, 그 아래 두껍게 쌓인 회색 진흙층(위에서 아래로 여러 겹), 중간에 굴 껍데기 화석 층과 백합 조개 층, 맨 아래 강자갈 층과 단단한 바위. 진흙층이 위의 논보다 압도적으로 두껍다. 지표 위 작은 논두렁과 아주 작게 보이는 경운기로 스케일 대비. 사람 없음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A very tall vertical cutaway cross-section of the earth beneath a rice paddy. At the top, a thin strip of green paddy with a tiny farm tractor for scale. Below it, an enormously thick stack of grey-blue mud layers, with a band of white oyster shell fossils and a band of clam shells embedded partway down, and at the very bottom a layer of rounded river gravel resting on hard dark bedrock. The mud is overwhelmingly thicker than the thin farmland on top. No people, no text, no arrows."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "결정적 순간(G). 발굴 구덩이를 아주 가까이 — 젖은 진흙 속에서 막 드러난 오래된 나무 노와 배 측판 조각, 그 옆 닻돌. 진흙 표면에 물기가 반짝이고, 구덩이 가장자리 너머 멀리 김해 시내의 낮은 건물과 산. 발굴 도구(작은 솔)만 구석에, 사람 손은 보이지 않음.",
+      "prompt_en": "Detailed semi-realistic digital illustration in the style of a Korean educational YouTube thumbnail: clean dark ink outlines, cel shading with soft painted gradients, rich saturated colors with strong warm orange and cool teal contrast, bright high-key lighting, crisp textures, slightly exaggerated perspective. Not a photograph. A close-up of an archaeological excavation pit: in wet dark grey mud, an ancient wooden oar and a long weathered wooden boat plank have just been uncovered, glistening with moisture, beside a rounded anchor stone. A small brush lies at the corner of the pit. Beyond the edge of the pit, far in the background, low city buildings and green hills under a teal sky. No people, no hands, no text."
+    }
+  ]
+}
