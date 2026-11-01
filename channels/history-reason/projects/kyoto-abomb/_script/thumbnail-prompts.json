@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "project": "kyoto-abomb",
+    "titles": [
+      "원폭 목표 1순위였는데.. 교토는 어떻게 원자폭탄을 피했을까?｜히로시마 원폭",
+      "신혼여행 때문이 아니었다.. 교토는 왜 원폭을 피했을까?｜원폭 목표 도시",
+      "군도 끝까지 원했는데.. 교토는 왜 원폭 목록에서 빠졌을까?｜히로시마 원폭"
+    ],
+    "thumbnail_texts": [
+      "원폭 1순위 도시였는데 / 교토만 피한 이유",
+      "장관 한 명이 / 목록에서 지운 도시",
+      "신혼여행이 아니었다 / 교토가 빠진 진짜 이유"
+    ],
+    "image_concepts": {
+      "A": "지도 위에서 지워진 한 점 — 교토 빨간 X, 4개 도시 회색 점 (지도 위 표시 하나)",
+      "B": "줄 그어진 도시 목록 — 누런 타자 문서 한 줄에 빨간 줄 (상징물 클로즈업)"
+    },
+    "label": "AA",
+    "note": "generate_images=false — 지도는 편집 프로그램에서 조합, 라벨·문구·X 표시는 미리캔버스에서 얹는다. 버섯구름 실사는 쓰지 않는다(피드 대조). 실존 인물 AI 얼굴 금지 — 스팀슨을 넣을 경우 공개 기록사진(미 정부 퍼블릭 도메인)만."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-archival-map",
+      "concept_ko": "1번(추천). 어두운 혼슈 서부~규슈 북부 지도. 교토 자리에 빨간 X 하나, 히로시마·고쿠라·니가타·나가사키는 작은 회색 점. 라벨 「AA」는 X 오른쪽 위 빈 자리에.",
+      "prompt_en": "Dark desaturated topographic map of western Honshu and northern Kyushu, Japan, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper texture, monochrome grey and ink black, no labels, no text, no numbers, no people, soft vignette, lower third left dark and empty. Four small muted grey dots mark coastal cities in the west and north. A single bold hand-painted deep-red (#C62828) X sits over the Kyoto basin in the center of the frame. Empty dark space to the upper right of the X is left clear for a label. Quiet, puzzling mood, strong contrast."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A 변형. 같은 지도를 비스듬한 각도로, 교토 X에 좁은 책상 조명이 떨어진다.",
+      "prompt_en": "Oblique low-angle view of an old desaturated paper map of central and western Japan lying on a dark wooden desk, embossed terrain relief, monochrome grey and sepia, no readable text, no numbers, no people. A narrow cone of desk-lamp light falls on the Kyoto area where a single deep-red (#C62828) X is painted. The rest of the map fades into shadow. Lower third dark and empty for text. Tense, quiet atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-document",
+      "concept_ko": "컨셉 B. 누런 1945년 타자 문서(글자는 읽히지 않게) 위, 목록 한 줄에 빨간 줄이 그어져 있다. 문서 아래로 지도 가장자리가 보인다.",
+      "prompt_en": "Close-up of a yellowed 1945 typewritten memo on a dark desk, the typed lines blurred and unreadable, one line struck through with a single thick deep-red (#C62828) pencil stroke. The edge of an old monochrome map of Japan peeks out beneath the paper. Low-key lighting, film grain, no readable text, no numbers, no people. Lower third dark and empty. Tense, archival mood."
+    }
+  ]
+}

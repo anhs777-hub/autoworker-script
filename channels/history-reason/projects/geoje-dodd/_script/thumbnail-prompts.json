@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "geoje-dodd",
+    "titles": [
+      "포로 15만을 가둔 미군은.. 왜 수용소장을 납치당했을까?｜거제 포로수용소",
+      "포로 15만을 가둔 미군은.. 왜 수용소 문을 못 열었을까?｜거제 포로수용소",
+      "전차까지 불렀는데.. 미군은 왜 사흘을 기다렸을까?｜거제 포로수용소"
+    ],
+    "thumbnail_texts": [
+      "포로 15만을 가뒀는데 / 소장을 빼앗긴 이유",
+      "경비는 9천 명뿐인데 / 문을 연 이유",
+      "판문점의 숫자 하나가 / 섬의 문을 연 이유"
+    ],
+    "image_concepts": {
+      "A": "거제도 북쪽 골짜기의 수용동 격자, 그중 한 칸(76수용동)만 빨갛게",
+      "B": "판문점에서 거제도까지 이어지는 점선 하나"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-archival-map",
+      "concept_ko": "1번 훅 장면. 1952년 5월 7일 76수용동 문 — 어두운 거제도 지도 위 북쪽 골짜기에 깔린 철조망 수용동 격자, 그중 한 칸만 빨갛게.",
+      "prompt_en": "Dark desaturated topographic military map of Geoje Island, South Korea, seen from directly above, with embossed mountain shading and a jagged coastline. In a valley near the island's northern shore, a dense grid of small rectangular barbed-wire prison compounds is laid out like a chessboard, drawn in thin grey lines. Exactly one compound in the grid is filled with deep red (#C62828), standing out sharply from dozens of grey ones. Monochrome grey and ink black palette, aged paper texture, soft vignette, the island fills the upper two thirds of the frame."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A 근접. 수용동 격자를 더 가깝게 — 이중 철조망 문 하나가 보이는 빨간 칸.",
+      "prompt_en": "Close top-down archival-style map detail of a Korean War prisoner-of-war camp on Geoje Island: rows of identical rectangular compounds separated by double barbed-wire fences and narrow roads, rendered in faded grey ink on aged map paper. One compound in the center is tinted deep red (#C62828), and its double gate on the road side is subtly emphasized. Desaturated monochrome with a single red accent, dramatic contrast, upper half dense with detail."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-archival-map",
+      "concept_ko": "컨셉 B. 한반도 남부 어두운 지도 — 판문점에서 거제도까지 이어지는 점선 하나, 끝에 빨간 점.",
+      "prompt_en": "Dark desaturated topographic military map of the southern Korean Peninsula, embossed terrain relief, ink black seas and grey mountains on yellowed paper texture. A single thin dashed line runs from Panmunjom near the 38th parallel down the length of the peninsula to Geoje Island off the southeast coast. The end point on Geoje Island is marked with one small deep red (#C62828) dot. Tense, ominous mood, the line and island in the upper two thirds of the frame."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-archival-map",
+      "concept_ko": "컨셉 B 변형. 위성 사진 톤 — 거제도를 크게, 북쪽 해안 골짜기에 빨간 점 하나.",
+      "prompt_en": "Satellite-photo-toned monochrome relief map of Geoje Island and the surrounding southeastern Korean coast at night, deep shadows and dramatic contrast, no city lights. The island is large in the upper frame, its rugged mountains and inlets clearly visible. A single small deep red (#C62828) point glows in a valley on the northern shore. Moody, desaturated, cinematic atmosphere."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 철조망 이중문 하나를 정면에서 — 바깥 문이 조금 열려 있다(인물 없음, 흑백 기록사진풍).",
+      "prompt_en": "Black-and-white archival photograph style image of a double barbed-wire gate of a 1950s Korean War prisoner camp, seen head-on at ground level, wooden posts and tangled wire, the outer gate slightly ajar. Empty dirt road in front, rows of canvas tents blurred behind the fence. High-contrast grayscale with a faint deep red tint on the open gate only, no people, tense quiet mood, the gate fills the upper two thirds of the frame."
+    }
+  ]
+}

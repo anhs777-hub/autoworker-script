@@ -20,27 +20,27 @@
   "thumbnails": [
     {
       "id": 1,
+      "type": "concept-a-same-day",
+      "concept_ko": "한 장면 두 시각. 화면을 사선으로 나눠 왼쪽은 낮의 대형 연수원 강당(정장 차림 청중 수십 명의 뒷모습), 오른쪽은 같은 날 오후 고급 식당의 2인 오찬 테이블(얼굴 없이 손과 식기만). 가운데 경계에 벽시계 하나.",
+      "prompt_en": "Photorealistic diagonal split composition, warm cinematic HDR. Left side: a large corporate training-center auditorium in daylight, dozens of Korean executives in dark suits seen from behind facing a stage. Right side: an elegant private dining room set for a two-person business lunch, only hands, cutlery and white tablecloth visible. A single wall clock sits on the diagonal border between the two scenes. No faces, no logos, no text."
+    },
+    {
+      "id": 2,
       "type": "concept-a-one-man-two-fabs",
       "concept_ko": "맑은 오후, 정장 차림 외국인 경영자 한 명의 뒷모습이 화면 가운데 아래에 서 있다. 왼쪽과 오른쪽에 햇빛을 받아 빛나는 거대한 반도체 공장 건물 두 동이 대칭으로 솟아 있고, 위쪽에 태극기. 인물은 두 공장 사이 길 위에서 양쪽을 번갈아 보는 자세.",
       "prompt_en": "Photorealistic cinematic bright afternoon scene, symmetrical composition, high-clarity HDR. A lone Western businessman in a dark suit seen from behind, standing small at the bottom center on a clean wide road that splits toward two colossal South Korean semiconductor fabrication plants, one on the left and one on the right, both gleaming white and glass under strong warm sunlight and a clear blue sky, steam rising from rooftop exhausts. A South Korean national flag (Taegeukgi) flies high above between the two buildings. The man turns his head slightly as if looking from one plant to the other. No faces visible, no logos, no text."
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "concept-a-builder-to-buyer",
       "concept_ko": "왼쪽 작게: 텅 빈 공사 부지에 설계 도면 두루마리만 놓인 흐린 장면. 오른쪽 크게: 정장 경영자의 뒷모습이 거대한 한국 반도체 공장 정문 앞에서 서류 가방을 들고 서 있고, 공장에서 웨이퍼 상자를 실은 카트가 줄지어 나온다.",
       "prompt_en": "Photorealistic split contrast composition, vivid HDR. Left third, smaller and muted grey: an empty undeveloped construction lot under an overcast sky with a single rolled-up blueprint lying on the dirt, no buildings. Right two-thirds, large and warm: a Western businessman in a suit seen from behind holding a briefcase, standing before the gleaming entrance of a giant South Korean semiconductor plant, rows of carts loaded with sealed wafer shipping boxes rolling out toward him, a South Korean flag above the gate. No faces, no logos, no text."
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "concept-b-four-wafers",
       "concept_ko": "실물 클로즈업. 무진실 흰 조명 아래 무지갯빛 300mm 웨이퍼 네 장이 나란히 놓였고, 흰 방진복 장갑을 낀 손이 그중 세 장을 한꺼번에 들어 올린다. 남은 한 장만 테이블에 있다.",
       "prompt_en": "Photorealistic macro close-up inside a semiconductor clean room, bright white lighting with iridescent reflections. Four 300mm silicon wafers with rainbow-colored chip patterns lie in a row on a stainless steel table; a hand in a white clean-room glove lifts three of them together, leaving only one wafer on the table. Shallow depth of field, crisp detail, dramatic highlights. No logos, no text."
-    },
-    {
-      "id": 4,
-      "type": "concept-a-same-day",
-      "concept_ko": "한 장면 두 시각. 화면을 사선으로 나눠 왼쪽은 낮의 대형 연수원 강당(정장 차림 청중 수십 명의 뒷모습), 오른쪽은 같은 날 오후 고급 식당의 2인 오찬 테이블(얼굴 없이 손과 식기만). 가운데 경계에 벽시계 하나.",
-      "prompt_en": "Photorealistic diagonal split composition, warm cinematic HDR. Left side: a large corporate training-center auditorium in daylight, dozens of Korean executives in dark suits seen from behind facing a stage. Right side: an elegant private dining room set for a two-person business lunch, only hands, cutlery and white tablecloth visible. A single wall clock sits on the diagonal border between the two scenes. No faces, no logos, no text."
     },
     {
       "id": 5,
