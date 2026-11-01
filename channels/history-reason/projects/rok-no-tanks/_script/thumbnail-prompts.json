@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "project": "rok-no-tanks",
+    "titles": [
+      "미국 대사도 알았는데.. 국군은 왜 전차가 한 대도 없었을까?｜6·25 첫날",
+      "전차 189대를 요청했는데.. 왜 한 대도 오지 않았을까?｜6·25 첫날",
+      "개전 11일 전에 보고했는데.. 국군은 왜 전차가 0대였을까?｜6·25 첫날"
+    ],
+    "thumbnail_texts": [
+      "8개월 전에 요청했는데 / 전차가 0대였던 이유",
+      "미국 대사도 알고 있었는데 / 한 대도 없었던 이유",
+      "개전 11일 전에 알았는데 / 전차가 0대였던 이유"
+    ],
+    "image_concepts": {
+      "A": "38선 아래로 내려오는 화살표 하나와 「국군 전차 0대」 (화살표/그래프)",
+      "B": "지도 위에 놓인 6월 14일의 전보 한 장 (상징물 클로즈업 — 훅 장면)"
+    },
+    "label": "국군 전차 0대",
+    "note": "generate_images=false — 지도는 편집 프로그램에서 조합, 라벨·문구·화살표는 미리캔버스에서 얹는다. 실존 인물 AI 얼굴 금지."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-b-archival-map",
+      "concept_ko": "1번(추천) = 훅 장면. 1950년 6월 14일, 서울 위에 놓인 누런 전보 용지 한 장. 지도는 한반도 중부, 38선 점선이 위쪽을 가로지른다.",
+      "prompt_en": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty. The map shows the central Korean Peninsula around Seoul and the Han River, with a faint dotted line crossing the upper third along the 38th parallel. A single sheet of yellowed 1950 telegram paper with blank, unreadable lines lies at a slight angle over the Seoul area, its edges curled, lit by a narrow cone of desk-lamp light. A thin strip of deep red (#C62828) sits at the corner of the paper as the only accent color. Quiet, puzzling mood."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A-1. 어두운 한반도 중부 지도, 38선 점선 위에서 서울로 내려오는 굵은 빨간 화살표 하나. 라벨 자리는 화살표 끝 오른쪽에 비워 둔다.",
+      "prompt_en": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no people, soft vignette, lower third left dark and empty. The map is framed on the central Korean Peninsula from Kaesong to Seoul, the Imjin and Han rivers catching faint light. A single thick deep-red (#C62828) arrow is painted from north of the 38th parallel down through the Uijeongbu valley, its point stopping just above Seoul in the upper half of the frame. The empty dark area to the right of the arrowhead is left clear for a label. Tense, ominous atmosphere with strong contrast."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A-2. 같은 컨셉, 비스듬한 각도. 두 갈래 골짜기(의정부·포천)를 따라 내려오는 화살표 두 개가 서울 앞에서 하나로 모인다.",
+      "prompt_en": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no people, soft vignette, lower third left dark and empty. Seen at a low oblique angle as if the paper map were laid on a table, the relief of the mountains north of Seoul rises in long shadows. Two narrow deep-red (#C62828) arrows follow two parallel valley roads southward and merge into one point just north of Seoul, high in the frame. A raking side light emphasizes the valleys the arrows run through. Tense, quiet atmosphere."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-archival-map",
+      "concept_ko": "컨셉 B-2. 전보 용지와 함께, 지도 위에 1940년대 미군 전차 모형 하나가 한반도 바깥 바다 쪽에 떨어져 놓여 있다(요청했지만 오지 않은 전차). 기종은 기록마다 달라(M26/M25) 특정하지 않는다. 전차는 작게, 실루엣으로.",
+      "prompt_en": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty. A yellowed blank telegram sheet lies over Seoul in the upper left, and in the upper right, out at sea beyond the Korean coastline, stands a small dark metal miniature of a late-1940s American medium tank, seen as a crisp silhouette. The empty gap of map between the telegram and the tank is the visual point of the image. A single deep-red (#C62828) accent marks the telegram's corner. Curious, slightly uneasy mood."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 위성 사진 톤의 한반도 야경 지도, 38선 위쪽에만 작은 빨간 점이 줄지어 박혀 있고(전차 종대) 아래쪽은 텅 비어 있다. 북쪽은 있고 남쪽은 없다를 점의 유무로.",
+      "prompt_en": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty. Rendered in a cold satellite-photo tone, the Korean Peninsula's center is crossed by a faint dotted line along the 38th parallel. North of the line, dozens of tiny glowing deep-red (#C62828) dots are lined up in columns along two mountain roads, while the land south of the line is completely empty and dark. The asymmetry between the dotted north and the empty south fills the upper half of the frame. Cool, tense, questioning mood."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>6·25 첫날 전차 0대</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;800&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 전보 용지 같은 단일 칼럼 작업 화면 — 상단 서류철 헤더, 탭 4개, 블록마다 복사 버튼 */
+:root{
+  --paper:#EEEBE3; --sheet:#F8F6F0; --ink:#1E1D1A; --muted:#5F5B52; --rule:#CFC9BB;
+  --red:#B3261E; --red-ink:#FFFFFF; --soft:#E4DFD3;
+  --f-display:"Noto Serif KR","Nanum Myeongjo",serif;
+  --f-body:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,"Malgun Gothic",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#16171A; --sheet:#1F2024; --ink:#E9E6DE; --muted:#A39E93; --rule:#3A3B40;
+  --red:#E0574C; --red-ink:#16171A; --soft:#2A2B30; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#16171A; --sheet:#1F2024; --ink:#E9E6DE; --muted:#A39E93; --rule:#3A3B40;
+  --red:#E0574C; --red-ink:#16171A; --soft:#2A2B30; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7;margin:0}
+.wrap{max-width:820px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:grid;gap:10px;border-bottom:2px solid var(--ink);padding-bottom:18px}
+.file{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px}
+.file b{color:var(--red);font-weight:500}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(22px,4.4vw,32px);line-height:1.35;margin:0;text-wrap:balance}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stat{font-family:var(--f-mono);font-size:12.5px;border:1px solid var(--rule);background:var(--sheet);padding:3px 10px}
+nav{display:flex;gap:0;margin:22px 0 18px;border-bottom:1px solid var(--rule);overflow-x:auto}
+nav button{font:inherit;font-weight:700;font-size:14px;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:10px 14px;cursor:pointer;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--red)}
+nav button:focus-visible,.copy:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+section{display:grid;gap:18px}
+.block{background:var(--sheet);border:1px solid var(--rule);display:grid}
+.bhead{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;border-bottom:1px solid var(--rule)}
+.bhead h2,.bhead h3{margin:0;font-size:13px;letter-spacing:.08em;font-weight:700;color:var(--muted)}
+.body{padding:14px;min-width:0}
+.pre{white-space:pre-wrap;word-break:keep-all;overflow-wrap:anywhere;margin:0}
+.mono{font-family:var(--f-mono);font-size:13.5px;line-height:1.8;font-variant-numeric:tabular-nums}
+.copy{font:inherit;font-size:12.5px;font-weight:700;background:var(--red);color:var(--red-ink);border:0;padding:5px 12px;cursor:pointer;flex:none}
+.copy.done{background:var(--ink);color:var(--sheet)}
+.script p{margin:0 0 1em;max-width:65ch}
+.script p:last-child{margin:0}
+.list{display:grid;gap:0}
+.row{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;padding:12px 14px;border-top:1px solid var(--rule)}
+.row:first-child{border-top:0}
+.row .txt{min-width:0}
+.row .t{font-weight:700}
+.row .n{font-size:13px;color:var(--muted)}
+.tag{font-family:var(--f-mono);font-size:11px;color:var(--red);letter-spacing:.06em;display:block}
+.note{font-size:13px;color:var(--muted);border-left:3px solid var(--red);padding:4px 0 4px 10px;margin:0}
+details summary{cursor:pointer;padding:12px 14px;font-weight:700}
+details[open] summary{border-bottom:1px solid var(--rule)}
+.prompt{font-family:var(--f-mono);font-size:12.5px;line-height:1.65;color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="file"><span>역사 속 이유</span><span>rok-no-tanks</span><b>1950.6.14 · 전보 857호</b></div>
+  <h1 id="h-title"></h1>
+  <div class="stats" id="stats"></div>
+</header>
+
+<nav role="tablist" aria-label="섹션">
+  <button role="tab" id="t-upload" aria-selected="true" aria-controls="p-upload">업로드 정보</button>
+  <button role="tab" id="t-thumb" aria-selected="false" aria-controls="p-thumb">썸네일 · 제목</button>
+  <button role="tab" id="t-ts" aria-selected="false" aria-controls="p-ts">타임스탬프</button>
+  <button role="tab" id="t-script" aria-selected="false" aria-controls="p-script">대본</button>
+</nav>
+
+<section id="p-upload" role="tabpanel" aria-labelledby="t-upload"></section>
+<section id="p-thumb" role="tabpanel" aria-labelledby="t-thumb" hidden></section>
+<section id="p-ts" role="tabpanel" aria-labelledby="t-ts" hidden></section>
+<section id="p-script" role="tabpanel" aria-labelledby="t-script" hidden></section>
+</div>
+
+<script>
+const D = {"up": {"title": "미국 대사도 알았는데.. 국군은 왜 전차가 한 대도 없었을까?｜6·25 첫날", "desc": "#6·25전쟁, #한국전쟁, #T34전차, #국군, #역사속이유\n\n1950년 6월 25일, 북한군은 전차를 앞세우고 내려왔는데 국군에는 전차가 한 대도 없었습니다. 미국 대사가 개전 11일 전에 보고한 전보와 미국 외교문서·미 육군 공간사를 따라가며, 6·25 첫날 국군에 전차가 없었던 이유 세 가지를 날짜순으로 정리합니다.\n\n📌 이 영상에서 다루는 내용\n· 개전 11일 전, 「여기엔 전차가 없다」는 전보\n· 전차 189대 요청과 반대 건의\n· 치안용 군대 · 땅에 대한 판단 · 정해진 예산\n· 6월 25일 새벽부터 7월 5일 오산까지\n\n⏱ 타임스탬프\n00:00 6월 14일, 미국 대사의 전보\n00:57 1949년 봄, 미군이 떠나다\n01:43 넘겨준 무기 목록에 없던 것\n02:25 전차 189대를 요청하다\n02:47 전차 말고 비행기도\n03:37 이유는 크게 세 가지\n03:42 첫째, 국군의 크기를 정한 문서\n04:13 「곧 북으로 올라가고 싶다」\n04:59 그렇게 적은 미국 문서는 없다\n05:44 둘째, 라이트 대령의 건의\n07:07 셋째, 1,023만 달러\n08:02 그 목록에 없던 전차\n08:38 6월 25일 새벽, 두 길로 온 전차\n09:22 대전차 지뢰가 없었다\n10:05 6월 28일, 한강 다리와 서울\n10:15 7월 5일 오산, 바주카 22발\n11:21 다시, 6월 14일의 전보\n11:49 1951년 10월, 첫 전차 부대\n\n🔗 주요 출처\n\n미 국무부 외교문서(FRUS) — 1950년 6월 14일 무초 대사 전보 857호\nhttps://history.state.gov/historicaldocuments/frus1950v07/d53\n\n미 국무부 외교문서(FRUS) — NSC 8/2 한국 정책 문서 (1949년 3월 22일)\nhttps://history.state.gov/historicaldocuments/frus1949v07p2/d209\n\n미 육군 군사사센터 — Roy E. Appleman, South to the Naktong, North to the Yalu\nhttps://history.army.mil/html/books/020/20-2-1/\n\n노양규 — 6·25전쟁시 전차운용의 특징과 영향, 『군사』 제80호 (국방부 군사편찬연구소, 2011)\nhttps://journal.kci.go.kr/imhc/archive/articlePdf?artiId=ART001586526\n\n이 외 미국 외교문서·공간사·연구 자료 20여 건을 참고해 사실 확인을 거쳤습니다.\n\n🔔 역사 속 「왜 그렇게 됐을까」 하나를 날짜와 기록으로 끝까지 풀어 드립니다. 다음 이야기도 구독으로 받아 보세요.", "tags": "#6·25전쟁, #한국전쟁, #6·25첫날, #T34, #T34전차, #국군전차, #무초대사, #주한미군철수, #군사고문단, #오산전투, #스미스부대, #한강인도교, #전쟁사, #역사속이유", "pin": "만약 한국이 6·25 개전 초기에 전차를 갖고 있었다면, 전쟁의 양상은 달라졌을까요? 여러분의 생각을 댓글로 적어 주세요."}, "titles": [{"t": "미국 대사도 알았는데.. 국군은 왜 전차가 한 대도 없었을까?｜6·25 첫날", "note": "대본 첫 장면(6월 14일 전보)과 바로 이어지고, 「?」까지 34자라 모바일 목록에서 안 잘립니다."}, {"t": "전차 189대를 요청했는데.. 왜 한 대도 오지 않았을까?｜6·25 첫날", "note": "48시간 CTR이 낮아 제목을 바꿀 때 — 한국 쪽 요청을 앞에 세우는 버전입니다."}, {"t": "개전 11일 전에 보고했는데.. 국군은 왜 전차가 0대였을까?｜6·25 첫날", "note": "날짜·숫자 대비를 더 세게 걸고 싶을 때."}], "thumbs": ["8개월 전에 요청했는데 / 전차가 0대였던 이유", "미국 대사도 알고 있었는데 / 한 대도 없었던 이유", "개전 11일 전에 알았는데 / 전차가 0대였던 이유"], "prompts": [{"label": "1번(추천) — 훅 장면: 서울 위에 놓인 6월 14일의 전보", "p": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty. The map shows the central Korean Peninsula around Seoul and the Han River, with a faint dotted line crossing the upper third along the 38th parallel. A single sheet of yellowed 1950 telegram paper with blank, unreadable lines lies at a slight angle over the Seoul area, its edges curled, lit by a narrow cone of desk-lamp light. A thin strip of deep red (#C62828) sits at the corner of the paper as the only accent color. Quiet, puzzling mood."}, {"label": "2번 — 38선 아래로 내려오는 빨간 화살표 하나", "p": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no people, soft vignette, lower third left dark and empty. The map is framed on the central Korean Peninsula from Kaesong to Seoul, the Imjin and Han rivers catching faint light. A single thick deep-red (#C62828) arrow is painted from north of the 38th parallel down through the Uijeongbu valley, its point stopping just above Seoul in the upper half of the frame. The empty dark area to the right of the arrowhead is left clear for a label. Tense, ominous atmosphere with strong contrast."}, {"label": "3번 — 두 골짜기 길로 내려와 서울 앞에서 모이는 화살표 두 개", "p": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no people, soft vignette, lower third left dark and empty. Seen at a low oblique angle as if the paper map were laid on a table, the relief of the mountains north of Seoul rises in long shadows. Two narrow deep-red (#C62828) arrows follow two parallel valley roads southward and merge into one point just north of Seoul, high in the frame. A raking side light emphasizes the valleys the arrows run through. Tense, quiet atmosphere."}, {"label": "4번 — 전보와, 바다 건너 떨어져 있는 전차 한 대", "p": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty. A yellowed blank telegram sheet lies over Seoul in the upper left, and in the upper right, out at sea beyond the Korean coastline, stands a small dark metal miniature of a late-1940s American medium tank, seen as a crisp silhouette. The empty gap of map between the telegram and the tank is the visual point of the image. A single deep-red (#C62828) accent marks the telegram's corner. Curious, slightly uneasy mood."}, {"label": "5번(자유) — 38선 위에만 줄지은 빨간 점, 아래는 텅 빈 지도", "p": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty. Rendered in a cold satellite-photo tone, the Korean Peninsula's center is crossed by a faint dotted line along the 38th parallel. North of the line, dozens of tiny glowing deep-red (#C62828) dots are lined up in columns along two mountain roads, while the land south of the line is completely empty and dark. The asymmetry between the dotted north and the empty south fills the upper half of the frame. Cool, tense, questioning mood."}], "script": "1950년 6월 14일 오후, 서울. 미국 대사 존 무초가 워싱턴의 국무장관 앞으로 비밀 전보를 보냅니다. 남과 북의 군대를 견준 전보인데, 그 안에 이런 문장이 있습니다. 북쪽 군대에는 전차가 있고, 여기에는 없다.\n\n열하루 뒤, 북한군은 전차를 앞세우고 38선을 넘었습니다. 기록마다 다르지만 적게 잡아도 150대였어요. 국군에는 한 대도 없었고, 서울은 사흘 만에 넘어갔습니다.\n\n그런데 이상한 점이 있습니다. 미국은 그 차이를 몰랐던 게 아니에요. 대사가 개전 전에 직접 써서 보고했거든요.\n\n더 이상한 건, 한국 정부가 그보다 여덟 달 앞서 전차를 콕 집어 달라고 했다는 겁니다. 189대였습니다.\n\n미국도 알고 있었고, 요청도 받았는데, 왜 6월 25일 아침 국군에는 전차가 한 대도 없었을까요?\n\n오늘은 그 이유를 알아보겠습니다. 이야기는 1949년 봄, 미군이 한국을 떠날 채비를 하던 때에서 시작됩니다.\n\n1949년 3월 23일, 워싱턴. 트루먼 대통령이 한국에 남아 있던 미군 마지막 연대의 철수를 승인합니다. 해방 뒤 남쪽에 들어와 있던 미군 전투부대가 이제 모두 떠나게 된 거예요.\n\n철수가 끝난 건 석 달 뒤인 6월 29일이었어요. 다음 날 자정에는 한국에 있던 미 육군 사령부도 해체됐습니다. 남은 건 국군을 가르치고 장비를 맡던 미국 군사고문단 정도였죠.\n\n미군은 떠나면서 무기를 두고 갔어요. 보병 5만 명이 들 수 있는 장비였고, 그중 소총 같은 개인 화기가 10만 정이었습니다.\n\n어깨에 메고 쏘는 로켓발사기도 있었어요. 여기에 박격포와 가벼운 포, 소총탄과 포탄까지 더하면 원가로 5,600만 달러 남짓이었습니다. 금액은 집계한 기록마다 조금씩 달라요.\n\n목록은 길었습니다. 소총, 로켓발사기, 박격포, 탄약. 그런데 그 목록 어디에도 없는 게 하나 있었어요. 전차였습니다.\n\n한국 쪽도 그 빈자리를 알고 있었습니다.\n\n미군이 떠나고 두 달이 채 안 된 8월 20일, 이승만 대통령이 트루먼에게 친서를 보냅니다. 친서가 구체적으로 먼저 꺼낸 걱정은 탄약이었어요. 미국 장교들은 국군 탄약이 전투 두 달 치라고 하는데, 한국 장교들은 이틀 치뿐이라고 한다는 거였죠.\n\n같은 탄약을 두고 양쪽이 내놓은 숫자가 서른 배 가까이 벌어져 있었던 거예요. 친서에는 무기 목록도 따로 붙였는데, 그 목록은 미국 외교문서집에 실리지 않아서 무엇이 적혔는지는 알 수 없습니다.\n\n같은 해 10월, 서울. 이번에는 국방장관 신성모가 전차를 콕 집어 요청합니다. 받는 사람은 미국 육군의 최고 지휘관인 콜린스 육군참모총장이었어요.\n\n앞에서 말씀드린 바로 그 요청이에요. 그리고 답으로 돌아온 건 반대 건의서 한 통이었습니다. 누가 그 건의서를 썼고 무슨 이유를 댔는지는 조금 뒤에 따로 보겠습니다.\n\n한국이 달라고 한 건 전차만이 아니었어요. 11월 8일 무초 대사가 국무장관에게 보낸 전보에는 비행기 이야기가 나옵니다. 북한 공군이 늘고 있다는 보고를 받고, 군사고문단장이 한국 공군 훈련을 돕고 더 성능 좋은 항공기를 주자고 미 육군에 건의했거든요. 무초는 그 계획을 아주 소박한 항공 계획이라 부르며 지지했습니다.\n\n해가 바뀐 이듬해 3월에는 이승만이 다시 비행기를 청합니다. 북한에 전투기와 폭격기가 들어갔다는 보고를 근거로 들었죠.\n\n그리고 앞에서 본 6월 14일 전보가 있습니다. 무초는 북쪽이 앞선 것으로 공군과 전차, 멀리 쏘는 큰 포인 중포를 꼽았고, 그중에서도 공군을 맨 앞에 뒀어요. 그러면서 보강해 달라고 건의한 건 방공과 중포였습니다. 전차는 그 건의 목록에 들어 있지 않았어요.\n\n미국은 알았고, 요청도 받았는데 왜였을까요. 이유는 크게 세 가지입니다.\n\n첫째 이유는 철수 승인 하루 전에 나온 문서입니다. 3월 22일, 워싱턴. 미국 국가안전보장회의가 한국 정책 문서 하나를 냅니다.\n\n이 문서가 정한 국군의 크기는 6만 5,000명이었습니다. 쓰임새는 두 가지였어요. 정치가 어수선한 가운데 나라 안 질서를 지키는 것, 그리고 국경을 지키는 것.\n\n장비는 미군 보병형 장비로 정했습니다. 맥아더 사령관도 국군은 나라 안 치안을 지키기에 충분하되, 그 이상 강하지는 않게 해야 한다는 의견이었어요.\n\n같은 무렵 서울에서는 결이 다른 말이 오갔습니다. 2월 8일, 이승만은 서울을 찾은 미국 육군장관 로열에게 군을 늘리고 장비를 갖춰 곧 북으로 올라가고 싶다고 말했어요. 로열은 미군 전투부대가 한국에 있는 동안 북한 침공은 있을 수 없다고 답했죠.\n\n석 달 뒤인 5월 9일에는 무초 대사가 38선에서 잇따른 충돌을 꺼내며, 국군이 어떤 공격 행동도 하지 않도록 자제시켜 달라고 이승만에게 청했습니다. 이승만은 공격할 뜻이 없다고 답했어요.\n\n앞서 본 8월 친서에도 38선 이북을 공격하지 않겠다는 약속이 들어 있었어요. 다만 조건이 붙었습니다. 공산군이 수도를 노리고 총공세를 해 오면, 물리친 뒤 물러가는 적을 쫓아 북쪽 동포를 해방하겠다는 문장이었죠.\n\n그래서 전차를 주지 않는다고 적은 미국 문서는 확인되지 않았습니다. 문서로 확인되는 건 국군을 치안용 군대로 정한 방침, 그리고 북진을 말하는 대통령과 자제를 청하는 미국 대사예요.\n\n연구자들은 이 두 사실을 이어서 봅니다. 노양규는 군사편찬연구소 학술지에 실은 논문에서, 국군이 치안 유지와 북으로의 공격 억제라는 미국 원조 방침에 따라 공격형 무기인 전차를 한 대도 갖지 못했다고 봐요. 미국 역사학자 매트레이도 트루먼 행정부가 이승만의 공세를 우려해 전차와 중포, 군용기를 주지 않았다고 적었습니다.\n\n그런데 국방장관의 전차 요청서에 실제로 붙은 반대 이유는 이 방침이 아니었습니다. 반대 건의를 쓴 사람은 따로 있었어요.\n\n둘째 이유는 그해 가을의 서울로 다시 가야 보입니다. 189대 요청이 올라갈 무렵, 군사고문단을 이끌던 로버츠 준장은 일본에 출장 중이었어요. 단장 자리는 대리 단장 라이트 대령이 맡고 있었습니다.\n\n라이트 대령은 국방장관의 요청에 반대하는 건의를 콜린스 총장에게 올립니다. 이유는 땅이었어요. 한국의 지형과 도로, 교량 상태는 효율적인 전차 작전에 맞지 않는다.\n\n공간사가 전하는 이 건의의 이유에는 돈 이야기도, 북진 이야기도 나오지 않습니다. 전차가 움직일 땅이 문제라는 판단이었죠.\n\n서울 북쪽 지형을 떠올리면 이렇습니다. 북쪽에서 서울로 오는 길은 산 사이로 난 두 갈래 골짜기를 따라 내려옵니다. 하나는 동두천을 거쳐 의정부로 오는 길이고, 다른 하나는 포천을 거쳐 오는 길이에요. 라이트 대령이 문제 삼은 것도 이런 지형과 길, 그리고 다리였습니다.\n\n국군에 기갑이라는 이름이 붙은 부대가 아예 없었던 건 아니에요. 1948년 말에 만든 육군독립기갑연대가 있었거든요. 그런데 이 부대에도 전차는 없었습니다. 개전 때 가진 건 장갑차 39대가 전부였어요.\n\n라이트 대령의 건의는 그때 군사고문단이 본 한국의 길과 다리를 바탕으로 한 판단이었습니다. 그리고 여덟 달 뒤, 북한 전차는 바로 그 골짜기 길과 다리를 따라 내려왔어요.\n\n땅 말고도 하나가 더 있었습니다. 돈입니다.\n\n셋째 이유는 미군 철수가 끝나기 이틀 전에 나온 문서에서 먼저 보입니다. 미 육군부가 국무부에 보낸 문서인데, 미 합동참모본부의 판단이 실려 있었어요. 한국은 미국에 전략적 가치가 적다는 것이었습니다.\n\n같은 문서에는 추가 군사 지원이 부담이 된다는 내용도 있었어요. 적자 재정을 앞둔 정부에 짐이 되고, 우선순위가 더 높은 다른 나라 군사원조를 깎을 수 있다는 내용이었죠.\n\n미국이 무기와 장비를 대 주는 예산을 군사원조라고 해요. 미군 철수 직후 시작된 회계연도에 한국 몫으로 배정된 군사원조는 1,023만 달러였습니다. 서울의 미국 대사관은 적어도 2,000만 달러는 있어야 한다고 했으니, 요청한 돈의 절반 남짓이었던 셈이에요.\n\n1950년 1월 7일, 로버츠 준장이 서한 한 통을 씁니다. 군사고문단이 따로 올릴 추가 원조 요청을 980만 달러 한도로 줄였다는 내용이었어요.\n\n그 한도 안에 든 건 크게 두 가지였어요. 지상군 장비, 그리고 공군을 갖추는 데 필요한 장비였죠. 로버츠는 그중 전투기를 두고 한국 방어에 절대 필요하다고 적었습니다. 군사고문단이 요청한 건 에프 51 전투기 40대였고요.\n\n다섯 달 뒤 6월 14일 전보에서도, 무초가 보강을 건의한 건 하늘을 막는 방공과 중포였어요.\n\n정해진 돈 안에서 고른 목록에는 지상군 장비와 하늘을 지킬 무기가 들어갔어요. 전차는 그 목록 어디에도 이름이 없었습니다.\n\n세 결정은 6월 25일 새벽, 한꺼번에 시험받습니다.\n\n6월 25일 새벽 5시 30분 무렵, 서울 북쪽. 북한군 주력이 의정부 쪽으로 내려옵니다. 길은 앞서 본 두 갈래 골짜기였어요.\n\n동두천을 거쳐 오는 길과 포천을 거쳐 오는 길, 두 길에 전차가 40대쯤씩 앞장섰습니다.\n\n국군 병사 대부분은 이날 전차를 처음 봤어요. 미 육군 공간사를 쓴 애플먼은 국군이 무너진 이유 가운데 아마 가장 결정적인 것으로, 병사들이 처음으로 전차와 싸워야 했던 일을 꼽았습니다. 전차가 퍼뜨린 공포 때문에 준비해 둔 폭파를 하지 못하고 저지선이 빈 곳도 있었다고 적었죠.\n\n그렇다고 맨손은 아니었어요. 미군이 두고 간 그 로켓발사기, 흔히 바주카라 부르는 무기가 1,900문쯤, 전차를 노리는 작은 포가 140문쯤 있었습니다.\n\n없었던 건 대전차 지뢰였어요. 국군이 가진 건 사람을 노리는 지뢰뿐이었고, 첫 대전차 지뢰는 개전 닷새 뒤에야 도착했습니다.\n\n그사이 북한군은 이튿날 저녁 의정부에 들어왔어요.\n\n개전 뒤 며칠 동안, 문산 쪽에서는 국군 병사들이 폭약을 안고 전차 밑으로 뛰어들었어요. 백선엽은 이렇게 전사한 병사를 약 90명으로 헤아렸습니다.\n\n다리에서 다른 결과가 나온 곳도 있었어요. 엄홍섭 중령이 급히 꾸린 부대가 의정부에서 서울로 오는 길의 다리에서, 폭약과 긴 장대 끝에 단 폭약으로 북한 전차 4대를 부쉈습니다. 라이트 대령이 전차에 맞지 않는다고 본 한국의 다리가, 이번에는 전차를 멈추는 데 쓰였던 거죠.\n\n6월 28일 새벽 2시 남짓, 한강 인도교가 폭파됩니다. 기록마다 시각이 조금씩 달라요. 그날 이른 오후, 북한군은 서울 한가운데에 닿았습니다.\n\n개전 열흘 뒤인 7월 5일 아침, 오산 북쪽. 이번에는 미군이 전차 앞에 섭니다. 미 지상군으로 처음 싸움에 들어간 스미스 부대였어요.\n\n그날 북한 전차 33대가 미군 진지를 지나갔어요. 코너 소위는 아주 가까이 다가가 전차 뒤쪽에 바주카 로켓 22발을 쐈지만, 전차 행렬은 멈추지 않았습니다.\n\n스미스는 뒤에 애플먼에게, 바주카 탄약이 오래돼 상해 있었다고 말했어요. 반동 없이 쏘는 무반동총을 바로 맞혀도 전차는 멀쩡했습니다.\n\n앞서던 전차 두 대를 세운 건, 애플먼이 보기에 105밀리 포에서 쏜 특수 포탄이었을 가능성이 커요. 전차 장갑을 뚫도록 만든 대전차고폭탄인데, 앞쪽 포에 있던 건 6발뿐이었습니다.\n\n부대 전체가 받은 대전차고폭탄도 18발이 전부였어요. 그날 부서지거나 움직이지 못하게 된 북한 전차는 4대였고, 나머지는 진지를 지나 남쪽으로 내려갔습니다.\n\n같은 무기를 든 미군도 전차 행렬을 세우지 못했습니다. 모자랐던 건 전차만이 아니라, 전차를 막을 준비 전체였어요.\n\n이제 처음의 그 전보 한 줄로 돌아갈 차례입니다.\n\n북쪽 군대에는 전차가 있고, 여기에는 없다. 6월 14일 무초 대사가 이 문장을 쓸 때, 그 빈자리 뒤에는 이미 앞사정이 쌓여 있었어요.\n\n첫째, 미국이 정한 국군은 나라 안 치안을 지키는 군대였습니다. 둘째, 이 땅의 길과 다리는 전차가 다닐 곳이 아니라는 판단이 있었어요. 셋째, 정해진 돈 안에서 고른 목록에 전차는 없었죠.\n\n세 결정은 각각 다른 사람이 다른 날에 내렸지만, 어느 쪽에서도 전차는 국군 몫에 오르지 못했습니다.\n\n국군이 처음 전차 부대를 꾸린 건 1951년 10월 5일이었어요. 미군에게서 엠 36을 넘겨받아 독립전차중대 두 개를 만들었죠. 엠 36은 표준 전차가 아니라, 전차를 잡으려고 만든 차량이었습니다. 개전 날 새벽에서 한 해하고도 석 달 남짓 지난 뒤였어요.\n\n만약 한국이 6·25 개전 초기에 전차를 갖고 있었다면, 전쟁의 양상은 달라졌을까요? 여러분의 생각을 댓글로 적어 주세요.\n\n지금까지 역사 속 이유였습니다.", "paras": ["1950년 6월 14일 오후, 서울. 미국 대사 존 무초가 워싱턴의 국무장관 앞으로 비밀 전보를 보냅니다. 남과 북의 군대를 견준 전보인데, 그 안에 이런 문장이 있습니다. 북쪽 군대에는 전차가 있고, 여기에는 없다.", "열하루 뒤, 북한군은 전차를 앞세우고 38선을 넘었습니다. 기록마다 다르지만 적게 잡아도 150대였어요. 국군에는 한 대도 없었고, 서울은 사흘 만에 넘어갔습니다.", "그런데 이상한 점이 있습니다. 미국은 그 차이를 몰랐던 게 아니에요. 대사가 개전 전에 직접 써서 보고했거든요.", "더 이상한 건, 한국 정부가 그보다 여덟 달 앞서 전차를 콕 집어 달라고 했다는 겁니다. 189대였습니다.", "미국도 알고 있었고, 요청도 받았는데, 왜 6월 25일 아침 국군에는 전차가 한 대도 없었을까요?", "오늘은 그 이유를 알아보겠습니다. 이야기는 1949년 봄, 미군이 한국을 떠날 채비를 하던 때에서 시작됩니다.", "1949년 3월 23일, 워싱턴. 트루먼 대통령이 한국에 남아 있던 미군 마지막 연대의 철수를 승인합니다. 해방 뒤 남쪽에 들어와 있던 미군 전투부대가 이제 모두 떠나게 된 거예요.", "철수가 끝난 건 석 달 뒤인 6월 29일이었어요. 다음 날 자정에는 한국에 있던 미 육군 사령부도 해체됐습니다. 남은 건 국군을 가르치고 장비를 맡던 미국 군사고문단 정도였죠.", "미군은 떠나면서 무기를 두고 갔어요. 보병 5만 명이 들 수 있는 장비였고, 그중 소총 같은 개인 화기가 10만 정이었습니다.", "어깨에 메고 쏘는 로켓발사기도 있었어요. 여기에 박격포와 가벼운 포, 소총탄과 포탄까지 더하면 원가로 5,600만 달러 남짓이었습니다. 금액은 집계한 기록마다 조금씩 달라요.", "목록은 길었습니다. 소총, 로켓발사기, 박격포, 탄약. 그런데 그 목록 어디에도 없는 게 하나 있었어요. 전차였습니다.", "한국 쪽도 그 빈자리를 알고 있었습니다.", "미군이 떠나고 두 달이 채 안 된 8월 20일, 이승만 대통령이 트루먼에게 친서를 보냅니다. 친서가 구체적으로 먼저 꺼낸 걱정은 탄약이었어요. 미국 장교들은 국군 탄약이 전투 두 달 치라고 하는데, 한국 장교들은 이틀 치뿐이라고 한다는 거였죠.", "같은 탄약을 두고 양쪽이 내놓은 숫자가 서른 배 가까이 벌어져 있었던 거예요. 친서에는 무기 목록도 따로 붙였는데, 그 목록은 미국 외교문서집에 실리지 않아서 무엇이 적혔는지는 알 수 없습니다.", "같은 해 10월, 서울. 이번에는 국방장관 신성모가 전차를 콕 집어 요청합니다. 받는 사람은 미국 육군의 최고 지휘관인 콜린스 육군참모총장이었어요.", "앞에서 말씀드린 바로 그 요청이에요. 그리고 답으로 돌아온 건 반대 건의서 한 통이었습니다. 누가 그 건의서를 썼고 무슨 이유를 댔는지는 조금 뒤에 따로 보겠습니다.", "한국이 달라고 한 건 전차만이 아니었어요. 11월 8일 무초 대사가 국무장관에게 보낸 전보에는 비행기 이야기가 나옵니다. 북한 공군이 늘고 있다는 보고를 받고, 군사고문단장이 한국 공군 훈련을 돕고 더 성능 좋은 항공기를 주자고 미 육군에 건의했거든요. 무초는 그 계획을 아주 소박한 항공 계획이라 부르며 지지했습니다.", "해가 바뀐 이듬해 3월에는 이승만이 다시 비행기를 청합니다. 북한에 전투기와 폭격기가 들어갔다는 보고를 근거로 들었죠.", "그리고 앞에서 본 6월 14일 전보가 있습니다. 무초는 북쪽이 앞선 것으로 공군과 전차, 멀리 쏘는 큰 포인 중포를 꼽았고, 그중에서도 공군을 맨 앞에 뒀어요. 그러면서 보강해 달라고 건의한 건 방공과 중포였습니다. 전차는 그 건의 목록에 들어 있지 않았어요.", "미국은 알았고, 요청도 받았는데 왜였을까요. 이유는 크게 세 가지입니다.", "첫째 이유는 철수 승인 하루 전에 나온 문서입니다. 3월 22일, 워싱턴. 미국 국가안전보장회의가 한국 정책 문서 하나를 냅니다.", "이 문서가 정한 국군의 크기는 6만 5,000명이었습니다. 쓰임새는 두 가지였어요. 정치가 어수선한 가운데 나라 안 질서를 지키는 것, 그리고 국경을 지키는 것.", "장비는 미군 보병형 장비로 정했습니다. 맥아더 사령관도 국군은 나라 안 치안을 지키기에 충분하되, 그 이상 강하지는 않게 해야 한다는 의견이었어요.", "같은 무렵 서울에서는 결이 다른 말이 오갔습니다. 2월 8일, 이승만은 서울을 찾은 미국 육군장관 로열에게 군을 늘리고 장비를 갖춰 곧 북으로 올라가고 싶다고 말했어요. 로열은 미군 전투부대가 한국에 있는 동안 북한 침공은 있을 수 없다고 답했죠.", "석 달 뒤인 5월 9일에는 무초 대사가 38선에서 잇따른 충돌을 꺼내며, 국군이 어떤 공격 행동도 하지 않도록 자제시켜 달라고 이승만에게 청했습니다. 이승만은 공격할 뜻이 없다고 답했어요.", "앞서 본 8월 친서에도 38선 이북을 공격하지 않겠다는 약속이 들어 있었어요. 다만 조건이 붙었습니다. 공산군이 수도를 노리고 총공세를 해 오면, 물리친 뒤 물러가는 적을 쫓아 북쪽 동포를 해방하겠다는 문장이었죠.", "그래서 전차를 주지 않는다고 적은 미국 문서는 확인되지 않았습니다. 문서로 확인되는 건 국군을 치안용 군대로 정한 방침, 그리고 북진을 말하는 대통령과 자제를 청하는 미국 대사예요.", "연구자들은 이 두 사실을 이어서 봅니다. 노양규는 군사편찬연구소 학술지에 실은 논문에서, 국군이 치안 유지와 북으로의 공격 억제라는 미국 원조 방침에 따라 공격형 무기인 전차를 한 대도 갖지 못했다고 봐요. 미국 역사학자 매트레이도 트루먼 행정부가 이승만의 공세를 우려해 전차와 중포, 군용기를 주지 않았다고 적었습니다.", "그런데 국방장관의 전차 요청서에 실제로 붙은 반대 이유는 이 방침이 아니었습니다. 반대 건의를 쓴 사람은 따로 있었어요.", "둘째 이유는 그해 가을의 서울로 다시 가야 보입니다. 189대 요청이 올라갈 무렵, 군사고문단을 이끌던 로버츠 준장은 일본에 출장 중이었어요. 단장 자리는 대리 단장 라이트 대령이 맡고 있었습니다.", "라이트 대령은 국방장관의 요청에 반대하는 건의를 콜린스 총장에게 올립니다. 이유는 땅이었어요. 한국의 지형과 도로, 교량 상태는 효율적인 전차 작전에 맞지 않는다.", "공간사가 전하는 이 건의의 이유에는 돈 이야기도, 북진 이야기도 나오지 않습니다. 전차가 움직일 땅이 문제라는 판단이었죠.", "서울 북쪽 지형을 떠올리면 이렇습니다. 북쪽에서 서울로 오는 길은 산 사이로 난 두 갈래 골짜기를 따라 내려옵니다. 하나는 동두천을 거쳐 의정부로 오는 길이고, 다른 하나는 포천을 거쳐 오는 길이에요. 라이트 대령이 문제 삼은 것도 이런 지형과 길, 그리고 다리였습니다.", "국군에 기갑이라는 이름이 붙은 부대가 아예 없었던 건 아니에요. 1948년 말에 만든 육군독립기갑연대가 있었거든요. 그런데 이 부대에도 전차는 없었습니다. 개전 때 가진 건 장갑차 39대가 전부였어요.", "라이트 대령의 건의는 그때 군사고문단이 본 한국의 길과 다리를 바탕으로 한 판단이었습니다. 그리고 여덟 달 뒤, 북한 전차는 바로 그 골짜기 길과 다리를 따라 내려왔어요.", "땅 말고도 하나가 더 있었습니다. 돈입니다.", "셋째 이유는 미군 철수가 끝나기 이틀 전에 나온 문서에서 먼저 보입니다. 미 육군부가 국무부에 보낸 문서인데, 미 합동참모본부의 판단이 실려 있었어요. 한국은 미국에 전략적 가치가 적다는 것이었습니다.", "같은 문서에는 추가 군사 지원이 부담이 된다는 내용도 있었어요. 적자 재정을 앞둔 정부에 짐이 되고, 우선순위가 더 높은 다른 나라 군사원조를 깎을 수 있다는 내용이었죠.", "미국이 무기와 장비를 대 주는 예산을 군사원조라고 해요. 미군 철수 직후 시작된 회계연도에 한국 몫으로 배정된 군사원조는 1,023만 달러였습니다. 서울의 미국 대사관은 적어도 2,000만 달러는 있어야 한다고 했으니, 요청한 돈의 절반 남짓이었던 셈이에요.", "1950년 1월 7일, 로버츠 준장이 서한 한 통을 씁니다. 군사고문단이 따로 올릴 추가 원조 요청을 980만 달러 한도로 줄였다는 내용이었어요.", "그 한도 안에 든 건 크게 두 가지였어요. 지상군 장비, 그리고 공군을 갖추는 데 필요한 장비였죠. 로버츠는 그중 전투기를 두고 한국 방어에 절대 필요하다고 적었습니다. 군사고문단이 요청한 건 에프 51 전투기 40대였고요.", "다섯 달 뒤 6월 14일 전보에서도, 무초가 보강을 건의한 건 하늘을 막는 방공과 중포였어요.", "정해진 돈 안에서 고른 목록에는 지상군 장비와 하늘을 지킬 무기가 들어갔어요. 전차는 그 목록 어디에도 이름이 없었습니다.", "세 결정은 6월 25일 새벽, 한꺼번에 시험받습니다.", "6월 25일 새벽 5시 30분 무렵, 서울 북쪽. 북한군 주력이 의정부 쪽으로 내려옵니다. 길은 앞서 본 두 갈래 골짜기였어요.", "동두천을 거쳐 오는 길과 포천을 거쳐 오는 길, 두 길에 전차가 40대쯤씩 앞장섰습니다.", "국군 병사 대부분은 이날 전차를 처음 봤어요. 미 육군 공간사를 쓴 애플먼은 국군이 무너진 이유 가운데 아마 가장 결정적인 것으로, 병사들이 처음으로 전차와 싸워야 했던 일을 꼽았습니다. 전차가 퍼뜨린 공포 때문에 준비해 둔 폭파를 하지 못하고 저지선이 빈 곳도 있었다고 적었죠.", "그렇다고 맨손은 아니었어요. 미군이 두고 간 그 로켓발사기, 흔히 바주카라 부르는 무기가 1,900문쯤, 전차를 노리는 작은 포가 140문쯤 있었습니다.", "없었던 건 대전차 지뢰였어요. 국군이 가진 건 사람을 노리는 지뢰뿐이었고, 첫 대전차 지뢰는 개전 닷새 뒤에야 도착했습니다.", "그사이 북한군은 이튿날 저녁 의정부에 들어왔어요.", "개전 뒤 며칠 동안, 문산 쪽에서는 국군 병사들이 폭약을 안고 전차 밑으로 뛰어들었어요. 백선엽은 이렇게 전사한 병사를 약 90명으로 헤아렸습니다.", "다리에서 다른 결과가 나온 곳도 있었어요. 엄홍섭 중령이 급히 꾸린 부대가 의정부에서 서울로 오는 길의 다리에서, 폭약과 긴 장대 끝에 단 폭약으로 북한 전차 4대를 부쉈습니다. 라이트 대령이 전차에 맞지 않는다고 본 한국의 다리가, 이번에는 전차를 멈추는 데 쓰였던 거죠.", "6월 28일 새벽 2시 남짓, 한강 인도교가 폭파됩니다. 기록마다 시각이 조금씩 달라요. 그날 이른 오후, 북한군은 서울 한가운데에 닿았습니다.", "개전 열흘 뒤인 7월 5일 아침, 오산 북쪽. 이번에는 미군이 전차 앞에 섭니다. 미 지상군으로 처음 싸움에 들어간 스미스 부대였어요.", "그날 북한 전차 33대가 미군 진지를 지나갔어요. 코너 소위는 아주 가까이 다가가 전차 뒤쪽에 바주카 로켓 22발을 쐈지만, 전차 행렬은 멈추지 않았습니다.", "스미스는 뒤에 애플먼에게, 바주카 탄약이 오래돼 상해 있었다고 말했어요. 반동 없이 쏘는 무반동총을 바로 맞혀도 전차는 멀쩡했습니다.", "앞서던 전차 두 대를 세운 건, 애플먼이 보기에 105밀리 포에서 쏜 특수 포탄이었을 가능성이 커요. 전차 장갑을 뚫도록 만든 대전차고폭탄인데, 앞쪽 포에 있던 건 6발뿐이었습니다.", "부대 전체가 받은 대전차고폭탄도 18발이 전부였어요. 그날 부서지거나 움직이지 못하게 된 북한 전차는 4대였고, 나머지는 진지를 지나 남쪽으로 내려갔습니다.", "같은 무기를 든 미군도 전차 행렬을 세우지 못했습니다. 모자랐던 건 전차만이 아니라, 전차를 막을 준비 전체였어요.", "이제 처음의 그 전보 한 줄로 돌아갈 차례입니다.", "북쪽 군대에는 전차가 있고, 여기에는 없다. 6월 14일 무초 대사가 이 문장을 쓸 때, 그 빈자리 뒤에는 이미 앞사정이 쌓여 있었어요.", "첫째, 미국이 정한 국군은 나라 안 치안을 지키는 군대였습니다. 둘째, 이 땅의 길과 다리는 전차가 다닐 곳이 아니라는 판단이 있었어요. 셋째, 정해진 돈 안에서 고른 목록에 전차는 없었죠.", "세 결정은 각각 다른 사람이 다른 날에 내렸지만, 어느 쪽에서도 전차는 국군 몫에 오르지 못했습니다.", "국군이 처음 전차 부대를 꾸린 건 1951년 10월 5일이었어요. 미군에게서 엠 36을 넘겨받아 독립전차중대 두 개를 만들었죠. 엠 36은 표준 전차가 아니라, 전차를 잡으려고 만든 차량이었습니다. 개전 날 새벽에서 한 해하고도 석 달 남짓 지난 뒤였어요.", "만약 한국이 6·25 개전 초기에 전차를 갖고 있었다면, 전쟁의 양상은 달라졌을까요? 여러분의 생각을 댓글로 적어 주세요.", "지금까지 역사 속 이유였습니다."], "ts": "00:00 6월 14일, 미국 대사의 전보\n00:57 1949년 봄, 미군이 떠나다\n01:43 넘겨준 무기 목록에 없던 것\n02:25 전차 189대를 요청하다\n02:47 전차 말고 비행기도\n03:37 이유는 크게 세 가지\n03:42 첫째, 국군의 크기를 정한 문서\n04:13 「곧 북으로 올라가고 싶다」\n04:59 그렇게 적은 미국 문서는 없다\n05:44 둘째, 라이트 대령의 건의\n07:07 셋째, 1,023만 달러\n08:02 그 목록에 없던 전차\n08:38 6월 25일 새벽, 두 길로 온 전차\n09:22 대전차 지뢰가 없었다\n10:05 6월 28일, 한강 다리와 서울\n10:15 7월 5일 오산, 바주카 22발\n11:21 다시, 6월 14일의 전보\n11:49 1951년 10월, 첫 전차 부대"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = []; // 복사 원문
+function btn(text, label){ store.push(text); return `<button class="copy" data-i="${store.length-1}" type="button">${label||'복사'}</button>`; }
+function block(title, text, opts={}){
+  return `<div class="block"><div class="bhead"><h2>${title}</h2>${btn(text, opts.label)}</div>
+  <div class="body"><p class="pre ${opts.mono?'mono':''}">${esc(text)}</p></div></div>`;
+}
+$('#h-title').textContent = D.up.title;
+const chars = D.script.replace(/\n/g,'').length;
+$('#stats').innerHTML = [`${chars.toLocaleString()}자`, `약 ${Math.round(chars/470)}분 (470자/분)`, `챕터 ${D.ts.split('\n').length}개`].map(s=>`<span class="stat">${s}</span>`).join('');
+
+$('#p-upload').innerHTML =
+  block('제목', D.up.title) + block('설명글', D.up.desc) + block('태그', D.up.tags) + block('고정 댓글', D.up.pin);
+
+$('#p-thumb').innerHTML =
+  `<div class="block"><div class="bhead"><h2>제목 후보</h2></div><div class="list">${
+    D.titles.map((x,i)=>`<div class="row"><div class="txt">${i===0?'<span class="tag">추천 · 대본 기준</span>':''}<div class="t">${esc(x.t)}</div><div class="n">${esc(x.note)}</div></div>${btn(x.t)}</div>`).join('')
+  }</div></div>
+  <div class="block"><div class="bhead"><h2>썸네일 문구</h2></div><div class="list">${
+    D.thumbs.map((x,i)=>`<div class="row"><div class="txt">${i===0?'<span class="tag">추천</span>':''}<div class="t">${esc(x)}</div></div>${btn(x)}</div>`).join('')
+  }</div></div>
+  <p class="note">윗줄 흰색 · 아랫줄 노랑, 빨간 라벨은 「국군 전차 0대」. 지도 배경만 AI로 만들고 글자·화살표는 편집 프로그램에서 얹습니다.</p>
+  <div class="block"><div class="bhead"><h2>이미지 프롬프트</h2></div><div class="list">${
+    D.prompts.map(x=>`<details><summary>${esc(x.label)}</summary><div class="row"><p class="prompt pre txt">${esc(x.p)}</p>${btn(x.p)}</div></details>`).join('')
+  }</div></div>`;
+
+$('#p-ts').innerHTML =
+  `<p class="note">이 시각은 추정치입니다. 영상 완성 후 「타임스탬프 채워줘」로 실측 교체하세요.</p>` +
+  block('챕터 목록', D.ts, {mono:true, label:'전체 복사'});
+
+$('#p-script').innerHTML =
+  `<div class="block"><div class="bhead"><h2>대본 전문 · 01_대본.txt</h2>${btn(D.script,'전문 복사')}</div>
+   <div class="body script">${D.paras.map(p=>`<p>${esc(p)}</p>`).join('')}</div></div>`;
+
+document.addEventListener('click', async e => {
+  const b = e.target.closest('.copy'); if(!b) return;
+  const text = store[+b.dataset.i], old = b.textContent;
+  try { await navigator.clipboard.writeText(text); }
+  catch(_) {
+    const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select();
+    try{ document.execCommand('copy'); }catch(_){} ta.remove();
+  }
+  b.textContent = '복사됨'; b.classList.add('done');
+  setTimeout(()=>{ b.textContent = old; b.classList.remove('done'); }, 1400);
+});
+
+const tabs = [...document.querySelectorAll('[role=tab]')];
+function show(id){
+  tabs.forEach(t=>{ const on = t.id===id; t.setAttribute('aria-selected', on); document.getElementById(t.getAttribute('aria-controls')).hidden = !on; });
+  try{ localStorage.setItem('tab', id); }catch(_){}
+}
+tabs.forEach(t=>t.addEventListener('click',()=>show(t.id)));
+try{ const s = localStorage.getItem('tab'); if(s && document.getElementById(s)) show(s); }catch(_){}
+</script>
+
+</body></html>

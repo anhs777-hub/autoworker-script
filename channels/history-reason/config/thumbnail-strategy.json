@@ -1,0 +1,28 @@
+{
+  "count": 5,
+  "art_styles": [
+    "archival map"
+  ],
+  "color_palette": "monotone",
+  "emotions": [
+    "curiosity",
+    "tension"
+  ],
+  "text_space": "bottom-35",
+  "face_style": "archival",
+  "brand": {
+    "colors": [
+      "#1A1A1A",
+      "#D9D4C7",
+      "#C62828",
+      "#FFFFFF",
+      "#FFE400"
+    ],
+    "mascot": false,
+    "fixed_layout": "[2026-10-31 채널 전환 시 결정 — 레퍼런스 「역사랑방」 터진 3편(1·4 후퇴·백령도·원폭)이 모두 같은 문법: 어두운 지도 + 흑백 실사 인물 + 빨간 라벨 + 하단 2줄]\n\n[배경 — 어두운 작전 지도 한 장]\n① 지형이 보이는 흑백·저채도 지도(산맥 음영, 해안선). 이번 편의 장소가 한눈에 보이게 크게 — 서울·백령도·됭케르크처럼 지명 라벨 1~3개만\n② 지도 위 표시는 하나만: 점선 경계선(38선·NLL), 화살표 하나, 조준선, 붉게 칠한 영역 중 하나\n③ 레퍼런스와 같아 보이지 않게, 지도는 종이 질감(누런 작전 지도) 또는 위성 사진 톤 중 편마다 고른다 — 피드 대조(PD 가이드 3장 4축)\n\n[인물 — 공개 기록사진만]\n- 실존 인물은 **공개 기록사진(미국 정부 사진 등 퍼블릭 도메인)**을 흑백으로 오려 한쪽에 크게. **AI로 실존 인물 얼굴을 만들지 않는다**(왜곡·초상 문제)\n- 인물이 없는 편은 소재 사물(원자폭탄 실루엣, 함정, 전차)을 크게\n\n[라벨 — 사실 라벨, 판정 도장 아님]\n- 빨간 사각 라벨 하나: 「진격 중단」 「원폭 300발」 「북한까지 11km」처럼 **사실·숫자**. 「실패」 「승리」 같은 판정어는 쓰지 않는다(profile — 판정하지 않는 채널)\n\n[썸네일 문구 — 하단 2줄]\n- 틀: 윗줄 「{조건}인데 / {조건}고도」, 아랫줄 「~한 이유」 (PD 가이드 4장). 줄당 8~13자, 물음표 없음\n- 예: 「원폭 300발이 있었는데 / 끝내 안 쓴 이유」 · 「서울을 다시 빼앗고도 / 더 못 내려온 이유」\n- 글자: 아주 굵은 고딕, 화면 아래 3분의 1 먹색 띠. 윗줄 흰색, 아랫줄 노랑(#FFE400). 빨강은 라벨 전용\n- 금지: 「충격」「소름」「진실」, 인물 평가어, 혐오·멸칭, 오늘 정치 연결. 제목과 같은 문장 복붙 금지\n\n[제작] generate_images는 꺼 둔다 — 지도·기록사진은 편집 프로그램(미리캔버스 등)에서 직접 조합. 지도만 AI로 만들 때는 style_prefix를 쓴다",
+    "style_prefix": "Dark desaturated topographic military map, top-down view, embossed terrain relief with mountain shading and coastlines, aged paper or satellite-photo texture, monochrome grey and ink black with no labels, no text, no numbers, no arrows, no people, soft vignette, lower third left dark and empty.",
+    "layout_source": "2026-10-31 채널 전환(조선정책실 → 역사 속 이유). 레퍼런스 「역사랑방」 터진 3편의 썸네일 문법에서 출발. 첫 8편 CTR로 다시 판단. 이전 디오라마 전략은 config/_archive-joseon/thumbnail-strategy.json"
+  },
+  "benchmark_analysis": "projects/temp-analysis1/benchmark-yeoksarangbang.md (역사랑방, 2026-10-31) — 터진 3편 모두 지도 배경 + 흑백 인물 + 하단 2줄",
+  "emotion_note": "궁금증이 주, 긴장감이 보조. 「다 가졌는데 왜?」라는 역설을 지도 위 표시 하나와 문구(조건 + ~한 이유)로 만든다. 전투의 참상·시신은 그리지 않는다"
+}
