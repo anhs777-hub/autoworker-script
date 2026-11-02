@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "rok2corps-1950",
+    "titles": [
+      "크리스마스엔 집에 간다던 총공세.. 국군 2군단은 왜 하루 만에 무너졌을까?｜덕천 전투",
+      "장진호 이틀 전.. 중공군은 왜 국군 2군단부터 노렸을까?｜청천강 전투",
+      "적은 5만이라고 봤다.. 국군 2군단은 왜 하루 만에 무너졌을까?｜1950년 덕천"
+    ],
+    "thumbnail_texts": [
+      "총공세 이틀째였는데 / 2군단이 하루 만에 무너진 이유",
+      "적을 5만으로 봤는데 / 하루 만에 전선이 접힌 이유",
+      "옆은 64km가 비어 있었다 / 국군 2군단이 무너진 이유"
+    ],
+    "image_concepts": {
+      "A": "청천강~태백 산지 어두운 지도, 8군 전선 맨 오른쪽 끝 덕천 자리에 빨간 구멍 하나",
+      "B": "누런 작전 지도, 덕천에서 남서로 휘어 군우리 남쪽 삼소리에 닿는 빨간 화살표 하나"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-archival-map",
+      "concept_ko": "훅 장면. 1950년 11월 24일 미 8군 작전 지도 — 청천강 골짜기와 동쪽 산지, 긴 전선의 맨 오른쪽 끝(덕천)에만 빨간 구멍.",
+      "prompt_en": "Dark desaturated topographic military map of northwestern North Korea, top-down view, showing the Ch'ongch'on River valley running from northeast to southwest with rugged Taebaek mountain ridges to the east in embossed relief. A thin faint grey front line stretches west to east across the upper half of the frame, and only at its far right eastern end, deep in the mountains, a single small crimson red (#C62828) hole burns through the paper. Everything else stays monochrome grey and ink black, aged paper texture, soft vignette, mysterious and quiet."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A 변형. 위성 사진 톤 산지 지형, 오른쪽 끝 빨간 구멍과 그 오른쪽의 텅 빈 산줄기.",
+      "prompt_en": "Monochrome satellite-photo style relief map of snow-dusted mountains in North Korea, high contrast grayscale, a river valley on the left side and dense mountain ridges filling the right side. A faint dotted front line ends abruptly at the right, where one crimson red (#C62828) circular gap marks the line's last point, and beyond it to the east the mountains stand completely empty. Upper half holds the line and the red mark, ominous calm atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-archival-map",
+      "concept_ko": "컨셉 B. 누런 작전 지도, 동쪽 산속 한 점에서 남서로 휘어 내려가 강가 길 위에 닿는 빨간 화살표.",
+      "prompt_en": "Aged yellowed paper military operations map, top-down view, hand-drawn terrain shading in ink black, a river flowing southwest across the left half. A single bold crimson red (#C62828) arrow starts from a point deep in the eastern mountains and curves southwest through the valleys to stop just south of a river crossing on the left, cutting across a road. No other markings, tense and ominous mood, strong contrast between the red arrow and the muted paper."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-archival-map",
+      "concept_ko": "컨셉 B 변형. 흑백 지형 위 빨간 화살표가 길 하나를 가로막는 순간, 화살표 끝에 균열.",
+      "prompt_en": "Dark grey embossed relief map of mountainous terrain with a single pale road winding north to south along a river valley. A thick crimson red (#C62828) arrow sweeps in from the eastern mountains and its tip lands squarely across the road, with fine cracks spreading in the paper around the arrowhead. Monochrome everything except the arrow, dramatic shadows, tension."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 겨울 산길 위 끊어진 야전 전화선 — 이유 ③ 「통신이 끊겼다」. 인물 없음.",
+      "prompt_en": "Black and white archival-style photograph of a frozen mountain road in winter 1950 Korea, a wooden telegraph pole leaning at the roadside with a snapped field telephone wire hanging loose into the snow. Low grey sky, bare hills, no people, grainy film texture, a single tiny crimson red (#C62828) tag tied to the broken wire end as the only color. Quiet, unsettling mood."
+    }
+  ]
+}

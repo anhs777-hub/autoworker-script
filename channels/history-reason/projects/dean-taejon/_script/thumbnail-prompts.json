@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "dean-taejon",
+    "titles": [
+      "이틀만 버텨 달라던 대전.. 미군 장군은 왜 끝내 돌아오지 못했을까?｜딘 소장",
+      "미군 사단장이 바주카를 들었는데.. 왜 36일 만에 북한군 포로가 됐을까?｜대전 전투",
+      "전차 10대를 잡은 날 밤.. 미군 사단장은 왜 산에 홀로 남았을까?｜대전 전투"
+    ],
+    "thumbnail_texts": [
+      "사단장이 전차를 쫓았는데 / 포로가 된 이유",
+      "이틀만 버텨 달라 했는데 / 돌아오지 못한 이유",
+      "전차 10대를 잡은 날 / 사단장이 사라진 이유"
+    ],
+    "labels": ["1950.7.20", "36일"],
+    "image_concepts": {
+      "A": "어두운 대전 일대 지도, 동쪽(옥천)·남동쪽(금산) 두 갈래 길에 빨간 차단 표시, 남쪽 산지로 이어지는 가는 점선",
+      "B": "흑백 폐허 거리, 2층 창 높이에서 내려다본 전차 실루엣과 창틀에 걸친 3.5인치 바주카 포구(포구만 빨강)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A. 대전 시가에서 동쪽과 남동쪽으로 갈라지는 두 길, 두 길 위 빨간 X, 남쪽 산지로 가는 점선.",
+      "prompt_en": "Dark desaturated topographic military map of central South Korea around a small city in a river basin, top-down view, ink black and grey relief of surrounding mountains. From the city two pale roads branch out, one heading east and one heading southeast, and on each road sits a bold crimson red (#C62828) X mark blocking the way. A thin faint dotted line leaves the city edge and wanders south into the mountains. Aged paper texture, soft vignette, the upper half holds the city, the roads and the red marks, quiet and ominous mood."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A 변형. 위성 사진 톤 산지, 도시에서 나가는 두 길이 모두 빨간 띠로 끊김.",
+      "prompt_en": "Monochrome satellite-photo style relief map of a basin city surrounded by rugged hills in summer, high contrast grayscale. Two roads leave the city to the east and southeast, and each one is cut by a short thick crimson red (#C62828) band. To the south, empty mountain ridges fill the frame with a faint dotted trail fading into them. Upper half composition, tense and lonely atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-archival-scene",
+      "concept_ko": "컨셉 B. 2층 창에서 내려다본 폐허 거리의 전차 실루엣, 앞쪽 창틀에 바주카 통 끝.",
+      "prompt_en": "Black and white archival war photograph style, view from a second-floor window of a ruined 1950 Korean town street looking down at a Soviet T-34 tank silhouette parked on the dusty street below. In the foreground the dark window frame and the end of a long tube rocket launcher resting on the sill, only its muzzle ring tinted crimson red (#C62828). Smoke haze, grainy film texture, no faces visible, tense mood, main subject in the upper half."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-archival-scene",
+      "concept_ko": "컨셉 B 변형. 연기 낀 거리 위 전차, 위쪽 2층 창 하나에만 빨간 빛.",
+      "prompt_en": "Grainy black and white photograph of a narrow war-torn street in a 1950 Korean city, a T-34 tank stopped in the middle of the street, two-story shop buildings on both sides with broken windows. Only one second-floor window above the tank glows with a small crimson red (#C62828) accent, as if a weapon is aimed from it. Thick smoke, harsh afternoon light, no people visible, suspenseful mood, subject in upper half."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 여름 산비탈에 놓인 빈 철모와 별 두 개 계급장 — 36일. 인물 없음.",
+      "prompt_en": "Black and white archival-style photograph of a steep summer mountain slope in Korea, tall grass and pine trees, an empty American M1 steel helmet lying on its side among rocks with a small two-star insignia on the front, the stars tinted crimson red (#C62828) as the only color. Overcast sky, grainy film texture, no people, lonely and quiet mood, helmet placed in the upper half."
+    }
+  ]
+}

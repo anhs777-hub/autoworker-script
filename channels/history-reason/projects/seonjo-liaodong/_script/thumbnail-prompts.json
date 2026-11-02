@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "project": "seonjo-liaodong",
+    "titles": [
+      "명나라는 받아 주겠다고 했는데.. 선조는 왜 압록강을 건너지 않았을까?｜임진왜란 의주",
+      "왕이 직접 망명을 청했는데.. 명나라는 왜 「100명만」이라고 했을까?｜선조 요동 망명",
+      "강 앞까지 갔는데.. 선조는 왜 일곱 달 동안 의주에 머물렀을까?｜임진왜란 의주"
+    ],
+    "thumbnail_texts": [
+      "명이 받아 준다고 했는데 / 압록강을 안 건넌 이유",
+      "왕이 직접 청했는데 / 명이 100명만 받은 이유",
+      "강 앞까지 갔는데 / 일곱 달을 머문 이유"
+    ],
+    "labels": ["1592.6.26", "100명"],
+    "image_concepts": {
+      "A": "어두운 지도 — 강 남쪽 성곽 마을(의주), 강 북쪽 산간의 작은 빈 건물 하나, 두 곳을 잇다 강 한가운데서 끊긴 빨간 점선",
+      "B": "누런 한지 위 세로쓰기 한문 문서(흐림), 「百」 한 글자만 선명한 빨강, 뒤로 흐릿한 강"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A. 강을 사이에 둔 성곽 마을과 강 건너 빈 건물, 강 한가운데서 끊긴 빨간 점선.",
+      "prompt_en": "Dark desaturated antique East Asian map in ink wash style, top-down view of a wide river flowing across the frame. On the south bank a small walled town with a gate, on the far north bank among dark forested hills a single tiny empty wooden government building with a tiled roof. A crimson red (#C62828) dotted line starts at the town and stretches over the water but stops abruptly in the middle of the river. Aged paper texture, soft vignette, quiet and uncertain mood, key elements in the upper half."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-archival-map",
+      "concept_ko": "컨셉 A 변형. 안개 낀 강가, 건너편 언덕 위 빈 관아 하나, 이쪽 강가 나루의 빈 배.",
+      "prompt_en": "Monochrome ink wash landscape of a misty wide river in late summer, 16th-century Korea. On the near bank an empty wooden ferry boat tied at a small dock, on the far bank a lone empty government building with closed doors on a low hill, its roof edge lightly tinted crimson red (#C62828) as the only color. No people, grey fog, still water, lonely and hesitant mood, subject in upper half."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-document",
+      "concept_ko": "컨셉 B. 누런 한지 문서 클로즈업, 「百」 한 글자만 빨강.",
+      "prompt_en": "Close-up of an aged yellowish hanji paper document with vertical columns of classical Chinese brush calligraphy, the characters soft and blurred so they cannot be read, except one single large clear character 百 written in crimson red (#C62828) ink near the upper center. Warm low light, paper fibers visible, shallow depth of field, a faint blurred river landscape behind the paper edge, tense and solemn mood."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-document",
+      "concept_ko": "컨셉 B 변형. 붓과 벼루 옆에 펼쳐진 문서, 빨간 인장 하나.",
+      "prompt_en": "Top-down view of an old official document unrolled on a dark wooden table beside an ink stone and a brush, vertical classical Chinese text blurred and unreadable, one square seal stamp in crimson red (#C62828) pressed near the top. Candlelight, deep shadows, no people, quiet weighty atmosphere, document in upper half."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 빗속 강가에 놓인 왕의 빈 가마. 인물 없음.",
+      "prompt_en": "Black and white ink wash style scene of an empty ornate royal palanquin set down on a muddy riverbank in heavy rain, wide river and distant hills on the other side under low clouds, the palanquin's curtain tassel tinted crimson red (#C62828) as the only color. No people, rain streaks, lonely and solemn mood, palanquin in upper half."
+    }
+  ]
+}
