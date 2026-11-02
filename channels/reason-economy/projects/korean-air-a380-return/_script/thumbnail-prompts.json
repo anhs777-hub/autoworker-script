@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "korean-air-a380-return",
+    "version": "v1 (2026-11-03, 패키지 A)",
+    "titles": [
+      "「5년 안에 떠난다」던 대한항공 A380, 5년째 되는 해에 매일 뉴욕을 나는 이유",
+      "\"5년 안에 뺀다\"던 대한항공 A380, 5년째에 매일 뉴욕을 나는 진짜 이유",
+      "버린다던 A380을 대한항공이 다시 꺼낸 이유, 독일도 똑같았다"
+    ],
+    "thumbnail_texts": [
+      "\"5년 안에 버린다더니\" / 매일 뉴욕 가는 A380",
+      "\"세 대는 뜯어 팔았는데\" / 매일 뉴욕 가는 A380",
+      "\"대한항공은 다시 꺼내고\" / 콴타스는 앞당겨 뺀다"
+    ],
+    "note": "실존 인물(조원태 회장 등) 얼굴 금지. 항공사 로고·글자 금지(하늘색 도장으로만 암시). 등록번호 노출 금지. 하단 35~40%는 글자 자리. 문구는 편집 단계에서 얹는다. 썸네일 이미지 생성 OFF — 프롬프트만"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "hook-scene-incheon-newyork",
+      "concept_ko": "훅 장면(추천). 인천공항 활주로에서 막 바퀴를 들어 올리는 2층 A380(하늘색 동체, 2층 창 두 줄이 또렷함)이 화면 3분의 2를 차지한다. 로우앵글, 오후의 밝은 역광. 오른쪽 위 하늘에 뉴욕 맨해튼 스카이라인이 옅게 겹쳐 보여 「매일 뉴욕」을 암시한다. 글자·로고 없음.",
+      "prompt_en": "Gritty high-clarity HDR photo at Incheon International Airport in bright afternoon light: a huge double-decker Airbus A380 in pale sky-blue and white livery lifts its nose wheels off the runway, two full rows of passenger windows on both decks clearly visible, filling two thirds of the frame from a heroic low angle with warm golden backlight. In the upper right sky, a faint translucent double exposure of the Manhattan skyline hints at the daily New York flight. Triumphant, epic cinematic, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, bright high-key exposure with lifted shadows, slightly over-processed look. Bottom 35-40% darker and simple for text. No readable text, no airline logos or lettering, no real faces of public figures. Avoid: night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 2,
+      "type": "scene-contrast-gate-vs-desert",
+      "concept_ko": "한 장면 대비. 왼쪽 2/3: 따뜻한 조명의 탑승구에 붙은 하늘색 A380, 유리창 너머로 줄지어 탑승하는 승객들의 뒷모습. 오른쪽 1/3: 빛바랜 사막 보관장에 엔진 덮개를 씌운 채 줄지어 선 흰 A380들. 가운데는 날카로운 세로 경계.",
+      "prompt_en": "Gritty high-clarity HDR split-scene photo. Left two thirds: a pale sky-blue double-decker Airbus A380 docked at a warmly lit airport gate with two jet bridges attached, seen through tall terminal glass where a long line of travelers with carry-on bags is boarding, shot from behind. Right one third: a faded beige desert aircraft storage yard under harsh sun with a row of white A380s parked wingtip to wingtip, engines wrapped in covers. Sharp vertical seam between the two halves. Triumphant, epic cinematic, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, bright high-key exposure with lifted shadows, slightly over-processed look. Bottom 35-40% darker and simple for text. No readable text, no airline logos or lettering, no real faces of public figures. Avoid: night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 3,
+      "type": "scene-contrast-partout-vs-takeoff",
+      "concept_ko": "한 장면 대비. 왼쪽 1/3: 격납고에서 엔진과 부품을 떼어 낸 A380 동체(해체 작업, 정비사 작은 실루엣). 오른쪽 2/3: 같은 기종이 밝은 하늘로 이륙하는 장면. 「세 대는 뜯어 팔았는데」 문구용.",
+      "prompt_en": "Gritty high-clarity HDR split-scene photo. Left one third: inside a hangar, a stripped Airbus A380 fuselage with its engines removed and panels opened, cables hanging, small silhouettes of mechanics working, cool grey light. Right two thirds: an identical pale sky-blue double-decker A380 climbing into a bright blue sky over the sea after takeoff, heroic low angle, warm orange sun glint on the wing. Clear diagonal seam between the scenes. Triumphant, epic cinematic, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, bright high-key exposure with lifted shadows, slightly over-processed look. Bottom 35-40% darker and simple for text. No readable text, no airline logos or lettering, no real faces of public figures. Avoid: night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 4,
+      "type": "korean-hero-contrast",
+      "concept_ko": "한국 주인공 대비. 화면 2/3: 인천공항 탑승구 앞, 하늘색 A380을 배경으로 캐리어를 끌고 탑승하러 가는 여행객들(뒷모습·옆모습, 중장년 부부 포함). 화면 1/3: 다른 공항 계류장 끝에 날개를 접은 듯 홀로 서 있는 흰 A380(퇴역 대기 느낌). 국기·로고 없음.",
+      "prompt_en": "Gritty high-clarity HDR photo. Two thirds of the frame: inside a bright modern Korean airport terminal, middle-aged couples and travelers pulling suitcases walk toward the boarding gate, seen from behind and in profile, while a pale sky-blue double-decker A380 fills the huge window behind them, warm golden backlight. One third on the right: a lone plain white A380 parked at the far edge of a distant apron under a pale overcast sky, looking set aside. Triumphant, epic cinematic, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, bright high-key exposure with lifted shadows, slightly over-processed look. Bottom 35-40% darker and simple for text. No readable text, no airline logos or lettering, no real faces of public figures. Avoid: night scene, dark, low-key, crushed blacks, heavy vignette."
+    },
+    {
+      "id": 5,
+      "type": "closeup-double-deck",
+      "concept_ko": "실물 클로즈업. A380 동체 측면 2층 창 두 줄과 거대한 엔진 4개 중 2개가 보이는 각도, 아래에 형광 조끼 정비사 1명이 올려다본다(크기 대비). 대형 정비(D체크)를 마친 듯 반짝이는 동체.",
+      "prompt_en": "Gritty high-clarity HDR close-up of the side of a gleaming freshly overhauled Airbus A380 on an apron in bright sunlight: two stacked rows of passenger windows on the upper and lower decks and two of its four giant engines in view, heroic low angle. Below, a single mechanic in a high-visibility vest looks up at the aircraft, showing its enormous scale. Triumphant, epic cinematic, vivid saturated colors, split color accents of bright electric blue versus warm glowing orange, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp detailed textures on metal and glass, bright high-key exposure with lifted shadows, slightly over-processed look. Bottom 35-40% darker and simple for text. No readable text, no airline logos or lettering, no real faces of public figures. Avoid: night scene, dark, low-key, crushed blacks, heavy vignette."
+    }
+  ]
+}
