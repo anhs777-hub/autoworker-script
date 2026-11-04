@@ -17,15 +17,15 @@
   "thumbnails": [
     {
       "id": 1,
-      "type": "hook-scene-government-complex",
-      "concept_ko": "훅 장면(추천). 2025년 12월 월요일 이른 아침, 정부서울청사 정문 앞. 겨울 코트를 입은 젊은 사람들 여럿이 정문을 향해 줄지어 서 있다(등·옆모습, 얼굴 안 보임). 앞쪽 한 사람의 손에 흰 서류 봉투. 푸른 새벽빛과 건물 뒤 주황 하늘. 팻말·글자 없음.",
-      "prompt_en": "Gritty high-clarity HDR photo of the front gate of the Government Complex Seoul on a cold December Monday morning, tall grey government building in the background lit by blue dawn light with an orange sky behind it. A line of young Korean people in winter coats stands facing the gate, seen from behind and in profile so no faces are identifiable, breath visible in the cold air. In the foreground one person holds a plain white document envelope at their side. Quiet tense atmosphere, vivid saturated colors, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp textures on stone and fabric. No signs, no text, no logos. Leave the bottom 40 percent darker and simple for text overlay."
+      "type": "hook-scene-certificate-vs-empty-desks",
+      "concept_ko": "훅 장면(추천) — 「합격자 1,200명, 수습 자리 구한 건 338명」. 화면 앞쪽 오른쪽에 액자에 든 합격증(글자 없는 빈 증서, 금박 테두리)이 따뜻한 빛을 받고, 뒤로 불 꺼진 회계법인 사무실의 빈 책상 줄이 길게 이어진다. 의자들은 책상에 밀어 넣어져 있다.",
+      "prompt_en": "Gritty high-clarity HDR photo, close-up of a framed blank certificate with an ornate gold border and no writing, standing on a desk in the right foreground, softly lit by warm yellow light. Behind it, a long row of empty office desks in a dark accounting firm office stretches into the distance, monitors off, chairs pushed in, cold blue-grey tones. Strong contrast between the warm certificate and the cold empty office, shallow depth of field, vivid colors, heavy micro-contrast, visible film grain, crisp textures on glass and metal. No text, no logos. Leave the bottom 40 percent darker for text overlay."
     },
     {
       "id": 2,
-      "type": "concept-A-contrast",
-      "concept_ko": "컨셉 A 한 장면 대비. 화면 앞쪽 오른쪽에 액자에 든 합격증(글자 없는 빈 증서, 금박 테두리)이 따뜻한 빛을 받고, 뒤로 불 꺼진 회계법인 사무실의 빈 책상 줄이 길게 이어진다. 의자들은 책상에 밀어 넣어져 있다.",
-      "prompt_en": "Gritty high-clarity HDR photo, close-up of a framed blank certificate with an ornate gold border and no writing, standing on a desk in the right foreground, softly lit by warm yellow light. Behind it, a long row of empty office desks in a dark accounting firm office stretches into the distance, monitors off, chairs pushed in, cold blue-grey tones. Strong contrast between the warm certificate and the cold empty office, shallow depth of field, vivid colors, heavy micro-contrast, visible film grain, crisp textures on glass and metal. No text, no logos. Leave the bottom 40 percent darker for text overlay."
+      "type": "rally-scene-government-complex",
+      "concept_ko": "파트 1 장면(청사 앞 집회). 2025년 12월 월요일 이른 아침, 정부서울청사 정문 앞. 겨울 코트를 입은 젊은 사람들 여럿이 정문을 향해 줄지어 서 있다(등·옆모습, 얼굴 안 보임). 앞쪽 한 사람의 손에 흰 서류 봉투. 푸른 새벽빛과 건물 뒤 주황 하늘. 팻말·글자 없음.",
+      "prompt_en": "Gritty high-clarity HDR photo of the front gate of the Government Complex Seoul on a cold December Monday morning, tall grey government building in the background lit by blue dawn light with an orange sky behind it. A line of young Korean people in winter coats stands facing the gate, seen from behind and in profile so no faces are identifiable, breath visible in the cold air. In the foreground one person holds a plain white document envelope at their side. Quiet tense atmosphere, vivid saturated colors, heavy micro-contrast and sharpening, visible film grain and fine noise, crisp textures on stone and fabric. No signs, no text, no logos. Leave the bottom 40 percent darker and simple for text overlay."
     },
     {
       "id": 3,

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "sephora-oliveyoung",
+    "titles": [
+      "\"한국에서 짐 싼 세포라\" 2년 뒤 자기 매장에 올리브영 간판을 건 진짜 이유",
+      "\"아시아에서 한국만 철수\" 세계 1위 세포라가 올리브영을 못 넘은 진짜 이유",
+      "\"부츠 보고 배운 가게\" 세계 1위 세포라가 자기 매장을 내준 소름 돋는 이유"
+    ],
+    "thumbnail_texts": [
+      "\"짐 싸더니 모셔갔다?\" / 세계 1위 세포라가 손 내민 한국 회사",
+      "\"줄 500m, 5년 뒤 철수\" / 세계 1위가 한국에서만 진 가게",
+      "\"이번엔 미국에서 줄 섰다\" / 세포라 매장 안에 걸린 한국 간판"
+    ],
+    "image_concepts": {
+      "A": "타임스스퀘어 세포라 매장 안 초록 'OLIVE YOUNG' 간판 앞에서 놀란 미국 쇼핑객들 (훅 장면)",
+      "B": "Before→After 분할 — 서울 세포라 매장 셔터 내림 ↔ 뉴욕 세포라 매장 안 초록 간판"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 (훅 장면). 뉴욕 타임스스퀘어 세포라 플래그십 매장 안, 흑백 줄무늬 세포라 진열대 사이에 초록색 올리브영 숍인숍 구역이 있고, 놀란 미국 쇼핑객 3명이 그 간판을 올려다본다.",
+      "prompt_en": "Photorealistic bright interior of the SEPHORA flagship store in Times Square, New York, with iconic black-and-white striped SEPHORA displays on both sides and a glowing lime-green OLIVE YOUNG shop-in-shop corner in the center filled with Korean skincare bottles and sunscreen tubes. Three attractive young American shoppers with warm likeable faces and exaggerated surprised expressions stand in the upper frame, all looking up at the green OLIVE YOUNG corner, not at the camera. High-key lighting, clean white store, vivid saturated colors with sky-blue and gold accent lights. The green corner is large and instantly recognizable at small size."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic-alt",
+      "concept_ko": "컨셉 A 변형 실사. 세포라 매장 안 초록 올리브영 구역 클로즈업 — 미국 여대생이 손등에 한국 선크림을 발라 보며 놀란 표정.",
+      "prompt_en": "Photorealistic close-up inside a bright SEPHORA store in New York: an attractive young American college student with a warm likeable face and an exaggerated delighted expression tests a Korean sunscreen on the back of her hand, standing in front of a lime-green OLIVE YOUNG K-Beauty display shelf packed with neatly arranged Korean skincare products. Black-and-white SEPHORA stripes frame the edges of the shot. Clean white background, high-key lighting, vivid saturated greens with sky-blue and gold highlights, subject large in the upper half."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 좌우 분할 — 왼쪽은 서울 쇼핑몰의 셔터 내린 세포라 매장, 오른쪽은 뉴욕 세포라 매장 안 초록 올리브영 구역 앞에 늘어선 사람들.",
+      "prompt_en": "Photorealistic split composition: on the left, a closed SEPHORA store inside a quiet Seoul shopping mall with its metal shutter pulled down and an empty corridor in soft grey daylight; on the right, a bright SEPHORA store in New York where a lively line of shoppers waits in front of a glowing lime-green OLIVE YOUNG shop-in-shop corner. Crisp vertical dividing edge, both halves large and readable at thumbnail size. Left side muted, right side vivid with high-key lighting, sky-blue and gold accents."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic-alt",
+      "concept_ko": "컨셉 B 변형 실사. 밝은 정물 대비 — 세포라 쇼핑백과 올리브영 초록 쇼핑백이 나란히 놓였는데 초록 쪽이 훨씬 크게 부풀어 있다.",
+      "prompt_en": "Photorealistic bright studio still life on a clean white background: a small black-and-white striped SEPHORA shopping bag stands next to a much larger, overflowing lime-green OLIVE YOUNG shopping bag packed with Korean skincare bottles, sheet masks and sunscreen tubes spilling out. The green bag towers over the striped one, dramatically oversized, both centered in the upper half. High-key lighting, vivid saturated colors, sky-blue and gold reflections, sharp focus, instantly readable at small size."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밤의 타임스스퀘어 대신 밝은 낮 — 거리 전광판 숲 아래 올리브영 초록 팝업트럭 앞에 몰린 뉴요커들, 화면 중앙의 트럭이 금빛으로 빛난다.",
+      "prompt_en": "Photorealistic bright daytime scene in Times Square, New York: a glowing lime-green OLIVE YOUNG K-Beauty pop-up truck parked at the center, surrounded by a crowd of excited New Yorkers with surprised, delighted faces all turning toward the truck. Towering colorful billboards in the background are softly blurred. Clean bright sky, high-key lighting, vivid saturated green with gold and sky-blue accents, the truck large and centered in the upper half of the frame."
+    }
+  ]
+}

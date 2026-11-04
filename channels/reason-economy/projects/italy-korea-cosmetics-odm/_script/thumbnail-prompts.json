@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "italy-korea-cosmetics-odm",
+    "titles": [
+      "일본 기술 배우던 한국 화장품 공장이 50년 원조 이탈리아를 넘어선 진짜 이유",
+      "이탈리아 공장의 새 주인은 한국 회사…일본 기술 배우던 코스맥스가 원조를 넘어선 이유",
+      "원조 이탈리아의 1.7배…일본 기술 배우던 한국 화장품 공장이 세계 1위가 된 이유"
+    ],
+    "thumbnail_texts": [
+      "남의 기술 대신 내 연구소 / 원조 이탈리아를 넘은 한국 화장품 공장",
+      "\"1위 자리가 바뀌었다\" / 세계가 주목한 한국 화장품 공장",
+      "\"이탈리아 공장을 샀다\" / 세계 1위 한국 공장의 반전"
+    ],
+    "image_concepts": {
+      "A": "밝은 한국 연구실에서 빛나는 크림 시료를 든 연구원과, 놀란 표정으로 바라보는 이탈리아 공장 직원",
+      "B": "기울어진 저울 — 이탈리아 삼색 립스틱보다 태극 색 크림 병이 더 높이 빛나고, 놀란 유럽인 2인이 바라봄"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "훅 장면(추천). 훅 장면. 화장대 위 이탈리아풍 고급 화장품 병을 뒤집어 든 손 — 뒷면 쪽에서 금빛으로 빛나는 태극 문양, 옆에서 놀란 표정의 이탈리아 여성이 그 병을 바라봄.",
+      "prompt_en": "Photorealistic bright high-key photograph of an elegant vanity table with luxurious Italian-style cosmetic bottles in soft white, gold and sky-blue tones. In the upper half, a hand turns one glass cream jar around, and the back of the jar glows with a warm golden light shaped like the South Korean taegeuk symbol. An attractive Italian woman with a warm likeable face leans in from the side with an exaggerated surprised expression, her eyes fixed on the glowing jar. Clean light background, vivid saturated colors, strong contrast between the gold glow and the white vanity."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A. 밝은 한국 화장품 연구실에서 흰 가운의 한국인 연구원이 빛나는 크림 시료를 들어 올리고, 이탈리아 공장 작업복의 직원이 놀라 바라봄.",
+      "prompt_en": "Photorealistic bright photograph inside a spotless white Korean cosmetics research laboratory with glass beakers and cream samples. An attractive Korean female researcher with a warm likeable face in a white lab coat raises a small dish of glowing pearl-white cream toward the camera in the upper half of the frame. Beside her, an Italian factory worker in a navy work uniform stares at the cream with an exaggerated astonished expression. High-key lighting, sky-blue and gold accent colors, vivid and clean."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 변형. 이탈리아 소도시 화장품 공장 생산 라인 위로 한국인·이탈리아인 직원이 함께 크림 병을 들어 보이고, 뒤 창 너머로 알프스 산자락의 브레시아 풍경.",
+      "prompt_en": "Photorealistic bright photograph of a modern cosmetics production line in Brescia, Italy, with Alpine foothills visible through large factory windows. In the upper half, a Korean engineer and an Italian technician, both attractive with warm likeable faces, hold up a freshly filled cream jar together with exaggerated proud and surprised expressions. Gleaming stainless steel machines, high-key daylight, vivid sky-blue and gold accents, clean light atmosphere."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B. 커다란 황금 저울 — 왼쪽 접시의 이탈리아 삼색 포장 립스틱은 내려가고, 오른쪽 접시의 태극 색 크림 병은 위로 올라가 금빛으로 빛남. 놀란 표정의 유럽인 남녀 2인.",
+      "prompt_en": "Photorealistic bright studio photograph of a large golden balance scale filling the upper half of the frame. On the lower left pan sits a luxury lipstick wrapped in the green, white and red colors of the Italian flag; on the raised right pan a white cream jar with red and blue taegeuk accents glows with radiant golden light. Two attractive European people, a man and a woman, stand at the edges with exaggerated shocked expressions, both looking up at the glowing cream jar. Clean white background, high-key lighting, vivid saturated colors."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 밀라노 대성당 앞 광장 하늘 위로 거대한 한국 화장품 크림 병이 금빛으로 떠오르고, 광장의 이탈리아 시민들이 고개를 들어 놀라 바라봄. 원형 인셋 3컷(일본 기술 제휴 시절 연구실 · 2015 순위표 · 브레시아 공장).",
+      "prompt_en": "Photorealistic bright daytime photograph of Piazza del Duomo in Milan under a clear sky-blue sky. A giant glowing white cream jar with subtle red and blue accents floats above the cathedral in the upper half, radiating warm golden light. Italian citizens in the square look up with exaggerated astonished expressions, their gaze directed at the jar. Three small circular inset photos along the top edge show a 1990s Korean laboratory, a golden first-place trophy, and a modern factory in a small Italian town. High-key lighting, vivid saturated colors."
+    }
+  ]
+}
