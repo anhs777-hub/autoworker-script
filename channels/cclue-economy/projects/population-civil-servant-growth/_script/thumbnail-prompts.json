@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "population-civil-servant-growth",
+    "titles": [
+      "\"89곳 전부 늘었다\" 인구는 10% 줄었는데 지방 공무원은 14% 늘어난 진짜 이유",
+      "\"한 곳도 안 빠졌다\" 사람 떠나는 인구감소지역 89곳에서 공무원만 늘어난 진짜 이유",
+      "\"인구 예산 매년 900억\" 사람은 떠나는데 군청 자리만 늘어난 지방의 소름 돋는 이유"
+    ],
+    "thumbnail_texts": [
+      "\"주민은 떠나는데 왜?\" / 89곳 전부 공무원만 늘어난 지방",
+      "\"한 곳도 안 빠졌다\" / 보고서가 짚은 인구감소지역 89곳",
+      "\"그 월급, 누구 돈?\" / 재정자립도 6.8% 군의 공무원 월급"
+    ],
+    "image_concepts": {
+      "A": "텅 빈 시골 읍내 위로 엇갈리는 빨간 하락 화살표(인구)와 파란 상승 화살표(공무원), 뒤로 밝은 군청 건물",
+      "B": "스케일 대비 — 공무원 한 명 곁의 주민 22명(울릉) vs 주민 218명(구미)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "훅 장면 — 사람 없는 한국 시골 군 읍내 거리와 새로 지은 밝은 군청 건물, 그 위로 빨간 화살표는 아래로 파란 화살표는 위로 크게 엇갈린다.",
+      "prompt_en": "Photorealistic wide shot of a quiet, almost empty main street in a small rural South Korean county town on a bright sunny morning, with an elderly woman walking alone past closed shop shutters. Behind the street stands a large, newly built, modern county government office building with clean glass and stone facade. In the upper half of the frame, two huge glossy 3D arrows cross each other: a bold red arrow plunging downward and a bold blue arrow shooting upward, dramatically oversized. Bright vibrant colors, clear sky-blue sky, gold sunlight accents, high-key lighting."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형 — 시골 군청 앞 넓은 주차장은 직원 차로 가득, 맞은편 마을 버스정류장은 텅 비었다. 위로 엇갈리는 두 화살표.",
+      "prompt_en": "Photorealistic high-angle view of a rural South Korean county office with a large parking lot completely full of cars, while across the road a small village bus stop sits empty with one wooden bench. Above the scene, a giant red arrow points down over the village side and a giant blue arrow points up over the county office side, both dramatically oversized and glossy. Bright vivid saturated tones, clean light sky, sky-blue and gold accent colors, high-key lighting, crisp detail for mobile visibility."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B — 좌우 분할. 왼쪽 울릉도 같은 섬마을 항구에서 공무원 한 명 곁에 주민 스무 명 남짓, 오른쪽 구미 같은 산업도시 광장에서 공무원 한 명 곁에 큰 군중.",
+      "prompt_en": "Photorealistic split-screen composition. On the left, a small Korean island fishing village harbor with turquoise sea and steep green cliffs, where one friendly Korean civil servant wearing an ID lanyard stands with about twenty villagers around him. On the right, a busy Korean industrial city plaza with apartment towers, where one identical civil servant stands surrounded by a huge dense crowd of hundreds of people. The civil servant has an attractive, likeable face with an exaggerated surprised expression, placed in the upper half of each side. Bright vibrant colors, high-key lighting, sky-blue and gold accents."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형 — 저울 한쪽엔 공무원증 하나, 다른 쪽 접시 위 시골 마을 미니어처는 사람이 거의 없고, 도시 미니어처는 사람으로 빽빽하다.",
+      "prompt_en": "Photorealistic close-up of a large golden balance scale on a clean white background. On the left pan sits a tiny detailed miniature Korean rural village with only a handful of tiny people, and on the right pan a miniature Korean city packed with hundreds of tiny people. In the center, hanging from the beam, a single oversized Korean government employee ID card on a sky-blue lanyard. Dramatically oversized objects, bright vivid colors, high-key studio lighting, gold accents, strong mobile readability."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 — 텅 빈 시골 초등학교 운동장 옆, 불이 환하게 켜진 군청 사무실 창문들. 놀란 표정의 중년 남성이 스마트폰 화면(지도)을 들여다본다.",
+      "prompt_en": "Photorealistic scene of a middle-aged Korean man with an attractive, warm, likeable face and an exaggerated shocked expression, holding up a smartphone showing a colorful map, extreme close-up in the upper left. Behind him, an empty rural Korean elementary school playground with a lone rusty swing, and next to it a bright modern county office building with every window lit. Bright vibrant colors, clear sky-blue sky, gold sunlight, high-key lighting, clean composition for small thumbnail viewing."
+    }
+  ]
+}
