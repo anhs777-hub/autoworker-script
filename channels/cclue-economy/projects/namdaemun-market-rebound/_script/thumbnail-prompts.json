@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "namdaemun-market-rebound",
+    "titles": [
+      "\"스카프보다 먼저 줄 섰다\" 문 닫아 가던 600년 남대문시장을 다시 살린 몇천 원짜리의 정체",
+      "\"스카프 아저씨가 아닙니다\" 2030이 600년 남대문시장에 줄 서기 시작한 진짜 이유",
+      "\"예산으론 못 살렸다\" 6년 만에 빈 가게가 다시 찬 600년 남대문시장의 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"사지 말래도 줄 섰다!\" / 2030이 몰려간 600년 남대문시장",
+      "\"아저씨 덕분 아닙니다\" / 2030이 먼저 찾아낸 남대문의 몇천 원",
+      "\"예산 아니라 때수건!\" / 6년 만에 빈 가게가 찬 남대문시장"
+    ],
+    "image_concepts": {
+      "A": "남대문시장 골목에 길게 늘어선 2030 손님 줄과 전경의 알록달록한 때수건 더미 (훅 장면)",
+      "B": "같은 시장 골목의 전후 대비 — 셔터 내린 한산한 골목(파란 하락) vs 젊은 손님으로 가득한 골목(빨간 상승)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "훅 장면 — 서울 남대문시장 좁은 골목에 20~30대 손님이 길게 줄을 섰고, 맨 앞 가판에는 초록·분홍·노랑 때수건이 수북이 쌓여 있다. 줄 선 젊은 여성이 놀란 표정으로 때수건을 집어 든다.",
+      "prompt_en": "Photorealistic bright daytime scene in a narrow alley of Namdaemun Market in Seoul, South Korea, with a long queue of stylish Korean people in their twenties and thirties stretching far back between traditional market stalls. In the foreground, a market stall is piled high with colorful Korean exfoliating bath towels (Italy towels) in vivid green, pink and yellow, filling the lower half of the frame. An attractive young Korean woman with a warm likeable face holds up one green bath towel with an exaggerated delighted, surprised expression. Bright vibrant colors, clean light sky, sky-blue and gold accents, high-key lighting, crisp detail for mobile visibility."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형 — 위에서 내려다본 남대문시장 골목, 사람들이 줄지어 선 가운데 크게 확대된 때수건 한 장이 금빛으로 빛난다.",
+      "prompt_en": "Photorealistic high-angle view down a busy alley of Namdaemun Market in Seoul on a sunny afternoon, crowded with young Korean shoppers forming a long winding line past awnings and stacked goods. In the center foreground, a single oversized bright green Korean exfoliating bath towel glows with a soft golden light, held up in a shopper's hand like a prize. Bright vivid saturated tones, clean light background, sky-blue and gold accent colors, high-key lighting, sharp subject for small-screen visibility."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B — 좌우 분할. 왼쪽은 셔터가 내려진 한산한 남대문시장 골목과 아래로 꺾인 파란 화살표, 오른쪽은 같은 골목이 젊은 손님으로 가득하고 위로 솟은 빨간 화살표.",
+      "prompt_en": "Photorealistic split-screen composition of the same alley in Namdaemun Market, Seoul. On the left, the alley is quiet and nearly empty with several metal shop shutters pulled down and a single elderly shopkeeper sitting on a stool, overlaid with a large glossy blue arrow pointing downward. On the right, the identical alley is bustling with cheerful young Korean shoppers carrying small shopping bags, overlaid with a large glossy red arrow shooting upward. Left side slightly faded, right side bright and vibrant, high-key lighting, sky-blue and gold accents."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형 — 빈 가게 셔터에 붙은 「임대」 종이를 떼어 내는 새 가게 주인, 뒤로 손님이 오가는 밝은 시장 골목.",
+      "prompt_en": "Photorealistic close-up in Namdaemun Market, Seoul, of a smiling young Korean shop owner with an attractive likeable face peeling a plain blank paper notice off a half-raised metal shop shutter, revealing a freshly painted small storefront. Behind her, a bright market alley is busy with young shoppers walking past colorful stalls. A large glossy red upward arrow rises in the upper part of the frame. Bright vibrant colors, clean light tones, high-key lighting, sky-blue and gold accents."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 — 저울 대비. 한쪽 접시엔 돈다발이 쌓였는데 위로 들려 있고, 다른 쪽 접시엔 때수건 한 장이 놓였는데 아래로 무겁게 내려가 있다. 배경은 숭례문이 보이는 밝은 남대문시장 입구.",
+      "prompt_en": "Photorealistic conceptual image of a large antique brass balance scale standing at the bright entrance of Namdaemun Market in Seoul, with the historic Sungnyemun gate visible in the soft background. One pan holds a tall stack of Korean won banknotes but is lifted high and light, while the other pan holds a single bright green Korean exfoliating bath towel and sinks down heavily. Dramatically oversized scale centered in the frame, bright vibrant colors, clean light sky, gold and sky-blue accents, high-key lighting."
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+<title>이번엔 일본이 막혔다</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* layout: 좁은 작업대 한 줄 — 헤더(제목·수치) → 탭 → 섹션별 복사 블록 */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --ink:#18212b; --muted:#5b6774; --line:#d6dde4;
+  --accent:#2c5c8f; --accent-soft:#e3ecf6; --on-accent:#ffffff; --ok:#2f7a4f; --hl:#f2d43a;
+  --f-display:"Gowun Batang","Noto Serif KR",serif;
+  --f-body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11161c; --surface:#19212a; --ink:#e4e9ee; --muted:#9aa7b4; --line:#2c3743;
+  --accent:#8db6e0; --accent-soft:#1f2f41; --on-accent:#11161c; --ok:#7fcf9c; --hl:#c9ad2a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11161c; --surface:#19212a; --ink:#e4e9ee; --muted:#9aa7b4; --line:#2c3743;
+  --accent:#8db6e0; --accent-soft:#1f2f41; --on-accent:#11161c; --ok:#7fcf9c; --hl:#c9ad2a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+header{display:grid;gap:10px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:12px;letter-spacing:.06em;color:var(--muted)}
+.mirror{font-family:var(--f-mono);font-size:13px;color:var(--accent)}
+h1{font-family:var(--f-display);font-size:clamp(22px,4.4vw,32px);line-height:1.35;margin:0;text-wrap:balance}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink);font-weight:600}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;gap:4px;overflow-x:auto;padding-block:12px;border-bottom:1px solid var(--line)}
+nav button{flex:none;font:inherit;font-size:14px;border:0;background:none;color:var(--muted);padding:6px 12px;border-radius:6px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+nav button:focus-visible,.cp:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{display:grid;gap:22px;padding-top:22px;min-width:0}
+h2{font-family:var(--f-display);font-size:20px;margin:0;text-wrap:balance}
+h3{font-size:13px;letter-spacing:.04em;color:var(--muted);margin:0;font-weight:600}
+.group{display:grid;gap:10px;min-width:0}
+.blk{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:8px;min-width:0}
+.txt{margin:0;padding:14px 16px;padding-right:104px;white-space:pre-wrap;font-family:var(--f-body);font-size:14.5px;line-height:1.75;overflow-wrap:anywhere}
+.cp{font:inherit;font-size:12.5px;font-weight:600;border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:6px;padding:4px 10px;cursor:pointer}
+.blk .cp{position:absolute;top:8px;right:8px}
+.cp:hover{background:var(--accent-soft)}
+.cp.ok{border-color:var(--ok);color:var(--ok)}
+.btn.cp{background:var(--accent);color:var(--on-accent);padding:6px 14px;font-size:13px}
+.btn.cp.ok{background:var(--ok);border-color:var(--ok);color:var(--on-accent)}
+ul.plain{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.row{display:flex;gap:8px;align-items:center;margin-bottom:6px;font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.pill{background:var(--accent);color:var(--on-accent);border-radius:999px;padding:1px 9px;font-weight:600}
+.note{margin:6px 2px 0;font-size:13px;color:var(--muted)}
+.thumbtxt{display:grid;gap:2px;margin-bottom:8px;justify-items:start}
+.tl{font-weight:600;font-size:16px}
+.tl.l1{background:linear-gradient(transparent 58%,var(--hl) 58%)}
+.tl.l2{color:var(--accent)}
+h4{display:flex;gap:10px;align-items:baseline;margin:0 0 8px;font-size:14px;font-weight:600}
+.num{font-family:var(--f-mono);color:var(--accent)}
+.prompts .txt{font-family:var(--f-mono);font-size:13px;line-height:1.6}
+.script{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px;max-width:68ch}
+.script p{margin:0 0 1em}
+.tsl{list-style:none;margin:0;padding:14px 16px;display:grid;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.tsl li{display:grid;grid-template-columns:4.2em 1fr;gap:10px}
+.t{font-family:var(--f-mono);color:var(--accent);font-variant-numeric:tabular-nums}
+.warn{font-size:13.5px;color:var(--ink);background:var(--accent-soft);border-radius:8px;padding:10px 14px;margin:0}
+.headrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">끌루 경제TV · sobujang-boomerang · 업로드 작업 화면</div>
+  <div class="mirror">2019 일본 → 한국 &nbsp;⇄&nbsp; 2026 중국 → 일본</div>
+  <h1>&quot;이번엔 일본이 막혔다&quot; 한국을 막았던 일본이 7년 뒤 똑같이 당한 진짜 이유</h1>
+  <div class="stats"><span>대본 <b>9,652자</b></span><span>예상 <b>약 22분</b> (430자/분)</span><span>챕터 <b>8개</b></span><span>정본은 output 폴더의 파일입니다</span></div>
+</header>
+<nav role="tablist">
+  <button type="button" data-s="s1" aria-selected="false">1 대본</button>
+  <button type="button" data-s="s2" aria-selected="false">2 썸네일 · 제목</button>
+  <button type="button" data-s="s3" aria-selected="true">3 업로드 정보</button>
+  <button type="button" data-s="s4" aria-selected="false">4 타임스탬프</button>
+</nav>
+
+<section id="s1" hidden>
+  <div class="headrow"><h2>대본</h2><button class="btn cp" type="button" data-t="script-src">대본 전문 복사</button></div>
+  <p class="warn">영상 제작 사이트에 올릴 TTS 원고입니다. 문단 사이 빈 줄까지 그대로 복사됩니다.</p>
+  <div class="script"><p>2026년, 중국이 일본으로 가는 희토류를 묶었습니다. 그해 8월, 중국에서 일본으로 간 희토류 이트륨은 0톤이었습니다. 다급해진 일본은 미국에 도움을 청했습니다. 그런데 7년 전에는 일본이 막는 쪽이었습니다. 2019년 7월, 일본은 한국으로 가는 반도체 핵심 소재의 수출을 묶었습니다. 그때 한국 반도체 공장에 남은 재고는 두세 달치뿐이었습니다.</p><p>두 번 다 방식은 같습니다. 꼭 필요한 소재 하나를 틀어막는 방식이죠. 그런데 결과는 반대로 가고 있습니다. 2019년 일본 불화수소 회사는 규제 석 달 만에 영업이익이 88% 줄었고, 한국은 2026년 1분기 처음 수출에서 일본을 앞섰습니다. 일본 기술이 모자라서 생긴 일도 아닙니다. 같은 방식인데, 왜 한국은 버텼고 일본은 흔들릴까요?</p><p>그 차이, 2026년 1월 베이징에서 나온 공고 한 장부터 따라가 보시죠.</p><p>먼저 이트륨부터 풀고 가겠습니다. 이트륨은 제트엔진과 반도체 장비를 뜨거운 열에서 지켜 주는 코팅에 들어가는 희토류예요. 희토류는 모터와 자석, 첨단 장비에 소금처럼 조금씩, 그런데 꼭 들어가는 금속을 말하고요.</p><p>그 이트륨이 끊긴 출발점은 2026년 1월 6일 베이징이었습니다. 중국 상무부가 2026년 제1호 공고를 냅니다. 일본의 군사 용도에 쓰일 수 있는 이중용도 물자를 일본에 팔지 않겠다는 내용이었습니다. 이중용도 물자는 민간에도 군사에도 쓸 수 있는 물건을 말해요. 여기에 한 줄이 더 붙었습니다. 다른 나라를 거쳐 일본에 넘겨줘도 처벌하겠다는 겁니다.</p><p>계기는 두 달 전 도쿄에서 나온 말 한마디였습니다. 2025년 11월 7일, 다카이치 총리가 국회에서 대만 유사시를 일본의 존립위기사태로 볼 수 있다고 답했습니다. 중국은 이 공고가 그 발언에 대한 대응이라고 숨기지 않았습니다.</p><p>그다음부터 숫자가 움직였습니다. 일본이 쓰는 디스프로슘과 테르븀은 거의 전부 중국에서 옵니다. 둘 다 희토류 중에서도 더 귀한 중희토류예요. 그 중희토류의 대일 수출이 2026년 상반기 내내 0이었습니다. 반년 동안 한 번도 안 들어왔다는 얘기죠. 그사이 중국이 수출통제 대상으로 찍은 일본 기업과 기관은 2026년 6월까지 40곳으로 늘었습니다.</p><p>여기서 이상한 점이 있습니다. 공고에 적힌 명분은 분명 군사용이었거든요. 중국 상무부 대변인도 민간 무역은 영향받지 않는다고 했습니다. 그런데 말라붙은 건 민간 물량이었습니다.</p><p>중국이 일본에 보낸 산화이트륨은 2026년 1월부터 5월까지 1년 전보다 97.7% 줄었습니다. 백 포대가 오던 창고 앞에 두 포대 남짓만 도착한 거예요. 그리고 2026년 8월, 그 숫자는 0톤이 됩니다.</p><p>일본 대기업 중국법인의 한 간부는 이대로면 공장이 멈출 수 있다고 경고했습니다. 멈췄다는 말이 아닙니다. 멈출 수 있다는 경고입니다. 그런데 이 장면, 어디서 많이 보지 않으셨나요?</p><p>지금 일본이 서 있는 그 자리, 7년 전 주인공은 한국이었습니다. 한 나라가 핵심 소재 하나를 틀어쥐고, 다른 나라 공장들이 남은 재고를 세던 장면이요.</p><p>결론부터 말씀드리겠습니다. 갈린 건 소재가 아니었습니다. 막혔을 때 대신 사 올 곳을 만들 수 있었느냐였습니다. 2019년 불화수소는 원료가 애초에 일본 밖에 있었고, 일본이 쥔 건 정제 기술이었습니다. 2026년 희토류는 캐는 것부터 정제까지 대부분 중국 손에 있습니다. 중희토류는 거의 전부고요. 이 차이가 왜 결정적인지는 뒤에서 따로 보여드리겠습니다.</p><p>2019년 여름 기억나세요? 편의점 맥주 진열대에서 일본 맥주가 사라지던 때요. 그때 마트에서는 불매가 화제였지만, 반도체 공장 안에서는 전혀 다른 숫자를 세고 있었습니다.</p><p>7년 전 한국이 어땠는지부터 보셔야 이 장면이 왜 무서운지 보입니다.</p><p>2019년 7월 1일, 일본 경제산업성이 발표를 하나 냅니다. 7월 4일부터 반도체 소재 3품목은 한 건씩 따로 허가를 받으라는 내용이었습니다. 고순도 불화수소, 포토레지스트, 플루오린 폴리이미드였습니다. 포토레지스트는 감광액이라고도 부르는데, 반도체 회로 모양을 찍어내는 사진 필름 같은 약품이에요. 계기는 2018년 10월 한국 대법원의 강제징용 배상 판결이었습니다.</p><p>이 3품목이 왜 아팠냐면요. 2018년 한국이 들여온 포토레지스트의 93.2%가 일본산이었습니다. 열 병 중 아홉 병 넘게 일본에서 온 거예요. 불화수소도 41.9%가 일본산이었습니다.</p><p>그런데 허가 심사는 최대 90일이 걸렸습니다. 서류가 모자라다는 이유로 90일이 지나도 허가가 안 난 경우까지 나왔습니다. 업계에서는 손에 쥔 재고가 두세 달치뿐이라는 말이 돌았습니다.</p><p>일본은 한 걸음 더 나갑니다. 2019년 8월 28일, 한국을 화이트리스트에서 뺐습니다. 화이트리스트는 수출 절차를 간소하게 해 주는 믿을 만한 나라 명단이에요. 그 명단에서 빠지면 서류부터 다시 쌓아야 합니다.</p><p>얼마나 막혔냐면요. 2019년 8월, 일본의 대한국 불화수소 수출은 물량도 금액도 0이었습니다. 비교할 수 있는 통계가 있는 1988년 이후 처음이었습니다. 2019년 9월 한 달 동안 일본이 한국에 보낸 불화수소는 고작 100킬로그램이었습니다. 1년 전 같은 달엔 3,000톤이 넘었습니다. 트럭 백 대가 줄지어 오던 길에 장바구니 하나가 도착한 거예요.</p><p>여기까지만 보면 한국이 벼랑 끝에 선 이야기입니다. 그런데 먼저 비명을 지른 건 일본 회사들이었습니다.</p><p>앞에서 영업이익이 88% 줄었다고 말씀드린 회사, 이름은 스텔라케미파입니다. 세계 고순도 불화수소 시장의 약 70%를 쥔 일본 회사입니다. 세계 1등이 큰 손님 한 곳을 잃자 장부가 먼저 무너진 겁니다.</p><p>모리타화학은 더 심했습니다. 불화수소 수출의 90% 이상이 한국행이던 회사입니다. 규제 첫해 이 회사 순이익은 90% 줄었습니다.</p><p>그리고 2019년 11월, 일본은 액체 불화수소 수출까지 허가해 줍니다. 규제 넉 달 반 만이었습니다. 자국 소재 기업들 매출이 급감한 걸 고려한 허가라는 평가가 나왔습니다. 막은 쪽이 먼저 문을 다시 연 거죠.</p><p>문은 다시 열렸지만, 한번 떠난 물량은 쉽게 돌아오지 않았습니다. 모리타화학 관계자는 2024년 일본 언론에 대한국 수출이 이전 수준을 회복하지 못할 거라고 말했습니다. 미국 같은 다른 판로를 넓히고 싶다는 말도 덧붙였습니다. 일본 회사들 이야기는 여기까지만 하겠습니다.</p><p>여러분이 동네 단골 가게 주인이라고 해 보세요. 매일 오던 손님을 홧김에 내쫓았습니다. 그런데 그 손님이 길 건너 다른 가게를 찾아냈어요. 석 달 뒤 문을 다시 열어 둔다고 그 손님이 예전처럼 매일 올까요? 안 옵니다. 길 건너 가게에도 벌써 정이 들었거든요.</p><p>그럼 한국은 그 두세 달을 어떻게 넘겼을까요? 여기에 일본이 지금 놓친 답이 있습니다.</p><p>한국이 한 일은 한 줄씩 짚어 보면 선명합니다.</p><p>2019년 9월, 솔브레인이 고순도 불화수소 국산화에 성공합니다. 같은 9월 초, 삼성전자는 일부 공정에 국산 불화수소를 넣기 시작합니다. 2019년 10월부터는 램테크놀러지 제품이 SK하이닉스 일부 라인에 들어갑니다. 그리고 이듬해인 2020년, LG디스플레이는 불화수소를 전량 국산으로 바꿉니다.</p><p>불화수소가 뭔지 잠깐 풀고 가죠. 반도체 회로를 깎아내고 씻어내는 액체예요. 그릇은 그대로 두고 눌어붙은 때만 골라 녹이는 약품 같은 겁니다. 순도가 조금만 떨어져도 회로가 망가지거든요. 그래서 한국 공장들이 일본산을 쉽게 못 바꿨던 겁니다.</p><p>그 벽을 한국 회사가 넘었습니다. 2020년 1월 보도 기준으로, 솔브레인은 9가 열두 개 이어지는 순도의 초고순도 불화수소를 양산하고 있었습니다. 불순물을 1조분의 1 수준까지 걸러 냈다는 뜻이에요. 국내 수요의 70~80%를 맡을 수 있다는 평가도 나왔습니다.</p><p>결과는 숫자로 나왔습니다. 41.9%였던 일본산 불화수소 비중이 2022년엔 7.7%까지 떨어집니다. 열 통 중 네 통이 일본산이던 게, 열세 통 중 한 통 꼴로 줄어든 거예요. 다만 이건 2022년 숫자입니다. 규제가 풀린 2023년부터 일본산은 다시 늘어나는데, 그 얘기는 뒤에서 하겠습니다.</p><p>다만 여기에는 그늘도 있습니다. 7.7%의 뒤편을 같이 봐야 합니다. 같은 기간 중국산 비중은 52.0%에서 80.1%로 올랐습니다. 한국은 일본을 끊은 게 아닙니다. 일본 대신 쓸 곳을 늘린 겁니다. 전부 국산으로 바꾼 것도 아닙니다. 이 대목은 꼭 기억해 두세요. 뒤에서 다시 꺼내겠습니다.</p><p>국산화 이야기에는 과장도 따라붙었습니다. 솔브레인과 동진쎄미켐이 둘 다 매출 1조 원을 넘겼다는 말, 들어 보셨을 거예요. 그건 사실이 아닙니다. 1조 원을 넘긴 건 동진쎄미켐 한 곳입니다. 동진쎄미켐의 2025년 매출은 1조 1,941억 원이었습니다. 솔브레인의 2025년 매출은 9,234억 원이었습니다.</p><p>하지만 그렇다고 이 숫자가 가벼워지는 건 아니에요. 7년 전만 해도 이름이 낯설던 회사들입니다. 동진쎄미켐은 1조 원 회사가 됐고, 솔브레인도 9천억 원대 회사가 됐습니다.</p><p>판이 커진 건 두 회사만이 아닙니다. 소부장, 그러니까 소재, 부품, 장비 쪽에서 2019년엔 시가총액 1조 원이 넘는 기업이 13곳이었습니다. 2021년엔 그게 31곳이 됐습니다. 정부가 꼽은 100대 핵심품목의 일본 의존도도 2019년 31.4%에서 2021년 24.9%로 내려왔습니다. 삼성전자도 일본에 기대던 소재와 부품 220여 개의 조달처를 바꿨습니다.</p><p>휴대폰 하나에 충전기 하나만 쓰시나요? 대부분 아니실 거예요. 침대 옆에 하나, 차에 하나, 회사 책상에 하나 두시죠. 하나가 고장 나도 휴대폰이 꺼지지 않게요. 2019년 이후 한국이 7년 동안 만든 게 바로 그 여분의 충전기였습니다. 새 충전기가 꼭 국산일 필요는 없었습니다. 꽂을 데가 하나 더 있으면 됐습니다.</p><p>여기까지는 다른 경제 채널들도 많이 다룬 이야기입니다. 진짜 이야기는 지금부터입니다. 똑같은 일을 당한 일본은 왜 이 길을 못 만들었을까요?</p><p>2019년 불화수소로 잠깐 돌아가 보겠습니다. 불화수소의 원료는 형석이라는 광물입니다. 그 형석은 원래 중국에서 나왔습니다. 앞서 본 것처럼 한국의 불화수소 수입처 1등도 그때 이미 중국이었고요.</p><p>일본이 쥐고 있던 건 땅이 아니라 정제 기술이었습니다. 형석에서 불순물을 걸러 내 반도체에 쓸 만큼 깨끗하게 만드는 솜씨요. 그러니까 한국은 그 솜씨만 따라잡으면 됐던 겁니다.</p><p>희토류는 다릅니다. 땅에서 캐는 것부터 정제하는 것까지 대부분 중국이 쥐고 있습니다. 일본도 이걸 모르지 않았습니다.</p><p>2010년 9월, 센카쿠 열도 근처에서 중국 어선이 일본 해상보안청 순시선과 부딪혔습니다. 일본이 그 선장을 붙잡았고, 그 뒤 약 두 달 동안 중국의 대일 희토류 수출이 사실상 끊겼습니다. 중국은 공식적으로 막은 적이 없다고 부인했습니다.</p><p>한 번 당한 일본은 움직였습니다. 2011년 일본 정부 기관과 상사 소지쓰가 호주 희토류 회사 라이너스에 2억 5,000만 달러를 넣었습니다. 그렇게 90%가 넘던 중국 의존도를 60~70%까지 낮췄습니다. 그래도 아직 절반이 넘습니다.</p><p>그런데 여기서 문제가 있습니다. 2010년 이후 그렇게 애썼는데도 중희토류만큼은 지금도 거의 100% 중국산입니다. 앞서 본 디스프로슘과 테르븀이요. 일본이 가장 바꾸기 어려운 자리는 하나도 못 바꾼 겁니다.</p><p>그 빈자리는 값으로 드러납니다. 중국 밖에서 산화이트륨 값은 킬로그램당 약 1,150달러까지 올랐습니다. 중국 안에서는 9달러 안팎입니다. 같은 물건이 국경 하나 건넜다고 백 배 넘게 비싸진 거예요. 만 원짜리 짜장면 한 그릇이 국경을 넘자 백만 원이 넘어간 꼴이죠.</p><p>피해를 계산한 곳도 있습니다. 일본 다이와총연은 중국산 희토류 수입이 막힌 채 1년이 이어지면 일본 GDP가 1.3% 날아간다는 계산을 내놨습니다. 돈으로 약 7조 엔입니다. 아직 일어난 일이 아니라 시나리오입니다. 그래도 일본 연구소가 자기 나라를 두고 이런 숫자를 냈다는 것 자체가 무게를 말해 줍니다.</p><p>이제 7년 전 한국과 지금 일본을 다시 겹쳐 보죠. 한국은 정제 기술을 배우면 됐습니다. 원료를 파는 곳은 이미 따로 있었으니까요. 일본은 땅에서 캐는 곳부터 새로 찾아야 합니다.</p><p>일본 상사 소지쓰조차 2026년 10월 30일, 말레이시아 공장을 넓혀서 2027년 하반기 이후에야 공급 전망이 선다고 했습니다. 당장 손쓸 길은 없다는 뜻입니다.</p><p>갈린 건 기술이 아니었습니다. 막힌 것이 기술이냐, 땅이냐였습니다. 한국은 여분의 충전기를 새로 들여오면 됐습니다. 일본엔 여분의 충전기를 꽂을 콘센트 자체가 없었습니다.</p><p>집 앞 슈퍼가 문을 닫으면 어떻게 하세요? 옆 동네 마트에 가면 됩니다. 그런데 쌀이 이 세상에 딱 한 동네에서만 난다면요? 그 동네가 문을 걸어 잠그는 순간, 어느 마트에 가도 쌀은 없습니다. 지금 일본이 그 상황입니다.</p><p>그래서 일본 정부가 한 일이 있습니다. 2026년 10월, 일본 정부는 결국 미국에 급히 요청을 넣습니다.</p><p>2026년 10월 20일, 영국 경제지 FT의 보도가 나옵니다. 일본 정부가 이트륨 재고가 몇 달 안에 바닥날 수 있다며, 미국 정부와 기업에 중국을 설득해 달라고 급히 요청했다는 내용이었습니다. 일본 관리는 수년이 아니라 수개월 단위라고 말했습니다. 일본 정부 안에서조차 몇 달이면 바닥난다는 경고가 나온 겁니다. 그보다 앞선 2026년 9월에도, 미국과 일본의 정부와 기업 관계자들이 중국산 이트륨 병목을 따로 논의했다는 로이터 보도가 있었습니다.</p><p>중국의 답은 바로 다음 날 나왔습니다. 10월 21일 중국 외교부 마오닝 대변인은 법과 규정에 따라 일본에 통제를 시행한다고 했습니다. 풀어 줄 뜻이 없다는 얘기죠.</p><p>숫자도 그 말과 맞아떨어집니다. 2026년 9월 중국이 내보낸 산화이트륨은 110톤이었습니다. 그중 일본행은 4톤뿐이었습니다. 다른 나라에는 보내면서 일본만 골라 조이고 있다는 뜻입니다.</p><p>그런데 이 이야기에는 반대편 말도 있습니다. 10월 23일 아카자와 경제산업상은 기자회견에서, 수개월 안에 일본 전체가 부족해지는 사실관계는 없다고 말했습니다. 실제로 이트륨 때문에 일본 공장이 멈췄다는 보도도 2026년 11월 초까지는 없습니다.</p><p>멈출 수 있다는 경고와, 아니라는 정부. 그게 지금 일본입니다. 다만 중국이 통제를 풀었다는 소식도 아직 없습니다.</p><p>같은 해, 한국 쪽 숫자는 반대로 움직였습니다. 2026년 1분기 한국 수출은 2,199억 달러였습니다. 1분기 기준으로 사상 처음 일본을 앞질렀고, 세계 5위에 올랐습니다. 앞에서 끈 건 반도체였습니다. 1분기 반도체 수출만 785억 달러, 1년 전의 두 배가 넘습니다.</p><p>이건 산업부 집계만이 아닙니다. 세계무역기구 집계로도 1분기 한국은 2,206억 달러, 일본은 1,895억 달러였습니다. 우리가 떠들면 자랑이지만, 세계무역기구 통계에 찍히면 그건 기록입니다.</p><p>격차는 그 뒤로 더 벌어졌습니다. 2026년 1월부터 8월까지 누적으로 보면 한국이 일본보다 1,700억 달러 넘게 더 팔았습니다. 이대로면 2026년은 연간으로도 일본을 앞서는 첫해가 됩니다. 아직 확정은 아닙니다. 12월까지 집계가 끝나야 합니다.</p><p>한 가지 숫자를 더 보시죠. 1973년 한국 수출의 38.5%가 일본으로 갔습니다. 2026년 4월엔 그 비중이 3.4%입니다. 수출 30달러 중 1달러만 일본으로 가는 거예요. 일본에 기대던 수출이, 일본 없이도 세계 5위를 하는 수출이 된 겁니다.</p><p>7년 전 일본 맥주를 내려놓으셨던 분들, 그때 이런 장면을 상상하셨나요? 일본 정부가 중국을 설득해 달라며 미국을 찾고, 한국 수출이 일본을 앞지르는 장면이요.</p><p>여기서 끝내면 반쪽입니다. 좋은 말로만 마무리하면 그건 정직하지 않은 겁니다.</p><p>반도체 공장에서 교대 근무하시는 분, 자동차 부품 납품하시는 분, 수출 기업 다니시는 분, 그리고 2019년 불매에 동참하셨던 분. 앞에서 본 숫자들은 사실상 여러분이 7년 동안 직접 만들어 온 결과입니다.</p><p>그래서 더 냉정하게 봐야 합니다. 처음에 던진 질문을 다시 꺼내 보겠습니다. 같은 방식인데, 왜 한국은 버텼고 일본은 흔들릴까요?</p><p>답의 절반은 앞에서 드렸습니다. 막힌 게 땅이 아니라 기술이었다는 것. 나머지 절반은 덜 듣기 좋은 이야기입니다. 한국이 버틴 데에는 중국이라는 두 번째 공급처가 있었습니다. 앞서 본 불화수소 중국산 비중 80%가 그 증거입니다.</p><p>그리고 한국이 아직 못 넘은 벽이 셋 있습니다.</p><p>첫째, 일본산 불화수소가 돌아왔습니다. 2023년 규제가 풀리자 일본산 불화수소 수입액이 1년 전보다 165% 늘었습니다. 한 자릿수까지 내려갔던 일본산 비중도 2023년엔 다시 20%를 넘겼습니다.</p><p>둘째, 가장 까다로운 EUV 감광액은 여전히 대부분 일본산입니다. EUV 감광액은 가장 미세한 최신 회로를 찍을 때 쓰는 감광액이에요. 반도체 경쟁이 제일 치열한 자리에서 아직 일본에 기대고 있다는 얘기죠.</p><p>셋째, 반도체 장비 국산화율은 2024년 보도 기준 약 20%에 머물렀습니다. 장비 다섯 대 중 네 대는 아직 바깥에서 들여온다는 뜻입니다.</p><p>이 벽은 돈으로도 보입니다. 2025년 한국의 대일 무역적자는 206억 달러였습니다. 일본에서 사 오는 것의 약 3분의 1이 반도체와 반도체 장비입니다.</p><p>일본 회사가 아예 한국 안에 공장을 짓기도 합니다. 일본 감광액 회사 도쿄오카공업은 2026년 9월 경기도 평택에 1,010억 원짜리 공장을 준공했습니다. 메이드 인 코리아지만, 기술은 여전히 일본인 겁니다. 반대로 램테크놀러지가 충남 당진에 새로 지으려던 불화수소 공장은 주민 반대에 막혀 무산됐습니다.</p><p>그리고 하나가 더 있습니다. 한국도 희토류는 중국에 기대고 있습니다. 한국무역협회 기준 2024년 한국의 중국산 희토류 수입 의존도는 47.5%였습니다. 원료는 절반쯤 중국에서 들여오는 셈입니다. 그런데 완성된 자석을 사 올 때는, 몇 년 전 무역협회 조사 기준으로 열에 아홉이 중국산이었습니다. 한국이 꽂아 둔 여분의 충전기, 그 상당수가 중국산인 겁니다.</p><p>정부도 이걸 압니다. 2025년 4월 중국이 희토류 7종을 허가제로 묶자, 정부는 비축분이 6개월치라며 목표를 18개월로 늘리겠다고 했습니다. 2024년부터는 새만금에 핵심광물 전용 비축기지를 짓는 사업을 시작했습니다. 다행히 한국 기업 수출 허가는 아직 나오고 있습니다. 아직은요. 중국이 일본에 쓴 방식은 다른 나라에도 언제든 쓸 수 있는 방식입니다.</p><p>뉴스에서 희토류라는 말 들으시면 남의 나라 얘기 같으셨죠? 주머니 속 휴대폰이 부르르 떠는 진동, 스피커 소리, 전기차 바퀴를 돌리는 모터까지 전부 희토류 자석이 들어갑니다. 여러분 손에 이미 들려 있는 물건입니다.</p><p>그럼 우리는 무엇을 보고 있으면 될까요.</p><p>2019년 일본은 정제 기술을 쥐고 한국을 막았고, 한국은 그 사이 대신 사 올 곳을 만들었고, 그 결과 2026년 같은 수법 앞에서 땅까지 쥔 중국에 막힌 일본이 미국에 도움을 청하는 동안, 그 시절을 버텨 낸 한국 반도체는 수출에서 일본을 앞질렀습니다. 두세 달치 재고를 세던 나라와, 이트륨 0톤을 받아 든 나라. 7년 사이 두 나라가 서 있는 자리가 이렇게 바뀌었습니다.</p><p>다음에 공급망이나 원자재 뉴스를 보시면, 어느 나라에서 몇 퍼센트를 사 오는지부터 보세요. 한 나라가 절반을 넘으면, 그게 다음 급소입니다. 2018년 일본산 감광액 93.2%가 그 숫자였습니다. 2026년 일본의 중희토류 거의 100%도 그 숫자입니다. 그리고 몇 년 전 조사에서 열에 아홉이 중국산이던 한국의 희토류 자석도요.</p><p>제가 보기엔 이번 승부를 가른 건 기술도 돈도 아니었습니다. 막히기 전에 여분의 충전기를 꽂아 둔 쪽이 이겼습니다.</p><p>여러분은 다음 차례가 한국이 될 거라고 보세요? 아니면 7년 전 한 번 막혀 본 경험 덕분에, 이번엔 미리 버틸 거라고 보세요? 반도체 현장에 계신 분, 부품 납품하시는 분, 뉴스로만 지켜보신 분, 어느 자리에서 보셨는지도 같이 적어 주세요. 그 한 줄들이 모이면, 다음 7년을 먼저 읽는 자료가 됩니다.</p><p>오늘 이야기는 어떠셨나요?</p><p>결과에는 언제나 이유가 있습니다.</p><p>알고 나면, 세상이 다르게 보입니다.</p><p>세상의 이유였습니다.</p></div>
+  <pre id="script-src" hidden>2026년, 중국이 일본으로 가는 희토류를 묶었습니다. 그해 8월, 중국에서 일본으로 간 희토류 이트륨은 0톤이었습니다. 다급해진 일본은 미국에 도움을 청했습니다. 그런데 7년 전에는 일본이 막는 쪽이었습니다. 2019년 7월, 일본은 한국으로 가는 반도체 핵심 소재의 수출을 묶었습니다. 그때 한국 반도체 공장에 남은 재고는 두세 달치뿐이었습니다.
+
+두 번 다 방식은 같습니다. 꼭 필요한 소재 하나를 틀어막는 방식이죠. 그런데 결과는 반대로 가고 있습니다. 2019년 일본 불화수소 회사는 규제 석 달 만에 영업이익이 88% 줄었고, 한국은 2026년 1분기 처음 수출에서 일본을 앞섰습니다. 일본 기술이 모자라서 생긴 일도 아닙니다. 같은 방식인데, 왜 한국은 버텼고 일본은 흔들릴까요?
+
+그 차이, 2026년 1월 베이징에서 나온 공고 한 장부터 따라가 보시죠.
+
+먼저 이트륨부터 풀고 가겠습니다. 이트륨은 제트엔진과 반도체 장비를 뜨거운 열에서 지켜 주는 코팅에 들어가는 희토류예요. 희토류는 모터와 자석, 첨단 장비에 소금처럼 조금씩, 그런데 꼭 들어가는 금속을 말하고요.
+
+그 이트륨이 끊긴 출발점은 2026년 1월 6일 베이징이었습니다. 중국 상무부가 2026년 제1호 공고를 냅니다. 일본의 군사 용도에 쓰일 수 있는 이중용도 물자를 일본에 팔지 않겠다는 내용이었습니다. 이중용도 물자는 민간에도 군사에도 쓸 수 있는 물건을 말해요. 여기에 한 줄이 더 붙었습니다. 다른 나라를 거쳐 일본에 넘겨줘도 처벌하겠다는 겁니다.
+
+계기는 두 달 전 도쿄에서 나온 말 한마디였습니다. 2025년 11월 7일, 다카이치 총리가 국회에서 대만 유사시를 일본의 존립위기사태로 볼 수 있다고 답했습니다. 중국은 이 공고가 그 발언에 대한 대응이라고 숨기지 않았습니다.
+
+그다음부터 숫자가 움직였습니다. 일본이 쓰는 디스프로슘과 테르븀은 거의 전부 중국에서 옵니다. 둘 다 희토류 중에서도 더 귀한 중희토류예요. 그 중희토류의 대일 수출이 2026년 상반기 내내 0이었습니다. 반년 동안 한 번도 안 들어왔다는 얘기죠. 그사이 중국이 수출통제 대상으로 찍은 일본 기업과 기관은 2026년 6월까지 40곳으로 늘었습니다.
+
+여기서 이상한 점이 있습니다. 공고에 적힌 명분은 분명 군사용이었거든요. 중국 상무부 대변인도 민간 무역은 영향받지 않는다고 했습니다. 그런데 말라붙은 건 민간 물량이었습니다.
+
+중국이 일본에 보낸 산화이트륨은 2026년 1월부터 5월까지 1년 전보다 97.7% 줄었습니다. 백 포대가 오던 창고 앞에 두 포대 남짓만 도착한 거예요. 그리고 2026년 8월, 그 숫자는 0톤이 됩니다.
+
+일본 대기업 중국법인의 한 간부는 이대로면 공장이 멈출 수 있다고 경고했습니다. 멈췄다는 말이 아닙니다. 멈출 수 있다는 경고입니다. 그런데 이 장면, 어디서 많이 보지 않으셨나요?
+
+지금 일본이 서 있는 그 자리, 7년 전 주인공은 한국이었습니다. 한 나라가 핵심 소재 하나를 틀어쥐고, 다른 나라 공장들이 남은 재고를 세던 장면이요.
+
+결론부터 말씀드리겠습니다. 갈린 건 소재가 아니었습니다. 막혔을 때 대신 사 올 곳을 만들 수 있었느냐였습니다. 2019년 불화수소는 원료가 애초에 일본 밖에 있었고, 일본이 쥔 건 정제 기술이었습니다. 2026년 희토류는 캐는 것부터 정제까지 대부분 중국 손에 있습니다. 중희토류는 거의 전부고요. 이 차이가 왜 결정적인지는 뒤에서 따로 보여드리겠습니다.
+
+2019년 여름 기억나세요? 편의점 맥주 진열대에서 일본 맥주가 사라지던 때요. 그때 마트에서는 불매가 화제였지만, 반도체 공장 안에서는 전혀 다른 숫자를 세고 있었습니다.
+
+7년 전 한국이 어땠는지부터 보셔야 이 장면이 왜 무서운지 보입니다.
+
+2019년 7월 1일, 일본 경제산업성이 발표를 하나 냅니다. 7월 4일부터 반도체 소재 3품목은 한 건씩 따로 허가를 받으라는 내용이었습니다. 고순도 불화수소, 포토레지스트, 플루오린 폴리이미드였습니다. 포토레지스트는 감광액이라고도 부르는데, 반도체 회로 모양을 찍어내는 사진 필름 같은 약품이에요. 계기는 2018년 10월 한국 대법원의 강제징용 배상 판결이었습니다.
+
+이 3품목이 왜 아팠냐면요. 2018년 한국이 들여온 포토레지스트의 93.2%가 일본산이었습니다. 열 병 중 아홉 병 넘게 일본에서 온 거예요. 불화수소도 41.9%가 일본산이었습니다.
+
+그런데 허가 심사는 최대 90일이 걸렸습니다. 서류가 모자라다는 이유로 90일이 지나도 허가가 안 난 경우까지 나왔습니다. 업계에서는 손에 쥔 재고가 두세 달치뿐이라는 말이 돌았습니다.
+
+일본은 한 걸음 더 나갑니다. 2019년 8월 28일, 한국을 화이트리스트에서 뺐습니다. 화이트리스트는 수출 절차를 간소하게 해 주는 믿을 만한 나라 명단이에요. 그 명단에서 빠지면 서류부터 다시 쌓아야 합니다.
+
+얼마나 막혔냐면요. 2019년 8월, 일본의 대한국 불화수소 수출은 물량도 금액도 0이었습니다. 비교할 수 있는 통계가 있는 1988년 이후 처음이었습니다. 2019년 9월 한 달 동안 일본이 한국에 보낸 불화수소는 고작 100킬로그램이었습니다. 1년 전 같은 달엔 3,000톤이 넘었습니다. 트럭 백 대가 줄지어 오던 길에 장바구니 하나가 도착한 거예요.
+
+여기까지만 보면 한국이 벼랑 끝에 선 이야기입니다. 그런데 먼저 비명을 지른 건 일본 회사들이었습니다.
+
+앞에서 영업이익이 88% 줄었다고 말씀드린 회사, 이름은 스텔라케미파입니다. 세계 고순도 불화수소 시장의 약 70%를 쥔 일본 회사입니다. 세계 1등이 큰 손님 한 곳을 잃자 장부가 먼저 무너진 겁니다.
+
+모리타화학은 더 심했습니다. 불화수소 수출의 90% 이상이 한국행이던 회사입니다. 규제 첫해 이 회사 순이익은 90% 줄었습니다.
+
+그리고 2019년 11월, 일본은 액체 불화수소 수출까지 허가해 줍니다. 규제 넉 달 반 만이었습니다. 자국 소재 기업들 매출이 급감한 걸 고려한 허가라는 평가가 나왔습니다. 막은 쪽이 먼저 문을 다시 연 거죠.
+
+문은 다시 열렸지만, 한번 떠난 물량은 쉽게 돌아오지 않았습니다. 모리타화학 관계자는 2024년 일본 언론에 대한국 수출이 이전 수준을 회복하지 못할 거라고 말했습니다. 미국 같은 다른 판로를 넓히고 싶다는 말도 덧붙였습니다. 일본 회사들 이야기는 여기까지만 하겠습니다.
+
+여러분이 동네 단골 가게 주인이라고 해 보세요. 매일 오던 손님을 홧김에 내쫓았습니다. 그런데 그 손님이 길 건너 다른 가게를 찾아냈어요. 석 달 뒤 문을 다시 열어 둔다고 그 손님이 예전처럼 매일 올까요? 안 옵니다. 길 건너 가게에도 벌써 정이 들었거든요.
+
+그럼 한국은 그 두세 달을 어떻게 넘겼을까요? 여기에 일본이 지금 놓친 답이 있습니다.
+
+한국이 한 일은 한 줄씩 짚어 보면 선명합니다.
+
+2019년 9월, 솔브레인이 고순도 불화수소 국산화에 성공합니다. 같은 9월 초, 삼성전자는 일부 공정에 국산 불화수소를 넣기 시작합니다. 2019년 10월부터는 램테크놀러지 제품이 SK하이닉스 일부 라인에 들어갑니다. 그리고 이듬해인 2020년, LG디스플레이는 불화수소를 전량 국산으로 바꿉니다.
+
+불화수소가 뭔지 잠깐 풀고 가죠. 반도체 회로를 깎아내고 씻어내는 액체예요. 그릇은 그대로 두고 눌어붙은 때만 골라 녹이는 약품 같은 겁니다. 순도가 조금만 떨어져도 회로가 망가지거든요. 그래서 한국 공장들이 일본산을 쉽게 못 바꿨던 겁니다.
+
+그 벽을 한국 회사가 넘었습니다. 2020년 1월 보도 기준으로, 솔브레인은 9가 열두 개 이어지는 순도의 초고순도 불화수소를 양산하고 있었습니다. 불순물을 1조분의 1 수준까지 걸러 냈다는 뜻이에요. 국내 수요의 70~80%를 맡을 수 있다는 평가도 나왔습니다.
+
+결과는 숫자로 나왔습니다. 41.9%였던 일본산 불화수소 비중이 2022년엔 7.7%까지 떨어집니다. 열 통 중 네 통이 일본산이던 게, 열세 통 중 한 통 꼴로 줄어든 거예요. 다만 이건 2022년 숫자입니다. 규제가 풀린 2023년부터 일본산은 다시 늘어나는데, 그 얘기는 뒤에서 하겠습니다.
+
+다만 여기에는 그늘도 있습니다. 7.7%의 뒤편을 같이 봐야 합니다. 같은 기간 중국산 비중은 52.0%에서 80.1%로 올랐습니다. 한국은 일본을 끊은 게 아닙니다. 일본 대신 쓸 곳을 늘린 겁니다. 전부 국산으로 바꾼 것도 아닙니다. 이 대목은 꼭 기억해 두세요. 뒤에서 다시 꺼내겠습니다.
+
+국산화 이야기에는 과장도 따라붙었습니다. 솔브레인과 동진쎄미켐이 둘 다 매출 1조 원을 넘겼다는 말, 들어 보셨을 거예요. 그건 사실이 아닙니다. 1조 원을 넘긴 건 동진쎄미켐 한 곳입니다. 동진쎄미켐의 2025년 매출은 1조 1,941억 원이었습니다. 솔브레인의 2025년 매출은 9,234억 원이었습니다.
+
+하지만 그렇다고 이 숫자가 가벼워지는 건 아니에요. 7년 전만 해도 이름이 낯설던 회사들입니다. 동진쎄미켐은 1조 원 회사가 됐고, 솔브레인도 9천억 원대 회사가 됐습니다.
+
+판이 커진 건 두 회사만이 아닙니다. 소부장, 그러니까 소재, 부품, 장비 쪽에서 2019년엔 시가총액 1조 원이 넘는 기업이 13곳이었습니다. 2021년엔 그게 31곳이 됐습니다. 정부가 꼽은 100대 핵심품목의 일본 의존도도 2019년 31.4%에서 2021년 24.9%로 내려왔습니다. 삼성전자도 일본에 기대던 소재와 부품 220여 개의 조달처를 바꿨습니다.
+
+휴대폰 하나에 충전기 하나만 쓰시나요? 대부분 아니실 거예요. 침대 옆에 하나, 차에 하나, 회사 책상에 하나 두시죠. 하나가 고장 나도 휴대폰이 꺼지지 않게요. 2019년 이후 한국이 7년 동안 만든 게 바로 그 여분의 충전기였습니다. 새 충전기가 꼭 국산일 필요는 없었습니다. 꽂을 데가 하나 더 있으면 됐습니다.
+
+여기까지는 다른 경제 채널들도 많이 다룬 이야기입니다. 진짜 이야기는 지금부터입니다. 똑같은 일을 당한 일본은 왜 이 길을 못 만들었을까요?
+
+2019년 불화수소로 잠깐 돌아가 보겠습니다. 불화수소의 원료는 형석이라는 광물입니다. 그 형석은 원래 중국에서 나왔습니다. 앞서 본 것처럼 한국의 불화수소 수입처 1등도 그때 이미 중국이었고요.
+
+일본이 쥐고 있던 건 땅이 아니라 정제 기술이었습니다. 형석에서 불순물을 걸러 내 반도체에 쓸 만큼 깨끗하게 만드는 솜씨요. 그러니까 한국은 그 솜씨만 따라잡으면 됐던 겁니다.
+
+희토류는 다릅니다. 땅에서 캐는 것부터 정제하는 것까지 대부분 중국이 쥐고 있습니다. 일본도 이걸 모르지 않았습니다.
+
+2010년 9월, 센카쿠 열도 근처에서 중국 어선이 일본 해상보안청 순시선과 부딪혔습니다. 일본이 그 선장을 붙잡았고, 그 뒤 약 두 달 동안 중국의 대일 희토류 수출이 사실상 끊겼습니다. 중국은 공식적으로 막은 적이 없다고 부인했습니다.
+
+한 번 당한 일본은 움직였습니다. 2011년 일본 정부 기관과 상사 소지쓰가 호주 희토류 회사 라이너스에 2억 5,000만 달러를 넣었습니다. 그렇게 90%가 넘던 중국 의존도를 60~70%까지 낮췄습니다. 그래도 아직 절반이 넘습니다.
+
+그런데 여기서 문제가 있습니다. 2010년 이후 그렇게 애썼는데도 중희토류만큼은 지금도 거의 100% 중국산입니다. 앞서 본 디스프로슘과 테르븀이요. 일본이 가장 바꾸기 어려운 자리는 하나도 못 바꾼 겁니다.
+
+그 빈자리는 값으로 드러납니다. 중국 밖에서 산화이트륨 값은 킬로그램당 약 1,150달러까지 올랐습니다. 중국 안에서는 9달러 안팎입니다. 같은 물건이 국경 하나 건넜다고 백 배 넘게 비싸진 거예요. 만 원짜리 짜장면 한 그릇이 국경을 넘자 백만 원이 넘어간 꼴이죠.
+
+피해를 계산한 곳도 있습니다. 일본 다이와총연은 중국산 희토류 수입이 막힌 채 1년이 이어지면 일본 GDP가 1.3% 날아간다는 계산을 내놨습니다. 돈으로 약 7조 엔입니다. 아직 일어난 일이 아니라 시나리오입니다. 그래도 일본 연구소가 자기 나라를 두고 이런 숫자를 냈다는 것 자체가 무게를 말해 줍니다.
+
+이제 7년 전 한국과 지금 일본을 다시 겹쳐 보죠. 한국은 정제 기술을 배우면 됐습니다. 원료를 파는 곳은 이미 따로 있었으니까요. 일본은 땅에서 캐는 곳부터 새로 찾아야 합니다.
+
+일본 상사 소지쓰조차 2026년 10월 30일, 말레이시아 공장을 넓혀서 2027년 하반기 이후에야 공급 전망이 선다고 했습니다. 당장 손쓸 길은 없다는 뜻입니다.
+
+갈린 건 기술이 아니었습니다. 막힌 것이 기술이냐, 땅이냐였습니다. 한국은 여분의 충전기를 새로 들여오면 됐습니다. 일본엔 여분의 충전기를 꽂을 콘센트 자체가 없었습니다.
+
+집 앞 슈퍼가 문을 닫으면 어떻게 하세요? 옆 동네 마트에 가면 됩니다. 그런데 쌀이 이 세상에 딱 한 동네에서만 난다면요? 그 동네가 문을 걸어 잠그는 순간, 어느 마트에 가도 쌀은 없습니다. 지금 일본이 그 상황입니다.
+
+그래서 일본 정부가 한 일이 있습니다. 2026년 10월, 일본 정부는 결국 미국에 급히 요청을 넣습니다.
+
+2026년 10월 20일, 영국 경제지 FT의 보도가 나옵니다. 일본 정부가 이트륨 재고가 몇 달 안에 바닥날 수 있다며, 미국 정부와 기업에 중국을 설득해 달라고 급히 요청했다는 내용이었습니다. 일본 관리는 수년이 아니라 수개월 단위라고 말했습니다. 일본 정부 안에서조차 몇 달이면 바닥난다는 경고가 나온 겁니다. 그보다 앞선 2026년 9월에도, 미국과 일본의 정부와 기업 관계자들이 중국산 이트륨 병목을 따로 논의했다는 로이터 보도가 있었습니다.
+
+중국의 답은 바로 다음 날 나왔습니다. 10월 21일 중국 외교부 마오닝 대변인은 법과 규정에 따라 일본에 통제를 시행한다고 했습니다. 풀어 줄 뜻이 없다는 얘기죠.
+
+숫자도 그 말과 맞아떨어집니다. 2026년 9월 중국이 내보낸 산화이트륨은 110톤이었습니다. 그중 일본행은 4톤뿐이었습니다. 다른 나라에는 보내면서 일본만 골라 조이고 있다는 뜻입니다.
+
+그런데 이 이야기에는 반대편 말도 있습니다. 10월 23일 아카자와 경제산업상은 기자회견에서, 수개월 안에 일본 전체가 부족해지는 사실관계는 없다고 말했습니다. 실제로 이트륨 때문에 일본 공장이 멈췄다는 보도도 2026년 11월 초까지는 없습니다.
+
+멈출 수 있다는 경고와, 아니라는 정부. 그게 지금 일본입니다. 다만 중국이 통제를 풀었다는 소식도 아직 없습니다.
+
+같은 해, 한국 쪽 숫자는 반대로 움직였습니다. 2026년 1분기 한국 수출은 2,199억 달러였습니다. 1분기 기준으로 사상 처음 일본을 앞질렀고, 세계 5위에 올랐습니다. 앞에서 끈 건 반도체였습니다. 1분기 반도체 수출만 785억 달러, 1년 전의 두 배가 넘습니다.
+
+이건 산업부 집계만이 아닙니다. 세계무역기구 집계로도 1분기 한국은 2,206억 달러, 일본은 1,895억 달러였습니다. 우리가 떠들면 자랑이지만, 세계무역기구 통계에 찍히면 그건 기록입니다.
+
+격차는 그 뒤로 더 벌어졌습니다. 2026년 1월부터 8월까지 누적으로 보면 한국이 일본보다 1,700억 달러 넘게 더 팔았습니다. 이대로면 2026년은 연간으로도 일본을 앞서는 첫해가 됩니다. 아직 확정은 아닙니다. 12월까지 집계가 끝나야 합니다.
+
+한 가지 숫자를 더 보시죠. 1973년 한국 수출의 38.5%가 일본으로 갔습니다. 2026년 4월엔 그 비중이 3.4%입니다. 수출 30달러 중 1달러만 일본으로 가는 거예요. 일본에 기대던 수출이, 일본 없이도 세계 5위를 하는 수출이 된 겁니다.
+
+7년 전 일본 맥주를 내려놓으셨던 분들, 그때 이런 장면을 상상하셨나요? 일본 정부가 중국을 설득해 달라며 미국을 찾고, 한국 수출이 일본을 앞지르는 장면이요.
+
+여기서 끝내면 반쪽입니다. 좋은 말로만 마무리하면 그건 정직하지 않은 겁니다.
+
+반도체 공장에서 교대 근무하시는 분, 자동차 부품 납품하시는 분, 수출 기업 다니시는 분, 그리고 2019년 불매에 동참하셨던 분. 앞에서 본 숫자들은 사실상 여러분이 7년 동안 직접 만들어 온 결과입니다.
+
+그래서 더 냉정하게 봐야 합니다. 처음에 던진 질문을 다시 꺼내 보겠습니다. 같은 방식인데, 왜 한국은 버텼고 일본은 흔들릴까요?
+
+답의 절반은 앞에서 드렸습니다. 막힌 게 땅이 아니라 기술이었다는 것. 나머지 절반은 덜 듣기 좋은 이야기입니다. 한국이 버틴 데에는 중국이라는 두 번째 공급처가 있었습니다. 앞서 본 불화수소 중국산 비중 80%가 그 증거입니다.
+
+그리고 한국이 아직 못 넘은 벽이 셋 있습니다.
+
+첫째, 일본산 불화수소가 돌아왔습니다. 2023년 규제가 풀리자 일본산 불화수소 수입액이 1년 전보다 165% 늘었습니다. 한 자릿수까지 내려갔던 일본산 비중도 2023년엔 다시 20%를 넘겼습니다.
+
+둘째, 가장 까다로운 EUV 감광액은 여전히 대부분 일본산입니다. EUV 감광액은 가장 미세한 최신 회로를 찍을 때 쓰는 감광액이에요. 반도체 경쟁이 제일 치열한 자리에서 아직 일본에 기대고 있다는 얘기죠.
+
+셋째, 반도체 장비 국산화율은 2024년 보도 기준 약 20%에 머물렀습니다. 장비 다섯 대 중 네 대는 아직 바깥에서 들여온다는 뜻입니다.
+
+이 벽은 돈으로도 보입니다. 2025년 한국의 대일 무역적자는 206억 달러였습니다. 일본에서 사 오는 것의 약 3분의 1이 반도체와 반도체 장비입니다.
+
+일본 회사가 아예 한국 안에 공장을 짓기도 합니다. 일본 감광액 회사 도쿄오카공업은 2026년 9월 경기도 평택에 1,010억 원짜리 공장을 준공했습니다. 메이드 인 코리아지만, 기술은 여전히 일본인 겁니다. 반대로 램테크놀러지가 충남 당진에 새로 지으려던 불화수소 공장은 주민 반대에 막혀 무산됐습니다.
+
+그리고 하나가 더 있습니다. 한국도 희토류는 중국에 기대고 있습니다. 한국무역협회 기준 2024년 한국의 중국산 희토류 수입 의존도는 47.5%였습니다. 원료는 절반쯤 중국에서 들여오는 셈입니다. 그런데 완성된 자석을 사 올 때는, 몇 년 전 무역협회 조사 기준으로 열에 아홉이 중국산이었습니다. 한국이 꽂아 둔 여분의 충전기, 그 상당수가 중국산인 겁니다.
+
+정부도 이걸 압니다. 2025년 4월 중국이 희토류 7종을 허가제로 묶자, 정부는 비축분이 6개월치라며 목표를 18개월로 늘리겠다고 했습니다. 2024년부터는 새만금에 핵심광물 전용 비축기지를 짓는 사업을 시작했습니다. 다행히 한국 기업 수출 허가는 아직 나오고 있습니다. 아직은요. 중국이 일본에 쓴 방식은 다른 나라에도 언제든 쓸 수 있는 방식입니다.
+
+뉴스에서 희토류라는 말 들으시면 남의 나라 얘기 같으셨죠? 주머니 속 휴대폰이 부르르 떠는 진동, 스피커 소리, 전기차 바퀴를 돌리는 모터까지 전부 희토류 자석이 들어갑니다. 여러분 손에 이미 들려 있는 물건입니다.
+
+그럼 우리는 무엇을 보고 있으면 될까요.
+
+2019년 일본은 정제 기술을 쥐고 한국을 막았고, 한국은 그 사이 대신 사 올 곳을 만들었고, 그 결과 2026년 같은 수법 앞에서 땅까지 쥔 중국에 막힌 일본이 미국에 도움을 청하는 동안, 그 시절을 버텨 낸 한국 반도체는 수출에서 일본을 앞질렀습니다. 두세 달치 재고를 세던 나라와, 이트륨 0톤을 받아 든 나라. 7년 사이 두 나라가 서 있는 자리가 이렇게 바뀌었습니다.
+
+다음에 공급망이나 원자재 뉴스를 보시면, 어느 나라에서 몇 퍼센트를 사 오는지부터 보세요. 한 나라가 절반을 넘으면, 그게 다음 급소입니다. 2018년 일본산 감광액 93.2%가 그 숫자였습니다. 2026년 일본의 중희토류 거의 100%도 그 숫자입니다. 그리고 몇 년 전 조사에서 열에 아홉이 중국산이던 한국의 희토류 자석도요.
+
+제가 보기엔 이번 승부를 가른 건 기술도 돈도 아니었습니다. 막히기 전에 여분의 충전기를 꽂아 둔 쪽이 이겼습니다.
+
+여러분은 다음 차례가 한국이 될 거라고 보세요? 아니면 7년 전 한 번 막혀 본 경험 덕분에, 이번엔 미리 버틸 거라고 보세요? 반도체 현장에 계신 분, 부품 납품하시는 분, 뉴스로만 지켜보신 분, 어느 자리에서 보셨는지도 같이 적어 주세요. 그 한 줄들이 모이면, 다음 7년을 먼저 읽는 자료가 됩니다.
+
+오늘 이야기는 어떠셨나요?
+
+결과에는 언제나 이유가 있습니다.
+
+알고 나면, 세상이 다르게 보입니다.
+
+세상의 이유였습니다.</pre>
+</section>
+
+<section id="s2" hidden>
+  <h2>썸네일 · 제목</h2>
+  <div class="group"><h3>제목 후보</h3><ul class="plain"><li><div class="row"><span class="pill">추천</span><span>43자</span></div><div class="blk"><button class="cp" type="button" data-t="c1">복사</button><pre class="txt" id="c1">&quot;이번엔 일본이 막혔다&quot; 한국을 막았던 일본이 7년 뒤 똑같이 당한 진짜 이유</pre></div><p class="note">상대의 곤경을 앞세우고 우리 쪽 성취는 영상 안에 숨겨, 자랑으로 보이지 않으면서 「왜 결과가 반대인가」가 궁금해집니다</p></li><li><div class="row"><span>46자</span></div><div class="blk"><button class="cp" type="button" data-t="c2">복사</button><pre class="txt" id="c2">&quot;몇 달이면 바닥난다&quot; 한국을 막았던 일본이 7년 뒤 미국에 도움을 청한 진짜 이유</pre></div><p class="note">2026년 10월 이트륨 위기 뉴스가 화제일 때 — 시사성을 더 앞세우고 싶은 경우</p></li><li><div class="row"><span>45자</span></div><div class="blk"><button class="cp" type="button" data-t="c3">복사</button><pre class="txt" id="c3">&quot;재고는 두세 달치뿐&quot; 일본에 목 잡혔던 한국이 7년 뒤 일본 수출을 넘어선 이유</pre></div><p class="note">한국 수출의 일본 추월(연간 집계)이 확정 보도될 때 — 결말을 앞세우고 싶은 경우</p></li></ul></div>
+  <div class="group"><h3>썸네일 문구 · 1행 노랑, 2행 하늘색</h3><ul class="plain"><li><div class="row"><span class="pill">추천</span></div><div class="thumbtxt"><span class="tl l1">&quot;7년 전엔 우리였다&quot;</span><span class="tl l2">세계가 숨죽인 일본의 이트륨 0톤</span></div><div class="blk"><button class="cp" type="button" data-t="c4">두 줄 복사</button><pre class="txt" id="c4">&quot;7년 전엔 우리였다&quot;
+세계가 숨죽인 일본의 이트륨 0톤</pre></div></li><li><div class="thumbtxt"><span class="tl l1">&quot;막는 쪽이 먼저 다쳤다&quot;</span><span class="tl l2">일본이 7년 전 한국에 쓴 그 수법</span></div><div class="blk"><button class="cp" type="button" data-t="c5">두 줄 복사</button><pre class="txt" id="c5">&quot;막는 쪽이 먼저 다쳤다&quot;
+일본이 7년 전 한국에 쓴 그 수법</pre></div></li><li><div class="thumbtxt"><span class="tl l1">&quot;이번엔 일본 차례&quot;</span><span class="tl l2">중국이 일본만 골라 조인 희토류</span></div><div class="blk"><button class="cp" type="button" data-t="c6">두 줄 복사</button><pre class="txt" id="c6">&quot;이번엔 일본 차례&quot;
+중국이 일본만 골라 조인 희토류</pre></div></li></ul></div>
+  <div class="group prompts"><h3>이미지 프롬프트 · 이미지 생성 도구에 하나씩 붙여넣으세요</h3><ul class="plain"><li><h4><span class="num">1</span><span>좌우 거울: 2019년 한국 공장(불화수소 드럼) vs 2026년 일본 공장(빈 이트륨 포대) ← 추천 (훅 장면)</span></h4><div class="blk"><button class="cp" type="button" data-t="c7">프롬프트 복사</button><pre class="txt" id="c7">Photorealistic split-screen image divided vertically by a thin glowing mirror line, bright vibrant colors with high-key lighting. On the left, a Korean semiconductor cleanroom worker in a white bunny suit counts the last few blue chemical drums labeled as hydrogen fluoride with a worried face, sky-blue accent light. On the right, a Japanese factory worker in a gray uniform holds up a completely empty white sack of yttrium oxide powder in an empty warehouse, extreme shocked exaggerated expression, red warning accent light. Both figures fill the upper half of the frame, mirrored poses, gold rim light separating them from the clean light background.</pre></div></li><li><h4><span class="num">2</span><span>거울 속 2019년 한국 공장을 보는 일본 공장 관리자</span></h4><div class="blk"><button class="cp" type="button" data-t="c8">프롬프트 복사</button><pre class="txt" id="c8">Photorealistic image of a Japanese factory manager in a work jacket standing in front of a large polished mirror inside a bright modern factory, oversized face with an exaggerated stunned expression. In the mirror&#x27;s reflection, instead of himself, a bright Korean semiconductor fab with blue cleanroom lights and stacked chemical drums appears. Bright vibrant colors, clean white background, high-key lighting, gold and sky-blue accents, subject and mirror filling the upper half of the frame.</pre></div></li><li><h4><span class="num">3</span><span>거대한 희토류 광석 더미 앞에 차단된 일장기 컨테이너</span></h4><div class="blk"><button class="cp" type="button" data-t="c9">프롬프트 복사</button><pre class="txt" id="c9">Photorealistic wide shot of a towering, dramatically oversized pile of glittering metallic rare earth ore dominating the upper half of the frame at a sunny port, bright vibrant colors and high-key lighting. In front of it, a small white shipping container painted with the Japanese national flag (white flag with red circle) is stopped by a bright red-and-white striped barrier gate with a large red X sign. Clean light blue sky background, strong scale contrast, vivid saturated tones.</pre></div></li><li><h4><span class="num">4</span><span>0을 가리키는 빈 저울 앞에서 놀란 일본 엔지니어</span></h4><div class="blk"><button class="cp" type="button" data-t="c10">프롬프트 복사</button><pre class="txt" id="c10">Photorealistic close-up of a Japanese engineer in a lab coat staring in shock at an empty precision weighing scale whose display reads zero, exaggerated expression with wide eyes, oversized face in the upper half of the frame. Behind him, a large warehouse rolling shutter is firmly closed with a red lock. Bright clean laboratory, high-key lighting, white background with red warning accents and a gold highlight on the scale.</pre></div></li><li><h4><span class="num">5</span><span>자유안: X자로 엇갈리는 상승(한국)·하락(일본) 화살표와 빛나는 반도체 웨이퍼</span></h4><div class="blk"><button class="cp" type="button" data-t="c11">프롬프트 복사</button><pre class="txt" id="c11">Photorealistic 3D-rendered scene of two giant glossy arrows crossing in an X shape across the upper half of the frame: a bright sky-blue arrow soaring upward and a red arrow dropping downward. At the exact crossing point, a shining silicon semiconductor wafer glows with golden light. Clean white background, bright vibrant colors, high-key lighting, crisp shadows, bold simple shapes readable at small size.</pre></div></li></ul></div>
+</section>
+
+<section id="s3">
+  <h2>업로드 정보</h2>
+  <div class="group"><h3>제목</h3><div class="blk"><button class="cp" type="button" data-t="c12">복사</button><pre class="txt" id="c12">&quot;이번엔 일본이 막혔다&quot; 한국을 막았던 일본이 7년 뒤 똑같이 당한 진짜 이유</pre></div></div>
+  <div class="group"><h3>설명글</h3><div class="blk"><button class="cp" type="button" data-t="c13">설명글 복사</button><pre class="txt" id="c13">#일본수출규제, #희토류, #이트륨, #소부장, #불화수소, #중국희토류통제, #한일관계, #반도체소재, #국산화, #한국수출, #일본경제, #공급망, #노재팬, #동진쎄미켐, #솔브레인
+
+2019년 일본이 한국에 썼던 소재 수출규제를, 2026년 중국이 희토류와 이트륨으로 일본에 똑같이 썼습니다. 같은 방식인데 왜 한국은 버텼고 일본은 흔들리는지, 그리고 한국은 정말 다 이긴 건지 숫자로 짚습니다.
+
+📌 이 영상에서 다루는 내용
+· 2026년 중국의 대일 이중용도 수출통제
+· 2019년 불화수소 규제, 먼저 다친 쪽
+· 7년 동안 한국이 만든 두 번째 공급처
+· 일본이 더 아픈 이유, 기술이 아니라 땅
+· 한국이 아직 못 넘은 벽과 희토류 의존
+
+⏱ 타임스탬프
+00:00 같은 방식, 반대의 결과
+00:45 2026년 1월, 일본 앞에 놓인 공고 한 장
+03:58 2019년 7월, 한국이 먼저 서 있던 자리
+07:19 7년 동안 한국이 만든 두 번째 길
+10:54 일본이 더 아픈 이유, 원료부터 막혔다
+14:17 일본의 SOS, 그리고 한국의 수출 기록
+17:22 한국은 정말 이겼나
+20:45 다음 급소를 알아보는 법
+
+🔗 주요 출처
+
+법률신문 — 중국, 대(對)일본 이중용도품목 수출통제 조치 발표 (2026-01)
+https://www.lawtimes.co.kr/news/articleView.html?idxno=214888
+
+The Oregon Group — Japan yttrium shortage: China export controls (2026-10)
+https://theoregongroup.com/latest-news/japan-yttrium-shortage-china-export-controls/
+
+SBS Biz — &quot;수개월내 고갈&quot; 日, 美에 中 희토류 해결해 달라 [FT] (2026-10)
+https://biz.sbs.co.kr/amp/article/20000341066
+
+뉴스위크 일본판(로이터) — イットリウム、マレーシア工場拡張で来年後半以降の供給にめど＝双日社長 (2026-10)
+https://www.newsweekjapan.jp/articles/-/338649
+
+Daiwa Institute of Research — China&#x27;s Export Restrictions on Rare Earths and Other Critical Minerals May Reduce Japan&#x27;s Real GDP by 1.3–3.2% (2025-12)
+https://www.dir.co.jp/english/research/report/analysis/20251211_025465.html
+
+서울신문 — 日, 액체 불화수소도 수출 허가…국내기업 고민 깊어졌다 (2019-11)
+https://m.seoul.co.kr/news/2019/11/18/20191118020009
+
+한경비즈니스 — 한국무역협회 통계 기반 불화수소·포토레지스트 대일 수입 비율 (2023-07)
+https://magazine.hankyung.com/business/article/202307042787b
+
+서울신문 — 수출 규제 악몽 잊은 소부장… 국산화 성공 기업도 日의존 &#x27;유턴&#x27; (2024-07)
+https://www.seoul.co.kr/news/plan/regulatory-reform/2024/07/16/20240716008001
+
+서울신문 — 한국, 일본 제치고 1분기 수출 세계 5위 (2026-05)
+https://www.seoul.co.kr/news/economy/2026/05/07/20260507031003
+
+머니투데이 — 한국 1분기 수출 &#x27;세계 5강&#x27; 굳히기…일본과 격차 더 벌렸다 (2026-06)
+https://www.mt.co.kr/economy/2026/06/10/2026061013472775407
+
+이 외 40여 건의 기사·자료를 참고해 사실 확인을 거쳤습니다.
+
+🔔 숫자 뒤의 구조가 궁금하시면 구독해 두세요. 결과에는 언제나 이유가 있습니다.</pre></div></div>
+  <div class="group"><h3>태그</h3><div class="blk"><button class="cp" type="button" data-t="c14">복사</button><pre class="txt" id="c14">#일본수출규제, #희토류, #이트륨, #소부장, #불화수소, #중국희토류, #한일관계, #반도체소재, #국산화, #한국수출, #일본경제, #공급망, #수출통제, #노재팬, #경제이야기</pre></div></div>
+  <div class="group"><h3>고정 댓글 · 업로드 직후 직접 다는 첫 댓글</h3><div class="blk"><button class="cp" type="button" data-t="c15">복사</button><pre class="txt" id="c15">2019년엔 한국, 2026년엔 일본. 다음 차례는 어디라고 보세요? ① 결국 한국도 당한다 ② 한 번 막혀 봐서 이번엔 버틴다 ③ 일본이 7년 전 한국처럼 길을 찾는다. 번호로 남겨 주세요.</pre></div></div>
+  <p class="warn">설명글 안 타임스탬프는 대본 분량으로 계산한 추정치입니다. 영상 완성 후 「타임스탬프 채워줘」로 실측 교체한 뒤 올리세요. 2026년 11월 10일 이후 업로드라면 중국 희토류 통제 유예 연장 여부도 한 번 확인하세요.</p>
+</section>
+
+<section id="s4" hidden>
+  <h2>타임스탬프</h2>
+  <p class="warn">이 시각은 추정치입니다. 영상 완성 후 「타임스탬프 채워줘」로 실측 교체하세요.</p>
+  <div class="blk"><button class="cp" type="button" data-t="c16">전체 복사</button><pre class="txt" id="c16">00:00 같은 방식, 반대의 결과
+00:45 2026년 1월, 일본 앞에 놓인 공고 한 장
+03:58 2019년 7월, 한국이 먼저 서 있던 자리
+07:19 7년 동안 한국이 만든 두 번째 길
+10:54 일본이 더 아픈 이유, 원료부터 막혔다
+14:17 일본의 SOS, 그리고 한국의 수출 기록
+17:22 한국은 정말 이겼나
+20:45 다음 급소를 알아보는 법</pre></div>
+  <ul class="tsl"><li><span class="t">00:00</span><span>같은 방식, 반대의 결과</span></li><li><span class="t">00:45</span><span>2026년 1월, 일본 앞에 놓인 공고 한 장</span></li><li><span class="t">03:58</span><span>2019년 7월, 한국이 먼저 서 있던 자리</span></li><li><span class="t">07:19</span><span>7년 동안 한국이 만든 두 번째 길</span></li><li><span class="t">10:54</span><span>일본이 더 아픈 이유, 원료부터 막혔다</span></li><li><span class="t">14:17</span><span>일본의 SOS, 그리고 한국의 수출 기록</span></li><li><span class="t">17:22</span><span>한국은 정말 이겼나</span></li><li><span class="t">20:45</span><span>다음 급소를 알아보는 법</span></li></ul>
+</section>
+</div>
+<script>
+const tabs=[...document.querySelectorAll('nav button')];
+function show(id){tabs.forEach(b=>{const on=b.dataset.s===id;b.setAttribute('aria-selected',on);document.getElementById(b.dataset.s).hidden=!on});try{localStorage.setItem('tab',id)}catch(e){}}
+tabs.forEach(b=>b.addEventListener('click',()=>show(b.dataset.s)));
+try{const t=localStorage.getItem('tab');if(t&&document.getElementById(t))show(t)}catch(e){}
+function copy(b,el){const txt=el.textContent;const label=b.dataset.label||(b.dataset.label=b.textContent);
+ const done=()=>{b.textContent='복사됨';b.classList.add('ok');setTimeout(()=>{b.textContent=label;b.classList.remove('ok')},1600)};
+ const fb=()=>{const h=el.hidden;el.hidden=false;const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='선택됨 · Ctrl+C';setTimeout(()=>{if(h)el.hidden=true;b.textContent=label},4000)};
+ try{navigator.clipboard.writeText(txt).then(done,fb)}catch(e){fb()}}
+document.querySelectorAll('.cp').forEach(b=>b.addEventListener('click',()=>copy(b,document.getElementById(b.dataset.t))));
+
+</script>

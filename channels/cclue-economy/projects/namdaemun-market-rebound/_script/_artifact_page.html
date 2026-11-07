@@ -1,0 +1,124 @@
+<title>남대문 7천 원의 정체</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 시장 가판의 가격표 — 노란 값표 띠 헤더, 탭 4개, 블록마다 「복사」 꼬리표 */
+:root{
+  --ground:#E8ECE7; --sheet:#FBFCFA; --ink:#1B2420; --muted:#5A6760; --rule:#C8D0C9;
+  --towel:#0E7556; --towel-ink:#FFFFFF; --tag:#F3C531; --tag-ink:#1B2420; --soft:#DCE8E1;
+  --f-sign:"Black Han Sans","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-body:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,"Malgun Gothic",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ground:#111614; --sheet:#1A201D; --ink:#E3EAE5; --muted:#99A79F; --rule:#2F3934;
+  --towel:#5CC6A0; --towel-ink:#0E1411; --tag:#E2B83A; --tag-ink:#141815; --soft:#1F2B26; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#111614; --sheet:#1A201D; --ink:#E3EAE5; --muted:#99A79F; --rule:#2F3934;
+  --towel:#5CC6A0; --towel-ink:#0E1411; --tag:#E2B83A; --tag-ink:#141815; --soft:#1F2B26; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.75;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.wrap{max-width:820px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+header{background:var(--sheet);border:1px solid var(--rule);display:grid}
+.pricetag{background:var(--tag);color:var(--tag-ink);padding:8px 16px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:13px;font-weight:700}
+.pricetag .won{font-family:var(--f-sign);font-weight:400;font-size:20px;line-height:1}
+.head-body{padding:16px 18px 18px;display:grid;gap:10px}
+h1{font-family:var(--f-sign);font-weight:400;font-size:clamp(22px,4.4vw,30px);line-height:1.35;margin:0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.meta b{color:var(--ink);font-weight:500}
+nav{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ground);padding-block:6px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--ground)}
+nav button{font:inherit;font-size:14px;font-weight:500;padding:7px 14px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);cursor:pointer;border-radius:2px}
+nav button[aria-selected="true"]{background:var(--towel);color:var(--towel-ink);border-color:var(--towel)}
+nav button:focus-visible,.copy:focus-visible{outline:2px solid var(--towel);outline-offset:2px}
+section{display:grid;gap:14px}
+.block{background:var(--sheet);border:1px solid var(--rule);display:grid;min-width:0}
+.bhead{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 14px;border-bottom:1px dashed var(--rule)}
+.bhead h2{font-size:13px;letter-spacing:.04em;margin:0;color:var(--muted);font-weight:700}
+.copy{font:inherit;font-size:13px;font-weight:700;padding:4px 12px;background:var(--tag);color:var(--tag-ink);border:0;cursor:pointer;border-radius:2px;white-space:nowrap}
+.copy.done{background:var(--towel);color:var(--towel-ink)}
+.text{padding:14px 16px;white-space:pre-wrap;min-width:0}
+.script{max-width:66ch}
+.script p{margin:0 0 1em}
+.note{color:var(--muted);font-size:13px;padding:0 16px 12px}
+.mono{font-family:var(--f-mono);font-size:13.5px;line-height:1.7}
+.ts{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.warn{background:var(--soft);border-left:3px solid var(--towel);padding:10px 14px;font-size:14px}
+.rec{display:inline-block;font-size:11px;font-weight:700;background:var(--towel);color:var(--towel-ink);padding:1px 7px;margin-left:6px;border-radius:2px;vertical-align:2px}
+details summary{cursor:pointer;padding:10px 16px;font-weight:500}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="pricetag"><span class="won">비싸 봐야 7,000원</span><span>끌루 경제TV · namdaemun-market-rebound 완성본</span></div>
+    <div class="head-body">
+      <h1 id="title"></h1>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+  <nav role="tablist" aria-label="완성본 섹션">
+    <button role="tab" id="tab-upload" data-v="upload">업로드 정보</button>
+    <button role="tab" id="tab-thumb" data-v="thumb">썸네일 · 제목</button>
+    <button role="tab" id="tab-ts" data-v="ts">타임스탬프</button>
+    <button role="tab" id="tab-script" data-v="script">대본</button>
+  </nav>
+  <section id="v-upload"></section>
+  <section id="v-thumb" hidden></section>
+  <section id="v-ts" hidden></section>
+  <section id="v-script" hidden></section>
+</div>
+
+<script type="application/json" id="data">{"script": "서울 남대문시장에 경호원이 지키는 가게가 있습니다. 손님에게 사지 말라고 말리는, 남대문 스카프 아저씨의 가게입니다. 손님이 몰려 경찰이 출동했고, 결국 경호원까지 세웠습니다. 그런데 이 줄을 처음 만든 건 이 가게가 아닙니다.\n\n스카프 가게가 뜨기 넉 달 전부터, 2030이 먼저 줄을 섰습니다. 사러 온 건 비싸 봐야 7천 원짜리 때수건이었죠. 600년 시장을 다시 채운 건 수십억 원짜리 예산이 아니었습니다. 때수건은 인터넷에서도 팝니다. 그런데 2030은 굳이 남대문까지 찾아왔습니다. 사지 말라는 가게 앞에 줄이 선 것도 같은 이유입니다. 왜일까요?\n\n그 이유는 잠시 뒤에 꺼내고, 먼저 이 골목이 얼마나 달라졌는지 숫자부터 펼쳐 보겠습니다.\n\n2026년 9월, 남대문시장 잡화점 골목입니다. 이 골목에서 35년째 장사해 온 한 상인이 이렇게 말했습니다. 35년 장사했지만 이런 적은 처음 봐요. 매출이 두 배는 올랐습니다. 한 상인의 말입니다. 그래서 숫자로 확인해 보겠습니다.\n\n공실률이라는 숫자가 있어요. 가게 자리 가운데 비어 있는 비율을 말합니다. 한국부동산원 조사에서 남대문 소규모 상가 공실률은 2024년 2분기 9.6%였습니다. 2026년 2분기에는 6.1%까지 내려왔습니다. 소규모 상가는 2층 이하 작은 건물에 들어선 골목 가게들이에요. 바꿔 말하면, 가게 열 곳 중 한 곳이 비어 있던 골목이 열여섯 곳 중 한 곳만 비는 골목이 된 겁니다.\n\n같은 분기 전국 소규모 상가 평균은 8.5%였습니다. 전국 평균보다 빈 가게가 적은 시장이 된 거죠. 인스타그램에 남대문 해시태그를 단 게시물도 2026년 9월 기준 27만 건을 넘었습니다.\n\n다만 여기서 선을 하나 긋겠습니다. 2026년 11월 경제 주간지 이코노미스트는 일부 인기 아동복 매장에 줄이 생겼다고 해서 남대문 아동복 시장 전체가 호황이라고 단정하기는 어렵다고 짚었습니다. 맞는 지적입니다. 이 영상도 그 말을 끝까지 들고 가겠습니다.\n\n그럼 이 숫자는 누가 만들었을까요? 새 지붕도, 지원금도 아니었습니다. 남대문 대도종합상가 상인회 관계자의 말이 있습니다. 목욕용품이 유행한 뒤, 이 상가에서 6년 만에 빈 가게에 입점 계약이 들어왔다는 겁니다. 한 상가의 이야기입니다. 그래도 6년 동안 아무도 들어오지 않던 자리에 새 주인이 생겼다는 뜻이에요.\n\n그 계기는 몇천 원짜리 때수건을 사러 온 손님들이었습니다. 남대문을 다시 채운 건 예산이 아닙니다. 손님입니다.\n\n아동복 상가도 비슷합니다. 남대문시장 측 집계로는 2021년 한때 아동복 상가 공실률이 40%까지 올랐습니다. 다섯 집 중 두 집이 빈 셈이었죠. 이 숫자가 15% 안팎까지 내려왔습니다.\n\n또 다른 상인은 예전엔 나이 든 손님뿐이었는데, 주말 손님 열에 일고여덟이 젊은 사람이라고 했습니다. 마지막으로 남대문에 가 보신 게 언제세요? 그때 옆에서 걷던 사람은 아마 부모님이나 아이였을 겁니다.\n\n이 변화가 얼마나 큰일인지 알려면, 남대문이 원래 어떤 시장이었는지부터 보셔야 합니다.\n\n남대문시장의 시작은 1414년, 조선 태종 14년입니다. 나라가 남대문 언덕 길 양편에 가게를 지었고, 그 가게를 상인에게 빌려줬습니다. 국가기록원 기록에 따르면 이것이 남대문시장의 출발점입니다.\n\n1897년에는 선혜청이라는 관청의 창고 자리에 장이 섰습니다. 국가기록원은 이 장을 우리나라 최초의 근대적 상설 시장으로 기록합니다. 상설 시장은 날마다 문을 여는 시장을 말해요. 닷새에 한 번 서는 장과는 다른 거죠.\n\n시련도 컸습니다. 6·25 전쟁 뒤 남대문시장은 점포가 거의 남지 않을 만큼 폐허가 됐습니다. 불도 여러 번 났습니다. 1954년 6월 화재로 점포 1천여 곳이 탔습니다. 1968년 11월에는 점포 775곳이 불에 탔습니다. 1975년과 1977년에도 불이 났습니다.\n\n그런데 남대문은 그때마다 다시 일어섰습니다. 전쟁 뒤에는 구호물자와 군수품 거래로 다시 커졌습니다. 불이 난 자리에는 새 건물을 올렸습니다. 그 건물마다 아동복, 안경, 그릇, 수입품 상가가 들어찼습니다. 그렇게 전국 상인이 물건을 떼러 오는 도매시장이 된 거예요.\n\n2016년 남대문시장 점포는 약 1만 곳이었습니다. 하루에 드나드는 손님은 40만 명이었습니다. 가게 한 곳마다 하루 마흔 명씩 손님이 드나든 셈이에요.\n\n불에 타도 무너지지 않던 시장입니다. 그런 시장이 불도 전쟁도 없이 비어 가기 시작했습니다.\n\n어릴 적 부모님 따라 남대문에서 아동복이나 그릇을 사 보신 기억, 있으세요? 그 시절 남대문은 사람에 떠밀려 걷던 곳이었습니다.\n\n그런데 진짜 위기는 불처럼 요란하지 않았습니다. 조용히 찾아왔습니다.\n\n2015년, 서울시가 남대문시장의 상태를 직접 진단한 자료가 있습니다. 가족 수가 줄고, 대형마트와 온라인쇼핑몰이 커지고, 시설이 낡으면서 급격한 침체에 빠졌다는 진단입니다. 서울시가 스스로 내린 결론입니다. 불이나 전쟁처럼 하루아침에 닥친 일이 아니었습니다. 손님이 물건을 사는 방식이 몇 년에 걸쳐 바뀐 겁니다.\n\n휴대폰 쇼핑앱의 장바구니를 떠올려 보세요. 아이 옷, 그릇, 양말 같은 물건은 사진만 보고도 장바구니에 담을 수 있어요. 그런데 남대문의 주력이 바로 그런 물건이었습니다. 이런 물건을 사러 오던 손님이 하나둘 휴대폰 쇼핑으로 옮겨 갔습니다.\n\n밖에서 오던 손님도 줄었습니다. 2017년 사드 배치 뒤에는 중국 단체관광객 발길이 끊겼습니다. 사드는 한반도에 배치된 미국의 미사일 방어 체계예요. 이어서 코로나가 왔습니다. 대도종합상가 상인회 쪽 이야기로는, 코로나 때 이 한 상가에서만 해마다 열댓 곳이 문을 닫았습니다. 상가 점포 열 곳 중 한 곳꼴입니다. 시장 전체 숫자는 아닙니다. 그래도 한 건물에서 해마다 열 집에 한 집이 셔터를 내렸다는 뜻이죠.\n\n외국인 숫자도 있습니다. 시점은 2025년 8월, 2030 사이에 사우나템 유행이 오기 전입니다. 한국관광공사와 통신사 데이터를 보면, 그달 남대문 일대를 찾은 외국인은 약 31만 명이었습니다. 1년 전보다 11.5% 줄었습니다. 외국인 손님 열 명 가운데 한 명 넘게 빠져나간 겁니다.\n\n그런데 같은 달 서울 성수동은 달랐습니다. 성수동을 찾은 외국인은 1년 전보다 69.8% 늘었습니다. 열 명 오던 곳에 일곱 명이 더 온 거예요. 손님이 사라진 게 아닙니다. 옮겨 간 겁니다. 외국인 관광객도 인스타그램과 틱톡으로 일정을 짭니다. 그래서 SNS에서 뜨는 동네로 발길을 돌렸습니다.\n\n정리하면 남대문은 두 방향에서 손님을 잃었습니다. 국내 손님은 시장 대신 휴대폰 쇼핑앱에서 물건을 샀고, 외국인 손님은 성수동 같은 다른 동네로 갔습니다.\n\n아이 옷이나 그릇, 마지막으로 어디서 사셨어요? 아마 휴대폰 화면이었을 겁니다. 그렇다고 손님 탓은 아닙니다. 물건을 사는 길 자체가 바뀌었거든요.\n\n그럼 그동안 정부와 서울시는 손 놓고 있었을까요? 아닙니다.\n\n2015년, 정부 부처인 중소기업청이 전국 전통시장 6곳을 글로벌 명품시장으로 골랐습니다. 서울에서는 남대문이 뽑혔습니다.\n\n돈도 들어갔습니다. 3년 동안 정부와 서울시, 중구가 최대 50억 원을 대고, 신세계가 15억 원을 보탰습니다. 합치면 최대 65억 원입니다. 한 해로 나누면 많게는 20억 원 넘는 돈을 시장 한 곳에 쓰기로 한 거예요.\n\n그 돈으로 만든 것은 관광객을 위한 길이었습니다. 시장을 돌며 도장을 모으는 전자 스탬프 투어를 만들었습니다. 면세 쇼핑을 붙였습니다. 서울역에서 남대문, 남산, 명동으로 이어지는 관광 동선도 깔았습니다.\n\n그런데 그 길 위에 닥친 건 2017년 사드와 코로나였습니다. 관광객이 걸어야 할 길에서 관광객이 끊겼습니다.\n\n서울시는 그 뒤에도 손을 놓지 않았습니다. 2025년 11월, 서울시는 남대문시장 아케이드를 준공했습니다. 중심 거리 약 135미터 위에 한옥 처마 모양 지붕을 씌운 겁니다. 축구장 한쪽 끝에서 다른 쪽 끝까지 가고도 30미터를 더 걸어야 하는 길이에요. 숭례문을 바라보는 길과 공중 보행로도 이어서 추진하고 있습니다.\n\n이걸 실패라고 부를 수는 없습니다. 지붕과 길은 손님이 왔을 때 더 오래 머물게 해 줍니다. 다만 지붕과 길이 손님을 데려오지는 않죠.\n\n비 오는 날 시장에 지붕이 있으면 반갑습니다. 그런데 지붕을 보러 시장에 가시는 분, 계세요? 거의 없을 겁니다. 2026년 여름, 손님을 데려온 건 지붕이 아니라 전혀 다른 것이었습니다.\n\n그 다른 것은, 여러분도 한 번쯤 스쳐 지나갔을 유튜브 영상 한 편이었습니다.\n\n2026년 6월 25일, 방송인 최화정 씨가 자기 유튜브 채널에 남대문시장 맛집과 쇼핑 영상을 올렸습니다. 이 영상의 조회수는 82만 회를 넘었습니다. 영상 제목에는 600년 전통 남대문시장이라는 말이 붙어 있었습니다. 영상 속에서 최화정 씨는 때타월과 샤워타월, 목욕 가방을 고릅니다. 맛집 소개 사이에 끼어 있던 짧은 쇼핑 장면입니다. 상인들이 계기로 꼽은 게 바로 이 영상이었습니다.\n\n여기서부터는 날짜순으로 따라가 보겠습니다. 첫 변화는 7월에 왔습니다. 8월에 만난 한 상인은 최화정 유튜브 이후 젊은 손님이 늘었다고 했습니다. 7월부터 분위기가 확 달라졌다는 말이었죠.\n\n8월 13일에는 배우 선우용여 씨가 60년째 다니는 남대문 단골집 영상을 올렸습니다. 이 영상은 170만 회를 넘겼습니다. 8월 20일에는 한국경제가 2030 여성들이 남대문에 푹 빠졌다고 보도했습니다. 9월에는 뉴스와 탐방 영상이 줄줄이 따라붙었습니다. 2026년 9월 말 한 신문은 남대문을 아예 2030의 놀이터가 된 전통시장이라고 불렀습니다. 그리고 10월 말, 스카프 가게가 등장합니다.\n\n그런데 많은 분이 이 순서를 거꾸로 기억합니다. 스카프 아저씨가 남대문을 살렸다고요.\n\n그건 사실이 아닙니다. 때수건을 사려는 줄은 스카프 가게보다 넉 달쯤 먼저 섰습니다. 스카프 가게에 사람이 몰린 건, 이미 2030이 남대문 골목을 걷고 있었기 때문입니다. 스카프 가게는 원인이 아니라 결과입니다.\n\n하지만 그렇다고 그 가게의 줄이 가벼워지는 건 아니에요. 결과가 다시 손님을 부르는 고리가 됐거든요.\n\n2026년 10월 말, 이 가게에 손님이 몰렸습니다. 사장님은 너네 지금 과소비야, 하며 사지 말라고 말렸습니다. 그런데 말릴수록 사람이 더 모였습니다. 사장님은 감당이 안 된다며 임시 휴업을 했습니다. 11월 4일 다시 문을 열자 경찰이 출동했습니다. 결국 11월 6일에는 가게 앞에 경호원을 세웠습니다.\n\n여러분이 스카프 가게 소식을 처음 들으신 건 어디서였나요? 뉴스였든 짧은 영상이었든, 그때 그 골목엔 이미 넉 달째 줄이 서 있었습니다.\n\n여기까지가 무슨 일이 있었는지입니다. 진짜 이야기는 왜 하필 남대문이었냐입니다.\n\n2026년 여름, 2030 사이에 사우나템이 유행했습니다. 사우나템은 때타월, 목욕 가방 같은 목욕용품을 부르는 말이에요. 2026년 8월에는 웰니스에 빠진 30대가 남대문을 도는 영상 일기, 브이로그까지 나왔습니다. 웰니스는 몸과 마음을 함께 돌보는 생활 방식을 말합니다.\n\n값을 보면 왜 몰렸는지 감이 옵니다. 때타월은 한 장에 천 원부터, 비싸 봐야 7천 원입니다. 옥반지는 2천 원부터 있습니다. 한 기자는 남대문에서 두 시간 쇼핑하고 2만 7천 원을 썼습니다. 두 시간을 돌고도 3만 원이 안 나온 거죠.\n\n이런 소비를 작은 사치라고 부릅니다. 경기가 나쁠 때 비싼 물건 대신 값싼 물건으로 기분을 내는 소비를 말해요. 소비 트렌드를 해마다 정리하는 책, 트렌드 코리아 2023이 꼽은 디깅이라는 말도 있습니다. 좋아하는 것 하나를 끝까지 파고드는 소비입니다. 이 책의 2026년판은 키워드로 근본이즘을 골랐습니다. 원조와 클래식을 찾는 소비예요.\n\n그런데 여기서 걸리는 게 하나 있습니다. 그 때타월, 인터넷에서 최저가를 검색하면 집 앞까지 옵니다. 값만 따지면 남대문까지 갈 이유가 없습니다.\n\n처음에 던진 질문, 왜 굳이 남대문까지 왔느냐의 답이 여기 있습니다. 때수건과 사지 말라는 사장님은 둘 다 인터넷으로는 살 수 없는 것을 팝니다. 2030이 산 건 때수건 한 장이 아니었습니다. 좁은 골목에서 수십 가지를 직접 비교해 보고, 여기서 찾았다고 말할 수 있는 발견의 하루였습니다. 스카프 가게 사장님이 판 것도 스카프가 아니었습니다. 잔소리 한마디와 사람 냄새였죠. 그건 클릭 한 번으로 배송되지 않습니다.\n\n앞에서 본 말들을 이 축으로 다시 꿰어 보겠습니다. 작은 사치는 값싼 물건으로 기분을 사는 겁니다. 디깅은 직접 파고드는 재미를 사는 거고요. 웰니스는 나를 돌보는 하루를 사고, 근본이즘은 원조라는 이야기를 삽니다. 넷 다 인터넷 주문으로는 받을 수 없는 것들입니다.\n\n그럼 왜 하필 남대문일까요? 600년 동안 쌓인 게 있기 때문입니다. 남대문은 전국 상인이 물건을 떼러 오던 도매시장입니다. 점포가 1만 곳을 넘던 시장이라, 온갖 물건이 골목 하나에 빽빽하게 몰려 있거든요.\n\n성수동과 비교하면 차이가 선명합니다. 성수동이 새로 만든 경험을 판다면, 남대문은 원래 있던 물건 더미를 팝니다. 원조를 찾는 손님에게는 남대문 쪽이 더 진짜로 보이는 거죠.\n\n외국인 지갑도 같은 쪽으로 움직였습니다. 2026년 1월부터 9월까지 서울에서 외국인 관광객이 전통시장에서 쓴 카드 금액은 1년 전보다 48.8% 늘었습니다. 남대문만 따로 잰 숫자는 아니고, 서울 전통시장 전체 기준입니다. 그래도 외국인 손님마저 시장 골목을 다시 찾기 시작했다는 신호로는 충분합니다.\n\n중요한 건, 이게 남대문이 계획한 일이 아니라는 점입니다. 원래 갖고 있던 걸 손님이 다시 찾아냈습니다.\n\n2015년 수십억 원을 들인 관광 동선이 아니었습니다. 2025년에 올린 새 지붕도 아니었습니다. 원래 있던 골목과 물건 더미가 2026년 여름 손님을 불렀습니다. 6년 만에 빈 가게에 새 주인이 들어온 이유도 여기 있습니다. 직접 와서 골라야 하는 물건을 파는 가게 자리가, 다시 돈이 되는 자리가 된 겁니다.\n\n백화점 대신 시장 골목을 걸어 본 2030, 어릴 적 부모님 손 잡고 남대문에 갔던 50대와 60대, 동네 시장에서 가게를 지키는 사장님, 아이 옷 사러 아동복 상가 번호표를 뽑아 본 부모님. 이 줄은 여러분 모두의 이야기입니다.\n\n그런데 이 줄, 2027년 가을에도 있을까요?\n\n여기서 끝내면 반쪽입니다. 이 줄, 2027년 가을에도 있을까요? 결론부터 말씀드리겠습니다. 줄 자체는 언제든 사라질 수 있습니다. 남대문이 남느냐는 다른 데서 갈립니다.\n\n유행이 얼마나 빨리 식는지 보여 주는 분석이 있습니다. 이투데이가 네이버 검색량으로 디저트 유행을 분석했습니다. 검색량이 정점에서 절반으로 떨어지기까지 탕후루는 54일이 걸렸습니다. 두 달이 채 안 되죠. 두바이 초콜릿은 13일이었습니다. 두쫀쿠라 불린 디저트는 17일이었습니다. 월급 한 번 받고 다음 월급날이 오기도 전에 관심이 반토막 난 겁니다.\n\n남대문의 줄이 이렇게 식지 않으려면 넘어야 할 위험이 셋 있습니다.\n\n첫째, 줄 선 몇 곳이 시장 전체는 아닙니다. 앞서 본 이코노미스트의 지적 그대로입니다. 6년 만의 입점 계약도 한 상가의 이야기였습니다. 아동복 매장의 번호표 줄도 일부 인기 매장의 이야기입니다. 골목 몇 곳의 열기를 시장 전체의 체온으로 읽으면 안 됩니다.\n\n둘째, 임대료입니다. 임대가격지수는 상가 임대료가 얼마나 올랐는지 보여 주는 숫자예요. 한국부동산원 자료로 2026년 2분기 남대문 상가 임대가격지수는 0.78% 올랐습니다. 같은 분기 전국은 0.03% 내렸습니다. 전국이 제자리일 때 남대문은 올라간 겁니다. 서울 도심권 임대가격지수는 9개 분기 연속 올랐습니다. 2년 넘게 한 번도 안 쉬고 오른 거예요.\n\n성수동이 먼저 이 길을 걸었습니다. 2025년 3월 한 현장 보도에서 성수동 공인중개사는 1년 사이 권리금이 1억 원 올랐다고 했습니다. 권리금은 가게 자리를 넘겨받을 때 앞 주인에게 따로 주는 돈이에요. 그 결과 원래 있던 상인들이 떠났습니다.\n\n법이 막아 주는 부분도 있습니다. 계약 기간 중 임대료 인상은 5%까지로 묶여 있습니다. 그런데 몇 주에서 몇 달만 여는 임시 가게, 팝업의 짧은 계약은 이 보호를 받지 못합니다. 원래 상인이 밀려나면, 손님이 일부러 찾아오던 이유도 같이 사라집니다. 그 골목 사장님과 그 사장님의 말이요. 그 자리에 어디서나 파는 물건이 들어서면, 굳이 남대문까지 올 이유가 없어지는 거예요.\n\n셋째, 가격 신뢰입니다. 서울 광장시장 사례가 있습니다. 2023년 한 유튜버가 1만 5천 원짜리 모둠전이 작다는 영상을 올렸습니다. 그 뒤 바가지 논란이 되풀이됐습니다. 2025년 11월에는 같은 시장 상인회끼리 손해배상 소송을 예고하는 일까지 벌어졌습니다. 일반 점포 상인회는 논란이 반복될 때마다 손님이 줄었다고 호소했습니다.\n\n이건 한 시장 상인들을 탓할 일이 아닙니다. 가격표가 정확한지, 결제 과정이 투명한지 같은 구조의 문제입니다. 2025년 11월 서울시는 손님으로 가장한 점검단, 미스터리쇼퍼를 광장시장에 보냈습니다. 종로구는 노점에 주인 이름을 걸게 했습니다. 2025년 12월 정부가 광장시장 개선 과제로 정확한 가격 표시와 결제 투명화를 꼽은 것도 같은 이유입니다.\n\n세 위험에는 공통점이 있습니다. 유행은 손님을 한 번 데려올 뿐입니다. 두 번째 방문은 유행이 만들어 주지 않습니다.\n\n그래서 이 질문의 답은 오래간다, 안 간다가 아닙니다. 다시 올 이유가 남느냐예요. 남대문이 600년 동안 불과 전쟁을 넘긴 것도, 사람들이 매번 다시 찾아왔기 때문입니다. 물건이 있었고, 값이 맞았고, 그 가게를 지키는 사람이 있었습니다.\n\n여러분이 어떤 가게를 두 번째로 찾아간 이유, 떠올려 보세요. 대개 유행이 아니라 그 집 값과 그 집 사람이었을 겁니다.\n\n그 다시 올 이유를 지키는 데, 손님인 우리도 할 일이 하나 있습니다.\n\n인터넷으로 살 수 있는 물건부터 손님이 온라인으로 옮겨 가면서 남대문은 비어 갔습니다. 정부와 서울시가 지붕과 길을 고치는 사이, 인터넷으로는 살 수 없는 것을 찾아 2030이 먼저 돌아왔습니다. 경호원이 지키는 스카프 가게는 그 줄 끝에 생긴 결과입니다.\n\n손님이 할 일은 값을 확인하는 겁니다. 남대문시장은 2012년부터 소매 점포에 판매 가격을 써 붙이게 했습니다. 도매 점포는 빠지지만, 낱개로 파는 가게라면 값이 보여야 한다는 뜻입니다. 가격표가 없는 집에서는 값을 먼저 물어보세요. 계산하기 전에 한 번 더 확인하시고요. 그래도 바가지를 당했다면 서울에서는 120 다산콜센터로 신고하면 됩니다. 여행 중이라면 1330 관광불편신고센터도 있습니다. 가격표시를 어긴 가게는 과태료 대상입니다. 번호 두 개만 기억하시면 됩니다.\n\n이게 왜 손님의 일이냐면, 값이 투명한 시장이어야 두 번째 방문이 생기거든요. 앞서 본 광장시장도 결국 가격 표시부터 다시 손보고 있습니다. 손님이 값을 묻고, 시장이 값을 보여 주는 것. 그게 줄을 단골로 바꾸는 첫걸음입니다.\n\n제가 보기엔 시장을 살리는 건 줄이 아니라 다시 올 이유입니다. 인터넷으로 살 수 없는 것을 끝까지 지키는 시장만 남습니다. 남대문이 지켜야 할 것도 새 지붕보다 골목의 사장님과 그 집의 정직한 값입니다.\n\n2027년 가을 남대문, 어떻게 될 것 같으세요? 첫째, 줄은 사라져도 단골은 남는다. 둘째, 유행이 끝나면 다시 조용해진다. 셋째, 가게마다 갈린다. 번호로 답해 주세요. 남대문에서 마지막으로 사 오신 물건도 함께 적어 주세요. 그 물건들이 모이면, 사람들이 남대문에 다시 가는 이유의 목록이 됩니다.\n\n오늘 이야기는 어떠셨나요?\n\n결과에는 언제나 이유가 있습니다.\n\n알고 나면, 세상이 다르게 보입니다.\n\n세상의 이유였습니다.", "titles": [{"text": "\"스카프보다 먼저 줄 섰다\" 문 닫아 가던 600년 남대문시장을 다시 살린 7천 원짜리의 정체", "note": "훅의 반전(스카프 가게보다 먼저)과 「7천 원짜리」 호기심을 한 줄에 담았다. 7천 원은 가장 비싼 때타월 값이라 사실이다"}, {"text": "\"스카프 아저씨가 아닙니다\" 2030이 600년 남대문시장에 줄 서기 시작한 진짜 이유", "note": "스카프 아저씨 검색 유입을 최대로 노릴 때. 다만 대본에서 스카프 가게 비중은 작다는 점을 감안"}, {"text": "\"예산으론 못 살렸다\" 6년 만에 빈 가게가 다시 찬 600년 남대문시장의 진짜 이유", "note": "정책 대비·「오래갈까」 쪽을 앞세우고 싶을 때"}], "thumbs": ["\"사지 말래도 줄 섰다!\" / 2030이 몰려간 600년 남대문시장", "\"아저씨 덕분 아닙니다\" / 2030이 먼저 찾아낸 남대문의 7천 원", "\"예산 아니라 때수건!\" / 6년 만에 빈 가게가 찬 남대문시장"], "prompts": [{"label": "1번 — 훅 장면: 남대문 골목의 긴 2030 줄과 알록달록한 때수건 더미", "text": "Photorealistic bright daytime scene in a narrow alley of Namdaemun Market in Seoul, South Korea, with a long queue of stylish Korean people in their twenties and thirties stretching far back between traditional market stalls. In the foreground, a market stall is piled high with colorful Korean exfoliating bath towels (Italy towels) in vivid green, pink and yellow, filling the lower half of the frame. An attractive young Korean woman with a warm likeable face holds up one green bath towel with an exaggerated delighted, surprised expression. Bright vibrant colors, clean light sky, sky-blue and gold accents, high-key lighting, crisp detail for mobile visibility."}, {"label": "2번 — 위에서 내려다본 줄, 가운데 금빛으로 빛나는 때수건 한 장", "text": "Photorealistic high-angle view down a busy alley of Namdaemun Market in Seoul on a sunny afternoon, crowded with young Korean shoppers forming a long winding line past awnings and stacked goods. In the center foreground, a single oversized bright green Korean exfoliating bath towel glows with a soft golden light, held up in a shopper's hand like a prize. Bright vivid saturated tones, clean light background, sky-blue and gold accent colors, high-key lighting, sharp subject for small-screen visibility."}, {"label": "3번 — 같은 골목 전후 대비: 한산한 골목(파란 하락) vs 붐비는 골목(빨간 상승)", "text": "Photorealistic split-screen composition of the same alley in Namdaemun Market, Seoul. On the left, the alley is quiet and nearly empty with several metal shop shutters pulled down and a single elderly shopkeeper sitting on a stool, overlaid with a large glossy blue arrow pointing downward. On the right, the identical alley is bustling with cheerful young Korean shoppers carrying small shopping bags, overlaid with a large glossy red arrow shooting upward. Left side slightly faded, right side bright and vibrant, high-key lighting, sky-blue and gold accents."}, {"label": "4번 — 빈 가게 셔터의 종이를 떼어 내는 새 가게 주인", "text": "Photorealistic close-up in Namdaemun Market, Seoul, of a smiling young Korean shop owner with an attractive likeable face peeling a plain blank paper notice off a half-raised metal shop shutter, revealing a freshly painted small storefront. Behind her, a bright market alley is busy with young shoppers walking past colorful stalls. A large glossy red upward arrow rises in the upper part of the frame. Bright vibrant colors, clean light tones, high-key lighting, sky-blue and gold accents."}, {"label": "5번 — 와일드카드: 돈다발보다 무거운 때수건 한 장 (숭례문 배경 저울)", "text": "Photorealistic conceptual image of a large antique brass balance scale standing at the bright entrance of Namdaemun Market in Seoul, with the historic Sungnyemun gate visible in the soft background. One pan holds a tall stack of Korean won banknotes but is lifted high and light, while the other pan holds a single bright green Korean exfoliating bath towel and sinks down heavily. Dramatically oversized scale centered in the frame, bright vibrant colors, clean light sky, gold and sky-blue accents, high-key lighting."}], "upload": {"제목": "\"스카프보다 먼저 줄 섰다\" 문 닫아 가던 600년 남대문시장을 다시 살린 7천 원짜리의 정체", "설명글": "#남대문시장, #스카프아저씨, #때수건, #사우나템, #전통시장, #2030소비, #공실률, #최화정, #작은사치, #디깅소비, #성수동, #광장시장, #바가지, #남대문시장부활, #전통시장살리기\n\n경호원이 지키는 남대문 스카프 가게보다 넉 달 먼저, 2030은 비싸 봐야 7천 원짜리 때수건을 사러 줄을 서 있었습니다. 600년 남대문시장을 다시 채운 게 왜 수십억 원 사업이 아니라 손님이었는지, 그리고 이 줄이 오래갈 수 있을지 짚습니다.\n\n📌 이 영상에서 다루는 내용\n· 남대문시장, 숫자로 얼마나 살아났나\n· 600년 시장이 조용히 비어 간 이유\n· 스카프 가게는 원인이 아니라 결과\n· 2030이 남대문에서 산 진짜 물건\n· 이 줄 오래갈까, 바가지 피하는 법\n\n⏱ 타임스탬프\n00:00 경호원이 지키는 가게\n00:48 남대문, 얼마나 살아났나\n03:20 600년, 불에 타도 일어선 시장\n05:08 불도 전쟁도 없이 비어 간 이유\n07:34 나라와 서울시는 뭘 했나\n09:24 날짜로 보면 보인다\n11:52 왜 하필 지금, 왜 남대문인가\n15:46 이 줄, 오래갈까\n19:46 시장을 살리는 건 다시 올 이유\n\n🔗 주요 출처\n\n한국경제 — 최화정도 남대문서 '싹쓸이'…요즘 2030 여성들 푹 빠졌다 (2026-08)\nhttps://www.hankyung.com/article/202608202264H\n\n이데일리 — \"35년 장사하며 이런 적은 처음\"... 2030 발길 몰리는 남대문시장 (2026-09)\nhttps://v.daum.net/v/20260903170348325\n\n국가기록원 — 기록으로 만나는 대한민국: 남대문시장\nhttps://theme.archives.go.kr/next/koreaOfRecord/namdaemun.do\n\n조선비즈 — 요즘 외국인, 남대문·동대문 안 간다… '인스타 핫플' 성수·홍대·서촌 '쏠림' (2025-10)\nhttps://v.daum.net/v/20251007060152951\n\n서울시 — 서울시, '남대문시장' 세계적 관광명소로 조성 (2015-06)\nhttps://news.seoul.go.kr/economy/archives/57095\n\n서울시 내 손안에 서울 — 한옥처마 지붕에 입체보행로까지…600년 남대문시장 혁신 (2025-11)\nhttps://mediahub.seoul.go.kr/archives/2016212\n\n아주경제 — 남대문 '스카프 아저씨', 몰려드는 인파에 민간 경호원 고용했다 (2026-11)\nhttps://www.ajunews.com/view/20261106144421756\n\n이코노미스트 — 아기 옷 사려 번호표까지…남대문서 5벌 사니 '7만2000원' (2026-11)\nhttps://economist.co.kr/article/view/ecn202610260025\n\n이투데이 — '탕후루에서 두쫀쿠까지' 오픈런은 찰나, 재고는 현실…K디저트 '유행의 끝'\nhttps://www.etoday.co.kr/news/view/2554288\n\nSBS Biz — 바가지 논란 광장시장 결국 터졌다…억대 소송전 무슨 일 (2025-11)\nhttps://biz.sbs.co.kr/amp/article/20000274075\n\n이 외 30여 건의 기사·자료를 참고해 사실 확인을 거쳤습니다.\n\n🔔 숫자 뒤의 구조가 궁금하시면 구독해 두세요. 결과에는 언제나 이유가 있습니다.", "태그": "#남대문시장, #스카프아저씨, #때수건, #사우나템, #전통시장, #2030, #공실률, #최화정, #작은사치, #디깅소비, #성수동, #광장시장, #바가지요금, #서울시장, #소비트렌드", "고정 댓글": "2027년 가을 남대문, 어떻게 될 것 같으세요? ① 줄은 사라져도 단골은 남는다 ② 유행 끝나면 다시 조용해진다 ③ 가게마다 갈린다. 번호와 함께, 남대문에서 마지막으로 사 오신 물건도 적어 주세요."}, "ts": "00:00 경호원이 지키는 가게\n00:48 남대문, 얼마나 살아났나\n03:20 600년, 불에 타도 일어선 시장\n05:08 불도 전쟁도 없이 비어 간 이유\n07:34 나라와 서울시는 뭘 했나\n09:24 날짜로 보면 보인다\n11:52 왜 하필 지금, 왜 남대문인가\n15:46 이 줄, 오래갈까\n19:46 시장을 살리는 건 다시 올 이유", "chars": 9410, "chapters": 9}</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+function copyBtn(getText){
+  const b = el('button','copy','복사'); b.type='button';
+  b.addEventListener('click', () => {
+    const t = getText();
+    const ok = () => { b.textContent='복사됨'; b.classList.add('done'); setTimeout(()=>{b.textContent='복사'; b.classList.remove('done')},1600); };
+    const fallback = () => { const r=document.createRange(); r.selectNodeContents(b.closest('.block').querySelector('.text')); const s=getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent='선택됨 · Ctrl+C'; };
+    try { navigator.clipboard.writeText(t).then(ok, fallback); } catch(e){ fallback(); }
+  });
+  return b;
+}
+function block(label, text, opts={}){
+  const w = el('div','block'); const h = el('div','bhead'); const h2 = el('h2',null,label);
+  if (opts.rec) h2.appendChild(el('span','rec','추천'));
+  h.append(h2, copyBtn(()=>text)); w.appendChild(h);
+  const body = el('div','text'+(opts.cls?' '+opts.cls:''), text); w.appendChild(body);
+  if (opts.note) w.appendChild(el('div','note',opts.note));
+  return w;
+}
+document.getElementById('title').textContent = D.upload['제목'];
+const mins = (D.chars/430).toFixed(1);
+document.getElementById('meta').innerHTML = '';
+[['글자수', D.chars.toLocaleString('ko-KR')+'자'],['예상 분량','약 '+mins+'분 (430자/분)'],['챕터', D.chapters+'개']].forEach(([k,v])=>{const s=el('span');s.append(k+' ',Object.assign(el('b'),{textContent:v}));document.getElementById('meta').appendChild(s)});
+
+const U = document.getElementById('v-upload');
+U.append(block('제목', D.upload['제목']), block('설명글', D.upload['설명글']), block('태그', D.upload['태그']), block('고정 댓글', D.upload['고정 댓글']));
+
+const T = document.getElementById('v-thumb');
+D.titles.forEach((t,i)=>T.appendChild(block('제목 후보 '+(i+1), t.text, {rec:i===0, note:t.note})));
+D.thumbs.forEach((t,i)=>T.appendChild(block('썸네일 문구 '+(i+1), t, {rec:i===0})));
+D.prompts.forEach(p=>T.appendChild(block('이미지 프롬프트 '+p.label, p.text, {cls:'mono'})));
+
+const S = document.getElementById('v-ts');
+const w = el('div','warn','이 시각은 대본 분량으로 계산한 추정치입니다. 영상이 완성되면 「타임스탬프 채워줘」로 실측 교체하세요.');
+S.append(w, block('챕터 목록', D.ts, {cls:'ts'}));
+
+const C = document.getElementById('v-script');
+const sb = el('div','block'); const sh = el('div','bhead'); sh.append(el('h2',null,'대본 전문 · 01_대본.txt'), copyBtn(()=>D.script)); sb.appendChild(sh);
+const st = el('div','text script'); st.style.whiteSpace='normal';
+D.script.split(/\n\s*\n/).forEach(p=>st.appendChild(el('p',null,p.trim()))); sb.appendChild(st); C.appendChild(sb);
+
+const views = ['upload','thumb','ts','script'];
+function show(v){ if(!views.includes(v)) v='upload';
+  views.forEach(x=>{ document.getElementById('v-'+x).hidden = x!==v; document.getElementById('tab-'+x).setAttribute('aria-selected', x===v); }); }
+document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{ show(b.dataset.v); try{ history.replaceState(null,'','#'+b.dataset.v);}catch(e){} }));
+addEventListener('hashchange',()=>show(location.hash.slice(1)));
+show(location.hash.slice(1));
+</script>
