@@ -1,0 +1,127 @@
+<title>최대 폭락은 이란이었다</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;700;800&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: 증권사 호가창 같은 단일 칼럼 작업대 — 시세 띠 헤더(-12.06 / -1.19), 탭 4개, 블록마다 복사 버튼 */
+:root{
+  --ground:#EEF1F5; --panel:#FFFFFF; --ink:#141B24; --muted:#5B6676; --line:#D3DAE3;
+  --navy:#183B6B; --navy-ink:#FFFFFF; --wash:#E3EAF4; --down:#1F5FD1; --up:#C8322B;
+  --f-display:"Gothic A1","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-body:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,"Malgun Gothic",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ground:#0E1318; --panel:#161D25; --ink:#E4E9EF; --muted:#97A3B2; --line:#2C3743;
+  --navy:#8DB2EA; --navy-ink:#0E1318; --wash:#1C2733; --down:#7FA8F2; --up:#F08A82; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#0E1318; --panel:#161D25; --ink:#E4E9EF; --muted:#97A3B2; --line:#2C3743;
+  --navy:#8DB2EA; --navy-ink:#0E1318; --wash:#1C2733; --down:#7FA8F2; --up:#F08A82; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7;margin:0}
+.wrap{max-width:820px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+header{background:var(--panel);border:1px solid var(--line);display:grid}
+.ticker{display:flex;flex-wrap:wrap;gap:4px 18px;padding:8px 16px;border-bottom:1px solid var(--line);font-family:var(--f-mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ticker span b{font-weight:600}
+.ticker .dn{color:var(--down)}
+.head{padding:16px 18px 18px;display:grid;gap:8px}
+.chan{font-size:12px;letter-spacing:.08em;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(20px,4.4vw,27px);line-height:1.35;margin:0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meta b{color:var(--ink);font-weight:700}
+nav{display:flex;flex-wrap:wrap;gap:6px}
+nav button{font:inherit;font-size:14px;font-weight:500;padding:8px 14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+nav button[aria-selected="true"]{background:var(--navy);color:var(--navy-ink);border-color:var(--navy)}
+nav button:focus-visible,.copy:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+section{display:grid;gap:14px}
+.block{background:var(--panel);border:1px solid var(--line);display:grid;min-width:0}
+.bh{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.bh h2{font-family:var(--f-display);font-size:15px;font-weight:700;margin:0}
+.bh small{display:block;font-size:12px;color:var(--muted);font-weight:400}
+.copy{font:inherit;font-size:13px;font-weight:500;padding:6px 12px;border:1px solid var(--navy);background:transparent;color:var(--navy);cursor:pointer;white-space:nowrap}
+.copy.done{background:var(--navy);color:var(--navy-ink)}
+.body{padding:14px 16px;min-width:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.body.mono{font-family:var(--f-mono);font-size:13.5px;line-height:1.75;font-variant-numeric:tabular-nums}
+.script p{margin:0 0 1em;max-width:65ch}
+.note{font-size:13px;color:var(--muted);padding:10px 14px;background:var(--wash);border-left:3px solid var(--up)}
+.dir{list-style:none;margin:0;padding:14px 16px;display:grid;gap:8px;font-size:14px}
+.rows{display:grid}
+.row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:start;padding:12px 14px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row div{min-width:0;overflow-wrap:anywhere}
+.row .t{font-weight:700}
+.row .n{font-size:13px;color:var(--muted)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;margin-left:6px;background:var(--navy);color:var(--navy-ink);vertical-align:2px}
+.row pre{margin:6px 0 0;font-family:var(--f-mono);font-size:12.5px;white-space:pre-wrap;color:var(--muted)}
+@media (max-width:480px){.row{grid-template-columns:1fr}.row .copy{justify-self:start}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="ticker" aria-label="이 편의 핵심 숫자">
+      <span>2026.03.04 코스피 <b class="dn">−12.06%</b></span>
+      <span>2017.09.04 6차 핵실험 뒤 <b class="dn">−1.19%</b></span>
+      <span>2009.05.25 장중 −6.31% → 종가 <b class="dn">−0.20%</b></span>
+    </div>
+    <div class="head">
+      <div class="chan">끌루 경제TV · nk-risk-market-price · 완성본</div>
+      <h1 id="title"></h1>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+  <nav role="tablist" aria-label="섹션">
+    <button role="tab" id="tab-upload" aria-selected="true" data-v="upload">업로드 정보</button>
+    <button role="tab" id="tab-thumb" aria-selected="false" data-v="thumb">썸네일 · 제목</button>
+    <button role="tab" id="tab-ts" aria-selected="false" data-v="ts">타임스탬프</button>
+    <button role="tab" id="tab-script" aria-selected="false" data-v="script">대본</button>
+  </nav>
+  <section id="v-upload"></section>
+  <section id="v-thumb" hidden></section>
+  <section id="v-ts" hidden></section>
+  <section id="v-script" hidden></section>
+</div>
+
+<script>
+const D = {"title": "\"최대 폭락은 이란이었다\" 북한 핵실험엔 -1%였던 한국 증시가 먼 전쟁에 무너진 진짜 이유", "desc": "#북한리스크, #코스피폭락, #이란전쟁, #북한핵실험, #코스피, #서킷브레이커, #환율, #국제유가, #호르무즈해협, #코리아디스카운트, #금값, #예금자보호, #전쟁과주식, #지정학리스크, #재테크\n\n코스피 역사상 하루 최대 폭락은 북한 때문이 아니었습니다. 북한 핵실험 날엔 많아야 2%대였던 한국 증시가 6천 km 넘게 떨어진 미국·이란 전쟁엔 하루 12% 넘게 무너진 이유, 그리고 전쟁 뉴스가 터진 날 내 돈을 지키는 기준을 짚습니다.\n\n📌 이 영상에서 다루는 내용\n· 국방비가 북한 1년 소득보다 큰 이유\n· 핵실험·연평도 날 코스피 실제 기록\n· 시장이 북한에 매겨 온 조용한 비용\n· 이란 전쟁이 한국을 흔든 세 갈래 길\n· 금값·예금자보호, 내 돈 체크리스트\n\n⏱ 타임스탬프\n00:00 역대 최대 폭락은 북한이 아니었다\n00:53 국방비가 북한 1년 소득보다 크다\n03:23 핵실험 날 코스피는 어땠나\n06:19 시장이 무덤덤해진 진짜 이유\n08:57 그래도 남는 조용한 비용\n10:58 정말 전면전이 나면\n13:11 먼 전쟁이 더 셌던 이유\n17:01 내 돈, 무엇이 지켜 주나\n20:49 전쟁 뉴스 터진 날의 기준\n\n※ 이 영상은 과거 사례를 정리한 정보이며, 특정 종목·자산의 매수나 매도를 권하지 않습니다.\n\n🔗 주요 출처\n\n데일리안 — 북한 3년 연속 3%대 성장…1인당 국민소득은 187만원 (한국은행 추정)\nhttps://www.dailian.co.kr/news/view/1673173\n\n이투데이 — 내년 국방예산 7.5% 늘어난 65.8조 확정\nhttps://www.etoday.co.kr/news/view/2532283\n\n경향신문 — 대북 리스크 국내 증시 영향은 제한적…\"반복된 이슈에 학습효과\"\nhttps://www.khan.co.kr/article/202211031638001\n\nBloomberg — Korea War Threatens Trillions for Global Economy (2024년 7월)\nhttps://www.bloomberg.com/graphics/2024-korea-war-threatens-trillions-for-global-economy/\n\n서울신문 — '검은 수요일'… 코스피, 역대 최대 낙폭\nhttps://m.seoul.co.kr/news/2026/03/04/20260304800004\n\n서울신문 — 환율, 17년 만에 장중 1500원 돌파\nhttps://m.seoul.co.kr/news/2026/03/17/20260317030004\n\n헤럴드경제 — \"금값의 배신, 전쟁나고 풀매수했는데 눈물\"…외려 17% 하락\nhttps://www.heraldk.com/article/2026032422112338645\n\n금융위원회 — 9월 1일부터 1억원까지 예금 보호\nhttps://www.fsc.go.kr/edu/news/85077\n\n이 외 60여 건의 기사·자료를 참고해 사실 확인을 거쳤습니다.\n\n🔔 숫자 뒤의 구조를 읽는 경제 이야기, 구독하고 다음 편도 함께 보세요.", "tags": "#북한리스크, #코스피, #이란전쟁, #북한핵실험, #코스피폭락, #서킷브레이커, #환율, #국제유가, #호르무즈해협, #코리아디스카운트, #금값, #예금자보호, #주식투자, #지정학리스크, #경제", "pin": "북한 뉴스나 전쟁 뉴스가 터진 날, 여러분은 주식을 어떻게 하셨나요? 파셨나요, 버티셨나요, 아니면 오히려 더 사셨나요? 그날의 선택을 한 줄로 남겨 주세요.", "titles": [{"t": "\"최대 폭락은 이란이었다\" 북한 핵실험엔 -1%였던 한국 증시가 먼 전쟁에 무너진 진짜 이유", "note": "「북한이 아니라 이란」 반전이 가장 세고, 훅 첫 문장(역대 최대 폭락)과 바로 이어집니다. 51자"}, {"t": "\"핵실험엔 -1%, 이란엔 -12%\" 북한 리스크에 한국 증시가 무덤덤했던 진짜 이유", "note": "숫자 대비를 제목에서 바로 보여 주고 싶을 때. 처음 기획의 제목 방향을 검증된 숫자(-12%)로 고친 버전"}, {"t": "\"장중 -6%, 종가 -0.2%\" 북한 뉴스 터진 날 주식 판 사람만 손해 본 진짜 이유", "note": "「내 돈」 쪽으로 더 끌고 싶을 때. 단, 대본 도입부는 이란 폭락으로 시작하므로 제목과 첫 장면이 조금 어긋납니다"}], "thumbs": ["\"북한이 아니라 이란?\" / 코스피 역대 최대 폭락의 진짜 범인", "\"하루에 12% 빠졌다!\" / 6천 km 밖 전쟁에 무너진 한국 증시", "\"핵실험엔 1%였다고?\" / 시장이 북한 리스크에 값 매기는 법"], "prompts": [{"d": "세계지도 위 작은 파란 화살표(한반도) vs 거대한 빨간 화살표(호르무즈 해협) ← 추천 (훅 장면)", "p": "Photorealistic bright 3D world map seen from slightly above, with the Korean Peninsula and the Middle East's Strait of Hormuz clearly visible across the upper half. A small blue downward arrow floats over the Korean Peninsula, while a massive glossy red downward arrow plunges dramatically over the Strait of Hormuz, towering over everything. Clean light sky-blue background, bright vibrant colors, high-key lighting, gold accent glow on the map edges, strong scale contrast between the tiny arrow and the giant arrow."}, {"d": "좌우 분할: 한반도 위 평평한 그래프 vs 유조선이 지나는 호르무즈 위 수직 낙하 그래프", "p": "Photorealistic split-screen composition in the upper half. On the left, a small model of the Korean Peninsula with a nearly flat blue stock chart line barely dipping above it. On the right, an oil tanker sailing through the Strait of Hormuz with a huge red stock chart line crashing straight down like a cliff. Bright vibrant colors, clean white background, high-key lighting, sky-blue and gold accents, crisp details readable at small size."}, {"d": "빨간 시세판 앞, 주식 앱을 들고 놀란 40대 직장인 얼굴", "p": "Photorealistic extreme close-up of an attractive Korean office worker in his 40s with a warm likeable face and an exaggerated shocked expression, eyes wide and mouth open, holding a smartphone showing a red stock trading app. Behind him, a huge stock exchange ticker board glows with rows of bright red falling numbers and downward arrows. Bright vibrant colors, high-key lighting, clean modern trading floor, oversized face filling the upper half of the frame."}, {"d": "밝은 사무실, 수직으로 떨어지는 코스피 차트를 보며 머리를 감싼 40대 여성", "p": "Photorealistic image of an attractive Korean woman in her 40s with a warm likeable face, both hands on her head in exaggerated disbelief, staring at a large computer monitor where a bright red stock index chart plunges vertically downward. Bright modern office with large windows showing a sunny Seoul skyline. Bright vibrant colors, high-key lighting, sky-blue and gold accents, subject large and clear in the upper half."}, {"d": "(자유안) 한 손엔 작은 한반도 모형, 다른 손엔 무거운 원유 드럼통", "p": "Photorealistic surreal studio shot of two hands held out side by side in the upper half: the left hand casually holds a tiny glowing gold model of the Korean Peninsula, while the right hand strains under a giant glossy black crude oil barrel overflowing with oil, with a red downward arrow stamped on it. Clean bright sky-blue background, high-key lighting, vivid saturated colors, strong exaggerated scale contrast, crisp and readable at thumbnail size."}], "direction": ["핵심 각도: 「가까운 북한이 더 무섭지 않나?」라는 상식을 「코스피 역사상 하루 최대 폭락(-12.06%)은 북한이 아니라 6천 km 넘게 떨어진 미국·이란 전쟁 때였다」는 사실로 뒤집고, 시장은 위험의 크기가 아니라 일어날 확률에 값을 매긴다는 걸 북한 도발 기록과 이란 전쟁으로 보여 줍니다.", "시청자에게 한 약속: 코스피가 가장 크게 무너진 날이 왜 북한 때문이 아니었는지 납득하고, 전쟁 뉴스가 터진 날 내 돈을 지키는 기준을 알게 됩니다.", "타겟 시청자: 2026년 3월 서킷브레이커 날 계좌를 보고 놀랐고, 북한 미사일 뉴스가 뜰 때마다 주식 앱을 열어 보는 40~60대 직장인 투자자", "핵심 메시지: 시장은 무서움이 아니라 확률에 값을 매긴다(리스크 = 확률 × 크기). 내 돈을 지키는 건 사재기가 아니라 충격이 와도 팔 일이 없는 구조다."], "ts": "00:00 역대 최대 폭락은 북한이 아니었다\n00:53 국방비가 북한 1년 소득보다 크다\n03:23 핵실험 날 코스피는 어땠나\n06:19 시장이 무덤덤해진 진짜 이유\n08:57 그래도 남는 조용한 비용\n10:58 정말 전면전이 나면\n13:11 먼 전쟁이 더 셌던 이유\n17:01 내 돈, 무엇이 지켜 주나\n20:49 전쟁 뉴스 터진 날의 기준", "script": "북한 미사일 속보가 뜬 날, 주식 앱을 열어 보신 적 있으세요? 생각보다 조용해서 놀라셨을 겁니다. 그런데 정작 코스피 역사상 하루 최대 폭락은 북한 때문이 아니었습니다. 2026년 3월 4일, 6천 킬로미터 넘게 떨어진 곳에서 터진 미국과 이란의 전쟁 때 하루 12.06%가 빠졌습니다. 북한 핵실험 날 코스피 종가는 많아야 2%대 하락이었습니다. 바로 옆 북한보다, 먼 나라 전쟁에 한국 시장이 훨씬 크게 흔들린 거예요. 이 차이가 왜 생겼는지 알면, 전쟁 뉴스가 터진 날 내 돈을 어떻게 지켜야 할지도 보입니다. 끝까지 보시면 그 기준을 아시게 될 거예요.\n\n시장이 북한을 얕봐서가 아닙니다. 가까워서 덜 무서운 것도 아닙니다. 시장은 위험이 얼마나 무서운지보다, 얼마나 일어날 것 같은지에 값을 매깁니다. 북한 도발은 정전 이후 70년 넘게 전면전으로 번지지 않았거든요. 그럼 그렇게 무덤덤하던 시장이, 먼 이란 전쟁엔 왜 이틀 만에 18%나 무너졌을까요?\n\n답을 찾으려면, 남과 북이 1년에 쓰고 버는 돈부터 확인하셔야 합니다.\n\n남과 북의 돈 숫자부터 보겠습니다. 2025년 12월, 국회가 2026년 국방예산을 확정했습니다. 65조 8,642억 원입니다. 1년 전보다 7.5% 늘어난 돈이에요. 북한 쪽은 한국은행이 2026년 7월에 내놓은 추정치가 있습니다. 북한의 2025년 명목 국민총소득은 48조 5,000억 원입니다. 명목 국민총소득은 한 나라 사람들이 1년 동안 번 돈 전체를 말해요.\n\n한국이 국방에만 쓰는 돈이, 북한이 1년 동안 버는 돈 전체보다 큽니다. 북한 경제는 한국의 약 56분의 1 크기입니다. 한 사람 몫으로 나누면 차이가 더 또렷합니다. 북한의 1인당 소득은 187만 원, 한국은 5,257만 원입니다. 약 28분의 1이에요. 한국 사람이 약 2주 동안 버는 돈을, 북한 사람은 1년 내내 버는 거예요. 북한 경제는 2025년에 3.5% 성장했습니다. 3년 연속 3%대 성장인데도 격차가 이 정도예요. 출발점 자체가 워낙 작거든요. 다만 한국은행 추정치는 남한 가격을 적용해 계산한 값입니다. 그래서 직접 비교는 참고용으로만 보셔야 해요.\n\n그렇다고 북한 위험이 작다는 뜻은 아닙니다. 스톡홀름국제평화연구소는 2026년 1월 기준 북한의 핵탄두를 약 60기로 추정했습니다. 1년 전 추정치 50기에서 10기가 늘었습니다. 한국은 0기입니다. 북한은 돈으로는 한참 작은 나라예요. 그런데 일이 터졌을 때 피해의 크기는 결코 작지 않습니다.\n\n결론부터 말씀드리겠습니다. 시장은 위험의 크기만 보지 않습니다. 시장이 매기는 위험의 값은 확률 곱하기 크기입니다. 일어나면 얼마나 큰가에, 실제로 일어날 가능성을 곱하는 거죠. 크기가 아무리 커도 일어날 확률을 낮게 보면, 값은 작게 매겨집니다. 북한 위험은 크기는 크지만 확률은 낮은 쪽으로 매겨져 왔습니다. 반대로 2026년 이란 전쟁은 일어날지 말지를 따질 단계가 아니었습니다. 이미 일어난 일이었거든요. 확률이 100%가 된 위험이었던 거죠. 이란 이야기는 뒤에서 자세히 짚겠습니다.\n\n시장이 북한 확률을 낮게 매기게 된 건 하루아침 일이 아닙니다. 20년 치 시장 기록이 있습니다.\n\n북한이 핵실험을 하거나 포격을 한 날, 그다음 거래일의 코스피만 따로 모아 봤습니다. 장면은 네 개입니다.\n\n첫 장면은 2006년 10월 9일, 북한의 1차 핵실험입니다. 코스피는 그날 2.41% 빠졌습니다. 그런데 다음 날 바로 올랐고, 5거래일 만에 원래 수준으로 돌아왔어요. 같은 날 코스닥은 8% 넘게 빠졌는데도요.\n\n두 번째 장면은 2009년 5월 25일, 2차 핵실험입니다. 이날 코스피는 장중 한때 6.31%까지 빠졌습니다. 그런데 장이 끝날 땐 0.20% 하락으로 마감했습니다. 장중에 6% 넘게 빠진 시장이, 마감 땐 0.2%만 내려와 있었던 거예요. 외국인과 기관 투자자가 떨어진 주식을 사들였기 때문입니다. 코스피는 그 뒤 사흘 동안 조금 더 밀렸습니다. 그리고 6거래일째에 핵실험 전 수준을 넘어섰어요.\n\n세 번째 장면은 2010년 11월 23일, 연평도 포격입니다. 포격 소식은 주식시장 마감 무렵에 전해졌습니다. 그래서 시장 반응은 다음 날 나왔습니다. 11월 24일 코스피는 2.33% 빠진 1,883으로 출발했습니다. 개장 10여 분 만에 1,900선을 되찾았고, 종가는 0.15% 하락이었습니다. 원달러 환율도 1,175원으로 크게 올라 출발했습니다. 그리고 4.8원 오른 1,142.3원에 마감했어요.\n\n네 번째 장면은 2017년 9월 3일 일요일, 6차 핵실험입니다. 이전 실험보다 위력이 10배 이상으로 추정됐던 실험이었어요. 핵실험 다음 거래일인 9월 4일, 코스피는 1.19% 내렸습니다. 장중엔 40포인트 넘게 빠지기도 했습니다. 원달러 환율도 장중 약 10원 뛰었어요. 그리고 코스피는 일주일 안에 낙폭을 되찾았습니다.\n\n여기서 문제가 하나 있습니다. 그날 겁이 나서 판 사람은 어떻게 됐을까요? 2009년 장중 바닥에서 주식을 판 사람은, 그 자리에서 손해를 확정했습니다. 몇 시간 뒤 시장은 거의 제자리로 돌아왔어요. 그런데 이미 판 사람의 손실은 되돌릴 수 없었던 거죠.\n\n반대로 위험 소식이 났는데 주가가 오른 날도 있습니다. 2017년 9월 15일, 북한이 그해 23번째 미사일을 쏜 날입니다. 코스피는 0.39% 내린 채 출발했습니다. 그런데 0.35% 오른 2,386으로 장을 마쳤습니다. 같은 날 일본 닛케이 지수도 0.52% 올랐습니다. 미사일 발사 소식이 나온 날, 한국 증시는 오히려 올랐던 겁니다.\n\n2017년 그 가을, 여러분 계좌는 어땠는지 기억나세요? 대부분은 일주일만 지나면 원래 자리였습니다. 우리는 이걸 북한 뉴스는 원래 그렇다면서 넘깁니다. 그런데 증권가에는 이 현상을 부르는 이름이 따로 있습니다.\n\n증권가는 북한 뉴스에 시장이 무덤덤해진 현상을 학습 효과라고 부릅니다. 같은 종류의 도발이 반복되면서, 시장이 다음 장면을 미리 예상하게 됐다는 뜻이에요. 처음 겪는 일엔 놀랍니다. 그런데 같은 일이 스무 번 넘게 되풀이되면, 그 뒤에 무슨 일이 이어지는지 알게 되는 거죠.\n\n2017년 9월, 한국투자증권 연구원은 그해 북한 미사일 발사가 23번째라고 짚었습니다. 도발이 반복될수록 시장의 반응이 작아졌다는 분석이었습니다. 2010년 연평도 포격 다음 날에도 같은 모습이 나왔습니다. 오전 9시 10분 기준, 외국인은 한국 주식 2,450억 원어치를 순매수하고 있었습니다. 순매수는 산 돈이 판 돈보다 많다는 뜻이에요. 연기금을 중심으로 기관도 주식을 샀어요. 신용평가회사 무디스는 한국 신용등급을 바꾸지 않는다고 발표했습니다.\n\n다만 북한 때문에 빠졌다가 회복했다는 설명도 반쪽입니다. 도발이 있던 날엔 다른 일도 겹쳐 있었거든요. 2006년 1차 핵실험 날은 추석 연휴가 끝나고 처음 열린 거래일이었습니다. 2010년 연평도 포격 무렵엔 유럽 아일랜드의 재정 불안이 세계 증시를 함께 누르고 있었습니다. 2017년 여름 외국인 매도에도 다른 이유가 섞여 있었습니다. 외국인은 2017년 상반기에 한국 주식을 9조 원 넘게 사들였습니다. 그 뒤 차익을 챙긴 몫이 매도에 들어 있었던 겁니다. 그날의 하락이 전부 북한 몫은 아니었다는 얘기죠.\n\n시장이 실제로 보는 건 도발이 있었느냐가 아닙니다. 이 도발이 전면전으로 번지느냐입니다. 작은 충돌이 큰 전쟁으로 번지는 걸 확전이라고 해요. 1953년 7월 정전협정이 맺어진 뒤로 크고 작은 도발은 셀 수 없이 많았습니다. 그런데 전면전으로 번진 적은 한 번도 없었어요. 앞에서 말씀드린 공식에서 확률 쪽이 바로 이 기록입니다.\n\n그렇다고 시장이 모든 도발을 똑같이 넘기는 건 아닙니다. 한국투자증권 분석은 종류가 다른 도발이면 시장이 크게 흔들릴 수 있다고 봤습니다. 잠수함에서 쏘는 탄도미사일이나, 미국 괌 근처를 향한 발사 같은 경우입니다. 시장은 도발의 횟수가 아니라 종류를 구분해서 값을 매기는 겁니다.\n\n여러분도 북한 뉴스 제목만 보고 또야, 하신 적 있으시죠? 시장도 똑같이 반응한 겁니다. 그럼 시장은 북한 위험을 공짜로 넘겨 왔을까요? 아닙니다. 매일 조금씩 내는 돈이 있습니다.\n\n국가 부도 위험 보험료라는 숫자가 있습니다. 한국 정부가 빚을 못 갚을 경우에 대비해, 투자자들이 내는 보험료를 말해요. 한국이 위험해 보이면 이 보험료가 오르고, 안정돼 보이면 내려갑니다. 그러니까 해외 투자자들이 한국을 얼마나 불안하게 보는지가 이 숫자에 그대로 나오는 거죠.\n\n2017년 북핵 위기 때 국가 부도 위험 보험료는 9월 26일, 1년 7개월 만에 가장 높이 올랐습니다. 그해 11월 수준은 이후 5년 동안 한 번도 다시 넘지 않았습니다. 같은 시기 외국인은 7월부터 9월까지 석 달 연속 한국 주식을 팔았습니다. 석 달 동안 판 돈이 산 돈보다 4조 300억 원 많았어요. 무디스는 긴장이 계속되면 한국 신용등급을 낮출 수 있다고 경고했습니다.\n\n여기서 문제가 드러납니다. 주가는 일주일 만에 돌아와도, 흔적은 다른 곳에 남습니다. 한 곳은 한국이 돈을 빌릴 때 드는 값입니다. 다른 한 곳은 외국인 돈이 들어오고 나가는 흐름입니다.\n\n증권가에는 코리아 디스카운트라는 말이 있습니다. 한국 회사가 같은 실적의 외국 회사보다 싸게 거래되는 현상을 말해요. 북한 위험은 그 이유 가운데 하나로 꼽힙니다. 그런데 NH투자증권 연구원은 한국 증시가 싼 이유로 지정학보다 지배구조 문제가 더 많이 거론된다고 짚었습니다. 지배구조는 회사를 누가 어떻게 운영하고, 일반 주주를 어떻게 대하느냐의 문제예요. 북한이 코리아 디스카운트의 전부는 아니라는 겁니다.\n\n그러니까 북한 위험은 터지는 날 한 번에 내는 돈이 아닙니다. 한국이 돈을 빌리는 값과 한국 주식 값에 평소에도 조금씩 붙어 있습니다. 코리아 디스카운트는 우리가 평소에 조금씩 내는 보험료인 셈이죠. 여기까지가 확률 쪽 이야기였습니다. 이제 크기 쪽을 보겠습니다. 정말 최악이라면, 얼마나 클까요?\n\n블룸버그 이코노믹스가 2024년 7월에 낸 추정이 있습니다. 블룸버그 이코노믹스는 미국 경제 매체 블룸버그의 경제 분석 조직이에요. 이 조직은 한반도에서 전면전이 벌어지면, 첫해에 세계 경제가 얼마를 잃는지 계산했습니다.\n\n세계 경제의 손실은 약 4조 달러로 추정됐습니다. 세계 GDP의 3.9%입니다. 러시아의 우크라이나 침공 피해의 두 배가 넘는 크기예요. 한국 GDP는 37.5% 줄어든다는 추정이었습니다. 한국 경제 열 가운데 네 가까이가 첫해에 사라지는 크기예요.\n\n피해가 한국에서 끝나지 않는 이유도 있습니다. 한국은 세계 메모리 반도체의 약 40%를 만듭니다. 휴대폰과 컴퓨터, 데이터센터에 들어가는 메모리가 한꺼번에 막히는 거죠. 세계 공장에서 쓰는 전자부품의 약 4%도 한국에서 나가요. 한국 공장이 멈추면, 그 부품을 기다리던 다른 나라 공장도 같이 멈추는 겁니다. 그래서 같은 추정에서 중국 경제는 5%, 미국은 2.3% 안팎 줄어드는 것으로 나왔습니다.\n\n그런데 블룸버그는 같은 보고서에서, 이런 전쟁이 일어날 가능성은 매우 낮다고 스스로 밝혔습니다. 결과도 어떤 가정을 넣느냐에 따라 크게 달라지는 추정이에요. 같은 분석에서 충돌이 한정된 지역에서 그치면 충격도 훨씬 작다고 봤습니다. 전쟁 없이 북한 내부가 무너지는 경우도 계산했는데, 한국 경제 감소폭은 2.5%였어요. 전면전의 크기는 차원이 다르게 큽니다. 하지만 일어날 확률은 매우 낮다는 거죠. 앞에서 말씀드린 공식의 크기 쪽이 이 숫자입니다. 아주 큰 크기에 아주 낮은 확률을 곱하니, 시장이 북한에 매긴 값이 작게 나오는 겁니다.\n\n그러니까 북한 뉴스를 들으시면, 두 가지를 따로 물어보세요. 일어나면 얼마나 큰가, 그리고 일어날 가능성은 얼마나 되나. 시장은 늘 그 둘을 곱해서 봅니다. 그런데 2026년 2월 말, 확률이 정말 100%가 된 전쟁이 터졌습니다. 다만 한반도가 아니라 6천 킬로미터 넘게 떨어진 곳이었습니다.\n\n2026년 2월 28일, 미국과 이스라엘이 이란을 공격했습니다. 직전 거래일인 2월 27일 코스피는 6,244였습니다. 개전 뒤 첫 거래일인 3월 3일, 코스피는 7.24% 빠진 5,791로 마감했습니다. 다음 날인 3월 4일엔 12.06%가 더 빠져 5,093까지 내려왔습니다. 코스피 역사상 하루 최대 하락률입니다. 이날 오전 서킷브레이커가 걸렸습니다. 서킷브레이커는 주가가 너무 급하게 빠질 때 거래를 잠시 멈추는 장치예요. 이날 거래는 20분 동안 멈췄습니다. 이틀 만에 전쟁 전보다 약 18%가 사라진 거예요.\n\n한국 돈이 빠져나간 길은 세 갈래였습니다.\n\n첫째, 기름입니다. 2025년 한국이 들여온 원유의 약 70%가 중동산이었습니다. 그 중동산 원유의 95% 이상이 호르무즈 해협을 지나 들어옵니다. 호르무즈 해협은 이란 남쪽, 중동 산유국들의 기름이 바깥 바다로 나가는 좁은 바닷길이에요. 전쟁으로 그 바닷길이 막혔습니다. 3월 12일, 국제유가 기준인 브렌트유는 배럴당 100달러를 넘었습니다. 3년 7개월 만이었습니다.\n\n둘째, 환율입니다. 원달러 환율은 3월 3일 하루에만 26.4원 올라 1,466.1원이 됐습니다. 3월 16일엔 17년 만에 장중 1,500원을 넘었습니다. 6월 4일엔 1,530원대에서 거래를 시작했는데, 글로벌 금융위기 이후 가장 높은 출발이었어요. 환율이 오르면 같은 원유를 사 오는 데도 원화가 더 듭니다.\n\n셋째, 외국인 돈입니다. 외국인은 3월 3일 하루에만 한국 주식을 약 5조 2천억 원어치 순매도했습니다. 2026년 1월 초 외국인은 코스피 주식의 37.18%를 들고 있었습니다. 한국 주식 열 주 가운데 서너 주가 외국인 몫이었던 거죠. 그 외국인들이 한꺼번에 팔면 지수가 버티기 어려워요. 매도는 그 뒤에도 이어졌고, 5월 7일부터는 19거래일 연속으로 팔았습니다.\n\n여기서 북한 도발과의 차이가 보입니다. 북한 도발은 이 세 갈래를 이란 전쟁만큼 세게 건드리지 않았습니다. 연평도 포격 다음 날 환율은 4.8원 오르는 데 그쳤어요. 이란 전쟁 첫 거래일엔 하루에 26.4원이 올랐습니다. 이란 전쟁은 일어날지 말지의 문제가 아니었습니다. 이미 일어났고, 한국으로 들어오는 원유 뱃길을 막고, 환율과 외국인 매도를 한꺼번에 흔들었습니다.\n\n처음에 드렸던 질문으로 돌아가 보겠습니다. 그럼 그렇게 무덤덤하던 시장이, 먼 이란 전쟁엔 왜 이틀 만에 18%나 무너졌을까요? 확률이 이미 100%였기 때문입니다. 그리고 그 크기가 기름과 환율, 외국인 돈이라는 실제 경로로 한국에 들어왔기 때문입니다. 시장을 흔든 건 거리가 아니라 경로였습니다.\n\n그런데 그 폭락도 오래가지는 않았습니다. 4월 16일 코스피는 6,226으로 마감했습니다. 최대 폭락 약 6주 뒤, 전쟁 전 수준으로 돌아온 겁니다. 다만 지수가 전쟁 전 수준을 되찾았을 무렵에도, 상장사 열 곳 가운데 여섯은 여전히 전쟁 전보다 주가가 낮았습니다. 그리고 3월 4일에 겁이 나서 판 사람은, 이 회복을 자기 계좌에서 보지 못했습니다.\n\n2026년 4월, 주유소 가격판 보고 멈칫하신 적 있으세요? 4월 17일, 전국 평균 휘발유 값이 리터당 2,000원에 올라섰습니다. 약 3년 9개월 만이었어요. 2026년 4월 소비자물가는 1년 전보다 2.6% 올라, 21개월 만에 가장 크게 뛰었습니다. 6천 킬로미터 밖 전쟁은 이렇게 여러분 지갑까지 들어왔습니다.\n\n주식 계좌를 가진 직장인이라면, 2026년 3월 4일의 계좌 화면을 기억하실 겁니다. 예금만 하시는 분도 예외는 아닙니다. 환율과 물가가 오르면 같은 돈으로 살 수 있는 게 줄어드니까요. 은퇴 자금을 굴리시는 분은 연금 계좌 수익률에서 그 흔들림을 보셨을 겁니다. 해외여행이나 해외 직구를 하시는 분은 2026년 3월부터 6월 사이, 환율 1,500원대를 결제 금액으로 겪으셨을 거고요. 지금까지 본 시장 기록은 결국 여러분 통장 이야기입니다.\n\n여기서 끝내면 반쪽입니다. 다음 충격이 어디서 올지 미리 맞히면 되지 않느냐는 생각이 드실 수 있어요. 그런데 그게 되지 않습니다. 코스피는 이란 전쟁 뒤 회복을 넘어, 2026년 6월 22일 종가 9,114로 사상 최고치를 찍었습니다. 그리고 2026년 11월 6일, 하루에 6.02%가 빠지며 5,059까지 내려왔습니다. 고점에서 44% 넘게 떨어진 거예요. 11월 6일 하루 급락의 원인은 전쟁도, 북한도 아니었습니다. 미국 반도체 주식의 급락이었습니다. 2026년 11월 6일의 서킷브레이커는 그해 들어 11번째였습니다. 충격은 어디서든 옵니다. 그러니 답은 다음 충격을 맞히는 데 있지 않습니다. 충격을 맞은 날에도 버틸 수 있게 돈을 나눠 두는 데 있습니다.\n\n그런데 충격에 대비한다면서 엉뚱한 곳으로 가는 경우가 많습니다. 대표적인 게 금에 대한 믿음, 그리고 예금자보호에 대한 오해입니다.\n\n전쟁이 나면 금값은 무조건 오른다는 말이 있습니다. 그건 사실이 아닙니다. 2026년 이란 전쟁 때 국제 금값은 3월 하순까지 개전 직전보다 약 17% 떨어졌습니다. 3월 셋째 주 한 주에만 약 11%가 빠졌는데, 1983년 이후 가장 큰 주간 하락이었습니다. 국내 순금 한 돈 값도 110만 원대에서 3월 23일 90만 7천 원까지 내려왔습니다. 이유는 두 가지였습니다. 하나는 금리입니다. 유가가 오르면 금리가 오를 거라는 걱정이 커지는데, 금은 이자가 붙지 않는 자산이거든요. 다른 하나는 현금입니다. 급하게 현금이 필요해진 큰 투자자들이 금부터 판 거죠. 2022년 러시아의 우크라이나 침공 때도 금값은 처음 몇 주 오르다가, 4월부터 10월까지 일곱 달 연속 떨어졌습니다. 하지만 그렇다고 이 숫자가 가벼워지는 건 아니에요. 전쟁이 났다고 늘 오르는 자산은 없다는 뜻이니까요.\n\n예금자보호도 바로잡아야 합니다. 2025년 9월 1일부터 예금자보호 한도가 1억 원으로 올랐습니다. 5,000만 원에서 24년 만에 오른 거예요. 금융회사 한 곳마다 한 사람 기준으로, 원금과 이자를 합쳐 1억 원까지입니다. 동네 농협이나 신협 같은 상호금융도 1억 원입니다. 같은 금융회사 안의 퇴직연금과 연금저축은 일반 예금과 따로 각각 1억 원까지 보호됩니다. 다만 예금자보호는 금융회사가 문을 닫을 때 예금을 대신 돌려주는 제도입니다. 전쟁이나 주가 폭락을 막아 주는 장치가 아닙니다. 펀드처럼 실적에 따라 돌려받는 돈이 바뀌는 상품은 보호 대상도 아닙니다.\n\n여러분 통장 하나 떠올려 보세요. 어느 날 주가가 하루에 12% 빠져도, 이번 달 생활비 때문에 주식을 팔아야 하는 상황인가요? 2009년 장중 바닥에서 판 사람, 2026년 3월 4일에 판 사람이 있습니다. 이분들이 손해를 확정한 건 예측이 틀려서가 아니었습니다. 그날 팔았기 때문입니다. 겁이 나서든, 당장 돈이 필요해서든요.\n\n북한 도발은 70년 넘게 전면전으로 번지지 않았고, 그래서 시장은 그 확률을 낮게 매겼고, 그 결과 핵실험 날엔 많아야 2%대, 확률이 100%가 되고 기름과 환율의 길을 막은 이란 전쟁엔 하루 12%가 빠졌습니다.\n\n처음에 말씀드린 기준은 이거예요. 전쟁 뉴스가 터진 날, 무엇을 살까보다 먼저 나는 오늘 팔아야 하는 사람인가를 보는 겁니다. 이 질문에 아니라고 답할 수 있게 해 두는 방법은 두 가지입니다. 첫째, 생활비 몇 달 치는 주식과 따로 둡니다. 예금자보호 한도 안에서, 금융회사를 나눠 넣어 두면 됩니다. 그러면 주가가 하루에 12% 빠진 날에도 생활비 때문에 주식을 팔 일이 없습니다. 둘째, 한 자산, 한 나라에 몰아 두지 않습니다. 2026년 한 해만 봐도 충격은 전쟁에서도 오고, 미국 반도체 주식에서도 왔습니다. 어디서 오든 가진 돈이 한꺼번에 다 흔들리지 않게 나눠 두는 거예요.\n\n제가 보기엔, 무서운 뉴스보다 일어날 확률과, 그 일이 기름값, 환율로 내 지갑까지 오는지를 보는 사람이 덜 잃습니다. 위험의 값은 확률 곱하기 크기입니다. 그리고 공포에 팔면, 그 순간 손해가 확정됩니다.\n\n여러분은 북한 뉴스나 전쟁 뉴스가 나온 날, 주식을 어떻게 하셨나요? 그날 파셨나요, 버티셨나요, 아니면 오히려 더 사셨나요? 그 한 줄들이 모이면, 다음 충격이 온 날 누군가에게 가장 정직한 기록이 됩니다.\n\n오늘 이야기는 어떠셨나요?\n\n결과에는 언제나 이유가 있습니다.\n\n알고 나면, 세상이 다르게 보입니다.\n\n세상의 이유였습니다.", "nchars": 9773, "chapters": 9};
+const $ = (s) => document.querySelector(s);
+const esc = (s) => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CLIP = [];
+function copyBtn(text, label){ CLIP.push(text); return `<button class="copy" data-i="${CLIP.length-1}">${label||"복사"}</button>`; }
+function block(h, sub, text, opts={}){
+  return `<div class="block"><div class="bh"><h2>${h}${sub?`<small>${sub}</small>`:""}</h2>${copyBtn(text)}</div><div class="body${opts.mono?" mono":""}">${esc(text)}</div></div>`;
+}
+$("#title").textContent = D.title;
+$("#meta").innerHTML = `<span>글자수 <b>${D.nchars.toLocaleString()}자</b></span><span>예상 분량 <b>약 ${Math.round(D.nchars/430)}분</b> (430자/분)</span><span>챕터 <b>${D.chapters}개</b></span>`;
+
+$("#v-upload").innerHTML =
+  block("제목", "유튜브 제목 칸", D.title) +
+  block("설명글", "키워드·요약·다루는 내용·타임스탬프·출처까지 통째로", D.desc) +
+  block("태그", "태그 칸", D.tags) +
+  block("고정 댓글", "업로드 직후 직접 다는 첫 댓글", D.pin) +
+  `<div class="note">설명글 안의 타임스탬프는 대본 분량으로 계산한 추정치입니다. 영상이 완성되면 "타임스탬프 채워줘"로 실측 교체한 뒤 올리세요.</div>`;
+
+$("#v-thumb").innerHTML =
+  `<div class="block"><div class="bh"><h2>이 영상의 방향</h2></div><ul class="dir">${D.direction.map(d=>`<li>${esc(d)}</li>`).join("")}</ul></div>` +
+  `<div class="block"><div class="bh"><h2>제목 후보</h2></div><div class="rows">${D.titles.map((t,i)=>`<div class="row"><div><div class="t">${esc(t.t)}${i===0?'<span class="tag">추천</span>':""}</div><div class="n">${esc(t.note)}</div></div>${copyBtn(t.t)}</div>`).join("")}</div></div>` +
+  `<div class="block"><div class="bh"><h2>썸네일 문구<small>1행 형광 노랑 · 2행 하늘색, 둘 다 검정 외곽선</small></h2></div><div class="rows">${D.thumbs.map((t,i)=>`<div class="row"><div class="t">${esc(t)}${i===0?'<span class="tag">추천</span>':""}</div>${copyBtn(t)}</div>`).join("")}</div></div>` +
+  `<div class="block"><div class="bh"><h2>썸네일 이미지 프롬프트<small>ChatGPT·Gemini 등에 하나씩 붙여넣기</small></h2></div><div class="rows">${D.prompts.map((p,i)=>`<div class="row"><div><div class="t">${i+1}번 — ${esc(p.d)}</div><pre>${esc(p.p)}</pre></div>${copyBtn(p.p)}</div>`).join("")}</div></div>`;
+
+$("#v-ts").innerHTML = block("챕터 목록", "04_타임스탬프.txt", D.ts, {mono:true}) +
+  `<div class="note">이 시각은 추정치입니다. 영상 완성 후 "타임스탬프 채워줘"로 실측 교체하세요.</div>`;
+
+$("#v-script").innerHTML = `<div class="block"><div class="bh"><h2>대본 전문<small>01_대본.txt · 영상 제작 사이트 업로드용</small></h2>${copyBtn(D.script,"전문 복사")}</div><div class="body script" style="white-space:normal">${D.script.split(/\n\s*\n/).map(p=>`<p>${esc(p)}</p>`).join("")}</div></div>`;
+
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest(".copy"); if (!b) return;
+  const text = CLIP[+b.dataset.i];
+  const done = () => { const o=b.textContent; b.textContent="복사됨"; b.classList.add("done"); setTimeout(()=>{b.textContent=o;b.classList.remove("done")},1400); };
+  try { await navigator.clipboard.writeText(text); done(); }
+  catch { const ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");done();}catch{} ta.remove(); }
+});
+document.querySelectorAll("nav button").forEach(btn => btn.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x===btn));
+  ["upload","thumb","ts","script"].forEach(v => $("#v-"+v).hidden = v!==btn.dataset.v);
+}));
+</script>

@@ -1,0 +1,127 @@
+<title>프랑스를 제쳤다</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;700;800&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: 수출 통계표 같은 단일 칼럼 작업대 — 수치 띠 헤더(3.99달러 / 17억 vs 12억 / 114억), 탭 4개, 블록마다 복사 버튼 */
+:root{
+  --ground:#EEF1F5; --panel:#FFFFFF; --ink:#141B24; --muted:#5B6676; --line:#D3DAE3;
+  --navy:#183B6B; --navy-ink:#FFFFFF; --wash:#E3EAF4; --down:#1F5FD1; --up:#C8322B;
+  --f-display:"Gothic A1","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-body:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,"Malgun Gothic",monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ground:#0E1318; --panel:#161D25; --ink:#E4E9EF; --muted:#97A3B2; --line:#2C3743;
+  --navy:#8DB2EA; --navy-ink:#0E1318; --wash:#1C2733; --down:#7FA8F2; --up:#F08A82; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ground:#0E1318; --panel:#161D25; --ink:#E4E9EF; --muted:#97A3B2; --line:#2C3743;
+  --navy:#8DB2EA; --navy-ink:#0E1318; --wash:#1C2733; --down:#7FA8F2; --up:#F08A82; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7;margin:0}
+.wrap{max-width:820px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+header{background:var(--panel);border:1px solid var(--line);display:grid}
+.ticker{display:flex;flex-wrap:wrap;gap:4px 18px;padding:8px 16px;border-bottom:1px solid var(--line);font-family:var(--f-mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ticker span b{font-weight:600}
+.ticker .dn{color:var(--down)}
+.head{padding:16px 18px 18px;display:grid;gap:8px}
+.chan{font-size:12px;letter-spacing:.08em;color:var(--muted)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(20px,4.4vw,27px);line-height:1.35;margin:0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meta b{color:var(--ink);font-weight:700}
+nav{display:flex;flex-wrap:wrap;gap:6px}
+nav button{font:inherit;font-size:14px;font-weight:500;padding:8px 14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+nav button[aria-selected="true"]{background:var(--navy);color:var(--navy-ink);border-color:var(--navy)}
+nav button:focus-visible,.copy:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+section{display:grid;gap:14px}
+.block{background:var(--panel);border:1px solid var(--line);display:grid;min-width:0}
+.bh{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.bh h2{font-family:var(--f-display);font-size:15px;font-weight:700;margin:0}
+.bh small{display:block;font-size:12px;color:var(--muted);font-weight:400}
+.copy{font:inherit;font-size:13px;font-weight:500;padding:6px 12px;border:1px solid var(--navy);background:transparent;color:var(--navy);cursor:pointer;white-space:nowrap}
+.copy.done{background:var(--navy);color:var(--navy-ink)}
+.body{padding:14px 16px;min-width:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.body.mono{font-family:var(--f-mono);font-size:13.5px;line-height:1.75;font-variant-numeric:tabular-nums}
+.script p{margin:0 0 1em;max-width:65ch}
+.note{font-size:13px;color:var(--muted);padding:10px 14px;background:var(--wash);border-left:3px solid var(--up)}
+.dir{list-style:none;margin:0;padding:14px 16px;display:grid;gap:8px;font-size:14px}
+.rows{display:grid}
+.row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:start;padding:12px 14px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row div{min-width:0;overflow-wrap:anywhere}
+.row .t{font-weight:700}
+.row .n{font-size:13px;color:var(--muted)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;margin-left:6px;background:var(--navy);color:var(--navy-ink);vertical-align:2px}
+.row pre{margin:6px 0 0;font-family:var(--f-mono);font-size:12.5px;white-space:pre-wrap;color:var(--muted)}
+@media (max-width:480px){.row{grid-template-columns:1fr}.row .copy{justify-self:start}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="ticker" aria-label="이 편의 핵심 숫자">
+      <span>2023.08 트레이더조 냉동김밥 <b>3.99달러 · 250톤</b></span>
+      <span>2024 미국 수입 화장품 한국 <b>17억 100만</b> vs 프랑스 <b>12억 6,300만 달러</b></span>
+      <span>2025 화장품 수출 <b>114억 달러</b> (잠정)</span>
+    </div>
+    <div class="head">
+      <div class="chan">끌루 경제TV · us-home-korean-habits · 완성본</div>
+      <h1 id="title"></h1>
+      <div class="meta" id="meta"></div>
+    </div>
+  </header>
+  <nav role="tablist" aria-label="섹션">
+    <button role="tab" id="tab-upload" aria-selected="true" data-v="upload">업로드 정보</button>
+    <button role="tab" id="tab-thumb" aria-selected="false" data-v="thumb">썸네일 · 제목</button>
+    <button role="tab" id="tab-ts" aria-selected="false" data-v="ts">타임스탬프</button>
+    <button role="tab" id="tab-script" aria-selected="false" data-v="script">대본</button>
+  </nav>
+  <section id="v-upload"></section>
+  <section id="v-thumb" hidden></section>
+  <section id="v-ts" hidden></section>
+  <section id="v-script" hidden></section>
+</div>
+
+<script>
+const D = {"title": "\"프랑스를 제쳤다\" 미국 가정집을 바꾼 한국 일상 5가지, 한국이 실제로 번 돈", "desc": "#K뷰티, #K푸드, #화장품수출, #한국화장품, #냉동김밥, #트레이더조, #고추장, #비데, #신발벗기, #라면수출, #김수출, #미국관세, #301조, #한류, #수출경제\n\n3.99달러짜리 한국 냉동김밥부터 미국 수입 화장품 1위까지. 고추장, 김밥, 비데, 신발 벗는 습관, 화장품 다섯 가지 한국 일상이 미국 집에 들어가 실제로 얼마의 수출이 됐는지, 그리고 그 돈을 흔들 미국 관세 변수를 숫자로 짚습니다.\n\n📌 이 영상에서 다루는 내용\n· 트레이더조 우승 디저트 속 고추장\n· 80여 명 회사의 냉동김밥 250톤\n· 미국 수입 화장품, 프랑스를 넘다\n· 중국의 빈자리를 채운 미국과 유럽\n· 다음 변수, 미국 관세 12.5%\n\n⏱ 타임스탬프\n00:00 3.99달러 김밥이 동난 이유\n00:51 5위 고추장, 우승 디저트의 비밀 재료\n03:30 4위 냉동김밥, 80여 명 회사의 250톤\n06:35 3위 비데, 휴지 사재기가 연 시장\n08:59 2위 신발 벗기, 조사가 말해 주는 것\n11:58 1위 K뷰티, 미국 통계가 확인한 1위\n15:30 중국의 빈자리를 채운 곳\n18:48 다음 과제는 관세\n21:45 우리 집 물건이 상품이 되기까지\n\n※ 이 영상은 공개된 통계와 보도를 정리한 정보이며, 특정 기업·종목의 매수나 매도를 권하지 않습니다.\n\n🔗 주요 출처\n\nSBS Biz — 한국 화장품, 미국서 프랑스 제쳤다\nhttps://biz.sbs.co.kr/amp/article/20000225766\n\n한국경제 — '25년 화장품 무역수지 흑자 첫 100억 달러 돌파, 세계 2위 화장품 수출국 달성\nhttps://www.hankyung.com/article/202605223403P\n\nCNC News — 10월 화장품 수출, 14억달러(+58%)... 누계 126억달러로 작년 실적(114억) 초과\nhttps://www.cncnews.co.kr/news/article.html?no=11387\n\n농림축산식품부 — 2025년 K-푸드+ 수출 실적 (2026년 1월)\nhttps://www.mafra.go.kr/bbs/home/792/576527/artclView.do\n\n데일리안 — 고추장·간장 국경 넘다…K-소스 수출 지도 커진다\nhttps://www.dailian.co.kr/news/view/1680662\n\n애틀랜타중앙일보 — 250t 순식간에 완판…트레이더조 화제의 '냉동김밥' 비법은\nhttps://www.atlantajoongang.com/68285\n\nCBS News — Most Americans are \"shoes off\" at home\nhttps://www.cbsnews.com/news/most-americans-are-shoes-off-at-home\n\n국회도서관 국가전략정보포털 — 미국, 60개국 대상 무역법 301조 관세 부과…한국 합산 12.5%\nhttps://nsp.nanet.go.kr/trend/latest/detail.do?latestTrendControlNo=TREN0000004253\n\n이 외 30여 건의 기사·자료를 참고해 사실 확인을 거쳤습니다.\n\n🔔 숫자 뒤의 구조를 읽는 경제 이야기, 구독하고 다음 편도 함께 보세요.", "tags": "#K뷰티, #K푸드, #화장품수출, #한국화장품, #수출, #냉동김밥, #트레이더조, #고추장, #비데, #신발벗기, #라면수출, #미국관세, #한류, #한국경제, #경제", "pin": "여러분 집에서 '이건 외국에서도 팔리겠다' 싶은 물건, 뭐가 있나요? 전기밥솥, 김치냉장고, 때밀이 수건, 보리차… 우리 집 물건 하나만 댓글로 남겨 주세요.", "titles": [{"t": "\"프랑스를 제쳤다\" 미국 가정집을 바꾼 한국 일상 5가지, 한국이 실제로 번 돈", "note": "미국 통계(2024·2025년 미국 수입 화장품 1위 한국)로 증명되는 「프랑스 추월」이 클릭 힘이 가장 셉니다. 44자"}, {"t": "\"3.99달러 김밥이 시작\" 미국 가정집을 바꾼 한국 일상 5가지, 한국이 실제로 번 돈", "note": "훅 첫 장면(김밥)과 제목을 똑같이 맞추고 싶을 때. 49자"}, {"t": "\"반도체가 아니었다\" 미국 가정집에 들어간 한국 일상 5가지, 한국이 실제로 번 돈", "note": "「한국은 반도체밖에 없다」는 통념을 뒤집는 쪽으로 끌고 싶을 때. 단, 다섯 가지 합이 반도체보다 크다는 뜻으로 읽히지 않게 주의"}], "thumbs": ["\"김밥이 동났다고?\" / 미국 가정집을 바꾼 한국 일상 5가지", "\"250톤이 그냥 팔렸다\" / 미국 마트가 놀란 한국 냉동김밥", "\"고추장부터 비데까지\" / 미국 가정집에 들어간 한국 습관 5가지"], "prompts": [{"d": "텅 빈 미국 마트 냉동고, 마지막 한국 김밥을 든 놀란 미국인 ← 추천 (훅 장면)", "p": "Photorealistic bright American supermarket frozen food aisle with glass freezer doors, the shelves almost completely empty. In the upper half, an attractive American woman in her 30s with a warm likeable face and an exaggerated surprised expression, eyes wide and mouth open, holds up the very last bag of Korean frozen gimbap rice rolls, looking at it. A small price tag reading $3.99 is visible on the empty shelf. Bright vibrant colors, high-key lighting, clean light background, sky-blue and gold accents."}, {"d": "마지막 김밥 봉지를 향해 동시에 손을 뻗는 두 쇼핑객", "p": "Photorealistic scene in a brightly lit American grocery store: two American shoppers, a man and a woman with exaggerated surprised faces, both reaching at the same time for the last package of Korean frozen gimbap inside an almost empty freezer case. The empty shelves and the single colorful gimbap package fill the upper half of the frame. Bright vibrant colors, high-key lighting, clean white and sky-blue tones with gold highlights."}, {"d": "금빛으로 빛나는 한국 화장품을 바라보는 미국인 가족 + 원형 인셋 4컷", "p": "Photorealistic bright American suburban kitchen. In the center of the upper half, a group of Korean skincare bottles and jars on the table glows with a warm golden light. An American family of three, parents and a teenage daughter, with exaggerated amazed expressions, all gaze at the glowing bottles. Four small circular inset photos float across the top: a red tub of Korean gochujang, sliced gimbap rolls, a modern bidet toilet seat, and shoes neatly left at a front door. High-key lighting, bright vibrant colors, sky-blue and gold accents."}, {"d": "현관에 벗어 둔 신발 너머, 한국 물건으로 찬 부엌을 보고 놀란 미국인", "p": "Photorealistic view from the front door of a bright American home: several pairs of shoes neatly lined up on the entry mat in the foreground, and beyond them a sunny kitchen whose shelves are filled with Korean skincare products, red gochujang tubs and Korean instant ramen packs glowing softly in gold. An American man in his 40s with an exaggerated astonished expression stands in the doorway staring at the shelves. High-key lighting, bright vibrant colors, clean light tones with sky-blue and gold accents."}, {"d": "(자유안) 시상대 1위 한국 화장품, 2위 프랑스 향수", "p": "Photorealistic studio shot of a clean white podium in the upper half. On the tallest first-place step stands a sleek Korean skincare bottle glowing with golden light and a small Korean flag, and on the lower second-place step stands an elegant French perfume bottle with a small French flag. Confetti in sky-blue and gold falls around them. Bright clean light background, high-key lighting, vivid saturated colors, strong scale contrast, crisp and readable at thumbnail size."}], "direction": ["핵심 각도: 직원 80여 명 회사가 만든 3.99달러짜리 냉동김밥에서 시작합니다. 수출 숫자가 작은 고추장부터 큰 화장품까지 다섯 계단을 올라가며, 미국 집에 들어간 한국 일상이 실제로 얼마의 수출이 됐는지 보여 줍니다. 마지막은 그 돈을 흔들 변수인 미국 관세로 닫습니다.", "시청자에게 한 약속: 고추장·김밥·비데·신발·화장품 다섯 가지가 한국에 실제로 얼마를 벌어 줬는지 숫자로 확인하고, 그 돈이 앞으로도 들어올지 가를 변수를 알게 됩니다.", "타겟 시청자: 「K푸드 인기」「K뷰티 열풍」 뉴스는 많이 들었지만, 그게 진짜 나라 돈이 되는지, 언제까지 갈지 반신반의하는 40~60대 직장인", "핵심 메시지: 문화가 먼저 들어가고 돈은 그 뒤를 따라갑니다. 한국이 판 건 거창한 기술이 아니라 우리에게 너무 당연했던 일상입니다."], "ts": "00:00 3.99달러 김밥이 동난 이유\n00:51 5위 고추장, 우승 디저트의 비밀 재료\n03:30 4위 냉동김밥, 80여 명 회사의 250톤\n06:35 3위 비데, 휴지 사재기가 연 시장\n08:59 2위 신발 벗기, 조사가 말해 주는 것\n11:58 1위 K뷰티, 미국 통계가 확인한 1위\n15:30 중국의 빈자리를 채운 곳\n18:48 다음 과제는 관세\n21:45 우리 집 물건이 상품이 되기까지", "script": "3.99달러짜리 한국 냉동김밥이 미국 마트에 나온 지 한 달도 안 돼 동났습니다. 만든 곳은 직원 80여 명 회사였습니다. 그런데 2025년, 한국 화장품을 가장 많이 사 간 나라도 처음으로 미국이 됐습니다.\n\n반도체 얘기가 아닙니다. 자동차도 아닙니다. 미국 가정집에 들어간 건 고추장, 김밥, 비데, 신발 벗는 습관, 그리고 화장품입니다. 문화가 먼저 들어갔고, 돈은 그 뒤를 따라간 겁니다. 미국이 외국에서 사 온 화장품 가운데서는, 프랑스 것보다 한국 것이 더 많았습니다. 그럼 이 일상으로 번 돈, 앞으로도 계속 들어올까요?\n\n그 답을 내리기 전에, 다섯 가지 일상이 한국에 실제로 얼마를 벌어 줬는지부터 숫자가 작은 순서대로 확인해 보겠습니다.\n\n결론부터 말씀드리겠습니다. 다섯 가지 가운데 숫자가 가장 큰 건 화장품입니다. 식품의약품안전처 잠정 집계로 2025년 한국 화장품 수출은 114억 달러였습니다. 음식 쪽에서는 라면이 한 품목으로 처음 15억 달러를 넘었습니다. 한국이 판 건 거창한 기술이 아니라, 우리가 매일 쓰던 일상이었다는 얘기예요. 오늘은 그 일상을 숫자가 작은 쪽부터 하나씩 올라가 보겠습니다. 5위는 고추장입니다.\n\n트레이더조라는 마트가 있습니다. 미국 전역에 매장을 둔 식료품 체인이에요. 트레이더조는 2025년에 매장끼리 겨루는 레시피 대회를 열었습니다. 손님이 참가하는 대회가 아닙니다. 각 매장 직원들이 매장 안에서 레시피를 정하고, 투표로 하나를 골라 내는 방식입니다. 출품작은 거의 400개였습니다. 규칙은 트레이더조 상품을 5개 이하로만 쓰는 것이었고요.\n\n우승은 텍사스 휴스턴의 426호점이 차지했습니다. 작품 이름은 허니 고추장 콘 쿠키 아이스크림 샌드위치입니다. 쿠키 반죽에도, 쿠키 겉면에도 고추장이 들어갔어요.\n\n그럼 고추장은 실제로 얼마나 팔려 나갈까요? 2025년 한국 고추장 수출은 6,434만 달러입니다. 2020년 5,093만 달러보다 26% 늘었습니다. 그중 31.5%가 미국으로 갔습니다. 미국이 한국 고추장의 가장 큰 시장이라는 뜻이에요. 한국에서 나간 고추장 세 통 가운데 한 통이 미국으로 건너간 거죠.\n\n다만 여기서 숫자를 부풀리면 안 됩니다. 6,434만 달러는 오늘 다룰 다섯 가지 가운데 가장 작은 숫자입니다. 고추장 하나로 한국 수출 전체가 달라지지는 않거든요.\n\n그런데 눈여겨볼 건 액수보다 고추장이 들어간 자리입니다. 반찬이 아니라 디저트였어요. 미국에서는 달고 매운 맛이 유행하면서 고추장을 넣은 핫소스가 주목받았습니다. 영국도 비슷해요. 영국 슈퍼마켓 웨이트로즈의 리포트를 보면, 영국 안에서 고추장 판매가 1년 새 71% 늘었습니다. 한국에서는 찌개에 풀던 장이, 미국에서는 아이스크림 쿠키 속에 들어간 겁니다. 쓰는 법이 바뀌니까 팔 곳이 넓어진 거예요.\n\n여러분 냉장고 안쪽에 있는 고추장 통, 한번 떠올려 보세요. 그 장이 미국 매장 대회에서 우승한 디저트의 재료입니다. 그런데 왜 하필 이제 와서일까요? 고추장은 수십 년 전부터 있었는데요. 그 답은 트레이더조 냉동고에서 한 번 더 나옵니다. 이번엔 숫자가 한 단계 큽니다.\n\n2023년 8월 초, 트레이더조 냉동 코너에 한국 김밥이 들어왔습니다. 한 봉지에 3.99달러였어요. 만든 회사는 올곧입니다. 올곧은 2020년에 창업한 한국 중소기업이고, 2023년 당시 직원은 80여 명이었습니다.\n\n올곧이 처음 보낸 물량은 250톤이었습니다. 김밥으로 치면 약 100만 줄입니다. 현지에서 따로 광고를 하지도 않았어요. 그런데 한인 모녀가 올린 틱톡 영상이 퍼진 뒤, 이 물량이 약 2주 만에 다 팔렸습니다. 출시 한 달이 안 돼 여러 매장에서 품절이 났고, 문을 열자마자 김밥을 사러 오는 손님까지 생겼어요. 추가 주문 물량은 500톤이었습니다. 처음의 두 배죠.\n\n미국에 들어간 김밥은 고기가 없는 김밥뿐이었습니다. 미국의 육류 수입 규제 때문에 유부, 우엉 같은 채소 재료로만 만들었거든요.\n\n여기서 아쉬운 점이 하나 있습니다. 올곧이 이 김밥으로 얼마를 벌었는지, 매출액은 공개되지 않았습니다. 그래서 김밥 매출을 부풀려 말씀드릴 수는 없어요. 대신 김밥을 감싸는 까만 김을 보면 됩니다. 해양수산부 집계로 2025년 김 수출은 11억 3,000만 달러입니다. 역대 최고이고, 수산식품 가운데 수출 1위 품목입니다. 앞에서 본 고추장과는 자릿수가 다른 돈이에요.\n\n이제 앞에서 던진 질문으로 돌아가 보겠습니다. 고추장도 김밥도 수십 년 전부터 있었는데, 왜 이제야 미국에서 팔렸을까요? 조사 결과를 보면, 광고보다 드라마와 노래가 먼저 한국 음식을 알렸습니다.\n\n농림축산식품부와 한식진흥원이 2025년에 22개국 주요 도시에서 약 1만 1,000명을 조사했습니다. 한국 드라마나 K팝 같은 한류 콘텐츠를 접한 뒤 한식에 관심이 생겼거나 먹어 봤다는 응답이 65.1%였습니다. 열 명 가운데 여섯 명 반이에요.\n\n문화체육관광부 분석도 같은 방향입니다. 해외 기사와 소셜미디어 글 68만 건을 살펴보니, 북미에서는 한류 관련 언급 1위가 K팝이 아니라 K푸드였습니다. 비중은 26.7%였어요. 조사한 지역 가운데 음식이 1위에 오른 곳은 북미 하나뿐이었습니다.\n\n김밥 종류를 보면 이 응답 비율이 더 와닿습니다. 한국에서 올곧 김밥은 불고기, 참치마요까지 10종이었습니다. 미국에는 채소 김밥만 들어갔는데도 동났어요. 화면에서 먼저 본 한국 음식을 직접 먹어 보고 싶다는 사람이 그만큼 많았던 겁니다. 문화가 먼저 들어가고, 돈은 그 뒤를 따라간다는 말이 여기서 숫자로 확인됩니다.\n\n한국 드라마에서 주인공이 김밥 먹는 장면, 여러분은 그냥 넘기셨죠? 미국 시청자 가운데에는 그 장면을 보고 마트에서 김밥을 찾은 사람이 있었던 거예요.\n\n여기까지는 먹는 이야기였습니다. 그런데 미국 가정집 욕실에도 한국 물건이 들어갔습니다. 계기는 2020년 봄, 텅 빈 휴지 진열대였습니다.\n\n2020년 봄, 코로나가 막 번지던 때입니다. 미국 마트의 휴지 진열대가 텅 비었습니다. 사람들이 휴지를 한꺼번에 사 들였거든요. 휴지를 구하지 못한 집들은 휴지 대신 쓸 물건을 찾기 시작했습니다. 그때 눈에 들어온 게 비데였어요.\n\n코웨이는 정수기와 비데를 만드는 한국 회사입니다. 코웨이는 2020년 2분기 비데 수출이 1년 전보다 약 170% 늘 것으로 내다봤습니다. 그 수출 물량의 약 90%가 미국 몫이었습니다. 1년 전 같은 때 10대 만들던 수출용 비데를 27대 만드는 셈이에요. 주문이 몰리자 코웨이는 포장 라인을 두 배로 늘렸습니다.\n\n다만 여기서 숫자를 부풀리면 안 됩니다. 비데만 따로 집계한 수출액 통계는 없습니다. 코웨이 미국 법인의 2025년 매출은 2,367억 원으로, 1년 전보다 10.5% 늘었는데요. 이 숫자는 비데만이 아니라 정수기와 공기청정기까지 합친 법인 전체 매출입니다.\n\n미국에서 비데를 가진 집도 아직 많지 않아요. 2020년 당시 미국 집에 비데가 달린 비율은 5%도 안 됐습니다. 2024년에 소개된 여론조사기관 유고브의 조사로도, 집에 비데가 있는 미국 성인은 6%였습니다. 미국 집 대부분에는 아직 비데가 없다는 얘기예요.\n\n그런데 거꾸로 보면, 그 빈칸이 남은 시장입니다. 같은 조사에서 미국 성인 41%가 비데에 관심이 있다고 답했거든요. 비데를 가진 사람은 열 명 가운데 한 명도 안 되는데, 관심 있는 사람은 열 명 가운데 네 명이 넘습니다. 한국 집 화장실 대부분에 달린 물건이, 미국에서는 휴지가 동난 불편을 계기로 집 안에 들어가기 시작한 겁니다. 휴지가 모자라 불편했던 미국 집들이, 한국 집에서는 익숙한 비데를 들여놓기 시작한 거죠.\n\n여러분 댁 화장실 비데, 처음 다셨을 때 기억나세요? 처음엔 낯설다가 어느새 없으면 허전한 물건이 됐을 겁니다. 미국에서는 2020년이 되어서야 그 첫 경험이 시작됐습니다.\n\n여기까지는 물건이 바다를 건너간 이야기였습니다. 2위는 다릅니다. 물건이 아니라 습관 이야기입니다. 한국 집에서는 당연한 습관을, 미국 집에서도 하는 사람이 많다는 조사가 나왔습니다.\n\n한국 집 현관에서 신발을 벗는 건 당연한 일입니다. 온돌 바닥은 앉고 눕는 곳이라, 신발을 신고 올라가지 않았거든요. 미국 영화나 드라마 속 집은 다릅니다. 신발을 신은 채 거실을 지나 침대에 눕는 장면이 낯설지 않죠.\n\n미국 방송사 CBS 뉴스와 유고브가 2023년 5월, 미국 성인 1,181명에게 물었습니다. 집에서 신발을 벗는 쪽이냐는 질문이었어요. 거의 3명 가운데 2명이 벗는 쪽이라고 답했습니다. 나이로 나눠 보면 차이가 더 뚜렷해요. 30세 미만은 거의 절반이 손님에게도 신발을 벗어 달라고 합니다. 45세 이상에서는 그렇게 하는 사람이 매우 적었습니다. 젊을수록 손님에게도 신발을 벗어 달라는 집이 많다는 뜻입니다. 다만 이 습관이 한국에서 건너갔다는 조사는 없습니다. 한국 집과 같은 습관을 가진 미국 집이 많다는 것까지가 이 조사가 말해 주는 범위입니다.\n\n그런데 이 이야기에는 자주 따라붙는 숫자가 있습니다. 신발 밑창의 80%에 대변 세균이 묻어 있다는 말입니다. 그건 정확한 숫자가 아닙니다.\n\n이 이야기의 근거로 쓰이는 건 애리조나대 거바 교수의 2008년 연구입니다. 연구에서는 신발 바깥쪽 96%에서 대장균군이 나왔습니다. 대장균군은 대장균과 비슷한 성질을 가진 세균 무리를 말해요. 대장균 자체가 나온 신발은 27%였습니다. 다만 참가자 10명이 2주 동안 참여한 소규모 연구였고, 신발 회사가 연구를 후원했습니다.\n\n다른 전문가들의 의견도 있습니다. 미국 럿거스대의 식품미생물학자 섀프너 교수는 신발 세균이 집안 건강 위험 가운데 비교적 낮은 편이라고 봤습니다. 전문가들이 가장 중요하게 꼽는 건 손 씻기예요.\n\n하지만 그렇다고 이 습관이 가벼워지는 건 아니에요. 아기가 바닥을 기어다니는 집이라면 신발을 벗는 게 낫다는 데에는 전문가들도 동의합니다.\n\n여기서 하나 짚을 게 있습니다. 신발 벗기에는 수출 숫자가 없습니다. 미국 사람이 현관에서 신발을 벗는다고 한국에 돈이 들어오지는 않아요. 그런데 바로 이 점이 이 파트의 핵심입니다. 습관이 먼저 바뀌면, 사람들은 그 생활에 맞는 물건을 찾습니다. 맨발로 걷고 바닥에 앉는 집이 되면 실내화가 필요해지고, 바닥에 까는 깔개가 필요해지고, 바닥 청소가 더 중요해집니다. 소비는 습관을 따라갑니다. 앞에서 본 김밥처럼, 이번에도 생활이 물건보다 먼저였습니다.\n\n여러분 집에 손님이 오면 현관에서 신발 벗어 달라고 하시죠? 2023년 조사로는 미국 30세 미만 젊은 층도 거의 절반이 자기 집에서 똑같이 하고 있습니다.\n\n습관이 바뀌면 물건이 따라온다고 말씀드렸죠. 그 흐름이 가장 큰 숫자로 찍힌 곳이 1위입니다. 미국 가정집 욕실 선반입니다.\n\n화장품 하면 많은 분들이 프랑스를 먼저 떠올리실 거예요. 그 프랑스를 한국이 앞질렀다는 이야기, 그냥 들으면 자랑 같죠. 우리가 떠들면 자랑입니다. 그런데 미국 통계가 그렇게 적으면, 그건 자료가 됩니다. 그래서 미국 쪽 숫자부터 보겠습니다. 미국 국제무역위원회는 미국 정부에서 무역 통계와 조사를 맡은 기관이에요.\n\n미국 국제무역위원회 통계로, 2024년 미국이 화장품을 가장 많이 사 온 나라가 처음으로 한국이 됐습니다. 한국에서 들여온 화장품은 17억 100만 달러였습니다. 프랑스에서 들여온 화장품은 12억 6,300만 달러였습니다. 2025년에도 한국이 2년 연속 1위였습니다. 두 나라 차이는 약 4억 달러에서 약 8억 달러로, 1년 만에 두 배로 벌어졌어요.\n\n한국 쪽 통계도 같은 방향을 가리킵니다. 앞의 숫자는 미국이 사 온 쪽에서 센 것이고, 이번 숫자는 한국이 판 쪽에서 센 겁니다. 식품의약품안전처 잠정 집계로, 2025년 화장품 수출 114억 달러 가운데 미국으로 간 돈은 22억 달러입니다. 중국으로 간 20억 달러를 처음으로 앞질렀습니다. 한국 화장품을 가장 많이 사 간 나라가 처음으로 미국이 된 겁니다.\n\n세계 순위도 바뀌었어요. 2025년 세계 화장품 수출 순위에서 한국은 3위에서 2위로 올라섰습니다. 1위는 프랑스이고, 한국 바로 뒤가 미국입니다. 한국이 114억 달러, 미국이 108억 달러였어요.\n\n그런데 이런 숫자를 들으면 의심부터 드실 수 있습니다. 한 번 반짝하고 끝나는 거 아니냐는 거죠. 답은 2026년 숫자에 있어요.\n\n한국보건산업진흥원 집계로, 2026년 1월부터 9월까지 대미 화장품 수출은 23억 5,000만 달러입니다. 9개월 만에 2025년 1년 치 대미 수출을 넘어섰습니다. 전체 수출도 마찬가지예요. 산업통상부 집계로 2026년 1월부터 10월까지 화장품 수출은 125억 6,900만 달러입니다. 10개월 만에 2025년 1년 치를 넘었습니다. 한 해 반짝한 숫자가 아니라, 다음 해에 더 빨리 쌓이고 있는 숫자입니다.\n\n이 숫자를 만든 건 대기업 몇 곳이 아니었습니다. 2025년 1월부터 11월까지 화장품 수출의 91%가 중소기업과 중견기업 몫이었습니다.\n\n작은 회사가 어떻게 미국까지 팔 수 있었을까요? 제조 대행 회사가 있었기 때문입니다. 제조 대행 회사는 공장이 없는 브랜드 대신 화장품을 개발하고 만들어 주는 회사를 말해요. 한국콜마, 코스맥스 같은 회사가 이 일을 하죠. 작은 브랜드는 기획을 맡고, 생산은 제조 대행 회사에 맡기는 방식입니다.\n\n그렇게 쌓인 결과, 화장품은 2025년 11월까지 누계로 처음 한국 10대 수출품목에 들어갔습니다. 전기차와 이차전지를 앞질렀습니다. 작은 회사가 미국 매장의 진열대를 채운 건, 앞에서 본 직원 80여 명 김밥 회사와 같은 흐름입니다.\n\n여러분이 동네 가게에서 산 선크림, 브랜드 이름이 처음 들어 보는 회사였던 적 있으시죠? 그런 작은 회사가 미국 아마존 판매 순위 위쪽에 이름을 올리고 있습니다.\n\n그런데 이 1위가 순전히 잘 팔려서만 생긴 자리는 아닙니다. 한국 화장품이 한 시장을 잃으면서 생긴 자리이기도 합니다.\n\n한국 화장품의 가장 큰 손님은 원래 중국이었습니다. 식품의약품안전처 집계로 2021년에는 한국 화장품 수출의 절반 이상이 중국으로 갔습니다. 2016년 사드 배치를 둘러싼 한중 갈등 뒤로, 업계는 다른 나라 시장을 찾기 시작했습니다. 그래도 2021년까지는 절반 이상이 중국으로 갔어요. 중국 비중이 크게 꺾인 건 2022년부터입니다.\n\n숫자로 보면 변화가 커요. 2026년 상반기 중국 비중은 14% 안팎까지 내려왔습니다. 같은 기간 미국 비중은 2021년 9.1%에서 20.7%로 올랐습니다. 열 개 가운데 다섯 개 넘게 중국으로 가던 화장품이, 2026년 상반기에는 열 개 가운데 한 개 반 정도만 중국으로 갑니다. 반대로 미국으로 가는 화장품은 열 개 중 한 개도 안 되다가 두 개가 됐어요.\n\n중국에서는 무슨 일이 있었을까요? 중국 브랜드가 자기 나라 시장에서 크게 컸어요. 중국향료화장품협회 집계로 중국 브랜드의 중국 시장 점유율은 2022년 47.4%에서 2025년 57.4%로 올랐습니다. 중국 소비자들이 자기 나라 화장품을 더 많이 고르게 된 겁니다. 그 사이 한국 화장품의 중국 수출은 2024년에 10%, 2025년에 19% 줄었습니다. 한 나라에 판매를 크게 기대고 있으면, 그 나라 사정이 바뀔 때 매출이 같이 줄어듭니다.\n\n그런데 그 빈자리를 미국과 유럽이 채웠습니다. 유안타증권 분석으로는 2026년 1월부터 9월까지 유럽 비중이 23.2%로, 미국 21.0%를 넘었습니다. 다만 유럽은 여러 나라를 합친 숫자입니다. 단일 국가로는 여전히 미국이 1위예요. 미국에서 팔리는 길도 분명해요. 아마존이 2026년 10월에 밝힌 숫자로, 미국에서 팔리는 한국 화장품의 약 44%가 아마존에서 팔립니다.\n\n음식도 같은 길을 걸었어요. 농림축산식품부 집계로 2025년 한국 농식품의 대미 수출은 18억 달러, 1년 전보다 13.2% 늘었습니다. 2024년에 처음 중국을 제친 데 이어, 2025년에도 국가별 1위를 지켰습니다. 앞에서 말씀드린 라면 15억 달러도 같은 해의 기록입니다.\n\n여기서 다섯 가지를 한 줄로 다시 정리해 보겠습니다. 고추장은 미국 디저트 속으로 들어갔습니다. 김밥은 미국 마트 냉동고로, 비데는 미국 화장실로 들어갔습니다. 신발 벗는 습관은 미국 현관으로 들어갔고, 화장품은 미국 욕실 선반에 올라갔습니다. 다섯 가지 모두 한국 집에서는 오래된 일상이었습니다. 그 일상이 미국 집에 들어간 뒤에 수출 숫자가 따라왔습니다. 신발 벗기처럼 아직 숫자로 잡히지 않는 것도 있고요.\n\n화장품이나 식품 공장에서 일하시는 분 계시죠. 수출하는 작은 회사에 다니시는 분, 동네에서 김밥집이나 분식집을 하시는 분도 계실 겁니다. 미국에 자녀를 둔 부모님, 해외 쇼핑몰에서 오히려 한국 화장품을 사 보신 분도 있으실 거예요. 오늘 본 수출 숫자는 결국 여러분이 매일 만들고, 팔고, 쓰던 물건이 바다 건너에서 받아 온 결과입니다.\n\n여기서 끝내면 반쪽입니다. 처음에 이렇게 여쭤봤죠. 그럼 이 일상으로 번 돈, 앞으로도 계속 들어올까요? 숫자가 커질수록, 바깥에서 이 숫자를 흔드는 변수도 커집니다. 그 가운데 가장 큰 변수는 미국 관세입니다.\n\n관세는 1년 사이에 여러 번 바뀌었습니다. 2025년 7월, 한국과 미국은 상호관세를 15%로 합의했습니다. 상호관세는 상대 나라에 맞춰 매기는 관세를 말해요. 그런데 2026년 2월, 미국 연방대법원이 그 상호관세를 위법이라고 판결했습니다. 미국은 곧바로 전 세계에 10% 임시 관세를 매겼습니다.\n\n그리고 2026년 7월 24일부터는 무역법 301조 관세가 붙었습니다. 무역법 301조는 미국이 불공정하다고 본 나라에 관세를 매길 수 있게 한 법 조항입니다. 한국산에는 기존 관세를 포함해 총 12.5%가 매겨졌습니다. 2026년 11월 초에도 이 12.5%가 그대로 유지되고 있습니다.\n\n여기서 걸리는 건 경쟁 상대와의 차이입니다. 유럽연합은 총 10%입니다. 한국이 2.5%포인트 더 높아요. 화장품과 식품은 값에 민감한 소비재라, 이 정도 차이도 실제 판매에 영향을 줄 수 있다는 게 전문가 평가예요. 특히 공장 없이 제조를 맡기는 작은 브랜드가 걱정이에요. 관세만큼 값을 올리기도 어렵고, 그 부담을 혼자 떠안기도 어렵습니다. 앞에서 본 중소기업과 중견기업 비중 91%가, 관세 앞에서는 부담이 되는 겁니다.\n\n남은 변수가 하나 더 있습니다. 미국은 2026년 3월, 한국을 포함한 16개국을 대상으로 과잉생산 조사를 시작했습니다. 과잉생산 조사는 한 나라가 지나치게 많이 만들어 싸게 판다고 보는지 미국이 따지는 조사예요. 2026년 11월 초까지 결과는 나오지 않았습니다. 결정 시한은 2027년 3월 11일입니다. 한국 정부는 두 가지 301조 관세를 합쳐 15%를 넘으면 안 된다는 입장입니다.\n\n그런데 숫자를 보면 반 걸음 안심할 대목도 있습니다. 관세가 15%에서 10%로, 다시 12.5%로 바뀌는 동안에도 대미 화장품 수출은 늘었습니다. 2026년 1월부터 9월까지 40.5% 늘었습니다. 김도 마찬가지예요. 2025년 상호관세 속에서도 대미 김 수출은 9% 늘었습니다. 관세가 미국 소비자의 수요를 꺾지는 못했다는 얘기입니다. 다만 이건 2026년 9월까지의 기록입니다. 앞으로도 그럴지는 아직 아무도 장담할 수 없습니다.\n\n다음에 관세 뉴스가 나오면 두 가지만 보세요. 첫째, 유럽연합보다 한국 세율이 높은지 낮은지입니다. 둘째, 2027년 3월까지 나올 과잉생산 조사 결과입니다. 이 두 가지를 기억해 두시고, 처음 장면으로 돌아가 보겠습니다.\n\n3.99달러짜리 냉동김밥에서 시작한 이야기를 정리하겠습니다. 한국 드라마와 K팝을 접한 뒤 한국 음식을 먹어 봤거나 관심이 생겼다는 해외 응답이 열 명 가운데 여섯 명 반이었고, 휴지가 모자랐던 2020년에는 비데가 미국 집에 들어갔습니다. 그렇게 한국 집의 일상이 미국 집에 하나씩 늘었고, 2025년에는 한국 화장품을 가장 많이 사 간 나라가 처음으로 미국이 됐습니다. 한국 음식은 그보다 한 해 앞선 2024년에 이미 미국이 1위였습니다.\n\n앞으로 지켜볼 것도 어렵지 않아요. 관세 뉴스가 나오면 앞에서 말씀드린 두 가지, 유럽연합과의 세율 차이와 과잉생산 조사 결과만 확인하시면 됩니다. 유럽연합보다 세율이 높은 상태가 길어질수록, 공장 없는 작은 브랜드의 부담이 커지거든요. 그리고 우리 집 물건을 한 번쯤 외국에서도 팔릴까 하는 눈으로 둘러보세요. 김밥도 고추장도 처음엔 그냥 우리 집 부엌에 있던 물건이었습니다. 트레이더조 냉동고에 들어간 김밥도, 처음엔 한국 분식집 메뉴판에 있던 음식이었잖아요.\n\n제가 보기엔, 한국이 미국에 판 건 거창한 기술이 아닙니다. 우리가 살아온 모습이 그대로 상품이 된 겁니다. 문화가 먼저 들어가고, 돈은 그 뒤를 따라갑니다.\n\n여러분 집에서 이건 외국에서도 팔리겠다 싶은 물건, 뭐가 있나요? 전기밥솥인가요, 김치냉장고인가요, 때밀이 수건인가요, 아니면 보리차인가요? 그 한 줄들이 모이면, 다음에 미국 마트에서 동날 한국 물건의 목록이 됩니다.\n\n오늘 이야기는 어떠셨나요?\n\n결과에는 언제나 이유가 있습니다.\n\n알고 나면, 세상이 다르게 보입니다.\n\n세상의 이유였습니다.", "nchars": 10131, "chapters": 9};
+const $ = (s) => document.querySelector(s);
+const esc = (s) => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const CLIP = [];
+function copyBtn(text, label){ CLIP.push(text); return `<button class="copy" data-i="${CLIP.length-1}">${label||"복사"}</button>`; }
+function block(h, sub, text, opts={}){
+  return `<div class="block"><div class="bh"><h2>${h}${sub?`<small>${sub}</small>`:""}</h2>${copyBtn(text)}</div><div class="body${opts.mono?" mono":""}">${esc(text)}</div></div>`;
+}
+$("#title").textContent = D.title;
+$("#meta").innerHTML = `<span>글자수 <b>${D.nchars.toLocaleString()}자</b></span><span>예상 분량 <b>약 ${Math.round(D.nchars/430)}분</b> (430자/분)</span><span>챕터 <b>${D.chapters}개</b></span>`;
+
+$("#v-upload").innerHTML =
+  block("제목", "유튜브 제목 칸", D.title) +
+  block("설명글", "키워드·요약·다루는 내용·타임스탬프·출처까지 통째로", D.desc) +
+  block("태그", "태그 칸", D.tags) +
+  block("고정 댓글", "업로드 직후 직접 다는 첫 댓글", D.pin) +
+  `<div class="note">설명글 안의 타임스탬프는 대본 분량으로 계산한 추정치입니다. 영상이 완성되면 "타임스탬프 채워줘"로 실측 교체한 뒤 올리세요.</div>`;
+
+$("#v-thumb").innerHTML =
+  `<div class="block"><div class="bh"><h2>이 영상의 방향</h2></div><ul class="dir">${D.direction.map(d=>`<li>${esc(d)}</li>`).join("")}</ul></div>` +
+  `<div class="block"><div class="bh"><h2>제목 후보</h2></div><div class="rows">${D.titles.map((t,i)=>`<div class="row"><div><div class="t">${esc(t.t)}${i===0?'<span class="tag">추천</span>':""}</div><div class="n">${esc(t.note)}</div></div>${copyBtn(t.t)}</div>`).join("")}</div></div>` +
+  `<div class="block"><div class="bh"><h2>썸네일 문구<small>1행 형광 노랑 · 2행 하늘색, 둘 다 검정 외곽선</small></h2></div><div class="rows">${D.thumbs.map((t,i)=>`<div class="row"><div class="t">${esc(t)}${i===0?'<span class="tag">추천</span>':""}</div>${copyBtn(t)}</div>`).join("")}</div></div>` +
+  `<div class="block"><div class="bh"><h2>썸네일 이미지 프롬프트<small>ChatGPT·Gemini 등에 하나씩 붙여넣기</small></h2></div><div class="rows">${D.prompts.map((p,i)=>`<div class="row"><div><div class="t">${i+1}번 — ${esc(p.d)}</div><pre>${esc(p.p)}</pre></div>${copyBtn(p.p)}</div>`).join("")}</div></div>`;
+
+$("#v-ts").innerHTML = block("챕터 목록", "04_타임스탬프.txt", D.ts, {mono:true}) +
+  `<div class="note">이 시각은 추정치입니다. 영상 완성 후 "타임스탬프 채워줘"로 실측 교체하세요.</div>`;
+
+$("#v-script").innerHTML = `<div class="block"><div class="bh"><h2>대본 전문<small>01_대본.txt · 영상 제작 사이트 업로드용</small></h2>${copyBtn(D.script,"전문 복사")}</div><div class="body script" style="white-space:normal">${D.script.split(/\n\s*\n/).map(p=>`<p>${esc(p)}</p>`).join("")}</div></div>`;
+
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest(".copy"); if (!b) return;
+  const text = CLIP[+b.dataset.i];
+  const done = () => { const o=b.textContent; b.textContent="복사됨"; b.classList.add("done"); setTimeout(()=>{b.textContent=o;b.classList.remove("done")},1400); };
+  try { await navigator.clipboard.writeText(text); done(); }
+  catch { const ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");done();}catch{} ta.remove(); }
+});
+document.querySelectorAll("nav button").forEach(btn => btn.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x===btn));
+  ["upload","thumb","ts","script"].forEach(v => $("#v-"+v).hidden = v!==btn.dataset.v);
+}));
+</script>

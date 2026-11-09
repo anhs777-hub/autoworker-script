@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "korean-asiana-merger-fare",
+    "titles": [
+      "\"180석에 3명 탔다\" 대한항공·아시아나 합병 후 내 비행기표 값이 달라지는 진짜 이유",
+      "\"빈 비행기도 띄워야 합니다\" 대한항공·아시아나 합병 뒤 내 비행기표 값이 바뀌는 진짜 이유",
+      "\"15% 싼 표가 사라집니다\" 아시아나가 대한항공에 합쳐진 뒤 내 비행기표 값의 진짜 변화"
+    ],
+    "thumbnail_texts": [
+      "\"승객 3명 태우고 떴다\" / 합병 약속이 띄운 대한항공 빈 비행기",
+      "\"아시아나 15% 싼 표 끝\" / 12월 17일 사라지는 내 비행기표 선택지",
+      "\"2034년이 진짜입니다\" / 합병 약속 끝나면 달라지는 내 표값"
+    ],
+    "image_concepts": {
+      "A": "스케일 대비 — 180석 텅 빈 기내에 승객 3명과 승무원",
+      "B": "Before→After — 두 항공사 꼬리날개가 하나로 합쳐지고 -15% 할인 항공권이 찢겨 날아감"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "1번 훅 장면. 괌에서 부산으로 가는 180석 여객기 기내, 끝없이 늘어선 빈 파란 좌석 사이에 승객 3명만 듬성듬성 앉아 있고, 통로에 선 승무원이 텅 빈 객석을 보며 놀란 표정.",
+      "prompt_en": "Photorealistic wide view down the aisle of a narrow-body passenger jet cabin with 180 empty sky-blue economy seats stretching into the distance, only three passengers scattered far apart. A Korean flight attendant in a neat uniform stands in the aisle in the foreground looking back at the empty rows with an exaggerated surprised expression. Bright vibrant colors, high-key cabin lighting, sunlight through the windows, gold accent on the overhead bins, the cabin and attendant filling the upper half of the frame."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형. 기내를 위에서 내려다본 구도 — 빈 좌석 바다 속에 승객 3명만 하이라이트.",
+      "prompt_en": "Photorealistic top-down cutaway view of an airliner cabin showing rows and rows of empty sky-blue seats, with exactly three passengers seated in different rows, each softly highlighted by a warm gold spotlight. Clean bright lighting, light background, crisp detail, strong sense of emptiness and scale, cabin filling the upper half of the frame."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B. 활주로 위 두 여객기 꼬리날개(하늘색 계열, 진회색 계열)가 겹쳐지며 하나로 합쳐지고, 그 앞에서 「-15%」 할인 항공권 한 장이 찢겨 바람에 날아간다.",
+      "prompt_en": "Photorealistic image of two airliner tail fins on a bright sunny runway, one painted light sky blue and one painted charcoal gray, sliding together and merging into a single tail fin. In the foreground a paper airline ticket printed with a large -15% discount is torn in half and blowing away in the wind, a bold red downward arrow beside it. Bright vibrant colors, clear blue sky, high-key lighting, subject filling the upper half of the frame."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형. 공항 출발 전광판 앞 40~50대 한국인 여행객이 항공권 가격표 두 장 중 한 장이 사라진 것을 보고 당황한 표정.",
+      "prompt_en": "Photorealistic image of a Korean traveler in their fifties standing in a bright modern airport terminal, holding a smartphone showing two airline fare cards where one card is fading away, with an exaggerated shocked expression. Behind them a large departure board glows in sky blue and gold. Bright vibrant colors, clean light background, high-key lighting, person and phone filling the upper half of the frame."
+    },
+    {
+      "id": 5,
+      "type": "wildcard-photorealistic",
+      "concept_ko": "와일드카드. 2034 숫자가 새겨진 모래시계 속 모래 대신 작은 비행기표들이 아래로 떨어지는 장면 — 약속의 기한.",
+      "prompt_en": "Photorealistic close-up of a large glass hourglass on a bright white desk, the number 2034 engraved in gold on its wooden frame, with tiny paper airline tickets falling through the narrow neck instead of sand. A small model passenger jet rests beside it. Bright vibrant colors, high-key lighting, clean light background, hourglass filling the upper half of the frame."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "nk-risk-market-price",
+    "titles": [
+      "\"최대 폭락은 이란이었다\" 북한 핵실험엔 -1%였던 한국 증시가 먼 전쟁에 무너진 진짜 이유",
+      "\"핵실험엔 -1%, 이란엔 -12%\" 북한 리스크에 한국 증시가 무덤덤했던 진짜 이유와 내 돈 지키는 법",
+      "\"장중 -6%, 종가 -0.2%\" 북한 뉴스 터진 날 주식 판 사람만 손해 본 진짜 이유"
+    ],
+    "thumbnail_texts": [
+      "\"북한이 아니라 이란?\" / 코스피 역대 최대 폭락의 진짜 범인",
+      "\"하루에 12% 빠졌다!\" / 6천 km 밖 전쟁에 무너진 한국 증시",
+      "\"핵실험엔 1%였다고?\" / 시장이 북한 리스크에 값 매기는 법"
+    ],
+    "image_concepts": {
+      "A": "세계지도 위 한반도의 작은 파란 하락 화살표 vs 호르무즈 해협의 거대한 빨간 하락 화살표 — 크기가 뒤집힌 두 위험",
+      "B": "빨간 하락 숫자로 가득 찬 증권 시세 전광판 앞, 스마트폰 주식 앱을 보며 놀란 40대 한국인 직장인"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "1번(훅 장면). 밝은 세계지도 위, 한반도에는 작은 파란 하락 화살표, 6천 km 넘게 떨어진 중동 호르무즈 해협 위에는 화면을 가르는 거대한 빨간 하락 화살표. 역대 최대 폭락이 북한이 아니라 이란에서 왔다는 훅을 그대로 보여준다.",
+      "prompt_en": "Photorealistic bright 3D world map seen from slightly above, with the Korean Peninsula and the Middle East's Strait of Hormuz clearly visible across the upper half. A small blue downward arrow floats over the Korean Peninsula, while a massive glossy red downward arrow plunges dramatically over the Strait of Hormuz, towering over everything. Clean light sky-blue background, bright vibrant colors, high-key lighting, gold accent glow on the map edges, strong scale contrast between the tiny arrow and the giant arrow."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형. 저울처럼 보이지 않게, 좌우 분할: 왼쪽 한반도 모형 위 거의 평평한 주가 그래프, 오른쪽 유조선이 떠 있는 호르무즈 해협 위 수직으로 꺾이는 빨간 주가 그래프.",
+      "prompt_en": "Photorealistic split-screen composition in the upper half. On the left, a small model of the Korean Peninsula with a nearly flat blue stock chart line barely dipping above it. On the right, an oil tanker sailing through the Strait of Hormuz with a huge red stock chart line crashing straight down like a cliff. Bright vibrant colors, clean white background, high-key lighting, sky-blue and gold accents, crisp details readable at small size."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B. 빨간 하락 숫자로 가득 찬 증권사 시세 전광판 앞, 스마트폰 주식 앱 화면을 들고 눈이 휘둥그레진 40대 한국인 직장인 얼굴 클로즈업.",
+      "prompt_en": "Photorealistic extreme close-up of an attractive Korean office worker in his 40s with a warm likeable face and an exaggerated shocked expression, eyes wide and mouth open, holding a smartphone showing a red stock trading app. Behind him, a huge stock exchange ticker board glows with rows of bright red falling numbers and downward arrows. Bright vibrant colors, high-key lighting, clean modern trading floor, oversized face filling the upper half of the frame."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형. 밝은 사무실, 모니터 속 수직 낙하하는 빨간 코스피 차트를 보며 머리를 감싼 40대 여성 직장인. 창밖은 맑은 서울 도심.",
+      "prompt_en": "Photorealistic image of an attractive Korean woman in her 40s with a warm likeable face, both hands on her head in exaggerated disbelief, staring at a large computer monitor where a bright red stock index chart plunges vertically downward. Bright modern office with large windows showing a sunny Seoul skyline. Bright vibrant colors, high-key lighting, sky-blue and gold accents, subject large and clear in the upper half."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 한쪽 손에는 작게 흔들리는 한반도 모양 조각, 다른 쪽 손에는 기름이 넘쳐 흐르는 거대한 원유 드럼통 — 먼 곳의 기름이 더 무거웠다.",
+      "prompt_en": "Photorealistic surreal studio shot of two hands held out side by side in the upper half: the left hand casually holds a tiny glowing gold model of the Korean Peninsula, while the right hand strains under a giant glossy black crude oil barrel overflowing with oil, with a red downward arrow stamped on it. Clean bright sky-blue background, high-key lighting, vivid saturated colors, strong exaggerated scale contrast, crisp and readable at thumbnail size."
+    }
+  ]
+}

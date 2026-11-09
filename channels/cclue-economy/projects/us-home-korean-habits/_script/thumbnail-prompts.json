@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "us-home-korean-habits",
+    "titles": [
+      "\"프랑스를 제쳤다\" 미국 가정집을 바꾼 한국 일상 5가지, 한국이 실제로 번 돈",
+      "\"3.99달러 김밥이 시작\" 미국 가정집을 바꾼 한국 일상 5가지, 한국이 실제로 번 돈",
+      "\"반도체가 아니었다\" 미국 가정집에 들어간 한국 일상 top5, 한국이 실제로 번 돈"
+    ],
+    "thumbnail_texts": [
+      "\"김밥이 동났다고?\" / 미국 가정집을 바꾼 한국 일상 5가지",
+      "\"250톤이 그냥 팔렸다\" / 미국 마트가 놀란 한국 냉동김밥",
+      "\"고추장부터 비데까지\" / 미국인이 따라 하는 한국 습관 top5"
+    ],
+    "image_concepts": {
+      "A": "텅 빈 미국 마트 냉동고 진열칸과 마지막 남은 한국 냉동김밥 한 봉지를 든 놀란 미국인 쇼핑객 (훅 장면)",
+      "B": "한국 화장품이 금빛으로 빛나는 미국 가정집 부엌, 그것을 바라보는 놀란 미국인 가족 + 원형 인셋 4컷(고추장·김밥·비데·벗어 둔 신발)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "1번(훅 장면). 밝은 미국 대형마트 냉동식품 코너, 진열칸이 거의 다 비었고 마지막 남은 한국 냉동김밥 한 봉지를 집어 든 미국인 여성이 눈을 휘둥그레 뜨고 있다. 3.99달러 가격표가 진열칸에 붙어 있다.",
+      "prompt_en": "Photorealistic bright American supermarket frozen food aisle with glass freezer doors, the shelves almost completely empty. In the upper half, an attractive American woman in her 30s with a warm likeable face and an exaggerated surprised expression, eyes wide and mouth open, holds up the very last bag of Korean frozen gimbap rice rolls, looking at it. A small price tag reading $3.99 is visible on the empty shelf. Bright vibrant colors, high-key lighting, clean light background, sky-blue and gold accents."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 변형. 미국 마트 냉동고 앞, 빈 진열칸을 사이에 두고 마지막 한국 김밥 봉지를 향해 동시에 손을 뻗는 두 미국인 쇼핑객.",
+      "prompt_en": "Photorealistic scene in a brightly lit American grocery store: two American shoppers, a man and a woman with exaggerated surprised faces, both reaching at the same time for the last package of Korean frozen gimbap inside an almost empty freezer case. The empty shelves and the single colorful gimbap package fill the upper half of the frame. Bright vibrant colors, high-key lighting, clean white and sky-blue tones with gold highlights."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B. 밝은 미국 가정집 부엌 테이블 중앙에 금빛으로 빛나는 한국 스킨케어 병들, 그것을 바라보며 놀란 표정의 미국인 가족(부모와 10대 딸). 위쪽에 원형 인셋 4컷: 고추장 통, 김밥, 비데 변기 시트, 현관에 벗어 둔 신발.",
+      "prompt_en": "Photorealistic bright American suburban kitchen. In the center of the upper half, a group of Korean skincare bottles and jars on the table glows with a warm golden light. An American family of three, parents and a teenage daughter, with exaggerated amazed expressions, all gaze at the glowing bottles. Four small circular inset photos float across the top: a red tub of Korean gochujang, sliced gimbap rolls, a modern bidet toilet seat, and shoes neatly left at a front door. High-key lighting, bright vibrant colors, sky-blue and gold accents."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 변형. 미국 가정집 현관, 벗어 둔 신발들 너머로 보이는 거실과 부엌 선반에 한국 화장품·고추장·라면이 가득. 놀란 표정의 미국인 남성이 문을 열고 들어오며 바라본다.",
+      "prompt_en": "Photorealistic view from the front door of a bright American home: several pairs of shoes neatly lined up on the entry mat in the foreground, and beyond them a sunny kitchen whose shelves are filled with Korean skincare products, red gochujang tubs and Korean instant ramen packs glowing softly in gold. An American man in his 40s with an exaggerated astonished expression stands in the doorway staring at the shelves. High-key lighting, bright vibrant colors, clean light tones with sky-blue and gold accents."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 시상대 1위 자리에 빛나는 한국 스킨케어 병, 2위 자리에 프랑스 향수병. 제목 따옴표 「프랑스를 제쳤다」를 그대로 그린다.",
+      "prompt_en": "Photorealistic studio shot of a clean white podium in the upper half. On the tallest first-place step stands a sleek Korean skincare bottle glowing with golden light and a small Korean flag, and on the lower second-place step stands an elegant French perfume bottle with a small French flag. Confetti in sky-blue and gold falls around them. Bright clean light background, high-key lighting, vivid saturated colors, strong scale contrast, crisp and readable at thumbnail size."
+    }
+  ]
+}
